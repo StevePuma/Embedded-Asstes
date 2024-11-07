@@ -1,0 +1,187 @@
+{
+    "style": {},
+    "script": "",
+    "title": "",
+    "titleStyle": [
+        {
+            "display": "show"
+        }
+    ],
+    "showCarousel": true,
+    "carouselAnimation": {
+        "showButtons": false
+    },
+    "body": [
+        {
+            "type": "Container"
+        },
+        {
+            "type": "ColumnSet",
+            "separator": false,
+            "spacing": "default",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "170px",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "size": "small",
+                            "weight": "regular",
+                            "wrap": true,
+                            "text": "Choose Month",
+                            "style": {
+                                "color": "black",
+                                "padding-left": "10px",
+                                "margin-left": "10px",
+                                "backgroundColor": "white"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "spacing": "none",
+                    "width": "175px",
+                    "items": [
+                        {
+                            "type": "Container",
+                            "spacing": "none",
+                            "width": "150px",
+                            "items": [
+                                {
+                                    "type": "Input.ChoiceSet",
+                                    "id": "data.filters[0].filterJaql.members[0]",
+                                    "class": "",
+                                    "displayType": "compact",
+                                    "style": {
+                                        "align-self": "center"
+                                    },
+                                    "choices": "{choices:Months in Date}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "spacing": "none",
+                    "width": "100px",
+                    "items": [
+                        {
+                            "type": "Container",
+                            "spacing": "none",
+                            "width": "80px",
+                            "items": [
+                                {
+                                    "type": "ActionSet",
+                                    "margin": "0px",
+                                    "padding": "0px",
+                                    "actions": [
+                                        {
+                                            "type": "Filters",
+                                            "title": "Apply",
+                                            "data": {
+                                                "filters": [
+                                                    {
+                                                        "filterName": "Months in Date",
+                                                        "filterJaql": {
+                                                            "explicit": true,
+                                                            "multiSelection": true,
+                                                            "members": [
+                                                                "{panel:Months in Date}-01T00:00:00"
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "spacing": "none",
+                    "width": "100px",
+                    "items": [
+                        {
+                            "type": "Container",
+                            "spacing": "none",
+                            "width": "80px",
+                            "items": [
+                                {
+                                    "type": "ActionSet",
+                                    "margin": "0px",
+                                    "padding": "0px",
+                                    "actions": [
+                                        {
+                                            "type": "Filters",
+                                            "title": "Clear",
+                                            "data": {
+                                                "filters": [
+                                                    {
+                                                        "panelName": "Months in Date",
+                                                        "filterJaql": {
+                                                            "explicit": true,
+                                                            "all": true
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "spacing": "none",
+                    "width": "100px",
+                    "items": [
+                        {
+                            "type": "Container",
+                            "spacing": "none",
+                            "width": "80px",
+                            "items": [
+                                {
+                                    "type": "ActionSet",
+                                    "margin": "0px",
+                                    "padding": "0px",
+                                    "actions": [
+                                        {
+                                            "type": "JTD",
+                                            "title": "Drill to ID",
+                                            "style": {
+                                                "fontSize": "",
+                                                "fontFamily": ""
+                                            },
+                                            "data": {
+                                                "dashboardId": "5e43c29a2578cd25c8c8638f",
+                                                "panelsToInclude": [
+                                                    {
+                                                        "panel": "Months in Date",
+                                                        "value": "{value:Months in Date}"
+                                                    }
+                                                ],
+                                                "args": {
+                                                    "displayDashboardsPane": false,
+                                                    "displayFilterPane": true
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "actions": []
+}

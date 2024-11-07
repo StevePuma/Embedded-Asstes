@@ -1,0 +1,32 @@
+{
+    "actions": [
+        {
+            "type": "JTD",
+            "title": "Jump to Dashboard #1",
+            "data": {
+                "dashboardId": "5db1b73d6607683e505edc21",
+                "args": {
+                    "displayDashboardsPane": false,
+                    "displayFilterPane": true,
+                    "displayToolbarRow": false,
+                    "displayHeaderRow": false,
+                    "drilledDashboardDisplayType": 1
+                }
+            }
+        },
+        {
+            "type": "JTD",
+            "title": "Jump to Dashboard #2",
+            "data": {
+                "dashboardId": "5db1b73d6607683e505edc21",
+                "args": {
+                    "displayDashboardsPane": false,
+                    "displayFilterPane": true,
+                    "displayToolbarRow": false,
+                    "displayHeaderRow": false,
+                    "drilledDashboardDisplayType": 1
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,187 @@
+{
+    "style": "",
+    "script": "",
+    "title": "",
+    "showCarousel": true,
+    "body": [
+        {
+            "type": "Container",
+            "style": {
+                "background-color": ""
+            },
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "items": [
+                                {
+                                    "type": "ActionSet",
+                                    "actions": [
+                                        {
+                                            "type": "Filters",
+                                            "style": {},
+                                            "title": "Month to Date",
+                                            "data": {
+                                                "filters": [
+                                                    {
+                                                        "filterName": "Months",
+                                                        "filterJaql": {
+                                                            "last": {
+                                                                "count": 1,
+                                                                "offset": 0
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "filterName": "Quarters",
+                                                        "filterJaql": {
+                                                            "explicit": false,
+                                                            "multiSelection": true,
+                                                            "all": true
+                                                        }
+                                                    },
+                                                    {
+                                                        "filterName": "Years",
+                                                        "filterJaql": {
+                                                            "explicit": false,
+                                                            "multiSelection": true,
+                                                            "all": true
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "type": "Filters",
+                                            "style": {},
+                                            "title": "Last 12 Months",
+                                            "data": {
+                                                "filters": [
+                                                    {
+                                                        "filterName": "Months",
+                                                        "filterJaql": {
+                                                            "last": {
+                                                                "count": 12,
+                                                                "offset": 0
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "filterName": "Quarters",
+                                                        "filterJaql": {
+                                                            "explicit": false,
+                                                            "multiSelection": true,
+                                                            "all": true
+                                                        }
+                                                    },
+                                                    {
+                                                        "filterName": "Years",
+                                                        "filterJaql": {
+                                                            "explicit": false,
+                                                            "multiSelection": true,
+                                                            "all": true
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "type": "Filters",
+                                            "style": {},
+                                            "title": "Quarter to Date",
+                                            "data": {
+                                                "filters": [
+                                                    {
+                                                        "filterName": "Quarters",
+                                                        "filterJaql": {
+                                                            "last": {
+                                                                "count": 1,
+                                                                "offset": 0
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "filterName": "Months",
+                                                        "filterJaql": {
+                                                            "explicit": false,
+                                                            "multiSelection": true,
+                                                            "all": true
+                                                        }
+                                                    },
+                                                    {
+                                                        "filterName": "Years",
+                                                        "filterJaql": {
+                                                            "explicit": false,
+                                                            "multiSelection": true,
+                                                            "all": true
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "type": "Filters",
+                                            "style": {},
+                                            "title": "Year to Date",
+                                            "data": {
+                                                "filters": [
+                                                    {
+                                                        "filterName": "Months",
+                                                        "filterJaql": {
+                                                            "explicit": false,
+                                                            "multiSelection": true,
+                                                            "all": true
+                                                        }
+                                                    },
+                                                    {
+                                                        "filterName": "Quarters",
+                                                        "filterJaql": {
+                                                            "explicit": false,
+                                                            "multiSelection": true,
+                                                            "all": true
+                                                        }
+                                                    },
+                                                    {
+                                                        "filterName": "Years",
+                                                        "filterJaql": {
+                                                            "last": {
+                                                                "count": 1,
+                                                                "offset": 0
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "items": [
+                                {
+                                    "type": "Container",
+                                    "style": {
+                                        "padding-right": "5%"
+                                    },
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Test Test",
+                                            "size": "large",
+                                            "color": "white",
+                                            "horizontalAlignment": "right"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

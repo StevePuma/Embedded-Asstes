@@ -1,0 +1,167 @@
+{
+    "style": ".custom-select option{color:black} .custom-select { width: 100%; height: 40px !important; font-size: 100% !important; font-weight: bold; cursor: pointer; border-radius: 10px; background-color: #00008B; border: none; border-bottom: 2px solid darkgrey; color: white; padding-left: 10px !important; padding-top:5px !important; appearance: none !important; -webkit-appearance: none; -moz-appearance: none; padding: 10px; text-align: justify; text-align-last: center;}  select::-ms-expand { display: none !important; } .custom-select:hover { color: white; background-color: cornflowerblue; border-bottom-color: #DCDCDC; } .custom-select:focus { color: darkblue; background-color: white; border-bottom-color: #DCDCDC; }",
+    "script": "",
+    "title": "",
+    "showCarousel": true,
+    "carouselAnimation": {
+        "delay": 0,
+        "showButtons": false
+    },
+    "titleStyle": [
+        {
+            "display": "default"
+        }
+    ],
+    "body": [
+        {
+            "type": "Container",
+            "style": {
+                "justify-content": "center",
+                "background-color": "",
+                "display": "flex",
+                "flex-direction": "column",
+                "flex-wrap": "nowrap",
+                "padding-top": "10px",
+                "align-items": "center"
+            },
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "10%",
+                            "style": {
+                                "padding-left": "5px",
+                                "font-size": "14px"
+                            },
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "id": "",
+                                    "class": "",
+                                    "color": "cornflowerblue",
+                                    "text": "View By"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "width": "25%",
+                            "style": {
+                                "font-size": "14px"
+                            },
+                            "items": [
+                                {
+                                    "type": "Input.ChoiceSet",
+                                    "id": "selectVal",
+                                    "class": "custom-select",
+                                    "displayType": "compact",
+                                    "value": "1",
+                                    "choices": [
+                                        {
+                                            "title": "Revenue",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "title": "Cost",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "title": "Quantity",
+                                            "value": "3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "width": "10%",
+                            "style": {
+                                "padding-left": "5px",
+                                "font-size": "14px"
+                            },
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "id": "",
+                                    "class": "",
+                                    "color": "cornflowerblue",
+                                    "size": "bold",
+                                    "text": "Filter By"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "width": "25%",
+                            "style": {
+                                "padding-left": "5px",
+                                "font-size": "14px"
+                            },
+                            "items": [
+                                {
+                                    "type": "Input.ChoiceSet",
+                                    "id": "selectVal_fil",
+                                    "class": "custom-select",
+                                    "displayType": "compact",
+                                    "value": "1",
+                                    "choices": "{choices:Category}"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "width": "30%",
+                            "style": {
+                                "padding-left": "5px",
+                                "padding-right": "5px",
+                                "font-size": "14px"
+                            },
+                            "items": [
+                                {
+                                    "type": "ActionSet",
+                                    "actions": [
+                                        {
+                                            "type": "NASDAQ SwapMeasureAndFilter",
+                                            "title": "Apply",
+                                            "style": {
+                                                "font-weight": "bold"
+                                            },
+                                            "data": {
+                                                "widgetsToExclude": [
+                                                    "61ef030e7150e900366f02b0",
+                                                    "61ef03f07150e900366f02c7",
+                                                    "61ef03fd7150e900366f02c9",
+                                                    "61ef4fb17150e900366f0339"
+                                                ],
+                                                "resetToAll": false
+                                            }
+                                        },
+                                        {
+                                            "type": "NASDAQ SwapMeasureAndFilter",
+                                            "title": "Reset",
+                                            "style": {
+                                                "font-weight": "bold"
+                                            },
+                                            "data": {
+                                                "widgetsToExclude": [
+                                                    "61ef030e7150e900366f02b0",
+                                                    "61ef03f07150e900366f02c7",
+                                                    "61ef03fd7150e900366f02c9",
+                                                    "61ef4fb17150e900366f0339"
+                                                ],
+                                                "resetToAll": true
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

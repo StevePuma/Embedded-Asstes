@@ -1,0 +1,138 @@
+{
+    "style": "",
+    "script": "",
+    "title": "",
+    "titleStyle": [
+        {
+            "display": "true"
+        }
+    ],
+    "showCarousel": "true",
+    "carouselAnimation": {
+        "showButtons": false
+    },
+    "body": [
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "style": {}
+                        },
+                        {
+                            "type": "Column",
+                            "style": {},
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "From",
+                                    "style": {
+                                        "justify-items": "center",
+                                        "align-items": "center"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "style": {},
+                            "items": [
+                                {
+                                    "type": "Input.Date",
+                                    "id": "datevalstart",
+                                    "class": "",
+                                    "style": {
+                                        "justify-items": "center",
+                                        "align-items": "center"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "style": {},
+                            "items": [
+                                {
+                                    "type": "Input.Time",
+                                    "id": "timevalstart",
+                                    "class": "",
+                                    "style": {
+                                        "justify-items": "center",
+                                        "align-items": "center"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "style": {},
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "To",
+                                    "style": {}
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "style": {},
+                            "items": [
+                                {
+                                    "type": "Input.Date",
+                                    "id": "datevalend",
+                                    "class": "",
+                                    "style": {
+                                        "justify-items": "center",
+                                        "align-items": "center"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "style": {},
+                            "items": [
+                                {
+                                    "type": "Input.Time",
+                                    "id": "timevalend",
+                                    "class": "",
+                                    "style": {
+                                        "justify-items": "center",
+                                        "align-items": "center"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "style": {
+                                "margin-top": "-40px"
+                            },
+                            "items": [
+                                {
+                                    "type": "ActionSet",
+                                    "actions": [
+                                        {
+                                            "type": "DateTimeSelector",
+                                            "title": "Filter",
+                                            "data": {
+                                                "NumDateTimeColumn": [
+                                                    "Admissions.Admission_Time_Int"
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "actions": []
+}

@@ -1,0 +1,26 @@
+{
+    "style": "",
+    "script": "$('#F1V').text(prism.GetFilterValues(prism.activeDashboard))",
+    "title": "",
+    "showCarousel": true,
+    "body": [
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "spacing": "small",
+                    "id": "F1V",
+                    "text": "FILTER 1 values",
+                    "style": {
+                        "text-align": "left",
+                        "font-weight": "bold",
+                        "font-size": "12px",
+                        "margin": "10px"
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": []
+}

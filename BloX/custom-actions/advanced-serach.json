@@ -1,0 +1,162 @@
+{
+    "style": {},
+    "script": "",
+    "title": "",
+    "titleStyle": [
+        {
+            "display": "show"
+        }
+    ],
+    "showCarousel": true,
+    "carouselAnimation": {
+        "showButtons": false
+    },
+    "body": [
+        {
+            "type": "Container"
+        },
+        {
+            "type": "ColumnSet",
+            "separator": false,
+            "spacing": "default",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "170px",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "size": "small",
+                            "weight": "regular",
+                            "wrap": true,
+                            "text": "Search Category",
+                            "style": {
+                                "color": "black",
+                                "padding-left": "10px",
+                                "margin-left": "10px",
+                                "backgroundColor": "white"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "spacing": "none",
+                    "width": "175px",
+                    "items": [
+                        {
+                            "type": "Container",
+                            "spacing": "none",
+                            "width": "150px",
+                            "items": [
+                                {
+                                    "type": "Input.Text",
+                                    "id": "data.userInput",
+                                    "class": "",
+                                    "title": "New Input",
+                                    "placeholder": "type here..."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "spacing": "none",
+                    "width": "120px",
+                    "items": [
+                        {
+                            "type": "Container",
+                            "spacing": "none",
+                            "width": "120px",
+                            "items": [
+                                {
+                                    "type": "ActionSet",
+                                    "margin": "0px",
+                                    "padding": "0px",
+                                    "actions": [
+                                        {
+                                            "type": "SearchBarGeneric",
+                                            "title": "Search",
+                                            "data": {
+                                                "type": "Search",
+                                                "table": "Category",
+                                                "column": "Category",
+                                                "columnTitle": "Category",
+                                                "filterDashboard": "true",
+                                                "widgetArray": []
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "spacing": "",
+                    "width": "120px",
+                    "items": [
+                        {
+                            "type": "Container",
+                            "spacing": "none",
+                            "width": "120px",
+                            "items": [
+                                {
+                                    "type": "ActionSet",
+                                    "margin": "0px",
+                                    "padding": "0px",
+                                    "actions": [
+                                        {
+                                            "type": "SearchBarGeneric",
+                                            "title": "Clear",
+                                            "style": {
+                                                "color": "white",
+                                                "backgroundColor": "grey"
+                                            },
+                                            "data": {
+                                                "type": "Clear",
+                                                "table": "Category",
+                                                "column": "Category",
+                                                "columnTitle": "Category",
+                                                "filterDashboard": "true",
+                                                "widgetArray": []
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "searchResults",
+            "items": [
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "size": "small",
+                            "weight": "regular",
+                            "wrap": true,
+                            "text": "Car Amplifiers , Car Speakers and Subwoofers",
+                            "style": {
+                                "color": "gray",
+                                "padding-left": "10px",
+                                "margin-left": "10px",
+                                "backgroundColor": "white",
+                                "font-style": "italic"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "actions": []
+}

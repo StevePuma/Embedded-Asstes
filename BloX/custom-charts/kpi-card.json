@@ -1,0 +1,164 @@
+{
+    "style": "",
+    "script": "",
+    "title": "",
+    "showCarousel": true,
+    "conditions": [
+        {
+            "minRange": "-Infinity",
+            "maxRange": "0",
+            "color": "red",
+            "image": "/plugins/BloX/blox-images/StockUpdate/arrow-down.png"
+        },
+        {
+            "minRange": "0",
+            "maxRange": "Infinity",
+            "color": "green",
+            "image": "/plugins/BloX/blox-images/StockUpdate/arrow-up.png"
+        }
+    ],
+    "body": [
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "spacing": "extraLarge",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "spacing": "medium",
+                                    "text": "Total Revenue",
+                                    "color": "grey",
+                                    "size": "",
+                                    "horizontalAlignment": "center",
+                                    "weight": "default"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "id": "thing1",
+                                    "spacing": "medium",
+                                    "text": "<script>{panel:TotalRevNoFormat} > {panel:PastYrRevNoFormat} ? $('#thing1').css('color', 'green') :  $('#thing1').css('color', 'red')</script>{panel:Total Revenue}",
+                                    "color": "blue",
+                                    "size": "extraLarge",
+                                    "horizontalAlignment": "center",
+                                    "weight": "bold"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "spacing": "medium",
+                                    "text": "Last Year: {panel:Past Year Total Revenue}",
+                                    "color": "lightgrey",
+                                    "horizontalAlignment": "center",
+                                    "weight": "default"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "separator": true,
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "spacing": "medium",
+                                    "text": "Total Cost",
+                                    "color": "grey",
+                                    "size": "",
+                                    "horizontalAlignment": "center",
+                                    "weight": "default"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "id": "thing2",
+                                    "spacing": "medium",
+                                    "text": "<script>{panel:TotalCostNoFormat} > {panel:PastYrCostNoFormat} ? $('#thing2').css('color', 'green') :  $('#thing2').css('color', 'red')</script>{panel:Total Cost}",
+                                    "color": "blue",
+                                    "size": "extraLarge",
+                                    "horizontalAlignment": "center",
+                                    "weight": "bold"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "spacing": "medium",
+                                    "text": "Last Year: {panel:Past Year Total Cost}",
+                                    "color": "lightgrey",
+                                    "horizontalAlignment": "center",
+                                    "weight": "center"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "separator": true,
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "spacing": "medium",
+                                    "text": "Total Quantity",
+                                    "color": "grey",
+                                    "size": "",
+                                    "horizontalAlignment": "center",
+                                    "weight": "default"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "id": "thing3",
+                                    "spacing": "medium",
+                                    "text": "<script>{panel:TotalQtyNoFormat} > {panel:PastYrQtyNoFormat} ? $('#thing3').css('color', 'green') :  $('#thing3').css('color', 'red')</script>{panel:Total Quantity}",
+                                    "color": "blue",
+                                    "size": "extraLarge",
+                                    "horizontalAlignment": "center",
+                                    "weight": "bold"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "spacing": "medium",
+                                    "text": "Last Year: {panel:Past Year Total Quantity}",
+                                    "color": "lightgrey",
+                                    "horizontalAlignment": "center",
+                                    "weight": "center"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "separator": true,
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "spacing": "medium",
+                                    "text": "# of Visits",
+                                    "color": "grey",
+                                    "size": "",
+                                    "horizontalAlignment": "center",
+                                    "weight": "default"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "id": "thing4",
+                                    "spacing": "medium",
+                                    "text": "<script>{panel:TotalVisitNoFormat} > {panel:PastYrVisitNoFormat} ? $('#thing4').css('color', 'green') :  $('#thing4').css('color', 'red')</script>{panel:# of Visit ID}",
+                                    "color": "blue",
+                                    "size": "extraLarge",
+                                    "horizontalAlignment": "center",
+                                    "weight": "bold"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "spacing": "medium",
+                                    "text": "Last Year: {panel:Past Year Visits}",
+                                    "color": "lightgrey",
+                                    "horizontalAlignment": "center",
+                                    "weight": "center"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

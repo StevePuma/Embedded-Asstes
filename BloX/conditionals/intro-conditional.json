@@ -1,0 +1,83 @@
+{
+    "style": "",
+    "title": "",
+    "showCarousel": true,
+    "carouselAnimation": {
+        "delay": 0,
+        "showButtons": false
+    },
+    "body": [
+        {
+            "spacing": "medium",
+            "type": "Container",
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "separator": false,
+                    "spacing": "default",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "spacing": "none",
+                            "width": "500px",
+                            "items": [
+                                {
+                                    "type": "Container",
+                                    "spacing": "none",
+                                    "width": "500px",
+                                    "items": [
+                                        {
+                                            "spacing": "small",
+                                            "type": "TextBlock",
+                                            "text": "Total Sales ",
+                                            "color": "default",
+                                            "horizontalAlignment": "center",
+                                            "size": "extraLarge"
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "{panel:Sales}",
+                                            "horizontalAlignment": "center",
+                                            "size": "large",
+                                            "color": "{value:Color1}"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "spacing": "none",
+                            "width": "500px",
+                            "items": [
+                                {
+                                    "type": "Container",
+                                    "spacing": "none",
+                                    "width": "500px",
+                                    "items": [
+                                        {
+                                            "spacing": "small",
+                                            "type": "TextBlock",
+                                            "text": "Total Brand",
+                                            "color": "default",
+                                            "horizontalAlignment": "center",
+                                            "size": "extraLarge"
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "{panel:Brand}",
+                                            "horizontalAlignment": "center",
+                                            "size": "large",
+                                            "color": "{value:Color2}"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "actions": []
+}

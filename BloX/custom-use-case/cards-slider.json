@@ -1,0 +1,136 @@
+{
+    "style": ".blox-container{display:flex; overflow-x:scroll; overflow-y:hidden; padding: 3rem 1rem; background-color:#3d394f; justify-content:center} .blox-slides{display:flex; position:relative; transition:.2s} .blox-slides:hover{transform:translateY(-1rem)} .blox-slides:hover~.blox-slides{transform: translateX(185px)} .blox-slides:not(:first-child){margin-left:-185px}",
+    "script": "$('.blox-slides').parent().eq(0).attr('class', 'blox-container')",
+    "title": "",
+    "showCarousel": false,
+    "titleStyle": [
+        {
+            "display": "none"
+        }
+    ],
+    "conditions": [
+        {
+            "minRange": "-Infinity",
+            "maxRange": 15,
+            "image": "/plugins/BloX/blox-images/StockMarket/arrow-down.png"
+        },
+        {
+            "minRange": 15,
+            "maxRange": "Infinity",
+            "image": "/plugins/BloX/blox-images/StockMarket/arrow-up.png"
+        }
+    ],
+    "body": [
+        {
+            "type": "Container",
+            "style": {
+                "flex-direction": "column",
+                "height": "350px",
+                "min-width": "250px",
+                "padding": "1rem",
+                "border-radius": "16px",
+                "box-shadow": "-1rem 0 2rem #000",
+                "background-color": "#17141d"
+            },
+            "selectAction": {
+                "type": "Filters",
+                "title": "{panel:Category}",
+                "data": {
+                    "filters": [
+                        {
+                            "panelName": "Category",
+                            "filterJaql": {
+                                "explicit": true,
+                                "members": [
+                                    "{value:Category}"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "3em",
+                            "style": {
+                                "justify-content": "space-between",
+                                "padding-top": "10px",
+                                "background-color": ""
+                            },
+                            "items": [
+                                {
+                                    "type": "Image",
+                                    "class": "conditional_image",
+                                    "url": "/plugins/BloX/blox-images/ConditionalCard/green_boto_bg.png",
+                                    "size": "small"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "id": "",
+                                    "class": "",
+                                    "text": "{panel: category}",
+                                    "color": "white",
+                                    "size": "medium",
+                                    "weight": "light",
+                                    "style": {
+                                        "transform": "rotate(-90deg)",
+                                        "transform-origin": "center left",
+                                        "width": "10em",
+                                        "margin-left": "5px",
+                                        "background-color": ""
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "separator": false,
+                            "style": {
+                                "padding-left": "10px",
+                                "background-color": ""
+                            },
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "id": "",
+                                    "class": "condition_data",
+                                    "text": "{panel:total cost}",
+                                    "color": "#24c97f",
+                                    "size": "large",
+                                    "weight": "bold"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "id": "",
+                                    "class": "",
+                                    "text": "{panel:condition}",
+                                    "color": "#24c97f",
+                                    "size": "medium",
+                                    "weight": "bold"
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "",
+                                    "class": "",
+                                    "url": "https://unsplash.it/150/150",
+                                    "altText": "image descriptions",
+                                    "size": "auto",
+                                    "horizontalAlignment": "left",
+                                    "style": {
+                                        "margin-top": "50px",
+                                        "border-radius": "50%"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "actions": []
+}

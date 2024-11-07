@@ -1,0 +1,41 @@
+{
+    "style": "",
+    "script": "",
+    "title": "",
+    "showCarousel": true,
+    "body": [
+        {
+            "type": "Container",
+            "style": {
+                "background-color": "",
+                "align-items": "center",
+                "justify-content": "center",
+                "height": "230px"
+            },
+            "items": [
+                {
+                    "type": "Container",
+                    "width": "100px",
+                    "height": "100px",
+                    "style": {
+                        "border-radius": "50%",
+                        "background-color": "beige",
+                        "height": "100px",
+                        "align-items": "center",
+                        "justify-content": "center",
+                        "border": "10px solid beige"
+                    },
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "id": "",
+                            "class": "",
+                            "text": "{panel:Total Cost}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "actions": []
+}

@@ -1,0 +1,159 @@
+{
+    "style": ".replace .Class0{display:none}",
+    "script": "",
+    "title": "",
+    "showCarousel": true,
+    "conditions": [
+        {
+            "minRange": "-Infinity",
+            "maxRange": 0,
+            "color": "#912822",
+            "hide": true,
+            "image": "/plugins/BloX/blox-images/ConditionalCard/red_boto_bg.png"
+        },
+        {
+            "minRange": 0.001,
+            "maxRange": "Infinity",
+            "color": "#1A7125",
+            "hide": false,
+            "image": "/plugins/BloX/blox-images/ConditionalCard/green_boto_bg.png"
+        }
+    ],
+    "body": [
+        {
+            "type": "Container",
+            "style": {
+                "padding-top": "2%"
+            },
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "size": "medium",
+                    "weight": "",
+                    "horizontalAlignment": "center",
+                    "spacing": "small",
+                    "color": "{panel:isGood}",
+                    "class": "replace",
+                    "text": "REVENUE IS <br><b><span class='Class{panel:isGood}'>Increased</span><span class='Class{panel:isBad}'>Decreased</span></b>"
+                },
+                {
+                    "type": "ActionSet",
+                    "style": {
+                        "padding": "1%",
+                        "margin": "0px",
+                        "padding-bottom": "2%"
+                    },
+                    "actions": [
+                        {
+                            "type": "JTD",
+                            "title": "Show Monthly Trend",
+                            "data": {
+                                "dashboardId": "64c7dec24faf000033a58758",
+                                "args": {
+                                    "displayDashboardsPane": false,
+                                    "displayFilterPane": true
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "style": {
+                "padding-top": "15px",
+                "padding-left": "25px"
+            },
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "200px",
+                            "horizontalAlignment": "left",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "id": "",
+                                    "text": "Revenue increased by:"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "horizontalAlignment": "left",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "id": "",
+                                    "weight": "bold",
+                                    "class": "condition_data",
+                                    "text": "{panel:Revenue Increase}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "",
+                    "class": "condition_container",
+                    "items": [
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "200px",
+                                    "horizontalAlignment": "left",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "id": "",
+                                            "weight": "bold",
+                                            "text": "Team SPIF total:"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "horizontalAlignment": "left",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "id": "",
+                                            "color": "{panel:isGood}",
+                                            "weight": "bold",
+                                            "text": "{panel:Bonus}"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "style": {
+                "padding-left": "25px",
+                "padding-bottom": "10px"
+            },
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "size": "medium",
+                    "weight": "bold",
+                    "spacing": "small",
+                    "color": "{panel:isGood}",
+                    "class": "replace",
+                    "text": "<br><span class='Class{panel:isGood}'>Great job, team!!</span><span class='Class{panel:isBad}'>How can we improve?</span></b>"
+                }
+            ]
+        }
+    ],
+    "actions": []
+}

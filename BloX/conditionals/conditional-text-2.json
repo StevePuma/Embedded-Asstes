@@ -1,0 +1,50 @@
+{
+    "style": ".replace .Class0{display:none}",
+    "script": "",
+    "title": "",
+    "showCarousel": true,
+    "conditions": [],
+    "body": [
+        {
+            "type": "Container",
+            "style": {
+                "padding-top": "2%",
+                "padding-bottom": "10px"
+            },
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "size": "medium",
+                    "weight": "",
+                    "horizontalAlignment": "center",
+                    "spacing": "small",
+                    "color": "{panel:isGood}",
+                    "class": "replace",
+                    "text": "REVENUE IS <br>  <b><span class='Class{panel:isGood}'>Increased</span><span class='Class{panel:isBad}'>Decreased</span></b>"
+                },
+                {
+                    "type": "ActionSet",
+                    "style": {
+                        "padding": "1%",
+                        "margin": "0px",
+                        "padding-bottom": "2%"
+                    },
+                    "actions": [
+                        {
+                            "type": "JTD",
+                            "title": "Show Monthly Trend",
+                            "data": {
+                                "dashboardId": "64c7dec24faf000033a58758",
+                                "args": {
+                                    "displayDashboardsPane": false,
+                                    "displayFilterPane": true
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "actions": []
+}

@@ -1,0 +1,51 @@
+{
+    "showCarousel": true,
+    "body": [
+        {
+            "type": "Container",
+            "style": {
+                "justify-items": "center",
+                "align-items": "center"
+            },
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "spacing": "medium",
+                    "size": "large",
+                    "text": "Choose a Category",
+                    "style": {
+                        "text-align": "center",
+                        "font-weight": "600"
+                    }
+                },
+                {
+                    "type": "Container",
+                    "spacing": "small",
+                    "items": [
+                        {
+                            "type": "Input.ChoiceSet",
+                            "id": "data",
+                            "class": "",
+                            "layout": "vertical",
+                            "isMultiSelect": true,
+                            "spacing": "small",
+                            "value": "",
+                            "displayType": "compact",
+                            "style": {
+                                "align-self": "center"
+                            },
+                            "choices": "{choices:Category}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "testing filters",
+            "title": "title",
+            "data": {}
+        }
+    ]
+}

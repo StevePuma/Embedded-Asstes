@@ -1,0 +1,111 @@
+{
+    "style": "",
+    "script": "",
+    "title": "",
+    "showCarousel": true,
+    "carouselAnimation": {
+        "delay": 0
+    },
+    "conditions": [
+        {
+            "minRange": "-Infinity",
+            "maxRange": 0,
+            "color": "white",
+            "backgroundColor": "#912822",
+            "hide": true,
+            "image": "/plugins/BloX/blox-images/ConditionalCard/red_boto_bg.png"
+        },
+        {
+            "minRange": 0.001,
+            "maxRange": "Infinity",
+            "color": "white",
+            "backgroundColor": "#1A7125",
+            "hide": false,
+            "image": "/plugins/BloX/blox-images/ConditionalCard/green_boto_bg.png"
+        }
+    ],
+    "body": [
+        {
+            "type": "Container",
+            "style": {
+                "padding-top": "2%",
+                "padding-bottom": "10px"
+            },
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "200px",
+                            "horizontalAlignment": "left",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "id": "",
+                                    "text": "Revenue increased by:"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "horizontalAlignment": "left",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "id": "",
+                                    "weight": "bold",
+                                    "class": "condition_data",
+                                    "text": "{panel:Revenue Increase}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "",
+                    "class": "condition_container",
+                    "items": [
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "200px",
+                                    "horizontalAlignment": "left",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "id": "",
+                                            "text": "Team SPIF total:"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "horizontalAlignment": "left",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "id": "",
+                                            "weight": "bold",
+                                            "text": "{panel:Bonus}"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TextBlock",
+                            "id": "",
+                            "weight": "bold",
+                            "text": "</br>Great job, team!"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "actions": []
+}

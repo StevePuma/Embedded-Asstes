@@ -1,0 +1,47 @@
+{
+    "style": "",
+    "script": "",
+    "title": "",
+    "showCarousel": false,
+    "body": [
+        {
+            "type": "Container",
+            "spacing": "medium",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "separator": true,
+                    "class": "",
+                    "text": "{panel:brand}",
+                    "style": {
+                        "text-align": "center",
+                        "font-weight": "bold",
+                        "font-size": "24px",
+                        "color": "white"
+                    }
+                },
+                {
+                    "type": "TextBlock",
+                    "class": "changeMeQuantity {panel:brand}",
+                    "text": "<script>{panel:qsimple} > 2 ? $('.changeMeQuantity.{panel:brand}').css('color', '#00A5B8') :  $('.changeMeQuantity.{panel:brand}').css('color', '#1DE7FF')</script>Quantity: {panel:q}",
+                    "style": {
+                        "text-align": "center",
+                        "font-weight": "bold",
+                        "font-size": "24px"
+                    }
+                },
+                {
+                    "type": "TextBlock",
+                    "class": "changeMeRevenue {panel:brand}",
+                    "text": "<script>{panel:rsimple} > 100 ? $('.changeMeRevenue.{panel:brand}').css('color', '#6EDA55') :  $('.changeMeRevenue.{panel:brand}').css('color', '#FC7570')</script>Revenue {panel:r}",
+                    "style": {
+                        "text-align": "center",
+                        "font-weight": "bold",
+                        "font-size": "24px"
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": []
+}

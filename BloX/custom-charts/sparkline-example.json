@@ -1,0 +1,47 @@
+{
+    "style": "",
+    "script": "",
+    "title": "",
+    "showCarousel": true,
+    "carouselAnimation": {
+        "delay": 0,
+        "showButtons": false
+    },
+    "body": [
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "Revenue",
+                    "size": "medium",
+                    "weight": "light",
+                    "horizontalAlignment": "center"
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "{panel: Quantity All}",
+                    "size": "extraLarge",
+                    "spacing": "large",
+                    "separator": false,
+                    "horizontalAlignment": "center"
+                },
+                {
+                    "type": "TextBlock",
+                    "style": {
+                        "padding-bottom": "10px"
+                    },
+                    "text": "<span class='blox-sparkline' type='line' line-color='pink' width='200' height='50' line-width='3' fill-color='' min-point-color='#000000' max-point-color='#000000'>{spark: Quantity2} </span>",
+                    "horizontalAlignment": "center"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.OpenUrl",
+            "title": "Open In Web",
+            "url": "https://www.sisense.com/sisense-labs/"
+        }
+    ]
+}

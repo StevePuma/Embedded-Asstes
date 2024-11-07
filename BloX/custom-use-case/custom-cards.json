@@ -1,0 +1,98 @@
+{
+    "style": ".blox-slides{display:inline-block; transition:all .2s ease-in-out} .blox-slides:hover{transform:scale(1.05)} .blox-container{display:flex; flex-flow: row wrap; justify-content:center; align-items: center; align-content:center}",
+    "script": "$('.blox-slides').parent().eq(0).attr('class', 'blox-container')",
+    "title": "",
+    "titleStyle": [
+        {
+            "display": "none"
+        }
+    ],
+    "showCarousel": false,
+    "body": [
+        {
+            "type": "Container",
+            "style": {
+                "padding": "20px"
+            },
+            "items": [
+                {
+                    "type": "Container",
+                    "backgroundColor": "white",
+                    "horizontalAlignment": "center",
+                    "style": {
+                        "box-shadow": "0px 0px 4px #888888",
+                        "border-radius": "5px",
+                        "overflow": "hidden"
+                    },
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Dashboard",
+                            "color": "white",
+                            "size": "medium",
+                            "style": {
+                                "background-color": "steelblue",
+                                "padding": "15px"
+                            }
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Revenue: <b>{panel:rev}</b>",
+                            "size": "small",
+                            "style": {
+                                "background-color": "#f4f4f4",
+                                "padding": "15px"
+                            }
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Cost: <b>{panel:cst}</b>",
+                            "size": "small",
+                            "style": {
+                                "background-color": "lightgrey",
+                                "padding": "15px"
+                            }
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "countries: <b>{panel:country}</b>",
+                            "size": "small",
+                            "style": {
+                                "background-color": "#f4f4f4",
+                                "padding": "15px"
+                            }
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "visits: <b>{panel:visits}</b>",
+                            "size": "small",
+                            "style": {
+                                "background-color": "lightgrey",
+                                "padding": "15px"
+                            }
+                        },
+                        {
+                            "type": "ActionSet",
+                            "actions": [
+                                {
+                                    "type": "JTD",
+                                    "title": "Jump To Dashboard",
+                                    "data": {
+                                        "dashboardId": "623905d07d0c2c0036bb64cc",
+                                        "panelsToInclude": [],
+                                        "args": {
+                                            "displayDashboardsPane": false,
+                                            "displayFilterPane": false,
+                                            "drilledDashboardDisplayType": 2
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "actions": []
+}

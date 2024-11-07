@@ -1,0 +1,213 @@
+{
+    "style": "",
+    "script": "",
+    "title": "",
+    "titleStyle": [
+        {
+            "display": "none"
+        }
+    ],
+    "showCarousel": true,
+    "carouselAnimation": {
+        "showButtons": false
+    },
+    "body": [
+        {
+            "type": "ColumnSet",
+            "horizontalAlignment": "center",
+            "style": {
+                "padding": "20px"
+            },
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "10%"
+                },
+                {
+                    "type": "Container",
+                    "backgroundColor": "white",
+                    "horizontalAlignment": "center",
+                    "style": {
+                        "box-shadow": "0px 0px 4px #888888",
+                        "border-radius": "5px",
+                        "overflow": "hidden"
+                    },
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "TOTAL AMOUNT",
+                            "color": "black",
+                            "size": "medium",
+                            "weight": "bold",
+                            "style": {
+                                "padding": "15px",
+                                "text-align": "left"
+                            }
+                        },
+                        {
+                            "type": "Container",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "style": {
+                                        "padding-bottom": "10px"
+                                    },
+                                    "text": "<span class='blox-sparkline' type='line' style='smooth' line-color='#819AB8' fill-color='#819AB8' width='99%' height='100px' line-width='5' min-point-color='#819AB8' max-point-color='#819AB8'>{spark: rev_trend} </span>",
+                                    "horizontalAlignment": "center"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "{panel:rev}",
+                            "color": "black",
+                            "size": "large",
+                            "weight": "bold",
+                            "style": {
+                                "padding": "15px",
+                                "text-align": "left"
+                            }
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Jan 2010 - Dec 2011",
+                            "size": "small",
+                            "style": {
+                                "padding-left": "15px",
+                                "margin-top": "-10px",
+                                "margin-bottom": "10px",
+                                "text-align": "left",
+                                "color": "#888"
+                            }
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "width": "50%",
+                                            "text": "Cost",
+                                            "size": "small",
+                                            "style": {
+                                                "padding": "15px",
+                                                "border-top": "2px solid #ddd",
+                                                "border-bottom": "1px solid #ddd",
+                                                "text-align": "left",
+                                                "color": "#666"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "{panel:cst}",
+                                            "size": "small",
+                                            "style": {
+                                                "padding": "15px",
+                                                "border-top": "2px solid #ddd",
+                                                "border-bottom": "1px solid #ddd",
+                                                "text-align": "right",
+                                                "color": "#666"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "width": "50%",
+                                            "text": "Countries",
+                                            "size": "small",
+                                            "style": {
+                                                "padding": "15px",
+                                                "border-top": "2px solid #ddd",
+                                                "border-bottom": "1px solid #ddd",
+                                                "text-align": "left",
+                                                "color": "#666"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "{panel:country}",
+                                            "size": "small",
+                                            "style": {
+                                                "padding": "15px",
+                                                "border-top": "2px solid #ddd",
+                                                "border-bottom": "1px solid #ddd",
+                                                "text-align": "right",
+                                                "color": "#666"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "width": "50%",
+                                            "text": "Visits",
+                                            "size": "small",
+                                            "style": {
+                                                "padding": "15px",
+                                                "border-top": "2px solid #ddd",
+                                                "border-bottom": "1px solid #ddd",
+                                                "text-align": "left",
+                                                "color": "#666"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "{panel:visits}",
+                                            "size": "small",
+                                            "style": {
+                                                "padding": "15px",
+                                                "border-top": "2px solid #ddd",
+                                                "border-bottom": "1px solid #ddd",
+                                                "text-align": "right",
+                                                "color": "#666"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "10%"
+                }
+            ]
+        }
+    ],
+    "actions": []
+}

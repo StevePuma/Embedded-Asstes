@@ -1,0 +1,59 @@
+{
+    "showCarousel": true,
+    "carouselAnimation": {
+        "delay": 0,
+        "showButtons": false
+    },
+    "body": [
+        {
+            "type": "Container",
+            "style": {
+                "justify-items": "center",
+                "align-items": "center"
+            },
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "spacing": "medium",
+                    "size": "large",
+                    "text": "Choose Year(s)",
+                    "style": {
+                        "text-align": "center",
+                        "font-weight": "600"
+                    }
+                },
+                {
+                    "type": "Container",
+                    "spacing": "small",
+                    "horizontalAlignment": "center",
+                    "style": {
+                        "align-items": "center"
+                    },
+                    "items": [
+                        {
+                            "type": "Input.ChoiceSet",
+                            "id": "data",
+                            "class": "",
+                            "layout": "vertical",
+                            "isMultiSelect": true,
+                            "spacing": "small",
+                            "value": "",
+                            "displayType": "compact",
+                            "style": {
+                                "align-items": "center"
+                            },
+                            "choices": "{choices:Years}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "testing filters new",
+            "title": "Filter",
+            "data": {}
+        }
+    ]
+}

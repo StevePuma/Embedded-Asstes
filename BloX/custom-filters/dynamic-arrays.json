@@ -1,0 +1,35 @@
+{
+    "style": "",
+    "script": "",
+    "title": "",
+    "showCarousel": false,
+    "body": [
+        {
+            "type": "TextBlock",
+            "id": "",
+            "class": "",
+            "text": ""
+        }
+    ],
+    "actions": [
+        {
+            "type": "Filters",
+            "title": "{panel:Specialty}",
+            "data": {
+                "filters": [
+                    {
+                        "panelName": "Specialty",
+                        "filterJaql": {
+                            "explicit": true,
+                            "userMultiSelect": false,
+                            "multiSelection": false,
+                            "members": [
+                                "{value:Specialty}"
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

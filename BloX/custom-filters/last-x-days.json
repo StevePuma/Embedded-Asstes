@@ -1,0 +1,59 @@
+{
+    "style": "",
+    "script": "",
+    "title": "",
+    "showCarousel": true,
+    "actions": [
+        {
+            "type": "Filters",
+            "title": "Last 30 Days",
+            "data": {
+                "filters": [
+                    {
+                        "filterName": "Days in Date",
+                        "filterJaql": {
+                            "last": {
+                                "count": 30,
+                                "offset": 1
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Filters",
+            "title": "Last 90 Days",
+            "data": {
+                "filters": [
+                    {
+                        "filterName": "Days in Date",
+                        "filterJaql": {
+                            "last": {
+                                "count": 90,
+                                "offset": 1
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Filters",
+            "title": "Last 365 Days",
+            "data": {
+                "filters": [
+                    {
+                        "filterName": "Days in Date",
+                        "filterJaql": {
+                            "last": {
+                                "count": 365,
+                                "offset": 1
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

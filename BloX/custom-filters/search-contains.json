@@ -1,0 +1,91 @@
+{
+    "style": {},
+    "script": "",
+    "title": "",
+    "titleStyle": [
+        {
+            "display": "show"
+        }
+    ],
+    "showCarousel": true,
+    "carouselAnimation": {
+        "showButtons": false
+    },
+    "body": [
+        {
+            "type": "Container"
+        },
+        {
+            "type": "ColumnSet",
+            "separator": false,
+            "spacing": "default",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "170px",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "size": "small",
+                            "weight": "regular",
+                            "wrap": true,
+                            "text": "Search Surname",
+                            "style": {
+                                "color": "black",
+                                "padding-left": "10px",
+                                "margin-left": "10px",
+                                "backgroundColor": "white"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "spacing": "none",
+                    "width": "175px",
+                    "items": [
+                        {
+                            "type": "Container",
+                            "spacing": "none",
+                            "width": "150px",
+                            "items": [
+                                {
+                                    "type": "Input.ChoiceSet",
+                                    "id": "data.userInput",
+                                    "class": "custom-select",
+                                    "displayType": "compact",
+                                    "value": "1",
+                                    "choices": "{choices:Surname}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "spacing": "none",
+                    "width": "100px",
+                    "items": [
+                        {
+                            "type": "ActionSet",
+                            "margin": "0px",
+                            "padding": "0px",
+                            "actions": [
+                                {
+                                    "type": "FilterColumnBasedOnValueFromOtherColumn",
+                                    "title": "Search",
+                                    "data": {
+                                        "FilterField": [
+                                            "[Patients.Full Name]"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "actions": []
+}

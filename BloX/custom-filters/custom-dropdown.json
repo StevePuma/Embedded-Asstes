@@ -1,0 +1,162 @@
+{
+    "style": ".custom-select option{color:black} .custom-select { width: 100%; height: 35px !important; font-size: 100% !important; font-weight: bold; cursor: pointer; border-radius: 10px; background-color: #003865; border: none; border-bottom: 2px solid darkgrey; color: white; padding-left: 10px !important; padding-top:5px !important; appearance: none !important; -webkit-appearance: none; -moz-appearance: none; padding: 10px; }  select::-ms-expand { display: none !important; } .custom-select:hover, .custom-select:focus { color: #F2B900; background-color: white; border-bottom-color: #DCDCDC; }",
+    "script": "",
+    "title": "",
+    "showCarousel": true,
+    "carouselAnimation": {
+        "delay": 0,
+        "showButtons": false
+    },
+    "body": [
+        {
+            "type": "Container",
+            "style": {
+                "justify-content": "left",
+                "background-color": "",
+                "display": "flex",
+                "flex-direction": "column",
+                "flex-wrap": "nowrap",
+                "padding-top": "5px",
+                "align-items": "left"
+            },
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "class": "",
+                    "style": {
+                        "background-color": "",
+                        "margin-top": "0px",
+                        "margin-left": "14px",
+                        "justify-content": "left"
+                    },
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "separator": false,
+                            "spacing": "none",
+                            "width": "100%",
+                            "items": [
+                                {
+                                    "type": "ColumnSet",
+                                    "class": "",
+                                    "style": {
+                                        "background-color": "",
+                                        "justify-content": "left"
+                                    },
+                                    "columns": [
+                                        {
+                                            "type": "Column",
+                                            "separator": false,
+                                            "spacing": "none",
+                                            "width": "50%",
+                                            "items": [
+                                                {
+                                                    "type": "TextBlock",
+                                                    "weight": "normal",
+                                                    "horizontalAlignment": "left",
+                                                    "spacing": "none",
+                                                    "text": "Country",
+                                                    "style": {
+                                                        "color": "#303031",
+                                                        "font-size": "17px"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "ColumnSet",
+                    "class": "",
+                    "spacing": "none",
+                    "style": {
+                        "background-color": "",
+                        "margin-top": "0px",
+                        "margin-left": "14px",
+                        "justify-content": "left"
+                    },
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "separator": false,
+                            "spacing": "none",
+                            "width": "100%",
+                            "items": [
+                                {
+                                    "type": "ColumnSet",
+                                    "class": "",
+                                    "style": {
+                                        "background-color": "",
+                                        "justify-content": "left"
+                                    },
+                                    "columns": [
+                                        {
+                                            "type": "Column",
+                                            "separator": false,
+                                            "spacing": "none",
+                                            "width": "40%",
+                                            "style": {
+                                                "margin-top": "9px"
+                                            },
+                                            "items": [
+                                                {
+                                                    "type": "Input.ChoiceSet",
+                                                    "id": "data.filters[0].filterJaql.members[0]",
+                                                    "class": "custom-select",
+                                                    "displayType": "compact",
+                                                    "value": "1",
+                                                    "style": {
+                                                        "color": "#FFFFFF"
+                                                    },
+                                                    "choices": "{choices:Country}"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Column",
+                                            "separator": false,
+                                            "spacing": "none",
+                                            "width": "20%",
+                                            "items": [
+                                                {
+                                                    "type": "ActionSet",
+                                                    "actions": [
+                                                        {
+                                                            "type": "Filters",
+                                                            "title": "✓",
+                                                            "data": {
+                                                                "filters": [
+                                                                    {
+                                                                        "panelName": "Country",
+                                                                        "filterJaql": {
+                                                                            "explicit": true,
+                                                                            "members": [
+                                                                                ""
+                                                                            ]
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "style": {
+                                                                "color": "#FFFFFF",
+                                                                "background-color": "#003865"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

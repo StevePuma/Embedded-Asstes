@@ -1,0 +1,94 @@
+{
+    "style": "",
+    "script": "",
+    "title": "",
+    "showCarousel": true,
+    "body": [
+        {
+            "type": "Container",
+            "width": "",
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "width": "",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "weight": "regular",
+                                    "text": "Choose Date Granularity",
+                                    "style": {
+                                        "color": "",
+                                        "padding-left": "20%"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "items": [
+                                {
+                                    "type": "Input.ChoiceSet",
+                                    "id": "data.filters[0].filterJaql.members[0]",
+                                    "class": "",
+                                    "displayType": "compact",
+                                    "value": "1",
+                                    "choices": [
+                                        {
+                                            "title": "Hours",
+                                            "value": "minutes"
+                                        },
+                                        {
+                                            "title": "Days",
+                                            "value": "days"
+                                        },
+                                        {
+                                            "title": "Weeks",
+                                            "value": "weeks"
+                                        },
+                                        {
+                                            "title": "Months",
+                                            "value": "months"
+                                        },
+                                        {
+                                            "title": "Quarters",
+                                            "value": "quarters"
+                                        },
+                                        {
+                                            "title": "Years",
+                                            "value": "years"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "width": "",
+                            "items": [
+                                {
+                                    "type": "ActionSet",
+                                    "style": {
+                                        "margin-top": "0px",
+                                        "padding-top": "0px",
+                                        "align-self": "",
+                                        "padding-left": ""
+                                    },
+                                    "actions": [
+                                        {
+                                            "type": "DateGranDrill",
+                                            "title": "Apply"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "actions": []
+}

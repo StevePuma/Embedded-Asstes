@@ -1,0 +1,109 @@
+{
+    "style": {},
+    "script": "",
+    "title": "",
+    "titleStyle": [
+        {
+            "display": "show"
+        }
+    ],
+    "showCarousel": true,
+    "carouselAnimation": {
+        "showButtons": false
+    },
+    "body": [
+        {
+            "type": "Container"
+        },
+        {
+            "type": "ColumnSet",
+            "separator": false,
+            "spacing": "default",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "170px",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "size": "small",
+                            "weight": "regular",
+                            "wrap": true,
+                            "text": "Search Brand",
+                            "style": {
+                                "color": "black",
+                                "padding-left": "10px",
+                                "margin-left": "10px",
+                                "backgroundColor": "white"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "spacing": "none",
+                    "width": "175px",
+                    "items": [
+                        {
+                            "type": "Container",
+                            "spacing": "none",
+                            "width": "150px",
+                            "items": [
+                                {
+                                    "type": "Input.Text",
+                                    "id": "data.userInput",
+                                    "class": "",
+                                    "title": "New Input",
+                                    "placeholder": "APPLES"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "spacing": "none",
+                    "width": "100px",
+                    "items": [
+                        {
+                            "type": "ActionSet",
+                            "margin": "0px",
+                            "padding": "0px",
+                            "actions": [
+                                {
+                                    "type": "SearchBar2",
+                                    "title": "Search"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "spacing": "",
+                    "width": "80px",
+                    "items": [
+                        {
+                            "type": "ActionSet",
+                            "margin": "0px",
+                            "padding": "0px",
+                            "actions": [
+                                {
+                                    "type": "SearchClear2",
+                                    "title": "Clear",
+                                    "style": {
+                                        "color": "white",
+                                        "padding-left": "10px",
+                                        "margin-left": "-11px",
+                                        "backgroundColor": "grey"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "actions": []
+}

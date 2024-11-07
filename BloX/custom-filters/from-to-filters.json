@@ -1,0 +1,71 @@
+{
+    "style": "",
+    "script": "",
+    "title": "",
+    "showCarousel": true,
+    "carouselAnimation": {
+        "showButtons": false
+    },
+    "body": [
+        {
+            "type": "Container",
+            "width": "20%",
+            "style": {
+                "margin": "0 auto"
+            },
+            "items": [
+                {
+                    "spacing": "large",
+                    "type": "TextBlock",
+                    "text": "From Date",
+                    "weight": "light",
+                    "color": "black"
+                },
+                {
+                    "type": "Input.Date",
+                    "id": "SelectVal_from",
+                    "placeholder": "",
+                    "defaultValue": "",
+                    "style": {
+                        "width": "100%"
+                    },
+                    "borderRadius": "4px",
+                    "borderStyle": "none",
+                    "backgroundColor": "#F4F4F8"
+                },
+                {
+                    "spacing": "medium",
+                    "type": "TextBlock",
+                    "text": "To Date",
+                    "color": "black"
+                },
+                {
+                    "type": "Input.Date",
+                    "id": "SelectVal_to",
+                    "placeholder": "",
+                    "defaultValue": "",
+                    "style": {
+                        "width": "100%"
+                    },
+                    "borderRadius": "4px",
+                    "borderStyle": "none",
+                    "backgroundColor": "#F4F4F8"
+                },
+                {
+                    "type": "ActionSet",
+                    "actions": [
+                        {
+                            "type": "filter-date",
+                            "title": "Submit",
+                            "data": {
+                                "FilterFields": [
+                                    "[Commerce.Date (Calendar)]"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

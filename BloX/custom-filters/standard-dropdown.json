@@ -1,0 +1,78 @@
+{
+    "showCarousel": true,
+    "carouselAnimation": {
+        "delay": 0,
+        "showButtons": false
+    },
+    "body": [
+        {
+            "type": "Container",
+            "style": {
+                "justify-items": "center",
+                "align-items": "center"
+            },
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "spacing": "medium",
+                    "size": "large",
+                    "text": "Choose a Category",
+                    "style": {
+                        "text-align": "center",
+                        "font-weight": "600"
+                    }
+                },
+                {
+                    "type": "Container",
+                    "spacing": "small",
+                    "items": [
+                        {
+                            "type": "Input.ChoiceSet",
+                            "id": "data.filters[0].filterJaql.members[0]",
+                            "class": "",
+                            "displayType": "compact",
+                            "style": {
+                                "align-self": "center"
+                            },
+                            "choices": "{choices:Category}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "Filters",
+            "title": "Filter!",
+            "data": {
+                "filters": [
+                    {
+                        "panelName": "Category",
+                        "filterJaql": {
+                            "explicit": true,
+                            "members": [
+                                ""
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Filters",
+            "title": "Clear",
+            "data": {
+                "filters": [
+                    {
+                        "panelName": "Category",
+                        "filterJaql": {
+                            "explicit": true,
+                            "all": true
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
