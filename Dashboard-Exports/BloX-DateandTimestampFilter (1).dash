@@ -1,0 +1,1045 @@
+{
+  "oid": "636a72c07292bf0038258a25",
+  "dataExploration": false,
+  "datasource": {
+    "fullname": "localhost/Sample Healthcare",
+    "id": "localhost_aSampleIAAaHealthcare",
+    "address": "LocalHost",
+    "database": "aSampleIAAaHealthcare",
+    "live": false,
+    "title": "Sample Healthcare"
+  },
+  "defaultFilterRelations": null,
+  "defaultFilters": [
+    {
+      "jaql": {
+        "table": "Admissions",
+        "column": "Admission_Time_Int",
+        "dim": "Admissions.Admission_Time_Int",
+        "datatype": "numeric",
+        "title": "Admission Time",
+        "collapsed": false,
+        "isDashboardFilter": true,
+        "datasource": {
+          "fullname": "localhost/Sample Healthcare",
+          "id": "localhost_aSampleIAAaHealthcare",
+          "address": "LocalHost",
+          "database": "aSampleIAAaHealthcare",
+          "live": false,
+          "title": "Sample Healthcare"
+        },
+        "filter": {
+          "from": 20130201130100,
+          "to": 20130718135900
+        }
+      },
+      "instanceid": "0CC92-7F7E-DE",
+      "isCascading": false,
+      "disabled": false
+    }
+  ],
+  "desc": "",
+  "editing": false,
+  "filterToDatasourceMapping": {},
+  "filters": [
+    {
+      "jaql": {
+        "table": "Admissions",
+        "column": "Admission_Time_Int",
+        "dim": "Admissions.Admission_Time_Int",
+        "datatype": "numeric",
+        "title": "Admission Time",
+        "collapsed": false,
+        "isDashboardFilter": true,
+        "datasource": {
+          "fullname": "localhost/Sample Healthcare",
+          "id": "localhost_aSampleIAAaHealthcare",
+          "address": "LocalHost",
+          "database": "aSampleIAAaHealthcare",
+          "live": false,
+          "title": "Sample Healthcare"
+        },
+        "filter": {
+          "from": 20130214000000,
+          "to": 20240928235900
+        }
+      },
+      "instanceid": "0CC92-7F7E-DE",
+      "isCascading": false,
+      "disabled": false
+    }
+  ],
+  "lastOpened": null,
+  "layout": {
+    "instanceid": "6D791-B216-51",
+    "type": "columnar",
+    "columns": [
+      {
+        "width": 100,
+        "cells": [
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "height": "68px",
+                    "defaultWidth": 128,
+                    "widgetid": "636a73327292bf0038258a33"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1227,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 68,
+                    "maxHeight": 781,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": 42.9785,
+                    "defaultWidth": 512,
+                    "widgetid": "636a79207292bf0038258a47"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1227,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 1028,
+                    "minWidth": 48,
+                    "maxWidth": 1028,
+                    "defaultWidth": 512,
+                    "widgetid": "636a72cc7292bf0038258a29",
+                    "height": "746px",
+                    "autoHeight": "746px"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1227,
+                "index": 0
+              }
+            ]
+          }
+        ],
+        "pxlWidth": 1227,
+        "index": 0
+      }
+    ],
+    "container": {
+      "sizzle1726089557613": {
+        "undefined": {
+          "parentNode": [
+            317.2384951165272,
+            33,
+            true
+          ]
+        }
+      }
+    }
+  },
+  "original": null,
+  "parentFolder": "61c44b8583642f002bf1838b",
+  "settings": {
+    "autoUpdateOnFiltersChange": true
+  },
+  "source": "636a72c07292bf0038258a26",
+  "style": {
+    "palette": {
+      "name": "Vivid",
+      "colors": [
+        "#00cee6",
+        "#9b9bd7",
+        "#6EDA55",
+        "#fc7570",
+        "#fbb755",
+        "#218A8C"
+      ]
+    }
+  },
+  "title": "BloX - Date and Timestamp Filter",
+  "type": "dashboard",
+  "allowChangeSubscription": false,
+  "subscription": {
+    "subscribe": false,
+    "executionPerDay": 1,
+    "schedule": "* * * * * *",
+    "isDataChange": true,
+    "type": "onUpdate",
+    "reportType": {
+      "inline": true
+    },
+    "emailSettings": {
+      "isEmail": true,
+      "isPdf": false
+    },
+    "context": {
+      "dashboardid": "636a72c07292bf0038258a25"
+    },
+    "startAt": "2022-11-08",
+    "tzName": "America/New_York",
+    "timezone": 300,
+    "active": false
+  },
+  "isPublic": null,
+  "previewLayout": [],
+  "filterRelations": [],
+  "widgets": [
+    {
+      "title": "Admission Data",
+      "type": "pivot2",
+      "subtype": "pivot2",
+      "oid": "636a72cc7292bf0038258a29",
+      "desc": null,
+      "source": "636a72cc7292bf0038258a2a",
+      "datasource": {
+        "fullname": "localhost/Sample Healthcare",
+        "id": "localhost_aSampleIAAaHealthcare",
+        "address": "LocalHost",
+        "database": "aSampleIAAaHealthcare",
+        "live": false,
+        "title": "Sample Healthcare"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "rows",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Admissions",
+                  "column": "Room_ID",
+                  "dim": "[Admissions.Room_ID]",
+                  "datatype": "numeric",
+                  "merged": true,
+                  "title": "Room_ID"
+                },
+                "instanceid": "ABC13-3068-CC",
+                "panel": "rows",
+                "field": {
+                  "id": "[Admissions.Room_ID]",
+                  "index": 0
+                }
+              },
+              {
+                "jaql": {
+                  "table": "Admissions",
+                  "column": "Patient_ID",
+                  "dim": "[Admissions.Patient_ID]",
+                  "datatype": "numeric",
+                  "merged": true,
+                  "title": "Patient_ID"
+                },
+                "instanceid": "36EBC-6949-49",
+                "panel": "rows",
+                "field": {
+                  "id": "[Admissions.Patient_ID]",
+                  "index": 1
+                }
+              },
+              {
+                "jaql": {
+                  "table": "Admissions",
+                  "column": "Time of Stay",
+                  "dim": "[Admissions.Time of Stay]",
+                  "datatype": "numeric",
+                  "title": "Time of Stay"
+                },
+                "instanceid": "AFFC8-CA8F-85",
+                "panel": "rows",
+                "field": {
+                  "id": "[Admissions.Time of Stay]",
+                  "index": 2
+                }
+              },
+              {
+                "jaql": {
+                  "table": "Admissions",
+                  "column": "Admission_Time",
+                  "dim": "[Admissions.Admission_Time (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "days",
+                  "title": "Admission Date"
+                },
+                "instanceid": "77C50-BB6B-6D",
+                "panel": "rows",
+                "field": {
+                  "id": "[Admissions.Admission_Time (Calendar)]_years",
+                  "index": 3
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "dateAndTime": "MM/dd/y HH:mm",
+                    "isdefault": true
+                  }
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ]
+              },
+              {
+                "jaql": {
+                  "table": "Admissions",
+                  "column": "Admission_Time",
+                  "dim": "[Admissions.Admission_Time (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "minutes",
+                  "title": "Admission Time",
+                  "bucket": "1"
+                },
+                "instanceid": "77C50-BB6B-6D",
+                "panel": "rows",
+                "field": {
+                  "id": "[Admissions.Admission_Time (Calendar)]_years",
+                  "index": 4
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "dateAndTime": "MM/dd/y HH:mm",
+                    "isdefault": true
+                  }
+                },
+                "hierarchies": []
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": []
+          },
+          {
+            "name": "columns",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "scroll": false,
+        "pageSize": 25,
+        "automaticHeight": true,
+        "colors": {
+          "rows": true,
+          "columns": false,
+          "headers": false,
+          "members": false,
+          "totals": false
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "patient_id",
+              "title": "Patient_ID",
+              "singular": "Patient_ID",
+              "plural": "Patient_ID"
+            },
+            {
+              "id": "room_id",
+              "title": "Room_ID",
+              "singular": "Room_ID",
+              "plural": "Room_ID"
+            },
+            {
+              "id": "time_of_stay",
+              "title": "Time of Stay",
+              "singular": "Time of Stay",
+              "plural": "Time of Stay"
+            },
+            {
+              "id": "admission_date",
+              "title": "Admission Date",
+              "singular": "Admission Date",
+              "plural": "Admission Date"
+            },
+            {
+              "id": "admission_time",
+              "title": "Admission Time",
+              "singular": "Admission Time",
+              "plural": "Admission Time"
+            }
+          ]
+        }
+      },
+      "instanceid": "2DD81-5622-FF",
+      "prevSortObjects": [],
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 2,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "wasRendered": false,
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": false,
+        "triggersDomready": true,
+        "drillToAnywhere": true,
+        "autoUpdateOnEveryChange": true,
+        "interactivePivot": {
+          "enable": false
+        },
+        "imageColumns": []
+      },
+      "dashboardid": "636a72c07292bf0038258a25",
+      "query": {
+        "datasource": {
+          "fullname": "localhost/Sample Healthcare",
+          "id": "localhost_aSampleIAAaHealthcare",
+          "address": "LocalHost",
+          "database": "aSampleIAAaHealthcare",
+          "live": false,
+          "title": "Sample Healthcare"
+        },
+        "format": "pivot",
+        "grandTotals": {
+          "title": "Grand Total"
+        },
+        "metadata": [
+          {
+            "jaql": {
+              "table": "Admissions",
+              "column": "Room_ID",
+              "dim": "[Admissions.Room_ID]",
+              "datatype": "numeric",
+              "merged": true,
+              "title": "Room_ID"
+            },
+            "instanceid": "ABC13-3068-CC",
+            "panel": "rows",
+            "field": {
+              "id": "[Admissions.Room_ID]",
+              "index": 0
+            },
+            "handlers": []
+          },
+          {
+            "jaql": {
+              "table": "Admissions",
+              "column": "Patient_ID",
+              "dim": "[Admissions.Patient_ID]",
+              "datatype": "numeric",
+              "merged": true,
+              "title": "Patient_ID"
+            },
+            "instanceid": "36EBC-6949-49",
+            "panel": "rows",
+            "field": {
+              "id": "[Admissions.Patient_ID]",
+              "index": 1
+            },
+            "handlers": []
+          },
+          {
+            "jaql": {
+              "table": "Admissions",
+              "column": "Time of Stay",
+              "dim": "[Admissions.Time of Stay]",
+              "datatype": "numeric",
+              "title": "Time of Stay"
+            },
+            "instanceid": "AFFC8-CA8F-85",
+            "panel": "rows",
+            "field": {
+              "id": "[Admissions.Time of Stay]",
+              "index": 2
+            },
+            "handlers": []
+          },
+          {
+            "jaql": {
+              "table": "Admissions",
+              "column": "Admission_Time",
+              "dim": "[Admissions.Admission_Time (Calendar)]",
+              "datatype": "datetime",
+              "merged": true,
+              "level": "days",
+              "title": "Admission Date"
+            },
+            "instanceid": "77C50-BB6B-6D",
+            "panel": "rows",
+            "field": {
+              "id": "[Admissions.Admission_Time (Calendar)]_years",
+              "index": 3
+            },
+            "format": {
+              "mask": {
+                "years": "yyyy",
+                "quarters": "yyyy Q",
+                "months": "MM/yyyy",
+                "weeks": "ww yyyy",
+                "days": "shortDate",
+                "minutes": "HH:mm",
+                "seconds": "MM/dd/yyyy HH:mm:ss",
+                "dateAndTime": "MM/dd/yyyy HH:mm",
+                "isdefault": true
+              }
+            },
+            "hierarchies": [
+              "calendar",
+              "calendar - weeks"
+            ],
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "Admissions",
+              "column": "Admission_Time",
+              "dim": "[Admissions.Admission_Time (Calendar)]",
+              "datatype": "datetime",
+              "merged": true,
+              "level": "minutes",
+              "title": "Admission Time",
+              "bucket": "1"
+            },
+            "instanceid": "77C50-BB6B-6D",
+            "panel": "rows",
+            "field": {
+              "id": "[Admissions.Admission_Time (Calendar)]_years",
+              "index": 4
+            },
+            "format": {
+              "mask": {
+                "years": "yyyy",
+                "quarters": "yyyy Q",
+                "months": "MM/yyyy",
+                "weeks": "ww yyyy",
+                "days": "shortDate",
+                "minutes": "HH:mm",
+                "seconds": "MM/dd/yyyy HH:mm:ss",
+                "dateAndTime": "MM/dd/yyyy HH:mm",
+                "isdefault": true
+              }
+            },
+            "hierarchies": [],
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "Admissions",
+              "column": "Admission_Time_Int",
+              "dim": "Admissions.Admission_Time_Int",
+              "datatype": "numeric",
+              "title": "Admission Time",
+              "collapsed": false,
+              "isDashboardFilter": true,
+              "datasource": {
+                "fullname": "localhost/Sample Healthcare",
+                "id": "localhost_aSampleIAAaHealthcare",
+                "address": "LocalHost",
+                "database": "aSampleIAAaHealthcare",
+                "live": false,
+                "title": "Sample Healthcare"
+              },
+              "filter": {
+                "from": 20130214000000,
+                "to": 20240928235900
+              }
+            },
+            "disabled": false,
+            "isCascading": false,
+            "instanceid": "0CC92-7F7E-DE",
+            "panel": "scope"
+          }
+        ],
+        "m2mThresholdFlag": 0
+      }
+    },
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "636a73327292bf0038258a33",
+      "desc": null,
+      "source": "636a73327292bf0038258a34",
+      "datasource": {
+        "fullname": "localhost/Sample Healthcare",
+        "id": "localhost_aSampleIAAaHealthcare",
+        "address": "LocalHost",
+        "database": "aSampleIAAaHealthcare",
+        "live": false,
+        "title": "Sample Healthcare"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "content": {
+          "html": "<div style=\"text-align: left;\"><font size=\"3\"><b>Instructions here:</b></font></div><div style=\"text-align: left;\"><a href=\"https://community.sisense.com/t5/knowledge/blox-date-and-timestamp-range-filter/ta-p/4973\" style=\"\"><font size=\"3\">Select a date and time range to filter your dashboards</font></a></div><div style=\"text-align: left;\"><br></div><div style=\"text-align: left;\"><i style=\"font-size: 13px;\">If you have any questions, feel free to reach out to Tri (tri.anthony@sisense.com).</i><br></div>",
+          "vAlign": "valign-middle",
+          "bgColor": "#FFFFFF",
+          "textAlign": "center"
+        }
+      },
+      "instanceid": "6D213-55A0-30",
+      "prevSortObjects": [],
+      "wasRendered": false,
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "dashboardid": "636a72c07292bf0038258a25"
+    },
+    {
+      "title": "",
+      "type": "BloX",
+      "subtype": "BloX",
+      "oid": "636a79207292bf0038258a47",
+      "desc": null,
+      "source": "636a79207292bf0038258a48",
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Sample Healthcare",
+        "id": "aLOCALHOST_aSAMPLEIAAaHEALTHCARE",
+        "database": "aSampleIAAaHealthcare",
+        "fullname": "LocalHost/Sample Healthcare"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "Items",
+            "items": []
+          },
+          {
+            "name": "Values",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "currentCard": {
+          "style": "",
+          "script": "",
+          "title": "",
+          "titleStyle": [
+            {
+              "display": "true"
+            }
+          ],
+          "showCarousel": "true",
+          "carouselAnimation": {
+            "showButtons": false
+          },
+          "body": [
+            {
+              "type": "Container",
+              "items": [
+                {
+                  "type": "ColumnSet",
+                  "columns": [
+                    {
+                      "type": "Column",
+                      "style": {}
+                    },
+                    {
+                      "type": "Column",
+                      "style": {},
+                      "items": [
+                        {
+                          "type": "TextBlock",
+                          "text": "From",
+                          "style": {
+                            "justify-items": "center",
+                            "align-items": "center"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Column",
+                      "style": {},
+                      "items": [
+                        {
+                          "type": "Input.Date",
+                          "id": "datevalstart",
+                          "class": "",
+                          "style": {
+                            "justify-items": "center",
+                            "align-items": "center"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Column",
+                      "style": {},
+                      "items": [
+                        {
+                          "type": "Input.Time",
+                          "id": "timevalstart",
+                          "class": "",
+                          "style": {
+                            "justify-items": "center",
+                            "align-items": "center"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Column",
+                      "style": {},
+                      "items": [
+                        {
+                          "type": "TextBlock",
+                          "text": "To",
+                          "style": {}
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Column",
+                      "style": {},
+                      "items": [
+                        {
+                          "type": "Input.Date",
+                          "id": "datevalend",
+                          "class": "",
+                          "style": {
+                            "justify-items": "center",
+                            "align-items": "center"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Column",
+                      "style": {},
+                      "items": [
+                        {
+                          "type": "Input.Time",
+                          "id": "timevalend",
+                          "class": "",
+                          "style": {
+                            "justify-items": "center",
+                            "align-items": "center"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Column",
+                      "style": {
+                        "margin-top": "-40px"
+                      },
+                      "items": [
+                        {
+                          "type": "ActionSet",
+                          "actions": [
+                            {
+                              "type": "DateTimeSelector",
+                              "title": "Filter",
+                              "data": {
+                                "NumDateTimeColumn": [
+                                  "Admissions.Admission_Time_Int"
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": []
+        },
+        "currentConfig": {
+          "fontFamily": "Open Sans",
+          "fontSizes": {
+            "default": 14,
+            "small": 16,
+            "medium": 20,
+            "large": 50,
+            "extraLarge": 32
+          },
+          "fontWeights": {
+            "default": 500,
+            "light": 100,
+            "bold": 1000
+          },
+          "containerStyles": {
+            "default": {
+              "backgroundColor": "",
+              "foregroundColors": {
+                "default": {
+                  "normal": "#000000"
+                },
+                "white": {
+                  "normal": "#ffffff"
+                },
+                "grey": {
+                  "normal": "#5C6372"
+                },
+                "orange": {
+                  "normal": "#f2B900"
+                },
+                "yellow": {
+                  "normal": "#ffcb05"
+                },
+                "black": {
+                  "normal": "#000000"
+                },
+                "lightGreen": {
+                  "normal": "#3ADCCA"
+                },
+                "green": {
+                  "normal": "#54a254"
+                },
+                "red": {
+                  "normal": "#dd1111"
+                },
+                "accent": {
+                  "normal": "#2E89FC"
+                },
+                "good": {
+                  "normal": "#54a254"
+                },
+                "warning": {
+                  "normal": "#e69500"
+                },
+                "attention": {
+                  "normal": "#cc3300"
+                }
+              }
+            }
+          },
+          "imageSizes": {
+            "default": 40,
+            "small": 40,
+            "medium": 80,
+            "large": 160
+          },
+          "imageSet": {
+            "imageSize": "medium",
+            "maxImageHeight": 100
+          },
+          "actions": {
+            "color": "white",
+            "backgroundColor": "black",
+            "maxActions": 5,
+            "spacing": "extraLarge",
+            "buttonSpacing": 20,
+            "actionsOrientation": "horizontal",
+            "actionAlignment": "center",
+            "showCard": {
+              "actionMode": "inline",
+              "inlineTopMargin": 16,
+              "style": "default"
+            }
+          },
+          "spacing": {
+            "default": 5,
+            "small": 20,
+            "medium": 60,
+            "large": 20,
+            "extraLarge": 40,
+            "padding": 0
+          },
+          "separator": {
+            "lineThickness": 1,
+            "lineColor": "#eeeeee"
+          },
+          "factSet": {
+            "title": {
+              "size": "default",
+              "color": "default",
+              "weight": "bold",
+              "warp": true
+            },
+            "value": {
+              "size": "default",
+              "color": "default",
+              "weight": "default",
+              "warp": true
+            },
+            "spacing": 20
+          },
+          "supportsInteractivity": true,
+          "imageBaseUrl": ""
+        },
+        "currentCardName": "default",
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": []
+        }
+      },
+      "instanceid": "CB72F-558C-68",
+      "prevSortObjects": [],
+      "wasRendered": false,
+      "questQueryResult": {
+        "isActive": false,
+        "isPending": false
+      },
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 4,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "drilledDashboardDisplay": {},
+      "query": {
+        "datasource": {
+          "address": "LocalHost",
+          "title": "Sample Healthcare",
+          "id": "aLOCALHOST_aSAMPLEIAAaHEALTHCARE",
+          "database": "aSampleIAAaHealthcare",
+          "fullname": "LocalHost/Sample Healthcare"
+        },
+        "format": "json",
+        "isMaskedResult": true,
+        "metadata": [],
+        "m2mThresholdFlag": 0
+      },
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": true,
+        "title": false,
+        "drillTarget": "dummy",
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true
+      },
+      "dashboardid": "636a72c07292bf0038258a25",
+      "script": "/*\nWelcome to your Widget's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at https://sisense.dev/guides/js/extensions\n*/\n\n\n//populate input boxes with current filter values\nwidget.on('ready', function() {\n\t\n\t//replace with filter name\n\tvar filterName = \"Admission Time\";\n\n\t// ----------Find date filter----------\n    let dateFilter = dashboard.filters.$$items.find((item) => {\n        if (item.jaql && item.jaql.title.indexOf(filterName) !== -1) {\n            return true\n        }\n    })\n\t\n\t//get the current 'from' filter value and parse it into date / time format\n\tvar fromDateTimeString = String(dateFilter.jaql.filter.from);\n\tvar fromDate = fromDateTimeString.slice(0,4) + '-' + fromDateTimeString.slice(4,6) + '-' + fromDateTimeString.slice(6,8);\n\tvar fromTime = fromDateTimeString.slice(8,10) + ':' + fromDateTimeString.slice(10,12);// + ' ' + fromAMPM;\n\t\n\t//check if current 'from' filter value is a valid date / time\n\tvar checkInvalid_from = typeof dateFilter.jaql.filter.from == 'undefined' || dateFilter.disabled == true;\n\tvar filterDateValue_from = (checkInvalid_from) ? 'someInvalidDate' : fromDate;\n\tvar filterTimeValue_from = (checkInvalid_from) ? 'someInvalidTime' : fromTime;\n\t\n\t//set the current 'from' filter value as placeholder and default value for input field\n\t$('#datevalstart', element).attr('value', filterDateValue_from);\n\t$('#timevalstart', element).attr('value', filterTimeValue_from);\n\t\n\t//get the current 'to' filter value and parse it into date / time format\n\tvar toDateTimeString = String(dateFilter.jaql.filter.to);\n\tvar toDate = toDateTimeString.slice(0,4) + '-' + toDateTimeString.slice(4,6) + '-' + toDateTimeString.slice(6,8);\n\tvar toTime = toDateTimeString.slice(8,10) + ':' + toDateTimeString.slice(10,12);// + ' ' + fromAMPM;\t\n\t\n\t//check if current 'to' filter value is a valid date / time\n\tvar checkInvalid_to = typeof dateFilter.jaql.filter.to == 'undefined' || dateFilter.disabled == true;\n\tvar filterDateValue_to = (checkInvalid_to) ? 'someInvalidDate' : toDate;\n\tvar filterTimeValue_to = (checkInvalid_to) ? 'someInvalidTime' : toTime;\t\n\t\n\t//set the current 'to' filter value as placeholder and default value for input field\n\t$('#datevalend', element).attr('value', filterDateValue_to);\n\t$('#timevalend', element).attr('value', filterTimeValue_to);\n\t\n\t\n\t\n});\n\n/* BloX customization */\nwidget.on('ready', function() {\n\t\n\t// Hide BloX scroll bar\n\telement.css('overflow', 'hidden');\n\t\n});",
+      "realTimeRefreshing": false
+    }
+  ],
+  "hierarchies": []
+}

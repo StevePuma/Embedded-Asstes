@@ -1,0 +1,1501 @@
+{
+  "oid": "62616ff2142df70036c213fe",
+  "allowChangeSubscription": false,
+  "datasource": {
+    "address": "LocalHost",
+    "title": "Sample ECommerce",
+    "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+    "database": "aSampleIAAaECommerce",
+    "fullname": "LocalHost/Sample ECommerce"
+  },
+  "defaultFilters": [
+    {
+      "jaql": {
+        "table": "Commerce",
+        "column": "Date",
+        "dim": "[Commerce.Date (Calendar)]",
+        "datatype": "datetime",
+        "merged": true,
+        "level": "quarters",
+        "collapsed": true,
+        "title": "Quarters in Date",
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce",
+          "oid": "01a38588-0027-4a30-8d94-06212032c59b"
+        },
+        "isDashboardFilter": true,
+        "firstday": "mon",
+        "locale": "en-us",
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "E2A76-C99B-1E",
+      "isCascading": false,
+      "disabled": false,
+      "locked": false
+    },
+    {
+      "jaql": {
+        "table": "Country",
+        "column": "Country",
+        "dim": "[Country.Country]",
+        "datatype": "text",
+        "merged": true,
+        "datasource": {
+          "address": "LocalHost",
+          "title": "Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "database": "aSampleIAAaECommerce",
+          "fullname": "LocalHost/Sample ECommerce"
+        },
+        "firstday": "mon",
+        "locale": "en-us",
+        "title": "Country",
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "filter": {
+          "explicit": true,
+          "multiSelection": true,
+          "members": [
+            "Canada",
+            "Mexico",
+            "United States"
+          ]
+        }
+      },
+      "instanceid": "09129-6886-42",
+      "isCascading": false,
+      "disabled": false
+    }
+  ],
+  "desc": "",
+  "editing": false,
+  "isPublic": null,
+  "lastOpened": null,
+  "layout": {
+    "instanceid": "17413-35D1-2A",
+    "type": "columnar",
+    "columns": [
+      {
+        "width": 100,
+        "pxlWidth": 1230.48,
+        "index": 0,
+        "cells": [
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "height": "264px",
+                    "defaultWidth": 128,
+                    "widgetid": "62616ff2142df70036c21400"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1230.48,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 96,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": 384,
+                    "defaultWidth": 512,
+                    "widgetid": "62616ff2142df70036c21401"
+                  }
+                ],
+                "width": 50,
+                "stretchable": false,
+                "pxlWidth": 615.234,
+                "index": 0
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 96,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "62616ff2142df70036c21402",
+                    "height": 384
+                  }
+                ],
+                "width": 50,
+                "stretchable": false,
+                "pxlWidth": 615.234,
+                "index": 1
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 1028,
+                    "height": 192,
+                    "minWidth": 48,
+                    "maxWidth": 1028,
+                    "defaultWidth": 512,
+                    "widgetid": "6262bd25142df70036c21665"
+                  }
+                ],
+                "width": 50,
+                "stretchable": false,
+                "pxlWidth": 347.48,
+                "index": 0
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 1028,
+                    "height": 192,
+                    "minWidth": 48,
+                    "maxWidth": 1028,
+                    "defaultWidth": 512,
+                    "widgetid": "66842e2bb760c50033b23bb9"
+                  }
+                ],
+                "width": 50,
+                "stretchable": false,
+                "pxlWidth": 347.48,
+                "index": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "container": {
+      "sizzle1719938476230": {
+        "undefined": {
+          "parentNode": [
+            42,
+            31,
+            true
+          ]
+        }
+      }
+    }
+  },
+  "original": null,
+  "parentFolder": "61c44b8983642f002bf183b9",
+  "previewLayout": [],
+  "script": "/*\nWelcome to your Dashboard's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at https://sisense.dev/guides/js/extensions\n*/\n\n\n//Change widget title height to Auto\ndashboard.on('widgetready',function(d) {\n\n\t$('widget-header').css('height', 'auto');\n\n});\n\n\n//Convert widget title into title and description - for VIEW mode\ndashboard.on('widgetinitialized', function (dash_ev, dash_se) {\n    dash_se.widget.on('ready', function (ev, se) {\n        let widgetID = dash_se.widget.oid\n        let selectorString = `[widgetid='${widgetID}']`\n        let widgetParent = $(selectorString).parent()\n        let titleElement = widgetParent.find('.widget-title__holder > widget-title');\n        let titleParentElement = titleElement.parent()\n        let titleAttribute = titleElement.attr('title');\n\n        str = titleAttribute;\n\n        strArray = str.split(' - ')\n\n\t\tif (strArray.length <= 1) {\n\t\t\treturn;\n\t\t}\n\n        strNew = '<span style=\\\"font-size:14px;\\\">' + strArray[0] + '</span>';\n\n        for (i = 1; i < strArray.length; i++) {\n            strNew = strNew + '<p style=\\\"font-size:10px;word-break:normal;white-space:normal;padding: 11px 0 0 0;line-height: 11px;\\\">' + strArray[i] + '</p>'\n        }\n\n        strHTML = jQuery.parseHTML(strNew);\n        \n        titleParentElement.empty().append(strHTML);\n\t\t\n\t\tdash_se.widget.redraw();\n\n    })\n});\n\n//Convert widget title into title and description - for EDIT mode\ndashboard.on('widgetinitialized', function (dash_ev, dash_se) {\n    dash_se.widget.on('ready', function (ev, se) {\n        let widgetID = dash_se.widget.oid\n        let selectorString = `[widgetid='${widgetID}']`\n        let widgetParent = $(selectorString).parent()\n        let titleElement = widgetParent.find('.widget-title__holder > .transput-holder > .transput-caption');\n        let titleParentElement = titleElement.parent()\n        let titleAttribute = titleElement.attr('title');\n\n        str = titleAttribute;\n\n        strArray = str.split(' - ')\n\n\t\tif (strArray.length <= 1) {\n\t\t\treturn;\n\t\t}\n\n        strNew = '<span style=\\\"font-size:14px;\\\">' + strArray[0] + '</span>';\n\n        for (i = 1; i < strArray.length; i++) {\n            strNew = strNew + '<p style=\\\"font-size:10px;word-break:normal;white-space:normal;padding: 11px 0 0 0;line-height: 11px;\\\">' + strArray[i] + '</p>'\n        }\n\n        strHTML = jQuery.parseHTML(strNew);\n        \n        titleParentElement.empty().append(strHTML);\n\t\t\n\t\tdash_se.widget.redraw();\n\n    })\n});",
+  "settings": {
+    "autoUpdateOnFiltersChange": true
+  },
+  "source": "62616ff2142df70036c21407",
+  "style": {
+    "palette": {
+      "name": "Vivid",
+      "colors": [
+        "#00cee6",
+        "#9b9bd7",
+        "#6EDA55",
+        "#fc7570",
+        "#fbb755",
+        "#218A8C"
+      ]
+    }
+  },
+  "title": "Add Widget Subtitle / Description",
+  "type": "dashboard",
+  "subscription": {
+    "subscribe": false,
+    "executionPerDay": 1,
+    "schedule": "* * * * * *",
+    "isDataChange": true,
+    "type": "onUpdate",
+    "reportType": {
+      "inline": true
+    },
+    "emailSettings": {
+      "isEmail": true,
+      "isPdf": false
+    },
+    "context": {
+      "dashboardid": "62616ff2142df70036c213fe"
+    },
+    "startAt": "2022-04-22",
+    "tzName": "America/New_York",
+    "timezone": 240,
+    "active": false
+  },
+  "defaultFilterRelations": null,
+  "exportToImage": false,
+  "filterToDatasourceMapping": {},
+  "filters": [
+    {
+      "jaql": {
+        "table": "Commerce",
+        "column": "Date",
+        "dim": "[Commerce.Date (Calendar)]",
+        "datatype": "datetime",
+        "merged": true,
+        "level": "quarters",
+        "collapsed": true,
+        "title": "Quarters in Date",
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce",
+          "oid": "01a38588-0027-4a30-8d94-06212032c59b"
+        },
+        "isDashboardFilter": true,
+        "firstday": "mon",
+        "locale": "en-us",
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "E2A76-C99B-1E",
+      "isCascading": false,
+      "disabled": false,
+      "locked": false
+    },
+    {
+      "jaql": {
+        "table": "Country",
+        "column": "Country",
+        "dim": "[Country.Country]",
+        "datatype": "text",
+        "merged": true,
+        "datasource": {
+          "address": "LocalHost",
+          "title": "Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "database": "aSampleIAAaECommerce",
+          "fullname": "LocalHost/Sample ECommerce"
+        },
+        "firstday": "mon",
+        "locale": "en-us",
+        "title": "Country",
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "filter": {
+          "explicit": true,
+          "multiSelection": true,
+          "members": [
+            "Canada",
+            "Mexico",
+            "United States"
+          ]
+        }
+      },
+      "instanceid": "09129-6886-42",
+      "isCascading": false,
+      "disabled": false
+    }
+  ],
+  "dataExploration": true,
+  "filterRelations": [],
+  "widgets": [
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "62616ff2142df70036c21400",
+      "desc": null,
+      "source": "6581ad1b1a27b50040eca4c0",
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "database": "aSampleIAAaECommerce",
+        "fullname": "LocalHost/Sample ECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": []
+      },
+      "style": {
+        "content": {
+          "html": "<div style=\"text-align: left;\"><b style=\"color: rgb(18, 76, 135);\">This dashboard script allows you to add widget description right below the widget title.</b><br></div><font color=\"#124c87\" style=\"font-size: small;\"><div style=\"text-align: left;\"><b>To add a description add ' - ' after the widget title, followed by the actual description.&nbsp;</b></div><div style=\"text-align: left;\"><b>Long description will automatically wrap.</b></div><div style=\"text-align: left;\"><b>To add another line break within the description, add another ' - '.</b></div><div style=\"font-weight: bold; text-align: left;\"><b style=\"\"><br></b></div><div style=\"font-weight: bold; text-align: left;\"><b style=\"\">Example:</b></div><div style=\"text-align: left;\"><b style=\"font-weight: bold;\">\"Revenue over time - This widget shows revenue over time, this is useful for predicting future revenue -&nbsp;</b><span style=\"text-align: center;\"><b>Data is available from 2009 to 2013</b></span><b style=\"font-weight: bold;\">\"</b></div><div style=\"font-weight: bold; text-align: left;\"><b style=\"\">The script will convert the text above into:</b></div></font><b style=\"color: rgb(18, 76, 135);\"><div style=\"text-align: left;\"><b style=\"\"><font size=\"2\">\"</font><font size=\"3\">Revenue over time</font></b></div><div style=\"font-size: small; text-align: left;\"><b style=\"\">This widget shows revenue over time</b><b style=\"\">, this is useful for predicting future revenue</b></div></b><b style=\"font-size: small; color: rgb(18, 76, 135);\"><div style=\"text-align: left;\"><b style=\"text-align: center; font-size: small;\">Data is available from 2009 to 2013</b><b style=\"\">\"</b></div></b><div style=\"color: rgb(18, 76, 135); text-align: left;\"><span style=\"font-weight: 700;\"><font size=\"2\"><br></font></span></div><div style=\"text-align: left;\"><font color=\"#800000\" size=\"3\" style=\"\"><b>Note that this doesn't work in PDF Export.</b></font></div>",
+          "vAlign": "valign-middle",
+          "bgColor": "#FFFFFF",
+          "textAlign": "center"
+        }
+      },
+      "instanceid": "3DAA8-9CFE-23",
+      "dashboardid": "62616ff2142df70036c213fe",
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "lastOpened": null
+    },
+    {
+      "title": "Revenue over time -  This widget shows revenue over time, this is useful for predicting future revenue -  - Data is available from 2009 to 2013",
+      "type": "chart/line",
+      "subtype": "line/basic",
+      "oid": "62616ff2142df70036c21401",
+      "desc": null,
+      "source": "6581ad1b1a27b50040eca4c1",
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "database": "aSampleIAAaECommerce",
+        "fullname": "LocalHost/Sample ECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "x-axis",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Date",
+                  "dim": "[Commerce.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "quarters",
+                  "title": "Quarters in Date"
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "seconds": "MM/dd/yyyy HH:mm:ss",
+                    "dateAndTime": "MM/dd/yyyy HH:mm",
+                    "isdefault": true
+                  }
+                },
+                "hierarchies": [
+                  "calendar"
+                ],
+                "instanceid": "79CA2-7165-33",
+                "panel": "rows"
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Revenue",
+                  "dim": "[Commerce.Revenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total Revenue"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "abbreviateAll": false,
+                    "isdefault": true
+                  },
+                  "color": {
+                    "colorIndex": 0,
+                    "type": "color"
+                  }
+                },
+                "instanceid": "B985B-616E-D4",
+                "panel": "measures"
+              }
+            ]
+          },
+          {
+            "name": "break by",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "lineWidth": {
+          "width": "bold"
+        },
+        "legend": {
+          "enabled": true,
+          "position": "bottom"
+        },
+        "seriesLabels": {
+          "enabled": false,
+          "rotation": 0
+        },
+        "markers": {
+          "enabled": false,
+          "fill": "filled",
+          "size": "small"
+        },
+        "xAxis": {
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "x2Title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "isIntervalEnabled": false
+        },
+        "yAxis": {
+          "inactive": false,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "logarithmic": false,
+          "isIntervalEnabled": true
+        },
+        "y2Axis": {
+          "inactive": true,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": false,
+          "logarithmic": false,
+          "isIntervalEnabled": true
+        },
+        "navigator": {
+          "enabled": true
+        },
+        "dataLimits": {
+          "seriesCapacity": 50,
+          "categoriesCapacity": 100000
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "years_in_date",
+              "title": "Years in Date",
+              "singular": "Years in Date",
+              "plural": "Years in Date"
+            }
+          ]
+        }
+      },
+      "instanceid": "D010C-8636-62",
+      "dashboardid": "62616ff2142df70036c213fe",
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "drillToAnywhere": true,
+        "previousScrollerLocation": {
+          "min": null,
+          "max": null
+        },
+        "aiFeatures": [
+          {
+            "id": "pareto_1569481451806",
+            "name": "Pareto",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Roughly 80% of the effects come from 20% of the causes",
+            "isCustomModel": true
+          },
+          {
+            "id": "summary_statistics_1569425202576",
+            "name": "Summary Statistics",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Provide information about your data",
+            "isCustomModel": true
+          },
+          {
+            "id": "percentile_curves_1574252861643",
+            "name": "Percentile Curves",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Another way to show distributions",
+            "isCustomModel": true
+          },
+          {
+            "id": "cluster_1570673124179",
+            "name": "Clustering",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Grouping a set of objects in such a way that objects in the same group are more similar to each other than to those in other groups",
+            "isCustomModel": true
+          },
+          {
+            "id": "two-tailed_test_1574241584650",
+            "name": "Two-Tailed Test",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "perform two tailed t-test",
+            "isCustomModel": true
+          },
+          {
+            "id": "growth_rate_1572222323562",
+            "name": "Growth Rates",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "refer to the percentage change of a specific variable within a specific time period and given a certain context",
+            "isCustomModel": true
+          },
+          {
+            "id": "anomaly",
+            "name": "Anomaly",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Outlier data points detections",
+            "isCustomModel": false
+          },
+          {
+            "id": "forecast",
+            "name": "What-If Analysis",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {
+              "hasTargetVar": true,
+              "targetVar": {
+                "targetVarPaneActive": false,
+                "sectionTitle": "Target Value",
+                "options": [
+                  "Total Revenue"
+                ],
+                "value": "Total Revenue"
+              }
+            },
+            "description": "Predict the future values of a 2-var-TS, one of which is the target and the\n                    second is explaining variable.\n                    Provide non-symmetric confidence-interval for the above predictions.\n                    Var-Dependence (Score) - the strength of the influence of the explaining\n                    variable on the target one.\n                    XAI (model weights etc)",
+            "isCustomModel": false
+          },
+          {
+            "id": "local_estimates",
+            "name": "Local Estimate",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Locally (using before and after time series points) estimating the mean of the time series",
+            "isCustomModel": false
+          },
+          {
+            "id": "trend",
+            "name": "Trend",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Detect (if exists) Trend-Break-Points and connect those with a trend line",
+            "isCustomModel": false
+          }
+        ],
+        "selectorLocked": true
+      },
+      "script": "",
+      "displayMenu": false,
+      "custom": {
+        "barcolumnchart": {
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total",
+          "type": "chart/line",
+          "isTypeValid": false
+        }
+      },
+      "wasRendered": false,
+      "lastOpened": null,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "prevSortObjects": [],
+      "realTimeRefreshing": false
+    },
+    {
+      "title": "Top 10 Country - This widget shows 10 countries with the highest sales amount",
+      "type": "chart/column",
+      "subtype": "column/classic",
+      "oid": "62616ff2142df70036c21402",
+      "desc": null,
+      "source": "6581ad1b1a27b50040eca4c2",
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "database": "aSampleIAAaECommerce",
+        "fullname": "LocalHost/Sample ECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "categories",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Country",
+                  "column": "Country",
+                  "dim": "[Country.Country]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Country"
+                },
+                "instanceid": "B613F-85D0-2B",
+                "panel": "rows",
+                "field": {
+                  "id": "[Country.Country]",
+                  "index": 0
+                },
+                "format": {
+                  "continuous": false
+                }
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Revenue",
+                  "dim": "[Commerce.Revenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total Revenue",
+                  "sort": "desc"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "color": "#00cee6",
+                    "type": "color"
+                  }
+                },
+                "instanceid": "678BB-F914-EF",
+                "panel": "measures",
+                "field": {
+                  "id": "[Commerce.Revenue]_sum",
+                  "index": 1
+                }
+              }
+            ]
+          },
+          {
+            "name": "break by",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Country",
+                  "column": "Country",
+                  "dim": "[Country.Country]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Country",
+                  "filter": {
+                    "top": 10,
+                    "by": {
+                      "table": "Commerce",
+                      "column": "Revenue",
+                      "dim": "[Commerce.Revenue]",
+                      "datatype": "numeric",
+                      "agg": "sum",
+                      "title": "Total Revenue",
+                      "sort": "desc"
+                    },
+                    "rankingMessage": "Total Revenue"
+                  },
+                  "datasource": {
+                    "title": "Sample ECommerce",
+                    "fullname": "LocalHost/Sample ECommerce",
+                    "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+                    "address": "LocalHost",
+                    "database": "aSampleIAAaECommerce",
+                    "oid": "01a38588-0027-4a30-8d94-06212032c59b",
+                    "lastBuildTime": "2021-04-20T11:54:27.528Z"
+                  },
+                  "collapsed": false
+                },
+                "instanceid": "E137D-5777-6D"
+              }
+            ]
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "legend": {
+          "enabled": true,
+          "position": "bottom"
+        },
+        "seriesLabels": {
+          "enabled": false,
+          "rotation": 0,
+          "labels": {
+            "enabled": false,
+            "types": {
+              "count": false,
+              "percentage": false,
+              "relative": false,
+              "totals": false
+            },
+            "stacked": false,
+            "stackedPercentage": false
+          }
+        },
+        "xAxis": {
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "x2Title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "isIntervalEnabled": false
+        },
+        "yAxis": {
+          "inactive": false,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "logarithmic": false,
+          "hideMinMax": false,
+          "isIntervalEnabled": true
+        },
+        "y2Axis": {
+          "inactive": true,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": false,
+          "logarithmic": false,
+          "hideMinMax": false,
+          "isIntervalEnabled": true
+        },
+        "navigator": {
+          "enabled": true
+        },
+        "dataLimits": {
+          "seriesCapacity": 50,
+          "categoriesCapacity": 100000
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "country",
+              "title": "Country",
+              "singular": "Country",
+              "plural": "Country"
+            }
+          ]
+        }
+      },
+      "instanceid": "8856E-C1C0-81",
+      "dashboardid": "62616ff2142df70036c213fe",
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "drillToAnywhere": true,
+        "aiFeatures": [
+          {
+            "id": "pareto_1569481451806",
+            "name": "Pareto",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Roughly 80% of the effects come from 20% of the causes",
+            "isCustomModel": true
+          },
+          {
+            "id": "summary_statistics_1569425202576",
+            "name": "Summary Statistics",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Provide information about your data",
+            "isCustomModel": true
+          },
+          {
+            "id": "percentile_curves_1574252861643",
+            "name": "Percentile Curves",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Another way to show distributions",
+            "isCustomModel": true
+          },
+          {
+            "id": "cluster_1570673124179",
+            "name": "Clustering",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Grouping a set of objects in such a way that objects in the same group are more similar to each other than to those in other groups",
+            "isCustomModel": true
+          },
+          {
+            "id": "two-tailed_test_1574241584650",
+            "name": "Two-Tailed Test",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "perform two tailed t-test",
+            "isCustomModel": true
+          },
+          {
+            "id": "growth_rate_1572222323562",
+            "name": "Growth Rates",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "refer to the percentage change of a specific variable within a specific time period and given a certain context",
+            "isCustomModel": true
+          },
+          {
+            "id": "anomaly",
+            "name": "Anomaly",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Outlier data points detections",
+            "isCustomModel": false
+          },
+          {
+            "id": "forecast",
+            "name": "What-If Analysis",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {
+              "hasTargetVar": true,
+              "targetVar": {
+                "targetVarPaneActive": false,
+                "sectionTitle": "Target Value",
+                "options": [
+                  "Total Revenue"
+                ],
+                "value": "Total Revenue"
+              }
+            },
+            "description": "Predict the future values of a 2-var-TS, one of which is the target and the\n                    second is explaining variable.\n                    Provide non-symmetric confidence-interval for the above predictions.\n                    Var-Dependence (Score) - the strength of the influence of the explaining\n                    variable on the target one.\n                    XAI (model weights etc)",
+            "isCustomModel": false
+          },
+          {
+            "id": "local_estimates",
+            "name": "Local Estimate",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Locally (using before and after time series points) estimating the mean of the time series",
+            "isCustomModel": false
+          },
+          {
+            "id": "trend",
+            "name": "Trend",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Detect (if exists) Trend-Break-Points and connect those with a trend line",
+            "isCustomModel": false
+          }
+        ],
+        "previousScrollerLocation": {
+          "min": null,
+          "max": null
+        }
+      },
+      "script": "",
+      "displayMenu": true,
+      "custom": {
+        "barcolumnchart": {
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total",
+          "type": "chart/column",
+          "isTypeValid": true
+        }
+      },
+      "wasRendered": false,
+      "lastOpened": null,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "prevSortObjects": []
+    },
+    {
+      "title": "",
+      "type": "indicator",
+      "subtype": "indicator/numeric",
+      "oid": "6262bd25142df70036c21665",
+      "desc": null,
+      "source": "6581ad1b1a27b50040eca4c3",
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "database": "aSampleIAAaECommerce",
+        "fullname": "localhost/Sample ECommerce",
+        "live": false
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "value",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Revenue",
+                  "dim": "[Commerce.Revenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total Revenue"
+                },
+                "instanceid": "8C6FD-04F7-58",
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": false
+                    },
+                    "decimals": "auto",
+                    "currency": {
+                      "symbol": "$",
+                      "position": "pre"
+                    }
+                  },
+                  "color": {
+                    "colorIndex": 0,
+                    "type": "color"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "secondary",
+            "items": []
+          },
+          {
+            "name": "min",
+            "items": []
+          },
+          {
+            "name": "max",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "subtype": "simple",
+        "skin": "vertical",
+        "components": {
+          "title": {
+            "inactive": false,
+            "enabled": true
+          },
+          "icon": {
+            "inactive": true,
+            "enabled": true
+          },
+          "secondaryTitle": {
+            "inactive": true,
+            "enabled": true
+          }
+        },
+        "indicator/numeric": {
+          "subtype": "simple",
+          "skin": "vertical",
+          "components": {
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "icon": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        },
+        "indicator/gauge": {
+          "subtype": "round",
+          "skin": "1",
+          "components": {
+            "ticks": {
+              "inactive": false,
+              "enabled": true
+            },
+            "labels": {
+              "inactive": false,
+              "enabled": true
+            },
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": []
+        }
+      },
+      "instanceid": "4A3D1-BAAE-E8",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "wasRendered": false,
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": false,
+        "disallowSelector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "supportsHierarchies": false
+      },
+      "dashboardid": "62616ff2142df70036c213fe",
+      "script": "/*\nWelcome to your Widget's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at https://sisense.dev/guides/js/extensions\n*/\n\nwidget.on('ready', () => {\n\n\tconst titleElementEditMode = element.parent().find('.transput-holder');\n\tconst titleElementViewMode = element.parent().find('.widget-title__holder > widget-title');\n\t\n\ttitleElementEditMode.empty();\n\ttitleElementViewMode.empty();\n\n\ttitleElementEditMode.append('<a href=\"https://website.com\" target=\"_blank\" >Hyperlinked Title</a>'); \n\ttitleElementViewMode.append('<a href=\"https://website.com\" target=\"_blank\" >Hyperlinked Title</a>'); \n\n})",
+      "realTimeRefreshing": false
+    },
+    {
+      "title": "Rev",
+      "type": "indicator",
+      "subtype": "indicator/numeric",
+      "oid": "66842e2bb760c50033b23bb9",
+      "desc": null,
+      "source": "66842e2bb760c50033b23bba",
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "database": "aSampleIAAaECommerce",
+        "fullname": "localhost/Sample ECommerce",
+        "live": false
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "value",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Revenue",
+                  "dim": "[Commerce.Revenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total Revenue"
+                },
+                "instanceid": "09E77-907E-92",
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": false
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "abbreviateAll": false,
+                    "isdefault": true
+                  },
+                  "color": {
+                    "colorIndex": 0,
+                    "type": "color"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "secondary",
+            "items": []
+          },
+          {
+            "name": "min",
+            "items": []
+          },
+          {
+            "name": "max",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "subtype": "simple",
+        "skin": "vertical",
+        "components": {
+          "title": {
+            "inactive": false,
+            "enabled": true
+          },
+          "icon": {
+            "inactive": false,
+            "enabled": true
+          },
+          "secondaryTitle": {
+            "inactive": true,
+            "enabled": true
+          }
+        }
+      },
+      "instanceid": "B0E0B-46AA-2B",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "wasRendered": false,
+      "realTimeRefreshing": false,
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": false,
+        "disallowSelector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "supportsHierarchies": false
+      },
+      "dashboardid": "62616ff2142df70036c213fe"
+    }
+  ],
+  "hierarchies": [
+    {
+      "_id": "6453ddcc04305f0033acb309",
+      "title": "Country",
+      "alwaysIncluded": true,
+      "levels": [
+        {
+          "title": "Country",
+          "table": "Country",
+          "column": "Country",
+          "datatype": "text",
+          "dim": "[Country.Country]",
+          "index": 0,
+          "_id": "6453ddcb04305f0033acb308"
+        },
+        {
+          "title": "Category",
+          "table": "Category",
+          "column": "Category",
+          "datatype": "text",
+          "dim": "[Category.Category]",
+          "index": 1,
+          "_id": "6453ddd104305f0033acb30b"
+        },
+        {
+          "title": "Brand",
+          "table": "Brand",
+          "column": "Brand",
+          "datatype": "text",
+          "dim": "[Brand.Brand]",
+          "index": 2,
+          "_id": "6453ddd504305f0033acb30d"
+        }
+      ],
+      "cubeId": "6142d757c80a065ff5a24ccc",
+      "lastUpdated": "2024-07-22T13:59:09.440Z",
+      "serverAddress": "LocalHost",
+      "elasticubeTitle": "Sample ECommerce"
+    }
+  ]
+}

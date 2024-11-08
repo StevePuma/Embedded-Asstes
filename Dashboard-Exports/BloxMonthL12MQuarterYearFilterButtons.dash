@@ -1,0 +1,698 @@
+{
+  "oid": "61bc8ed498f8b514782a6bd7",
+  "allowChangeSubscription": false,
+  "dataExploration": false,
+  "datasource": {
+    "title": "Sample ECommerce",
+    "fullname": "LocalHost/Sample ECommerce",
+    "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+    "address": "LocalHost",
+    "database": "aSampleIAAaECommerce",
+    "oid": "01a38588-0027-4a30-8d94-06212032c59b"
+  },
+  "defaultFilters": [
+    {
+      "jaql": {
+        "table": "Commerce",
+        "column": "Date",
+        "dim": "[Commerce.Date (Calendar)]",
+        "datatype": "datetime",
+        "merged": true,
+        "title": "Months",
+        "level": "months",
+        "collapsed": true,
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce",
+          "oid": "01a38588-0027-4a30-8d94-06212032c59b"
+        },
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "E9D8C-AB13-8E",
+      "isCascading": false,
+      "disabled": false
+    },
+    {
+      "jaql": {
+        "table": "Commerce",
+        "column": "Date",
+        "dim": "[Commerce.Date (Calendar)]",
+        "datatype": "datetime",
+        "merged": true,
+        "title": "Quarters",
+        "level": "quarters",
+        "collapsed": true,
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce",
+          "oid": "01a38588-0027-4a30-8d94-06212032c59b"
+        },
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "6418B-1C7B-EA",
+      "isCascading": false,
+      "disabled": false
+    },
+    {
+      "jaql": {
+        "table": "Commerce",
+        "column": "Date",
+        "dim": "[Commerce.Date (Calendar)]",
+        "datatype": "datetime",
+        "merged": true,
+        "title": "Years",
+        "level": "years",
+        "collapsed": true,
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce",
+          "oid": "01a38588-0027-4a30-8d94-06212032c59b"
+        },
+        "filter": {
+          "last": {
+            "count": 1,
+            "offset": 0
+          }
+        }
+      },
+      "instanceid": "BD019-A5EA-B4",
+      "isCascading": false,
+      "disabled": false
+    }
+  ],
+  "desc": "",
+  "editing": false,
+  "filterToDatasourceMapping": {},
+  "filters": [
+    {
+      "jaql": {
+        "table": "Commerce",
+        "column": "Date",
+        "dim": "[Commerce.Date (Calendar)]",
+        "datatype": "datetime",
+        "merged": true,
+        "title": "Months",
+        "level": "months",
+        "collapsed": true,
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce",
+          "oid": "01a38588-0027-4a30-8d94-06212032c59b"
+        },
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "E9D8C-AB13-8E",
+      "isCascading": false,
+      "disabled": false
+    },
+    {
+      "jaql": {
+        "table": "Commerce",
+        "column": "Date",
+        "dim": "[Commerce.Date (Calendar)]",
+        "datatype": "datetime",
+        "merged": true,
+        "title": "Quarters",
+        "level": "quarters",
+        "collapsed": true,
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce",
+          "oid": "01a38588-0027-4a30-8d94-06212032c59b"
+        },
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "6418B-1C7B-EA",
+      "isCascading": false,
+      "disabled": false
+    },
+    {
+      "jaql": {
+        "table": "Commerce",
+        "column": "Date",
+        "dim": "[Commerce.Date (Calendar)]",
+        "datatype": "datetime",
+        "merged": true,
+        "title": "Years",
+        "level": "years",
+        "collapsed": true,
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce",
+          "oid": "01a38588-0027-4a30-8d94-06212032c59b"
+        },
+        "filter": {
+          "last": {
+            "count": 1,
+            "offset": 0
+          }
+        }
+      },
+      "instanceid": "BD019-A5EA-B4",
+      "isCascading": false,
+      "disabled": false
+    }
+  ],
+  "isPublic": null,
+  "layout": {
+    "instanceid": "BFF6E-FCFF-EF",
+    "type": "columnar",
+    "columns": [
+      {
+        "width": 100,
+        "cells": [
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 68,
+                    "maxHeight": 625,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "61bc8ed498f8b514782a6bd8",
+                    "height": 73
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 744,
+                "index": 0
+              }
+            ]
+          }
+        ],
+        "pxlWidth": 747,
+        "index": 0
+      }
+    ],
+    "container": {}
+  },
+  "original": null,
+  "parentFolder": "61c44b8583642f002bf1838b",
+  "previewLayout": [],
+  "script": "\n\n\t",
+  "settings": {
+    "autoUpdateOnFiltersChange": true
+  },
+  "source": "61c44ee283642f002bf18768",
+  "style": {
+    "palette": {
+      "name": "Vivid",
+      "colors": [
+        "#00cee6",
+        "#9b9bd7",
+        "#6EDA55",
+        "#fc7570",
+        "#fbb755",
+        "#218A8C"
+      ]
+    }
+  },
+  "subscription": {
+    "isDataChange": true,
+    "type": "onUpdate",
+    "schedule": "* * * * * *",
+    "timezone": 240,
+    "tzName": "America/New_York",
+    "context": {
+      "dashboardid": "61bc8ed498f8b514782a6bd7"
+    },
+    "active": false,
+    "executionPerDay": 1,
+    "reportType": {
+      "inline": true
+    },
+    "emailSettings": {
+      "isEmail": true,
+      "isPdf": false
+    },
+    "startAt": "2022-05-23",
+    "subscribe": false
+  },
+  "title": "Blox Month L12M Quarter Year Filter Buttons",
+  "type": "dashboard",
+  "lastOpened": null,
+  "filterRelations": [],
+  "widgets": [
+    {
+      "title": "",
+      "type": "BloX",
+      "subtype": "BloX",
+      "oid": "61bc8ed498f8b514782a6bd8",
+      "desc": null,
+      "source": "61c4518883642f002bf1958c",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce",
+        "oid": "01a38588-0027-4a30-8d94-06212032c59b"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "Items",
+            "items": []
+          },
+          {
+            "name": "Values",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "style": {
+        "currentCard": {
+          "style": "",
+          "script": "",
+          "title": "",
+          "showCarousel": true,
+          "body": [
+            {
+              "type": "Container",
+              "style": {
+                "background-color": ""
+              },
+              "items": [
+                {
+                  "type": "ColumnSet",
+                  "columns": [
+                    {
+                      "type": "Column",
+                      "items": [
+                        {
+                          "type": "ActionSet",
+                          "actions": [
+                            {
+                              "type": "Filters",
+                              "style": {},
+                              "title": "Month to Date",
+                              "data": {
+                                "filters": [
+                                  {
+                                    "filterName": "Months",
+                                    "filterJaql": {
+                                      "last": {
+                                        "count": 1,
+                                        "offset": 0
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "filterName": "Quarters",
+                                    "filterJaql": {
+                                      "explicit": false,
+                                      "multiSelection": true,
+                                      "all": true
+                                    }
+                                  },
+                                  {
+                                    "filterName": "Years",
+                                    "filterJaql": {
+                                      "explicit": false,
+                                      "multiSelection": true,
+                                      "all": true
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "type": "Filters",
+                              "style": {},
+                              "title": "Last 12 Months",
+                              "data": {
+                                "filters": [
+                                  {
+                                    "filterName": "Months",
+                                    "filterJaql": {
+                                      "last": {
+                                        "count": 12,
+                                        "offset": 0
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "filterName": "Quarters",
+                                    "filterJaql": {
+                                      "explicit": false,
+                                      "multiSelection": true,
+                                      "all": true
+                                    }
+                                  },
+                                  {
+                                    "filterName": "Years",
+                                    "filterJaql": {
+                                      "explicit": false,
+                                      "multiSelection": true,
+                                      "all": true
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "type": "Filters",
+                              "style": {},
+                              "title": "Quarter to Date",
+                              "data": {
+                                "filters": [
+                                  {
+                                    "filterName": "Quarters",
+                                    "filterJaql": {
+                                      "last": {
+                                        "count": 1,
+                                        "offset": 0
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "filterName": "Months",
+                                    "filterJaql": {
+                                      "explicit": false,
+                                      "multiSelection": true,
+                                      "all": true
+                                    }
+                                  },
+                                  {
+                                    "filterName": "Years",
+                                    "filterJaql": {
+                                      "explicit": false,
+                                      "multiSelection": true,
+                                      "all": true
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "type": "Filters",
+                              "style": {},
+                              "title": "Year to Date",
+                              "data": {
+                                "filters": [
+                                  {
+                                    "filterName": "Months",
+                                    "filterJaql": {
+                                      "explicit": false,
+                                      "multiSelection": true,
+                                      "all": true
+                                    }
+                                  },
+                                  {
+                                    "filterName": "Quarters",
+                                    "filterJaql": {
+                                      "explicit": false,
+                                      "multiSelection": true,
+                                      "all": true
+                                    }
+                                  },
+                                  {
+                                    "filterName": "Years",
+                                    "filterJaql": {
+                                      "last": {
+                                        "count": 1,
+                                        "offset": 0
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Column",
+                      "items": [
+                        {
+                          "type": "Container",
+                          "style": {
+                            "padding-right": "5%"
+                          },
+                          "items": [
+                            {
+                              "type": "TextBlock",
+                              "text": "Test Test",
+                              "size": "large",
+                              "color": "white",
+                              "horizontalAlignment": "right"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "currentConfig": {
+          "fontFamily": "Open Sans",
+          "fontSizes": {
+            "default": 16,
+            "small": 12,
+            "medium": 22,
+            "large": 32,
+            "extraLarge": 50
+          },
+          "fontWeights": {
+            "default": 400,
+            "light": 100,
+            "bold": 800
+          },
+          "containerStyles": {
+            "default": {
+              "backgroundColor": "#ffffff",
+              "foregroundColors": {
+                "default": {
+                  "normal": "#3A4356"
+                },
+                "white": {
+                  "normal": "#ffffff"
+                },
+                "grey": {
+                  "normal": "#9EA2AB"
+                },
+                "orange": {
+                  "normal": "#f2B900"
+                },
+                "yellow": {
+                  "normal": "#ffcb05"
+                },
+                "black": {
+                  "normal": "#000000"
+                },
+                "lightGreen": {
+                  "normal": "#93c0c0"
+                },
+                "green": {
+                  "normal": "#2BCC7F"
+                },
+                "red": {
+                  "normal": "#FA5656"
+                },
+                "accent": {
+                  "normal": "#2E89FC"
+                },
+                "good": {
+                  "normal": "#54a254"
+                },
+                "warning": {
+                  "normal": "#e69500"
+                },
+                "attention": {
+                  "normal": "#cc3300"
+                }
+              }
+            }
+          },
+          "imageSizes": {
+            "default": 40,
+            "small": 30,
+            "medium": 80,
+            "large": 120
+          },
+          "imageSet": {
+            "imageSize": "medium",
+            "maxImageHeight": 100
+          },
+          "actions": {
+            "color": "",
+            "backgroundColor": "#afe4ed",
+            "maxActions": 5,
+            "spacing": "small",
+            "buttonSpacing": 1,
+            "actionsOrientation": "horizontal",
+            "actionAlignment": "left",
+            "showCard": {
+              "actionMode": "inline",
+              "inlineTopMargin": 16,
+              "style": "default"
+            }
+          },
+          "spacing": {
+            "default": 15,
+            "small": 10,
+            "medium": 20,
+            "large": 30,
+            "extraLarge": 60,
+            "padding": 10
+          },
+          "separator": {
+            "lineThickness": 1,
+            "lineColor": "#D8D8D8"
+          },
+          "factSet": {
+            "title": {
+              "size": "default",
+              "color": "default",
+              "weight": "bold",
+              "warp": true
+            },
+            "value": {
+              "size": "default",
+              "color": "default",
+              "weight": "default",
+              "warp": true
+            },
+            "spacing": 20
+          },
+          "supportsInteractivity": true,
+          "imageBaseUrl": "",
+          "height": 73
+        },
+        "currentCardName": "Stock Market",
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": []
+        }
+      },
+      "instanceid": "6345B-C338-68",
+      "script": "/*\nvar ChooseYourHighlightColor = '#00CEE6';\nwidget.on('ready',function(widget, args){\n\n\t\n//$(element).parent().css('width', '200%');\n\n\t\t\n\tvar dashboardFilters2 = widget.dashboard.filters.$$items[1].jaql.filter.last;\n\t\tif ( typeof  dashboardFilters2  != \"undefined\") {\n    $('button.btn:contains('+'Quarter'+')').css({\n  transition : 'background-color 1s ease-in-out', \"background-color\": ChooseYourHighlightColor\n  });\n}\n\t\t\n\t\tvar dashboardFilters3 = widget.dashboard.filters.$$items[2].jaql.filter.last;\n\t\tif (typeof  dashboardFilters3  != \"undefined\") {\n    $('button.btn:contains('+'Year'+')').css({\n  transition : 'background-color 1s ease-in-out', \"background-color\": ChooseYourHighlightColor\n  });\n}\n\n\t\n\t\tvar dashboardFilters0 = widget.dashboard.filters.$$items[0].jaql.filter.last.count;\n\t\tif ( dashboardFilters0  ==1) {\n    $('button.btn:contains('+'Month to Date'+')').css({\n  transition : 'background-color 1s ease-in-out', \"background-color\": ChooseYourHighlightColor\n  });\n}\n\n\t\t\n\tvar dashboardFilters1 = widget.dashboard.filters.$$items[0].jaql.filter.last.count;\n\t\tif ( dashboardFilters1  ==12) {\n    $('button.btn:contains('+'12'+')').css({\n  transition : 'background-color 1s ease-in-out', \"background-color\": ChooseYourHighlightColor\n  });\n}\n\t\n\n\n});\n*/",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 4,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "wasRendered": false,
+      "displayMenu": false,
+      "custom": {
+        "barcolumnchart": {
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total",
+          "type": "BloX",
+          "isTypeValid": false
+        }
+      },
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "title": false,
+        "drillTarget": "dummy",
+        "autoUpdateOnEveryChange": true,
+        "triggersDomready": true
+      },
+      "dashboardid": "61bc8ed498f8b514782a6bd7",
+      "query": {
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce",
+          "oid": "01a38588-0027-4a30-8d94-06212032c59b"
+        },
+        "format": "json",
+        "isMaskedResult": true,
+        "metadata": [],
+        "m2mThresholdFlag": 0
+      },
+      "drilledDashboardDisplay": {}
+    }
+  ],
+  "hierarchies": []
+}

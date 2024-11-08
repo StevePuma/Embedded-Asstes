@@ -1,0 +1,1415 @@
+{
+  "oid": "61bbb90a98f8b514782a6409",
+  "allowChangeSubscription": false,
+  "datasource": {
+    "title": "Sample ECommerce",
+    "fullname": "LocalHost/Sample ECommerce",
+    "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+    "address": "LocalHost",
+    "database": "aSampleIAAaECommerce",
+    "oid": "01a38588-0027-4a30-8d94-06212032c59b"
+  },
+  "defaultFilters": null,
+  "desc": "",
+  "editing": false,
+  "isPublic": null,
+  "layout": {
+    "instanceid": "E82A7-BA42-E3",
+    "type": "columnar",
+    "columns": [
+      {
+        "width": 100,
+        "cells": [
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "height": 128,
+                    "defaultWidth": 128,
+                    "widgetid": "61bbb90a98f8b514782a640b"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1449,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 1028,
+                    "height": 192,
+                    "minWidth": 48,
+                    "maxWidth": 1028,
+                    "defaultWidth": 512,
+                    "widgetid": "61bbb90a98f8b514782a640a"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1449,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 96,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": 384,
+                    "defaultWidth": 512,
+                    "widgetid": "61bbb90a98f8b514782a640c"
+                  }
+                ],
+                "width": 50,
+                "stretchable": false,
+                "pxlWidth": 725,
+                "index": 0
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 96,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": 384,
+                    "defaultWidth": 512,
+                    "widgetid": "61bbb90a98f8b514782a640d"
+                  }
+                ],
+                "width": 50,
+                "stretchable": false,
+                "pxlWidth": 724,
+                "index": 1
+              }
+            ]
+          }
+        ],
+        "pxlWidth": 1449,
+        "index": 0
+      }
+    ]
+  },
+  "original": null,
+  "parentFolder": "61c44b8983642f002bf183b3",
+  "previewLayout": [],
+  "script": "/*\nWelcome to your Dashboard's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at http://developer.sisense.com/pages/viewpage.action?pageId=557127\n*/\n\n\ndashboard.on('initialized', function(dashboard, ev){\n\t\n\t//Set below variable to change refresh interval (Mili Seconds)\n    var refreshIntervalMiliSec = 10000;\n\t\n    var refreshDashboard = function(){\n        dashboard.refresh();\n\t\tsetTimeout(refreshDashboard, refreshIntervalMiliSec);\n    }\n    setTimeout(refreshDashboard, refreshIntervalMiliSec);\n})",
+  "settings": {
+    "autoUpdateOnFiltersChange": true
+  },
+  "source": "61c44f0483642f002bf18930",
+  "style": {
+    "palette": {
+      "name": "Vivid",
+      "colors": [
+        "#00cee6",
+        "#9b9bd7",
+        "#6EDA55",
+        "#fc7570",
+        "#fbb755",
+        "#218A8C"
+      ]
+    }
+  },
+  "subscription": null,
+  "title": "Dashboard - Auto Refresh",
+  "type": "dashboard",
+  "lastOpened": null,
+  "widgets": [
+    {
+      "title": "",
+      "type": "chart/column",
+      "subtype": "column/classic",
+      "oid": "61bbb90a98f8b514782a640c",
+      "desc": null,
+      "source": "61c44f0483642f002bf18937",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce",
+        "oid": "01a38588-0027-4a30-8d94-06212032c59b"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "categories",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Age Range",
+                  "dim": "[Commerce.Age Range]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Age Range"
+                }
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Revenue",
+                  "dim": "[Commerce.Revenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total Revenue"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "color": "#00cee6",
+                    "type": "color"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "break by",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "style": {
+        "legend": {
+          "enabled": true,
+          "position": "bottom"
+        },
+        "seriesLabels": {
+          "enabled": false,
+          "rotation": 0,
+          "labels": {
+            "enabled": false,
+            "types": {
+              "count": false,
+              "percentage": false,
+              "relative": false,
+              "totals": false
+            },
+            "stacked": false,
+            "stackedPercentage": false
+          }
+        },
+        "xAxis": {
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "x2Title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "isIntervalEnabled": false
+        },
+        "yAxis": {
+          "inactive": false,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "logarithmic": false,
+          "isIntervalEnabled": true,
+          "hideMinMax": false
+        },
+        "y2Axis": {
+          "inactive": true,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": false,
+          "logarithmic": false,
+          "isIntervalEnabled": true,
+          "hideMinMax": false
+        },
+        "navigator": {
+          "enabled": true
+        },
+        "dataLimits": {
+          "seriesCapacity": 50,
+          "categoriesCapacity": 100000
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "age_range",
+              "title": "Age Range",
+              "singular": "Age Range",
+              "plural": "Age Range"
+            }
+          ]
+        }
+      },
+      "instanceid": "F8E66-2E05-54",
+      "dashboardid": "61bbb90a98f8b514782a6409",
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "drillToAnywhere": true,
+        "previousScrollerLocation": {
+          "min": 0,
+          "max": 6
+        }
+      },
+      "wasRendered": false,
+      "displayMenu": true,
+      "custom": {
+        "barcolumnchart": {
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total",
+          "type": "chart/column",
+          "isTypeValid": true
+        }
+      }
+    },
+    {
+      "title": "",
+      "type": "indicator",
+      "subtype": "indicator/numeric",
+      "oid": "61bbb90a98f8b514782a640a",
+      "desc": null,
+      "source": "61c44f0483642f002bf18936",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce",
+        "oid": "01a38588-0027-4a30-8d94-06212032c59b"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "value",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Cost",
+                  "dim": "[Commerce.Cost]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total Cost"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": false
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "color": "#00cee6",
+                    "type": "color"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "secondary",
+            "items": []
+          },
+          {
+            "name": "min",
+            "items": []
+          },
+          {
+            "name": "max",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "style": {
+        "subtype": "simple",
+        "skin": "vertical",
+        "components": {
+          "title": {
+            "inactive": false,
+            "enabled": true
+          },
+          "icon": {
+            "inactive": true,
+            "enabled": true
+          },
+          "secondaryTitle": {
+            "inactive": true,
+            "enabled": true
+          }
+        },
+        "indicator/numeric": {
+          "subtype": "simple",
+          "skin": "vertical",
+          "components": {
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "icon": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        },
+        "indicator/gauge": {
+          "subtype": "round",
+          "skin": "1",
+          "components": {
+            "ticks": {
+              "inactive": false,
+              "enabled": true
+            },
+            "labels": {
+              "inactive": false,
+              "enabled": true
+            },
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": []
+        }
+      },
+      "instanceid": "05FF4-6CA9-C5",
+      "indicatorInstance": {
+        "container": {},
+        "_optionsMap": {
+          "numericSimple": {
+            "fontFamily": "opensansregular, sans-serif",
+            "title": {
+              "color": "rgb(68, 81, 102)",
+              "fontSizes": {
+                "big": 22,
+                "medium": 18,
+                "small": 15,
+                "micro": 12
+              }
+            },
+            "value": {
+              "fontSizes": {
+                "big": 66,
+                "medium": 46,
+                "small": 32,
+                "micro": 23
+              }
+            },
+            "secondaryTitle": {
+              "color": "rgb(163, 163, 163)",
+              "fontSizes": {
+                "big": 20,
+                "medium": 14,
+                "small": 10,
+                "micro": 10
+              }
+            },
+            "secondaryValue": {
+              "fontWeight": 800,
+              "color": "rgb(163, 163, 163)",
+              "fontSizes": {
+                "big": 20,
+                "medium": 14,
+                "small": 10,
+                "micro": 10
+              }
+            },
+            "textKeys": [
+              "title",
+              "value",
+              "secondaryTitle",
+              "secondaryValue"
+            ],
+            "backgroundColor": "rgb(255, 255, 255)",
+            "borderColor": "rgb(215, 215, 215)",
+            "borderWidth": 1,
+            "relativeSizes": [
+              {
+                "key": "titleSectionHeight",
+                "value": 0.5,
+                "decimals": 0
+              },
+              {
+                "key": "titleSectionMarginTop",
+                "value": 0.13,
+                "decimals": 0
+              },
+              {
+                "key": "titleSectionMinWidth",
+                "value": 0.29,
+                "decimals": 0
+              },
+              {
+                "key": "numericMinWidth",
+                "value": 4.69,
+                "decimals": 0
+              },
+              {
+                "key": "valueSectionHeight",
+                "value": 1,
+                "decimals": 0
+              },
+              {
+                "key": "valueSectionMarginRight",
+                "value": 0.14,
+                "decimals": 0
+              },
+              {
+                "key": "valueSectionMarginBottom",
+                "value": 0.07,
+                "decimals": 0
+              },
+              {
+                "key": "secSectionHeight",
+                "value": 0.34,
+                "decimals": 0
+              },
+              {
+                "key": "secSectionMarginTop",
+                "value": 0.14,
+                "decimals": 0
+              },
+              {
+                "key": "secDividerWidth",
+                "value": 0.14,
+                "decimals": 0
+              },
+              {
+                "key": "secTitleMinWidth",
+                "value": 0.29,
+                "decimals": 0
+              },
+              {
+                "key": "indicatorHorizontalMargin",
+                "value": 0.31,
+                "decimals": 0
+              },
+              {
+                "key": "indicatorVerticalMargin",
+                "value": 0.46,
+                "decimals": 0
+              }
+            ],
+            "measureKeys": [
+              "indicatorMargin",
+              "numericMinWidth",
+              "titleSectionHeight",
+              "secSectionHeight",
+              "valueSectionMarginBottom",
+              "secSectionMarginTop",
+              "indicatorHorizontalMargin",
+              "indicatorVerticalMargin"
+            ],
+            "sizes": [
+              {
+                "size": "big",
+                "value": 70,
+                "maxWidth": 1395,
+                "maxHeight": 777
+              },
+              {
+                "size": "medium",
+                "value": 49
+              },
+              {
+                "size": "small",
+                "value": 34
+              },
+              {
+                "size": "micro",
+                "value": 24
+              }
+            ],
+            "fitMeasures": [
+              {
+                "key": "fitTitleMeasure",
+                "prop": "string",
+                "dataKey": "title"
+              },
+              {
+                "key": "fitValueMeasure",
+                "prop": "string",
+                "dataKey": "value"
+              },
+              {
+                "key": "fitSecondaryMeasure",
+                "prop": "titleString",
+                "dataKey": "secondaryTitle"
+              },
+              {
+                "key": "fitSecondaryMeasure",
+                "prop": "valueString",
+                "dataKey": "secondary"
+              }
+            ]
+          },
+          "numericBar": {
+            "fontFamily": "opensansregular, sans-serif",
+            "title": {
+              "color": "rgb(68, 81, 102)",
+              "fontSizes": {
+                "big": 22,
+                "medium": 18,
+                "small": 15,
+                "micro": 12
+              }
+            },
+            "value": {
+              "color": "rgb(255, 255, 255)",
+              "fontSizes": {
+                "big": 45,
+                "medium": 31,
+                "small": 22,
+                "micro": 15
+              }
+            },
+            "secondaryTitle": {
+              "color": "rgb(163, 163, 163)",
+              "fontSizes": {
+                "big": 20,
+                "medium": 14,
+                "small": 10,
+                "micro": 10
+              }
+            },
+            "secondaryValue": {
+              "fontWeight": 800,
+              "color": "rgb(163, 163, 163)",
+              "fontSizes": {
+                "big": 20,
+                "medium": 14,
+                "small": 10,
+                "micro": 10
+              }
+            },
+            "textKeys": [
+              "title",
+              "value",
+              "secondaryTitle",
+              "secondaryValue"
+            ],
+            "backgroundColor": "rgb(255, 255, 255)",
+            "bracketColor": "rgb(198, 198, 198)",
+            "bracketThickness": 1,
+            "relativeSizes": [
+              {
+                "key": "titleSectionHeight",
+                "value": 1,
+                "decimals": 0
+              },
+              {
+                "key": "titleHorizontalMargin",
+                "value": 0.16,
+                "decimals": 0
+              },
+              {
+                "key": "numericMinWidth",
+                "value": 4.69,
+                "decimals": 0
+              },
+              {
+                "key": "valueSectionHeight",
+                "value": 1,
+                "decimals": 0
+              },
+              {
+                "key": "secSectionHeight",
+                "value": 1,
+                "decimals": 0
+              },
+              {
+                "key": "secBottomMargin",
+                "value": 0.14,
+                "decimals": 0
+              },
+              {
+                "key": "secDividerWidth",
+                "value": 0.14,
+                "decimals": 0
+              },
+              {
+                "key": "secTitleMinWidth",
+                "value": 0.29,
+                "decimals": 0
+              },
+              {
+                "key": "bracketWidth",
+                "value": 0.21,
+                "decimals": 0
+              },
+              {
+                "key": "indicatorMargin",
+                "value": 0.64,
+                "decimals": 0
+              }
+            ],
+            "measureKeys": [
+              "indicatorMargin",
+              "numericMinWidth",
+              "bracketWidth",
+              "titleSectionHeight",
+              "secSectionHeight"
+            ],
+            "sizes": [
+              {
+                "size": "big",
+                "value": 70
+              },
+              {
+                "size": "medium",
+                "value": 49
+              },
+              {
+                "size": "small",
+                "value": 34
+              },
+              {
+                "size": "micro",
+                "value": 24
+              }
+            ]
+          },
+          "gauge": {
+            "fontFamily": "opensansregular, sans-serif",
+            "title": {
+              "color": "rgb(68, 81, 102)",
+              "fontSizes": {
+                "big": 22,
+                "medium": 18,
+                "small": 15,
+                "micro": 12
+              }
+            },
+            "value": {
+              "color": "rgb(255, 255, 255)",
+              "fontSizes": {
+                "big": 45,
+                "medium": 31,
+                "small": 22,
+                "micro": 15
+              }
+            },
+            "secondaryTitle": {
+              "color": "rgb(163, 163, 163)",
+              "fontSizes": {
+                "big": 20,
+                "medium": 14,
+                "small": 10,
+                "micro": 10
+              }
+            },
+            "secondaryValue": {
+              "fontWeight": 800,
+              "color": "rgb(163, 163, 163)",
+              "fontSizes": {
+                "big": 20,
+                "medium": 14,
+                "small": 10,
+                "micro": 10
+              }
+            },
+            "label": {
+              "color": "rgb(68, 81, 102)",
+              "fontSizes": {
+                "big": 18,
+                "medium": 13,
+                "small": 9,
+                "micro": 9
+              }
+            },
+            "textKeys": [
+              "title",
+              "value",
+              "secondaryTitle",
+              "secondaryValue",
+              "label"
+            ],
+            "backgroundColor": "rgb(255, 255, 255)",
+            "tickColor": "rgb(0, 0, 0)",
+            "needleColor": "rgb(43, 51, 66)",
+            "bracketColor": "rgb(198, 198, 198)",
+            "defaultDialColor": "rgb(179, 179, 179)",
+            "gaugeOpacity": 0.5,
+            "startAngle": 20,
+            "endAngle": 160,
+            "overDegrees": 5,
+            "tickDegreesIncrement": 10,
+            "bracketThickness": 1,
+            "relativeSizes": [
+              {
+                "key": "titleSectionHeight",
+                "value": 0.26,
+                "decimals": 0
+              },
+              {
+                "key": "titleHorizontalMargin",
+                "value": 0.08,
+                "decimals": 0
+              },
+              {
+                "key": "titleBottomMargin",
+                "value": 0.1,
+                "decimals": 0
+              },
+              {
+                "key": "gaugeWidth",
+                "value": 1.33,
+                "decimals": 0
+              },
+              {
+                "key": "gaugeBottomMargin",
+                "value": 0.19,
+                "decimals": 0
+              },
+              {
+                "key": "outerArcRadius",
+                "value": 0.63,
+                "decimals": 0
+              },
+              {
+                "key": "innerArcRadius",
+                "dataKey": "skin",
+                "values": {
+                  "1": 0.24,
+                  "2": 0.51
+                },
+                "decimals": 0
+              },
+              {
+                "key": "lengthToTick",
+                "value": 0.7,
+                "decimals": 0
+              },
+              {
+                "key": "tickRadius",
+                "value": 0.01,
+                "decimals": 1
+              },
+              {
+                "key": "needleLength",
+                "dataKey": "skin",
+                "values": {
+                  "1": 0.52,
+                  "2": 0.58
+                },
+                "decimals": 0
+              },
+              {
+                "key": "needleBaseRadius",
+                "value": 0.04,
+                "decimals": 0
+              },
+              {
+                "key": "labelMargin",
+                "value": 0.26,
+                "decimals": 0
+              },
+              {
+                "key": "valueSectionHeight",
+                "value": 0.36,
+                "decimals": 0
+              },
+              {
+                "key": "secSectionHeight",
+                "value": 0.36,
+                "decimals": 0
+              },
+              {
+                "key": "secBottomMargin",
+                "value": 0.05,
+                "decimals": 0
+              },
+              {
+                "key": "secDividerWidth",
+                "value": 0.05,
+                "decimals": 0
+              },
+              {
+                "key": "secTitleMinWidth",
+                "value": 0.1,
+                "decimals": 0
+              },
+              {
+                "key": "bracketWidth",
+                "value": 0.08,
+                "decimals": 0
+              },
+              {
+                "key": "indicatorMargin",
+                "value": 0.14,
+                "decimals": 0
+              }
+            ],
+            "gaugeHeights": [
+              {
+                "size": "big",
+                "value": 192
+              },
+              {
+                "size": "medium",
+                "value": 134
+              },
+              {
+                "size": "small",
+                "value": 94
+              },
+              {
+                "size": "micro",
+                "value": 66
+              }
+            ],
+            "measureKeys": [
+              "indicatorMargin",
+              "gaugeWidth",
+              "bracketWidth",
+              "titleSectionHeight",
+              "valueSectionHeight",
+              "secSectionHeight"
+            ]
+          },
+          "ticker": {
+            "fontFamily": "opensansregular, sans-serif",
+            "fontSize": 15,
+            "title": {
+              "color": "rgb(68, 81, 102)"
+            },
+            "value": {
+              "fontWeight": 800
+            },
+            "secondaryTitle": {
+              "color": "rgb(163, 163, 163)"
+            },
+            "secondaryValue": {
+              "color": "rgb(163, 163, 163)"
+            },
+            "textKeys": [
+              "title",
+              "value",
+              "secondaryTitle",
+              "secondaryValue"
+            ],
+            "backgroundColor": "rgb(255, 255, 255)",
+            "dividerColor": "rgb(39, 42, 52)",
+            "barHandleColor": "rgb(43, 51, 66)",
+            "height": 35,
+            "horizontalMargin": 15,
+            "barWidth": 100,
+            "barHeight": 11,
+            "barOpacity": 0.5,
+            "tickerBarWidth": 2,
+            "tickerBarHeight": 13,
+            "horizontalPadding": 9,
+            "textPadding": 6,
+            "sectionMinWidth": 20,
+            "dividerWidth": 1,
+            "dividerHeight": 13
+          }
+        },
+        "_dataMap": {
+          "numericSimple": {
+            "type": "numericSimple",
+            "skin": "vertical",
+            "title": {
+              "text": "Total Cost"
+            },
+            "min": {
+              "data": 0,
+              "text": "0"
+            },
+            "max": {
+              "data": 100,
+              "text": "100"
+            },
+            "color": "#00cee6",
+            "value": {
+              "data": 107272538.99573399,
+              "text": "107,27M"
+            },
+            "showTitle": true
+          }
+        },
+        "type": "numericSimple"
+      },
+      "dashboardid": "61bbb90a98f8b514782a6409",
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": false,
+        "disallowSelector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "supportsHierarchies": false
+      },
+      "displayMenu": false,
+      "custom": {
+        "barcolumnchart": {
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total",
+          "type": "indicator",
+          "isTypeValid": false
+        }
+      },
+      "wasRendered": false
+    },
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "61bbb90a98f8b514782a640b",
+      "desc": null,
+      "source": "61c44f0483642f002bf18935",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce",
+        "oid": "01a38588-0027-4a30-8d94-06212032c59b"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": []
+      },
+      "dashboardid": "61bbb90a98f8b514782a6409",
+      "instanceid": "3E566-1BB8-4B",
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "style": {
+        "content": {
+          "html": "<div style=\"text-align: left;\"><font size=\"6\">Dashboard script to make the dashboard auto refresh every x seconds.</font></div><span style=\"font-size: 24px;\"><div style=\"text-align: left;\">Created by Eli</div><div style=\"text-align: left;\">Source:&nbsp;<a href=\"https://support.sisense.com/hc/en-us/community/posts/221227028-Dashboard-Auto-Refresh\">https://support.sisense.com/hc/en-us/community/posts/221227028-Dashboard-Auto-Refresh</a></div></span>",
+          "vAlign": "valign-middle",
+          "bgColor": "#FFFFFF",
+          "textAlign": "center"
+        }
+      }
+    },
+    {
+      "title": "",
+      "type": "chart/line",
+      "subtype": "line/basic",
+      "oid": "61bbb90a98f8b514782a640d",
+      "desc": null,
+      "source": "61c44f0483642f002bf18938",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce",
+        "oid": "01a38588-0027-4a30-8d94-06212032c59b"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "x-axis",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Date",
+                  "dim": "[Commerce.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "years",
+                  "title": "Years in Date",
+                  "fiscal": "jun"
+                },
+                "format": {
+                  "mask": {
+                    "years": "FY yyyy",
+                    "quarters": "FY yyyy Q",
+                    "months": "MM/yyyy FY",
+                    "weeks": "ww FY yyyy",
+                    "days": "MM/dd/yyyy FY",
+                    "minutes": "HH:mm",
+                    "isdefault": true
+                  }
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Revenue",
+                  "dim": "[Commerce.Revenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total Revenue"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "color": "#00cee6",
+                    "type": "color"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "break by",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "style": {
+        "lineWidth": {
+          "width": "bold"
+        },
+        "legend": {
+          "enabled": true,
+          "position": "bottom"
+        },
+        "seriesLabels": {
+          "enabled": false,
+          "rotation": 0
+        },
+        "markers": {
+          "enabled": false,
+          "fill": "filled",
+          "size": "small"
+        },
+        "xAxis": {
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "x2Title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "isIntervalEnabled": false
+        },
+        "yAxis": {
+          "inactive": false,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "logarithmic": false,
+          "isIntervalEnabled": true
+        },
+        "y2Axis": {
+          "inactive": true,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": false,
+          "logarithmic": false,
+          "isIntervalEnabled": true
+        },
+        "navigator": {
+          "enabled": true
+        },
+        "dataLimits": {
+          "seriesCapacity": 50,
+          "categoriesCapacity": 100000
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "years",
+              "title": "years",
+              "singular": "years",
+              "plural": "years"
+            }
+          ]
+        }
+      },
+      "instanceid": "52E6B-48A4-A2",
+      "dashboardid": "61bbb90a98f8b514782a6409",
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "drillToAnywhere": true,
+        "previousScrollerLocation": {
+          "min": 0,
+          "max": 4
+        }
+      },
+      "wasRendered": false,
+      "displayMenu": false,
+      "custom": {
+        "barcolumnchart": {
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total",
+          "type": "chart/line",
+          "isTypeValid": false
+        }
+      }
+    }
+  ],
+  "hierarchies": [
+    {
+      "_id": "5e1df3c7d0c67e1ae07f1b28",
+      "title": "Age Range",
+      "alwaysIncluded": true,
+      "levels": [
+        {
+          "title": "Age Range",
+          "table": "Commerce",
+          "column": "Age Range",
+          "datatype": "text",
+          "dim": "[Commerce.Age Range]",
+          "index": 0,
+          "_id": "5e1df3c7d0c67e1ae07f1b27"
+        },
+        {
+          "title": "Brand",
+          "table": "Brand",
+          "column": "Brand",
+          "datatype": "text",
+          "dim": "[Brand.Brand]",
+          "index": 1,
+          "_id": "5f7dac8d83916d210422a29f"
+        }
+      ],
+      "cubeId": "6142d757c80a065ff5a24ccc",
+      "lastUpdated": "2023-12-17T10:23:52.992Z",
+      "serverAddress": "LocalHost",
+      "elasticubeTitle": "Sample ECommerce"
+    },
+    {
+      "_id": "5cbefc68bbb1712fe8ef043c",
+      "title": "Age Range (1)",
+      "alwaysIncluded": true,
+      "levels": [
+        {
+          "title": "Age Range",
+          "table": "Commerce",
+          "column": "Age Range",
+          "datatype": "text",
+          "dim": "[Commerce.Age Range]",
+          "index": 0,
+          "_id": "5cbefc68bbb1712fe8ef043b"
+        },
+        {
+          "title": "Gender",
+          "table": "Commerce",
+          "column": "Gender",
+          "datatype": "text",
+          "dim": "[Commerce.Gender]",
+          "index": 1,
+          "_id": "5cbefc6cbbb1712fe8ef043e"
+        }
+      ],
+      "cubeId": "6142d757c80a065ff5a24ccc",
+      "lastUpdated": "2023-12-17T10:23:52.992Z",
+      "serverAddress": "LocalHost",
+      "elasticubeTitle": "Sample ECommerce"
+    },
+    {
+      "_id": "5d6796518cb5d40ab82aa918",
+      "title": "Age Range (1)",
+      "alwaysIncluded": true,
+      "levels": [
+        {
+          "title": "Age Range",
+          "table": "Commerce",
+          "column": "Age Range",
+          "datatype": "text",
+          "dim": "[Commerce.Age Range]",
+          "index": 0,
+          "_id": "5d6796518cb5d40ab82aa917"
+        },
+        {
+          "title": "Cost",
+          "table": "Commerce",
+          "column": "Cost",
+          "datatype": "numeric",
+          "dim": "[Commerce.Cost]",
+          "index": 1,
+          "_id": "5d6796558cb5d40ab82aa91a"
+        }
+      ],
+      "cubeId": "6142d757c80a065ff5a24ccc",
+      "lastUpdated": "2023-12-17T10:23:52.992Z",
+      "serverAddress": "LocalHost",
+      "elasticubeTitle": "Sample ECommerce"
+    }
+  ]
+}

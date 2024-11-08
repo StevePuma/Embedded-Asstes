@@ -1,0 +1,1138 @@
+{
+  "oid": "626b8894142df70036c22277",
+  "dataExploration": false,
+  "datasource": {
+    "fullname": "localhost/Sample ECommerce",
+    "id": "localhost_aSampleIAAaECommerce",
+    "address": "LocalHost",
+    "database": "aSampleIAAaECommerce",
+    "live": false,
+    "title": "Sample ECommerce"
+  },
+  "defaultFilters": [],
+  "desc": "",
+  "editing": false,
+  "filters": [],
+  "lastOpened": null,
+  "layout": {
+    "columns": [
+      {
+        "width": 100,
+        "cells": [
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 102,
+                    "maxHeight": 1024,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": "64px",
+                    "defaultWidth": 512,
+                    "widgetid": "626b88aa142df70036c2227b"
+                  }
+                ],
+                "index": 0,
+                "stretchable": false,
+                "width": 100,
+                "pxlWidth": 1208
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 102,
+                    "maxHeight": 1024,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": "36px",
+                    "defaultWidth": 512,
+                    "widgetid": "626b88c8142df70036c22280"
+                  }
+                ],
+                "index": 0,
+                "stretchable": false,
+                "width": 50,
+                "pxlWidth": 604
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "defaultWidth": 128,
+                    "widgetid": "626b88eb142df70036c22285",
+                    "height": "36px"
+                  }
+                ],
+                "width": 50,
+                "stretchable": false,
+                "pxlWidth": 604,
+                "index": 1
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 96,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "626b891c142df70036c22289",
+                    "height": 512
+                  }
+                ],
+                "width": 50,
+                "stretchable": false,
+                "pxlWidth": 604,
+                "index": 0
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 96,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "626b89c3142df70036c22293",
+                    "height": 512
+                  }
+                ],
+                "width": 50
+              }
+            ]
+          }
+        ],
+        "pxlWidth": 1208,
+        "index": 0
+      }
+    ],
+    "instanceid": "CA1E0-9AB2-AE",
+    "type": "columnar",
+    "container": {
+      "sizzle1651214295616": {
+        "undefined": {
+          "parentNode": [
+            98998.77658927218,
+            47,
+            true
+          ]
+        }
+      }
+    }
+  },
+  "original": null,
+  "parentFolder": "61c44b8883642f002bf183a7",
+  "settings": {
+    "autoUpdateOnFiltersChange": true
+  },
+  "source": "626b8894142df70036c22278",
+  "style": {
+    "palette": {
+      "name": "Vivid",
+      "colors": [
+        "#00cee6",
+        "#9b9bd7",
+        "#6EDA55",
+        "#fc7570",
+        "#fbb755",
+        "#218A8C"
+      ]
+    }
+  },
+  "title": "Line Chart - Line Conditional Formatting",
+  "type": "dashboard",
+  "allowChangeSubscription": false,
+  "subscription": {
+    "isDataChange": true,
+    "type": "onUpdate",
+    "schedule": "* * * * * *",
+    "timezone": -180,
+    "tzName": "Asia/Jerusalem",
+    "context": {
+      "dashboardid": "626b8894142df70036c22277"
+    },
+    "active": false,
+    "executionPerDay": 1,
+    "reportType": {
+      "inline": true
+    },
+    "emailSettings": {
+      "isEmail": true,
+      "isPdf": false
+    },
+    "startAt": "2022-04-29",
+    "subscribe": false
+  },
+  "isPublic": null,
+  "previewLayout": [],
+  "widgets": [
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "626b88c8142df70036c22280",
+      "desc": null,
+      "source": "626b88c8142df70036c22281",
+      "datasource": {
+        "fullname": "localhost/Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce",
+        "live": false,
+        "title": "Sample ECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": []
+      },
+      "style": {
+        "content": {
+          "html": "<font size=\"5\">Before</font>",
+          "vAlign": "valign-middle",
+          "bgColor": "#FFFFFF",
+          "textAlign": "center"
+        }
+      },
+      "instanceid": "06F5B-F90E-5D",
+      "wasRendered": false,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "dashboardid": "626b8894142df70036c22277"
+    },
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "626b88eb142df70036c22285",
+      "desc": null,
+      "source": "626b88eb142df70036c22286",
+      "datasource": {
+        "fullname": "localhost/Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce",
+        "live": false,
+        "title": "Sample ECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": []
+      },
+      "style": {
+        "content": {
+          "html": "<font size=\"5\">After</font>",
+          "vAlign": "valign-middle",
+          "bgColor": "#FFFFFF",
+          "textAlign": "center"
+        }
+      },
+      "instanceid": "06F5B-F90E-5D",
+      "wasRendered": false,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "dashboardid": "626b8894142df70036c22277"
+    },
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "626b88aa142df70036c2227b",
+      "desc": null,
+      "source": "626b88aa142df70036c2227c",
+      "datasource": {
+        "fullname": "localhost/Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce",
+        "live": false,
+        "title": "Sample ECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": []
+      },
+      "style": {
+        "content": {
+          "html": "<font size=\"5\"><font size=\"5\">Creator: Ophir Buchman</font><br></font><p style=\"color: rgb(33, 35, 34); font-family: &quot;Open Sans&quot;, sans-serif; font-size: 14px;\">When creating a line chart, you might want it to color differently for values below the threshold.</p><font color=\"#1faff3\"><span style=\"font-size: 12.5px;\">https://community.sisense.com/t5/build-analytics/line-chart-line-conditional-formatting/td-p/3105</span></font><br>",
+          "vAlign": "valign-middle",
+          "bgColor": "#FFFFFF",
+          "textAlign": "left"
+        }
+      },
+      "instanceid": "D0DE8-95DB-00",
+      "wasRendered": false,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "dashboardid": "626b8894142df70036c22277"
+    },
+    {
+      "title": "",
+      "type": "chart/line",
+      "subtype": "line/basic",
+      "oid": "626b891c142df70036c22289",
+      "desc": null,
+      "source": "626b891c142df70036c2228a",
+      "datasource": {
+        "fullname": "localhost/Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce",
+        "live": false,
+        "title": "Sample ECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "x-axis",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Date",
+                  "dim": "[Commerce.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "months",
+                  "title": "Months in Date"
+                },
+                "panel": "rows",
+                "field": {
+                  "id": "[Commerce.Date (Calendar)]_years",
+                  "index": 0
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "isdefault": true
+                  }
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ],
+                "instanceid": "42D79-8EA3-E5"
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "[F2012-5AD]*100-14.8",
+                  "context": {
+                    "[F2012-5AD]": {
+                      "table": "Commerce",
+                      "column": "Quantity",
+                      "dim": "[Commerce.Quantity]",
+                      "datatype": "numeric",
+                      "agg": "avg",
+                      "title": "Average Quantity"
+                    }
+                  },
+                  "title": "Revenue"
+                },
+                "instanceid": "04FD0-FC31-08",
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "type": "color",
+                    "color": "#000000"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "break by",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "style": {
+        "lineWidth": {
+          "width": "bold"
+        },
+        "legend": {
+          "enabled": false,
+          "position": "bottom"
+        },
+        "seriesLabels": {
+          "enabled": false,
+          "rotation": 0
+        },
+        "markers": {
+          "enabled": true,
+          "fill": "hollow",
+          "size": "small"
+        },
+        "xAxis": {
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "x2Title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "isIntervalEnabled": false
+        },
+        "yAxis": {
+          "inactive": false,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "logarithmic": false,
+          "isIntervalEnabled": true
+        },
+        "y2Axis": {
+          "inactive": true,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": false,
+          "logarithmic": false,
+          "isIntervalEnabled": true
+        },
+        "navigator": {
+          "enabled": false
+        },
+        "dataLimits": {
+          "seriesCapacity": 50,
+          "categoriesCapacity": 100000
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "months_in_date",
+              "title": "Months in Date",
+              "singular": "Months in Date",
+              "plural": "Months in Date"
+            }
+          ]
+        }
+      },
+      "instanceid": "F601B-882D-C4",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "wasRendered": false,
+      "script": "/*\nWelcome to your Widget's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at https://sisense.dev/guides/js/extensions\n*/",
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "drillToAnywhere": true,
+        "aiFeatures": [
+          {
+            "id": "pareto_1569481451806",
+            "name": "Pareto",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Roughly 80% of the effects come from 20% of the causes",
+            "isCustomModel": true
+          },
+          {
+            "id": "summary_statistics_1569425202576",
+            "name": "Summary Statistics",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Provide information about your data",
+            "isCustomModel": true
+          },
+          {
+            "id": "percentile_curves_1574252861643",
+            "name": "Percentile Curves",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Another way to show distributions",
+            "isCustomModel": true
+          },
+          {
+            "id": "cluster_1570673124179",
+            "name": "Clustering",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Grouping a set of objects in such a way that objects in the same group are more similar to each other than to those in other groups",
+            "isCustomModel": true
+          },
+          {
+            "id": "two-tailed_test_1574241584650",
+            "name": "Two-Tailed Test",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "perform two tailed t-test",
+            "isCustomModel": true
+          },
+          {
+            "id": "growth_rate_1572222323562",
+            "name": "Growth Rates",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "refer to the percentage change of a specific variable within a specific time period and given a certain context",
+            "isCustomModel": true
+          },
+          {
+            "id": "anomaly",
+            "name": "Anomaly",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Outlier data points detections",
+            "isCustomModel": false
+          },
+          {
+            "id": "forecast",
+            "name": "What-If Analysis",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {
+              "hasTargetVar": true,
+              "targetVar": {
+                "targetVarPaneActive": false,
+                "sectionTitle": "Target Value",
+                "options": [
+                  "Revenue"
+                ],
+                "value": "Revenue"
+              }
+            },
+            "description": "Predict the future values of a 2-var-TS, one of which is the target and the\n                    second is explaining variable.\n                    Provide non-symmetric confidence-interval for the above predictions.\n                    Var-Dependence (Score) - the strength of the influence of the explaining\n                    variable on the target one.\n                    XAI (model weights etc)",
+            "isCustomModel": false
+          },
+          {
+            "id": "local_estimates",
+            "name": "Local Estimate",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Locally (using before and after time series points) estimating the mean of the time series",
+            "isCustomModel": false
+          },
+          {
+            "id": "trend",
+            "name": "Trend",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Detect (if exists) Trend-Break-Points and connect those with a trend line",
+            "isCustomModel": false
+          }
+        ],
+        "previousScrollerLocation": {
+          "min": 0,
+          "max": 49
+        }
+      },
+      "dashboardid": "626b8894142df70036c22277"
+    },
+    {
+      "title": "",
+      "type": "chart/line",
+      "subtype": "line/basic",
+      "oid": "626b89c3142df70036c22293",
+      "desc": null,
+      "source": "626b89c3142df70036c22294",
+      "datasource": {
+        "fullname": "localhost/Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce",
+        "live": false,
+        "title": "Sample ECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "x-axis",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Date",
+                  "dim": "[Commerce.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "months",
+                  "title": "Months in Date"
+                },
+                "panel": "rows",
+                "field": {
+                  "id": "[Commerce.Date (Calendar)]_years",
+                  "index": 0
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "isdefault": true
+                  }
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ],
+                "instanceid": "42D79-8EA3-E5"
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "[F2012-5AD]*100-14.8",
+                  "context": {
+                    "[F2012-5AD]": {
+                      "table": "Commerce",
+                      "column": "Quantity",
+                      "dim": "[Commerce.Quantity]",
+                      "datatype": "numeric",
+                      "agg": "avg",
+                      "title": "Average Quantity"
+                    }
+                  },
+                  "title": "Revenue"
+                },
+                "instanceid": "04FD0-FC31-08",
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "type": "color",
+                    "color": "#000000"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "break by",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "style": {
+        "lineWidth": {
+          "width": "bold"
+        },
+        "legend": {
+          "enabled": false,
+          "position": "bottom"
+        },
+        "seriesLabels": {
+          "enabled": false,
+          "rotation": 0
+        },
+        "markers": {
+          "enabled": true,
+          "fill": "hollow",
+          "size": "small"
+        },
+        "xAxis": {
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "x2Title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "isIntervalEnabled": false
+        },
+        "yAxis": {
+          "inactive": false,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "logarithmic": false,
+          "isIntervalEnabled": true
+        },
+        "y2Axis": {
+          "inactive": true,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": false,
+          "logarithmic": false,
+          "isIntervalEnabled": true
+        },
+        "navigator": {
+          "enabled": false
+        },
+        "dataLimits": {
+          "seriesCapacity": 50,
+          "categoriesCapacity": 100000
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "months_in_date",
+              "title": "Months in Date",
+              "singular": "Months in Date",
+              "plural": "Months in Date"
+            }
+          ]
+        }
+      },
+      "instanceid": "F601B-882D-C4",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "wasRendered": false,
+      "script": "/*\nWelcome to your Widget's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at https://sisense.dev/guides/js/extensions\n*/\n\nwidget.on('processresult', function(widget, result) {\n\t\n\tlet dataSeries = result.result.series[0];\n\tlet threshold = 0;\n\tlet aboveColor = '#0000ff'\n\tlet belowColor = '#ff0000'\n\t\n\tdataSeries.threshold = threshold;\n\tdataSeries.color = aboveColor;\n\tdataSeries.negativeColor = belowColor\n})",
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "drillToAnywhere": true,
+        "aiFeatures": [
+          {
+            "id": "pareto_1569481451806",
+            "name": "Pareto",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Roughly 80% of the effects come from 20% of the causes",
+            "isCustomModel": true
+          },
+          {
+            "id": "summary_statistics_1569425202576",
+            "name": "Summary Statistics",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Provide information about your data",
+            "isCustomModel": true
+          },
+          {
+            "id": "percentile_curves_1574252861643",
+            "name": "Percentile Curves",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Another way to show distributions",
+            "isCustomModel": true
+          },
+          {
+            "id": "cluster_1570673124179",
+            "name": "Clustering",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Grouping a set of objects in such a way that objects in the same group are more similar to each other than to those in other groups",
+            "isCustomModel": true
+          },
+          {
+            "id": "two-tailed_test_1574241584650",
+            "name": "Two-Tailed Test",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "perform two tailed t-test",
+            "isCustomModel": true
+          },
+          {
+            "id": "growth_rate_1572222323562",
+            "name": "Growth Rates",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "refer to the percentage change of a specific variable within a specific time period and given a certain context",
+            "isCustomModel": true
+          },
+          {
+            "id": "anomaly",
+            "name": "Anomaly",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Outlier data points detections",
+            "isCustomModel": false
+          },
+          {
+            "id": "forecast",
+            "name": "What-If Analysis",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {
+              "hasTargetVar": true,
+              "targetVar": {
+                "targetVarPaneActive": false,
+                "sectionTitle": "Target Value",
+                "options": [
+                  "Revenue"
+                ],
+                "value": "Revenue"
+              }
+            },
+            "description": "Predict the future values of a 2-var-TS, one of which is the target and the\n                    second is explaining variable.\n                    Provide non-symmetric confidence-interval for the above predictions.\n                    Var-Dependence (Score) - the strength of the influence of the explaining\n                    variable on the target one.\n                    XAI (model weights etc)",
+            "isCustomModel": false
+          },
+          {
+            "id": "local_estimates",
+            "name": "Local Estimate",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Locally (using before and after time series points) estimating the mean of the time series",
+            "isCustomModel": false
+          },
+          {
+            "id": "trend",
+            "name": "Trend",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Detect (if exists) Trend-Break-Points and connect those with a trend line",
+            "isCustomModel": false
+          }
+        ],
+        "previousScrollerLocation": {
+          "min": 0,
+          "max": 49
+        }
+      },
+      "dashboardid": "626b8894142df70036c22277"
+    }
+  ],
+  "hierarchies": []
+}

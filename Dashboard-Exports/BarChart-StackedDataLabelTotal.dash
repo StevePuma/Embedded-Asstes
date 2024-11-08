@@ -1,0 +1,1429 @@
+{
+  "oid": "61bbb93198f8b514782a64dd",
+  "datasource": {
+    "title": "Sample ECommerce",
+    "fullname": "LocalHost/Sample ECommerce",
+    "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+    "address": "LocalHost",
+    "database": "aSampleIAAaECommerce"
+  },
+  "defaultFilters": null,
+  "desc": "",
+  "editing": false,
+  "isPublic": null,
+  "layout": {
+    "instanceid": "D3E5F-5E69-14",
+    "type": "columnar",
+    "columns": [
+      {
+        "width": 100,
+        "cells": [
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "height": "48px",
+                    "defaultWidth": 128,
+                    "widgetid": "61bbb93198f8b514782a64df"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1377,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 96,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": 384,
+                    "defaultWidth": 512,
+                    "widgetid": "61bbb93198f8b514782a64de"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1377,
+                "index": 0
+              }
+            ]
+          }
+        ],
+        "pxlWidth": 1377,
+        "index": 0
+      }
+    ]
+  },
+  "original": null,
+  "parentFolder": "61c44b8783642f002bf183a1",
+  "previewLayout": [],
+  "source": "61c44ecf83642f002bf185a4",
+  "style": {
+    "palette": {
+      "name": "Vivid",
+      "colors": [
+        "#00cee6",
+        "#9b9bd7",
+        "#6EDA55",
+        "#fc7570",
+        "#fbb755",
+        "#218A8C"
+      ]
+    }
+  },
+  "subscription": null,
+  "title": "Bar Chart - Stacked Data Label Total",
+  "type": "dashboard",
+  "allowChangeSubscription": false,
+  "lastOpened": null,
+  "settings": {
+    "autoUpdateOnFiltersChange": true
+  },
+  "widgets": [
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "61bbb93198f8b514782a64df",
+      "desc": null,
+      "source": "61c44ecf83642f002bf185a7",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": []
+      },
+      "style": {
+        "content": {
+          "html": "<div style=\"text-align: left;\"><font size=\"3\">Created by: Inbal</font></div><div style=\"font-size: x-large; text-align: left;\">Documentation:&nbsp;<a target=\"_blank\" href=\"https://support.sisense.com/hc/en-us/community/posts/221227808-Stacked-Column-Chart-Total-JavaScript\" rel=\"noopener noreferrer\">Stacked Column Chart Total JavaScript</a></div><br>",
+          "vAlign": "valign-middle",
+          "bgColor": "#FFFFFF",
+          "textAlign": "center"
+        }
+      },
+      "instanceid": "9DAD8-E548-9B",
+      "dashboardid": "61bbb93198f8b514782a64dd",
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      }
+    },
+    {
+      "title": "",
+      "type": "chart/bar",
+      "subtype": "bar/stacked",
+      "oid": "61bbb93198f8b514782a64de",
+      "desc": null,
+      "source": "61c44ecf83642f002bf185a8",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "categories",
+            "items": [
+              {
+                "jaql": {
+                  "table": "country",
+                  "column": "Country",
+                  "dim": "[country.Country]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Country"
+                }
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Cost",
+                  "dim": "[Commerce.Cost]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total Cost"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "break by",
+            "items": [
+              {
+                "jaql": {
+                  "table": "brand",
+                  "column": "Brand",
+                  "dim": "[brand.Brand]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Brand"
+                },
+                "format": {
+                  "members": {
+                    "ABC": {
+                      "color": "#00cee6",
+                      "title": "ABC"
+                    },
+                    "Adkilewor WorldWide Corp%46": {
+                      "color": "#9b9bd7",
+                      "title": "Adkilewor WorldWide Corp."
+                    },
+                    "APPLES": {
+                      "color": "#6EDA55",
+                      "title": "APPLES",
+                      "inResultset": true
+                    },
+                    "Barnipplor  ": {
+                      "color": "#fc7570",
+                      "title": "Barnipplor  "
+                    },
+                    "CAMIO": {
+                      "color": "#fbb755",
+                      "title": "CAMIO"
+                    },
+                    "Cipglibonar Holdings ": {
+                      "color": "#218A8C",
+                      "title": "Cipglibonar Holdings "
+                    },
+                    "Cippebefentor Direct Company": {
+                      "color": "#06e5ff",
+                      "title": "Cippebefentor Direct Company"
+                    },
+                    "Dopdudor Direct ": {
+                      "color": "#b2b2f7",
+                      "title": "Dopdudor Direct "
+                    },
+                    "Dopsipazz Holdings Company": {
+                      "color": "#7efb62",
+                      "title": "Dopsipazz Holdings Company"
+                    },
+                    "Doptanommar  ": {
+                      "color": "#ff8a86",
+                      "title": "Doptanommar  "
+                    },
+                    "Endhupinicator Direct Inc": {
+                      "color": "#ffc26a",
+                      "title": "Endhupinicator Direct Inc"
+                    },
+                    "Endwerpedor  Corp%46": {
+                      "color": "#269fa1",
+                      "title": "Endwerpedor  Corp."
+                    },
+                    "EPSIEN": {
+                      "color": "#11e6ff",
+                      "title": "EPSIEN"
+                    },
+                    "FIJI": {
+                      "color": "#bebeff",
+                      "title": "FIJI"
+                    },
+                    "FONY BERICSER": {
+                      "color": "#88ff6c",
+                      "title": "FONY BERICSER"
+                    },
+                    "Frowerar Holdings ": {
+                      "color": "#ff9793",
+                      "title": "Frowerar Holdings "
+                    },
+                    "GARMANT": {
+                      "color": "#ffc777",
+                      "title": "GARMANT"
+                    },
+                    "GOZOROLA": {
+                      "color": "#29aaad",
+                      "title": "GOZOROLA"
+                    },
+                    "Hapmunepicator International ": {
+                      "color": "#1de7ff",
+                      "title": "Hapmunepicator International "
+                    },
+                    "Hapsapor International ": {
+                      "color": "#c9c9ff",
+                      "title": "Hapsapor International "
+                    },
+                    "Haptumonan  Inc": {
+                      "color": "#91ff77",
+                      "title": "Haptumonan  Inc"
+                    },
+                    "HELLY": {
+                      "color": "#ffa3a0",
+                      "title": "HELLY"
+                    },
+                    "HEWL": {
+                      "color": "#ffcd84",
+                      "title": "HEWL"
+                    },
+                    "IMPRO": {
+                      "color": "#2cb6b9",
+                      "title": "IMPRO"
+                    },
+                    "Incadexantor Holdings ": {
+                      "color": "#26e8ff",
+                      "title": "Incadexantor Holdings "
+                    },
+                    "Inkiladar WorldWide ": {
+                      "color": "#d2d2ff",
+                      "title": "Inkiladar WorldWide "
+                    },
+                    "Innipicator Direct ": {
+                      "color": "#98ff80",
+                      "title": "Innipicator Direct "
+                    },
+                    "Inquestegor  Group": {
+                      "color": "#ffadaa",
+                      "title": "Inquestegor  Group"
+                    },
+                    "INTELLIGENCE": {
+                      "color": "#ffd18e",
+                      "title": "INTELLIGENCE"
+                    },
+                    "Intinentor WorldWide Group": {
+                      "color": "#2ebfc2",
+                      "title": "Intinentor WorldWide Group"
+                    },
+                    "Invenicator WorldWide Company": {
+                      "color": "#2de9ff",
+                      "title": "Invenicator WorldWide Company"
+                    },
+                    "Klihuponor  Group": {
+                      "color": "#d8d8ff",
+                      "title": "Klihuponor  Group"
+                    },
+                    "Klitumar Direct ": {
+                      "color": "#9dff86",
+                      "title": "Klitumar Direct "
+                    },
+                    "Kliwerpanantor WorldWide ": {
+                      "color": "#ffb4b1",
+                      "title": "Kliwerpanantor WorldWide "
+                    },
+                    "Lomkilower  ": {
+                      "color": "#ffd495",
+                      "title": "Lomkilower  "
+                    },
+                    "Lomtanupover International Inc": {
+                      "color": "#2fc6c9",
+                      "title": "Lomtanupover International Inc"
+                    },
+                    "LONY": {
+                      "color": "#32eaff",
+                      "title": "LONY",
+                      "inResultset": true
+                    },
+                    "MICRON": {
+                      "color": "#ddddff",
+                      "title": "MICRON"
+                    },
+                    "MINITENDO": {
+                      "color": "#a1ff8b",
+                      "title": "MINITENDO"
+                    },
+                    "Monsipopantor Direct ": {
+                      "color": "#ffbab7",
+                      "title": "Monsipopantor Direct "
+                    },
+                    "NG": {
+                      "color": "#ffd69b",
+                      "title": "NG"
+                    },
+                    "NIKKI": {
+                      "color": "#31cccf",
+                      "title": "NIKKI",
+                      "inResultset": true
+                    },
+                    "NILUS": {
+                      "color": "#37eaff",
+                      "title": "NILUS"
+                    },
+                    "OLYMPIC": {
+                      "color": "#e1e1ff",
+                      "title": "OLYMPIC"
+                    },
+                    "Parmunaquicator Holdings ": {
+                      "color": "#a5ff90",
+                      "title": "Parmunaquicator Holdings "
+                    },
+                    "POKIA": {
+                      "color": "#ffbfbc",
+                      "title": "POKIA"
+                    },
+                    "Qwidimicistor WorldWide Group": {
+                      "color": "#ffd8a0",
+                      "title": "Qwidimicistor WorldWide Group"
+                    },
+                    "Raphupantor  ": {
+                      "color": "#32d0d3",
+                      "title": "Raphupantor  "
+                    },
+                    "Rapsapaquicator  ": {
+                      "color": "#3bebff",
+                      "title": "Rapsapaquicator  "
+                    },
+                    "Rapvenover  ": {
+                      "color": "#e5e5ff",
+                      "title": "Rapvenover  "
+                    },
+                    "Rapwerewazz Holdings Company": {
+                      "color": "#a8ff93",
+                      "title": "Rapwerewazz Holdings Company"
+                    },
+                    "RASUS": {
+                      "color": "#ffc3c0",
+                      "title": "RASUS"
+                    },
+                    "Recadilover International ": {
+                      "color": "#ffdaa5",
+                      "title": "Recadilover International "
+                    },
+                    "Reseller": {
+                      "color": "#33d4d7",
+                      "title": "Reseller"
+                    },
+                    "SHANON": {
+                      "color": "#3eebff",
+                      "title": "SHANON"
+                    },
+                    "SHIBA": {
+                      "color": "#e8e8ff",
+                      "title": "SHIBA"
+                    },
+                    "SONIC": {
+                      "color": "#aaff97",
+                      "title": "SONIC"
+                    },
+                    "SUNSUNG": {
+                      "color": "#ffc6c4",
+                      "title": "SUNSUNG"
+                    },
+                    "Supglibower Holdings ": {
+                      "color": "#ffdba8",
+                      "title": "Supglibower Holdings "
+                    },
+                    "Suppebinor WorldWide ": {
+                      "color": "#34d8db",
+                      "title": "Suppebinor WorldWide "
+                    },
+                    "Surkilan  Group": {
+                      "color": "#41ebff",
+                      "title": "Surkilan  Group"
+                    },
+                    "Surwerommazz WorldWide Group": {
+                      "color": "#ebebff",
+                      "title": "Surwerommazz WorldWide Group"
+                    },
+                    "Thrubanexan  Group": {
+                      "color": "#adff9a",
+                      "title": "Thrubanexan  Group"
+                    },
+                    "Thruglibazz International ": {
+                      "color": "#ffcac8",
+                      "title": "Thruglibazz International "
+                    },
+                    "Thrurobexar International ": {
+                      "color": "#ffddac",
+                      "title": "Thrurobexar International "
+                    },
+                    "Thrusapazz  ": {
+                      "color": "#34dbde",
+                      "title": "Thrusapazz  "
+                    },
+                    "Tipfropan International ": {
+                      "color": "#ebebff",
+                      "title": "Tipfropan International "
+                    },
+                    "Tipkilinentor  Group": {
+                      "color": "#adff9a",
+                      "title": "Tipkilinentor  Group"
+                    },
+                    "Tipsipepover Direct ": {
+                      "color": "#ffcac8",
+                      "title": "Tipsipepover Direct "
+                    },
+                    "Tipsipollex International ": {
+                      "color": "#ffddac",
+                      "title": "Tipsipollex International "
+                    },
+                    "Trupickedover WorldWide Company": {
+                      "color": "#34dbde",
+                      "title": "Trupickedover WorldWide Company"
+                    },
+                    "Trutanan WorldWide Inc": {
+                      "color": "#41ebff",
+                      "title": "Trutanan WorldWide Inc"
+                    },
+                    "Truzapicover Holdings ": {
+                      "color": "#ebebff",
+                      "title": "Truzapicover Holdings "
+                    },
+                    "Tuproban Holdings ": {
+                      "color": "#adff9a",
+                      "title": "Tuproban Holdings "
+                    },
+                    "Tupvenazz  Corp%46": {
+                      "color": "#ffcac8",
+                      "title": "Tupvenazz  Corp."
+                    },
+                    "Undimedar WorldWide ": {
+                      "color": "#ffddac",
+                      "title": "Undimedar WorldWide "
+                    },
+                    "Uneradistor International ": {
+                      "color": "#34dbde",
+                      "title": "Uneradistor International "
+                    },
+                    "Unerommazz Direct ": {
+                      "color": "#41ebff",
+                      "title": "Unerommazz Direct "
+                    },
+                    "Unfropackentor  Inc": {
+                      "color": "#ebebff",
+                      "title": "Unfropackentor  Inc"
+                    },
+                    "Untanefantor Direct ": {
+                      "color": "#adff9a",
+                      "title": "Untanefantor Direct "
+                    },
+                    "Untuminax Direct Group": {
+                      "color": "#ffcac8",
+                      "title": "Untuminax Direct Group"
+                    },
+                    "Upsapazz WorldWide ": {
+                      "color": "#ffddac",
+                      "title": "Upsapazz WorldWide "
+                    },
+                    "Upwerpar WorldWide Group": {
+                      "color": "#34dbde",
+                      "title": "Upwerpar WorldWide Group"
+                    },
+                    "Varweranan  ": {
+                      "color": "#41ebff",
+                      "title": "Varweranan  "
+                    },
+                    "WHITEBERRY": {
+                      "color": "#ebebff",
+                      "title": "WHITEBERRY"
+                    },
+                    "Winfropanicator  Group": {
+                      "color": "#adff9a",
+                      "title": "Winfropanicator  Group"
+                    },
+                    "Zeebaneficator Direct Company": {
+                      "color": "#ffcac8",
+                      "title": "Zeebaneficator Direct Company"
+                    },
+                    "Adbananor WorldWide ": {
+                      "color": "#ffddac",
+                      "title": "Adbananor WorldWide "
+                    },
+                    "Aderor WorldWide ": {
+                      "color": "#34dbde",
+                      "title": "Aderor WorldWide "
+                    },
+                    "Adkilazz Holdings ": {
+                      "color": "#41ebff",
+                      "title": "Adkilazz Holdings "
+                    },
+                    "Adnipax Direct ": {
+                      "color": "#ebebff",
+                      "title": "Adnipax Direct "
+                    },
+                    "Adtumor Holdings ": {
+                      "color": "#adff9a",
+                      "title": "Adtumor Holdings "
+                    },
+                    "Adwerpommax Direct ": {
+                      "color": "#ffcac8",
+                      "title": "Adwerpommax Direct "
+                    },
+                    "Adzapex International Inc": {
+                      "color": "#ffddac",
+                      "title": "Adzapex International Inc"
+                    },
+                    "Bardimopor Direct ": {
+                      "color": "#34dbde",
+                      "title": "Bardimopor Direct "
+                    },
+                    "Barsapplazz  ": {
+                      "color": "#41ebff",
+                      "title": "Barsapplazz  "
+                    },
+                    "Dopdudexistor International ": {
+                      "color": "#ebebff",
+                      "title": "Dopdudexistor International "
+                    },
+                    "Doppickexan  ": {
+                      "color": "#adff9a",
+                      "title": "Doppickexan  "
+                    },
+                    "EICA": {
+                      "color": "#ffcac8",
+                      "title": "EICA"
+                    },
+                    "Emdudplover Holdings ": {
+                      "color": "#ffddac",
+                      "title": "Emdudplover Holdings "
+                    },
+                    "Emglibplar Direct ": {
+                      "color": "#34dbde",
+                      "title": "Emglibplar Direct "
+                    },
+                    "Emsipedax WorldWide ": {
+                      "color": "#41ebff",
+                      "title": "Emsipedax WorldWide "
+                    },
+                    "Endbanefan  ": {
+                      "color": "#ebebff",
+                      "title": "Endbanefan  "
+                    },
+                    "Enddimaquax  ": {
+                      "color": "#adff9a",
+                      "title": "Enddimaquax  "
+                    },
+                    "Endglibentor Direct Corp%46": {
+                      "color": "#ffcac8",
+                      "title": "Endglibentor Direct Corp."
+                    },
+                    "Endrobazz Holdings Inc": {
+                      "color": "#ffddac",
+                      "title": "Endrobazz Holdings Inc"
+                    },
+                    "Frokilex  ": {
+                      "color": "#34dbde",
+                      "title": "Frokilex  "
+                    },
+                    "Frovenackin Direct ": {
+                      "color": "#41ebff",
+                      "title": "Frovenackin Direct "
+                    },
+                    "Frowerpollazz  ": {
+                      "color": "#ebebff",
+                      "title": "Frowerpollazz  "
+                    },
+                    "Grocadicower Holdings Group": {
+                      "color": "#adff9a",
+                      "title": "Grocadicower Holdings Group"
+                    },
+                    "Gropickopantor WorldWide ": {
+                      "color": "#ffcac8",
+                      "title": "Gropickopantor WorldWide "
+                    },
+                    "Grozapewistor  ": {
+                      "color": "#ffddac",
+                      "title": "Grozapewistor  "
+                    },
+                    "Hapvenan  ": {
+                      "color": "#34dbde",
+                      "title": "Hapvenan  "
+                    },
+                    "Inwerepower Holdings Group": {
+                      "color": "#41ebff",
+                      "title": "Inwerepower Holdings Group"
+                    },
+                    "Klijubex International ": {
+                      "color": "#ebebff",
+                      "title": "Klijubex International "
+                    },
+                    "Klipickentor Holdings ": {
+                      "color": "#adff9a",
+                      "title": "Klipickentor Holdings "
+                    },
+                    "Klizapin  ": {
+                      "color": "#ffcac8",
+                      "title": "Klizapin  "
+                    },
+                    "Lommunollantor Holdings ": {
+                      "color": "#ffddac",
+                      "title": "Lommunollantor Holdings "
+                    },
+                    "Lomtumover  Group": {
+                      "color": "#34dbde",
+                      "title": "Lomtumover  Group"
+                    },
+                    "Lomwerpackax International Corp%46": {
+                      "color": "#41ebff",
+                      "title": "Lomwerpackax International Corp."
+                    },
+                    "MAXMAX": {
+                      "color": "#ebebff",
+                      "title": "MAXMAX"
+                    },
+                    "Monbanin WorldWide ": {
+                      "color": "#adff9a",
+                      "title": "Monbanin WorldWide "
+                    },
+                    "Monkilackazz Holdings Company": {
+                      "color": "#ffcac8",
+                      "title": "Monkilackazz Holdings Company"
+                    },
+                    "Monmunegover  ": {
+                      "color": "#ffddac",
+                      "title": "Monmunegover  "
+                    },
+                    "Monnipax WorldWide Company": {
+                      "color": "#34dbde",
+                      "title": "Monnipax WorldWide Company"
+                    },
+                    "Monsipplistor International ": {
+                      "color": "#41ebff",
+                      "title": "Monsipplistor International "
+                    },
+                    "Monwerilower Holdings ": {
+                      "color": "#ebebff",
+                      "title": "Monwerilower Holdings "
+                    },
+                    "Parsipackover Direct ": {
+                      "color": "#adff9a",
+                      "title": "Parsipackover Direct "
+                    },
+                    "Qwierewan Holdings ": {
+                      "color": "#ffcac8",
+                      "title": "Qwierewan Holdings "
+                    },
+                    "Qwipebax WorldWide ": {
+                      "color": "#ffddac",
+                      "title": "Qwipebax WorldWide "
+                    },
+                    "Qwitinar  Company": {
+                      "color": "#34dbde",
+                      "title": "Qwitinar  Company"
+                    },
+                    "Qwiweregex WorldWide Company": {
+                      "color": "#41ebff",
+                      "title": "Qwiweregex WorldWide Company"
+                    },
+                    "Qwiwerpor  ": {
+                      "color": "#ebebff",
+                      "title": "Qwiwerpor  "
+                    },
+                    "Rapdudegantor Holdings Corp%46": {
+                      "color": "#adff9a",
+                      "title": "Rapdudegantor Holdings Corp."
+                    },
+                    "Rapmunistor Direct ": {
+                      "color": "#ffcac8",
+                      "title": "Rapmunistor Direct "
+                    },
+                    "Rapzapower WorldWide Inc": {
+                      "color": "#ffddac",
+                      "title": "Rapzapower WorldWide Inc"
+                    },
+                    "Rewerar WorldWide Inc": {
+                      "color": "#34dbde",
+                      "title": "Rewerar WorldWide Inc"
+                    },
+                    "Rezapistor WorldWide ": {
+                      "color": "#41ebff",
+                      "title": "Rezapistor WorldWide "
+                    },
+                    "Supdudax WorldWide Corp%46": {
+                      "color": "#ebebff",
+                      "title": "Supdudax WorldWide Corp."
+                    },
+                    "Suppebover  Company": {
+                      "color": "#adff9a",
+                      "title": "Suppebover  Company"
+                    },
+                    "Supsipin WorldWide Group": {
+                      "color": "#ffcac8",
+                      "title": "Supsipin WorldWide Group"
+                    },
+                    "Suptumilor  ": {
+                      "color": "#ffddac",
+                      "title": "Suptumilor  "
+                    },
+                    "Supwerefex Holdings Corp%46": {
+                      "color": "#34dbde",
+                      "title": "Supwerefex Holdings Corp."
+                    },
+                    "Surerover Holdings ": {
+                      "color": "#41ebff",
+                      "title": "Surerover Holdings "
+                    },
+                    "Sursipilan  Inc": {
+                      "color": "#ebebff",
+                      "title": "Sursipilan  Inc"
+                    },
+                    "Surtanover Direct Group": {
+                      "color": "#adff9a",
+                      "title": "Surtanover Direct Group"
+                    },
+                    "Thrududicover International ": {
+                      "color": "#ffcac8",
+                      "title": "Thrududicover International "
+                    },
+                    "Thruhupax International Inc": {
+                      "color": "#ffddac",
+                      "title": "Thruhupax International Inc"
+                    },
+                    "Thrupickentor Holdings ": {
+                      "color": "#34dbde",
+                      "title": "Thrupickentor Holdings "
+                    },
+                    "Thruquestar  Group": {
+                      "color": "#41ebff",
+                      "title": "Thruquestar  Group"
+                    },
+                    "Tipdudex  ": {
+                      "color": "#ebebff",
+                      "title": "Tipdudex  "
+                    },
+                    "Tiperimor WorldWide ": {
+                      "color": "#adff9a",
+                      "title": "Tiperimor WorldWide "
+                    },
+                    "Tipnipor  ": {
+                      "color": "#ffcac8",
+                      "title": "Tipnipor  "
+                    },
+                    "Trubanepex International Company": {
+                      "color": "#ffddac",
+                      "title": "Trubanepex International Company"
+                    },
+                    "Trurobazz International Group": {
+                      "color": "#34dbde",
+                      "title": "Trurobazz International Group"
+                    },
+                    "Trusipedgan Direct ": {
+                      "color": "#41ebff",
+                      "title": "Trusipedgan Direct "
+                    },
+                    "Trutanefentor  ": {
+                      "color": "#ebebff",
+                      "title": "Trutanefentor  "
+                    },
+                    "Truzapinan WorldWide ": {
+                      "color": "#adff9a",
+                      "title": "Truzapinan WorldWide "
+                    },
+                    "Tupdudan Holdings ": {
+                      "color": "#ffcac8",
+                      "title": "Tupdudan Holdings "
+                    },
+                    "Tuppickaquicator Direct ": {
+                      "color": "#ffddac",
+                      "title": "Tuppickaquicator Direct "
+                    },
+                    "Tupsipexower Holdings Inc": {
+                      "color": "#34dbde",
+                      "title": "Tupsipexower Holdings Inc"
+                    },
+                    "Undimar WorldWide Group": {
+                      "color": "#41ebff",
+                      "title": "Undimar WorldWide Group"
+                    },
+                    "Unsipistor Holdings Group": {
+                      "color": "#ebebff",
+                      "title": "Unsipistor Holdings Group"
+                    },
+                    "Untinex Direct ": {
+                      "color": "#adff9a",
+                      "title": "Untinex Direct "
+                    },
+                    "Upfropistor WorldWide Corp%46": {
+                      "color": "#ffcac8",
+                      "title": "Upfropistor WorldWide Corp."
+                    },
+                    "Uppebedgar Holdings Group": {
+                      "color": "#ffddac",
+                      "title": "Uppebedgar Holdings Group"
+                    },
+                    "Upvenar  Group": {
+                      "color": "#34dbde",
+                      "title": "Upvenar  Group"
+                    },
+                    "Upwerower Holdings Inc": {
+                      "color": "#41ebff",
+                      "title": "Upwerower Holdings Inc"
+                    },
+                    "Upwerpupin Holdings Corp%46": {
+                      "color": "#ebebff",
+                      "title": "Upwerpupin Holdings Corp."
+                    },
+                    "Varcadax Direct ": {
+                      "color": "#adff9a",
+                      "title": "Varcadax Direct "
+                    },
+                    "Varcadegower Holdings Inc": {
+                      "color": "#ffcac8",
+                      "title": "Varcadegower Holdings Inc"
+                    },
+                    "Varmunan Holdings ": {
+                      "color": "#ffddac",
+                      "title": "Varmunan Holdings "
+                    },
+                    "Varmunor WorldWide ": {
+                      "color": "#34dbde",
+                      "title": "Varmunor WorldWide "
+                    },
+                    "Varnipimin Direct ": {
+                      "color": "#41ebff",
+                      "title": "Varnipimin Direct "
+                    },
+                    "Winkilar International Company": {
+                      "color": "#ebebff",
+                      "title": "Winkilar International Company"
+                    },
+                    "Wintumazz Holdings Corp%46": {
+                      "color": "#adff9a",
+                      "title": "Wintumazz Holdings Corp."
+                    },
+                    "Zeecadollantor  ": {
+                      "color": "#ffcac8",
+                      "title": "Zeecadollantor  "
+                    },
+                    "Zeepickamentor  Company": {
+                      "color": "#ffddac",
+                      "title": "Zeepickamentor  Company"
+                    },
+                    "Zeepickplan  Group": {
+                      "color": "#34dbde",
+                      "title": "Zeepickplan  Group"
+                    },
+                    "Zeesipax  Inc": {
+                      "color": "#41ebff",
+                      "title": "Zeesipax  Inc"
+                    },
+                    "Aderanax Holdings ": {
+                      "color": "#ebebff",
+                      "title": "Aderanax Holdings "
+                    },
+                    "Adhupommazz  Corp%46": {
+                      "color": "#adff9a",
+                      "title": "Adhupommazz  Corp."
+                    },
+                    "Adsipackor  ": {
+                      "color": "#ffcac8",
+                      "title": "Adsipackor  "
+                    },
+                    "Cipwerewor WorldWide Group": {
+                      "color": "#ffddac",
+                      "title": "Cipwerewor WorldWide Group"
+                    },
+                    "Emdudicator  Inc": {
+                      "color": "#34dbde",
+                      "title": "Emdudicator  Inc"
+                    },
+                    "Endjubin  ": {
+                      "color": "#41ebff",
+                      "title": "Endjubin  "
+                    },
+                    "Endsipex International Inc": {
+                      "color": "#ebebff",
+                      "title": "Endsipex International Inc"
+                    },
+                    "Hapmunommex Direct ": {
+                      "color": "#adff9a",
+                      "title": "Hapmunommex Direct "
+                    },
+                    "Incadentor WorldWide Company": {
+                      "color": "#ffcac8",
+                      "title": "Incadentor WorldWide Company"
+                    },
+                    "Indudar Direct Group": {
+                      "color": "#ffddac",
+                      "title": "Indudar Direct Group"
+                    },
+                    "Inquestamazz Holdings Company": {
+                      "color": "#34dbde",
+                      "title": "Inquestamazz Holdings Company"
+                    },
+                    "Pardimistor  ": {
+                      "color": "#41ebff",
+                      "title": "Pardimistor  "
+                    },
+                    "Parrobefin  Company": {
+                      "color": "#ebebff",
+                      "title": "Parrobefin  Company"
+                    },
+                    "Rapcadefex Direct ": {
+                      "color": "#adff9a",
+                      "title": "Rapcadefex Direct "
+                    },
+                    "Rapdimentor Holdings ": {
+                      "color": "#ffcac8",
+                      "title": "Rapdimentor Holdings "
+                    },
+                    "Retanicantor Holdings Company": {
+                      "color": "#ffddac",
+                      "title": "Retanicantor Holdings Company"
+                    },
+                    "Tiphuponantor International Company": {
+                      "color": "#34dbde",
+                      "title": "Tiphuponantor International Company"
+                    },
+                    "Tiptumazz WorldWide Corp%46": {
+                      "color": "#41ebff",
+                      "title": "Tiptumazz WorldWide Corp."
+                    },
+                    "Trugliban WorldWide ": {
+                      "color": "#ebebff",
+                      "title": "Trugliban WorldWide "
+                    },
+                    "Tupfroponicator Holdings ": {
+                      "color": "#adff9a",
+                      "title": "Tupfroponicator Holdings "
+                    },
+                    "Tupwerpegor Holdings ": {
+                      "color": "#ffcac8",
+                      "title": "Tupwerpegor Holdings "
+                    },
+                    "Unpickollax  ": {
+                      "color": "#ffddac",
+                      "title": "Unpickollax  "
+                    },
+                    "Uptananazz Direct ": {
+                      "color": "#34dbde",
+                      "title": "Uptananazz Direct "
+                    },
+                    "Varsapantor International Group": {
+                      "color": "#41ebff",
+                      "title": "Varsapantor International Group"
+                    },
+                    "Vartinilan  ": {
+                      "color": "#ebebff",
+                      "title": "Vartinilan  "
+                    },
+                    "Winkilackax  ": {
+                      "color": "#adff9a",
+                      "title": "Winkilackax  "
+                    },
+                    "Adpickazz WorldWide ": {
+                      "color": "#ffcac8",
+                      "title": "Adpickazz WorldWide "
+                    },
+                    "Adtinex International ": {
+                      "color": "#ffddac",
+                      "title": "Adtinex International "
+                    },
+                    "Adzapantor  ": {
+                      "color": "#34dbde",
+                      "title": "Adzapantor  "
+                    },
+                    "Barglibover International ": {
+                      "color": "#41ebff",
+                      "title": "Barglibover International "
+                    },
+                    "Bartumower Holdings ": {
+                      "color": "#ebebff",
+                      "title": "Bartumower Holdings "
+                    },
+                    "Dopjubicator Holdings Inc": {
+                      "color": "#adff9a",
+                      "title": "Dopjubicator Holdings Inc"
+                    },
+                    "Doppebazz  ": {
+                      "color": "#ffcac8",
+                      "title": "Doppebazz  "
+                    },
+                    "Doptumadax International ": {
+                      "color": "#ffddac",
+                      "title": "Doptumadax International "
+                    },
+                    "Emdimadicator WorldWide Inc": {
+                      "color": "#34dbde",
+                      "title": "Emdimadicator WorldWide Inc"
+                    },
+                    "Endcadepex  ": {
+                      "color": "#41ebff",
+                      "title": "Endcadepex  "
+                    },
+                    "Frohupollistor  ": {
+                      "color": "#ebebff",
+                      "title": "Frohupollistor  "
+                    },
+                    "Frosipegover Holdings ": {
+                      "color": "#adff9a",
+                      "title": "Frosipegover Holdings "
+                    },
+                    "Frotinan Direct ": {
+                      "color": "#ffcac8",
+                      "title": "Frotinan Direct "
+                    },
+                    "Groerollan Holdings Corp%46": {
+                      "color": "#ffddac",
+                      "title": "Groerollan Holdings Corp."
+                    },
+                    "Gronipamar Holdings ": {
+                      "color": "#34dbde",
+                      "title": "Gronipamar Holdings "
+                    },
+                    "Haprobin International Inc": {
+                      "color": "#41ebff",
+                      "title": "Haprobin International Inc"
+                    },
+                    "Haptanin WorldWide ": {
+                      "color": "#ebebff",
+                      "title": "Haptanin WorldWide "
+                    },
+                    "Haptanonar WorldWide ": {
+                      "color": "#adff9a",
+                      "title": "Haptanonar WorldWide "
+                    },
+                    "Lommunax Holdings Corp%46": {
+                      "color": "#ffcac8",
+                      "title": "Lommunax Holdings Corp."
+                    },
+                    "Lompickistor WorldWide ": {
+                      "color": "#ffddac",
+                      "title": "Lompickistor WorldWide "
+                    },
+                    "Lomquestan  Company": {
+                      "color": "#34dbde",
+                      "title": "Lomquestan  Company"
+                    },
+                    "Lomwerpantor  Group": {
+                      "color": "#41ebff",
+                      "title": "Lomwerpantor  Group"
+                    },
+                    "Monrobegar WorldWide ": {
+                      "color": "#ebebff",
+                      "title": "Monrobegar WorldWide "
+                    },
+                    "Parhupupicator WorldWide ": {
+                      "color": "#adff9a",
+                      "title": "Parhupupicator WorldWide "
+                    },
+                    "Parkilanar Holdings Inc": {
+                      "color": "#ffcac8",
+                      "title": "Parkilanar Holdings Inc"
+                    },
+                    "Partumefower WorldWide Company": {
+                      "color": "#ffddac",
+                      "title": "Partumefower WorldWide Company"
+                    },
+                    "Qwierower Direct Inc": {
+                      "color": "#34dbde",
+                      "title": "Qwierower Direct Inc"
+                    },
+                    "Rapnipazz Holdings Corp%46": {
+                      "color": "#41ebff",
+                      "title": "Rapnipazz Holdings Corp."
+                    },
+                    "Redimadover Direct Group": {
+                      "color": "#ebebff",
+                      "title": "Redimadover Direct Group"
+                    },
+                    "Supdimollar WorldWide Corp%46": {
+                      "color": "#adff9a",
+                      "title": "Supdimollar WorldWide Corp."
+                    },
+                    "Supsipilantor Holdings ": {
+                      "color": "#ffcac8",
+                      "title": "Supsipilantor Holdings "
+                    },
+                    "Surrobommistor  ": {
+                      "color": "#ffddac",
+                      "title": "Surrobommistor  "
+                    },
+                    "Unpebefin  ": {
+                      "color": "#34dbde",
+                      "title": "Unpebefin  "
+                    },
+                    "Upfropex  ": {
+                      "color": "#41ebff",
+                      "title": "Upfropex  "
+                    },
+                    "Uptumower  ": {
+                      "color": "#ebebff",
+                      "title": "Uptumower  "
+                    },
+                    "Vartanor  Inc": {
+                      "color": "#adff9a",
+                      "title": "Vartanor  Inc"
+                    },
+                    "Windimower International Company": {
+                      "color": "#ffcac8",
+                      "title": "Windimower International Company"
+                    },
+                    "Zeemunazz  ": {
+                      "color": "#ffddac",
+                      "title": "Zeemunazz  "
+                    },
+                    "Zeetumaquicator Holdings ": {
+                      "color": "#34dbde",
+                      "title": "Zeetumaquicator Holdings "
+                    },
+                    "Aderover Holdings ": {
+                      "color": "#41ebff",
+                      "title": "Aderover Holdings "
+                    },
+                    "Frofropor Holdings ": {
+                      "color": "#ebebff",
+                      "title": "Frofropor Holdings "
+                    },
+                    "Hapcadar International ": {
+                      "color": "#adff9a",
+                      "title": "Hapcadar International "
+                    },
+                    "Hapkilplantor  Company": {
+                      "color": "#ffcac8",
+                      "title": "Hapkilplantor  Company"
+                    },
+                    "Inrobax WorldWide ": {
+                      "color": "#ffddac",
+                      "title": "Inrobax WorldWide "
+                    },
+                    "Klidudewan Holdings ": {
+                      "color": "#34dbde",
+                      "title": "Klidudewan Holdings "
+                    },
+                    "Sureranantor International ": {
+                      "color": "#41ebff",
+                      "title": "Sureranantor International "
+                    },
+                    "Thrubanex  Group": {
+                      "color": "#ebebff",
+                      "title": "Thrubanex  Group"
+                    },
+                    "Trujubor International Group": {
+                      "color": "#adff9a",
+                      "title": "Trujubor International Group"
+                    },
+                    "Trujubover Direct ": {
+                      "color": "#ffcac8",
+                      "title": "Trujubover Direct "
+                    },
+                    "Tupnipilan  ": {
+                      "color": "#ffddac",
+                      "title": "Tupnipilan  "
+                    },
+                    "Unwerewover Holdings Company": {
+                      "color": "#34dbde",
+                      "title": "Unwerewover Holdings Company"
+                    },
+                    "Upmunazz  ": {
+                      "color": "#41ebff",
+                      "title": "Upmunazz  "
+                    },
+                    "Varwerpicentor  ": {
+                      "color": "#ebebff",
+                      "title": "Varwerpicentor  "
+                    },
+                    "Wintumollover  ": {
+                      "color": "#adff9a",
+                      "title": "Wintumollover  "
+                    },
+                    "Zeebanefower International ": {
+                      "color": "#ffcac8",
+                      "title": "Zeebanefower International "
+                    },
+                    "Zeevenazz Direct Group": {
+                      "color": "#ffddac",
+                      "title": "Zeevenazz Direct Group"
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": [
+              {
+                "jaql": {
+                  "table": "country",
+                  "column": "Country",
+                  "dim": "[country.Country]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Country",
+                  "filter": {
+                    "explicit": true,
+                    "multiSelection": true,
+                    "members": [
+                      "Argentina",
+                      "Brazil",
+                      "China",
+                      "Israel",
+                      "Sweden"
+                    ]
+                  },
+                  "collapsed": true
+                }
+              },
+              {
+                "jaql": {
+                  "table": "brand",
+                  "column": "Brand",
+                  "dim": "[brand.Brand]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Brand",
+                  "filter": {
+                    "explicit": true,
+                    "multiSelection": true,
+                    "members": [
+                      "APPLES",
+                      "LONY",
+                      "NIKKI"
+                    ]
+                  },
+                  "collapsed": true
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "style": {
+        "legend": {
+          "enabled": true,
+          "position": "bottom"
+        },
+        "seriesLabels": {
+          "enabled": false,
+          "rotation": 0
+        },
+        "xAxis": {
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "x2Title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "isIntervalEnabled": false
+        },
+        "yAxis": {
+          "inactive": false,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "logarithmic": false,
+          "hideMinMax": false,
+          "isIntervalEnabled": true
+        },
+        "y2Axis": {
+          "inactive": true,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": false,
+          "logarithmic": false,
+          "hideMinMax": false,
+          "isIntervalEnabled": true
+        },
+        "dataLimits": {
+          "seriesCapacity": 50,
+          "categoriesCapacity": 100000
+        },
+        "navigator": {
+          "enabled": true
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "country",
+              "title": "Country",
+              "singular": "Country",
+              "plural": "Country"
+            },
+            {
+              "id": "brand",
+              "title": "Brand",
+              "singular": "Brand",
+              "plural": "Brand"
+            }
+          ]
+        }
+      },
+      "instanceid": "1A028-40A0-E2",
+      "dashboardid": "61bbb93198f8b514782a64dd",
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "drillToAnywhere": true
+      },
+      "script": "widget.on('processresult',function(s,e){\n\n\t//////////////////////////\n\t//\tSort the categories\t//\n\t//////////////////////////\n\n\t//\tUser defined sort order\n\tvar sortOrder = \"desc\";\t\t//\tCan be 'asc' for ascending ordser or 'desc' for descending order \n\n\t//\tGet the categories\n\tvar categories = e.result.xAxis.categories;\n\n\t//\tCreate array to hold the totals\n\tvar totals = [];\n\n\t//\tGet the data\n\tvar data = e.result.series;\n\n\t//\tLoop through each category\n\tfor (var i=0; i<categories.length; i++){\n\n\t\t//\tInit a variable to hold to total for the category\n\t\tvar total = 0;\n\n\t\t//\tLoop through each value within the category, to calculate the total\n\t\tfor (var j=0; j<data.length; j++) {\n\t\t\ttotal += data[j].data[i].y;\n\t\t}\n\n\t\t//\tLoop through each value within the category, to save the total\n\t\tfor (var j=0; j<data.length; j++) {\n\t\t\tdata[j].data[i].total = total;\n\t\t}\n\n\t\t//\tSave the total of the category\n\t\ttotals[i] = {\n\t\t\ttotal: total,\n\t\t\toriginalIndex: i,\n\t\t\tname: categories[i]\n\t\t}\n\t}\n\n\t//\tFunction to sort the list of categories ascending\n\tfunction sortAsc(a,b) {\n\t\tif (a.total < b.total)\n\t\t\treturn -1;\n\t\tif (a.total > b.total)\n\t\t\treturn 1;\n\t\treturn 0;\n\t}\n\n\t//\tFunction to sort the list of categories descending\n\tfunction sortDesc(a,b) {\n\t\tif (a.total < b.total)\n\t\t\treturn 1;\n\t\tif (a.total > b.total)\n\t\t\treturn -1;\n\t\treturn 0;\n\t}\n\n\t\n\t//\tRun the function to sort the categories based on total values\n\tif (sortOrder == \"asc\") {\n\t\ttotals.sort(sortAsc);\n\t} else {\n\t\ttotals.sort(sortDesc);\n\t}\n\n\t//\tLoop through the new sorted Categories and make sure the x-axis matches\n\tfor (var k=0; k<totals.length; k++){\n\t\t//\tOverwrite the old category name\n\t\te.result.xAxis.categories[k] = totals[k].name;\n\t}\n\n\t//\tLoop through each data series and sort the values\n\tfor (var l=0; l<data.length; l++){\n\t\tif (sortOrder == \"asc\") {\n\t\t\tdata[l].data.sort(sortAsc);\n\t\t} else {\n\t\t\tdata[l].data.sort(sortDesc);\n\t\t}\n\t}\n\n\t//////////////////////////////\n\t//\tShow the stack totals\t//\n\t//////////////////////////////\n\n\te.result.yAxis[0].stackLabels = {\n\t\tenabled: true,\n\t\tcolor: 'black',\n\t\tmask: e.result.series[0].mask,\n\t\tformatWithCommas: function(x) {\t\n\t\t    return Math.round(x).toString().replace(/\\B(?=(\\d{3})+(?!\\d))/g, \",\");\n\t\t},\n\t\tformatter: function (){\n\t\t\t//\tUse the mask if defined\n\t\t\tvar func1=this.options.mask;\n\t\t\t//\tRound to 0 decimal places and add commas by default\n\t\t\tvar func2=this.options.formatWithCommas;\n\t\t\t//\tApply the formatting\n\t\t\treturn defined(func1)?func1(this.total):func2(this.total)\n\t\t}\n\t};\n\n})"
+    }
+  ],
+  "hierarchies": []
+}

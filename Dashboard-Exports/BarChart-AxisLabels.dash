@@ -1,0 +1,551 @@
+{
+  "oid": "61add81d7b6d491dec0bf7da",
+  "allowChangeSubscription": false,
+  "datasource": {
+    "title": "Sample ECommerce",
+    "fullname": "LocalHost/Sample ECommerce",
+    "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+    "address": "LocalHost",
+    "database": "aSampleIAAaECommerce",
+    "oid": "01a38588-0027-4a30-8d94-06212032c59b"
+  },
+  "defaultFilters": [],
+  "desc": "",
+  "editing": false,
+  "isPublic": null,
+  "layout": {
+    "instanceid": "ADAC1-BEB8-33",
+    "type": "columnar",
+    "columns": [
+      {
+        "width": 100,
+        "cells": [
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 102,
+                    "maxHeight": 1024,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": "708px",
+                    "defaultWidth": 512,
+                    "widgetid": "61add81d7b6d491dec0bf7db"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1439,
+                "index": 0
+              }
+            ]
+          }
+        ],
+        "pxlWidth": 1439,
+        "index": 0
+      }
+    ]
+  },
+  "original": null,
+  "parentFolder": "61c44b8783642f002bf183a1",
+  "previewLayout": [],
+  "settings": {
+    "autoUpdateOnFiltersChange": true
+  },
+  "source": "61c44ecc83642f002bf1857d",
+  "style": {
+    "palette": {
+      "name": "Vivid",
+      "colors": [
+        "#00cee6",
+        "#9b9bd7",
+        "#6EDA55",
+        "#fc7570",
+        "#fbb755",
+        "#218A8C"
+      ]
+    }
+  },
+  "subscription": {
+    "subscribe": false,
+    "executionPerDay": 1,
+    "schedule": "* * * * * *",
+    "isDataChange": true,
+    "type": "onUpdate",
+    "reportType": {
+      "inline": true
+    },
+    "emailSettings": {
+      "isEmail": true,
+      "isPdf": false
+    },
+    "context": {
+      "dashboardid": "61add81d7b6d491dec0bf7da"
+    },
+    "startAt": "2023-02-21",
+    "tzName": "Europe/Dublin",
+    "timezone": 0,
+    "active": false
+  },
+  "title": "Bar Chart - Axis Labels",
+  "type": "dashboard",
+  "lastOpened": null,
+  "widgets": [
+    {
+      "title": "Axis Labels Formatting",
+      "type": "chart/bar",
+      "subtype": "bar/classic",
+      "oid": "61add81d7b6d491dec0bf7db",
+      "desc": "https://support.sisense.com/hc/en-us/community/posts/221227308-Format-Widget-Title\n\nhttps://support.sisense.com/hc/en-us/community/posts/221226968-Changing-a-Widget-s-Background-Color-",
+      "source": "61c44ecc83642f002bf1857f",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce",
+        "oid": "01a38588-0027-4a30-8d94-06212032c59b"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "categories",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Age Range",
+                  "dim": "[Commerce.Age Range]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Age Range"
+                },
+                "instanceid": "A66B1-211A-88"
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "sum([2D788-6BD])",
+                  "context": {
+                    "[2D788-6BD]": {
+                      "table": "Commerce",
+                      "column": "Cost",
+                      "dim": "[Commerce.Cost]",
+                      "datatype": "numeric",
+                      "title": "Cost"
+                    }
+                  },
+                  "title": "sum([Cost])"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "type": "color",
+                    "color": "#000000"
+                  }
+                },
+                "field": {
+                  "id": "[Survey results.General Satisfaction]_sum",
+                  "index": 1
+                },
+                "instanceid": "72EE6-E025-C0"
+              }
+            ]
+          },
+          {
+            "name": "break by",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "cumSettings": [],
+      "dashboardid": "61add81d7b6d491dec0bf7da",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "instanceid": "ACA58-F454-94",
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "drillToAnywhere": true,
+        "previousScrollerLocation": {
+          "min": null,
+          "max": null
+        },
+        "aiFeatures": [
+          {
+            "id": "pareto_1569481451806",
+            "name": "Pareto",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Roughly 80% of the effects come from 20% of the causes",
+            "isCustomModel": true
+          },
+          {
+            "id": "summary_statistics_1569425202576",
+            "name": "Summary Statistics",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Provide information about your data",
+            "isCustomModel": true
+          },
+          {
+            "id": "percentile_curves_1574252861643",
+            "name": "Percentile Curves",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Another way to show distributions",
+            "isCustomModel": true
+          },
+          {
+            "id": "cluster_1570673124179",
+            "name": "Clustering",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Grouping a set of objects in such a way that objects in the same group are more similar to each other than to those in other groups",
+            "isCustomModel": true
+          },
+          {
+            "id": "two-tailed_test_1574241584650",
+            "name": "Two-Tailed Test",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "perform two tailed t-test",
+            "isCustomModel": true
+          },
+          {
+            "id": "growth_rate_1572222323562",
+            "name": "Growth Rates",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "refer to the percentage change of a specific variable within a specific time period and given a certain context",
+            "isCustomModel": true
+          },
+          {
+            "id": "anomaly",
+            "name": "Anomaly",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Outlier data points detections",
+            "isCustomModel": false
+          },
+          {
+            "id": "forecast",
+            "name": "What-If Analysis",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {
+              "hasTargetVar": true,
+              "targetVar": {
+                "targetVarPaneActive": false,
+                "sectionTitle": "Target Value",
+                "options": [
+                  "sum([Cost])"
+                ],
+                "value": "sum([Cost])"
+              }
+            },
+            "description": "Predict the future values of a 2-var-TS, one of which is the target and the\n                    second is explaining variable.\n                    Provide non-symmetric confidence-interval for the above predictions.\n                    Var-Dependence (Score) - the strength of the influence of the explaining\n                    variable on the target one.\n                    XAI (model weights etc)",
+            "isCustomModel": false
+          },
+          {
+            "id": "local_estimates",
+            "name": "Local Estimate",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Locally (using before and after time series points) estimating the mean of the time series",
+            "isCustomModel": false
+          },
+          {
+            "id": "trend",
+            "name": "Trend",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Detect (if exists) Trend-Break-Points and connect those with a trend line",
+            "isCustomModel": false
+          }
+        ]
+      },
+      "script": "\n \n  /******************************************************************/\n/********Change the Axis Titles, Color, Font Size, and Font********/\n/******************************************************************/\nwidget.on('processresult', function(se,ev){\n\t\n\n ev.result.xAxis.title = {text:'Tier', style:{color:'#ffcb05', fontSize:'50px',fontFamily: 'Verdana'}}\n ev.result.yAxis[0].title = {text:'General Satisfaction', style:{color:'#ffcb05', fontSize:'32px',fontFamily: \"Arial\"}}\n //ev.result.yAxis[1].title = {text:'Secondary Y Axis Title', style:{color:'#ffcb05', fontSize:'24px',fontFamily: \"Comic Sans MS\"}}\n\n\t\n\n}) \n\n\n\t\n/*************************************************/\n/********Change the Axis Labels Formatting********/\n/*************************************************/ \t\n\nwidget.on('render', function(se,ev){\n\t\n \n      /*Change the X Axis Labels' Rotation, Distance from Axis, Color, Font Size, Font Weight, and Style*/\n \n se.queryResult.xAxis.labels.rotation = -45;\n se.queryResult.xAxis.labels.y = 30;\n se.queryResult.xAxis.labels.style.color = \"#ffcb05\";\n se.queryResult.xAxis.labels.style.fontSize = 12;\n se.queryResult.xAxis.labels.style.fontWeight = \"bold\";\n se.queryResult.xAxis.labels.style.fontFamily = \"Verdana\";\n \n \n      /*Change the Primary Y Axis Labels' Rotation, Distance from Axis, Color, Font Size, Font Weight, and Style*/\n \n se.queryResult.yAxis[0].labels.rotation = 45;\n se.queryResult.yAxis[0].labels.x = 15;\n se.queryResult.yAxis[0].labels.style.color = \"#ffcb05\";\n se.queryResult.yAxis[0].labels.style.fontSize = 12;\n se.queryResult.yAxis[0].labels.style.fontWeight = \"bold\";\n se.queryResult.yAxis[0].labels.style.fontFamily = \"Arial\";\n \n \n \n      /*Change the Secondary Y Axis Labels' Rotation, Distance from Axis, Color, Font Size, Font Weight, and Style*/\n \n// se.queryResult.yAxis[1].labels.rotation = -45;\n //se.queryResult.yAxis[1].labels.x = 10;\n //se.queryResult.yAxis[1].labels.style.color = \"#ffcb05\";\n// se.queryResult.yAxis[1].labels.style.fontSize = 15;\n// se.queryResult.yAxis[1].labels.style.fontWeight = \"bold\";\n //se.queryResult.yAxis[1].labels.style.fontFamily = \"Calibri\";\n}) \n\n\n\n\n\t\n\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "style": {
+        "legend": {
+          "enabled": true,
+          "position": "bottom"
+        },
+        "seriesLabels": {
+          "enabled": true,
+          "rotation": 0,
+          "labels": {
+            "enabled": false,
+            "types": {
+              "count": false,
+              "percentage": false,
+              "relative": false,
+              "totals": false
+            },
+            "stacked": false,
+            "stackedPercentage": false
+          }
+        },
+        "xAxis": {
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "x2Title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "isIntervalEnabled": false
+        },
+        "yAxis": {
+          "inactive": false,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "logarithmic": false,
+          "hideMinMax": false,
+          "isIntervalEnabled": true
+        },
+        "y2Axis": {
+          "inactive": true,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": false,
+          "logarithmic": false,
+          "hideMinMax": false,
+          "isIntervalEnabled": true
+        },
+        "dataLimits": {
+          "seriesCapacity": 50,
+          "categoriesCapacity": 100000
+        },
+        "navigator": {
+          "enabled": true
+        },
+        "title": {
+          "titleMenuEnabled": false,
+          "fontColorEnabled": true,
+          "titleFontColor": "#ffcb05",
+          "fontWeightEnabled": true,
+          "titleFontWeight": "bold"
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "age_range",
+              "title": "Age Range",
+              "singular": "Age Range",
+              "plural": "Age Range"
+            }
+          ]
+        }
+      },
+      "displayMenu": true,
+      "custom": {
+        "barcolumnchart": {
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total",
+          "type": "chart/bar",
+          "isTypeValid": true
+        }
+      },
+      "wasRendered": false
+    }
+  ],
+  "hierarchies": [
+    {
+      "_id": "5e1df3c7d0c67e1ae07f1b28",
+      "title": "Age Range",
+      "alwaysIncluded": true,
+      "levels": [
+        {
+          "title": "Age Range",
+          "table": "Commerce",
+          "column": "Age Range",
+          "datatype": "text",
+          "dim": "[Commerce.Age Range]",
+          "index": 0,
+          "_id": "5e1df3c7d0c67e1ae07f1b27"
+        },
+        {
+          "title": "Brand",
+          "table": "Brand",
+          "column": "Brand",
+          "datatype": "text",
+          "dim": "[Brand.Brand]",
+          "index": 1,
+          "_id": "5f7dac8d83916d210422a29f"
+        }
+      ],
+      "cubeId": "6142d757c80a065ff5a24ccc",
+      "lastUpdated": "2023-12-17T10:23:52.992Z",
+      "serverAddress": "LocalHost",
+      "elasticubeTitle": "Sample ECommerce"
+    },
+    {
+      "_id": "5cbefc68bbb1712fe8ef043c",
+      "title": "Age Range (1)",
+      "alwaysIncluded": true,
+      "levels": [
+        {
+          "title": "Age Range",
+          "table": "Commerce",
+          "column": "Age Range",
+          "datatype": "text",
+          "dim": "[Commerce.Age Range]",
+          "index": 0,
+          "_id": "5cbefc68bbb1712fe8ef043b"
+        },
+        {
+          "title": "Gender",
+          "table": "Commerce",
+          "column": "Gender",
+          "datatype": "text",
+          "dim": "[Commerce.Gender]",
+          "index": 1,
+          "_id": "5cbefc6cbbb1712fe8ef043e"
+        }
+      ],
+      "cubeId": "6142d757c80a065ff5a24ccc",
+      "lastUpdated": "2023-12-17T10:23:52.992Z",
+      "serverAddress": "LocalHost",
+      "elasticubeTitle": "Sample ECommerce"
+    },
+    {
+      "_id": "5d6796518cb5d40ab82aa918",
+      "title": "Age Range (1)",
+      "alwaysIncluded": true,
+      "levels": [
+        {
+          "title": "Age Range",
+          "table": "Commerce",
+          "column": "Age Range",
+          "datatype": "text",
+          "dim": "[Commerce.Age Range]",
+          "index": 0,
+          "_id": "5d6796518cb5d40ab82aa917"
+        },
+        {
+          "title": "Cost",
+          "table": "Commerce",
+          "column": "Cost",
+          "datatype": "numeric",
+          "dim": "[Commerce.Cost]",
+          "index": 1,
+          "_id": "5d6796558cb5d40ab82aa91a"
+        }
+      ],
+      "cubeId": "6142d757c80a065ff5a24ccc",
+      "lastUpdated": "2023-12-17T10:23:52.992Z",
+      "serverAddress": "LocalHost",
+      "elasticubeTitle": "Sample ECommerce"
+    }
+  ]
+}

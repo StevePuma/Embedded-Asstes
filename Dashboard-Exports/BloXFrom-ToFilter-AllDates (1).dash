@@ -1,0 +1,858 @@
+{
+  "oid": "62bdf77c142df70036c4b4fb",
+  "dataExploration": false,
+  "datasource": {
+    "fullname": "localhost/Sample ECommerce",
+    "id": "localhost_aSampleIAAaECommerce",
+    "address": "LocalHost",
+    "database": "aSampleIAAaECommerce",
+    "live": false,
+    "title": "Sample ECommerce"
+  },
+  "defaultFilters": [
+    {
+      "jaql": {
+        "table": "Commerce",
+        "column": "Date",
+        "dim": "[Commerce.Date (Calendar)]",
+        "datatype": "datetime",
+        "merged": true,
+        "level": "days",
+        "title": "Days in Date",
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "datasource": {
+          "fullname": "localhost/Sample ECommerce",
+          "id": "localhost_aSampleIAAaECommerce",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce",
+          "live": false,
+          "title": "Sample ECommerce"
+        },
+        "filter": {
+          "from": "2013-03-02",
+          "to": "2013-05-07"
+        }
+      },
+      "instanceid": "EB513-9723-91",
+      "isCascading": false,
+      "disabled": false
+    }
+  ],
+  "desc": "",
+  "editing": false,
+  "filterToDatasourceMapping": {},
+  "filters": [
+    {
+      "jaql": {
+        "table": "Commerce",
+        "column": "Date",
+        "dim": "[Commerce.Date (Calendar)]",
+        "datatype": "datetime",
+        "merged": true,
+        "level": "days",
+        "title": "Days in Date",
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "datasource": {
+          "fullname": "localhost/Sample ECommerce",
+          "id": "localhost_aSampleIAAaECommerce",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce",
+          "live": false,
+          "title": "Sample ECommerce"
+        },
+        "filter": {
+          "from": "2009-11-20"
+        }
+      },
+      "instanceid": "EB513-9723-91",
+      "isCascading": false,
+      "disabled": false
+    }
+  ],
+  "lastOpened": null,
+  "layout": {
+    "instanceid": "8B965-F011-7B",
+    "type": "columnar",
+    "columns": [
+      {
+        "width": 100,
+        "cells": [
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "height": "392px",
+                    "defaultWidth": 128,
+                    "widgetid": "62be0f1c142df70036c4b531"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1022,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 68,
+                    "maxHeight": 969,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": 196,
+                    "defaultWidth": 512,
+                    "widgetid": "62bdf847142df70036c4b508"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1022,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 128,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": "746px",
+                    "defaultWidth": 512,
+                    "widgetid": "62bdf820142df70036c4b506",
+                    "autoHeight": "746px"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1022,
+                "index": 0
+              }
+            ]
+          }
+        ],
+        "pxlWidth": 1022,
+        "index": 0
+      }
+    ],
+    "container": {}
+  },
+  "original": null,
+  "parentFolder": "61c44b8583642f002bf1838b",
+  "script": "/*\nWelcome to your Dashboard's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at https://sisense.dev/guides/js/extensions\n*/\n\ndashboard.on('initialized', function(dashboard) {\n  console.log('Dashboard ' + dashboard.oid + ' - Event \"initialized\"')\n  Object.keys(dashboard.$$events).forEach(keyName => {\n    if (keyName.startsWith('widget')) \n    {\n      dashboard.on(keyName,function(dash,widget) {\n        console.log('Dashboard ' + dashboard.oid + ' - Event \"' + keyName + '\" for widget ' + widget.widget.oid) \n      })\n    }\n    else\n    {\n      dashboard.on(keyName,function() {\n        console.log('Dashboard ' + dashboard.oid + ' - Event \"' + keyName + '\"') \n      })\n    }\n  })\n\n  dashboard.widgets.$$widgets.forEach(widget => {\n    Object.keys(widget.$$events).forEach(keyName => widget.on(keyName,function() {\n      console.log('Widget ' + widget.oid + ' - Event \"' + keyName + '\"') \n    }))\n  })\n})",
+  "settings": {
+    "autoUpdateOnFiltersChange": true
+  },
+  "source": "62bdf77c142df70036c4b4fc",
+  "style": {
+    "palette": {
+      "name": "Vivid",
+      "colors": [
+        "#00cee6",
+        "#9b9bd7",
+        "#6EDA55",
+        "#fc7570",
+        "#fbb755",
+        "#218A8C"
+      ]
+    }
+  },
+  "title": "BloX From-To Filter - All Dates",
+  "type": "dashboard",
+  "allowChangeSubscription": false,
+  "subscription": {
+    "isDataChange": true,
+    "type": "onUpdate",
+    "schedule": "* * * * * *",
+    "timezone": 240,
+    "tzName": "America/New_York",
+    "context": {
+      "dashboardid": "62bdf77c142df70036c4b4fb"
+    },
+    "active": false,
+    "executionPerDay": 1,
+    "reportType": {
+      "inline": true
+    },
+    "emailSettings": {
+      "isEmail": true,
+      "isPdf": false
+    },
+    "startAt": "2022-07-07",
+    "subscribe": false
+  },
+  "isPublic": null,
+  "previewLayout": [],
+  "filterRelations": [],
+  "widgets": [
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "62be0f1c142df70036c4b531",
+      "desc": null,
+      "source": "62be0f1c142df70036c4b532",
+      "datasource": {
+        "fullname": "localhost/Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce",
+        "live": false,
+        "title": "Sample ECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": []
+      },
+      "style": {
+        "content": {
+          "html": "<div style=\"text-align: left;\"><font size=\"5\">How to make a date selection BloX Filter</font></div><div style=\"text-align: left;\"><font size=\"2\"><font style=\"\">This is an extension of&nbsp;</font><a href=\"https://solutioncenter.sisense.com/app/main#/dashboards/624b2322da957a0037bb17d4\" style=\"\">BloX From-To Filter - Year Only</a></font></div><div style=\"text-align: left;\"><br></div><div style=\"text-align: left;\"><font size=\"3\">Steps to use (there are 4 components to copy):</font></div><div style=\"text-align: left;\"><ol><li>Add the date filter to your dashboard (right hand pane). Make note of the name of the filter (this is necessary for the later steps)</li><li>Create a new BloX widget</li><li><b>Editor</b>: Copy-paste the contents of the \"Editor\"<br>&nbsp; &nbsp; &nbsp;At the bottom of the editor - modify the \"FilterFields\" to be the dimension of your filter (in this example \"[Commerce.Date (Calendar)]\"<br></li><li><b>Configuration</b>: Copy-paste contents of \"Configuration\"<br>&nbsp; &nbsp; &nbsp;This primarily contains styling - feel free to adjust as you need. The submit button will take the color of the Sisense site theming<br></li><li><b>Actions</b>: Add an action called \"filter-date\" with the same action snippet in this environment<br>&nbsp; &nbsp; &nbsp;This will allow the filter to update when the Submit button is pressed<br></li><li>Save the widget (Apply)<br></li><li><b>Script</b>: Re-edit the widget, and click the 3 dots &gt; \"edit Script\"</li><li>Copy and paste the code for this widget. You will replace the filterName value with the exact name of your filter</li><li>Apply the widget</li></ol><div><br></div><div>Limitations:</div><div><ul><li>When you edit the From Date, the To Date goes back to mm/dd/yyyy - can't seem to get the event that causes this<br></li></ul><div><br></div></div><div>Reach out to Katie G if you have questions :)&nbsp;</div></div>",
+          "vAlign": "valign-middle",
+          "bgColor": "#FFFFFF",
+          "textAlign": "center"
+        }
+      },
+      "instanceid": "80757-6060-33",
+      "wasRendered": false,
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "dashboardid": "62bdf77c142df70036c4b4fb"
+    },
+    {
+      "title": "",
+      "type": "BloX",
+      "subtype": "BloX",
+      "oid": "62bdf847142df70036c4b508",
+      "desc": null,
+      "source": "62bdf847142df70036c4b509",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "Items",
+            "items": []
+          },
+          {
+            "name": "Values",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "currentCard": {
+          "style": "",
+          "script": "",
+          "title": "",
+          "showCarousel": true,
+          "carouselAnimation": {
+            "showButtons": false
+          },
+          "body": [
+            {
+              "type": "Container",
+              "width": "20%",
+              "style": {
+                "margin": "0 auto"
+              },
+              "items": [
+                {
+                  "spacing": "large",
+                  "type": "TextBlock",
+                  "text": "From Date",
+                  "weight": "light",
+                  "color": "black"
+                },
+                {
+                  "type": "Input.Date",
+                  "id": "SelectVal_from",
+                  "placeholder": "",
+                  "defaultValue": "",
+                  "style": {
+                    "width": "100%"
+                  },
+                  "borderRadius": "4px",
+                  "borderStyle": "none",
+                  "backgroundColor": "#F4F4F8"
+                },
+                {
+                  "spacing": "medium",
+                  "type": "TextBlock",
+                  "text": "To Date",
+                  "color": "black"
+                },
+                {
+                  "type": "Input.Date",
+                  "id": "SelectVal_to",
+                  "placeholder": "",
+                  "defaultValue": "",
+                  "style": {
+                    "width": "100%"
+                  },
+                  "borderRadius": "4px",
+                  "borderStyle": "none",
+                  "backgroundColor": "#F4F4F8"
+                },
+                {
+                  "type": "ActionSet",
+                  "actions": [
+                    {
+                      "type": "filter-date",
+                      "title": "Submit",
+                      "data": {
+                        "FilterFields": [
+                          "[Commerce.Date (Calendar)]"
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "currentConfig": {
+          "fontFamily": "Open Sans",
+          "fontSizes": {
+            "default": 16,
+            "small": 14,
+            "medium": 22,
+            "large": 32,
+            "extraLarge": 50
+          },
+          "fontWeights": {
+            "default": 400,
+            "light": 100,
+            "bold": 800
+          },
+          "containerStyles": {
+            "default": {
+              "backgroundColor": "#ffffff",
+              "foregroundColors": {
+                "default": {
+                  "normal": "#3A4356"
+                },
+                "white": {
+                  "normal": "#ffffff"
+                },
+                "grey": {
+                  "normal": "#9EA2AB"
+                },
+                "orange": {
+                  "normal": "#f2B900"
+                },
+                "yellow": {
+                  "normal": "#ffcb05"
+                },
+                "black": {
+                  "normal": "#000000"
+                },
+                "lightGreen": {
+                  "normal": "#93c0c0"
+                },
+                "green": {
+                  "normal": "#2BCC7F"
+                },
+                "red": {
+                  "normal": "#FA5656"
+                },
+                "accent": {
+                  "normal": "#2E89FC"
+                },
+                "good": {
+                  "normal": "#54a254"
+                },
+                "warning": {
+                  "normal": "#e69500"
+                },
+                "attention": {
+                  "normal": "#cc3300"
+                }
+              }
+            }
+          },
+          "imageSizes": {
+            "default": 40,
+            "small": 40,
+            "medium": 80,
+            "large": 120
+          },
+          "imageSet": {
+            "imageSize": "medium",
+            "maxImageHeight": 100
+          },
+          "actions": {
+            "color": "",
+            "backgroundColor": "",
+            "maxActions": 5,
+            "spacing": "large",
+            "buttonSpacing": 20,
+            "actionsOrientation": "horizontal",
+            "actionAlignment": "right",
+            "margin": "0",
+            "showCard": {
+              "actionMode": "inline",
+              "inlineTopMargin": 16,
+              "style": "default"
+            }
+          },
+          "spacing": {
+            "default": 5,
+            "small": 5,
+            "medium": 10,
+            "large": 20,
+            "extraLarge": 40,
+            "padding": 0
+          },
+          "separator": {
+            "lineThickness": 1,
+            "lineColor": "#D8D8D8"
+          },
+          "factSet": {
+            "title": {
+              "size": "default",
+              "color": "default",
+              "weight": "bold",
+              "warp": true
+            },
+            "value": {
+              "size": "default",
+              "color": "default",
+              "weight": "default",
+              "warp": true
+            },
+            "spacing": 20
+          },
+          "supportsInteractivity": true,
+          "imageBaseUrl": "",
+          "height": 196
+        },
+        "currentCardName": "default",
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": []
+        }
+      },
+      "instanceid": "4570C-8911-7B",
+      "wasRendered": false,
+      "questQueryResult": {
+        "isActive": false,
+        "isPending": false
+      },
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 4,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "drilledDashboardDisplay": {},
+      "query": {
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce"
+        },
+        "format": "json",
+        "isMaskedResult": true,
+        "metadata": [],
+        "m2mThresholdFlag": 0
+      },
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "title": false,
+        "drillTarget": "dummy",
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true
+      },
+      "dashboardid": "62bdf77c142df70036c4b4fb",
+      "script": "widget.on('ready', function() {\n\t\n\t// replace with filter name\n\tvar filterName = \"Days in Date\";\n\n\t// ----------Find date filter----------\n    let dateFilter = dashboard.filters.$$items.find((item) => {\n        if (item.jaql && item.jaql.title.indexOf(filterName) !== -1) {\n            return true\n        }\n    })\n\t\n\t\n\t// ----------Set selected 'from' value as placeholder for input field----------\n\tvar checkInvalid_from = typeof dateFilter.jaql.filter.from == 'undefined' || dateFilter.disabled== true;\n\t//console.log(dateFilter.jaql.filter.from)\n\tvar filterValue_from = (checkInvalid_from) ? 'date' : dateFilter.jaql.filter.from;\n\n\t\n\t//Set selected 'from' value as placeholder and default value for input field\n\t//$('#SelectVal_from', element).attr('placeholder', filterValue_from);\n\t$('#SelectVal_from', element).attr('value', filterValue_from);\n\t\n\t\n\t// ----------Set selected 'to' value as placeholder for input field----------\n\tvar checkInvalid_to = typeof dateFilter.jaql.filter.to == 'undefined' || dateFilter.disabled== true;\n\t//console.log(dateFilter.jaql.filter.to)\n\tvar filterValue_to = (checkInvalid_to) ? 'date' : dateFilter.jaql.filter.to;\n\t\n\t//Set selected 'to' value as placeholder and default value for input field\n\t//$('#SelectVal_to', element).attr('placeholder', filterValue_to);\n\t$('#SelectVal_to', element).attr('value', filterValue_to);\t\n\t\n\t\n\t\n});",
+      "jasperReportsSettings": {},
+      "prevSortObjects": []
+    },
+    {
+      "title": "",
+      "type": "pivot2",
+      "subtype": "pivot2",
+      "oid": "62bdf820142df70036c4b506",
+      "desc": null,
+      "source": "62bdf820142df70036c4b507",
+      "datasource": {
+        "fullname": "localhost/Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce",
+        "live": false,
+        "title": "Sample ECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "rows",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Date",
+                  "dim": "[Commerce.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "days",
+                  "title": "Days in Date"
+                },
+                "instanceid": "20121-2430-1D",
+                "panel": "rows",
+                "field": {
+                  "id": "[Commerce.Date (Calendar)]_years",
+                  "index": 0
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "isdefault": true
+                  }
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Revenue",
+                  "dim": "[Commerce.Revenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total Revenue"
+                },
+                "instanceid": "57488-D6E6-5B",
+                "panel": "measures",
+                "field": {
+                  "id": "[Commerce.Revenue]_sum",
+                  "index": 1
+                },
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": false,
+                      "b": false,
+                      "m": false,
+                      "k": false
+                    },
+                    "decimals": "auto",
+                    "currency": {
+                      "symbol": "$",
+                      "position": "pre"
+                    }
+                  },
+                  "color": {
+                    "type": "color",
+                    "color": "transparent"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "columns",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "style": {
+        "scroll": false,
+        "pageSize": 25,
+        "automaticHeight": true,
+        "colors": {
+          "rows": true,
+          "columns": false,
+          "headers": false,
+          "members": false,
+          "totals": false
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "days_in_date",
+              "title": "Days in Date",
+              "singular": "Days in Date",
+              "plural": "Days in Date"
+            }
+          ]
+        }
+      },
+      "instanceid": "6C391-4E82-55",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 2,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "wasRendered": false,
+      "query": {
+        "datasource": {
+          "fullname": "localhost/Sample ECommerce",
+          "id": "localhost_aSampleIAAaECommerce",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce",
+          "live": false,
+          "title": "Sample ECommerce"
+        },
+        "format": "pivot",
+        "grandTotals": {
+          "title": "Grand Total"
+        },
+        "metadata": [
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Date",
+              "dim": "[Commerce.Date (Calendar)]",
+              "datatype": "datetime",
+              "merged": true,
+              "level": "days",
+              "title": "Days in Date"
+            },
+            "instanceid": "20121-2430-1D",
+            "panel": "rows",
+            "field": {
+              "id": "[Commerce.Date (Calendar)]_years",
+              "index": 0
+            },
+            "format": {
+              "mask": {
+                "years": "yyyy",
+                "quarters": "yyyy Q",
+                "months": "MM/yyyy",
+                "weeks": "ww yyyy",
+                "days": "shortDate",
+                "minutes": "HH:mm",
+                "seconds": "MM/dd/yyyy HH:mm:ss",
+                "dateAndTime": "MM/dd/yyyy HH:mm",
+                "isdefault": true
+              }
+            },
+            "hierarchies": [
+              "calendar",
+              "calendar - weeks"
+            ],
+            "handlers": [
+              {},
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Revenue",
+              "dim": "[Commerce.Revenue]",
+              "datatype": "numeric",
+              "agg": "sum",
+              "title": "Total Revenue"
+            },
+            "instanceid": "57488-D6E6-5B",
+            "panel": "measures",
+            "field": {
+              "id": "[Commerce.Revenue]_sum",
+              "index": 1
+            },
+            "format": {
+              "mask": {
+                "abbreviations": {
+                  "t": false,
+                  "b": false,
+                  "m": false,
+                  "k": false
+                },
+                "decimals": "auto",
+                "currency": {
+                  "symbol": "$",
+                  "position": "pre"
+                }
+              },
+              "color": {
+                "type": "color",
+                "color": "transparent"
+              }
+            },
+            "handlers": [
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Date",
+              "dim": "[Commerce.Date (Calendar)]",
+              "datatype": "datetime",
+              "merged": true,
+              "level": "days",
+              "title": "Days in Date",
+              "collapsed": true,
+              "isDashboardFilter": true,
+              "datasource": {
+                "fullname": "localhost/Sample ECommerce",
+                "id": "localhost_aSampleIAAaECommerce",
+                "address": "LocalHost",
+                "database": "aSampleIAAaECommerce",
+                "live": false,
+                "title": "Sample ECommerce"
+              },
+              "filter": {
+                "from": "2009-11-20"
+              }
+            },
+            "disabled": false,
+            "isCascading": false,
+            "instanceid": "EB513-9723-91",
+            "panel": "scope"
+          }
+        ],
+        "m2mThresholdFlag": 0
+      },
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": false,
+        "triggersDomready": true,
+        "drillToAnywhere": true,
+        "autoUpdateOnEveryChange": true,
+        "interactivePivot": {
+          "enable": false
+        }
+      },
+      "dashboardid": "62bdf77c142df70036c4b4fb"
+    }
+  ],
+  "hierarchies": []
+}

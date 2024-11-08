@@ -1,0 +1,2653 @@
+{
+  "oid": "64c7dec24faf000033a58758",
+  "allowChangeSubscription": false,
+  "dataExploration": false,
+  "datasource": {
+    "title": "Sample ECommerce",
+    "fullname": "LocalHost/Sample ECommerce",
+    "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+    "address": "LocalHost",
+    "database": "aSampleIAAaECommerce"
+  },
+  "defaultFilters": [
+    {
+      "jaql": {
+        "table": "Commerce",
+        "column": "Date",
+        "dim": "[Commerce.Date (Calendar)]",
+        "datatype": "datetime",
+        "merged": true,
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce"
+        },
+        "firstday": "mon",
+        "locale": "en-us",
+        "level": "years",
+        "title": "Years in Date",
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "filter": {
+          "explicit": true,
+          "multiSelection": false,
+          "members": [
+            "2012-01-01T00:00:00"
+          ]
+        }
+      },
+      "instanceid": "1B406-DEB8-0F",
+      "isCascading": false
+    }
+  ],
+  "desc": "",
+  "editing": false,
+  "filters": [
+    {
+      "jaql": {
+        "table": "Commerce",
+        "column": "Date",
+        "dim": "[Commerce.Date (Calendar)]",
+        "datatype": "datetime",
+        "merged": true,
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce"
+        },
+        "firstday": "mon",
+        "locale": "en-us",
+        "level": "years",
+        "title": "Years in Date",
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "filter": {
+          "explicit": true,
+          "multiSelection": false,
+          "members": [
+            "2012-01-01T00:00:00"
+          ]
+        }
+      },
+      "instanceid": "1B406-DEB8-0F",
+      "isCascading": false
+    }
+  ],
+  "isPublic": null,
+  "lastOpened": null,
+  "layout": {
+    "instanceid": "A40CC-5A5C-01",
+    "type": "columnar",
+    "columns": [
+      {
+        "width": 100,
+        "cells": [
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "height": "60px",
+                    "defaultWidth": 128,
+                    "widgetid": "64c7e4954faf000033a587e9"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1393,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 68,
+                    "maxHeight": 937,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "64c7e7264faf000033a5881a",
+                    "height": "244px"
+                  }
+                ],
+                "width": 33.333333333333336,
+                "stretchable": false,
+                "pxlWidth": 464.333,
+                "index": 0
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 68,
+                    "maxHeight": 937,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "64c7dec24faf000033a5875a",
+                    "height": "244px"
+                  }
+                ],
+                "width": 33.333333333333336,
+                "stretchable": false,
+                "pxlWidth": 464.333,
+                "index": 1
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 68,
+                    "maxHeight": 977,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": "244px",
+                    "defaultWidth": 512,
+                    "widgetid": "64c7dec24faf000033a58759"
+                  }
+                ],
+                "width": 33.333333333333336,
+                "stretchable": false,
+                "pxlWidth": 464.333,
+                "index": 2
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 96,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": 384,
+                    "defaultWidth": 512,
+                    "widgetid": "64c7df1e4faf000033a5876f"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1393,
+                "index": 0
+              }
+            ]
+          }
+        ],
+        "pxlWidth": 1393,
+        "index": 0
+      }
+    ],
+    "container": {
+      "sizzle1690823344953": {
+        "undefined": {
+          "parentNode": [
+            431.14123398258585,
+            25,
+            true
+          ]
+        }
+      }
+    }
+  },
+  "original": null,
+  "parentFolder": "61c44b8683642f002bf1838d",
+  "previewLayout": [],
+  "settings": {
+    "autoUpdateOnFiltersChange": true
+  },
+  "source": "64c7dee04faf000033a58764",
+  "style": {
+    "palette": {
+      "name": "Vivid",
+      "colors": [
+        "#00cee6",
+        "#9b9bd7",
+        "#6EDA55",
+        "#fc7570",
+        "#fbb755",
+        "#218A8C"
+      ]
+    }
+  },
+  "title": "BloX - Conditional Text / Sentiment",
+  "type": "dashboard",
+  "subscription": {
+    "executionPerDay": 1,
+    "schedule": "* * * * * *",
+    "isDataChange": true,
+    "type": "onUpdate",
+    "reportType": {
+      "inline": true
+    },
+    "emailSettings": {
+      "isEmail": true,
+      "isPdf": false
+    },
+    "context": {
+      "dashboardid": "64c7dec24faf000033a58758"
+    },
+    "startAt": "2023-07-31",
+    "tzName": "America/New_York",
+    "timezone": 240,
+    "active": false,
+    "subscribe": false
+  },
+  "filterRelations": [],
+  "filterToDatasourceMapping": {},
+  "widgets": [
+    {
+      "title": "Conditional Show/Hide",
+      "type": "BloX",
+      "subtype": "BloX",
+      "oid": "64c7dec24faf000033a58759",
+      "desc": null,
+      "source": "64c7dee04faf000033a58767",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "Items",
+            "items": []
+          },
+          {
+            "name": "Values",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "[33DD7-011] - ([33DD7-011], PREV([82584-B3F]))",
+                  "context": {
+                    "[82584-B3F]": {
+                      "table": "Commerce",
+                      "column": "Date",
+                      "dim": "[Commerce.Date (Calendar)]",
+                      "datatype": "datetime",
+                      "merged": true,
+                      "level": "years",
+                      "title": "Years in Date"
+                    },
+                    "[33DD7-011]": {
+                      "table": "Commerce",
+                      "column": "Revenue",
+                      "dim": "[Commerce.Revenue]",
+                      "datatype": "numeric",
+                      "agg": "sum",
+                      "title": "Total Revenue"
+                    }
+                  },
+                  "title": "Revenue Increase"
+                },
+                "PanelName": "Revenue Increase",
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "decimals": "auto",
+                    "currency": {
+                      "symbol": "$",
+                      "position": "pre"
+                    }
+                  }
+                },
+                "instanceid": "0463D-C648-98"
+              },
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "([CB930-CAD] - ([CB930-CAD], PREV([153F8-65C]))) * 0.15",
+                  "context": {
+                    "[153F8-65C]": {
+                      "table": "Commerce",
+                      "column": "Date",
+                      "dim": "[Commerce.Date (Calendar)]",
+                      "datatype": "datetime",
+                      "merged": true,
+                      "level": "years",
+                      "title": "Years in Date"
+                    },
+                    "[CB930-CAD]": {
+                      "table": "Commerce",
+                      "column": "Revenue",
+                      "dim": "[Commerce.Revenue]",
+                      "datatype": "numeric",
+                      "agg": "sum",
+                      "title": "Total Revenue"
+                    }
+                  },
+                  "title": "Bonus"
+                },
+                "PanelName": "Bonus",
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "decimals": "auto",
+                    "currency": {
+                      "symbol": "$",
+                      "position": "pre"
+                    }
+                  }
+                },
+                "instanceid": "0463D-C648-98"
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "currentCard": {
+          "style": "",
+          "script": "",
+          "title": "",
+          "showCarousel": true,
+          "carouselAnimation": {
+            "delay": 0
+          },
+          "conditions": [
+            {
+              "minRange": "-Infinity",
+              "maxRange": 0,
+              "color": "white",
+              "backgroundColor": "#912822",
+              "hide": true,
+              "image": "/plugins/BloX/blox-images/ConditionalCard/red_boto_bg.png"
+            },
+            {
+              "minRange": 0.001,
+              "maxRange": "Infinity",
+              "color": "white",
+              "backgroundColor": "#1A7125",
+              "hide": false,
+              "image": "/plugins/BloX/blox-images/ConditionalCard/green_boto_bg.png"
+            }
+          ],
+          "body": [
+            {
+              "type": "Container",
+              "style": {
+                "padding-top": "2%",
+                "padding-bottom": "10px"
+              },
+              "items": [
+                {
+                  "type": "ColumnSet",
+                  "columns": [
+                    {
+                      "type": "Column",
+                      "width": "200px",
+                      "horizontalAlignment": "left",
+                      "items": [
+                        {
+                          "type": "TextBlock",
+                          "id": "",
+                          "text": "Revenue increased by:"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Column",
+                      "horizontalAlignment": "left",
+                      "items": [
+                        {
+                          "type": "TextBlock",
+                          "id": "",
+                          "weight": "bold",
+                          "class": "condition_data",
+                          "text": "{panel:Revenue Increase}"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Container",
+                  "id": "",
+                  "class": "condition_container",
+                  "items": [
+                    {
+                      "type": "ColumnSet",
+                      "columns": [
+                        {
+                          "type": "Column",
+                          "width": "200px",
+                          "horizontalAlignment": "left",
+                          "items": [
+                            {
+                              "type": "TextBlock",
+                              "id": "",
+                              "text": "Team SPIF total:"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Column",
+                          "horizontalAlignment": "left",
+                          "items": [
+                            {
+                              "type": "TextBlock",
+                              "id": "",
+                              "weight": "bold",
+                              "text": "{panel:Bonus}"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "TextBlock",
+                      "id": "",
+                      "weight": "bold",
+                      "text": "</br>Great job, team!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": []
+        },
+        "currentConfig": {
+          "fontFamily": "Open Sans",
+          "fontSizes": {
+            "default": 16,
+            "small": 12,
+            "medium": 22,
+            "large": 32,
+            "extraLarge": 50
+          },
+          "fontWeights": {
+            "default": 500,
+            "light": 100,
+            "bold": 1000
+          },
+          "containerStyles": {
+            "default": {
+              "backgroundColor": "",
+              "foregroundColors": {
+                "default": {
+                  "normal": "white"
+                },
+                "white": {
+                  "normal": "#ffffff"
+                },
+                "grey": {
+                  "normal": "#3A4356"
+                },
+                "orange": {
+                  "normal": "#f2B900"
+                },
+                "yellow": {
+                  "normal": "#ffcb05"
+                },
+                "black": {
+                  "normal": "#000000"
+                },
+                "lightGreen": {
+                  "normal": "#3ADCCA"
+                },
+                "green": {
+                  "normal": "#54a254"
+                },
+                "red": {
+                  "normal": "#dd1111"
+                },
+                "accent": {
+                  "normal": "#2E89FC"
+                },
+                "good": {
+                  "normal": "#54a254"
+                },
+                "warning": {
+                  "normal": "#e69500"
+                },
+                "attention": {
+                  "normal": "#cc3300"
+                }
+              }
+            }
+          },
+          "imageSizes": {
+            "default": 40,
+            "small": 40,
+            "medium": 80,
+            "large": 160
+          },
+          "imageSet": {
+            "imageSize": "medium",
+            "maxImageHeight": 100
+          },
+          "actions": {
+            "color": "",
+            "backgroundColor": "white",
+            "maxActions": 5,
+            "spacing": "extraLarge",
+            "buttonSpacing": 20,
+            "actionsOrientation": "horizontal",
+            "actionAlignment": "center",
+            "showCard": {
+              "actionMode": "inline",
+              "inlineTopMargin": 16,
+              "style": "default"
+            }
+          },
+          "spacing": {
+            "default": 5,
+            "small": 20,
+            "medium": 60,
+            "large": 20,
+            "extraLarge": 40,
+            "padding": 25
+          },
+          "separator": {
+            "lineThickness": 1,
+            "lineColor": "#eeeeee"
+          },
+          "factSet": {
+            "title": {
+              "size": "default",
+              "color": "default",
+              "weight": "bold",
+              "warp": true
+            },
+            "value": {
+              "size": "default",
+              "color": "default",
+              "weight": "default",
+              "warp": true
+            },
+            "spacing": 20
+          },
+          "supportsInteractivity": true,
+          "imageBaseUrl": "",
+          "height": 166.979
+        },
+        "currentCardName": "Conditional Card",
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": []
+        }
+      },
+      "instanceid": "2A520-EEE2-2E",
+      "custom": {
+        "barcolumnchart": {
+          "type": "BloX",
+          "isTypeValid": false,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default"
+        }
+      },
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 4,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "wasRendered": false,
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": true,
+        "title": false,
+        "drillTarget": "dummy",
+        "autoUpdateOnEveryChange": true,
+        "triggersDomready": true
+      },
+      "dashboardid": "64c7dec24faf000033a58758",
+      "lastOpened": null,
+      "drilledDashboardDisplay": {},
+      "query": {
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce"
+        },
+        "format": "json",
+        "isMaskedResult": true,
+        "metadata": [
+          {
+            "jaql": {
+              "type": "measure",
+              "formula": "[33DD7-011] - ([33DD7-011], PREV([82584-B3F]))",
+              "context": {
+                "[82584-B3F]": {
+                  "table": "Commerce",
+                  "column": "Date",
+                  "dim": "[Commerce.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "years",
+                  "title": "Years in Date"
+                },
+                "[33DD7-011]": {
+                  "table": "Commerce",
+                  "column": "Revenue",
+                  "dim": "[Commerce.Revenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total Revenue"
+                }
+              },
+              "title": "Revenue Increase"
+            },
+            "PanelName": "Revenue Increase",
+            "format": {
+              "mask": {
+                "abbreviations": {
+                  "t": true,
+                  "b": true,
+                  "m": true,
+                  "k": true
+                },
+                "decimals": "auto",
+                "currency": {
+                  "symbol": "$",
+                  "position": "pre"
+                }
+              }
+            },
+            "instanceid": "0463D-C648-98",
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "type": "measure",
+              "formula": "([CB930-CAD] - ([CB930-CAD], PREV([153F8-65C]))) * 0.15",
+              "context": {
+                "[153F8-65C]": {
+                  "table": "Commerce",
+                  "column": "Date",
+                  "dim": "[Commerce.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "years",
+                  "title": "Years in Date"
+                },
+                "[CB930-CAD]": {
+                  "table": "Commerce",
+                  "column": "Revenue",
+                  "dim": "[Commerce.Revenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total Revenue"
+                }
+              },
+              "title": "Bonus"
+            },
+            "PanelName": "Bonus",
+            "format": {
+              "mask": {
+                "abbreviations": {
+                  "t": true,
+                  "b": true,
+                  "m": true,
+                  "k": true
+                },
+                "decimals": "auto",
+                "currency": {
+                  "symbol": "$",
+                  "position": "pre"
+                }
+              }
+            },
+            "instanceid": "0463D-C648-98",
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Date",
+              "dim": "[Commerce.Date (Calendar)]",
+              "datatype": "datetime",
+              "merged": true,
+              "datasource": {
+                "title": "Sample ECommerce",
+                "fullname": "LocalHost/Sample ECommerce",
+                "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+                "address": "LocalHost",
+                "database": "aSampleIAAaECommerce"
+              },
+              "firstday": "mon",
+              "locale": "en-us",
+              "level": "years",
+              "title": "Years in Date",
+              "collapsed": true,
+              "isDashboardFilter": true,
+              "filter": {
+                "explicit": true,
+                "multiSelection": false,
+                "members": [
+                  "2012-01-01T00:00:00"
+                ]
+              }
+            },
+            "isCascading": false,
+            "instanceid": "1B406-DEB8-0F",
+            "panel": "scope"
+          }
+        ],
+        "m2mThresholdFlag": 0
+      },
+      "realTimeRefreshing": false,
+      "jasperReportsSettings": {}
+    },
+    {
+      "title": "Conditional Text",
+      "type": "BloX",
+      "subtype": "BloX",
+      "oid": "64c7dec24faf000033a5875a",
+      "desc": null,
+      "source": "64c7dee04faf000033a58768",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "Items",
+            "items": []
+          },
+          {
+            "name": "Values",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "case when [0CA79-DEC] > ([0CA79-DEC], PREV([DF546-52C])) then 1 else 0 end",
+                  "context": {
+                    "[DF546-52C]": {
+                      "table": "Commerce",
+                      "column": "Date",
+                      "dim": "[Commerce.Date (Calendar)]",
+                      "datatype": "datetime",
+                      "merged": true,
+                      "level": "years",
+                      "title": "Years in Date"
+                    },
+                    "[0CA79-DEC]": {
+                      "table": "Commerce",
+                      "column": "Revenue",
+                      "dim": "[Commerce.Revenue]",
+                      "datatype": "numeric",
+                      "agg": "sum",
+                      "title": "Total Revenue"
+                    }
+                  },
+                  "title": "isGood"
+                },
+                "PanelName": "isGood",
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "decimals": "auto",
+                    "separated": true,
+                    "isdefault": true
+                  }
+                },
+                "instanceid": "0463D-C648-98"
+              },
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "case when [DE013-73C] <= ([DE013-73C], PREV([BAA46-4CC])) then 1 else 0 end",
+                  "context": {
+                    "[BAA46-4CC]": {
+                      "table": "Commerce",
+                      "column": "Date",
+                      "dim": "[Commerce.Date (Calendar)]",
+                      "datatype": "datetime",
+                      "merged": true,
+                      "level": "years",
+                      "title": "Years in Date"
+                    },
+                    "[DE013-73C]": {
+                      "table": "Commerce",
+                      "column": "Revenue",
+                      "dim": "[Commerce.Revenue]",
+                      "datatype": "numeric",
+                      "agg": "sum",
+                      "title": "Total Revenue"
+                    }
+                  },
+                  "title": "isBad"
+                },
+                "PanelName": "isBad",
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "decimals": "auto",
+                    "separated": true,
+                    "isdefault": true
+                  }
+                },
+                "instanceid": "0463D-C648-98"
+              },
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "[DF642-184] - ([DF642-184], PREV([EF8D0-22B]))",
+                  "context": {
+                    "[EF8D0-22B]": {
+                      "table": "Commerce",
+                      "column": "Date",
+                      "dim": "[Commerce.Date (Calendar)]",
+                      "datatype": "datetime",
+                      "merged": true,
+                      "level": "years",
+                      "title": "Years in Date"
+                    },
+                    "[DF642-184]": {
+                      "table": "Commerce",
+                      "column": "Revenue",
+                      "dim": "[Commerce.Revenue]",
+                      "datatype": "numeric",
+                      "agg": "sum",
+                      "title": "Total Revenue"
+                    }
+                  },
+                  "title": "Revenue Increase"
+                },
+                "instanceid": "E3AC7-3E5D-E4",
+                "PanelName": "Revenue Increase",
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "decimals": "auto",
+                    "number": {
+                      "separated": true
+                    }
+                  }
+                }
+              },
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "([79553-64E] - ([79553-64E], PREV([DEC7D-7D9]))) * 0.15",
+                  "context": {
+                    "[DEC7D-7D9]": {
+                      "table": "Commerce",
+                      "column": "Date",
+                      "dim": "[Commerce.Date (Calendar)]",
+                      "datatype": "datetime",
+                      "merged": true,
+                      "level": "years",
+                      "title": "Years in Date"
+                    },
+                    "[79553-64E]": {
+                      "table": "Commerce",
+                      "column": "Revenue",
+                      "dim": "[Commerce.Revenue]",
+                      "datatype": "numeric",
+                      "agg": "sum",
+                      "title": "Total Revenue"
+                    }
+                  },
+                  "title": "Bonus"
+                },
+                "instanceid": "97D44-ED57-E1",
+                "PanelName": "Bonus",
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "decimals": "auto",
+                    "number": {
+                      "separated": true
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "currentCard": {
+          "style": ".replace .Class0{display:none}",
+          "script": "",
+          "title": "",
+          "showCarousel": true,
+          "conditions": [],
+          "body": [
+            {
+              "type": "Container",
+              "style": {
+                "padding-top": "2%",
+                "padding-bottom": "10px"
+              },
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "size": "medium",
+                  "weight": "",
+                  "horizontalAlignment": "center",
+                  "spacing": "small",
+                  "color": "{panel:isGood}",
+                  "class": "replace",
+                  "text": "REVENUE IS <br>  <b><span class='Class{panel:isGood}'>Increased</span><span class='Class{panel:isBad}'>Decreased</span></b>"
+                },
+                {
+                  "type": "ActionSet",
+                  "style": {
+                    "padding": "1%",
+                    "margin": "0px",
+                    "padding-bottom": "2%"
+                  },
+                  "actions": [
+                    {
+                      "type": "JTD",
+                      "title": "Show Monthly Trend",
+                      "data": {
+                        "dashboardId": "64c7dec24faf000033a58758",
+                        "args": {
+                          "displayDashboardsPane": false,
+                          "displayFilterPane": true
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": []
+        },
+        "currentConfig": {
+          "fontFamily": "Open Sans",
+          "fontSizes": {
+            "default": 16,
+            "small": 12,
+            "medium": 18,
+            "large": 32,
+            "extraLarge": 50
+          },
+          "fontWeights": {
+            "default": 400,
+            "light": 200,
+            "bold": 800
+          },
+          "containerStyles": {
+            "default": {
+              "backgroundColor": "#ffffff",
+              "foregroundColors": {
+                "0": {
+                  "normal": "#912822"
+                },
+                "1": {
+                  "normal": "#1A7125"
+                },
+                "lightgreen": {
+                  "normal": "#93c0c0"
+                },
+                "default": {
+                  "normal": "#808080"
+                },
+                "white": {
+                  "normal": "#ffffff"
+                },
+                "grey": {
+                  "normal": "#3A4356"
+                },
+                "lightgrey": {
+                  "normal": "#9EA2Ab"
+                },
+                "orange": {
+                  "normal": "#f2B900"
+                },
+                "yellow": {
+                  "normal": "#ffcb05"
+                },
+                "black": {
+                  "normal": "#000000"
+                },
+                "green": {
+                  "normal": "#54a254"
+                },
+                "red": {
+                  "normal": "#dd1111"
+                },
+                "accent": {
+                  "normal": "#2E89FC"
+                },
+                "attention": {
+                  "normal": "#cc3300"
+                }
+              }
+            }
+          },
+          "imageSizes": {
+            "default": 40,
+            "small": 40,
+            "medium": 80,
+            "large": 160
+          },
+          "imageSet": {
+            "imageSize": "medium",
+            "maxImageHeight": 100
+          },
+          "actions": {
+            "color": "#1B3E5E",
+            "backgroundColor": "#f4f4f4",
+            "maxActions": 5,
+            "spacing": "extraLarge",
+            "buttonSpacing": 30,
+            "actionsOrientation": "horizontal",
+            "actionAlignment": "center",
+            "showCard": {
+              "actionMode": "inline",
+              "inlineTopMargin": 16,
+              "style": "default"
+            }
+          },
+          "spacing": {
+            "default": 5,
+            "small": 5,
+            "medium": 10,
+            "large": 30,
+            "extraLarge": 40,
+            "padding": 0
+          },
+          "separator": {
+            "lineThickness": 2,
+            "lineColor": "#eeeeee"
+          },
+          "factSet": {
+            "title": {
+              "size": "default",
+              "color": "default",
+              "weight": "bold",
+              "warp": true
+            },
+            "value": {
+              "size": "default",
+              "color": "default",
+              "weight": "default",
+              "warp": true
+            },
+            "spacing": 20
+          },
+          "supportsInteractivity": true,
+          "imageBaseUrl": "",
+          "height": 143.281
+        },
+        "currentCardName": "Conditional Card",
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": []
+        }
+      },
+      "instanceid": "2A520-EEE2-2E",
+      "custom": {
+        "barcolumnchart": {
+          "type": "BloX",
+          "isTypeValid": false,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default"
+        }
+      },
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 4,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "wasRendered": false,
+      "drilledDashboardDisplay": {},
+      "query": {
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce"
+        },
+        "format": "json",
+        "isMaskedResult": true,
+        "metadata": [
+          {
+            "jaql": {
+              "type": "measure",
+              "formula": "case when [0CA79-DEC] > ([0CA79-DEC], PREV([DF546-52C])) then 1 else 0 end",
+              "context": {
+                "[DF546-52C]": {
+                  "table": "Commerce",
+                  "column": "Date",
+                  "dim": "[Commerce.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "years",
+                  "title": "Years in Date"
+                },
+                "[0CA79-DEC]": {
+                  "table": "Commerce",
+                  "column": "Revenue",
+                  "dim": "[Commerce.Revenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total Revenue"
+                }
+              },
+              "title": "isGood"
+            },
+            "PanelName": "isGood",
+            "format": {
+              "mask": {
+                "type": "number",
+                "decimals": "auto",
+                "separated": true,
+                "isdefault": true
+              }
+            },
+            "instanceid": "0463D-C648-98",
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "type": "measure",
+              "formula": "case when [DE013-73C] <= ([DE013-73C], PREV([BAA46-4CC])) then 1 else 0 end",
+              "context": {
+                "[BAA46-4CC]": {
+                  "table": "Commerce",
+                  "column": "Date",
+                  "dim": "[Commerce.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "years",
+                  "title": "Years in Date"
+                },
+                "[DE013-73C]": {
+                  "table": "Commerce",
+                  "column": "Revenue",
+                  "dim": "[Commerce.Revenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total Revenue"
+                }
+              },
+              "title": "isBad"
+            },
+            "PanelName": "isBad",
+            "format": {
+              "mask": {
+                "type": "number",
+                "decimals": "auto",
+                "separated": true,
+                "isdefault": true
+              }
+            },
+            "instanceid": "0463D-C648-98",
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "type": "measure",
+              "formula": "[DF642-184] - ([DF642-184], PREV([EF8D0-22B]))",
+              "context": {
+                "[EF8D0-22B]": {
+                  "table": "Commerce",
+                  "column": "Date",
+                  "dim": "[Commerce.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "years",
+                  "title": "Years in Date"
+                },
+                "[DF642-184]": {
+                  "table": "Commerce",
+                  "column": "Revenue",
+                  "dim": "[Commerce.Revenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total Revenue"
+                }
+              },
+              "title": "Revenue Increase"
+            },
+            "instanceid": "E3AC7-3E5D-E4",
+            "PanelName": "Revenue Increase",
+            "format": {
+              "mask": {
+                "abbreviations": {
+                  "t": true,
+                  "b": true,
+                  "m": true,
+                  "k": true
+                },
+                "decimals": "auto",
+                "number": {
+                  "separated": true
+                }
+              }
+            },
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "type": "measure",
+              "formula": "([79553-64E] - ([79553-64E], PREV([DEC7D-7D9]))) * 0.15",
+              "context": {
+                "[DEC7D-7D9]": {
+                  "table": "Commerce",
+                  "column": "Date",
+                  "dim": "[Commerce.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "years",
+                  "title": "Years in Date"
+                },
+                "[79553-64E]": {
+                  "table": "Commerce",
+                  "column": "Revenue",
+                  "dim": "[Commerce.Revenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total Revenue"
+                }
+              },
+              "title": "Bonus"
+            },
+            "instanceid": "97D44-ED57-E1",
+            "PanelName": "Bonus",
+            "format": {
+              "mask": {
+                "abbreviations": {
+                  "t": true,
+                  "b": true,
+                  "m": true,
+                  "k": true
+                },
+                "decimals": "auto",
+                "number": {
+                  "separated": true
+                }
+              }
+            },
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Date",
+              "dim": "[Commerce.Date (Calendar)]",
+              "datatype": "datetime",
+              "merged": true,
+              "datasource": {
+                "title": "Sample ECommerce",
+                "fullname": "LocalHost/Sample ECommerce",
+                "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+                "address": "LocalHost",
+                "database": "aSampleIAAaECommerce"
+              },
+              "firstday": "mon",
+              "locale": "en-us",
+              "level": "years",
+              "title": "Years in Date",
+              "collapsed": true,
+              "isDashboardFilter": true,
+              "filter": {
+                "explicit": true,
+                "multiSelection": false,
+                "members": [
+                  "2012-01-01T00:00:00"
+                ]
+              }
+            },
+            "isCascading": false,
+            "instanceid": "1B406-DEB8-0F",
+            "panel": "scope"
+          }
+        ],
+        "m2mThresholdFlag": 0
+      },
+      "jasperReportsSettings": {},
+      "realTimeRefreshing": false,
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": true,
+        "title": false,
+        "drillTarget": "64c7dec24faf000033a58758",
+        "autoUpdateOnEveryChange": true,
+        "triggersDomready": true
+      },
+      "dashboardid": "64c7dec24faf000033a58758",
+      "lastOpened": null
+    },
+    {
+      "title": "",
+      "type": "chart/column",
+      "subtype": "column/classic",
+      "oid": "64c7df1e4faf000033a5876f",
+      "desc": null,
+      "source": "64c7df1e4faf000033a58770",
+      "datasource": {
+        "fullname": "localhost/Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce",
+        "live": false,
+        "title": "Sample ECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "categories",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Date",
+                  "dim": "[Commerce.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "years",
+                  "title": "Years in Date"
+                },
+                "instanceid": "E93DE-A9CE-D1",
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "dateAndTime": "MM/dd/y HH:mm",
+                    "isdefault": true
+                  }
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ]
+              },
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Date",
+                  "dim": "[Commerce.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "months",
+                  "title": "Months in Date"
+                },
+                "instanceid": "1A98D-712C-4A",
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "dateAndTime": "MM/dd/y HH:mm",
+                    "isdefault": true
+                  }
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Revenue",
+                  "dim": "[Commerce.Revenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total Revenue - Selected Year"
+                },
+                "instanceid": "E0C27-F3DD-F4",
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "colorIndex": 0,
+                    "type": "color"
+                  }
+                },
+                "disabled": false
+              }
+            ]
+          },
+          {
+            "name": "break by",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "legend": {
+          "enabled": true,
+          "position": "bottom"
+        },
+        "seriesLabels": {
+          "enabled": false,
+          "rotation": 0,
+          "labels": {
+            "enabled": false,
+            "stacked": false,
+            "stackedPercentage": false,
+            "types": {
+              "count": false,
+              "relative": false,
+              "percentage": false,
+              "totals": false
+            }
+          }
+        },
+        "xAxis": {
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "x2Title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "isIntervalEnabled": false
+        },
+        "yAxis": {
+          "inactive": false,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "logarithmic": false,
+          "isIntervalEnabled": true,
+          "hideMinMax": false
+        },
+        "y2Axis": {
+          "inactive": true,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": false,
+          "logarithmic": false,
+          "isIntervalEnabled": true,
+          "hideMinMax": false
+        },
+        "navigator": {
+          "enabled": true
+        },
+        "dataLimits": {
+          "seriesCapacity": 50,
+          "categoriesCapacity": 100000
+        },
+        "lineWidth": {
+          "width": "bold"
+        },
+        "markers": {
+          "enabled": false,
+          "fill": "filled",
+          "size": "small"
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "months_in_date",
+              "title": "Months in Date",
+              "singular": "Months in Date",
+              "plural": "Months in Date"
+            },
+            {
+              "id": "years_in_date",
+              "title": "Years in Date",
+              "singular": "Years in Date",
+              "plural": "Years in Date"
+            }
+          ]
+        }
+      },
+      "instanceid": "33D2D-11B6-80",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "wasRendered": false,
+      "realTimeRefreshing": false,
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "drillToAnywhere": true,
+        "aiFeatures": [
+          {
+            "id": "pareto_1569481451806",
+            "name": "Pareto",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Roughly 80% of the effects come from 20% of the causes",
+            "isCustomModel": true
+          },
+          {
+            "id": "summary_statistics_1569425202576",
+            "name": "Summary Statistics",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Provide information about your data",
+            "isCustomModel": true
+          },
+          {
+            "id": "percentile_curves_1574252861643",
+            "name": "Percentile Curves",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Another way to show distributions",
+            "isCustomModel": true
+          },
+          {
+            "id": "cluster_1570673124179",
+            "name": "Clustering",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Grouping a set of objects in such a way that objects in the same group are more similar to each other than to those in other groups",
+            "isCustomModel": true
+          },
+          {
+            "id": "two-tailed_test_1574241584650",
+            "name": "Two-Tailed Test",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "perform two tailed t-test",
+            "isCustomModel": true
+          },
+          {
+            "id": "growth_rate_1572222323562",
+            "name": "Growth Rates",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "refer to the percentage change of a specific variable within a specific time period and given a certain context",
+            "isCustomModel": true
+          },
+          {
+            "id": "anomaly",
+            "name": "Anomaly",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Outlier data points detections",
+            "isCustomModel": false
+          },
+          {
+            "id": "forecast",
+            "name": "What-If Analysis",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {
+              "hasTargetVar": true,
+              "targetVar": {
+                "targetVarPaneActive": false,
+                "sectionTitle": "Target Value",
+                "options": [
+                  "Total Revenue - Selected Year"
+                ],
+                "value": "Total Revenue - Selected Year"
+              }
+            },
+            "description": "Predict the future values of a 2-var-TS, one of which is the target and the\n                    second is explaining variable.\n                    Provide non-symmetric confidence-interval for the above predictions.\n                    Var-Dependence (Score) - the strength of the influence of the explaining\n                    variable on the target one.\n                    XAI (model weights etc)",
+            "isCustomModel": false
+          },
+          {
+            "id": "local_estimates",
+            "name": "Local Estimate",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Locally (using before and after time series points) estimating the mean of the time series",
+            "isCustomModel": false
+          },
+          {
+            "id": "trend",
+            "name": "Trend",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Detect (if exists) Trend-Break-Points and connect those with a trend line",
+            "isCustomModel": false
+          }
+        ],
+        "previousScrollerLocation": {
+          "min": 0,
+          "max": 53
+        },
+        "selectorLocked": false
+      },
+      "dashboardid": "64c7dec24faf000033a58758"
+    },
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "64c7e4954faf000033a587e9",
+      "desc": null,
+      "source": "64c7e4954faf000033a587ea",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "content": {
+          "html": "<div style=\"text-align: left;\"><font size=\"3\"><b>Instructions:</b></font></div><div style=\"text-align: left;\"><font size=\"3\">Change the Date filter to 2013, then 2012 (or any other year) to see the difference.</font></div>",
+          "vAlign": "valign-middle",
+          "bgColor": "#FFFFFF",
+          "textAlign": "center"
+        }
+      },
+      "instanceid": "2E0E7-E386-6A",
+      "wasRendered": false,
+      "realTimeRefreshing": false,
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "dashboardid": "64c7dec24faf000033a58758"
+    },
+    {
+      "title": "Combined: Conditional Text + Show/Hide",
+      "type": "BloX",
+      "subtype": "BloX",
+      "oid": "64c7e7264faf000033a5881a",
+      "desc": null,
+      "source": "64c7e7264faf000033a5881b",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "Items",
+            "items": []
+          },
+          {
+            "name": "Values",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "case when [0CA79-DEC] > ([0CA79-DEC], PREV([DF546-52C])) then 1 else 0 end",
+                  "context": {
+                    "[DF546-52C]": {
+                      "table": "Commerce",
+                      "column": "Date",
+                      "dim": "[Commerce.Date (Calendar)]",
+                      "datatype": "datetime",
+                      "merged": true,
+                      "level": "years",
+                      "title": "Years in Date"
+                    },
+                    "[0CA79-DEC]": {
+                      "table": "Commerce",
+                      "column": "Revenue",
+                      "dim": "[Commerce.Revenue]",
+                      "datatype": "numeric",
+                      "agg": "sum",
+                      "title": "Total Revenue"
+                    }
+                  },
+                  "title": "isGood"
+                },
+                "PanelName": "isGood",
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "decimals": "auto",
+                    "separated": true,
+                    "isdefault": true
+                  }
+                },
+                "instanceid": "0463D-C648-98"
+              },
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "case when [DE013-73C] <= ([DE013-73C], PREV([BAA46-4CC])) then 1 else 0 end",
+                  "context": {
+                    "[BAA46-4CC]": {
+                      "table": "Commerce",
+                      "column": "Date",
+                      "dim": "[Commerce.Date (Calendar)]",
+                      "datatype": "datetime",
+                      "merged": true,
+                      "level": "years",
+                      "title": "Years in Date"
+                    },
+                    "[DE013-73C]": {
+                      "table": "Commerce",
+                      "column": "Revenue",
+                      "dim": "[Commerce.Revenue]",
+                      "datatype": "numeric",
+                      "agg": "sum",
+                      "title": "Total Revenue"
+                    }
+                  },
+                  "title": "isBad"
+                },
+                "PanelName": "isBad",
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "decimals": "auto",
+                    "separated": true,
+                    "isdefault": true
+                  }
+                },
+                "instanceid": "0463D-C648-98"
+              },
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "[DF642-184] - ([DF642-184], PREV([EF8D0-22B]))",
+                  "context": {
+                    "[EF8D0-22B]": {
+                      "table": "Commerce",
+                      "column": "Date",
+                      "dim": "[Commerce.Date (Calendar)]",
+                      "datatype": "datetime",
+                      "merged": true,
+                      "level": "years",
+                      "title": "Years in Date"
+                    },
+                    "[DF642-184]": {
+                      "table": "Commerce",
+                      "column": "Revenue",
+                      "dim": "[Commerce.Revenue]",
+                      "datatype": "numeric",
+                      "agg": "sum",
+                      "title": "Total Revenue"
+                    }
+                  },
+                  "title": "Revenue Increase"
+                },
+                "instanceid": "E3AC7-3E5D-E4",
+                "PanelName": "Revenue Increase",
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "decimals": "auto",
+                    "number": {
+                      "separated": true
+                    }
+                  }
+                }
+              },
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "([79553-64E] - ([79553-64E], PREV([DEC7D-7D9]))) * 0.15",
+                  "context": {
+                    "[DEC7D-7D9]": {
+                      "table": "Commerce",
+                      "column": "Date",
+                      "dim": "[Commerce.Date (Calendar)]",
+                      "datatype": "datetime",
+                      "merged": true,
+                      "level": "years",
+                      "title": "Years in Date"
+                    },
+                    "[79553-64E]": {
+                      "table": "Commerce",
+                      "column": "Revenue",
+                      "dim": "[Commerce.Revenue]",
+                      "datatype": "numeric",
+                      "agg": "sum",
+                      "title": "Total Revenue"
+                    }
+                  },
+                  "title": "Bonus"
+                },
+                "instanceid": "97D44-ED57-E1",
+                "PanelName": "Bonus",
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "decimals": "auto",
+                    "number": {
+                      "separated": true
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "currentCard": {
+          "style": ".replace .Class0{display:none}",
+          "script": "",
+          "title": "",
+          "showCarousel": true,
+          "conditions": [
+            {
+              "minRange": "-Infinity",
+              "maxRange": 0,
+              "color": "#912822",
+              "hide": true,
+              "image": "/plugins/BloX/blox-images/ConditionalCard/red_boto_bg.png"
+            },
+            {
+              "minRange": 0.001,
+              "maxRange": "Infinity",
+              "color": "#1A7125",
+              "hide": false,
+              "image": "/plugins/BloX/blox-images/ConditionalCard/green_boto_bg.png"
+            }
+          ],
+          "body": [
+            {
+              "type": "Container",
+              "style": {
+                "padding-top": "2%"
+              },
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "size": "medium",
+                  "weight": "",
+                  "horizontalAlignment": "center",
+                  "spacing": "small",
+                  "color": "{panel:isGood}",
+                  "class": "replace",
+                  "text": "REVENUE IS <br><b><span class='Class{panel:isGood}'>Increased</span><span class='Class{panel:isBad}'>Decreased</span></b>"
+                },
+                {
+                  "type": "ActionSet",
+                  "style": {
+                    "padding": "1%",
+                    "margin": "0px",
+                    "padding-bottom": "2%"
+                  },
+                  "actions": [
+                    {
+                      "type": "JTD",
+                      "title": "Show Monthly Trend",
+                      "data": {
+                        "dashboardId": "64c7dec24faf000033a58758",
+                        "args": {
+                          "displayDashboardsPane": false,
+                          "displayFilterPane": true
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Container",
+              "style": {
+                "padding-top": "15px",
+                "padding-left": "25px"
+              },
+              "items": [
+                {
+                  "type": "ColumnSet",
+                  "columns": [
+                    {
+                      "type": "Column",
+                      "width": "200px",
+                      "horizontalAlignment": "left",
+                      "items": [
+                        {
+                          "type": "TextBlock",
+                          "id": "",
+                          "text": "Revenue increased by:"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Column",
+                      "horizontalAlignment": "left",
+                      "items": [
+                        {
+                          "type": "TextBlock",
+                          "id": "",
+                          "weight": "bold",
+                          "class": "condition_data",
+                          "text": "{panel:Revenue Increase}"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Container",
+                  "id": "",
+                  "class": "condition_container",
+                  "items": [
+                    {
+                      "type": "ColumnSet",
+                      "columns": [
+                        {
+                          "type": "Column",
+                          "width": "200px",
+                          "horizontalAlignment": "left",
+                          "items": [
+                            {
+                              "type": "TextBlock",
+                              "id": "",
+                              "weight": "bold",
+                              "text": "Team SPIF total:"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Column",
+                          "horizontalAlignment": "left",
+                          "items": [
+                            {
+                              "type": "TextBlock",
+                              "id": "",
+                              "color": "{panel:isGood}",
+                              "weight": "bold",
+                              "text": "{panel:Bonus}"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Container",
+              "style": {
+                "padding-left": "25px",
+                "padding-bottom": "10px"
+              },
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "size": "medium",
+                  "weight": "bold",
+                  "spacing": "small",
+                  "color": "{panel:isGood}",
+                  "class": "replace",
+                  "text": "<br><span class='Class{panel:isGood}'>Great job, team!!</span><span class='Class{panel:isBad}'>How can we improve?</span></b>"
+                }
+              ]
+            }
+          ],
+          "actions": []
+        },
+        "currentConfig": {
+          "fontFamily": "Open Sans",
+          "fontSizes": {
+            "default": 16,
+            "small": 12,
+            "medium": 18,
+            "large": 32,
+            "extraLarge": 50
+          },
+          "fontWeights": {
+            "default": 400,
+            "light": 200,
+            "bold": 800
+          },
+          "containerStyles": {
+            "default": {
+              "backgroundColor": "#ffffff",
+              "foregroundColors": {
+                "0": {
+                  "normal": "#912822"
+                },
+                "1": {
+                  "normal": "#1A7125"
+                },
+                "lightgreen": {
+                  "normal": "#93c0c0"
+                },
+                "default": {
+                  "normal": "#808080"
+                },
+                "white": {
+                  "normal": "#ffffff"
+                },
+                "grey": {
+                  "normal": "#3A4356"
+                },
+                "lightgrey": {
+                  "normal": "#9EA2Ab"
+                },
+                "orange": {
+                  "normal": "#f2B900"
+                },
+                "yellow": {
+                  "normal": "#ffcb05"
+                },
+                "black": {
+                  "normal": "#000000"
+                },
+                "green": {
+                  "normal": "#54a254"
+                },
+                "red": {
+                  "normal": "#dd1111"
+                },
+                "accent": {
+                  "normal": "#2E89FC"
+                },
+                "attention": {
+                  "normal": "#cc3300"
+                }
+              }
+            }
+          },
+          "imageSizes": {
+            "default": 40,
+            "small": 40,
+            "medium": 80,
+            "large": 160
+          },
+          "imageSet": {
+            "imageSize": "medium",
+            "maxImageHeight": 100
+          },
+          "actions": {
+            "color": "#1B3E5E",
+            "backgroundColor": "#f4f4f4",
+            "maxActions": 5,
+            "spacing": "extraLarge",
+            "buttonSpacing": 30,
+            "actionsOrientation": "horizontal",
+            "actionAlignment": "center",
+            "showCard": {
+              "actionMode": "inline",
+              "inlineTopMargin": 16,
+              "style": "default"
+            }
+          },
+          "spacing": {
+            "default": 5,
+            "small": 5,
+            "medium": 10,
+            "large": 30,
+            "extraLarge": 40,
+            "padding": 0
+          },
+          "separator": {
+            "lineThickness": 2,
+            "lineColor": "#eeeeee"
+          },
+          "factSet": {
+            "title": {
+              "size": "default",
+              "color": "default",
+              "weight": "bold",
+              "warp": true
+            },
+            "value": {
+              "size": "default",
+              "color": "default",
+              "weight": "default",
+              "warp": true
+            },
+            "spacing": 20
+          },
+          "supportsInteractivity": true,
+          "imageBaseUrl": "",
+          "height": 235.615
+        },
+        "currentCardName": "Conditional Card",
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": []
+        }
+      },
+      "instanceid": "2A520-EEE2-2E",
+      "custom": {
+        "barcolumnchart": {
+          "type": "BloX",
+          "isTypeValid": false,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default"
+        }
+      },
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 4,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "wasRendered": false,
+      "drilledDashboardDisplay": {},
+      "query": {
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce"
+        },
+        "format": "json",
+        "isMaskedResult": true,
+        "metadata": [
+          {
+            "jaql": {
+              "type": "measure",
+              "formula": "case when [0CA79-DEC] > ([0CA79-DEC], PREV([DF546-52C])) then 1 else 0 end",
+              "context": {
+                "[DF546-52C]": {
+                  "table": "Commerce",
+                  "column": "Date",
+                  "dim": "[Commerce.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "years",
+                  "title": "Years in Date"
+                },
+                "[0CA79-DEC]": {
+                  "table": "Commerce",
+                  "column": "Revenue",
+                  "dim": "[Commerce.Revenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total Revenue"
+                }
+              },
+              "title": "isGood"
+            },
+            "PanelName": "isGood",
+            "format": {
+              "mask": {
+                "type": "number",
+                "decimals": "auto",
+                "separated": true,
+                "isdefault": true
+              }
+            },
+            "instanceid": "0463D-C648-98",
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "type": "measure",
+              "formula": "case when [DE013-73C] <= ([DE013-73C], PREV([BAA46-4CC])) then 1 else 0 end",
+              "context": {
+                "[BAA46-4CC]": {
+                  "table": "Commerce",
+                  "column": "Date",
+                  "dim": "[Commerce.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "years",
+                  "title": "Years in Date"
+                },
+                "[DE013-73C]": {
+                  "table": "Commerce",
+                  "column": "Revenue",
+                  "dim": "[Commerce.Revenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total Revenue"
+                }
+              },
+              "title": "isBad"
+            },
+            "PanelName": "isBad",
+            "format": {
+              "mask": {
+                "type": "number",
+                "decimals": "auto",
+                "separated": true,
+                "isdefault": true
+              }
+            },
+            "instanceid": "0463D-C648-98",
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "type": "measure",
+              "formula": "[DF642-184] - ([DF642-184], PREV([EF8D0-22B]))",
+              "context": {
+                "[EF8D0-22B]": {
+                  "table": "Commerce",
+                  "column": "Date",
+                  "dim": "[Commerce.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "years",
+                  "title": "Years in Date"
+                },
+                "[DF642-184]": {
+                  "table": "Commerce",
+                  "column": "Revenue",
+                  "dim": "[Commerce.Revenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total Revenue"
+                }
+              },
+              "title": "Revenue Increase"
+            },
+            "instanceid": "E3AC7-3E5D-E4",
+            "PanelName": "Revenue Increase",
+            "format": {
+              "mask": {
+                "abbreviations": {
+                  "t": true,
+                  "b": true,
+                  "m": true,
+                  "k": true
+                },
+                "decimals": "auto",
+                "number": {
+                  "separated": true
+                }
+              }
+            },
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "type": "measure",
+              "formula": "([79553-64E] - ([79553-64E], PREV([DEC7D-7D9]))) * 0.15",
+              "context": {
+                "[DEC7D-7D9]": {
+                  "table": "Commerce",
+                  "column": "Date",
+                  "dim": "[Commerce.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "years",
+                  "title": "Years in Date"
+                },
+                "[79553-64E]": {
+                  "table": "Commerce",
+                  "column": "Revenue",
+                  "dim": "[Commerce.Revenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total Revenue"
+                }
+              },
+              "title": "Bonus"
+            },
+            "instanceid": "97D44-ED57-E1",
+            "PanelName": "Bonus",
+            "format": {
+              "mask": {
+                "abbreviations": {
+                  "t": true,
+                  "b": true,
+                  "m": true,
+                  "k": true
+                },
+                "decimals": "auto",
+                "number": {
+                  "separated": true
+                }
+              }
+            },
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Date",
+              "dim": "[Commerce.Date (Calendar)]",
+              "datatype": "datetime",
+              "merged": true,
+              "datasource": {
+                "title": "Sample ECommerce",
+                "fullname": "LocalHost/Sample ECommerce",
+                "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+                "address": "LocalHost",
+                "database": "aSampleIAAaECommerce"
+              },
+              "firstday": "mon",
+              "locale": "en-us",
+              "level": "years",
+              "title": "Years in Date",
+              "collapsed": true,
+              "isDashboardFilter": true,
+              "filter": {
+                "explicit": true,
+                "multiSelection": false,
+                "members": [
+                  "2012-01-01T00:00:00"
+                ]
+              }
+            },
+            "isCascading": false,
+            "instanceid": "1B406-DEB8-0F",
+            "panel": "scope"
+          }
+        ],
+        "m2mThresholdFlag": 0
+      },
+      "jasperReportsSettings": {},
+      "realTimeRefreshing": false,
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": true,
+        "title": false,
+        "drillTarget": "64c7dec24faf000033a58758",
+        "autoUpdateOnEveryChange": true,
+        "triggersDomready": true
+      },
+      "dashboardid": "64c7dec24faf000033a58758"
+    }
+  ],
+  "hierarchies": []
+}

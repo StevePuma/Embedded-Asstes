@@ -1,0 +1,3375 @@
+{
+  "oid": "61bc8ec398f8b514782a6b6e",
+  "allowChangeSubscription": false,
+  "dataExploration": false,
+  "datasource": {
+    "title": "Sample ECommerce",
+    "fullname": "LocalHost/Sample ECommerce",
+    "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+    "address": "LocalHost",
+    "database": "aSampleIAAaECommerce"
+  },
+  "defaultFilters": [
+    {
+      "jaql": {
+        "table": "Commerce",
+        "column": "Date",
+        "dim": "[Commerce.Date (Calendar)]",
+        "datatype": "datetime",
+        "merged": true,
+        "title": "Months in Date",
+        "fiscal": "jun",
+        "level": "months",
+        "collapsed": true,
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce",
+          "lastBuildTime": "2018-07-31T08:11:00"
+        },
+        "filter": {
+          "last": {
+            "count": 1,
+            "offset": 1
+          }
+        }
+      },
+      "instanceid": "EE241-456C-52",
+      "isCascading": false,
+      "disabled": false
+    },
+    {
+      "jaql": {
+        "table": "Commerce",
+        "column": "Gender",
+        "dim": "[Commerce.Gender]",
+        "datatype": "text",
+        "merged": true,
+        "title": "Gender",
+        "collapsed": true,
+        "filter": {
+          "explicit": true,
+          "multiSelection": true,
+          "members": [
+            "Male"
+          ]
+        }
+      },
+      "disabled": false,
+      "instanceid": "183BB-5E9F-C5",
+      "isCascading": false
+    },
+    {
+      "jaql": {
+        "table": "Lead Generation",
+        "column": "Date",
+        "datatype": "datetime",
+        "level": "Years",
+        "title": "Year",
+        "dim": "[Lead Generation.Date (Calendar)]",
+        "fiscal": "jun",
+        "collapsed": true,
+        "filter": {
+          "last": {
+            "count": 1,
+            "offset": 0
+          },
+          "custom": true
+        }
+      },
+      "disabled": false,
+      "instanceid": "B72C8-56C2-89",
+      "isCascading": false
+    },
+    {
+      "jaql": {
+        "table": "Lead Generation",
+        "column": "Cost",
+        "datatype": "numeric",
+        "title": "Cost",
+        "dim": "[Lead Generation.Cost]",
+        "collapsed": true,
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce",
+          "lastBuildTime": "2018-07-31T08:11:00"
+        },
+        "filter": {
+          "fromNotEqual": "2",
+          "custom": true
+        }
+      },
+      "disabled": false,
+      "instanceid": "920A9-F188-DF",
+      "isCascading": false
+    }
+  ],
+  "desc": "",
+  "editing": false,
+  "filterToDatasourceMapping": {},
+  "filters": [
+    {
+      "jaql": {
+        "table": "Commerce",
+        "column": "Date",
+        "dim": "[Commerce.Date (Calendar)]",
+        "datatype": "datetime",
+        "merged": true,
+        "title": "Months in Date",
+        "fiscal": "jun",
+        "level": "months",
+        "collapsed": true,
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce",
+          "lastBuildTime": "2018-07-31T08:11:00"
+        },
+        "isDashboardFilter": true,
+        "filter": {
+          "last": {
+            "count": 1,
+            "offset": 1
+          }
+        }
+      },
+      "instanceid": "EE241-456C-52",
+      "isCascading": false,
+      "disabled": false
+    },
+    {
+      "jaql": {
+        "table": "Commerce",
+        "column": "Gender",
+        "dim": "[Commerce.Gender]",
+        "datatype": "text",
+        "merged": true,
+        "title": "Gender",
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "filter": {
+          "explicit": true,
+          "multiSelection": true,
+          "members": [
+            "Male"
+          ]
+        }
+      },
+      "disabled": false,
+      "instanceid": "183BB-5E9F-C5",
+      "isCascading": false
+    },
+    {
+      "jaql": {
+        "table": "Lead Generation",
+        "column": "Date",
+        "datatype": "datetime",
+        "level": "Years",
+        "title": "Year",
+        "dim": "[Lead Generation.Date (Calendar)]",
+        "fiscal": "jun",
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "filter": {
+          "last": {
+            "count": 1,
+            "offset": 0
+          },
+          "custom": true
+        }
+      },
+      "disabled": false,
+      "instanceid": "B72C8-56C2-89",
+      "isCascading": false
+    },
+    {
+      "jaql": {
+        "table": "Lead Generation",
+        "column": "Cost",
+        "datatype": "numeric",
+        "title": "Cost",
+        "dim": "[Lead Generation.Cost]",
+        "collapsed": true,
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce",
+          "lastBuildTime": "2018-07-31T08:11:00"
+        },
+        "isDashboardFilter": true,
+        "filter": {
+          "fromNotEqual": "2",
+          "custom": true
+        }
+      },
+      "disabled": false,
+      "instanceid": "920A9-F188-DF",
+      "isCascading": false
+    }
+  ],
+  "isPublic": null,
+  "layout": {
+    "instanceid": "71741-23EF-E4",
+    "type": "columnar",
+    "columns": [
+      {
+        "width": 100,
+        "cells": [
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 68,
+                    "maxHeight": 937,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": "88px",
+                    "defaultWidth": 512,
+                    "widgetid": "61bc8ec398f8b514782a6b77"
+                  }
+                ],
+                "width": 50,
+                "stretchable": false,
+                "pxlWidth": 681,
+                "index": 0
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 68,
+                    "maxHeight": 888,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "61bc8ec398f8b514782a6b78",
+                    "height": "88px"
+                  }
+                ],
+                "width": 50
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 68,
+                    "maxHeight": 937,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": "220px",
+                    "defaultWidth": 512,
+                    "widgetid": "61bc8ec398f8b514782a6b74"
+                  }
+                ],
+                "width": 50,
+                "stretchable": false,
+                "pxlWidth": 681,
+                "index": 0
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 68,
+                    "maxHeight": 937,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": "220px",
+                    "defaultWidth": 512,
+                    "widgetid": "61bc8ec398f8b514782a6b75"
+                  }
+                ],
+                "width": 50,
+                "stretchable": false,
+                "pxlWidth": 681,
+                "index": 1
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 68,
+                    "maxHeight": 625,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "61bc8ec398f8b514782a6b6f",
+                    "height": "92px"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1362,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 68,
+                    "maxHeight": 625,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "61bc8ec398f8b514782a6b70",
+                    "height": 512
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1362,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 68,
+                    "maxHeight": 937,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "61bc8ec398f8b514782a6b71",
+                    "height": "220px"
+                  }
+                ],
+                "width": 29.806259314456035,
+                "stretchable": false,
+                "pxlWidth": 405.953,
+                "index": 0
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 68,
+                    "maxHeight": 937,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "61bc8ec398f8b514782a6b73",
+                    "height": "220px"
+                  }
+                ],
+                "width": 35.17138599105812,
+                "stretchable": false,
+                "pxlWidth": 479.031,
+                "index": 1
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 68,
+                    "maxHeight": 937,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "61bc8ec398f8b514782a6b72",
+                    "height": "220px"
+                  }
+                ],
+                "width": 35.02235469448585,
+                "stretchable": false,
+                "pxlWidth": 477,
+                "index": 2
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 68,
+                    "maxHeight": 937,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": "80px",
+                    "defaultWidth": 512,
+                    "widgetid": "61bc8ec398f8b514782a6b76"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1362,
+                "index": 0
+              }
+            ]
+          }
+        ],
+        "pxlWidth": 1362,
+        "index": 0
+      }
+    ],
+    "container": {}
+  },
+  "original": null,
+  "parentFolder": "61c44b8683642f002bf1838f",
+  "previewLayout": [],
+  "settings": {
+    "autoUpdateOnFiltersChange": true
+  },
+  "source": "61c44ec483642f002bf184d8",
+  "style": {
+    "palette": {
+      "name": "Vivid",
+      "colors": [
+        "#00cee6",
+        "#9b9bd7",
+        "#6EDA55",
+        "#fc7570",
+        "#fbb755",
+        "#218A8C"
+      ]
+    }
+  },
+  "subscription": null,
+  "title": "Action Buttons and Types",
+  "type": "dashboard",
+  "lastOpened": null,
+  "filterRelations": [],
+  "widgets": [
+    {
+      "title": "Open URL in Popup",
+      "type": "BloX",
+      "subtype": "BloX",
+      "oid": "61bc8ec398f8b514782a6b6f",
+      "desc": null,
+      "source": "61c44ec483642f002bf184e3",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "Items",
+            "items": []
+          },
+          {
+            "name": "Values",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Cost",
+                  "dim": "[Commerce.Cost]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total Cost"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "decimals": "auto",
+                    "separated": true,
+                    "isdefault": true
+                  },
+                  "color": {
+                    "color": "#00cee6",
+                    "type": "color"
+                  }
+                },
+                "PanelName": "Total Cost",
+                "instanceid": "9A348-13C3-5D"
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "style": {
+        "currentCard": {
+          "style": "",
+          "script": "",
+          "title": "",
+          "showCarousel": true,
+          "actions": [
+            {
+              "type": "Action.OpenUrl",
+              "action": "lightbox",
+              "title": "Open Lightbox",
+              "url": "https://www.sisense.com/sisense-labs/"
+            }
+          ]
+        },
+        "currentConfig": {
+          "fontFamily": "Open Sans",
+          "fontSizes": {
+            "default": 14,
+            "small": 16,
+            "medium": 20,
+            "large": 50,
+            "extraLarge": 32
+          },
+          "fontWeights": {
+            "default": 500,
+            "light": 100,
+            "bold": 1000
+          },
+          "containerStyles": {
+            "default": {
+              "backgroundColor": "",
+              "foregroundColors": {
+                "default": {
+                  "normal": "#000000"
+                },
+                "white": {
+                  "normal": "#ffffff"
+                },
+                "grey": {
+                  "normal": "#5C6372"
+                },
+                "orange": {
+                  "normal": "#f2B900"
+                },
+                "yellow": {
+                  "normal": "#ffcb05"
+                },
+                "black": {
+                  "normal": "#000000"
+                },
+                "lightGreen": {
+                  "normal": "#3ADCCA"
+                },
+                "green": {
+                  "normal": "#54a254"
+                },
+                "red": {
+                  "normal": "#dd1111"
+                },
+                "accent": {
+                  "normal": "#2E89FC"
+                },
+                "good": {
+                  "normal": "#54a254"
+                },
+                "warning": {
+                  "normal": "#e69500"
+                },
+                "attention": {
+                  "normal": "#cc3300"
+                }
+              }
+            }
+          },
+          "imageSizes": {
+            "default": 40,
+            "small": 40,
+            "medium": 80,
+            "large": 160
+          },
+          "imageSet": {
+            "imageSize": "medium",
+            "maxImageHeight": 100
+          },
+          "actions": {
+            "color": "",
+            "backgroundColor": "",
+            "maxActions": 5,
+            "spacing": "extraLarge",
+            "buttonSpacing": 20,
+            "actionsOrientation": "horizontal",
+            "actionAlignment": "center",
+            "showCard": {
+              "actionMode": "inline",
+              "inlineTopMargin": 16,
+              "style": "default"
+            }
+          },
+          "spacing": {
+            "default": 5,
+            "small": 20,
+            "medium": 60,
+            "large": 20,
+            "extraLarge": 40,
+            "padding": 0
+          },
+          "separator": {
+            "lineThickness": 1,
+            "lineColor": "#eeeeee"
+          },
+          "factSet": {
+            "title": {
+              "size": "default",
+              "color": "default",
+              "weight": "bold",
+              "warp": true
+            },
+            "value": {
+              "size": "default",
+              "color": "default",
+              "weight": "default",
+              "warp": true
+            },
+            "spacing": 20
+          },
+          "supportsInteractivity": true,
+          "imageBaseUrl": ""
+        },
+        "currentCardName": "default",
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": []
+        }
+      },
+      "instanceid": "C407C-FFCD-AF",
+      "custom": {
+        "barcolumnchart": {
+          "type": "BloX",
+          "isTypeValid": false,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total"
+        }
+      },
+      "wasRendered": false,
+      "displayMenu": false,
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": true,
+        "title": false,
+        "drillTarget": "dummy",
+        "autoUpdateOnEveryChange": true,
+        "triggersDomready": true
+      },
+      "dashboardid": "61bc8ec398f8b514782a6b6e",
+      "query": {
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce"
+        },
+        "format": "json",
+        "isMaskedResult": true,
+        "metadata": [
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Cost",
+              "dim": "[Commerce.Cost]",
+              "datatype": "numeric",
+              "agg": "sum",
+              "title": "Total Cost"
+            },
+            "format": {
+              "mask": {
+                "type": "number",
+                "decimals": "auto",
+                "separated": true,
+                "isdefault": true
+              }
+            },
+            "PanelName": "Total Cost",
+            "instanceid": "9A348-13C3-5D",
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Date",
+              "dim": "[Commerce.Date (Calendar)]",
+              "datatype": "datetime",
+              "merged": true,
+              "title": "Months in Date",
+              "level": "months",
+              "collapsed": true,
+              "datasource": {
+                "title": "Sample ECommerce",
+                "fullname": "LocalHost/Sample ECommerce",
+                "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+                "address": "LocalHost",
+                "database": "aSampleIAAaECommerce",
+                "lastBuildTime": "2018-07-31T08:11:00"
+              },
+              "isDashboardFilter": true,
+              "filter": {
+                "last": {
+                  "count": 1,
+                  "offset": 1
+                }
+              }
+            },
+            "disabled": false,
+            "isCascading": false,
+            "instanceid": "EE241-456C-52",
+            "panel": "scope"
+          },
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Gender",
+              "dim": "[Commerce.Gender]",
+              "datatype": "text",
+              "merged": true,
+              "title": "Gender",
+              "collapsed": true,
+              "isDashboardFilter": true,
+              "filter": {
+                "explicit": true,
+                "multiSelection": true,
+                "members": [
+                  "Male"
+                ]
+              }
+            },
+            "disabled": false,
+            "isCascading": false,
+            "instanceid": "183BB-5E9F-C5",
+            "panel": "scope"
+          },
+          {
+            "jaql": {
+              "table": "Lead Generation",
+              "column": "Date",
+              "datatype": "datetime",
+              "level": "Years",
+              "title": "Year",
+              "dim": "[Lead Generation.Date (Calendar)]",
+              "collapsed": true,
+              "isDashboardFilter": true,
+              "filter": {
+                "last": {
+                  "count": 1,
+                  "offset": 0
+                },
+                "custom": true
+              }
+            },
+            "disabled": false,
+            "isCascading": false,
+            "instanceid": "B72C8-56C2-89",
+            "panel": "scope"
+          },
+          {
+            "jaql": {
+              "table": "Lead Generation",
+              "column": "Cost",
+              "datatype": "numeric",
+              "title": "Cost",
+              "dim": "[Lead Generation.Cost]",
+              "collapsed": true,
+              "datasource": {
+                "title": "Sample ECommerce",
+                "fullname": "LocalHost/Sample ECommerce",
+                "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+                "address": "LocalHost",
+                "database": "aSampleIAAaECommerce",
+                "lastBuildTime": "2018-07-31T08:11:00"
+              },
+              "isDashboardFilter": true,
+              "filter": {
+                "fromNotEqual": "2",
+                "custom": true
+              }
+            },
+            "disabled": false,
+            "isCascading": false,
+            "instanceid": "920A9-F188-DF",
+            "panel": "scope"
+          }
+        ],
+        "m2mThresholdFlag": 0
+      }
+    },
+    {
+      "title": "Submit - Form Template",
+      "type": "BloX",
+      "subtype": "BloX",
+      "oid": "61bc8ec398f8b514782a6b70",
+      "desc": "https://jira.sisense.com/browse/SNS-28871",
+      "source": "61c44ec483642f002bf184e4",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "Items",
+            "items": []
+          },
+          {
+            "name": "Values",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "style": {
+        "currentCard": {
+          "style": "",
+          "script": "",
+          "title": "",
+          "showCarousel": true,
+          "body": [
+            {
+              "type": "Container",
+              "width": "90%",
+              "style": {
+                "margin": "0 auto"
+              },
+              "items": [
+                {
+                  "type": "Container",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Your Feedback",
+                      "weight": "bold",
+                      "size": "extraLarge",
+                      "wrap": true
+                    },
+                    {
+                      "type": "TextBlock",
+                      "spacing": "large",
+                      "text": "Please fill out the form below.",
+                      "weight": "default",
+                      "size": "medium",
+                      "wrap": true
+                    },
+                    {
+                      "type": "TextBlock",
+                      "text": "Don't worry, we'll never share or sell your information.",
+                      "size": "small",
+                      "color": "grey",
+                      "wrap": true
+                    }
+                  ]
+                },
+                {
+                  "type": "Container",
+                  "items": [
+                    {
+                      "spacing": "large",
+                      "type": "TextBlock",
+                      "text": "Your Name",
+                      "color": "black"
+                    },
+                    {
+                      "type": "Input.Text",
+                      "id": "data.message.from_name",
+                      "placeholder": "Full Name",
+                      "defaultValue": "",
+                      "borderRadius": "4px",
+                      "borderStyle": "none",
+                      "backgroundColor": "#F4F4F8"
+                    },
+                    {
+                      "spacing": "medium",
+                      "type": "TextBlock",
+                      "text": "Your Email",
+                      "color": "black"
+                    },
+                    {
+                      "type": "Input.Text",
+                      "id": "data.message.from_email",
+                      "placeholder": "youremail@example.com",
+                      "defaultValue": "",
+                      "borderRadius": "4px",
+                      "borderStyle": "none",
+                      "backgroundColor": "#F4F4F8"
+                    },
+                    {
+                      "spacing": "medium",
+                      "type": "TextBlock",
+                      "text": "Your Message",
+                      "color": "black"
+                    },
+                    {
+                      "type": "Input.Text",
+                      "id": "data.message.html",
+                      "placeholder": "Message...",
+                      "defaultValue": "",
+                      "isMultiline": true,
+                      "rows": "5",
+                      "borderRadius": "4px",
+                      "borderStyle": "none",
+                      "backgroundColor": "#F4F4F8"
+                    }
+                  ]
+                },
+                {
+                  "type": "ActionSet",
+                  "actions": [
+                    {
+                      "type": "Action.Submit",
+                      "action": "post",
+                      "url": "https://mandrillapp.com/api/1.0/messages/send.json",
+                      "title": "Submit",
+                      "data": {
+                        "key": "example key",
+                        "message": {
+                          "subject": "Message from Sisense BloX Form",
+                          "from_email": "",
+                          "from_name": "",
+                          "to": [
+                            {
+                              "email": "recipient.email@example.com",
+                              "name": "Recipient Name",
+                              "type": "to"
+                            }
+                          ],
+                          "html": ""
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "currentConfig": {
+          "fontFamily": "Open Sans",
+          "fontSizes": {
+            "default": 16,
+            "small": 14,
+            "medium": 22,
+            "large": 32,
+            "extraLarge": 50
+          },
+          "fontWeights": {
+            "default": 400,
+            "light": 100,
+            "bold": 800
+          },
+          "containerStyles": {
+            "default": {
+              "backgroundColor": "#ffffff",
+              "foregroundColors": {
+                "default": {
+                  "normal": "#3A4356"
+                },
+                "white": {
+                  "normal": "#ffffff"
+                },
+                "grey": {
+                  "normal": "#9EA2AB"
+                },
+                "orange": {
+                  "normal": "#f2B900"
+                },
+                "yellow": {
+                  "normal": "#ffcb05"
+                },
+                "black": {
+                  "normal": "#000000"
+                },
+                "lightGreen": {
+                  "normal": "#93c0c0"
+                },
+                "green": {
+                  "normal": "#2BCC7F"
+                },
+                "red": {
+                  "normal": "#FA5656"
+                },
+                "accent": {
+                  "normal": "#2E89FC"
+                },
+                "good": {
+                  "normal": "#54a254"
+                },
+                "warning": {
+                  "normal": "#e69500"
+                },
+                "attention": {
+                  "normal": "#cc3300"
+                }
+              }
+            }
+          },
+          "imageSizes": {
+            "default": 40,
+            "small": 40,
+            "medium": 80,
+            "large": 120
+          },
+          "imageSet": {
+            "imageSize": "medium",
+            "maxImageHeight": 100
+          },
+          "actions": {
+            "color": "",
+            "backgroundColor": "",
+            "maxActions": 5,
+            "spacing": "large",
+            "buttonSpacing": 20,
+            "actionsOrientation": "horizontal",
+            "actionAlignment": "right",
+            "margin": "0",
+            "showCard": {
+              "actionMode": "inline",
+              "inlineTopMargin": 16,
+              "style": "default"
+            }
+          },
+          "spacing": {
+            "default": 5,
+            "small": 5,
+            "medium": 10,
+            "large": 20,
+            "extraLarge": 40,
+            "padding": 0
+          },
+          "separator": {
+            "lineThickness": 1,
+            "lineColor": "#D8D8D8"
+          },
+          "factSet": {
+            "title": {
+              "size": "default",
+              "color": "default",
+              "weight": "bold",
+              "warp": true
+            },
+            "value": {
+              "size": "default",
+              "color": "default",
+              "weight": "default",
+              "warp": true
+            },
+            "spacing": 20
+          },
+          "supportsInteractivity": true,
+          "imageBaseUrl": ""
+        },
+        "currentCardName": "Form",
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": []
+        }
+      },
+      "instanceid": "C407C-FFCD-AF",
+      "custom": {
+        "barcolumnchart": {
+          "type": "BloX",
+          "isTypeValid": false,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total"
+        }
+      },
+      "wasRendered": false,
+      "displayMenu": false,
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": true,
+        "title": false,
+        "drillTarget": "dummy",
+        "autoUpdateOnEveryChange": true,
+        "triggersDomready": true
+      },
+      "dashboardid": "61bc8ec398f8b514782a6b6e",
+      "query": {
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce"
+        },
+        "format": "json",
+        "isMaskedResult": true,
+        "metadata": [],
+        "m2mThresholdFlag": 0
+      }
+    },
+    {
+      "title": "Dashboard Filters (by Panel Name)",
+      "type": "BloX",
+      "subtype": "BloX",
+      "oid": "61bc8ec398f8b514782a6b71",
+      "desc": null,
+      "source": "61c44ec483642f002bf184e5",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [
+            "[Commerce.Date (Calendar)]"
+          ],
+          "all": true,
+          "ids": [
+            "EE241-456C-52"
+          ]
+        },
+        "panels": [
+          {
+            "name": "Items",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Gender",
+                  "dim": "[Commerce.Gender]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Gender"
+                },
+                "PanelName": "Gender",
+                "instanceid": "6595F-0AA9-7B"
+              }
+            ]
+          },
+          {
+            "name": "Values",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "style": {
+        "currentCard": {
+          "style": "",
+          "script": "",
+          "title": "",
+          "showCarousel": false,
+          "actions": [
+            {
+              "type": "Filters",
+              "title": "{panel:Gender}",
+              "data": {
+                "filters": [
+                  {
+                    "panelName": "Gender",
+                    "filterJaql": {
+                      "explicit": true,
+                      "members": [
+                        "{value:Gender}"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "currentConfig": {
+          "fontFamily": "Open Sans",
+          "fontSizes": {
+            "default": 14,
+            "small": 16,
+            "medium": 20,
+            "large": 50,
+            "extraLarge": 32
+          },
+          "fontWeights": {
+            "default": 500,
+            "light": 100,
+            "bold": 1000
+          },
+          "containerStyles": {
+            "default": {
+              "backgroundColor": "",
+              "foregroundColors": {
+                "default": {
+                  "normal": "#000000"
+                },
+                "white": {
+                  "normal": "#ffffff"
+                },
+                "grey": {
+                  "normal": "#5C6372"
+                },
+                "orange": {
+                  "normal": "#f2B900"
+                },
+                "yellow": {
+                  "normal": "#ffcb05"
+                },
+                "black": {
+                  "normal": "#000000"
+                },
+                "lightGreen": {
+                  "normal": "#3ADCCA"
+                },
+                "green": {
+                  "normal": "#54a254"
+                },
+                "red": {
+                  "normal": "#dd1111"
+                },
+                "accent": {
+                  "normal": "#2E89FC"
+                },
+                "good": {
+                  "normal": "#54a254"
+                },
+                "warning": {
+                  "normal": "#e69500"
+                },
+                "attention": {
+                  "normal": "#cc3300"
+                }
+              }
+            }
+          },
+          "imageSizes": {
+            "default": 40,
+            "small": 40,
+            "medium": 80,
+            "large": 160
+          },
+          "imageSet": {
+            "imageSize": "medium",
+            "maxImageHeight": 100
+          },
+          "actions": {
+            "color": "",
+            "backgroundColor": "",
+            "maxActions": 5,
+            "spacing": "extraLarge",
+            "buttonSpacing": 20,
+            "actionsOrientation": "horizontal",
+            "actionAlignment": "center",
+            "showCard": {
+              "actionMode": "inline",
+              "inlineTopMargin": 16,
+              "style": "default"
+            }
+          },
+          "spacing": {
+            "default": 5,
+            "small": 20,
+            "medium": 60,
+            "large": 20,
+            "extraLarge": 40,
+            "padding": 0
+          },
+          "separator": {
+            "lineThickness": 1,
+            "lineColor": "#eeeeee"
+          },
+          "factSet": {
+            "title": {
+              "size": "default",
+              "color": "default",
+              "weight": "bold",
+              "warp": true
+            },
+            "value": {
+              "size": "default",
+              "color": "default",
+              "weight": "default",
+              "warp": true
+            },
+            "spacing": 20
+          },
+          "supportsInteractivity": true,
+          "imageBaseUrl": ""
+        },
+        "currentCardName": "default",
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "gender",
+              "title": "Gender",
+              "singular": "Gender",
+              "plural": "Gender"
+            }
+          ]
+        }
+      },
+      "instanceid": "C407C-FFCD-AF",
+      "custom": {
+        "barcolumnchart": {
+          "type": "BloX",
+          "isTypeValid": false,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total"
+        }
+      },
+      "wasRendered": false,
+      "displayMenu": false,
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "title": false,
+        "drillTarget": "dummy",
+        "autoUpdateOnEveryChange": true,
+        "triggersDomready": true
+      },
+      "dashboardid": "61bc8ec398f8b514782a6b6e",
+      "query": {
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce"
+        },
+        "format": "json",
+        "isMaskedResult": true,
+        "metadata": [
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Gender",
+              "dim": "[Commerce.Gender]",
+              "datatype": "text",
+              "merged": true,
+              "title": "Gender"
+            },
+            "PanelName": "Gender",
+            "instanceid": "6595F-0AA9-7B",
+            "handlers": []
+          }
+        ],
+        "m2mThresholdFlag": 0
+      }
+    },
+    {
+      "title": "Dashboard Filters (by Filter Name)",
+      "type": "BloX",
+      "subtype": "BloX",
+      "oid": "61bc8ec398f8b514782a6b72",
+      "desc": "",
+      "source": "61c44ec483642f002bf184e6",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": true,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "Items",
+            "items": []
+          },
+          {
+            "name": "Values",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "style": {
+        "currentCard": {
+          "style": "",
+          "script": "",
+          "title": "",
+          "showCarousel": false,
+          "actions": [
+            {
+              "type": "Filters",
+              "title": "Last Month",
+              "data": {
+                "filters": [
+                  {
+                    "filterName": "Months in Date",
+                    "filterJaql": {
+                      "last": {
+                        "count": 1,
+                        "offset": 1
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "currentConfig": {
+          "fontFamily": "Open Sans",
+          "fontSizes": {
+            "default": 14,
+            "small": 16,
+            "medium": 20,
+            "large": 50,
+            "extraLarge": 32
+          },
+          "fontWeights": {
+            "default": 500,
+            "light": 100,
+            "bold": 1000
+          },
+          "containerStyles": {
+            "default": {
+              "backgroundColor": "",
+              "foregroundColors": {
+                "default": {
+                  "normal": "#000000"
+                },
+                "white": {
+                  "normal": "#ffffff"
+                },
+                "grey": {
+                  "normal": "#5C6372"
+                },
+                "orange": {
+                  "normal": "#f2B900"
+                },
+                "yellow": {
+                  "normal": "#ffcb05"
+                },
+                "black": {
+                  "normal": "#000000"
+                },
+                "lightGreen": {
+                  "normal": "#3ADCCA"
+                },
+                "green": {
+                  "normal": "#54a254"
+                },
+                "red": {
+                  "normal": "#dd1111"
+                },
+                "accent": {
+                  "normal": "#2E89FC"
+                },
+                "good": {
+                  "normal": "#54a254"
+                },
+                "warning": {
+                  "normal": "#e69500"
+                },
+                "attention": {
+                  "normal": "#cc3300"
+                }
+              }
+            }
+          },
+          "imageSizes": {
+            "default": 40,
+            "small": 40,
+            "medium": 80,
+            "large": 160
+          },
+          "imageSet": {
+            "imageSize": "medium",
+            "maxImageHeight": 100
+          },
+          "actions": {
+            "color": "",
+            "backgroundColor": "",
+            "maxActions": 5,
+            "spacing": "extraLarge",
+            "buttonSpacing": 20,
+            "actionsOrientation": "horizontal",
+            "actionAlignment": "center",
+            "showCard": {
+              "actionMode": "inline",
+              "inlineTopMargin": 16,
+              "style": "default"
+            }
+          },
+          "spacing": {
+            "default": 5,
+            "small": 20,
+            "medium": 60,
+            "large": 20,
+            "extraLarge": 40,
+            "padding": 0
+          },
+          "separator": {
+            "lineThickness": 1,
+            "lineColor": "#eeeeee"
+          },
+          "factSet": {
+            "title": {
+              "size": "default",
+              "color": "default",
+              "weight": "bold",
+              "warp": true
+            },
+            "value": {
+              "size": "default",
+              "color": "default",
+              "weight": "default",
+              "warp": true
+            },
+            "spacing": 20
+          },
+          "supportsInteractivity": true,
+          "imageBaseUrl": ""
+        },
+        "currentCardName": "default",
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": []
+        }
+      },
+      "instanceid": "C407C-FFCD-AF",
+      "custom": {
+        "barcolumnchart": {
+          "type": "BloX",
+          "isTypeValid": false,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total"
+        }
+      },
+      "wasRendered": false,
+      "displayMenu": false,
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "title": false,
+        "drillTarget": "dummy",
+        "autoUpdateOnEveryChange": true,
+        "triggersDomready": true
+      },
+      "dashboardid": "61bc8ec398f8b514782a6b6e",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 4,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "query": {
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce"
+        },
+        "format": "json",
+        "isMaskedResult": true,
+        "metadata": [],
+        "m2mThresholdFlag": 0
+      }
+    },
+    {
+      "title": "Dashboard Filters (by Dimension)",
+      "type": "BloX",
+      "subtype": "BloX",
+      "oid": "61bc8ec398f8b514782a6b73",
+      "desc": "",
+      "source": "61c44ec483642f002bf184e7",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": true,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "Items",
+            "items": []
+          },
+          {
+            "name": "Values",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "style": {
+        "currentCard": {
+          "style": "",
+          "script": "",
+          "title": "",
+          "showCarousel": false,
+          "actions": [
+            {
+              "type": "Filters",
+              "title": "Filter (by Dimension)",
+              "data": {
+                "filters": [
+                  {
+                    "filterJaql": {
+                      "last": {
+                        "count": 1,
+                        "offset": 0
+                      }
+                    },
+                    "dim": {
+                      "title": "Year",
+                      "table": "Lead Generation",
+                      "column": "Date",
+                      "datatype": "datetime",
+                      "level": "Years"
+                    }
+                  },
+                  {
+                    "filterJaql": {
+                      "fromNotEqual": "2"
+                    },
+                    "dim": {
+                      "title": "Cost",
+                      "table": "Lead Generation",
+                      "column": "Cost",
+                      "datatype": "numeric"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "currentConfig": {
+          "fontFamily": "Open Sans",
+          "fontSizes": {
+            "default": 14,
+            "small": 16,
+            "medium": 20,
+            "large": 50,
+            "extraLarge": 32
+          },
+          "fontWeights": {
+            "default": 500,
+            "light": 100,
+            "bold": 1000
+          },
+          "containerStyles": {
+            "default": {
+              "backgroundColor": "",
+              "foregroundColors": {
+                "default": {
+                  "normal": "#000000"
+                },
+                "white": {
+                  "normal": "#ffffff"
+                },
+                "grey": {
+                  "normal": "#5C6372"
+                },
+                "orange": {
+                  "normal": "#f2B900"
+                },
+                "yellow": {
+                  "normal": "#ffcb05"
+                },
+                "black": {
+                  "normal": "#000000"
+                },
+                "lightGreen": {
+                  "normal": "#3ADCCA"
+                },
+                "green": {
+                  "normal": "#54a254"
+                },
+                "red": {
+                  "normal": "#dd1111"
+                },
+                "accent": {
+                  "normal": "#2E89FC"
+                },
+                "good": {
+                  "normal": "#54a254"
+                },
+                "warning": {
+                  "normal": "#e69500"
+                },
+                "attention": {
+                  "normal": "#cc3300"
+                }
+              }
+            }
+          },
+          "imageSizes": {
+            "default": 40,
+            "small": 40,
+            "medium": 80,
+            "large": 160
+          },
+          "imageSet": {
+            "imageSize": "medium",
+            "maxImageHeight": 100
+          },
+          "actions": {
+            "color": "",
+            "backgroundColor": "",
+            "maxActions": 5,
+            "spacing": "extraLarge",
+            "buttonSpacing": 20,
+            "actionsOrientation": "horizontal",
+            "actionAlignment": "center",
+            "showCard": {
+              "actionMode": "inline",
+              "inlineTopMargin": 16,
+              "style": "default"
+            }
+          },
+          "spacing": {
+            "default": 5,
+            "small": 20,
+            "medium": 60,
+            "large": 20,
+            "extraLarge": 40,
+            "padding": 0
+          },
+          "separator": {
+            "lineThickness": 1,
+            "lineColor": "#eeeeee"
+          },
+          "factSet": {
+            "title": {
+              "size": "default",
+              "color": "default",
+              "weight": "bold",
+              "warp": true
+            },
+            "value": {
+              "size": "default",
+              "color": "default",
+              "weight": "default",
+              "warp": true
+            },
+            "spacing": 20
+          },
+          "supportsInteractivity": true,
+          "imageBaseUrl": ""
+        },
+        "currentCardName": "default",
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": []
+        }
+      },
+      "instanceid": "C407C-FFCD-AF",
+      "custom": {
+        "barcolumnchart": {
+          "type": "BloX",
+          "isTypeValid": false,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total"
+        }
+      },
+      "wasRendered": false,
+      "displayMenu": false,
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "title": false,
+        "drillTarget": "dummy",
+        "autoUpdateOnEveryChange": true,
+        "triggersDomready": true
+      },
+      "dashboardid": "61bc8ec398f8b514782a6b6e",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 4,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "query": {
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce"
+        },
+        "format": "json",
+        "isMaskedResult": true,
+        "metadata": [],
+        "m2mThresholdFlag": 0
+      }
+    },
+    {
+      "title": "Inline Button",
+      "type": "BloX",
+      "subtype": "BloX",
+      "oid": "61bc8ec398f8b514782a6b74",
+      "desc": "",
+      "source": "61c44ec483642f002bf184e8",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [
+            "[Commerce.Gender]"
+          ],
+          "all": true,
+          "ids": [
+            "183BB-5E9F-C5"
+          ]
+        },
+        "panels": [
+          {
+            "name": "Items",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Gender",
+                  "dim": "[Commerce.Gender]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Gender"
+                },
+                "PanelName": "Gender",
+                "instanceid": "DAAAD-A0FF-94"
+              }
+            ]
+          },
+          {
+            "name": "Values",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "style": {
+        "currentCard": {
+          "style": "",
+          "script": "",
+          "title": "",
+          "showCarousel": false,
+          "type": "ActionSet",
+          "actions": [
+            {
+              "type": "Filters",
+              "title": "{panel:Gender}",
+              "data": {
+                "filters": [
+                  {
+                    "panelName": "Gender",
+                    "filterJaql": {
+                      "explicit": true,
+                      "members": [
+                        "{value:Gender}"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "currentConfig": {
+          "fontFamily": "Open Sans",
+          "fontSizes": {
+            "default": 14,
+            "small": 16,
+            "medium": 20,
+            "large": 50,
+            "extraLarge": 32
+          },
+          "fontWeights": {
+            "default": 500,
+            "light": 100,
+            "bold": 1000
+          },
+          "containerStyles": {
+            "default": {
+              "backgroundColor": "",
+              "foregroundColors": {
+                "default": {
+                  "normal": "#000000"
+                },
+                "white": {
+                  "normal": "#ffffff"
+                },
+                "grey": {
+                  "normal": "#5C6372"
+                },
+                "orange": {
+                  "normal": "#f2B900"
+                },
+                "yellow": {
+                  "normal": "#ffcb05"
+                },
+                "black": {
+                  "normal": "#000000"
+                },
+                "lightGreen": {
+                  "normal": "#3ADCCA"
+                },
+                "green": {
+                  "normal": "#54a254"
+                },
+                "red": {
+                  "normal": "#dd1111"
+                },
+                "accent": {
+                  "normal": "#2E89FC"
+                },
+                "good": {
+                  "normal": "#54a254"
+                },
+                "warning": {
+                  "normal": "#e69500"
+                },
+                "attention": {
+                  "normal": "#cc3300"
+                }
+              }
+            }
+          },
+          "imageSizes": {
+            "default": 40,
+            "small": 40,
+            "medium": 80,
+            "large": 160
+          },
+          "imageSet": {
+            "imageSize": "medium",
+            "maxImageHeight": 100
+          },
+          "actions": {
+            "color": "",
+            "backgroundColor": "",
+            "maxActions": 5,
+            "spacing": "extraLarge",
+            "buttonSpacing": 20,
+            "actionsOrientation": "horizontal",
+            "actionAlignment": "center",
+            "showCard": {
+              "actionMode": "inline",
+              "inlineTopMargin": 16,
+              "style": "default"
+            }
+          },
+          "spacing": {
+            "default": 5,
+            "small": 20,
+            "medium": 60,
+            "large": 20,
+            "extraLarge": 40,
+            "padding": 0
+          },
+          "separator": {
+            "lineThickness": 1,
+            "lineColor": "#eeeeee"
+          },
+          "factSet": {
+            "title": {
+              "size": "default",
+              "color": "default",
+              "weight": "bold",
+              "warp": true
+            },
+            "value": {
+              "size": "default",
+              "color": "default",
+              "weight": "default",
+              "warp": true
+            },
+            "spacing": 20
+          },
+          "supportsInteractivity": true,
+          "imageBaseUrl": ""
+        },
+        "currentCardName": "default",
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "gender",
+              "title": "Gender",
+              "singular": "Gender",
+              "plural": "Gender"
+            }
+          ]
+        }
+      },
+      "instanceid": "2B0BD-1278-D8",
+      "wasRendered": false,
+      "custom": {
+        "barcolumnchart": {
+          "type": "BloX",
+          "isTypeValid": false,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total"
+        }
+      },
+      "displayMenu": false,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 4,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "title": false,
+        "drillTarget": "dummy",
+        "autoUpdateOnEveryChange": true,
+        "triggersDomready": true
+      },
+      "dashboardid": "61bc8ec398f8b514782a6b6e",
+      "query": {
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce"
+        },
+        "format": "json",
+        "isMaskedResult": true,
+        "metadata": [
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Gender",
+              "dim": "[Commerce.Gender]",
+              "datatype": "text",
+              "merged": true,
+              "title": "Gender"
+            },
+            "PanelName": "Gender",
+            "instanceid": "DAAAD-A0FF-94",
+            "handlers": []
+          }
+        ],
+        "m2mThresholdFlag": 0
+      }
+    },
+    {
+      "title": "Button with Jump to Dashboard",
+      "type": "BloX",
+      "subtype": "BloX",
+      "oid": "61bc8ec398f8b514782a6b78",
+      "desc": null,
+      "source": "61c44ec483642f002bf184ea",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "Items",
+            "items": []
+          },
+          {
+            "name": "Values",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "style": {
+        "currentCard": {
+          "type": "ActionSet",
+          "actions": [
+            {
+              "type": "JTD",
+              "title": "Jump to Dashboard #1",
+              "style": {
+                "background-color": "#3A4356",
+                "color": "white"
+              },
+              "data": {
+                "dashboardId": "5db1b73d6607683e505edc21",
+                "args": {
+                  "displayDashboardsPane": false,
+                  "displayFilterPane": true,
+                  "displayToolbarRow": false,
+                  "displayHeaderRow": false,
+                  "drilledDashboardDisplayType": 1
+                }
+              }
+            },
+            {
+              "type": "JTD",
+              "title": "Jump to Dashboard #2",
+              "data": {
+                "dashboardId": "5db1b73d6607683e505edc21",
+                "args": {
+                  "displayDashboardsPane": false,
+                  "displayFilterPane": true,
+                  "displayToolbarRow": false,
+                  "displayHeaderRow": false,
+                  "drilledDashboardDisplayType": 1
+                }
+              }
+            }
+          ]
+        },
+        "currentConfig": {
+          "fontFamily": "Open Sans",
+          "fontSizes": {
+            "default": 14,
+            "small": 16,
+            "medium": 20,
+            "large": 50,
+            "extraLarge": 32
+          },
+          "fontWeights": {
+            "default": 500,
+            "light": 100,
+            "bold": 1000
+          },
+          "containerStyles": {
+            "default": {
+              "backgroundColor": "",
+              "foregroundColors": {
+                "default": {
+                  "normal": "#000000"
+                },
+                "white": {
+                  "normal": "#ffffff"
+                },
+                "grey": {
+                  "normal": "#5C6372"
+                },
+                "orange": {
+                  "normal": "#f2B900"
+                },
+                "yellow": {
+                  "normal": "#ffcb05"
+                },
+                "black": {
+                  "normal": "#000000"
+                },
+                "lightGreen": {
+                  "normal": "#3ADCCA"
+                },
+                "green": {
+                  "normal": "#54a254"
+                },
+                "red": {
+                  "normal": "#dd1111"
+                },
+                "accent": {
+                  "normal": "#2E89FC"
+                },
+                "good": {
+                  "normal": "#54a254"
+                },
+                "warning": {
+                  "normal": "#e69500"
+                },
+                "attention": {
+                  "normal": "#cc3300"
+                }
+              }
+            }
+          },
+          "imageSizes": {
+            "default": 40,
+            "small": 40,
+            "medium": 80,
+            "large": 160
+          },
+          "imageSet": {
+            "imageSize": "medium",
+            "maxImageHeight": 100
+          },
+          "actions": {
+            "color": "",
+            "backgroundColor": "",
+            "maxActions": 5,
+            "spacing": "extraLarge",
+            "buttonSpacing": 20,
+            "actionsOrientation": "horizontal",
+            "actionAlignment": "center",
+            "showCard": {
+              "actionMode": "inline",
+              "inlineTopMargin": 16,
+              "style": "default"
+            }
+          },
+          "spacing": {
+            "default": 5,
+            "small": 20,
+            "medium": 60,
+            "large": 20,
+            "extraLarge": 40,
+            "padding": 0
+          },
+          "separator": {
+            "lineThickness": 1,
+            "lineColor": "#eeeeee"
+          },
+          "factSet": {
+            "title": {
+              "size": "default",
+              "color": "default",
+              "weight": "bold",
+              "warp": true
+            },
+            "value": {
+              "size": "default",
+              "color": "default",
+              "weight": "default",
+              "warp": true
+            },
+            "spacing": 20
+          },
+          "supportsInteractivity": true,
+          "imageBaseUrl": ""
+        },
+        "currentCardName": "default",
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": []
+        }
+      },
+      "instanceid": "0D831-8FBF-02",
+      "custom": {
+        "barcolumnchart": {
+          "type": "BloX",
+          "isTypeValid": false,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total"
+        }
+      },
+      "wasRendered": false,
+      "displayMenu": false,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 4,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "drilledDashboardDisplay": {},
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": true,
+        "title": false,
+        "drillTarget": "dummy",
+        "autoUpdateOnEveryChange": true,
+        "triggersDomready": true
+      },
+      "dashboardid": "61bc8ec398f8b514782a6b6e",
+      "query": {
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce"
+        },
+        "format": "json",
+        "isMaskedResult": true,
+        "metadata": [],
+        "m2mThresholdFlag": 0
+      }
+    },
+    {
+      "title": "Popup Feedback Form Button",
+      "type": "BloX",
+      "subtype": "BloX",
+      "oid": "61bc8ec398f8b514782a6b76",
+      "desc": null,
+      "source": "61c44ec483642f002bf184eb",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "Items",
+            "items": []
+          },
+          {
+            "name": "Values",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "style": {
+        "currentCard": {
+          "style": "",
+          "script": "",
+          "title": "",
+          "showCarousel": true,
+          "body": [],
+          "actions": [
+            {
+              "type": "Action.ShowCard",
+              "title": "Send Feedback",
+              "card": {
+                "showCarousel": true,
+                "body": [
+                  {
+                    "type": "Container",
+                    "width": "90%",
+                    "style": {
+                      "margin": "0 auto"
+                    },
+                    "items": [
+                      {
+                        "type": "Container",
+                        "items": [
+                          {
+                            "type": "TextBlock",
+                            "text": "Your Feedback",
+                            "weight": "bold",
+                            "size": "extraLarge",
+                            "wrap": true
+                          },
+                          {
+                            "type": "TextBlock",
+                            "spacing": "large",
+                            "text": "Please fill out the form below.",
+                            "weight": "default",
+                            "size": "medium",
+                            "wrap": true
+                          },
+                          {
+                            "type": "TextBlock",
+                            "text": "Don't worry, we'll never share or sell your information.",
+                            "size": "small",
+                            "color": "grey",
+                            "wrap": true
+                          }
+                        ]
+                      },
+                      {
+                        "type": "Container",
+                        "items": [
+                          {
+                            "spacing": "large",
+                            "type": "TextBlock",
+                            "text": "Your Name",
+                            "color": "black"
+                          },
+                          {
+                            "type": "Input.Text",
+                            "id": "data.message.from_name",
+                            "placeholder": "Full Name",
+                            "defaultValue": "",
+                            "borderRadius": "4px",
+                            "borderStyle": "none",
+                            "backgroundColor": "#F4F4F8"
+                          },
+                          {
+                            "spacing": "medium",
+                            "type": "TextBlock",
+                            "text": "Your Email",
+                            "color": "black"
+                          },
+                          {
+                            "type": "Input.Text",
+                            "id": "data.message.from_email",
+                            "placeholder": "youremail@example.com",
+                            "defaultValue": "",
+                            "borderRadius": "4px",
+                            "borderStyle": "none",
+                            "backgroundColor": "#F4F4F8"
+                          },
+                          {
+                            "spacing": "medium",
+                            "type": "TextBlock",
+                            "text": "Your Message",
+                            "color": "black"
+                          },
+                          {
+                            "type": "Input.Text",
+                            "id": "data.message.html",
+                            "placeholder": "Message...",
+                            "defaultValue": "",
+                            "isMultiline": true,
+                            "rows": "5",
+                            "borderRadius": "4px",
+                            "borderStyle": "none",
+                            "backgroundColor": "#F4F4F8"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "ActionSet",
+                        "actions": [
+                          {
+                            "type": "Action.Submit",
+                            "action": "post",
+                            "url": "https://mandrillapp.com/api/1.0/messages/send.json",
+                            "title": "Submit",
+                            "data": {
+                              "key": "example key",
+                              "message": {
+                                "subject": "Message from Sisense BloX Form",
+                                "from_email": "",
+                                "from_name": "",
+                                "to": [
+                                  {
+                                    "email": "recipient.email@example.com",
+                                    "name": "Recipient Name",
+                                    "type": "to"
+                                  }
+                                ],
+                                "html": ""
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "currentConfig": {
+          "fontFamily": "Open Sans",
+          "fontSizes": {
+            "default": 14,
+            "small": 16,
+            "medium": 20,
+            "large": 50,
+            "extraLarge": 32
+          },
+          "fontWeights": {
+            "default": 500,
+            "light": 100,
+            "bold": 1000
+          },
+          "containerStyles": {
+            "default": {
+              "backgroundColor": "#ffcb05",
+              "foregroundColors": {
+                "default": {
+                  "normal": "#000000"
+                },
+                "white": {
+                  "normal": "#ffffff"
+                },
+                "grey": {
+                  "normal": "#5C6372"
+                },
+                "orange": {
+                  "normal": "#f2B900"
+                },
+                "yellow": {
+                  "normal": "#ffcb05"
+                },
+                "black": {
+                  "normal": "#000000"
+                },
+                "lightGreen": {
+                  "normal": "#3ADCCA"
+                },
+                "green": {
+                  "normal": "#54a254"
+                },
+                "red": {
+                  "normal": "#dd1111"
+                },
+                "accent": {
+                  "normal": "#2E89FC"
+                },
+                "good": {
+                  "normal": "#54a254"
+                },
+                "warning": {
+                  "normal": "#e69500"
+                },
+                "attention": {
+                  "normal": "#cc3300"
+                }
+              }
+            }
+          },
+          "imageSizes": {
+            "default": 40,
+            "small": 40,
+            "medium": 80,
+            "large": 160
+          },
+          "imageSet": {
+            "imageSize": "medium",
+            "maxImageHeight": 100
+          },
+          "actions": {
+            "color": "",
+            "backgroundColor": "white",
+            "maxActions": 5,
+            "spacing": "extraLarge",
+            "buttonSpacing": 20,
+            "actionsOrientation": "horizontal",
+            "actionAlignment": "center",
+            "showCard": {
+              "actionMode": "inline",
+              "inlineTopMargin": 16,
+              "style": "default"
+            }
+          },
+          "spacing": {
+            "default": 5,
+            "small": 20,
+            "medium": 60,
+            "large": 20,
+            "extraLarge": 40,
+            "padding": 0
+          },
+          "separator": {
+            "lineThickness": 1,
+            "lineColor": "#eeeeee"
+          },
+          "factSet": {
+            "title": {
+              "size": "default",
+              "color": "default",
+              "weight": "bold",
+              "warp": true
+            },
+            "value": {
+              "size": "default",
+              "color": "default",
+              "weight": "default",
+              "warp": true
+            },
+            "spacing": 20
+          },
+          "supportsInteractivity": true,
+          "imageBaseUrl": ""
+        },
+        "currentCardName": "default",
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": []
+        }
+      },
+      "instanceid": "DD33C-9D9E-45",
+      "wasRendered": false,
+      "custom": {
+        "barcolumnchart": {
+          "type": "BloX",
+          "isTypeValid": false,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total"
+        }
+      },
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 4,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "displayMenu": false,
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": true,
+        "title": false,
+        "drillTarget": "dummy",
+        "autoUpdateOnEveryChange": true,
+        "triggersDomready": true
+      },
+      "dashboardid": "61bc8ec398f8b514782a6b6e",
+      "query": {
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce"
+        },
+        "format": "json",
+        "isMaskedResult": true,
+        "metadata": [],
+        "m2mThresholdFlag": 0
+      }
+    },
+    {
+      "title": "Clickable Element/Open URL",
+      "type": "BloX",
+      "subtype": "BloX",
+      "oid": "61bc8ec398f8b514782a6b75",
+      "desc": null,
+      "source": "61c44ec483642f002bf184ec",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "Items",
+            "items": []
+          },
+          {
+            "name": "Values",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "style": {
+        "currentCard": {
+          "style": "",
+          "script": "",
+          "title": "",
+          "showCarousel": true,
+          "actions": [
+            {
+              "type": "Action.OpenUrl",
+              "title": "Open In Web",
+              "url": "https://www.sisense.com/sisense-labs/"
+            }
+          ]
+        },
+        "currentConfig": {
+          "fontFamily": "Open Sans",
+          "fontSizes": {
+            "default": 16,
+            "small": 12,
+            "medium": 22,
+            "large": 32,
+            "extraLarge": 50
+          },
+          "fontWeights": {
+            "default": 500,
+            "light": 100,
+            "bold": 1000
+          },
+          "containerStyles": {
+            "default": {
+              "backgroundColor": "#ffff",
+              "foregroundColors": {
+                "default": {
+                  "normal": "#3A4356"
+                },
+                "white": {
+                  "normal": "#ffff"
+                },
+                "grey": {
+                  "normal": "#5C6372"
+                },
+                "orange": {
+                  "normal": "#f2B900"
+                },
+                "yellow": {
+                  "normal": "#ffcb05"
+                },
+                "black": {
+                  "normal": "#000000"
+                },
+                "lightGreen": {
+                  "normal": "#3ADCCA"
+                },
+                "green": {
+                  "normal": "#54a254"
+                },
+                "red": {
+                  "normal": "#dd1111"
+                },
+                "accent": {
+                  "normal": "#2E89FC"
+                },
+                "good": {
+                  "normal": "#54a254"
+                },
+                "warning": {
+                  "normal": "#e69500"
+                },
+                "attention": {
+                  "normal": "#cc3300"
+                }
+              }
+            }
+          },
+          "imageSizes": {
+            "default": 40,
+            "small": 40,
+            "medium": 80,
+            "large": 160
+          },
+          "imageSet": {
+            "imageSize": "medium",
+            "maxImageHeight": 100
+          },
+          "actions": {
+            "color": "",
+            "backgroundColor": "",
+            "maxActions": 5,
+            "spacing": "extraLarge",
+            "buttonSpacing": 20,
+            "actionsOrientation": "horizontal",
+            "actionAlignment": "center",
+            "showCard": {
+              "actionMode": "inline",
+              "inlineTopMargin": 16,
+              "style": "default"
+            }
+          },
+          "spacing": {
+            "default": 5,
+            "small": 20,
+            "medium": 40,
+            "large": 60,
+            "extraLarge": 40,
+            "padding": 25
+          },
+          "separator": {
+            "lineThickness": 1,
+            "lineColor": "#eeeeee"
+          },
+          "factSet": {
+            "title": {
+              "size": "default",
+              "color": "default",
+              "weight": "bold",
+              "warp": true
+            },
+            "value": {
+              "size": "default",
+              "color": "default",
+              "weight": "default",
+              "warp": true
+            },
+            "spacing": 20
+          },
+          "supportsInteractivity": true,
+          "height": 324,
+          "imageBaseUrl": ""
+        },
+        "currentCardName": "Indicator Sparkline",
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": []
+        }
+      },
+      "instanceid": "409C8-A91A-B6",
+      "wasRendered": false,
+      "custom": {
+        "barcolumnchart": {
+          "type": "BloX",
+          "isTypeValid": false,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total"
+        }
+      },
+      "displayMenu": false,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 4,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "title": false,
+        "drillTarget": "dummy",
+        "autoUpdateOnEveryChange": true,
+        "triggersDomready": true
+      },
+      "dashboardid": "61bc8ec398f8b514782a6b6e",
+      "query": {
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce"
+        },
+        "format": "json",
+        "isMaskedResult": true,
+        "metadata": [],
+        "m2mThresholdFlag": 0
+      }
+    },
+    {
+      "title": "Button with Jump to Dashboard",
+      "type": "BloX",
+      "subtype": "BloX",
+      "oid": "61bc8ec398f8b514782a6b77",
+      "desc": null,
+      "source": "61c44ec483642f002bf184e9",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "Items",
+            "items": []
+          },
+          {
+            "name": "Values",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "style": {
+        "currentCard": {
+          "actions": [
+            {
+              "type": "JTD",
+              "title": "Jump to Dashboard #1",
+              "data": {
+                "dashboardId": "5db1b73d6607683e505edc21",
+                "args": {
+                  "displayDashboardsPane": false,
+                  "displayFilterPane": true,
+                  "displayToolbarRow": false,
+                  "displayHeaderRow": false,
+                  "drilledDashboardDisplayType": 1
+                }
+              }
+            },
+            {
+              "type": "JTD",
+              "title": "Jump to Dashboard #2",
+              "data": {
+                "dashboardId": "5db1b73d6607683e505edc21",
+                "args": {
+                  "displayDashboardsPane": false,
+                  "displayFilterPane": true,
+                  "displayToolbarRow": false,
+                  "displayHeaderRow": false,
+                  "drilledDashboardDisplayType": 1
+                }
+              }
+            }
+          ]
+        },
+        "currentConfig": {
+          "fontFamily": "Open Sans",
+          "fontSizes": {
+            "default": 14,
+            "small": 16,
+            "medium": 20,
+            "large": 50,
+            "extraLarge": 32
+          },
+          "fontWeights": {
+            "default": 500,
+            "light": 100,
+            "bold": 1000
+          },
+          "containerStyles": {
+            "default": {
+              "backgroundColor": "",
+              "foregroundColors": {
+                "default": {
+                  "normal": "#000000"
+                },
+                "white": {
+                  "normal": "#ffffff"
+                },
+                "grey": {
+                  "normal": "#5C6372"
+                },
+                "orange": {
+                  "normal": "#f2B900"
+                },
+                "yellow": {
+                  "normal": "#ffcb05"
+                },
+                "black": {
+                  "normal": "#000000"
+                },
+                "lightGreen": {
+                  "normal": "#3ADCCA"
+                },
+                "green": {
+                  "normal": "#54a254"
+                },
+                "red": {
+                  "normal": "#dd1111"
+                },
+                "accent": {
+                  "normal": "#2E89FC"
+                },
+                "good": {
+                  "normal": "#54a254"
+                },
+                "warning": {
+                  "normal": "#e69500"
+                },
+                "attention": {
+                  "normal": "#cc3300"
+                }
+              }
+            }
+          },
+          "imageSizes": {
+            "default": 40,
+            "small": 40,
+            "medium": 80,
+            "large": 160
+          },
+          "imageSet": {
+            "imageSize": "medium",
+            "maxImageHeight": 100
+          },
+          "actions": {
+            "color": "",
+            "backgroundColor": "",
+            "maxActions": 5,
+            "spacing": "extraLarge",
+            "buttonSpacing": 20,
+            "actionsOrientation": "horizontal",
+            "actionAlignment": "center",
+            "showCard": {
+              "actionMode": "inline",
+              "inlineTopMargin": 16,
+              "style": "default"
+            }
+          },
+          "spacing": {
+            "default": 5,
+            "small": 20,
+            "medium": 60,
+            "large": 20,
+            "extraLarge": 40,
+            "padding": 0
+          },
+          "separator": {
+            "lineThickness": 1,
+            "lineColor": "#eeeeee"
+          },
+          "factSet": {
+            "title": {
+              "size": "default",
+              "color": "default",
+              "weight": "bold",
+              "warp": true
+            },
+            "value": {
+              "size": "default",
+              "color": "default",
+              "weight": "default",
+              "warp": true
+            },
+            "spacing": 20
+          },
+          "supportsInteractivity": true,
+          "imageBaseUrl": ""
+        },
+        "currentCardName": "default",
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": []
+        }
+      },
+      "instanceid": "0D831-8FBF-02",
+      "custom": {
+        "barcolumnchart": {
+          "type": "BloX",
+          "isTypeValid": false,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total"
+        }
+      },
+      "wasRendered": false,
+      "displayMenu": false,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 4,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": true,
+        "title": false,
+        "drillTarget": "dummy",
+        "autoUpdateOnEveryChange": true,
+        "triggersDomready": true
+      },
+      "dashboardid": "61bc8ec398f8b514782a6b6e",
+      "query": {
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce"
+        },
+        "format": "json",
+        "isMaskedResult": true,
+        "metadata": [],
+        "m2mThresholdFlag": 0
+      }
+    }
+  ],
+  "hierarchies": []
+}

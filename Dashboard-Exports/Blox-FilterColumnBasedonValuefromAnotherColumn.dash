@@ -1,0 +1,905 @@
+{
+  "oid": "65f9ac5531a0e20040d272c1",
+  "allowChangeSubscription": false,
+  "dataExploration": false,
+  "datasource": {
+    "fullname": "localhost/Sample Healthcare",
+    "id": "localhost_aSampleIAAaHealthcare",
+    "address": "LocalHost",
+    "database": "aSampleIAAaHealthcare",
+    "live": false,
+    "title": "Sample Healthcare"
+  },
+  "defaultFilterRelations": null,
+  "defaultFilters": [
+    {
+      "jaql": {
+        "table": "Patients",
+        "column": "Full Name",
+        "dim": "[Patients.Full Name]",
+        "datatype": "text",
+        "merged": true,
+        "datasource": {
+          "fullname": "localhost/Sample Healthcare",
+          "id": "localhost_aSampleIAAaHealthcare",
+          "address": "LocalHost",
+          "database": "aSampleIAAaHealthcare",
+          "live": false,
+          "title": "Sample Healthcare",
+          "lastBuildTime": "2023-11-01T23:08:56.817Z"
+        },
+        "firstday": "mon",
+        "locale": "en-us",
+        "title": "Patient Full Name",
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "filter": {
+          "contains": "Mays"
+        }
+      },
+      "instanceid": "B192C-BF6C-43",
+      "isCascading": false,
+      "disabled": false
+    }
+  ],
+  "desc": "",
+  "editing": false,
+  "filterRelations": [],
+  "filterToDatasourceMapping": {},
+  "filters": [
+    {
+      "jaql": {
+        "table": "Patients",
+        "column": "Full Name",
+        "dim": "[Patients.Full Name]",
+        "datatype": "text",
+        "merged": true,
+        "datasource": {
+          "fullname": "localhost/Sample Healthcare",
+          "id": "localhost_aSampleIAAaHealthcare",
+          "address": "LocalHost",
+          "database": "aSampleIAAaHealthcare",
+          "live": false,
+          "title": "Sample Healthcare",
+          "lastBuildTime": "2023-11-01T23:08:56.817Z"
+        },
+        "firstday": "mon",
+        "locale": "en-us",
+        "title": "Patient Full Name",
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "filter": {
+          "contains": "Mosley"
+        }
+      },
+      "instanceid": "B192C-BF6C-43",
+      "isCascading": false,
+      "disabled": false
+    }
+  ],
+  "isPublic": null,
+  "lastOpened": null,
+  "layout": {
+    "instanceid": "67331-DC23-EC",
+    "type": "columnar",
+    "columns": [
+      {
+        "width": 100,
+        "cells": [
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "height": "36px",
+                    "defaultWidth": 128,
+                    "widgetid": "65f9b72231a0e20040d27326"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1431,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 68,
+                    "maxHeight": 969,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "65f9ac5531a0e20040d272c2",
+                    "height": 48.9757
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1431,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 128,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": "82px",
+                    "defaultWidth": 512,
+                    "widgetid": "65f9ac5531a0e20040d272c3",
+                    "autoHeight": "82px"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1431,
+                "index": 0
+              }
+            ]
+          }
+        ],
+        "pxlWidth": 1431,
+        "index": 0
+      }
+    ],
+    "container": {}
+  },
+  "original": null,
+  "parentFolder": "61c44b8583642f002bf1838b",
+  "previewLayout": [],
+  "settings": {
+    "autoUpdateOnFiltersChange": true
+  },
+  "source": "65f9ac5531a0e20040d272c8",
+  "style": {
+    "palette": {
+      "name": "Vivid",
+      "colors": [
+        "#00cee6",
+        "#9b9bd7",
+        "#6EDA55",
+        "#fc7570",
+        "#fbb755",
+        "#218A8C"
+      ]
+    }
+  },
+  "title": "Blox - Filter Column Based on Value from Another Column",
+  "type": "dashboard",
+  "subscription": {
+    "executionPerDay": 1,
+    "schedule": "* * * * * *",
+    "isDataChange": true,
+    "type": "onUpdate",
+    "reportType": {
+      "inline": true
+    },
+    "emailSettings": {
+      "isEmail": true,
+      "isPdf": false
+    },
+    "context": {
+      "dashboardid": "65f9ac5531a0e20040d272c1"
+    },
+    "startAt": "2024-03-19",
+    "tzName": "America/New_York",
+    "timezone": 240,
+    "active": false,
+    "subscribe": false
+  },
+  "widgets": [
+    {
+      "title": "Search",
+      "type": "BloX",
+      "subtype": "BloX",
+      "oid": "65f9ac5531a0e20040d272c2",
+      "desc": null,
+      "source": "65f9ac5531a0e20040d272c9",
+      "datasource": {
+        "fullname": "localhost/Sample Healthcare",
+        "id": "localhost_aSampleIAAaHealthcare",
+        "address": "LocalHost",
+        "database": "aSampleIAAaHealthcare",
+        "live": false,
+        "title": "Sample Healthcare"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": true,
+          "ids": [
+            "6D640-4E61-C9"
+          ]
+        },
+        "panels": [
+          {
+            "name": "Items",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Patients",
+                  "column": "Surname",
+                  "dim": "[Patients.Surname]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Surname"
+                },
+                "instanceid": "78732-392B-1A",
+                "PanelName": "Surname"
+              }
+            ]
+          },
+          {
+            "name": "Values",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "currentCard": {
+          "style": {},
+          "script": "",
+          "title": "",
+          "titleStyle": [
+            {
+              "display": "show"
+            }
+          ],
+          "showCarousel": true,
+          "carouselAnimation": {
+            "showButtons": false
+          },
+          "body": [
+            {
+              "type": "Container"
+            },
+            {
+              "type": "ColumnSet",
+              "separator": false,
+              "spacing": "default",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "170px",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "size": "small",
+                      "weight": "regular",
+                      "wrap": true,
+                      "text": "Search Surname",
+                      "style": {
+                        "color": "black",
+                        "padding-left": "10px",
+                        "margin-left": "10px",
+                        "backgroundColor": "white"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "spacing": "none",
+                  "width": "175px",
+                  "items": [
+                    {
+                      "type": "Container",
+                      "spacing": "none",
+                      "width": "150px",
+                      "items": [
+                        {
+                          "type": "Input.ChoiceSet",
+                          "id": "data.userInput",
+                          "class": "custom-select",
+                          "displayType": "compact",
+                          "value": "1",
+                          "choices": "{choices:Surname}"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "spacing": "none",
+                  "width": "100px",
+                  "items": [
+                    {
+                      "type": "ActionSet",
+                      "margin": "0px",
+                      "padding": "0px",
+                      "actions": [
+                        {
+                          "type": "FilterColumnBasedOnValueFromOtherColumn",
+                          "title": "Search",
+                          "data": {
+                            "FilterField": [
+                              "[Patients.Full Name]"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": []
+        },
+        "currentConfig": {
+          "fontFamily": "Open Sans",
+          "fontSizes": {
+            "default": 14,
+            "small": 16,
+            "medium": 20,
+            "large": 50,
+            "extraLarge": 32
+          },
+          "fontWeights": {
+            "default": 500,
+            "light": 100,
+            "bold": 1000
+          },
+          "containerStyles": {
+            "default": {
+              "backgroundColor": "#FFFFFF",
+              "foregroundColors": {
+                "default": {
+                  "normal": "#3a4356"
+                },
+                "white": {
+                  "normal": "#ffffff"
+                },
+                "grey": {
+                  "normal": "#9ea2ab"
+                },
+                "orange": {
+                  "normal": "#f2B900"
+                },
+                "yellow": {
+                  "normal": "#ffcb05"
+                },
+                "black": {
+                  "normal": "#000000"
+                },
+                "lightGreen": {
+                  "normal": "#3ADCCA"
+                },
+                "green": {
+                  "normal": "#54a254"
+                },
+                "red": {
+                  "normal": "#dd1111"
+                },
+                "accent": {
+                  "normal": "#2E89FC"
+                },
+                "good": {
+                  "normal": "#54a254"
+                },
+                "warning": {
+                  "normal": "#e69500"
+                },
+                "attention": {
+                  "normal": "#cc3300"
+                }
+              }
+            }
+          },
+          "imageSizes": {
+            "default": 40,
+            "small": 40,
+            "medium": 80,
+            "large": 160
+          },
+          "imageSet": {
+            "imageSize": "medium",
+            "maxImageHeight": 100
+          },
+          "actions": {
+            "color": "white",
+            "backgroundColor": "navy",
+            "maxActions": 5,
+            "spacing": "none",
+            "buttonSpacing": 20,
+            "actionsOrientation": "horizontal",
+            "actionAlignment": "left",
+            "showCard": {
+              "actionMode": "inline",
+              "inlineTopMargin": 16,
+              "style": "default"
+            }
+          },
+          "spacing": {
+            "default": 5,
+            "none": 0,
+            "small": 20,
+            "medium": 60,
+            "large": 20,
+            "extraLarge": 40,
+            "padding": 0
+          },
+          "separator": {
+            "lineThickness": 3,
+            "lineColor": "#ffcb05"
+          },
+          "factSet": {
+            "title": {
+              "size": "default",
+              "color": "default",
+              "weight": "bold",
+              "warp": true
+            },
+            "value": {
+              "size": "default",
+              "color": "default",
+              "weight": "default",
+              "warp": true
+            },
+            "spacing": 20
+          },
+          "supportsInteractivity": true,
+          "imageBaseUrl": ""
+        },
+        "currentCardName": "default",
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "surname",
+              "title": "Surname",
+              "singular": "Surname",
+              "plural": "Surname"
+            }
+          ]
+        }
+      },
+      "instanceid": "C68A3-C655-93",
+      "custom": {
+        "barcolumnchart": {
+          "type": "BloX",
+          "isTypeValid": false,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total"
+        }
+      },
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 4,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "drilledDashboardDisplay": {},
+      "displayMenu": false,
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": true,
+        "title": false,
+        "drillTarget": "dummy",
+        "autoUpdateOnEveryChange": true,
+        "triggersDomready": true
+      },
+      "dashboardid": "65f9ac5531a0e20040d272c1",
+      "wasRendered": false,
+      "query": {
+        "datasource": {
+          "fullname": "localhost/Sample Healthcare",
+          "id": "localhost_aSampleIAAaHealthcare",
+          "address": "LocalHost",
+          "database": "aSampleIAAaHealthcare",
+          "live": false,
+          "title": "Sample Healthcare"
+        },
+        "format": "json",
+        "isMaskedResult": true,
+        "metadata": [
+          {
+            "jaql": {
+              "table": "Patients",
+              "column": "Surname",
+              "dim": "[Patients.Surname]",
+              "datatype": "text",
+              "merged": true,
+              "title": "Surname"
+            },
+            "instanceid": "78732-392B-1A",
+            "PanelName": "Surname",
+            "handlers": []
+          }
+        ],
+        "m2mThresholdFlag": 0
+      },
+      "prevSortObjects": [],
+      "lastOpened": null,
+      "jasperReportsSettings": {},
+      "realTimeRefreshing": false,
+      "script": "/*\nWelcome to your Widget's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at https://developer.sisense.com/pages/viewpage.action?pageId=557127\n*/\n\n\n/* Show selected filter value on the dropdown even after refresh */\nwidget.on('ready', function() {\n\t\n\tvar checkIncludeAll = typeof prism.activeDashboard.filters.$$items[0].jaql.filter.contains == 'undefined';\n\t\n\tvar filterValue = (checkIncludeAll) ? '' : prism.activeDashboard.filters.$$items[0].jaql.filter.contains;\n\t\t\n\tvar dropdrownObj = $('.custom-select', element)[0];\n\t\n\t/* Show selected value on the dropdown */\n\tsetSelectedValue(dropdrownObj, filterValue);\n\t\n\tfunction setSelectedValue(selectObj, valueToSet) {\n\t\tfor (var i = 0; i < selectObj.options.length; i++) {\n\t\t\tif (selectObj.options[i].text==valueToSet) {\n\t\t\t\tselectObj.options[i].selected = true;\n\t\t\t\treturn;\n\t\t\t}\n\t\t}\n\t}\n\t\n});"
+    },
+    {
+      "title": "Report",
+      "type": "pivot2",
+      "subtype": "pivot",
+      "oid": "65f9ac5531a0e20040d272c3",
+      "desc": null,
+      "source": "65f9ac5531a0e20040d272ca",
+      "datasource": {
+        "fullname": "localhost/Sample Healthcare",
+        "id": "localhost_aSampleIAAaHealthcare",
+        "address": "LocalHost",
+        "database": "aSampleIAAaHealthcare",
+        "live": false,
+        "title": "Sample Healthcare"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "rows",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Patients",
+                  "column": "Full Name",
+                  "dim": "[Patients.Full Name]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Full Name"
+                },
+                "instanceid": "07FFB-4F9E-37",
+                "panel": "rows",
+                "field": {
+                  "id": "[Patients.Full Name]",
+                  "index": 0
+                }
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Admissions",
+                  "column": "ID",
+                  "dim": "[Admissions.ID]",
+                  "datatype": "numeric",
+                  "agg": "count",
+                  "title": "# of Admissions"
+                },
+                "instanceid": "CD79E-75CA-1B",
+                "panel": "measures",
+                "field": {
+                  "id": "[Admissions.ID]_count",
+                  "index": 1
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "t": true,
+                    "b": true,
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "type": "color"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "columns",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "pageSize": 25,
+        "automaticHeight": true,
+        "colors": {
+          "rows": true,
+          "columns": false,
+          "headers": false,
+          "members": false,
+          "totals": false
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "full_name",
+              "title": "Full Name",
+              "singular": "Full Name",
+              "plural": "Full Name"
+            }
+          ]
+        },
+        "scroll": false
+      },
+      "instanceid": "330CB-0759-FC",
+      "custom": {
+        "barcolumnchart": {
+          "type": "pivot",
+          "isTypeValid": false,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total"
+        }
+      },
+      "displayMenu": false,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 2,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": false,
+        "triggersDomready": true,
+        "drillToAnywhere": true,
+        "autoUpdateOnEveryChange": true,
+        "interactivePivot": {
+          "enable": false
+        }
+      },
+      "dashboardid": "65f9ac5531a0e20040d272c1",
+      "script_old": null,
+      "script": null,
+      "query": {
+        "datasource": {
+          "fullname": "localhost/Sample Healthcare",
+          "id": "localhost_aSampleIAAaHealthcare",
+          "address": "LocalHost",
+          "database": "aSampleIAAaHealthcare",
+          "live": false,
+          "title": "Sample Healthcare"
+        },
+        "format": "pivot",
+        "grandTotals": {
+          "title": "Grand Total"
+        },
+        "metadata": [
+          {
+            "jaql": {
+              "table": "Patients",
+              "column": "Full Name",
+              "dim": "[Patients.Full Name]",
+              "datatype": "text",
+              "merged": true,
+              "title": "Full Name"
+            },
+            "instanceid": "07FFB-4F9E-37",
+            "panel": "rows",
+            "field": {
+              "id": "[Patients.Full Name]",
+              "index": 0
+            },
+            "handlers": []
+          },
+          {
+            "jaql": {
+              "table": "Admissions",
+              "column": "ID",
+              "dim": "[Admissions.ID]",
+              "datatype": "numeric",
+              "agg": "count",
+              "title": "# of Admissions"
+            },
+            "instanceid": "CD79E-75CA-1B",
+            "panel": "measures",
+            "field": {
+              "id": "[Admissions.ID]_count",
+              "index": 1
+            },
+            "format": {
+              "mask": {
+                "type": "number",
+                "t": true,
+                "b": true,
+                "separated": true,
+                "decimals": "auto",
+                "isdefault": true
+              },
+              "color": {
+                "type": "color",
+                "color": "transparent"
+              }
+            },
+            "handlers": [
+              {},
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "Patients",
+              "column": "Full Name",
+              "dim": "[Patients.Full Name]",
+              "datatype": "text",
+              "merged": true,
+              "datasource": {
+                "fullname": "localhost/Sample Healthcare",
+                "id": "localhost_aSampleIAAaHealthcare",
+                "address": "LocalHost",
+                "database": "aSampleIAAaHealthcare",
+                "live": false,
+                "title": "Sample Healthcare",
+                "lastBuildTime": "2023-11-01T23:08:56.817Z"
+              },
+              "firstday": "mon",
+              "locale": "en-us",
+              "title": "Patient Full Name",
+              "collapsed": true,
+              "isDashboardFilter": true,
+              "filter": {
+                "contains": "Mosley"
+              }
+            },
+            "disabled": false,
+            "isCascading": false,
+            "instanceid": "B192C-BF6C-43",
+            "panel": "scope"
+          }
+        ],
+        "m2mThresholdFlag": 0
+      },
+      "wasRendered": false,
+      "prevSortObjects": [],
+      "lastOpened": null,
+      "realTimeRefreshing": false
+    },
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "65f9b72231a0e20040d27326",
+      "desc": null,
+      "source": "65f9b72231a0e20040d27327",
+      "datasource": {
+        "fullname": "localhost/Sample Healthcare",
+        "id": "localhost_aSampleIAAaHealthcare",
+        "address": "LocalHost",
+        "database": "aSampleIAAaHealthcare",
+        "live": false,
+        "title": "Sample Healthcare"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "content": {
+          "html": "<font size=\"3\"><div style=\"text-align: left;\">Search box contains values from column Surname. Selected surname will be applied to the Full Name filter.</div></font>",
+          "vAlign": "valign-middle",
+          "bgColor": "#FFFFFF",
+          "textAlign": "center"
+        }
+      },
+      "instanceid": "C8CEC-0069-A5",
+      "wasRendered": false,
+      "realTimeRefreshing": false,
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "dashboardid": "65f9ac5531a0e20040d272c1"
+    }
+  ],
+  "hierarchies": []
+}

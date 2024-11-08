@@ -1,0 +1,2691 @@
+{
+  "oid": "623905d07d0c2c0036bb64cc",
+  "allowChangeSubscription": false,
+  "dataExploration": false,
+  "datasource": {
+    "address": "LocalHost",
+    "title": "Sample ECommerce",
+    "id": "localhost_aSampleIAAaECommerce",
+    "database": "aSampleIAAaECommerce",
+    "fullname": "localhost/Sample ECommerce",
+    "live": false
+  },
+  "defaultFilters": [
+    {
+      "jaql": {
+        "table": "Country",
+        "column": "Country",
+        "dim": "[Country.Country]",
+        "datatype": "text",
+        "merged": true,
+        "title": "Country",
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "filter": {
+          "explicit": true,
+          "multiSelection": true,
+          "members": [
+            "Indonesia"
+          ]
+        }
+      },
+      "instanceid": "6BE74-3C09-8A",
+      "disabled": false,
+      "isCascading": false
+    }
+  ],
+  "desc": "",
+  "editing": false,
+  "filterToDatasourceMapping": {},
+  "filters": [
+    {
+      "jaql": {
+        "table": "Country",
+        "column": "Country",
+        "dim": "[Country.Country]",
+        "datatype": "text",
+        "merged": true,
+        "title": "Country",
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "filter": {
+          "explicit": true,
+          "multiSelection": true,
+          "members": [
+            "Afghanistan"
+          ]
+        }
+      },
+      "instanceid": "6BE74-3C09-8A",
+      "disabled": false,
+      "isCascading": false
+    }
+  ],
+  "isPublic": null,
+  "lastOpened": null,
+  "layout": {
+    "instanceid": "EA49C-31AF-3F",
+    "type": "columnar",
+    "columns": [
+      {
+        "width": 100,
+        "pxlWidth": 282.49,
+        "index": 0,
+        "cells": [
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "height": 128,
+                    "defaultWidth": 128,
+                    "widgetid": "623a2734da957a0037bb0856"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 282.49,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "defaultWidth": 128,
+                    "widgetid": "6239239a7d0c2c0036bb65b0",
+                    "height": "264px"
+                  }
+                ],
+                "width": 30.3477344573235,
+                "stretchable": false,
+                "pxlWidth": 85.7227,
+                "index": 0
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 68,
+                    "maxHeight": 703,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "6239239f7d0c2c0036bb65b2",
+                    "height": "264px"
+                  }
+                ],
+                "width": 69.65226554267659,
+                "stretchable": false,
+                "pxlWidth": 196.758,
+                "index": 1
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "defaultWidth": 128,
+                    "widgetid": "6239218b7d0c2c0036bb65ac",
+                    "height": "256px"
+                  }
+                ],
+                "width": 30.34773445732352,
+                "stretchable": false,
+                "pxlWidth": 85.7227,
+                "index": 0
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 68,
+                    "maxHeight": 703,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": "256px",
+                    "defaultWidth": 512,
+                    "widgetid": "62394ac47d0c2c0036bb6656"
+                  }
+                ],
+                "width": 69.65226554267649,
+                "stretchable": false,
+                "pxlWidth": 196.758,
+                "index": 1
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "height": "264px",
+                    "defaultWidth": 128,
+                    "widgetid": "6239217f7d0c2c0036bb65aa"
+                  }
+                ],
+                "width": 30.347734457323508,
+                "stretchable": false,
+                "pxlWidth": 85.7227,
+                "index": 0
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 102,
+                    "maxHeight": 1024,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": "264px",
+                    "defaultWidth": 512,
+                    "widgetid": "623920aa7d0c2c0036bb6599"
+                  }
+                ],
+                "width": 69.65226554267649,
+                "stretchable": false,
+                "pxlWidth": 196.758,
+                "index": 1
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "defaultWidth": 128,
+                    "widgetid": "628e4f54142df70036c362c6",
+                    "height": "256px"
+                  }
+                ],
+                "width": 30.35408815547467,
+                "stretchable": false,
+                "pxlWidth": 85.7422,
+                "index": 0
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 68,
+                    "maxHeight": 703,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "62680e5d142df70036c21a50",
+                    "height": "256px"
+                  }
+                ],
+                "width": 69.64591184452533,
+                "stretchable": false,
+                "pxlWidth": 196.738,
+                "index": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "container": {}
+  },
+  "original": null,
+  "parentFolder": "61c44b8583642f002bf1838b",
+  "previewLayout": [],
+  "script": "/*\nWelcome to your Dashboard's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at https://developer.sisense.com/pages/viewpage.action?pageId=557127\n*/\n\n/********************************************************/\n/********Change Widget Title Font and Size**********/\n/********************************************************/\ndashboard.on('widgetready', function(d){\n\n\t//$('widget-title').css('color','red')\n\t\n\tvar color = '#303031'; \n\tvar fontWeight = 'bold';\n\n\tvar $widgetTitle = $('widget-title');\n\tvar newCSS = { \n\t'color':color, \n\t 'font-weight':fontWeight\n\t}\n\t\n\t$widgetTitle.css(newCSS);\n\n});\n\n\n/********************************************************/\n/**********************Card View*************************/\n/********************************************************/\ndashboard.on('widgetready',function(d) {\n\n\t//Card view\n\t$('.dashboard-layout-column').css('background-color', '#f0f0f0');\n\t$('.dashboard-layout').css('background-color', '#f0f0f0');\n\n\t$('.dashboard-layout-cell-horizontal-divider').remove();\n\n\t$('.dashboard-layout-subcell-vertical').css('background-color', 'white').css('box-shadow', '4px 5px 12px #F5F7F9')//.css('border-radius', '0px 0px 30px 30px').\n\n\t$('.dashboard-layout-subcell-host').css('padding', '5');\n\t$('.dashboard-layout').css('padding-right', '5px');\n\t$('.dashboard-layout').css('padding-left', '5px');\n\n});\n\n",
+  "settings": {
+    "autoUpdateOnFiltersChange": true
+  },
+  "source": "623a25f8da957a0037bb0801",
+  "style": {
+    "palette": {
+      "name": "Vivid",
+      "colors": [
+        "#00cee6",
+        "#9b9bd7",
+        "#6EDA55",
+        "#fc7570",
+        "#fbb755",
+        "#218A8C"
+      ]
+    }
+  },
+  "subscription": {
+    "subscribe": false,
+    "executionPerDay": 1,
+    "schedule": "* * * * * *",
+    "isDataChange": true,
+    "type": "onUpdate",
+    "reportType": {
+      "inline": true
+    },
+    "emailSettings": {
+      "isEmail": true,
+      "isPdf": false
+    },
+    "context": {
+      "dashboardid": "623905d07d0c2c0036bb64cc"
+    },
+    "startAt": "2022-03-22",
+    "tzName": "America/New_York",
+    "timezone": 240,
+    "active": false
+  },
+  "title": "BloX - Dropdown Filter Templates with All Values",
+  "type": "dashboard",
+  "defaultFilterRelations": null,
+  "filterRelations": [],
+  "widgets": [
+    {
+      "title": "All Values as a non-selectable placeholder",
+      "type": "BloX",
+      "subtype": "BloX",
+      "oid": "623920aa7d0c2c0036bb6599",
+      "desc": null,
+      "source": "661818755fc3a7003312d814",
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "database": "aSampleIAAaECommerce",
+        "fullname": "localhost/Sample ECommerce",
+        "live": false
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [
+            "52D8A-0C0A-49",
+            "8C99D-6EA3-90",
+            "33E11-E9FB-F1",
+            "24DA6-FD79-DA",
+            "3A1F6-7016-52",
+            "A7DB4-601B-A0",
+            "CFF52-B8B5-2A",
+            "13219-E98E-19",
+            "99931-2DEE-C6",
+            "61502-504E-37",
+            "61763-4A4A-66",
+            "8E56E-F525-BD",
+            "8A0CF-1B78-F0",
+            "E5107-FCCC-26",
+            "D7DED-4380-CE"
+          ],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "Items",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Country",
+                  "column": "Country",
+                  "dim": "[Country.Country]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Country"
+                },
+                "PanelName": "Country",
+                "instanceid": "E9F11-5BE5-AD"
+              }
+            ]
+          },
+          {
+            "name": "Values",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Country",
+                  "column": "Country",
+                  "dim": "[Country.Country]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Country",
+                  "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                  },
+                  "datasource": {
+                    "fullname": "localhost/Sample ECommerce",
+                    "id": "localhost_aSampleIAAaECommerce",
+                    "address": "LocalHost",
+                    "database": "aSampleIAAaECommerce",
+                    "live": false,
+                    "title": "Sample ECommerce"
+                  },
+                  "collapsed": true
+                },
+                "instanceid": "E7B48-5586-82"
+              }
+            ]
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "currentCard": {
+          "style": ".custom-select option{color:black} .custom-select { width: 100%; height: 35px !important; font-size: 100% !important; font-weight: bold; cursor: pointer; border-radius: 10px; background-color: #003865; border: none; border-bottom: 2px solid darkgrey; color: white; padding-left: 10px !important; padding-top:5px !important; appearance: none !important; -webkit-appearance: none; -moz-appearance: none; padding: 10px; }  select::-ms-expand { display: none !important; } .custom-select:hover, .custom-select:focus { color: #F2B900; background-color: white; border-bottom-color: #DCDCDC; }",
+          "script": "",
+          "title": "",
+          "showCarousel": true,
+          "carouselAnimation": {
+            "delay": 0,
+            "showButtons": false
+          },
+          "body": [
+            {
+              "type": "Container",
+              "style": {
+                "justify-content": "left",
+                "background-color": "",
+                "display": "flex",
+                "flex-direction": "column",
+                "flex-wrap": "nowrap",
+                "padding-top": "5px",
+                "align-items": "left"
+              },
+              "items": [
+                {
+                  "type": "ColumnSet",
+                  "class": "",
+                  "style": {
+                    "background-color": "",
+                    "margin-top": "0px",
+                    "margin-left": "14px",
+                    "justify-content": "left"
+                  },
+                  "columns": [
+                    {
+                      "type": "Column",
+                      "separator": false,
+                      "spacing": "none",
+                      "width": "100%",
+                      "items": [
+                        {
+                          "type": "ColumnSet",
+                          "class": "",
+                          "style": {
+                            "background-color": "",
+                            "justify-content": "left"
+                          },
+                          "columns": [
+                            {
+                              "type": "Column",
+                              "separator": false,
+                              "spacing": "none",
+                              "width": "50%",
+                              "items": [
+                                {
+                                  "type": "TextBlock",
+                                  "weight": "normal",
+                                  "horizontalAlignment": "left",
+                                  "spacing": "none",
+                                  "text": "Country",
+                                  "style": {
+                                    "color": "#303031",
+                                    "font-size": "17px"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "ColumnSet",
+                  "class": "",
+                  "spacing": "none",
+                  "style": {
+                    "background-color": "",
+                    "margin-top": "0px",
+                    "margin-left": "14px",
+                    "justify-content": "left"
+                  },
+                  "columns": [
+                    {
+                      "type": "Column",
+                      "separator": false,
+                      "spacing": "none",
+                      "width": "100%",
+                      "items": [
+                        {
+                          "type": "ColumnSet",
+                          "class": "",
+                          "style": {
+                            "background-color": "",
+                            "justify-content": "left"
+                          },
+                          "columns": [
+                            {
+                              "type": "Column",
+                              "separator": false,
+                              "spacing": "none",
+                              "width": "40%",
+                              "style": {
+                                "margin-top": "9px"
+                              },
+                              "items": [
+                                {
+                                  "type": "Input.ChoiceSet",
+                                  "id": "data.filters[0].filterJaql.members[0]",
+                                  "class": "custom-select",
+                                  "displayType": "compact",
+                                  "value": "1",
+                                  "style": {
+                                    "color": "#FFFFFF"
+                                  },
+                                  "choices": "{choices:Country}"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "Column",
+                              "separator": false,
+                              "spacing": "none",
+                              "width": "25%",
+                              "items": [
+                                {
+                                  "type": "ActionSet",
+                                  "actions": [
+                                    {
+                                      "type": "Filters",
+                                      "title": "✓",
+                                      "data": {
+                                        "filters": [
+                                          {
+                                            "panelName": "Country",
+                                            "filterJaql": {
+                                              "explicit": true,
+                                              "members": [
+                                                ""
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      },
+                                      "style": {
+                                        "color": "#FFFFFF",
+                                        "background-color": "#003865"
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "Column",
+                              "separator": false,
+                              "spacing": "none",
+                              "width": "10%",
+                              "items": [
+                                {
+                                  "type": "ActionSet",
+                                  "actions": [
+                                    {
+                                      "type": "Filters",
+                                      "title": "↺",
+                                      "data": {
+                                        "filters": [
+                                          {
+                                            "filterName": "Country",
+                                            "filterJaql": {
+                                              "explicit": true,
+                                              "all": true
+                                            }
+                                          }
+                                        ]
+                                      },
+                                      "style": {
+                                        "color": "#FFFFFF",
+                                        "background-color": "#003865"
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "currentConfig": {
+          "fontFamily": "Open Sans",
+          "fontSizes": {
+            "default": 14,
+            "small": 10,
+            "medium": 17,
+            "large": 50,
+            "extraLarge": 32
+          },
+          "fontWeights": {
+            "default": 500,
+            "light": 100,
+            "bold": 600
+          },
+          "containerStyles": {
+            "default": {
+              "backgroundColor": "white",
+              "foregroundColors": {
+                "default": {
+                  "normal": "#000000"
+                },
+                "white": {
+                  "normal": "#ffffff"
+                },
+                "grey": {
+                  "normal": "#9B9B9B"
+                },
+                "orange": {
+                  "normal": "#f2B900"
+                },
+                "yellow": {
+                  "normal": "#ffcb05"
+                },
+                "black": {
+                  "normal": "#000000"
+                },
+                "lightGreen": {
+                  "normal": "#3ADCCA"
+                },
+                "green": {
+                  "normal": "#54a254"
+                },
+                "red": {
+                  "normal": "#dd1111"
+                },
+                "accent": {
+                  "normal": "#2E89FC"
+                },
+                "good": {
+                  "normal": "#54a254"
+                },
+                "warning": {
+                  "normal": "#e69500"
+                },
+                "attention": {
+                  "normal": "#cc3300"
+                }
+              }
+            }
+          },
+          "imageSizes": {
+            "default": 40,
+            "small": 40,
+            "medium": 80,
+            "large": 160
+          },
+          "imageSet": {
+            "imageSize": "medium",
+            "maxImageHeight": 100
+          },
+          "actions": {
+            "color": "",
+            "backgroundColor": "white",
+            "maxActions": 5,
+            "spacing": "small",
+            "buttonSpacing": 20,
+            "actionsOrientation": "horizontal",
+            "actionAlignment": "center",
+            "showCard": {
+              "actionMode": "inline",
+              "inlineTopMargin": 16,
+              "style": "default"
+            }
+          },
+          "spacing": {
+            "default": 0,
+            "small": 12,
+            "medium": 20,
+            "large": 35,
+            "extraLarge": 40,
+            "padding": 0
+          },
+          "separator": {
+            "lineThickness": 1,
+            "lineColor": "#eeeeee"
+          },
+          "factSet": {
+            "title": {
+              "size": "default",
+              "color": "default",
+              "weight": "bold",
+              "warp": true
+            },
+            "value": {
+              "size": "default",
+              "color": "default",
+              "weight": "default",
+              "warp": true
+            },
+            "spacing": 20
+          },
+          "supportsInteractivity": true,
+          "imageBaseUrl": "",
+          "height": 91
+        },
+        "currentCardName": "default",
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "country",
+              "title": "Country",
+              "singular": "Country",
+              "plural": "Country"
+            }
+          ]
+        }
+      },
+      "instanceid": "B4169-4D7A-12",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 4,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "drilledDashboardDisplay": {},
+      "script": "/*\nWelcome to your Widget's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at https://developer.sisense.com/pages/viewpage.action?pageId=557127\n*/\n\n/* BloX customization */\nwidget.on('ready', function() {\n\t\n\t// Hide BloX scroll bar\n\t$('.container.spacing-none.vertical-top', element).css('overflow', 'hidden');\n\t\n\t// Change BloX dropdown styling\n\t//$('.custom-select', element).css('color', '#303031');\n\t$('.custom-select',element).css('cssText', 'height: 35px !important');\n\t$('.custom-select',element).css('background-color', '#003865');\n\t$('.custom-select',element).css('color', '#FFFFFF');\n\t\n});\n\n\n/* Add All Values to dropdown &\n   Set selected filter value as placeholder for dropdown &\n   Disable buttons when All Values is selected\n*/\nwidget.on('ready', function() {\n\t\n\tvar checkIncludeAll = typeof prism.activeDashboard.filters.$$items[0].jaql.filter.members == 'undefined';\n\t\n\tvar filterValue = (checkIncludeAll) ? '' : prism.activeDashboard.filters.$$items[0].jaql.filter.members[0];\n\t\n\t/* Add All Values or the selected filter value as placeholder for dropdown */\n\tvar prependArg = (checkIncludeAll) ? '<option value=\\\"\\\" disabled selected>All Values</option>' : '<option value=\\\"\\\" disabled selected>' + filterValue + '</option>';\n\t$('.custom-select', element).prepend(prependArg);\n\t\n\t/* Disable buttons when All Values is selected */\n\tif(checkIncludeAll)\n\t\t$('.btn__text', element).attr('disabled',true)\n\t\telse\n\t\t\t$('.btn__text', element).attr('disabled',false)\n\n\t\t\t\n\t$('.custom-select', element).on('change',function(){\n\t\tif(checkIncludeAll && $(this).find('option:selected').text()=='All Values')\n\t\t\t$('.btn__text', element).attr('disabled',true)\n\t\t\telse\n\t\t\t\t$('.btn__text', element).attr('disabled',false)\n\t\t\t\t});\t\n\t\n});",
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": true,
+        "title": false,
+        "drillTarget": "dummy",
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true
+      },
+      "dashboardid": "623905d07d0c2c0036bb64cc",
+      "lastOpened": null,
+      "query": {
+        "datasource": {
+          "address": "LocalHost",
+          "title": "Sample ECommerce",
+          "id": "localhost_aSampleIAAaECommerce",
+          "database": "aSampleIAAaECommerce",
+          "fullname": "localhost/Sample ECommerce",
+          "live": false
+        },
+        "format": "json",
+        "isMaskedResult": true,
+        "metadata": [
+          {
+            "jaql": {
+              "table": "Country",
+              "column": "Country",
+              "dim": "[Country.Country]",
+              "datatype": "text",
+              "merged": true,
+              "title": "Country"
+            },
+            "PanelName": "Country",
+            "instanceid": "E9F11-5BE5-AD",
+            "handlers": []
+          },
+          {
+            "jaql": {
+              "table": "Country",
+              "column": "Country",
+              "dim": "[Country.Country]",
+              "datatype": "text",
+              "merged": true,
+              "title": "Country",
+              "filter": {
+                "explicit": false,
+                "multiSelection": true,
+                "all": true
+              },
+              "datasource": {
+                "fullname": "localhost/Sample ECommerce",
+                "id": "localhost_aSampleIAAaECommerce",
+                "address": "LocalHost",
+                "database": "aSampleIAAaECommerce",
+                "live": false,
+                "title": "Sample ECommerce"
+              },
+              "collapsed": true
+            },
+            "instanceid": "E7B48-5586-82",
+            "panel": "scope",
+            "handlers": []
+          }
+        ],
+        "m2mThresholdFlag": 0
+      },
+      "wasRendered": false,
+      "cancelled": true,
+      "jasperReportsSettings": {},
+      "prevSortObjects": []
+    },
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "6239218b7d0c2c0036bb65ac",
+      "desc": null,
+      "source": "661818755fc3a7003312d815",
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "database": "aSampleIAAaECommerce",
+        "fullname": "localhost/Sample ECommerce",
+        "live": false
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": []
+      },
+      "style": {
+        "content": {
+          "html": "<ul><li style=\"text-align: left;\"><font size=\"2\">All Values is selectable. When selected, it sets the filter to&nbsp;</font>include all.</li><li style=\"text-align: left;\"><font size=\"2\">Selected value is always displayed on screen (in its actual position in the dropdown) regardless of dashboard/widget refresh.</font></li><li style=\"text-align: left;\"><font size=\"2\"><b>Via custom BloX action + widget script</b></font></li></ul>",
+          "vAlign": "valign-middle",
+          "bgColor": "#FFFFFF",
+          "textAlign": "center"
+        }
+      },
+      "instanceid": "11551-ADBA-AE",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": false,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false,
+        "linkColor": "#003865"
+      },
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "dashboardid": "623905d07d0c2c0036bb64cc",
+      "lastOpened": null
+    },
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "6239217f7d0c2c0036bb65aa",
+      "desc": null,
+      "source": "661818755fc3a7003312d816",
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "database": "aSampleIAAaECommerce",
+        "fullname": "localhost/Sample ECommerce",
+        "live": false
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": []
+      },
+      "style": {
+        "content": {
+          "html": "<ul><li style=\"text-align: left;\"><font size=\"2\">All Values is not selectable.</font></li><li style=\"text-align: left;\">Selected value is always displayed on screen (duplicated as the placeholder at the top of the dropdown)&nbsp;regardless of dashboard/widget refresh.</li><li style=\"text-align: left;\"><font size=\"2\">Reset button resets selection to All Values (include all).</font></li><li style=\"text-align: left;\"><font size=\"2\">Apply and Reset buttons are disabled when dropdown is set to All Values to avoid passing dummy value (i.e. \"All Values\") to the filter.</font></li><li style=\"text-align: left;\"><b>Via widget script</b></li></ul>",
+          "vAlign": "valign-middle",
+          "bgColor": "#FFFFFF",
+          "textAlign": "center"
+        }
+      },
+      "instanceid": "11551-ADBA-AE",
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "dashboardid": "623905d07d0c2c0036bb64cc",
+      "lastOpened": null
+    },
+    {
+      "title": "Original",
+      "type": "BloX",
+      "subtype": "BloX",
+      "oid": "6239239f7d0c2c0036bb65b2",
+      "desc": null,
+      "source": "661818755fc3a7003312d817",
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "database": "aSampleIAAaECommerce",
+        "fullname": "localhost/Sample ECommerce",
+        "live": false
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [
+            "52D8A-0C0A-49",
+            "8C99D-6EA3-90",
+            "33E11-E9FB-F1",
+            "24DA6-FD79-DA",
+            "3A1F6-7016-52",
+            "A7DB4-601B-A0",
+            "CFF52-B8B5-2A",
+            "13219-E98E-19",
+            "99931-2DEE-C6",
+            "61502-504E-37",
+            "61763-4A4A-66",
+            "8E56E-F525-BD",
+            "8A0CF-1B78-F0",
+            "E5107-FCCC-26",
+            "D7DED-4380-CE"
+          ],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "Items",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Country",
+                  "column": "Country",
+                  "dim": "[Country.Country]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Country"
+                },
+                "PanelName": "Country",
+                "instanceid": "6BE74-3C09-8A"
+              }
+            ]
+          },
+          {
+            "name": "Values",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Country",
+                  "column": "Country",
+                  "dim": "[Country.Country]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Country",
+                  "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                  },
+                  "datasource": {
+                    "fullname": "localhost/Sample ECommerce",
+                    "id": "localhost_aSampleIAAaECommerce",
+                    "address": "LocalHost",
+                    "database": "aSampleIAAaECommerce",
+                    "live": false,
+                    "title": "Sample ECommerce"
+                  },
+                  "collapsed": true
+                },
+                "instanceid": "7B8D4-4673-FE"
+              }
+            ]
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "currentCard": {
+          "style": ".custom-select option{color:black} .custom-select { width: 100%; height: 35px !important; font-size: 100% !important; font-weight: bold; cursor: pointer; border-radius: 10px; background-color: #003865; border: none; border-bottom: 2px solid darkgrey; color: white; padding-left: 10px !important; padding-top:5px !important; appearance: none !important; -webkit-appearance: none; -moz-appearance: none; padding: 10px; }  select::-ms-expand { display: none !important; } .custom-select:hover, .custom-select:focus { color: #F2B900; background-color: white; border-bottom-color: #DCDCDC; }",
+          "script": "",
+          "title": "",
+          "showCarousel": true,
+          "carouselAnimation": {
+            "delay": 0,
+            "showButtons": false
+          },
+          "body": [
+            {
+              "type": "Container",
+              "style": {
+                "justify-content": "left",
+                "background-color": "",
+                "display": "flex",
+                "flex-direction": "column",
+                "flex-wrap": "nowrap",
+                "padding-top": "5px",
+                "align-items": "left"
+              },
+              "items": [
+                {
+                  "type": "ColumnSet",
+                  "class": "",
+                  "style": {
+                    "background-color": "",
+                    "margin-top": "0px",
+                    "margin-left": "14px",
+                    "justify-content": "left"
+                  },
+                  "columns": [
+                    {
+                      "type": "Column",
+                      "separator": false,
+                      "spacing": "none",
+                      "width": "100%",
+                      "items": [
+                        {
+                          "type": "ColumnSet",
+                          "class": "",
+                          "style": {
+                            "background-color": "",
+                            "justify-content": "left"
+                          },
+                          "columns": [
+                            {
+                              "type": "Column",
+                              "separator": false,
+                              "spacing": "none",
+                              "width": "50%",
+                              "items": [
+                                {
+                                  "type": "TextBlock",
+                                  "weight": "normal",
+                                  "horizontalAlignment": "left",
+                                  "spacing": "none",
+                                  "text": "Country",
+                                  "style": {
+                                    "color": "#303031",
+                                    "font-size": "17px"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "ColumnSet",
+                  "class": "",
+                  "spacing": "none",
+                  "style": {
+                    "background-color": "",
+                    "margin-top": "0px",
+                    "margin-left": "14px",
+                    "justify-content": "left"
+                  },
+                  "columns": [
+                    {
+                      "type": "Column",
+                      "separator": false,
+                      "spacing": "none",
+                      "width": "100%",
+                      "items": [
+                        {
+                          "type": "ColumnSet",
+                          "class": "",
+                          "style": {
+                            "background-color": "",
+                            "justify-content": "left"
+                          },
+                          "columns": [
+                            {
+                              "type": "Column",
+                              "separator": false,
+                              "spacing": "none",
+                              "width": "40%",
+                              "style": {
+                                "margin-top": "9px"
+                              },
+                              "items": [
+                                {
+                                  "type": "Input.ChoiceSet",
+                                  "id": "data.filters[0].filterJaql.members[0]",
+                                  "class": "custom-select",
+                                  "displayType": "compact",
+                                  "value": "1",
+                                  "style": {
+                                    "color": "#FFFFFF"
+                                  },
+                                  "choices": "{choices:Country}"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "Column",
+                              "separator": false,
+                              "spacing": "none",
+                              "width": "20%",
+                              "items": [
+                                {
+                                  "type": "ActionSet",
+                                  "actions": [
+                                    {
+                                      "type": "Filters",
+                                      "title": "✓",
+                                      "data": {
+                                        "filters": [
+                                          {
+                                            "panelName": "Country",
+                                            "filterJaql": {
+                                              "explicit": true,
+                                              "members": [
+                                                ""
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      },
+                                      "style": {
+                                        "color": "#FFFFFF",
+                                        "background-color": "#003865"
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "currentConfig": {
+          "fontFamily": "Open Sans",
+          "fontSizes": {
+            "default": 14,
+            "small": 10,
+            "medium": 17,
+            "large": 50,
+            "extraLarge": 32
+          },
+          "fontWeights": {
+            "default": 500,
+            "light": 100,
+            "bold": 600
+          },
+          "containerStyles": {
+            "default": {
+              "backgroundColor": "white",
+              "foregroundColors": {
+                "default": {
+                  "normal": "#000000"
+                },
+                "white": {
+                  "normal": "#ffffff"
+                },
+                "grey": {
+                  "normal": "#9B9B9B"
+                },
+                "orange": {
+                  "normal": "#f2B900"
+                },
+                "yellow": {
+                  "normal": "#ffcb05"
+                },
+                "black": {
+                  "normal": "#000000"
+                },
+                "lightGreen": {
+                  "normal": "#3ADCCA"
+                },
+                "green": {
+                  "normal": "#54a254"
+                },
+                "red": {
+                  "normal": "#dd1111"
+                },
+                "accent": {
+                  "normal": "#2E89FC"
+                },
+                "good": {
+                  "normal": "#54a254"
+                },
+                "warning": {
+                  "normal": "#e69500"
+                },
+                "attention": {
+                  "normal": "#cc3300"
+                }
+              }
+            }
+          },
+          "imageSizes": {
+            "default": 40,
+            "small": 40,
+            "medium": 80,
+            "large": 160
+          },
+          "imageSet": {
+            "imageSize": "medium",
+            "maxImageHeight": 100
+          },
+          "actions": {
+            "color": "",
+            "backgroundColor": "white",
+            "maxActions": 5,
+            "spacing": "small",
+            "buttonSpacing": 20,
+            "actionsOrientation": "horizontal",
+            "actionAlignment": "center",
+            "showCard": {
+              "actionMode": "inline",
+              "inlineTopMargin": 16,
+              "style": "default"
+            }
+          },
+          "spacing": {
+            "default": 0,
+            "small": 12,
+            "medium": 20,
+            "large": 35,
+            "extraLarge": 40,
+            "padding": 0
+          },
+          "separator": {
+            "lineThickness": 1,
+            "lineColor": "#eeeeee"
+          },
+          "factSet": {
+            "title": {
+              "size": "default",
+              "color": "default",
+              "weight": "bold",
+              "warp": true
+            },
+            "value": {
+              "size": "default",
+              "color": "default",
+              "weight": "default",
+              "warp": true
+            },
+            "spacing": 20
+          },
+          "supportsInteractivity": true,
+          "imageBaseUrl": "",
+          "height": 83
+        },
+        "currentCardName": "default",
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "country",
+              "title": "Country",
+              "singular": "Country",
+              "plural": "Country"
+            }
+          ]
+        }
+      },
+      "instanceid": "B4169-4D7A-12",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 4,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "drilledDashboardDisplay": {},
+      "script": "/*\nWelcome to your Widget's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at https://developer.sisense.com/pages/viewpage.action?pageId=557127\n*/\n\n/* BloX customization */\nwidget.on('ready', function() {\n\t\n\t// Hide BloX scroll bar\n\t$('.container.spacing-none.vertical-top', element).css('overflow', 'hidden');\n\t\n\t// Change BloX dropdown styling\n\t//$('.custom-select', element).css('color', '#303031');\n\t$('.custom-select',element).css('cssText', 'height: 35px !important');\n\t$('.custom-select',element).css('background-color', '#003865');\n\t$('.custom-select',element).css('color', '#FFFFFF');\n\t\n});\n",
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": true,
+        "title": false,
+        "drillTarget": "dummy",
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true
+      },
+      "dashboardid": "623905d07d0c2c0036bb64cc",
+      "lastOpened": null,
+      "query": {
+        "datasource": {
+          "address": "LocalHost",
+          "title": "Sample ECommerce",
+          "id": "localhost_aSampleIAAaECommerce",
+          "database": "aSampleIAAaECommerce",
+          "fullname": "localhost/Sample ECommerce",
+          "live": false
+        },
+        "format": "json",
+        "isMaskedResult": true,
+        "metadata": [
+          {
+            "jaql": {
+              "table": "Country",
+              "column": "Country",
+              "dim": "[Country.Country]",
+              "datatype": "text",
+              "merged": true,
+              "title": "Country"
+            },
+            "PanelName": "Country",
+            "instanceid": "6BE74-3C09-8A",
+            "handlers": []
+          },
+          {
+            "jaql": {
+              "table": "Country",
+              "column": "Country",
+              "dim": "[Country.Country]",
+              "datatype": "text",
+              "merged": true,
+              "title": "Country",
+              "filter": {
+                "explicit": false,
+                "multiSelection": true,
+                "all": true
+              },
+              "datasource": {
+                "fullname": "localhost/Sample ECommerce",
+                "id": "localhost_aSampleIAAaECommerce",
+                "address": "LocalHost",
+                "database": "aSampleIAAaECommerce",
+                "live": false,
+                "title": "Sample ECommerce"
+              },
+              "collapsed": true
+            },
+            "instanceid": "7B8D4-4673-FE",
+            "panel": "scope",
+            "handlers": []
+          }
+        ],
+        "m2mThresholdFlag": 0
+      },
+      "wasRendered": false,
+      "prevSortObjects": []
+    },
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "6239239a7d0c2c0036bb65b0",
+      "desc": null,
+      "source": "661818755fc3a7003312d818",
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "database": "aSampleIAAaECommerce",
+        "fullname": "localhost/Sample ECommerce",
+        "live": false
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": []
+      },
+      "style": {
+        "content": {
+          "html": "<ul><li style=\"text-align: left;\"><font size=\"2\">No option to select all values.</font></li><li style=\"text-align: left;\"><font size=\"2\">When dashboard/widget is refreshed, dropdown goes back to showing the first value in the list, which is inconsistent with the actual filter selection, i.e. filter value sticks, but dropdown display value doesn't.</font></li></ul>",
+          "vAlign": "valign-middle",
+          "bgColor": "#FFFFFF",
+          "textAlign": "center"
+        }
+      },
+      "instanceid": "11551-ADBA-AE",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": false,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false,
+        "linkColor": "#003865"
+      },
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "dashboardid": "623905d07d0c2c0036bb64cc",
+      "lastOpened": null
+    },
+    {
+      "title": "All Values as an actual selectable option",
+      "type": "BloX",
+      "subtype": "BloX",
+      "oid": "62394ac47d0c2c0036bb6656",
+      "desc": null,
+      "source": "661818755fc3a7003312d819",
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "database": "aSampleIAAaECommerce",
+        "fullname": "localhost/Sample ECommerce",
+        "live": false
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [
+            "E5107-FCCC-26",
+            "D7DED-4380-CE"
+          ],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "Items",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Country",
+                  "column": "Country",
+                  "dim": "[Country.Country]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Country"
+                },
+                "PanelName": "Country",
+                "instanceid": "7944E-EF84-86"
+              }
+            ]
+          },
+          {
+            "name": "Values",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Country",
+                  "column": "Country",
+                  "dim": "[Country.Country]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Country",
+                  "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                  },
+                  "datasource": {
+                    "fullname": "localhost/Sample ECommerce",
+                    "id": "localhost_aSampleIAAaECommerce",
+                    "address": "LocalHost",
+                    "database": "aSampleIAAaECommerce",
+                    "live": false,
+                    "title": "Sample ECommerce"
+                  },
+                  "collapsed": true
+                },
+                "instanceid": "CBFDA-07D5-85"
+              }
+            ]
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "currentCard": {
+          "style": ".custom-select option{color:black} .custom-select { width: 100%; height: 35px !important; font-size: 100% !important; font-weight: bold; cursor: pointer; border-radius: 10px; background-color: #003865; border: none; border-bottom: 2px solid darkgrey; color: white; padding-left: 10px !important; padding-top:5px !important; appearance: none !important; -webkit-appearance: none; -moz-appearance: none; padding: 10px; }  select::-ms-expand { display: none !important; } .custom-select:hover, .custom-select:focus { color: #F2B900; background-color: white; border-bottom-color: #DCDCDC; }",
+          "script": "",
+          "title": "",
+          "showCarousel": true,
+          "carouselAnimation": {
+            "delay": 0,
+            "showButtons": false
+          },
+          "body": [
+            {
+              "type": "Container",
+              "style": {
+                "justify-content": "left",
+                "background-color": "",
+                "display": "flex",
+                "flex-direction": "column",
+                "flex-wrap": "nowrap",
+                "padding-top": "5px",
+                "align-items": "left"
+              },
+              "items": [
+                {
+                  "type": "ColumnSet",
+                  "class": "",
+                  "style": {
+                    "background-color": "",
+                    "margin-top": "0px",
+                    "margin-left": "14px",
+                    "justify-content": "left"
+                  },
+                  "columns": [
+                    {
+                      "type": "Column",
+                      "separator": false,
+                      "spacing": "none",
+                      "width": "100%",
+                      "items": [
+                        {
+                          "type": "ColumnSet",
+                          "class": "",
+                          "style": {
+                            "background-color": "",
+                            "justify-content": "left"
+                          },
+                          "columns": [
+                            {
+                              "type": "Column",
+                              "separator": false,
+                              "spacing": "none",
+                              "width": "50%",
+                              "items": [
+                                {
+                                  "type": "TextBlock",
+                                  "weight": "normal",
+                                  "horizontalAlignment": "left",
+                                  "spacing": "none",
+                                  "text": "Country",
+                                  "style": {
+                                    "color": "#303031",
+                                    "font-size": "17px"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "ColumnSet",
+                  "class": "",
+                  "spacing": "none",
+                  "style": {
+                    "background-color": "",
+                    "margin-top": "0px",
+                    "margin-left": "14px",
+                    "justify-content": "left"
+                  },
+                  "columns": [
+                    {
+                      "type": "Column",
+                      "separator": false,
+                      "spacing": "none",
+                      "width": "100%",
+                      "items": [
+                        {
+                          "type": "ColumnSet",
+                          "class": "",
+                          "style": {
+                            "background-color": "",
+                            "justify-content": "left"
+                          },
+                          "columns": [
+                            {
+                              "type": "Column",
+                              "separator": false,
+                              "spacing": "none",
+                              "width": "40%",
+                              "style": {
+                                "margin-top": "9px"
+                              },
+                              "items": [
+                                {
+                                  "type": "Input.ChoiceSet",
+                                  "id": "SelectVal_fil",
+                                  "class": "custom-select",
+                                  "displayType": "compact",
+                                  "value": "1",
+                                  "style": {
+                                    "color": "#FFFFFF"
+                                  },
+                                  "choices": "{choices:Country}"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "Column",
+                              "separator": false,
+                              "spacing": "none",
+                              "width": "20%",
+                              "items": [
+                                {
+                                  "type": "ActionSet",
+                                  "actions": [
+                                    {
+                                      "type": "customFilterWithAllFilter",
+                                      "title": "✓",
+                                      "data": {
+                                        "FilterFields": [
+                                          "[Country.Country]"
+                                        ]
+                                      },
+                                      "style": {
+                                        "color": "#FFFFFF",
+                                        "background-color": "#003865"
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "currentConfig": {
+          "fontFamily": "Open Sans",
+          "fontSizes": {
+            "default": 14,
+            "small": 10,
+            "medium": 17,
+            "large": 50,
+            "extraLarge": 32
+          },
+          "fontWeights": {
+            "default": 500,
+            "light": 100,
+            "bold": 600
+          },
+          "containerStyles": {
+            "default": {
+              "backgroundColor": "white",
+              "foregroundColors": {
+                "default": {
+                  "normal": "#000000"
+                },
+                "white": {
+                  "normal": "#ffffff"
+                },
+                "grey": {
+                  "normal": "#9B9B9B"
+                },
+                "orange": {
+                  "normal": "#f2B900"
+                },
+                "yellow": {
+                  "normal": "#ffcb05"
+                },
+                "black": {
+                  "normal": "#000000"
+                },
+                "lightGreen": {
+                  "normal": "#3ADCCA"
+                },
+                "green": {
+                  "normal": "#54a254"
+                },
+                "red": {
+                  "normal": "#dd1111"
+                },
+                "accent": {
+                  "normal": "#2E89FC"
+                },
+                "good": {
+                  "normal": "#54a254"
+                },
+                "warning": {
+                  "normal": "#e69500"
+                },
+                "attention": {
+                  "normal": "#cc3300"
+                }
+              }
+            }
+          },
+          "imageSizes": {
+            "default": 40,
+            "small": 40,
+            "medium": 80,
+            "large": 160
+          },
+          "imageSet": {
+            "imageSize": "medium",
+            "maxImageHeight": 100
+          },
+          "actions": {
+            "color": "",
+            "backgroundColor": "white",
+            "maxActions": 5,
+            "spacing": "small",
+            "buttonSpacing": 20,
+            "actionsOrientation": "horizontal",
+            "actionAlignment": "center",
+            "showCard": {
+              "actionMode": "inline",
+              "inlineTopMargin": 16,
+              "style": "default"
+            }
+          },
+          "spacing": {
+            "default": 0,
+            "small": 12,
+            "medium": 20,
+            "large": 35,
+            "extraLarge": 40,
+            "padding": 0
+          },
+          "separator": {
+            "lineThickness": 1,
+            "lineColor": "#eeeeee"
+          },
+          "factSet": {
+            "title": {
+              "size": "default",
+              "color": "default",
+              "weight": "bold",
+              "warp": true
+            },
+            "value": {
+              "size": "default",
+              "color": "default",
+              "weight": "default",
+              "warp": true
+            },
+            "spacing": 20
+          },
+          "supportsInteractivity": true,
+          "imageBaseUrl": "",
+          "height": 91
+        },
+        "currentCardName": "default",
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "country",
+              "title": "Country",
+              "singular": "Country",
+              "plural": "Country"
+            }
+          ]
+        }
+      },
+      "instanceid": "8676D-D3BA-05",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 4,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "drilledDashboardDisplay": {},
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": true,
+        "title": false,
+        "drillTarget": "dummy",
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true
+      },
+      "dashboardid": "623905d07d0c2c0036bb64cc",
+      "script": "/*\nWelcome to your Widget's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at https://developer.sisense.com/pages/viewpage.action?pageId=557127\n*/\n\n/* BloX customization */\nwidget.on('ready', function() {\n\t\n\t// Hide BloX scroll bar\n\t$('.container.spacing-none.vertical-top', element).css('overflow', 'hidden');\n\t\n\t// Change BloX dropdown styling\n\t//$('.custom-select', element).css('color', '#303031');\n\t$('.custom-select',element).css('cssText', 'height: 35px !important');\n\t$('.custom-select',element).css('background-color', '#003865');\n\t$('.custom-select',element).css('color', '#FFFFFF');\n\t\n});\n\n\n/* Add All Values to dropdown &\n   Show selected filter value on the dropdown even after refresh\n*/\nwidget.on('ready', function() {\n\t\n\tvar checkIncludeAll = typeof prism.activeDashboard.filters.$$items[0].jaql.filter.members == 'undefined';\n\t\n\tvar filterValue = (checkIncludeAll) ? '' : prism.activeDashboard.filters.$$items[0].jaql.filter.members[0];\n\t\n\t/* Add All Values to dropdown */\n\tvar prependArg = '<option value=\\\"All Values\\\" selected>All Values</option>';\n\t$('.custom-select', element).prepend(prependArg);\n\t\t\n\tvar dropdrownObj = $('.custom-select', element)[0];\n\t\n\t/* Show selected value on the dropdown */\n\tsetSelectedValue(dropdrownObj, filterValue);\n\t\n\tfunction setSelectedValue(selectObj, valueToSet) {\n\t\tfor (var i = 0; i < selectObj.options.length; i++) {\n\t\t\tif (selectObj.options[i].text==valueToSet) {\n\t\t\t\tselectObj.options[i].selected = true;\n\t\t\t\treturn;\n\t\t\t}\n\t\t}\n\t}\n\t\n});",
+      "lastOpened": null,
+      "query": {
+        "datasource": {
+          "address": "LocalHost",
+          "title": "Sample ECommerce",
+          "id": "localhost_aSampleIAAaECommerce",
+          "database": "aSampleIAAaECommerce",
+          "fullname": "localhost/Sample ECommerce",
+          "live": false
+        },
+        "format": "json",
+        "isMaskedResult": true,
+        "metadata": [
+          {
+            "jaql": {
+              "table": "Country",
+              "column": "Country",
+              "dim": "[Country.Country]",
+              "datatype": "text",
+              "merged": true,
+              "title": "Country"
+            },
+            "PanelName": "Country",
+            "instanceid": "7944E-EF84-86",
+            "handlers": []
+          },
+          {
+            "jaql": {
+              "table": "Country",
+              "column": "Country",
+              "dim": "[Country.Country]",
+              "datatype": "text",
+              "merged": true,
+              "title": "Country",
+              "filter": {
+                "explicit": false,
+                "multiSelection": true,
+                "all": true
+              },
+              "datasource": {
+                "fullname": "localhost/Sample ECommerce",
+                "id": "localhost_aSampleIAAaECommerce",
+                "address": "LocalHost",
+                "database": "aSampleIAAaECommerce",
+                "live": false,
+                "title": "Sample ECommerce"
+              },
+              "collapsed": true
+            },
+            "instanceid": "CBFDA-07D5-85",
+            "panel": "scope",
+            "handlers": []
+          }
+        ],
+        "m2mThresholdFlag": 0
+      },
+      "wasRendered": false,
+      "jasperReportsSettings": {},
+      "prevSortObjects": []
+    },
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "623a2734da957a0037bb0856",
+      "desc": null,
+      "source": "661818755fc3a7003312d81a",
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "database": "aSampleIAAaECommerce",
+        "fullname": "localhost/Sample ECommerce",
+        "live": false
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": []
+      },
+      "style": {
+        "content": {
+          "html": "<font size=\"3\">This dashboard shows how to add All Values to BloX dropdown filter to allow users to select all values &amp; to make value selection stick on the dropdown regardless of dashboard / widget refresh.<br><br></font><i style=\"font-size: 13px; text-align: left;\">If you have any questions, feel free to reach out to Tri (tri.anthony@sisense.com).</i><font size=\"3\"><br></font>",
+          "vAlign": "valign-middle",
+          "bgColor": "#FFFFFF",
+          "textAlign": "center"
+        }
+      },
+      "instanceid": "46C6B-C4D8-C4",
+      "wasRendered": false,
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "dashboardid": "623905d07d0c2c0036bb64cc"
+    },
+    {
+      "title": "Custom Reset Button - resets to a particular value",
+      "type": "BloX",
+      "subtype": "BloX",
+      "oid": "62680e5d142df70036c21a50",
+      "desc": null,
+      "source": "661818755fc3a7003312d81b",
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "database": "aSampleIAAaECommerce",
+        "fullname": "localhost/Sample ECommerce",
+        "live": false
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [
+            "52D8A-0C0A-49",
+            "8C99D-6EA3-90",
+            "33E11-E9FB-F1",
+            "24DA6-FD79-DA",
+            "3A1F6-7016-52",
+            "A7DB4-601B-A0",
+            "CFF52-B8B5-2A",
+            "13219-E98E-19",
+            "99931-2DEE-C6",
+            "61502-504E-37",
+            "61763-4A4A-66",
+            "8E56E-F525-BD",
+            "8A0CF-1B78-F0",
+            "E5107-FCCC-26",
+            "D7DED-4380-CE"
+          ],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "Items",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Country",
+                  "column": "Country",
+                  "dim": "[Country.Country]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Country"
+                },
+                "PanelName": "Country",
+                "instanceid": "E9F11-5BE5-AD"
+              }
+            ]
+          },
+          {
+            "name": "Values",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Country",
+                  "column": "Country",
+                  "dim": "[Country.Country]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Country",
+                  "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                  },
+                  "datasource": {
+                    "fullname": "localhost/Sample ECommerce",
+                    "id": "localhost_aSampleIAAaECommerce",
+                    "address": "LocalHost",
+                    "database": "aSampleIAAaECommerce",
+                    "live": false,
+                    "title": "Sample ECommerce"
+                  },
+                  "collapsed": true
+                },
+                "instanceid": "E7B48-5586-82"
+              }
+            ]
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "currentCard": {
+          "style": ".custom-select option{color:black} .custom-select { width: 100%; height: 35px !important; font-size: 100% !important; font-weight: bold; cursor: pointer; border-radius: 10px; background-color: #003865; border: none; border-bottom: 2px solid darkgrey; color: white; padding-left: 10px !important; padding-top:5px !important; appearance: none !important; -webkit-appearance: none; -moz-appearance: none; padding: 10px; }  select::-ms-expand { display: none !important; } .custom-select:hover, .custom-select:focus { color: #F2B900; background-color: white; border-bottom-color: #DCDCDC; }",
+          "script": "",
+          "title": "",
+          "showCarousel": true,
+          "carouselAnimation": {
+            "delay": 0,
+            "showButtons": false
+          },
+          "body": [
+            {
+              "type": "Container",
+              "style": {
+                "justify-content": "left",
+                "background-color": "",
+                "display": "flex",
+                "flex-direction": "column",
+                "flex-wrap": "nowrap",
+                "padding-top": "5px",
+                "align-items": "left"
+              },
+              "items": [
+                {
+                  "type": "ColumnSet",
+                  "class": "",
+                  "style": {
+                    "background-color": "",
+                    "margin-top": "0px",
+                    "margin-left": "14px",
+                    "justify-content": "left"
+                  },
+                  "columns": [
+                    {
+                      "type": "Column",
+                      "separator": false,
+                      "spacing": "none",
+                      "width": "100%",
+                      "items": [
+                        {
+                          "type": "ColumnSet",
+                          "class": "",
+                          "style": {
+                            "background-color": "",
+                            "justify-content": "left"
+                          },
+                          "columns": [
+                            {
+                              "type": "Column",
+                              "separator": false,
+                              "spacing": "none",
+                              "width": "50%",
+                              "items": [
+                                {
+                                  "type": "TextBlock",
+                                  "weight": "normal",
+                                  "horizontalAlignment": "left",
+                                  "spacing": "none",
+                                  "text": "Country",
+                                  "style": {
+                                    "color": "#303031",
+                                    "font-size": "17px"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "ColumnSet",
+                  "class": "",
+                  "spacing": "none",
+                  "style": {
+                    "background-color": "",
+                    "margin-top": "0px",
+                    "margin-left": "14px",
+                    "justify-content": "left"
+                  },
+                  "columns": [
+                    {
+                      "type": "Column",
+                      "separator": false,
+                      "spacing": "none",
+                      "width": "100%",
+                      "items": [
+                        {
+                          "type": "ColumnSet",
+                          "class": "",
+                          "style": {
+                            "background-color": "",
+                            "justify-content": "left"
+                          },
+                          "columns": [
+                            {
+                              "type": "Column",
+                              "separator": false,
+                              "spacing": "none",
+                              "width": "40%",
+                              "style": {
+                                "margin-top": "9px"
+                              },
+                              "items": [
+                                {
+                                  "type": "Input.ChoiceSet",
+                                  "id": "data.filters[0].filterJaql.members[0]",
+                                  "class": "custom-select",
+                                  "displayType": "compact",
+                                  "value": "1",
+                                  "style": {
+                                    "color": "#FFFFFF"
+                                  },
+                                  "choices": "{choices:Country}"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "Column",
+                              "separator": false,
+                              "spacing": "none",
+                              "width": "25%",
+                              "items": [
+                                {
+                                  "type": "ActionSet",
+                                  "actions": [
+                                    {
+                                      "type": "Filters",
+                                      "title": "✓",
+                                      "data": {
+                                        "filters": [
+                                          {
+                                            "panelName": "Country",
+                                            "filterJaql": {
+                                              "explicit": true,
+                                              "members": [
+                                                ""
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      },
+                                      "style": {
+                                        "color": "#FFFFFF",
+                                        "background-color": "#003865"
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "Column",
+                              "separator": false,
+                              "spacing": "none",
+                              "width": "10%",
+                              "items": [
+                                {
+                                  "type": "ActionSet",
+                                  "actions": [
+                                    {
+                                      "type": "ResetToAssignedDefaultValue",
+                                      "title": "↺",
+                                      "data": {
+                                        "FilterField": [
+                                          "[Country.Country]"
+                                        ],
+                                        "FilterValue": [
+                                          "Indonesia"
+                                        ]
+                                      },
+                                      "style": {
+                                        "color": "#FFFFFF",
+                                        "background-color": "#003865"
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "currentConfig": {
+          "fontFamily": "Open Sans",
+          "fontSizes": {
+            "default": 14,
+            "small": 10,
+            "medium": 17,
+            "large": 50,
+            "extraLarge": 32
+          },
+          "fontWeights": {
+            "default": 500,
+            "light": 100,
+            "bold": 600
+          },
+          "containerStyles": {
+            "default": {
+              "backgroundColor": "white",
+              "foregroundColors": {
+                "default": {
+                  "normal": "#000000"
+                },
+                "white": {
+                  "normal": "#ffffff"
+                },
+                "grey": {
+                  "normal": "#9B9B9B"
+                },
+                "orange": {
+                  "normal": "#f2B900"
+                },
+                "yellow": {
+                  "normal": "#ffcb05"
+                },
+                "black": {
+                  "normal": "#000000"
+                },
+                "lightGreen": {
+                  "normal": "#3ADCCA"
+                },
+                "green": {
+                  "normal": "#54a254"
+                },
+                "red": {
+                  "normal": "#dd1111"
+                },
+                "accent": {
+                  "normal": "#2E89FC"
+                },
+                "good": {
+                  "normal": "#54a254"
+                },
+                "warning": {
+                  "normal": "#e69500"
+                },
+                "attention": {
+                  "normal": "#cc3300"
+                }
+              }
+            }
+          },
+          "imageSizes": {
+            "default": 40,
+            "small": 40,
+            "medium": 80,
+            "large": 160
+          },
+          "imageSet": {
+            "imageSize": "medium",
+            "maxImageHeight": 100
+          },
+          "actions": {
+            "color": "",
+            "backgroundColor": "white",
+            "maxActions": 5,
+            "spacing": "small",
+            "buttonSpacing": 20,
+            "actionsOrientation": "horizontal",
+            "actionAlignment": "center",
+            "showCard": {
+              "actionMode": "inline",
+              "inlineTopMargin": 16,
+              "style": "default"
+            }
+          },
+          "spacing": {
+            "default": 0,
+            "small": 12,
+            "medium": 20,
+            "large": 35,
+            "extraLarge": 40,
+            "padding": 0
+          },
+          "separator": {
+            "lineThickness": 1,
+            "lineColor": "#eeeeee"
+          },
+          "factSet": {
+            "title": {
+              "size": "default",
+              "color": "default",
+              "weight": "bold",
+              "warp": true
+            },
+            "value": {
+              "size": "default",
+              "color": "default",
+              "weight": "default",
+              "warp": true
+            },
+            "spacing": 20
+          },
+          "supportsInteractivity": true,
+          "imageBaseUrl": "",
+          "height": 91
+        },
+        "currentCardName": "default",
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "country",
+              "title": "Country",
+              "singular": "Country",
+              "plural": "Country"
+            }
+          ]
+        }
+      },
+      "instanceid": "B4169-4D7A-12",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 4,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "drilledDashboardDisplay": {},
+      "script": "/*\nWelcome to your Widget's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at https://developer.sisense.com/pages/viewpage.action?pageId=557127\n*/\n\n/* BloX customization */\nwidget.on('ready', function() {\n\t\n\t// Hide BloX scroll bar\n\t$('.container.spacing-none.vertical-top', element).css('overflow', 'hidden');\n\t\n\t// Change BloX dropdown styling\n\t//$('.custom-select', element).css('color', '#303031');\n\t$('.custom-select',element).css('cssText', 'height: 35px !important');\n\t$('.custom-select',element).css('background-color', '#003865');\n\t$('.custom-select',element).css('color', '#FFFFFF');\n\t\n});\n\n\n/* Add All Values to dropdown &\n   Set selected filter value as placeholder for dropdown &\n   Disable buttons when All Values is selected\n*/\nwidget.on('ready', function() {\n\t\n\tvar filterValue = prism.activeDashboard.filters.$$items[0].jaql.filter.members[0];\n\t\n\t/* Add selected filter value as placeholder for dropdown */\n\tvar prependArg = '<option value=\\\"\\\" disabled selected>' + filterValue + '</option>';\n\t$('.custom-select', element).prepend(prependArg);\n\t\n});",
+      "query": {
+        "datasource": {
+          "address": "LocalHost",
+          "title": "Sample ECommerce",
+          "id": "localhost_aSampleIAAaECommerce",
+          "database": "aSampleIAAaECommerce",
+          "fullname": "localhost/Sample ECommerce",
+          "live": false
+        },
+        "format": "json",
+        "isMaskedResult": true,
+        "metadata": [
+          {
+            "jaql": {
+              "table": "Country",
+              "column": "Country",
+              "dim": "[Country.Country]",
+              "datatype": "text",
+              "merged": true,
+              "title": "Country"
+            },
+            "PanelName": "Country",
+            "instanceid": "E9F11-5BE5-AD",
+            "handlers": []
+          },
+          {
+            "jaql": {
+              "table": "Country",
+              "column": "Country",
+              "dim": "[Country.Country]",
+              "datatype": "text",
+              "merged": true,
+              "title": "Country",
+              "filter": {
+                "explicit": false,
+                "multiSelection": true,
+                "all": true
+              },
+              "datasource": {
+                "fullname": "localhost/Sample ECommerce",
+                "id": "localhost_aSampleIAAaECommerce",
+                "address": "LocalHost",
+                "database": "aSampleIAAaECommerce",
+                "live": false,
+                "title": "Sample ECommerce"
+              },
+              "collapsed": true
+            },
+            "instanceid": "E7B48-5586-82",
+            "panel": "scope",
+            "handlers": []
+          }
+        ],
+        "m2mThresholdFlag": 0
+      },
+      "wasRendered": false,
+      "jasperReportsSettings": {},
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": true,
+        "title": false,
+        "drillTarget": "dummy",
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true
+      },
+      "dashboardid": "623905d07d0c2c0036bb64cc",
+      "prevSortObjects": []
+    },
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "628e4f54142df70036c362c6",
+      "desc": null,
+      "source": "661818755fc3a7003312d81c",
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "database": "aSampleIAAaECommerce",
+        "fullname": "localhost/Sample ECommerce",
+        "live": false
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": []
+      },
+      "style": {
+        "content": {
+          "html": "<ul><li style=\"text-align: left;\"><span style=\"font-size: 12.5px;\">Use this example to reset the dropdown to a particular value instead of Include All.</span></li><li style=\"text-align: left;\"><span style=\"font-size: 12.5px;\">In this example, the Reset button sets the dropdown value to Indonesia.</span></li></ul>",
+          "vAlign": "valign-middle",
+          "bgColor": "#FFFFFF",
+          "textAlign": "center"
+        }
+      },
+      "instanceid": "11551-ADBA-AE",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "wasRendered": false,
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "dashboardid": "623905d07d0c2c0036bb64cc"
+    }
+  ],
+  "hierarchies": [
+    {
+      "_id": "6453ddcc04305f0033acb309",
+      "title": "Country",
+      "alwaysIncluded": true,
+      "levels": [
+        {
+          "title": "Country",
+          "table": "Country",
+          "column": "Country",
+          "datatype": "text",
+          "dim": "[Country.Country]",
+          "index": 0,
+          "_id": "6453ddcb04305f0033acb308"
+        },
+        {
+          "title": "Category",
+          "table": "Category",
+          "column": "Category",
+          "datatype": "text",
+          "dim": "[Category.Category]",
+          "index": 1,
+          "_id": "6453ddd104305f0033acb30b"
+        },
+        {
+          "title": "Brand",
+          "table": "Brand",
+          "column": "Brand",
+          "datatype": "text",
+          "dim": "[Brand.Brand]",
+          "index": 2,
+          "_id": "6453ddd504305f0033acb30d"
+        }
+      ],
+      "cubeId": "6142d757c80a065ff5a24ccc",
+      "lastUpdated": "2024-07-22T13:59:09.440Z",
+      "serverAddress": "LocalHost",
+      "elasticubeTitle": "Sample ECommerce"
+    }
+  ]
+}

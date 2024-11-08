@@ -1,0 +1,4834 @@
+{
+  "oid": "6441657b4faf000033a53934",
+  "allowChangeSubscription": false,
+  "dataExploration": false,
+  "datasource": {
+    "address": "LocalHost",
+    "title": "Sample ECommerce",
+    "id": "localhost_aSampleIAAaECommerce",
+    "database": "aSampleIAAaECommerce",
+    "fullname": "localhost/Sample ECommerce",
+    "live": false
+  },
+  "defaultFilters": [
+    {
+      "jaql": {
+        "table": "Country",
+        "column": "Country",
+        "dim": "[Country.Country]",
+        "datatype": "text",
+        "merged": true,
+        "title": "Country",
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "datasource": {
+          "fullname": "localhost/Sample ECommerce",
+          "id": "localhost_aSampleIAAaECommerce",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce",
+          "live": false,
+          "title": "Sample ECommerce"
+        },
+        "firstday": "mon",
+        "locale": "en-us",
+        "filter": {
+          "explicit": true,
+          "multiSelection": false,
+          "members": [
+            "Indonesia"
+          ]
+        }
+      },
+      "instanceid": "564A4-6411-F8",
+      "isCascading": false,
+      "disabled": false
+    }
+  ],
+  "desc": "",
+  "editing": false,
+  "filterRelations": [],
+  "filterToDatasourceMapping": {},
+  "filters": [
+    {
+      "jaql": {
+        "table": "Country",
+        "column": "Country",
+        "dim": "[Country.Country]",
+        "datatype": "text",
+        "merged": true,
+        "title": "Country",
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "datasource": {
+          "fullname": "localhost/Sample ECommerce",
+          "id": "localhost_aSampleIAAaECommerce",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce",
+          "live": false,
+          "title": "Sample ECommerce"
+        },
+        "firstday": "mon",
+        "locale": "en-us",
+        "filter": {
+          "explicit": true,
+          "multiSelection": false,
+          "members": [
+            "Indonesia"
+          ]
+        }
+      },
+      "instanceid": "564A4-6411-F8",
+      "isCascading": false,
+      "disabled": false
+    }
+  ],
+  "hasPrevioiusVersion": true,
+  "isPublic": null,
+  "lastOpened": null,
+  "layout": {
+    "columns": [
+      {
+        "width": 100,
+        "cells": [
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "height": "308px",
+                    "defaultWidth": 128,
+                    "widgetid": "6441657b4faf000033a53941"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1119.21,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 68,
+                    "maxHeight": 937,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": "200px",
+                    "defaultWidth": 512,
+                    "widgetid": "6441657b4faf000033a53935"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1119.21,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 1028,
+                    "minWidth": 48,
+                    "maxWidth": 1028,
+                    "defaultWidth": 512,
+                    "widgetid": "6441657b4faf000033a53938",
+                    "height": "192px"
+                  }
+                ],
+                "width": 33.333333333333336,
+                "stretchable": false,
+                "pxlWidth": 373.064,
+                "index": 0
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 1028,
+                    "minWidth": 48,
+                    "maxWidth": 1028,
+                    "defaultWidth": 512,
+                    "widgetid": "6441657b4faf000033a53939",
+                    "height": "192px",
+                    "autoHeight": "184px"
+                  }
+                ],
+                "width": 33.333333333333336,
+                "stretchable": false,
+                "pxlWidth": 373.064,
+                "index": 1
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 96,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "6441657b4faf000033a5393a",
+                    "height": "192px"
+                  }
+                ],
+                "width": 33.333333333333336,
+                "stretchable": false,
+                "pxlWidth": 373.064,
+                "index": 2
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "height": "60px",
+                    "defaultWidth": 128,
+                    "widgetid": "6441657b4faf000033a5393b"
+                  }
+                ],
+                "width": 50,
+                "stretchable": false,
+                "pxlWidth": 559.601,
+                "index": 0
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "defaultWidth": 128,
+                    "widgetid": "6441657b4faf000033a5393c",
+                    "height": "60px"
+                  }
+                ],
+                "width": 50,
+                "stretchable": false,
+                "pxlWidth": 559.601,
+                "index": 1
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 102,
+                    "maxHeight": 1024,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": "192px",
+                    "defaultWidth": 512,
+                    "widgetid": "6441657b4faf000033a53936"
+                  }
+                ],
+                "index": 0,
+                "stretchable": false,
+                "width": 50,
+                "pxlWidth": 559.601
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 1028,
+                    "minWidth": 48,
+                    "maxWidth": 1028,
+                    "defaultWidth": 512,
+                    "widgetid": "6441657b4faf000033a53937",
+                    "height": "192px"
+                  }
+                ],
+                "width": 50,
+                "stretchable": false,
+                "pxlWidth": 559.601,
+                "index": 1
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 1028,
+                    "minWidth": 48,
+                    "maxWidth": 1028,
+                    "defaultWidth": 512,
+                    "widgetid": "6441657b4faf000033a5393f",
+                    "height": "192px",
+                    "autoHeight": "181px"
+                  }
+                ],
+                "width": 50,
+                "stretchable": false,
+                "pxlWidth": 559.601,
+                "index": 0
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 1028,
+                    "minWidth": 48,
+                    "maxWidth": 1028,
+                    "defaultWidth": 512,
+                    "widgetid": "6441657b4faf000033a5393d",
+                    "height": "192px"
+                  }
+                ],
+                "width": 50,
+                "stretchable": false,
+                "pxlWidth": 559.601,
+                "index": 1
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 1028,
+                    "minWidth": 48,
+                    "maxWidth": 1028,
+                    "defaultWidth": 512,
+                    "widgetid": "6441657b4faf000033a53940",
+                    "height": "328px"
+                  }
+                ],
+                "width": 50,
+                "stretchable": false,
+                "pxlWidth": 559.601,
+                "index": 0
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 1028,
+                    "minWidth": 48,
+                    "maxWidth": 1028,
+                    "defaultWidth": 512,
+                    "widgetid": "6441657b4faf000033a5393e",
+                    "height": "328px"
+                  }
+                ],
+                "width": 50,
+                "stretchable": false,
+                "pxlWidth": 559.601,
+                "index": 1
+              }
+            ]
+          }
+        ],
+        "pxlWidth": 1119.21,
+        "index": 0
+      }
+    ],
+    "instanceid": "CE156-DD02-0E",
+    "type": "columnar",
+    "container": {}
+  },
+  "original": null,
+  "parentFolder": "61c44b8583642f002bf18389",
+  "previewLayout": [],
+  "script": "/*\nWelcome to your Dashboard's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at https://developer.sisense.com/pages/viewpage.action?pageId=557127\n*/\n\n//Dashboard card view\ndashboard.on('widgetready',function(d) {\n   $('.dashboard-layout-column').css('background-color', '#f0f0f0');\n   $('.dashboard-layout').css('background-color', '#f0f0f0');\n   $('.dashboard-layout-cell-horizontal-divider').remove();\n   \n   //For Edit Mode\n   //$('.ui-resizable-handle.ui-resizable-e').css('width','0.5px'); //to make the vertical dividers invisible but still accessible - same row between widgets\n   //$('.ui-resizable-handle.ui-resizable-s').css('height','0.5px'); //to make the vertical dividers invisible but still accessible- between rows    \n\n   $('.dashboard-layout-subcell-vertical').css('background-color', 'white');\n\n   $('.dashboard-layout-subcell-host').css('padding', '5');\n   $('.dashboard-layout').css('padding-right', '10px');\n   $('.dashboard-layout').css('padding-left', '10px');\n});",
+  "settings": {
+    "autoUpdateOnFiltersChange": true
+  },
+  "source": "6441657c4faf000033a5394f",
+  "style": {
+    "palette": {
+      "name": "Vivid",
+      "colors": [
+        "#00cee6",
+        "#9b9bd7",
+        "#6EDA55",
+        "#fc7570",
+        "#fbb755",
+        "#218A8C"
+      ]
+    }
+  },
+  "title": "BloX - Input Parameters v2 - All Widgets",
+  "type": "dashboard",
+  "subscription": {
+    "subscribe": false,
+    "executionPerDay": 1,
+    "schedule": "* * * * * *",
+    "isDataChange": true,
+    "type": "onUpdate",
+    "reportType": {
+      "inline": true
+    },
+    "emailSettings": {
+      "isEmail": true,
+      "isPdf": false
+    },
+    "context": {
+      "dashboardid": "6441657b4faf000033a53934"
+    },
+    "startAt": "2023-04-20",
+    "tzName": "America/New_York",
+    "timezone": 240,
+    "active": false
+  },
+  "widgets": [
+    {
+      "title": "Lever Configuration",
+      "type": "BloX",
+      "subtype": "BloX",
+      "oid": "6441657b4faf000033a53935",
+      "desc": null,
+      "source": "668ffbd0cd5ab30033010039",
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "database": "aSampleIAAaECommerce",
+        "fullname": "localhost/Sample ECommerce",
+        "live": false
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": true,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "Items",
+            "items": []
+          },
+          {
+            "name": "Values",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "[C2D6C-624]",
+                  "context": {
+                    "[C2D6C-624]": {
+                      "type": "measure",
+                      "formula": "10",
+                      "context": {},
+                      "title": "swap_lever1"
+                    }
+                  },
+                  "title": "[swap_lever1]"
+                },
+                "instanceid": "BD845-DAE7-01",
+                "PanelName": "[swap_lever1]",
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "decimals": "auto",
+                    "separated": true,
+                    "isdefault": true
+                  }
+                }
+              },
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "[7D1B2-0BA]",
+                  "context": {
+                    "[7D1B2-0BA]": {
+                      "type": "measure",
+                      "formula": "20",
+                      "context": {},
+                      "title": "swap_lever2"
+                    }
+                  },
+                  "title": "[swap_lever2]"
+                },
+                "instanceid": "9A7C9-06E5-F3",
+                "PanelName": "[swap_lever2]",
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "decimals": "auto",
+                    "separated": true,
+                    "isdefault": true
+                  }
+                }
+              },
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "[F3354-5A7]",
+                  "context": {
+                    "[F3354-5A7]": {
+                      "type": "measure",
+                      "formula": "30",
+                      "context": {},
+                      "title": "swap_lever3"
+                    }
+                  },
+                  "title": "[swap_lever3]"
+                },
+                "instanceid": "BBD04-0C19-51",
+                "PanelName": "[swap_lever3]",
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "decimals": "auto",
+                    "separated": true,
+                    "isdefault": true
+                  }
+                }
+              },
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Revenue",
+                  "dim": "[Commerce.Revenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total Revenue"
+                },
+                "instanceid": "EC655-39F2-61",
+                "PanelName": "Total Revenue",
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "decimals": "auto",
+                    "separated": true,
+                    "isdefault": true
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "currentCard": {
+          "style": "",
+          "script": "",
+          "title": "",
+          "showCarousel": true,
+          "body": [
+            {
+              "type": "Container",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "What If Analysis",
+                  "size": "medium",
+                  "color": "default",
+                  "weight": "bold",
+                  "horizontalAlignment": "center"
+                },
+                {
+                  "type": "ColumnSet",
+                  "spacing": "small",
+                  "columns": [
+                    {
+                      "type": "Column",
+                      "spacing": "small",
+                      "style": {
+                        "margin-left": "50px"
+                      },
+                      "items": [
+                        {
+                          "type": "TextBlock",
+                          "size": "light",
+                          "weight": "light",
+                          "horizontalAlignment": "center",
+                          "spacing": "small",
+                          "color": "default",
+                          "text": "Lever 1 Value:"
+                        },
+                        {
+                          "type": "Input.Number",
+                          "id": "selectVal1",
+                          "class": "custom-select",
+                          "displayType": "compact",
+                          "value": "{value:[swap_lever1]}"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Column",
+                      "spacing": "small",
+                      "style": {
+                        "margin-left": "25px",
+                        "margin-right": "25px"
+                      },
+                      "items": [
+                        {
+                          "type": "TextBlock",
+                          "size": "light",
+                          "weight": "light",
+                          "horizontalAlignment": "center",
+                          "spacing": "small",
+                          "color": "default",
+                          "text": "Lever 2 Value:"
+                        },
+                        {
+                          "type": "Input.Number",
+                          "id": "selectVal2",
+                          "class": "custom-select",
+                          "displayType": "compact",
+                          "value": "{value:[swap_lever2]}"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Column",
+                      "spacing": "small",
+                      "style": {
+                        "margin-right": "50px"
+                      },
+                      "items": [
+                        {
+                          "type": "TextBlock",
+                          "size": "light",
+                          "weight": "light",
+                          "horizontalAlignment": "center",
+                          "spacing": "small",
+                          "color": "default",
+                          "text": "Lever 3 Value:"
+                        },
+                        {
+                          "type": "Input.Number",
+                          "id": "selectVal3",
+                          "class": "custom-select",
+                          "displayType": "compact",
+                          "value": "{value:[swap_lever3]}"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": "ParameterSwap_V2_AllWidgets",
+              "title": "Apply",
+              "id": "ApplyButton",
+              "data": {
+                "paramsToModify": 3
+              }
+            },
+            {
+              "type": "ParameterSwap_V2_AllWidgets_Reset",
+              "title": "Reset",
+              "data": {
+                "paramsToModify": 3,
+                "defaultValues": [
+                  1,
+                  2,
+                  3
+                ]
+              }
+            }
+          ]
+        },
+        "currentConfig": {
+          "fontFamily": "Open Sans",
+          "fontSizes": {
+            "default": 14,
+            "small": 12,
+            "medium": 20,
+            "large": 32,
+            "extraLarge": 50
+          },
+          "fontWeights": {
+            "default": 500,
+            "light": 100,
+            "bold": 900
+          },
+          "containerStyles": {
+            "default": {
+              "backgroundColor": "#ffffff",
+              "foregroundColors": {
+                "default": {
+                  "normal": "#3A4356"
+                },
+                "white": {
+                  "normal": "#ffffff"
+                },
+                "grey": {
+                  "normal": "#dcdcdc"
+                },
+                "orange": {
+                  "normal": "#f2B900"
+                },
+                "yellow": {
+                  "normal": "#ffcb05"
+                },
+                "black": {
+                  "normal": "#000000"
+                },
+                "lightGreen": {
+                  "normal": "#93c0c0"
+                },
+                "green": {
+                  "normal": "#54a254"
+                },
+                "red": {
+                  "normal": "#dd1111"
+                },
+                "accent": {
+                  "normal": "#2E89FC"
+                },
+                "good": {
+                  "normal": "#54a254"
+                },
+                "warning": {
+                  "normal": "#e69500"
+                },
+                "attention": {
+                  "normal": "#cc3300"
+                }
+              }
+            }
+          },
+          "imageSizes": {
+            "default": 40,
+            "small": 40,
+            "medium": 80,
+            "large": 160
+          },
+          "imageSet": {
+            "imageSize": "medium",
+            "maxImageHeight": 100
+          },
+          "actions": {
+            "color": "",
+            "backgroundColor": "",
+            "maxActions": 5,
+            "spacing": "extraLarge",
+            "buttonSpacing": 20,
+            "actionsOrientation": "horizontal",
+            "actionAlignment": "center",
+            "showCard": {
+              "actionMode": "inline",
+              "inlineTopMargin": 16,
+              "style": "default"
+            }
+          },
+          "spacing": {
+            "default": 5,
+            "small": 5,
+            "medium": 10,
+            "large": 20,
+            "extraLarge": 40,
+            "padding": 10
+          },
+          "separator": {
+            "lineThickness": 1,
+            "lineColor": "#eeeeee"
+          },
+          "factSet": {
+            "title": {
+              "size": "default",
+              "color": "default",
+              "weight": "bold",
+              "warp": true
+            },
+            "value": {
+              "size": "default",
+              "color": "default",
+              "weight": "default",
+              "warp": true
+            },
+            "spacing": 20
+          },
+          "supportsInteractivity": true,
+          "imageBaseUrl": ""
+        },
+        "currentCardName": "Multiple Indicator",
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": []
+        }
+      },
+      "instanceid": "F5DAE-D689-FA",
+      "questQueryResult": {
+        "isActive": false,
+        "isPending": false
+      },
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "title": false,
+        "drillTarget": "dummy",
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "aiFeatures": [
+          {
+            "id": "summary_statistics_1569425202576",
+            "name": "Summary Statistics",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Provide information about your data",
+            "isCustomModel": true
+          },
+          {
+            "id": "percentile_curves_1574252861643",
+            "name": "Percentile Curves",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Another way to show distributions",
+            "isCustomModel": true
+          },
+          {
+            "id": "pareto_1569481451806",
+            "name": "Pareto",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Roughly 80% of the effects come from 20% of the causes",
+            "isCustomModel": true
+          },
+          {
+            "id": "cluster_1570673124179",
+            "name": "Clustering",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Grouping a set of objects in such a way that objects in the same group are more similar to each other than to those in other groups",
+            "isCustomModel": true
+          },
+          {
+            "id": "growth_rate_1572222323562",
+            "name": "Growth Rates",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "refer to the percentage change of a specific variable within a specific time period and given a certain context",
+            "isCustomModel": true
+          },
+          {
+            "id": "two-tailed_test_1574241584650",
+            "name": "Two-Tailed Test",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "perform two tailed t-test",
+            "isCustomModel": true
+          },
+          {
+            "id": "line_1611803468395",
+            "name": "line",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "",
+            "isCustomModel": true
+          },
+          {
+            "id": "summary_statistics_1569425202576",
+            "name": "Summary Statistics",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Provide information about your data",
+            "isCustomModel": true
+          },
+          {
+            "id": "percentile_curves_1574252861643",
+            "name": "Percentile Curves",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Another way to show distributions",
+            "isCustomModel": true
+          },
+          {
+            "id": "pareto_1569481451806",
+            "name": "Pareto",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Roughly 80% of the effects come from 20% of the causes",
+            "isCustomModel": true
+          },
+          {
+            "id": "cluster_1570673124179",
+            "name": "Clustering",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Grouping a set of objects in such a way that objects in the same group are more similar to each other than to those in other groups",
+            "isCustomModel": true
+          },
+          {
+            "id": "growth_rate_1572222323562",
+            "name": "Growth Rates",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "refer to the percentage change of a specific variable within a specific time period and given a certain context",
+            "isCustomModel": true
+          },
+          {
+            "id": "two-tailed_test_1574241584650",
+            "name": "Two-Tailed Test",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "perform two tailed t-test",
+            "isCustomModel": true
+          },
+          {
+            "id": "line_1611803468395",
+            "name": "line",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "",
+            "isCustomModel": true
+          },
+          {
+            "id": "anomaly",
+            "name": "Anomaly",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Outlier data points detections",
+            "isCustomModel": false
+          },
+          {
+            "id": "forecast",
+            "name": "What-If Analysis",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {
+              "hasTargetVar": true,
+              "targetVar": {
+                "targetVarPaneActive": false,
+                "sectionTitle": "Target Value",
+                "options": []
+              }
+            },
+            "description": "Predict the future values of a 2-var-TS, one of which is the target and the\n                    second is explaining variable.\n                    Provide non-symmetric confidence-interval for the above predictions.\n                    Var-Dependence (Score) - the strength of the influence of the explaining\n                    variable on the target one.\n                    XAI (model weights etc)",
+            "isCustomModel": false
+          },
+          {
+            "id": "local_estimates",
+            "name": "Local Estimate",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Locally (using before and after time series points) estimating the mean of the time series",
+            "isCustomModel": false
+          },
+          {
+            "id": "trend",
+            "name": "Trend",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Detect (if exists) Trend-Break-Points and connect those with a trend line",
+            "isCustomModel": false
+          }
+        ]
+      },
+      "dashboardid": "6441657b4faf000033a53934",
+      "script": "/*\nWelcome to your Widget's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at https://developer.sisense.com/pages/viewpage.action?pageId=557127\n*/\n",
+      "query": {
+        "datasource": {
+          "address": "LocalHost",
+          "title": "Sample ECommerce",
+          "id": "localhost_aSampleIAAaECommerce",
+          "database": "aSampleIAAaECommerce",
+          "fullname": "localhost/Sample ECommerce",
+          "live": false
+        },
+        "format": "json",
+        "isMaskedResult": true,
+        "metadata": [
+          {
+            "jaql": {
+              "type": "measure",
+              "formula": "[C2D6C-624]",
+              "context": {
+                "[C2D6C-624]": {
+                  "type": "measure",
+                  "formula": "10",
+                  "context": {},
+                  "title": "swap_lever1"
+                }
+              },
+              "title": "[swap_lever1]"
+            },
+            "instanceid": "BD845-DAE7-01",
+            "PanelName": "[swap_lever1]",
+            "format": {
+              "mask": {
+                "type": "number",
+                "decimals": "auto",
+                "separated": true,
+                "isdefault": true
+              }
+            },
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "type": "measure",
+              "formula": "[7D1B2-0BA]",
+              "context": {
+                "[7D1B2-0BA]": {
+                  "type": "measure",
+                  "formula": "20",
+                  "context": {},
+                  "title": "swap_lever2"
+                }
+              },
+              "title": "[swap_lever2]"
+            },
+            "instanceid": "9A7C9-06E5-F3",
+            "PanelName": "[swap_lever2]",
+            "format": {
+              "mask": {
+                "type": "number",
+                "decimals": "auto",
+                "separated": true,
+                "isdefault": true
+              }
+            },
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "type": "measure",
+              "formula": "[F3354-5A7]",
+              "context": {
+                "[F3354-5A7]": {
+                  "type": "measure",
+                  "formula": "30",
+                  "context": {},
+                  "title": "swap_lever3"
+                }
+              },
+              "title": "[swap_lever3]"
+            },
+            "instanceid": "BBD04-0C19-51",
+            "PanelName": "[swap_lever3]",
+            "format": {
+              "mask": {
+                "type": "number",
+                "decimals": "auto",
+                "separated": true,
+                "isdefault": true
+              }
+            },
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Revenue",
+              "dim": "[Commerce.Revenue]",
+              "datatype": "numeric",
+              "agg": "sum",
+              "title": "Total Revenue"
+            },
+            "instanceid": "EC655-39F2-61",
+            "PanelName": "Total Revenue",
+            "format": {
+              "mask": {
+                "type": "number",
+                "decimals": "auto",
+                "separated": true,
+                "isdefault": true
+              }
+            },
+            "handlers": [
+              {}
+            ]
+          }
+        ],
+        "m2mThresholdFlag": 0
+      },
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 4,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "drilledDashboardDisplay": {},
+      "realTimeRefreshing": false,
+      "wasRendered": false,
+      "jasperReportsSettings": {},
+      "lastOpened": null
+    },
+    {
+      "title": "Original Value",
+      "type": "indicator",
+      "subtype": "indicator/numeric",
+      "oid": "6441657b4faf000033a53936",
+      "desc": null,
+      "source": "668ffbd0cd5ab3003301003a",
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "database": "aSampleIAAaECommerce",
+        "fullname": "localhost/Sample ECommerce",
+        "live": false
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "value",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "[36839-29F]",
+                  "context": {
+                    "[36839-29F]": {
+                      "table": "Commerce",
+                      "column": "Visit ID",
+                      "dim": "[Commerce.Visit ID]",
+                      "datatype": "numeric",
+                      "agg": "countduplicates",
+                      "title": "# of Visit ID"
+                    }
+                  },
+                  "title": "[# of Visit ID]"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": false
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "abbreviateAll": false,
+                    "isdefault": true
+                  },
+                  "color": {
+                    "colorIndex": 0,
+                    "type": "color"
+                  }
+                },
+                "instanceid": "DF12C-DA67-BB"
+              }
+            ]
+          },
+          {
+            "name": "secondary",
+            "items": []
+          },
+          {
+            "name": "min",
+            "items": []
+          },
+          {
+            "name": "max",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "subtype": "simple",
+        "skin": "vertical",
+        "components": {
+          "title": {
+            "inactive": false,
+            "enabled": true
+          },
+          "icon": {
+            "inactive": true,
+            "enabled": true
+          },
+          "secondaryTitle": {
+            "inactive": true,
+            "enabled": true
+          }
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": []
+        },
+        "indicator/numeric": {
+          "subtype": "simple",
+          "skin": "vertical",
+          "components": {
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "icon": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        },
+        "indicator/gauge": {
+          "subtype": "round",
+          "skin": "1",
+          "components": {
+            "ticks": {
+              "inactive": false,
+              "enabled": true
+            },
+            "labels": {
+              "inactive": false,
+              "enabled": true
+            },
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        }
+      },
+      "instanceid": "E5706-3E2C-2D",
+      "questQueryResult": {
+        "isActive": false,
+        "isPending": false
+      },
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": false,
+        "disallowSelector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "supportsHierarchies": false,
+        "aiFeatures": [
+          {
+            "id": "summary_statistics_1569425202576",
+            "name": "Summary Statistics",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Provide information about your data",
+            "isCustomModel": true
+          },
+          {
+            "id": "percentile_curves_1574252861643",
+            "name": "Percentile Curves",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Another way to show distributions",
+            "isCustomModel": true
+          },
+          {
+            "id": "pareto_1569481451806",
+            "name": "Pareto",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Roughly 80% of the effects come from 20% of the causes",
+            "isCustomModel": true
+          },
+          {
+            "id": "cluster_1570673124179",
+            "name": "Clustering",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Grouping a set of objects in such a way that objects in the same group are more similar to each other than to those in other groups",
+            "isCustomModel": true
+          },
+          {
+            "id": "growth_rate_1572222323562",
+            "name": "Growth Rates",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "refer to the percentage change of a specific variable within a specific time period and given a certain context",
+            "isCustomModel": true
+          },
+          {
+            "id": "two-tailed_test_1574241584650",
+            "name": "Two-Tailed Test",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "perform two tailed t-test",
+            "isCustomModel": true
+          },
+          {
+            "id": "line_1611803468395",
+            "name": "line",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "",
+            "isCustomModel": true
+          },
+          {
+            "id": "summary_statistics_1569425202576",
+            "name": "Summary Statistics",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Provide information about your data",
+            "isCustomModel": true
+          },
+          {
+            "id": "percentile_curves_1574252861643",
+            "name": "Percentile Curves",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Another way to show distributions",
+            "isCustomModel": true
+          },
+          {
+            "id": "pareto_1569481451806",
+            "name": "Pareto",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Roughly 80% of the effects come from 20% of the causes",
+            "isCustomModel": true
+          },
+          {
+            "id": "cluster_1570673124179",
+            "name": "Clustering",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Grouping a set of objects in such a way that objects in the same group are more similar to each other than to those in other groups",
+            "isCustomModel": true
+          },
+          {
+            "id": "growth_rate_1572222323562",
+            "name": "Growth Rates",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "refer to the percentage change of a specific variable within a specific time period and given a certain context",
+            "isCustomModel": true
+          },
+          {
+            "id": "two-tailed_test_1574241584650",
+            "name": "Two-Tailed Test",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "perform two tailed t-test",
+            "isCustomModel": true
+          },
+          {
+            "id": "line_1611803468395",
+            "name": "line",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "",
+            "isCustomModel": true
+          },
+          {
+            "id": "anomaly",
+            "name": "Anomaly",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Outlier data points detections",
+            "isCustomModel": false
+          },
+          {
+            "id": "forecast",
+            "name": "What-If Analysis",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {
+              "hasTargetVar": true,
+              "targetVar": {
+                "targetVarPaneActive": false,
+                "sectionTitle": "Target Value",
+                "options": [
+                  "[Total Amount]"
+                ],
+                "value": "[Total Amount]"
+              }
+            },
+            "description": "Predict the future values of a 2-var-TS, one of which is the target and the\n                    second is explaining variable.\n                    Provide non-symmetric confidence-interval for the above predictions.\n                    Var-Dependence (Score) - the strength of the influence of the explaining\n                    variable on the target one.\n                    XAI (model weights etc)",
+            "isCustomModel": false
+          },
+          {
+            "id": "local_estimates",
+            "name": "Local Estimate",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Locally (using before and after time series points) estimating the mean of the time series",
+            "isCustomModel": false
+          },
+          {
+            "id": "trend",
+            "name": "Trend",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Detect (if exists) Trend-Break-Points and connect those with a trend line",
+            "isCustomModel": false
+          }
+        ]
+      },
+      "dashboardid": "6441657b4faf000033a53934",
+      "lastOpened": null
+    },
+    {
+      "title": "Modified Value",
+      "type": "indicator",
+      "subtype": "indicator/numeric",
+      "oid": "6441657b4faf000033a53937",
+      "desc": null,
+      "source": "668ffbd0cd5ab3003301003b",
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "database": "aSampleIAAaECommerce",
+        "fullname": "localhost/Sample ECommerce",
+        "live": false
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "value",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "[D5117-94C] * ([F805D-421]) / ([D248A-98B] + [56AFE-85B])",
+                  "context": {
+                    "[D5117-94C]": {
+                      "table": "Commerce",
+                      "column": "Visit ID",
+                      "dim": "[Commerce.Visit ID]",
+                      "datatype": "numeric",
+                      "agg": "countduplicates",
+                      "title": "# of Visit ID"
+                    },
+                    "[56AFE-85B]": {
+                      "type": "measure",
+                      "formula": "30",
+                      "context": {},
+                      "title": "swap_lever3"
+                    },
+                    "[D248A-98B]": {
+                      "type": "measure",
+                      "formula": "20",
+                      "context": {},
+                      "title": "swap_lever2"
+                    },
+                    "[F805D-421]": {
+                      "type": "measure",
+                      "formula": "10",
+                      "context": {},
+                      "title": "swap_lever1"
+                    }
+                  },
+                  "title": "Modified Value Formula"
+                },
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": false,
+                      "k": false
+                    },
+                    "decimals": "auto",
+                    "number": {
+                      "separated": true
+                    }
+                  },
+                  "color": {
+                    "colorIndex": 0,
+                    "type": "color"
+                  }
+                },
+                "instanceid": "81E3E-0065-F8"
+              }
+            ]
+          },
+          {
+            "name": "secondary",
+            "items": []
+          },
+          {
+            "name": "min",
+            "items": []
+          },
+          {
+            "name": "max",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "subtype": "simple",
+        "skin": "vertical",
+        "components": {
+          "title": {
+            "inactive": false,
+            "enabled": true
+          },
+          "icon": {
+            "inactive": true,
+            "enabled": true
+          },
+          "secondaryTitle": {
+            "inactive": true,
+            "enabled": true
+          }
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": []
+        },
+        "indicator/numeric": {
+          "subtype": "simple",
+          "skin": "vertical",
+          "components": {
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "icon": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        },
+        "indicator/gauge": {
+          "subtype": "round",
+          "skin": "1",
+          "components": {
+            "ticks": {
+              "inactive": false,
+              "enabled": true
+            },
+            "labels": {
+              "inactive": false,
+              "enabled": true
+            },
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        }
+      },
+      "instanceid": "E5706-3E2C-2D",
+      "questQueryResult": {
+        "isActive": false,
+        "isPending": false
+      },
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": false,
+        "disallowSelector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "supportsHierarchies": false,
+        "aiFeatures": [
+          {
+            "id": "summary_statistics_1569425202576",
+            "name": "Summary Statistics",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Provide information about your data",
+            "isCustomModel": true
+          },
+          {
+            "id": "percentile_curves_1574252861643",
+            "name": "Percentile Curves",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Another way to show distributions",
+            "isCustomModel": true
+          },
+          {
+            "id": "pareto_1569481451806",
+            "name": "Pareto",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Roughly 80% of the effects come from 20% of the causes",
+            "isCustomModel": true
+          },
+          {
+            "id": "cluster_1570673124179",
+            "name": "Clustering",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Grouping a set of objects in such a way that objects in the same group are more similar to each other than to those in other groups",
+            "isCustomModel": true
+          },
+          {
+            "id": "growth_rate_1572222323562",
+            "name": "Growth Rates",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "refer to the percentage change of a specific variable within a specific time period and given a certain context",
+            "isCustomModel": true
+          },
+          {
+            "id": "two-tailed_test_1574241584650",
+            "name": "Two-Tailed Test",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "perform two tailed t-test",
+            "isCustomModel": true
+          },
+          {
+            "id": "line_1611803468395",
+            "name": "line",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "",
+            "isCustomModel": true
+          },
+          {
+            "id": "summary_statistics_1569425202576",
+            "name": "Summary Statistics",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Provide information about your data",
+            "isCustomModel": true
+          },
+          {
+            "id": "percentile_curves_1574252861643",
+            "name": "Percentile Curves",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Another way to show distributions",
+            "isCustomModel": true
+          },
+          {
+            "id": "pareto_1569481451806",
+            "name": "Pareto",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Roughly 80% of the effects come from 20% of the causes",
+            "isCustomModel": true
+          },
+          {
+            "id": "cluster_1570673124179",
+            "name": "Clustering",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Grouping a set of objects in such a way that objects in the same group are more similar to each other than to those in other groups",
+            "isCustomModel": true
+          },
+          {
+            "id": "growth_rate_1572222323562",
+            "name": "Growth Rates",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "refer to the percentage change of a specific variable within a specific time period and given a certain context",
+            "isCustomModel": true
+          },
+          {
+            "id": "two-tailed_test_1574241584650",
+            "name": "Two-Tailed Test",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "perform two tailed t-test",
+            "isCustomModel": true
+          },
+          {
+            "id": "line_1611803468395",
+            "name": "line",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "",
+            "isCustomModel": true
+          },
+          {
+            "id": "anomaly",
+            "name": "Anomaly",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Outlier data points detections",
+            "isCustomModel": false
+          },
+          {
+            "id": "forecast",
+            "name": "What-If Analysis",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {
+              "hasTargetVar": true,
+              "targetVar": {
+                "targetVarPaneActive": false,
+                "sectionTitle": "Target Value",
+                "options": [
+                  "[Total Amount]"
+                ],
+                "value": "[Total Amount]"
+              }
+            },
+            "description": "Predict the future values of a 2-var-TS, one of which is the target and the\n                    second is explaining variable.\n                    Provide non-symmetric confidence-interval for the above predictions.\n                    Var-Dependence (Score) - the strength of the influence of the explaining\n                    variable on the target one.\n                    XAI (model weights etc)",
+            "isCustomModel": false
+          },
+          {
+            "id": "local_estimates",
+            "name": "Local Estimate",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Locally (using before and after time series points) estimating the mean of the time series",
+            "isCustomModel": false
+          },
+          {
+            "id": "trend",
+            "name": "Trend",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Detect (if exists) Trend-Break-Points and connect those with a trend line",
+            "isCustomModel": false
+          }
+        ]
+      },
+      "dashboardid": "6441657b4faf000033a53934",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "script": "/*\nWelcome to your Widget's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at https://developer.sisense.com/pages/viewpage.action?pageId=557127\n*/\n\n",
+      "realTimeRefreshing": false,
+      "wasRendered": false,
+      "lastOpened": null
+    },
+    {
+      "title": "Lever 1 selected value",
+      "type": "indicator",
+      "subtype": "indicator/numeric",
+      "oid": "6441657b4faf000033a53938",
+      "desc": null,
+      "source": "668ffbd0cd5ab3003301003c",
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "database": "aSampleIAAaECommerce",
+        "fullname": "localhost/Sample ECommerce",
+        "live": false
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "value",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "[8E9FA-2B0]",
+                  "context": {
+                    "[8E9FA-2B0]": {
+                      "type": "measure",
+                      "formula": "10",
+                      "context": {},
+                      "title": "swap_lever1"
+                    }
+                  },
+                  "title": "[swap_lever1]"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": false
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "abbreviateAll": false,
+                    "isdefault": true
+                  },
+                  "color": {
+                    "colorIndex": 0,
+                    "type": "color"
+                  }
+                },
+                "instanceid": "2F72A-4C40-EC"
+              }
+            ]
+          },
+          {
+            "name": "secondary",
+            "items": []
+          },
+          {
+            "name": "min",
+            "items": []
+          },
+          {
+            "name": "max",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "subtype": "simple",
+        "skin": "vertical",
+        "components": {
+          "title": {
+            "inactive": false,
+            "enabled": true
+          },
+          "icon": {
+            "inactive": true,
+            "enabled": true
+          },
+          "secondaryTitle": {
+            "inactive": true,
+            "enabled": true
+          }
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": []
+        },
+        "indicator/numeric": {
+          "subtype": "simple",
+          "skin": "vertical",
+          "components": {
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "icon": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        },
+        "indicator/gauge": {
+          "subtype": "round",
+          "skin": "1",
+          "components": {
+            "ticks": {
+              "inactive": false,
+              "enabled": true
+            },
+            "labels": {
+              "inactive": false,
+              "enabled": true
+            },
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        }
+      },
+      "instanceid": "E5706-3E2C-2D",
+      "questQueryResult": {
+        "isActive": false,
+        "isPending": false
+      },
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": false,
+        "disallowSelector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "supportsHierarchies": false,
+        "aiFeatures": [
+          {
+            "id": "summary_statistics_1569425202576",
+            "name": "Summary Statistics",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Provide information about your data",
+            "isCustomModel": true
+          },
+          {
+            "id": "percentile_curves_1574252861643",
+            "name": "Percentile Curves",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Another way to show distributions",
+            "isCustomModel": true
+          },
+          {
+            "id": "pareto_1569481451806",
+            "name": "Pareto",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Roughly 80% of the effects come from 20% of the causes",
+            "isCustomModel": true
+          },
+          {
+            "id": "cluster_1570673124179",
+            "name": "Clustering",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Grouping a set of objects in such a way that objects in the same group are more similar to each other than to those in other groups",
+            "isCustomModel": true
+          },
+          {
+            "id": "growth_rate_1572222323562",
+            "name": "Growth Rates",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "refer to the percentage change of a specific variable within a specific time period and given a certain context",
+            "isCustomModel": true
+          },
+          {
+            "id": "two-tailed_test_1574241584650",
+            "name": "Two-Tailed Test",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "perform two tailed t-test",
+            "isCustomModel": true
+          },
+          {
+            "id": "line_1611803468395",
+            "name": "line",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "",
+            "isCustomModel": true
+          },
+          {
+            "id": "summary_statistics_1569425202576",
+            "name": "Summary Statistics",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Provide information about your data",
+            "isCustomModel": true
+          },
+          {
+            "id": "percentile_curves_1574252861643",
+            "name": "Percentile Curves",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Another way to show distributions",
+            "isCustomModel": true
+          },
+          {
+            "id": "pareto_1569481451806",
+            "name": "Pareto",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Roughly 80% of the effects come from 20% of the causes",
+            "isCustomModel": true
+          },
+          {
+            "id": "cluster_1570673124179",
+            "name": "Clustering",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Grouping a set of objects in such a way that objects in the same group are more similar to each other than to those in other groups",
+            "isCustomModel": true
+          },
+          {
+            "id": "growth_rate_1572222323562",
+            "name": "Growth Rates",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "refer to the percentage change of a specific variable within a specific time period and given a certain context",
+            "isCustomModel": true
+          },
+          {
+            "id": "two-tailed_test_1574241584650",
+            "name": "Two-Tailed Test",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "perform two tailed t-test",
+            "isCustomModel": true
+          },
+          {
+            "id": "line_1611803468395",
+            "name": "line",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "",
+            "isCustomModel": true
+          },
+          {
+            "id": "anomaly",
+            "name": "Anomaly",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Outlier data points detections",
+            "isCustomModel": false
+          },
+          {
+            "id": "forecast",
+            "name": "What-If Analysis",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {
+              "hasTargetVar": true,
+              "targetVar": {
+                "targetVarPaneActive": false,
+                "sectionTitle": "Target Value",
+                "options": [
+                  "[Total Amount]"
+                ],
+                "value": "[Total Amount]"
+              }
+            },
+            "description": "Predict the future values of a 2-var-TS, one of which is the target and the\n                    second is explaining variable.\n                    Provide non-symmetric confidence-interval for the above predictions.\n                    Var-Dependence (Score) - the strength of the influence of the explaining\n                    variable on the target one.\n                    XAI (model weights etc)",
+            "isCustomModel": false
+          },
+          {
+            "id": "local_estimates",
+            "name": "Local Estimate",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Locally (using before and after time series points) estimating the mean of the time series",
+            "isCustomModel": false
+          },
+          {
+            "id": "trend",
+            "name": "Trend",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Detect (if exists) Trend-Break-Points and connect those with a trend line",
+            "isCustomModel": false
+          }
+        ]
+      },
+      "dashboardid": "6441657b4faf000033a53934",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "lastOpened": null
+    },
+    {
+      "title": "Lever 2 selected value",
+      "type": "indicator",
+      "subtype": "indicator/numeric",
+      "oid": "6441657b4faf000033a53939",
+      "desc": null,
+      "source": "668ffbd0cd5ab3003301003d",
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "database": "aSampleIAAaECommerce",
+        "fullname": "localhost/Sample ECommerce",
+        "live": false
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "value",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "[2B648-82A]",
+                  "context": {
+                    "[2B648-82A]": {
+                      "type": "measure",
+                      "formula": "20",
+                      "context": {},
+                      "title": "swap_lever2"
+                    }
+                  },
+                  "title": "[swap_lever2]"
+                },
+                "instanceid": "F3721-DA6F-A0",
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": false
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "abbreviateAll": false,
+                    "isdefault": true
+                  },
+                  "color": {
+                    "colorIndex": 0,
+                    "type": "color"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "secondary",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "[259D4-2D4]",
+                  "context": {
+                    "[259D4-2D4]": {
+                      "type": "measure",
+                      "formula": "10",
+                      "context": {},
+                      "title": "swap_lever1"
+                    }
+                  },
+                  "title": "[swap_lever1]"
+                },
+                "instanceid": "A99E3-DE66-E5",
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": false
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "abbreviateAll": false,
+                    "isdefault": true
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "min",
+            "items": []
+          },
+          {
+            "name": "max",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "subtype": "simple",
+        "skin": "vertical",
+        "components": {
+          "title": {
+            "inactive": false,
+            "enabled": true
+          },
+          "icon": {
+            "inactive": true,
+            "enabled": true
+          },
+          "secondaryTitle": {
+            "inactive": false,
+            "enabled": true
+          }
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": []
+        },
+        "indicator/numeric": {
+          "subtype": "simple",
+          "skin": "vertical",
+          "components": {
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "icon": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        },
+        "indicator/gauge": {
+          "subtype": "round",
+          "skin": "1",
+          "components": {
+            "ticks": {
+              "inactive": false,
+              "enabled": true
+            },
+            "labels": {
+              "inactive": false,
+              "enabled": true
+            },
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        }
+      },
+      "instanceid": "1EAB2-3E39-CC",
+      "questQueryResult": {
+        "isActive": false,
+        "isPending": false
+      },
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "wasRendered": false,
+      "realTimeRefreshing": false,
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": false,
+        "disallowSelector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "supportsHierarchies": false
+      },
+      "dashboardid": "6441657b4faf000033a53934",
+      "query": {
+        "datasource": {
+          "fullname": "localhost/Sample ECommerce",
+          "id": "localhost_aSampleIAAaECommerce",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce",
+          "live": false,
+          "title": "Sample ECommerce"
+        },
+        "metadata": [
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Date",
+              "dim": "[Commerce.Date (Calendar)]",
+              "datatype": "datetime",
+              "merged": true,
+              "level": "years",
+              "title": "Years in Date"
+            },
+            "instanceid": "78A4B-BC5C-01",
+            "format": {
+              "mask": {
+                "years": "yyyy",
+                "quarters": "yyyy Q",
+                "months": "MM/yyyy",
+                "weeks": "ww yyyy",
+                "days": "shortDate",
+                "minutes": "HH:mm",
+                "dateAndTime": "MM/dd/y HH:mm",
+                "isdefault": true
+              }
+            },
+            "hierarchies": [
+              "calendar",
+              "calendar - weeks"
+            ],
+            "field": {
+              "id": "[Commerce.Date (Calendar)]_years",
+              "index": 0
+            },
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "Country",
+              "column": "Country",
+              "dim": "[Country.Country]",
+              "datatype": "text",
+              "merged": true,
+              "title": "Country",
+              "collapsed": true,
+              "isDashboardFilter": true,
+              "datasource": {
+                "fullname": "localhost/Sample ECommerce",
+                "id": "localhost_aSampleIAAaECommerce",
+                "address": "LocalHost",
+                "database": "aSampleIAAaECommerce",
+                "live": false,
+                "title": "Sample ECommerce"
+              },
+              "filter": {
+                "explicit": true,
+                "userMultiSelect": false,
+                "multiSelection": false,
+                "members": [
+                  "Indonesia"
+                ]
+              }
+            },
+            "disabled": false,
+            "isCascading": false,
+            "instanceid": "564A4-6411-F8",
+            "panel": "scope"
+          }
+        ],
+        "ungroup": true,
+        "offset": 0,
+        "m2mThresholdFlag": 0
+      },
+      "currentPage": 0,
+      "lastOpened": null
+    },
+    {
+      "title": "Lever 3 selected value",
+      "type": "indicator",
+      "subtype": "indicator/numeric",
+      "oid": "6441657b4faf000033a5393a",
+      "desc": null,
+      "source": "668ffbd0cd5ab3003301003e",
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "database": "aSampleIAAaECommerce",
+        "fullname": "localhost/Sample ECommerce",
+        "live": false
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "value",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "[A7CF8-E96]",
+                  "context": {
+                    "[A7CF8-E96]": {
+                      "type": "measure",
+                      "formula": "30",
+                      "context": {},
+                      "title": "swap_lever3"
+                    }
+                  },
+                  "title": "[swap_lever3]"
+                },
+                "instanceid": "306DB-4764-C1",
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": false
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "abbreviateAll": false,
+                    "isdefault": true
+                  },
+                  "color": {
+                    "colorIndex": 0,
+                    "type": "color"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "secondary",
+            "items": []
+          },
+          {
+            "name": "min",
+            "items": []
+          },
+          {
+            "name": "max",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "subtype": "simple",
+        "skin": "vertical",
+        "components": {
+          "title": {
+            "inactive": false,
+            "enabled": true
+          },
+          "icon": {
+            "inactive": true,
+            "enabled": true
+          },
+          "secondaryTitle": {
+            "inactive": true,
+            "enabled": true
+          }
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": []
+        },
+        "indicator/numeric": {
+          "subtype": "simple",
+          "skin": "vertical",
+          "components": {
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "icon": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        },
+        "indicator/gauge": {
+          "subtype": "round",
+          "skin": "1",
+          "components": {
+            "ticks": {
+              "inactive": false,
+              "enabled": true
+            },
+            "labels": {
+              "inactive": false,
+              "enabled": true
+            },
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        }
+      },
+      "instanceid": "AB340-B433-3A",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "wasRendered": false,
+      "realTimeRefreshing": false,
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": false,
+        "disallowSelector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "supportsHierarchies": false
+      },
+      "dashboardid": "6441657b4faf000033a53934",
+      "lastOpened": null
+    },
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "6441657b4faf000033a5393c",
+      "desc": null,
+      "source": "668ffbd0cd5ab30033010040",
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "database": "aSampleIAAaECommerce",
+        "fullname": "localhost/Sample ECommerce",
+        "live": false
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "content": {
+          "html": "<div style=\"text-align: left;\"><font size=\"3\">Modified formula:</font></div><div style=\"text-align: left;\"><b><font size=\"3\">(Count of Visit ID * swap_lever1) / (swap_lever2 + swap_lever3)</font></b></div>",
+          "vAlign": "valign-middle",
+          "bgColor": "#FFFFFF",
+          "textAlign": "center"
+        }
+      },
+      "instanceid": "4956D-A799-9F",
+      "wasRendered": false,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "realTimeRefreshing": false,
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "dashboardid": "6441657b4faf000033a53934",
+      "lastOpened": null
+    },
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "6441657b4faf000033a5393b",
+      "desc": null,
+      "source": "668ffbd0cd5ab3003301003f",
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "database": "aSampleIAAaECommerce",
+        "fullname": "localhost/Sample ECommerce",
+        "live": false
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "content": {
+          "html": "<font size=\"3\"><div style=\"text-align: left;\">Original formula:</div><div style=\"text-align: left;\"><b>Count of Visit ID</b></div></font>",
+          "vAlign": "valign-middle",
+          "bgColor": "#FFFFFF",
+          "textAlign": "center"
+        }
+      },
+      "instanceid": "4956D-A799-9F",
+      "wasRendered": false,
+      "realTimeRefreshing": false,
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "dashboardid": "6441657b4faf000033a53934",
+      "lastOpened": null
+    },
+    {
+      "title": "Modified Value",
+      "type": "chart/line",
+      "subtype": "line/basic",
+      "oid": "6441657b4faf000033a5393d",
+      "desc": null,
+      "source": "668ffbd0cd5ab30033010041",
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "database": "aSampleIAAaECommerce",
+        "fullname": "localhost/Sample ECommerce",
+        "live": false
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "x-axis",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Date",
+                  "dim": "[Commerce.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "years",
+                  "title": "Years in Date"
+                },
+                "instanceid": "5D4C4-9E5C-EE",
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "seconds": "MM/dd/yyyy HH:mm:ss",
+                    "dateAndTime": "MM/dd/yyyy HH:mm",
+                    "isdefault": true
+                  }
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ],
+                "panel": "rows"
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "[D9BAE-E33] * ([C820E-9E3]) / ([C2AE3-28B] + [174AF-FF0])",
+                  "context": {
+                    "[D9BAE-E33]": {
+                      "table": "Commerce",
+                      "column": "Visit ID",
+                      "dim": "[Commerce.Visit ID]",
+                      "datatype": "numeric",
+                      "agg": "countduplicates",
+                      "title": "# of Visit ID"
+                    },
+                    "[174AF-FF0]": {
+                      "type": "measure",
+                      "formula": "30",
+                      "context": {},
+                      "title": "swap_lever3"
+                    },
+                    "[C2AE3-28B]": {
+                      "type": "measure",
+                      "formula": "20",
+                      "context": {},
+                      "title": "swap_lever2"
+                    },
+                    "[C820E-9E3]": {
+                      "type": "measure",
+                      "formula": "10",
+                      "context": {},
+                      "title": "swap_lever1"
+                    }
+                  },
+                  "title": "Modified Value Formula"
+                },
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": false,
+                      "k": false
+                    },
+                    "decimals": "auto",
+                    "number": {
+                      "separated": true
+                    }
+                  },
+                  "color": {
+                    "colorIndex": 0,
+                    "type": "color"
+                  }
+                },
+                "instanceid": "81E3E-0065-F8",
+                "panel": "measures"
+              }
+            ]
+          },
+          {
+            "name": "break by",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "lineWidth": {
+          "width": "bold"
+        },
+        "legend": {
+          "enabled": true,
+          "position": "bottom"
+        },
+        "seriesLabels": {
+          "enabled": true,
+          "rotation": 0
+        },
+        "markers": {
+          "enabled": false,
+          "fill": "filled",
+          "size": "small"
+        },
+        "xAxis": {
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "x2Title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "isIntervalEnabled": false
+        },
+        "yAxis": {
+          "inactive": false,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "logarithmic": false,
+          "isIntervalEnabled": true
+        },
+        "y2Axis": {
+          "inactive": true,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": false,
+          "logarithmic": false,
+          "isIntervalEnabled": true
+        },
+        "navigator": {
+          "enabled": true
+        },
+        "dataLimits": {
+          "seriesCapacity": 50,
+          "categoriesCapacity": 100000
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "years_in_date",
+              "title": "Years in Date",
+              "singular": "Years in Date",
+              "plural": "Years in Date"
+            }
+          ]
+        }
+      },
+      "instanceid": "5387E-9A57-B5",
+      "questQueryResult": {
+        "queryResultOriginal": {
+          "chart": {
+            "spacing": [
+              20,
+              20,
+              20,
+              20
+            ],
+            "alignTicks": false,
+            "type": "line",
+            "isHighlightMode": true,
+            "events": {}
+          },
+          "legend": {
+            "itemStyle": {
+              "cursor": "default",
+              "fontFamily": "Open Sans",
+              "fontSize": "13px",
+              "fontWeight": "normal",
+              "color": "#5B6372"
+            },
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "borderWidth": "",
+            "enabled": true,
+            "align": "center",
+            "verticalAlign": "bottom",
+            "enabledFromEditor": true,
+            "layout": "horizontal"
+          },
+          "tooltip": {
+            "crosshairs": [
+              false,
+              false
+            ],
+            "enabled": false
+          },
+          "scrollbar": {
+            "enabled": false
+          },
+          "title": {},
+          "subtitle": {},
+          "credits": {
+            "enabled": false
+          },
+          "exporting": {
+            "enabled": true
+          },
+          "errors": [],
+          "xAxis": {
+            "categories": [
+              "2009",
+              "2010",
+              "2011",
+              "2012",
+              "2013"
+            ],
+            "labels": {
+              "overflow": "none",
+              "enabled": true,
+              "autoRotation": [
+                -10,
+                -20,
+                -30,
+                -40,
+                -50,
+                -60,
+                -70,
+                -80,
+                -90
+              ],
+              "style": {
+                "fontFamily": "Open Sans",
+                "fontSize": "13px",
+                "fontWeight": "normal",
+                "color": "#5B6372"
+              }
+            },
+            "tickmarkPlacement": "on",
+            "title": {
+              "enabled": true,
+              "margin": 25
+            },
+            "gridLineWidth": 1,
+            "minorTickLength": 0,
+            "tickLength": 0,
+            "isDate": true,
+            "gridLineDashStyle": "Dot",
+            "minorGridLineWidth": 0,
+            "minorGridLineDashStyle": "Dot",
+            "startOnTick": false,
+            "endOnTick": false,
+            "events": {},
+            "lineColor": "#d1d1d7",
+            "lineWidth": "1",
+            "tickColor": "#d1d1d7",
+            "minorTickColor": "#d1d1d7",
+            "gridLineColor": "#d1d1d7",
+            "minorGridLineColor": "#d1d1d7"
+          },
+          "plotOptions": {
+            "series": {
+              "dataLabels": {
+                "align": "center",
+                "enabled": true,
+                "allowOverlap": false,
+                "padding": 5,
+                "crop": false,
+                "style": {
+                  "pointer-events": "none",
+                  "textOutline": "none",
+                  "fontFamily": "Open Sans",
+                  "fontSize": "13px",
+                  "fontWeight": "normal",
+                  "color": "#5B6372"
+                },
+                "valueLabel": true,
+                "rotation": 0
+              },
+              "marker": {
+                "enabled": false,
+                "radius": 5,
+                "symbol": "circle",
+                "states": {
+                  "hover": {
+                    "fillColor": "white",
+                    "lineWidth": 3,
+                    "radius": 5
+                  },
+                  "select": {
+                    "fillOpacity": 0.3,
+                    "lineWidth": 2
+                  }
+                }
+              },
+              "events": {},
+              "states": {
+                "hover": {
+                  "enabled": true,
+                  "lineWidth": 3
+                }
+              },
+              "lineWidth": 3,
+              "turboThreshold": 0,
+              "boostThreshold": 0,
+              "showInNavigator": true,
+              "stickyTracking": false,
+              "point": {
+                "events": {}
+              }
+            },
+            "line": {
+              "dataLabels": {
+                "align": "center",
+                "rotation": 0,
+                "enabled": true,
+                "allowOverlap": false,
+                "style": {
+                  "pointer-events": "none",
+                  "textOutline": "none"
+                }
+              },
+              "animation": false,
+              "shadow": false,
+              "marker": {
+                "enabled": false
+              }
+            }
+          },
+          "navigator": {
+            "series": {
+              "type": "line",
+              "dataGrouping": {
+                "enabled": false,
+                "smoothed": false,
+                "groupPixelWidth": 0.05
+              }
+            },
+            "enabled": false,
+            "margin": 30,
+            "height": 40,
+            "baseSeries": 0,
+            "xAxis": {
+              "labels": {
+                "enabled": false
+              }
+            },
+            "handles": {
+              "symbols": [
+                "navigator-handle",
+                "navigator-handle"
+              ],
+              "backgroundColor": "#CCCCCC",
+              "borderColor": "#ffffff"
+            },
+            "maskInside": true,
+            "maskFill": "rgba(91,99,114, 0.15)",
+            "outlineColor": "#CCCCCC",
+            "outlineWidth": 1,
+            "enabledFromEditor": true
+          },
+          "series": [
+            {
+              "name": "Modified Value Formula",
+              "data": [
+                {
+                  "y": 15,
+                  "color": "#00cee6",
+                  "selected": false,
+                  "marker": {
+                    "states": {
+                      "select": {
+                        "enabled": true,
+                        "fillOpacity": 0.3,
+                        "lineColor": "#00cee6"
+                      },
+                      "hover": {
+                        "lineColor": "#00cee6"
+                      }
+                    },
+                    "enabled": false,
+                    "lineColor": "#00cee6"
+                  },
+                  "selectionData": {
+                    "0": "2009-01-01T00:00:00"
+                  },
+                  "queryResultIndex": 0
+                },
+                {
+                  "y": 155,
+                  "color": "#00cee6",
+                  "selected": false,
+                  "marker": {
+                    "states": {
+                      "select": {
+                        "enabled": true,
+                        "fillOpacity": 0.3,
+                        "lineColor": "#00cee6"
+                      },
+                      "hover": {
+                        "lineColor": "#00cee6"
+                      }
+                    },
+                    "enabled": false,
+                    "lineColor": "#00cee6"
+                  },
+                  "selectionData": {
+                    "0": "2010-01-01T00:00:00"
+                  },
+                  "queryResultIndex": 1
+                },
+                {
+                  "y": 645,
+                  "color": "#00cee6",
+                  "selected": false,
+                  "marker": {
+                    "states": {
+                      "select": {
+                        "enabled": true,
+                        "fillOpacity": 0.3,
+                        "lineColor": "#00cee6"
+                      },
+                      "hover": {
+                        "lineColor": "#00cee6"
+                      }
+                    },
+                    "enabled": false,
+                    "lineColor": "#00cee6"
+                  },
+                  "selectionData": {
+                    "0": "2011-01-01T00:00:00"
+                  },
+                  "queryResultIndex": 2
+                },
+                {
+                  "y": 1255,
+                  "color": "#00cee6",
+                  "selected": false,
+                  "marker": {
+                    "states": {
+                      "select": {
+                        "enabled": true,
+                        "fillOpacity": 0.3,
+                        "lineColor": "#00cee6"
+                      },
+                      "hover": {
+                        "lineColor": "#00cee6"
+                      }
+                    },
+                    "enabled": false,
+                    "lineColor": "#00cee6"
+                  },
+                  "selectionData": {
+                    "0": "2012-01-01T00:00:00"
+                  },
+                  "queryResultIndex": 3
+                },
+                {
+                  "y": 1410,
+                  "color": "#00cee6",
+                  "selected": false,
+                  "marker": {
+                    "states": {
+                      "select": {
+                        "enabled": true,
+                        "fillOpacity": 0.3,
+                        "lineColor": "#00cee6"
+                      },
+                      "hover": {
+                        "lineColor": "#00cee6"
+                      }
+                    },
+                    "enabled": false,
+                    "lineColor": "#00cee6"
+                  },
+                  "selectionData": {
+                    "0": "2013-01-01T00:00:00"
+                  },
+                  "queryResultIndex": 4
+                }
+              ],
+              "yAxis": 0,
+              "color": "#00cee6"
+            }
+          ],
+          "yAxis": [
+            {
+              "type": "linear",
+              "opposite": false,
+              "labels": {
+                "enabled": true,
+                "autoRotation": [
+                  -10,
+                  -20,
+                  -30,
+                  -40,
+                  -50,
+                  -60,
+                  -70,
+                  -80,
+                  -90
+                ],
+                "style": {
+                  "fontFamily": "Open Sans",
+                  "fontSize": "13px",
+                  "fontWeight": "normal",
+                  "color": "#5B6372"
+                }
+              },
+              "className": "yaxis-left",
+              "tickmarkPlacement": "on",
+              "startOnTick": true,
+              "endOnTick": true,
+              "title": {
+                "enabled": false,
+                "margin": 25,
+                "style": {
+                  "fontFamily": "Open Sans",
+                  "fontSize": "13px",
+                  "fontWeight": "normal",
+                  "color": "#5B6372"
+                }
+              },
+              "gridLineWidth": 1,
+              "minorTickWidth": 0,
+              "tickWidth": 0,
+              "minorGridLineWidth": 0,
+              "events": {},
+              "gridLineDashStyle": "Dot",
+              "lineColor": "#d1d1d7",
+              "lineWidth": "1",
+              "tickColor": "#d1d1d7",
+              "minorTickColor": "#d1d1d7",
+              "gridLineColor": "#d1d1d7",
+              "minorGridLineColor": "#d1d1d7",
+              "minorGridLineDashStyle": "Dot"
+            }
+          ],
+          "boost": {
+            "useGPUTranslations": true,
+            "usePreAllocated": true
+          }
+        }
+      },
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "script": "/*\nWelcome to your Widget's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at https://developer.sisense.com/pages/viewpage.action?pageId=557127\n*/\n\n",
+      "realTimeRefreshing": false,
+      "wasRendered": false,
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "drillToAnywhere": true,
+        "aiFeatures": [
+          {
+            "id": "pareto_1569481451806",
+            "name": "Pareto",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Roughly 80% of the effects come from 20% of the causes",
+            "isCustomModel": true
+          },
+          {
+            "id": "summary_statistics_1569425202576",
+            "name": "Summary Statistics",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Provide information about your data",
+            "isCustomModel": true
+          },
+          {
+            "id": "percentile_curves_1574252861643",
+            "name": "Percentile Curves",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Another way to show distributions",
+            "isCustomModel": true
+          },
+          {
+            "id": "cluster_1570673124179",
+            "name": "Clustering",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Grouping a set of objects in such a way that objects in the same group are more similar to each other than to those in other groups",
+            "isCustomModel": true
+          },
+          {
+            "id": "two-tailed_test_1574241584650",
+            "name": "Two-Tailed Test",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "perform two tailed t-test",
+            "isCustomModel": true
+          },
+          {
+            "id": "growth_rate_1572222323562",
+            "name": "Growth Rates",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "refer to the percentage change of a specific variable within a specific time period and given a certain context",
+            "isCustomModel": true
+          },
+          {
+            "id": "anomaly",
+            "name": "Anomaly",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Outlier data points detections",
+            "isCustomModel": false
+          },
+          {
+            "id": "forecast",
+            "name": "What-If Analysis",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {
+              "hasTargetVar": true,
+              "targetVar": {
+                "targetVarPaneActive": false,
+                "sectionTitle": "Target Value",
+                "options": [
+                  "Modified Value Formula"
+                ],
+                "value": "Modified Value Formula"
+              }
+            },
+            "description": "Predict the future values of a 2-var-TS, one of which is the target and the\n                    second is explaining variable.\n                    Provide non-symmetric confidence-interval for the above predictions.\n                    Var-Dependence (Score) - the strength of the influence of the explaining\n                    variable on the target one.\n                    XAI (model weights etc)",
+            "isCustomModel": false
+          },
+          {
+            "id": "local_estimates",
+            "name": "Local Estimate",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Locally (using before and after time series points) estimating the mean of the time series",
+            "isCustomModel": false
+          },
+          {
+            "id": "trend",
+            "name": "Trend",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Detect (if exists) Trend-Break-Points and connect those with a trend line",
+            "isCustomModel": false
+          }
+        ],
+        "previousScrollerLocation": {
+          "min": null,
+          "max": null
+        }
+      },
+      "dashboardid": "6441657b4faf000033a53934",
+      "lastOpened": null
+    },
+    {
+      "title": "Modified Value",
+      "type": "chart/scatter",
+      "subtype": "bubble/scatter",
+      "oid": "6441657b4faf000033a5393e",
+      "desc": null,
+      "source": "668ffbd0cd5ab30033010042",
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "database": "aSampleIAAaECommerce",
+        "fullname": "localhost/Sample ECommerce",
+        "live": false
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "x-axis",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Age Range",
+                  "dim": "[Commerce.Age Range]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Age Range"
+                },
+                "instanceid": "B22AD-17F9-AE"
+              }
+            ]
+          },
+          {
+            "name": "y-axis",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Gender",
+                  "dim": "[Commerce.Gender]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Gender"
+                },
+                "instanceid": "444BE-A463-23"
+              }
+            ]
+          },
+          {
+            "name": "point",
+            "items": []
+          },
+          {
+            "name": "Break By / Color",
+            "items": []
+          },
+          {
+            "name": "size",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "[9CC90-C28] * ([B5150-32F]) / ([EFF17-298] + [EB9F0-5FD])",
+                  "context": {
+                    "[9CC90-C28]": {
+                      "table": "Commerce",
+                      "column": "Visit ID",
+                      "dim": "[Commerce.Visit ID]",
+                      "datatype": "numeric",
+                      "agg": "countduplicates",
+                      "title": "# of Visit ID"
+                    },
+                    "[EB9F0-5FD]": {
+                      "type": "measure",
+                      "formula": "30",
+                      "context": {},
+                      "title": "swap_lever3"
+                    },
+                    "[EFF17-298]": {
+                      "type": "measure",
+                      "formula": "20",
+                      "context": {},
+                      "title": "swap_lever2"
+                    },
+                    "[B5150-32F]": {
+                      "type": "measure",
+                      "formula": "10",
+                      "context": {},
+                      "title": "swap_lever1"
+                    }
+                  },
+                  "title": "Modified Value Formula"
+                },
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": false,
+                      "k": false
+                    },
+                    "decimals": "auto",
+                    "number": {
+                      "separated": true
+                    }
+                  },
+                  "color_bkp": {
+                    "colorIndex": 0,
+                    "type": "color"
+                  }
+                },
+                "instanceid": "81E3E-0065-F8"
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "legend": {
+          "enabled": true,
+          "position": "bottom"
+        },
+        "seriesLabels": {
+          "enabled": true,
+          "rotation": 0
+        },
+        "markerSize": {
+          "isRange": true,
+          "min": 12,
+          "max": 48,
+          "lowest": 10,
+          "highest": 60,
+          "step": 1,
+          "defaultSize": 10
+        },
+        "xAxis": {
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "isIntervalEnabled": false,
+          "hideMinMax": true,
+          "logarithmic": false
+        },
+        "yAxis": {
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "hideMinMax": true,
+          "isIntervalEnabled": false,
+          "logarithmic": false
+        },
+        "dataLimits": {
+          "categoriesCapacityX": 500,
+          "categoriesCapacityY": 500,
+          "seriesCapacity": 50
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "age_range",
+              "title": "Age Range",
+              "singular": "Age Range",
+              "plural": "Age Range"
+            },
+            {
+              "id": "gender",
+              "title": "Gender",
+              "singular": "Gender",
+              "plural": "Gender"
+            }
+          ]
+        }
+      },
+      "instanceid": "356EC-E7A8-1D",
+      "questQueryResult": {
+        "isActive": false,
+        "isPending": false
+      },
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "script": "/*\nWelcome to your Widget's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at https://developer.sisense.com/pages/viewpage.action?pageId=557127\n*/\n\n",
+      "realTimeRefreshing": false,
+      "wasRendered": false,
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "drillToAnywhere": true
+      },
+      "dashboardid": "6441657b4faf000033a53934",
+      "lastOpened": null
+    },
+    {
+      "title": "Original Value",
+      "type": "chart/line",
+      "subtype": "line/basic",
+      "oid": "6441657b4faf000033a5393f",
+      "desc": null,
+      "source": "668ffbd0cd5ab30033010043",
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "database": "aSampleIAAaECommerce",
+        "fullname": "localhost/Sample ECommerce",
+        "live": false
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "x-axis",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Date",
+                  "dim": "[Commerce.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "years",
+                  "title": "Years in Date"
+                },
+                "instanceid": "3C922-6DAB-F1",
+                "panel": "rows",
+                "field": {
+                  "id": "[Commerce.Date (Calendar)]_years",
+                  "index": 0
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "seconds": "MM/dd/yyyy HH:mm:ss",
+                    "dateAndTime": "MM/dd/yyyy HH:mm",
+                    "isdefault": true
+                  }
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "[36839-29F]",
+                  "context": {
+                    "[36839-29F]": {
+                      "table": "Commerce",
+                      "column": "Visit ID",
+                      "dim": "[Commerce.Visit ID]",
+                      "datatype": "numeric",
+                      "agg": "countduplicates",
+                      "title": "# of Visit ID"
+                    }
+                  },
+                  "title": "[# of Visit ID]",
+                  "datatype": "numeric"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "abbreviateAll": false,
+                    "isdefault": true
+                  },
+                  "color": {
+                    "colorIndex": 0,
+                    "type": "color"
+                  }
+                },
+                "instanceid": "FE10A-B706-FB",
+                "panel": "measures",
+                "field": {
+                  "id": "[36839-29F]",
+                  "index": 1
+                }
+              }
+            ]
+          },
+          {
+            "name": "break by",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "lineWidth": {
+          "width": "bold"
+        },
+        "legend": {
+          "enabled": true,
+          "position": "bottom"
+        },
+        "seriesLabels": {
+          "enabled": true,
+          "rotation": 0
+        },
+        "markers": {
+          "enabled": false,
+          "fill": "filled",
+          "size": "small"
+        },
+        "xAxis": {
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "x2Title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "isIntervalEnabled": false
+        },
+        "yAxis": {
+          "inactive": false,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "logarithmic": false,
+          "isIntervalEnabled": true
+        },
+        "y2Axis": {
+          "inactive": true,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": false,
+          "logarithmic": false,
+          "isIntervalEnabled": true
+        },
+        "navigator": {
+          "enabled": true
+        },
+        "dataLimits": {
+          "seriesCapacity": 50,
+          "categoriesCapacity": 100000
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "years_in_date",
+              "title": "Years in Date",
+              "singular": "Years in Date",
+              "plural": "Years in Date"
+            }
+          ]
+        }
+      },
+      "instanceid": "735E1-2084-AF",
+      "questQueryResult": {
+        "isActive": false,
+        "isPending": false
+      },
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "wasRendered": false,
+      "realTimeRefreshing": false,
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "drillToAnywhere": true,
+        "aiFeatures": [
+          {
+            "id": "pareto_1569481451806",
+            "name": "Pareto",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Roughly 80% of the effects come from 20% of the causes",
+            "isCustomModel": true
+          },
+          {
+            "id": "summary_statistics_1569425202576",
+            "name": "Summary Statistics",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Provide information about your data",
+            "isCustomModel": true
+          },
+          {
+            "id": "percentile_curves_1574252861643",
+            "name": "Percentile Curves",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Another way to show distributions",
+            "isCustomModel": true
+          },
+          {
+            "id": "cluster_1570673124179",
+            "name": "Clustering",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Grouping a set of objects in such a way that objects in the same group are more similar to each other than to those in other groups",
+            "isCustomModel": true
+          },
+          {
+            "id": "two-tailed_test_1574241584650",
+            "name": "Two-Tailed Test",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "perform two tailed t-test",
+            "isCustomModel": true
+          },
+          {
+            "id": "growth_rate_1572222323562",
+            "name": "Growth Rates",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "refer to the percentage change of a specific variable within a specific time period and given a certain context",
+            "isCustomModel": true
+          },
+          {
+            "id": "anomaly",
+            "name": "Anomaly",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Outlier data points detections",
+            "isCustomModel": false
+          },
+          {
+            "id": "forecast",
+            "name": "What-If Analysis",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {
+              "hasTargetVar": true,
+              "targetVar": {
+                "targetVarPaneActive": false,
+                "sectionTitle": "Target Value",
+                "options": [
+                  "[# of Visit ID]"
+                ],
+                "value": "[# of Visit ID]"
+              }
+            },
+            "description": "Predict the future values of a 2-var-TS, one of which is the target and the\n                    second is explaining variable.\n                    Provide non-symmetric confidence-interval for the above predictions.\n                    Var-Dependence (Score) - the strength of the influence of the explaining\n                    variable on the target one.\n                    XAI (model weights etc)",
+            "isCustomModel": false
+          },
+          {
+            "id": "local_estimates",
+            "name": "Local Estimate",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Locally (using before and after time series points) estimating the mean of the time series",
+            "isCustomModel": false
+          },
+          {
+            "id": "trend",
+            "name": "Trend",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Detect (if exists) Trend-Break-Points and connect those with a trend line",
+            "isCustomModel": false
+          }
+        ],
+        "previousScrollerLocation": {
+          "min": null,
+          "max": null
+        }
+      },
+      "dashboardid": "6441657b4faf000033a53934",
+      "query": {
+        "datasource": {
+          "fullname": "localhost/Sample ECommerce",
+          "id": "localhost_aSampleIAAaECommerce",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce",
+          "live": false,
+          "title": "Sample ECommerce"
+        },
+        "grandTotals": {
+          "title": "Grand Total"
+        },
+        "metadata": [
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Date",
+              "dim": "[Commerce.Date (Calendar)]",
+              "datatype": "datetime",
+              "merged": true,
+              "level": "years",
+              "title": "Years in Date"
+            },
+            "instanceid": "3C922-6DAB-F1",
+            "panel": "rows",
+            "field": {
+              "id": "[Commerce.Date (Calendar)]_years",
+              "index": 0
+            },
+            "format": {
+              "mask": {
+                "years": "yyyy",
+                "quarters": "yyyy Q",
+                "months": "MM/yyyy",
+                "weeks": "ww yyyy",
+                "days": "shortDate",
+                "minutes": "HH:mm",
+                "dateAndTime": "MM/dd/y HH:mm",
+                "isdefault": true
+              }
+            },
+            "hierarchies": [
+              "calendar",
+              "calendar - weeks"
+            ],
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "type": "measure",
+              "formula": "[36839-29F]",
+              "context": {
+                "[36839-29F]": {
+                  "table": "Commerce",
+                  "column": "Visit ID",
+                  "dim": "[Commerce.Visit ID]",
+                  "datatype": "numeric",
+                  "agg": "countduplicates",
+                  "title": "# of Visit ID"
+                }
+              },
+              "title": "[# of Visit ID]",
+              "datatype": "numeric"
+            },
+            "format": {
+              "mask": {
+                "type": "number",
+                "t": true,
+                "b": true,
+                "separated": true,
+                "decimals": "auto",
+                "isdefault": true
+              },
+              "color": {
+                "type": "color",
+                "color": "transparent"
+              }
+            },
+            "instanceid": "FE10A-B706-FB",
+            "panel": "measures",
+            "field": {
+              "id": "[36839-29F]",
+              "index": 1
+            },
+            "handlers": [
+              {},
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "Country",
+              "column": "Country",
+              "dim": "[Country.Country]",
+              "datatype": "text",
+              "merged": true,
+              "title": "Country",
+              "collapsed": true,
+              "isDashboardFilter": true,
+              "datasource": {
+                "fullname": "localhost/Sample ECommerce",
+                "id": "localhost_aSampleIAAaECommerce",
+                "address": "LocalHost",
+                "database": "aSampleIAAaECommerce",
+                "live": false,
+                "title": "Sample ECommerce"
+              },
+              "firstday": "mon",
+              "locale": "en-us",
+              "filter": {
+                "explicit": true,
+                "multiSelection": false,
+                "members": [
+                  "Indonesia"
+                ]
+              }
+            },
+            "disabled": false,
+            "isCascading": false,
+            "instanceid": "564A4-6411-F8",
+            "panel": "scope"
+          }
+        ],
+        "m2mThresholdFlag": 0
+      },
+      "lastOpened": null
+    },
+    {
+      "title": "Original Value",
+      "type": "chart/scatter",
+      "subtype": "bubble/scatter",
+      "oid": "6441657b4faf000033a53940",
+      "desc": null,
+      "source": "668ffbd0cd5ab30033010044",
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "database": "aSampleIAAaECommerce",
+        "fullname": "localhost/Sample ECommerce",
+        "live": false
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "x-axis",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Age Range",
+                  "dim": "[Commerce.Age Range]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Age Range"
+                },
+                "instanceid": "C0506-B596-C8"
+              }
+            ]
+          },
+          {
+            "name": "y-axis",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Gender",
+                  "dim": "[Commerce.Gender]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Gender"
+                },
+                "instanceid": "26A13-5F37-84"
+              }
+            ]
+          },
+          {
+            "name": "point",
+            "items": []
+          },
+          {
+            "name": "Break By / Color",
+            "items": []
+          },
+          {
+            "name": "size",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "[36839-29F]",
+                  "context": {
+                    "[36839-29F]": {
+                      "table": "Commerce",
+                      "column": "Visit ID",
+                      "dim": "[Commerce.Visit ID]",
+                      "datatype": "numeric",
+                      "agg": "countduplicates",
+                      "title": "# of Visit ID"
+                    }
+                  },
+                  "title": "[# of Visit ID]"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "abbreviateAll": false,
+                    "isdefault": true
+                  },
+                  "color_bkp": {
+                    "colorIndex": 0,
+                    "type": "color"
+                  }
+                },
+                "instanceid": "FE10A-B706-FB"
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "legend": {
+          "enabled": true,
+          "position": "bottom"
+        },
+        "seriesLabels": {
+          "enabled": true,
+          "rotation": 0
+        },
+        "markerSize": {
+          "isRange": true,
+          "min": 12,
+          "max": 48,
+          "lowest": 10,
+          "highest": 60,
+          "step": 1,
+          "defaultSize": 10
+        },
+        "xAxis": {
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "isIntervalEnabled": false,
+          "hideMinMax": true,
+          "logarithmicOld": false
+        },
+        "yAxis": {
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "hideMinMax": true,
+          "isIntervalEnabled": false,
+          "logarithmicOld": false
+        },
+        "dataLimits": {
+          "categoriesCapacityX": 500,
+          "categoriesCapacityY": 500,
+          "seriesCapacity": 50
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "age_range",
+              "title": "Age Range",
+              "singular": "Age Range",
+              "plural": "Age Range"
+            },
+            {
+              "id": "gender",
+              "title": "Gender",
+              "singular": "Gender",
+              "plural": "Gender"
+            }
+          ]
+        }
+      },
+      "instanceid": "5B829-85B7-1B",
+      "questQueryResult": {
+        "isActive": false,
+        "isPending": false
+      },
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "wasRendered": false,
+      "realTimeRefreshing": false,
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "drillToAnywhere": true
+      },
+      "dashboardid": "6441657b4faf000033a53934",
+      "lastOpened": null
+    },
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "6441657b4faf000033a53941",
+      "desc": null,
+      "source": "668ffbd0cd5ab30033010045",
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "database": "aSampleIAAaECommerce",
+        "fullname": "localhost/Sample ECommerce",
+        "live": false
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "content": {
+          "html": "<div style=\"text-align: left;\"><div><font size=\"3\"><b>This new BloX Input Parameter:</b></font></div><div><ul><li><font size=\"2\">supports multiple levers (input parameters) with just one Apply button</font></li><li><font size=\"2\">supports all widget types</font></li><li><font size=\"2\">remembers previous selections even after refreshing/closing the dashboard</font></li><li><font size=\"2\">supports resetting to default values</font></li><li><b><font size=\"2\">loops through all widgets so that designers do not have to specify widget IDs in the BloX code. Be mindful of performance when considering this option as this will execute the BloX action to all widgets including those that the input parameters may not necessarily be relevant to.</font></b></li></ul></div></div><div style=\"text-align: left;\"><font size=\"3\"><br></font></div><div style=\"text-align: left;\"><font size=\"3\">Instructions:</font></div><ul style=\"\"><li style=\"text-align: left;\"><font size=\"2\">For both the <b>ParameterSwap_V2_AllWidgets</b> action (<b style=\"\">Apply button</b>) and the <b>ParameterSwap_V2_AllWidgets_Reset</b> action (<b style=\"\">Reset button</b>):<br></font></li><ul><li style=\"text-align: left;\"><font size=\"2\">Add the number of input parameters in the BloX code under the <b>paramsToModify</b> parameter, in this example, there are 3 input parameters (levers).</font></li><li style=\"text-align: left;\"><font size=\"2\">If you want to add another input parameter, copy the entire column, then modify the <b style=\"\">id</b> parameter to selectVal&lt;lever number&gt;, e.g. if this is the fourth lever, the id should be selectVal4&nbsp;and the&nbsp;paramsToModify&nbsp;parameter should be set to 4.&nbsp;</font><span style=\"font-size: 12.5px;\">Update the text and give it a meaningful title.</span></li></ul><li style=\"text-align: left;\"><font size=\"2\">For the&nbsp;<b>ParemeterSwap_V2_Reset</b>&nbsp;action (<b>Reset button</b>):</font></li><ul><li style=\"text-align: left;\"><font size=\"2\">Enter the default values in the&nbsp;<b>defaultValues</b>&nbsp;parameter, separated by a comma.</font></li></ul></ul><i style=\"text-align: left;\"><font size=\"2\"><div style=\"text-align: left;\"><i style=\"\"><br></i></div><div style=\"text-align: left;\"><i style=\"\">If you have any questions, feel free to reach out to Tri (tri.anthony@sisense.com).</i></div></font></i>",
+          "vAlign": "valign-middle",
+          "bgColor": "#FFFFFF",
+          "textAlign": "center"
+        }
+      },
+      "instanceid": "A42FD-18A6-61",
+      "wasRendered": false,
+      "realTimeRefreshing": false,
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "dashboardid": "6441657b4faf000033a53934",
+      "lastOpened": null
+    }
+  ],
+  "hierarchies": [
+    {
+      "_id": "5e1df3c7d0c67e1ae07f1b28",
+      "title": "Age Range",
+      "alwaysIncluded": true,
+      "levels": [
+        {
+          "title": "Age Range",
+          "table": "Commerce",
+          "column": "Age Range",
+          "datatype": "text",
+          "dim": "[Commerce.Age Range]",
+          "index": 0,
+          "_id": "5e1df3c7d0c67e1ae07f1b27"
+        },
+        {
+          "title": "Brand",
+          "table": "Brand",
+          "column": "Brand",
+          "datatype": "text",
+          "dim": "[Brand.Brand]",
+          "index": 1,
+          "_id": "5f7dac8d83916d210422a29f"
+        }
+      ],
+      "cubeId": "6142d757c80a065ff5a24ccc",
+      "lastUpdated": "2023-12-17T10:23:52.992Z",
+      "serverAddress": "LocalHost",
+      "elasticubeTitle": "Sample ECommerce"
+    },
+    {
+      "_id": "5cbefc68bbb1712fe8ef043c",
+      "title": "Age Range (1)",
+      "alwaysIncluded": true,
+      "levels": [
+        {
+          "title": "Age Range",
+          "table": "Commerce",
+          "column": "Age Range",
+          "datatype": "text",
+          "dim": "[Commerce.Age Range]",
+          "index": 0,
+          "_id": "5cbefc68bbb1712fe8ef043b"
+        },
+        {
+          "title": "Gender",
+          "table": "Commerce",
+          "column": "Gender",
+          "datatype": "text",
+          "dim": "[Commerce.Gender]",
+          "index": 1,
+          "_id": "5cbefc6cbbb1712fe8ef043e"
+        }
+      ],
+      "cubeId": "6142d757c80a065ff5a24ccc",
+      "lastUpdated": "2023-12-17T10:23:52.992Z",
+      "serverAddress": "LocalHost",
+      "elasticubeTitle": "Sample ECommerce"
+    },
+    {
+      "_id": "5d6796518cb5d40ab82aa918",
+      "title": "Age Range (1)",
+      "alwaysIncluded": true,
+      "levels": [
+        {
+          "title": "Age Range",
+          "table": "Commerce",
+          "column": "Age Range",
+          "datatype": "text",
+          "dim": "[Commerce.Age Range]",
+          "index": 0,
+          "_id": "5d6796518cb5d40ab82aa917"
+        },
+        {
+          "title": "Cost",
+          "table": "Commerce",
+          "column": "Cost",
+          "datatype": "numeric",
+          "dim": "[Commerce.Cost]",
+          "index": 1,
+          "_id": "5d6796558cb5d40ab82aa91a"
+        }
+      ],
+      "cubeId": "6142d757c80a065ff5a24ccc",
+      "lastUpdated": "2023-12-17T10:23:52.992Z",
+      "serverAddress": "LocalHost",
+      "elasticubeTitle": "Sample ECommerce"
+    }
+  ]
+}

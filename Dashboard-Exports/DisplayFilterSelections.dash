@@ -1,0 +1,505 @@
+{
+  "oid": "60f6fa974f15400035b86382",
+  "dataExploration": false,
+  "datasource": {
+    "fullname": "localhost/Sample Retail",
+    "id": "localhost_aSampleIAAaRetail",
+    "address": "LocalHost",
+    "database": "aSampleIAAaRetail",
+    "live": false,
+    "title": "Sample Retail"
+  },
+  "defaultFilters": [
+    {
+      "jaql": {
+        "table": "DimCountries",
+        "column": "CountryName",
+        "dim": "[DimCountries.CountryName]",
+        "datatype": "text",
+        "merged": true,
+        "title": "CountryName",
+        "collapsed": true,
+        "datasource": {
+          "fullname": "localhost/Sample Retail",
+          "id": "localhost_aSampleIAAaRetail",
+          "address": "LocalHost",
+          "database": "aSampleIAAaRetail",
+          "live": false,
+          "title": "Sample Retail"
+        },
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "exclude": {
+            "members": [
+              "Alabama"
+            ]
+          }
+        }
+      },
+      "instanceid": "8314B-9DBD-19",
+      "isCascading": false,
+      "disabled": false
+    },
+    {
+      "jaql": {
+        "table": "DimDate",
+        "column": "Date",
+        "dim": "[DimDate.Date (Calendar)]",
+        "datatype": "datetime",
+        "merged": true,
+        "level": "months",
+        "title": "Months in Date",
+        "datasource": {
+          "fullname": "localhost/Sample Retail",
+          "id": "localhost_aSampleIAAaRetail",
+          "address": "LocalHost",
+          "database": "aSampleIAAaRetail",
+          "live": false,
+          "title": "Sample Retail"
+        },
+        "collapsed": true,
+        "filter": {
+          "last": {
+            "count": 2,
+            "offset": 1
+          }
+        }
+      },
+      "instanceid": "D2589-6C21-A8",
+      "isCascading": false,
+      "disabled": false
+    },
+    {
+      "jaql": {
+        "table": "Fact_Sale_orders",
+        "column": "OrderQty",
+        "dim": "[Fact_Sale_orders.OrderQty]",
+        "datatype": "numeric",
+        "title": "OrderQty",
+        "datasource": {
+          "fullname": "localhost/Sample Retail",
+          "id": "localhost_aSampleIAAaRetail",
+          "address": "LocalHost",
+          "database": "aSampleIAAaRetail",
+          "live": false,
+          "title": "Sample Retail"
+        },
+        "collapsed": false,
+        "filter": {
+          "fromNotEqual": 3
+        }
+      },
+      "instanceid": "89E61-6628-30",
+      "isCascading": false
+    }
+  ],
+  "desc": "",
+  "editing": false,
+  "filterToDatasourceMapping": {},
+  "filters": [
+    {
+      "jaql": {
+        "table": "DimCountries",
+        "column": "CountryName",
+        "dim": "[DimCountries.CountryName]",
+        "datatype": "text",
+        "merged": true,
+        "title": "CountryName",
+        "collapsed": true,
+        "datasource": {
+          "fullname": "localhost/Sample Retail",
+          "id": "localhost_aSampleIAAaRetail",
+          "address": "LocalHost",
+          "database": "aSampleIAAaRetail",
+          "live": false,
+          "title": "Sample Retail"
+        },
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "exclude": {
+            "members": [
+              "Alabama"
+            ]
+          }
+        }
+      },
+      "instanceid": "8314B-9DBD-19",
+      "isCascading": false,
+      "disabled": false
+    },
+    {
+      "jaql": {
+        "table": "DimDate",
+        "column": "Date",
+        "dim": "[DimDate.Date (Calendar)]",
+        "datatype": "datetime",
+        "merged": true,
+        "level": "months",
+        "title": "Months in Date",
+        "datasource": {
+          "fullname": "localhost/Sample Retail",
+          "id": "localhost_aSampleIAAaRetail",
+          "address": "LocalHost",
+          "database": "aSampleIAAaRetail",
+          "live": false,
+          "title": "Sample Retail"
+        },
+        "collapsed": true,
+        "filter": {
+          "last": {
+            "count": 2,
+            "offset": 1
+          }
+        }
+      },
+      "instanceid": "D2589-6C21-A8",
+      "isCascading": false,
+      "disabled": false
+    },
+    {
+      "jaql": {
+        "table": "Fact_Sale_orders",
+        "column": "OrderQty",
+        "dim": "[Fact_Sale_orders.OrderQty]",
+        "datatype": "numeric",
+        "title": "OrderQty",
+        "datasource": {
+          "fullname": "localhost/Sample Retail",
+          "id": "localhost_aSampleIAAaRetail",
+          "address": "LocalHost",
+          "database": "aSampleIAAaRetail",
+          "live": false,
+          "title": "Sample Retail"
+        },
+        "collapsed": false,
+        "filter": {
+          "fromNotEqual": 3
+        }
+      },
+      "instanceid": "89E61-6628-30",
+      "isCascading": false
+    }
+  ],
+  "lastOpened": null,
+  "layout": {
+    "columns": [
+      {
+        "width": 100,
+        "cells": [
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 102,
+                    "maxHeight": 1024,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": 47,
+                    "defaultWidth": 512,
+                    "widgetid": "60f6fab14f15400035b86385"
+                  }
+                ],
+                "index": 0,
+                "stretchable": false,
+                "width": 100,
+                "pxlWidth": 1288
+              }
+            ]
+          }
+        ],
+        "pxlWidth": 1288,
+        "index": 0
+      }
+    ],
+    "instanceid": "7AA3E-A857-4D",
+    "type": "columnar",
+    "container": {
+      "sizzle1646058682809": {
+        "undefined": {
+          "parentNode": [
+            44.416294391921845,
+            25,
+            true
+          ]
+        }
+      }
+    }
+  },
+  "original": null,
+  "parentFolder": "61c44b8583642f002bf1838b",
+  "script": "prism.GetFilterValues = function(dash){\n\tconst separator = ' & ';\n\tconst maxMembersToShow = 5;\n\n\tlet fils = '';\n\tlet firstFilter = true;\n\t\n\t// exclude filters if disabled, if set to IncludeAll, or if we aren't handling them here (dependent filters require more code :)  \n\tdash.filters.$$items.filter(function(i){\n\t\tif('disabled' in i){\n\t\t\tif(i.disabled===true){\n\t\t\t\treturn false;\n\t\t\t}\n\t\t}\n\t\tif('jaql' in i){\n\t\t\tif('filter' in i.jaql){\n\t\t\t\tif('all' in i.jaql.filter){\n\t\t\t\t\tif(i.jaql.filter.all===true){\n\t\t\t\t\t\treturn false;\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t} \n\t\tif('isCascading' in i){\n\t\t\tif(i.isCascading===true){\n\t\t\t\treturn false;\n\t\t\t}\n\t\t}\n\t\t// if none of the above, incldue this filter in the output\n\t\treturn true\n\t})\n\t.forEach(function(f){\n\t\tlet fi = f.jaql.filter;\n\t\tlet title = f.jaql.title;\n\t\tif(!firstFilter){\n\t\t\tfils += separator\n\t\t}\n\t\tfirstFilter = false;\n\n\t\tif('members' in fi){\n\t\t\tfils += title + ': ';\n\t\t\tlet members = fi.members;\n\t\t\tlet memberCount = members.length;\n\t\t\tif(memberCount >= maxMembersToShow){\n\t\t\t\tfils += '<too many to show>';\n\t\t\t\treturn\n\t\t\t}else{\n\t\t\t\tlet firstMember = true;\n\t\t\t\tfor(i=0;i<memberCount;i++){\n\t\t\t\t\tif(!firstMember){\n\t\t\t\t\t\tfils += ', '\n\t\t\t\t\t}\n\t\t\t\t\tfils += JSON.stringify(members[i]);\n\t\t\t\t\tfirstMember=false;\n\t\t\t\t}\n\t\t\t\treturn\n\t\t\t}\n\t\t} \n\t\telse if('exclude' in fi){\n\t\t\tfils += title + ': exclude '; \n\t\t\tlet members = fi.exclude.members;\n\t\t\tlet memberCount = members.length;\n\t\t\tif(memberCount >= maxMembersToShow){\n\t\t\t\tfils += '<too many to show>';\n\t\t\t\treturn\n\t\t\t}else{\n\t\t\t\tlet firstMember = true;\n\t\t\t\tfor(i=0;i<memberCount;i++){\n\t\t\t\t\tif(!firstMember){\n\t\t\t\t\t\tfils += ', '\n\t\t\t\t\t}\n\t\t\t\t\tfils += JSON.stringify(members[i]);\n\t\t\t\t\tfirstMember=false;\n\t\t\t\t}\n\t\t\t\treturn\n\t\t\t}  \n\t\t} \n\t\telse if('last' in fi){\n\t\t\tfils += title + ': ' + JSON.stringify(fi.last);\n\t\t\treturn \n\t\t} \n\t\telse if('next' in fi){\n\t\t\tfils += title + ': ' + JSON.stringify(fi.next);\n\t\t\treturn \n\t\t} \n\t\telse if('top' in fi){\n\t\t\tfils += 'Top ' + JSON.stringify(fi.top) + ' ' + title + JSON.stringify(fi.by.column);\n\t\t\treturn \n\t\t} \n\t\telse if('bottom' in fi){\n\t\t\tfils += 'Bottom ' + JSON.stringify(fi.bottom) + ' ' + title + JSON.stringify(fi.by.column);\n\t\t\treturn \n\t\t}\n\t\telse if('fromNotEqual' in fi){\n\t\t\tfils += title + ': not equal to ' + JSON.stringify(fi.fromNotEqual);\n\t\t\treturn \n\t\t}else {\n\t\t\tfils += title + ': value can not be displayed';\n\t\t\treturn \n\t\t}\n\t})\n\tconsole.log(fils)\n\treturn fils\n}",
+  "settings": {
+    "autoUpdateOnFiltersChange": true
+  },
+  "source": "621cc653b1af4a0036f44f07",
+  "style": {
+    "palette": {
+      "name": "Vivid",
+      "colors": [
+        "#00cee6",
+        "#9b9bd7",
+        "#6EDA55",
+        "#fc7570",
+        "#fbb755",
+        "#218A8C"
+      ]
+    }
+  },
+  "title": "Display Filter Selections",
+  "type": "dashboard",
+  "allowChangeSubscription": false,
+  "previewLayout": [],
+  "filterRelations": [],
+  "widgets": [
+    {
+      "title": "uses a dashboard script to get dashboard filters",
+      "type": "BloX",
+      "subtype": "BloX",
+      "oid": "60f6fab14f15400035b86385",
+      "desc": null,
+      "source": "621cc653b1af4a0036f44f09",
+      "datasource": {
+        "title": "Sample Retail",
+        "fullname": "LocalHost/Sample Retail",
+        "id": "aLOCALHOST_aSAMPLEIAAaRETAIL",
+        "address": "LocalHost",
+        "database": "aSampleIAAaRetail"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "Items",
+            "items": []
+          },
+          {
+            "name": "Values",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "style": {
+        "currentCard": {
+          "style": "",
+          "script": "$('#F1V').text(prism.GetFilterValues(prism.activeDashboard))",
+          "title": "",
+          "showCarousel": true,
+          "body": [
+            {
+              "type": "Container",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "spacing": "small",
+                  "id": "F1V",
+                  "text": "FILTER 1 values",
+                  "style": {
+                    "text-align": "left",
+                    "font-weight": "bold",
+                    "font-size": "12px",
+                    "margin": "10px"
+                  }
+                }
+              ]
+            }
+          ],
+          "actions": []
+        },
+        "currentConfig": {
+          "fontFamily": "Open Sans",
+          "fontSizes": {
+            "default": 14,
+            "small": 16,
+            "medium": 20,
+            "large": 50,
+            "extraLarge": 32
+          },
+          "fontWeights": {
+            "default": 500,
+            "light": 100,
+            "bold": 1000
+          },
+          "containerStyles": {
+            "default": {
+              "backgroundColor": "#ffcb05",
+              "foregroundColors": {
+                "default": {
+                  "normal": "#000000"
+                },
+                "white": {
+                  "normal": "#ffffff"
+                },
+                "grey": {
+                  "normal": "#5C6372"
+                },
+                "orange": {
+                  "normal": "#f2B900"
+                },
+                "yellow": {
+                  "normal": "#ffcb05"
+                },
+                "black": {
+                  "normal": "#000000"
+                },
+                "lightGreen": {
+                  "normal": "#3ADCCA"
+                },
+                "green": {
+                  "normal": "#54a254"
+                },
+                "red": {
+                  "normal": "#dd1111"
+                },
+                "accent": {
+                  "normal": "#2E89FC"
+                },
+                "good": {
+                  "normal": "#54a254"
+                },
+                "warning": {
+                  "normal": "#e69500"
+                },
+                "attention": {
+                  "normal": "#cc3300"
+                }
+              }
+            }
+          },
+          "imageSizes": {
+            "default": 40,
+            "small": 40,
+            "medium": 80,
+            "large": 160
+          },
+          "imageSet": {
+            "imageSize": "medium",
+            "maxImageHeight": 100
+          },
+          "actions": {
+            "color": "",
+            "backgroundColor": "white",
+            "maxActions": 5,
+            "spacing": "extraLarge",
+            "buttonSpacing": 20,
+            "actionsOrientation": "horizontal",
+            "actionAlignment": "center",
+            "showCard": {
+              "actionMode": "inline",
+              "inlineTopMargin": 16,
+              "style": "default"
+            }
+          },
+          "spacing": {
+            "default": 5,
+            "small": 20,
+            "medium": 60,
+            "large": 20,
+            "extraLarge": 40,
+            "padding": 0
+          },
+          "separator": {
+            "lineThickness": 1,
+            "lineColor": "#eeeeee"
+          },
+          "factSet": {
+            "title": {
+              "size": "default",
+              "color": "default",
+              "weight": "bold",
+              "warp": true
+            },
+            "value": {
+              "size": "default",
+              "color": "default",
+              "weight": "default",
+              "warp": true
+            },
+            "spacing": 20
+          },
+          "supportsInteractivity": true,
+          "imageBaseUrl": "",
+          "height": 47
+        },
+        "currentCardName": "default",
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": []
+        }
+      },
+      "instanceid": "8B087-807E-7E",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 4,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "drilledDashboardDisplay": {},
+      "script": "",
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": false,
+        "title": false,
+        "drillTarget": "dummy",
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true
+      },
+      "dashboardid": "60f6fa974f15400035b86382",
+      "lastOpened": null,
+      "query": {
+        "datasource": {
+          "title": "Sample Retail",
+          "fullname": "LocalHost/Sample Retail",
+          "id": "aLOCALHOST_aSAMPLEIAAaRETAIL",
+          "address": "LocalHost",
+          "database": "aSampleIAAaRetail"
+        },
+        "format": "json",
+        "isMaskedResult": true,
+        "metadata": [],
+        "m2mThresholdFlag": 0
+      }
+    }
+  ],
+  "hierarchies": []
+}

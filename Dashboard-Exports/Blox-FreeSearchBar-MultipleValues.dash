@@ -1,0 +1,1054 @@
+{
+  "oid": "63c1e0d8e764a500369aa15d",
+  "allowChangeSubscription": false,
+  "dataExploration": false,
+  "datasource": {
+    "title": "Sample ECommerce",
+    "fullname": "LocalHost/Sample ECommerce",
+    "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+    "address": "LocalHost",
+    "database": "aSampleIAAaECommerce"
+  },
+  "defaultFilterRelations": null,
+  "defaultFilters": [
+    {
+      "jaql": {
+        "table": "Country",
+        "column": "Country",
+        "dim": "[Country.Country]",
+        "datatype": "text",
+        "merged": true,
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce",
+          "lastBuildTime": "2020-06-09T15:50:07"
+        },
+        "firstday": "mon",
+        "locale": "en-us",
+        "title": "Country",
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "filter": {
+          "or": [
+            {
+              "contains": "united"
+            },
+            {
+              "contains": "republic"
+            },
+            {
+              "contains": "island"
+            }
+          ]
+        }
+      },
+      "instanceid": "46998-9661-44",
+      "isCascading": false,
+      "disabled": false
+    }
+  ],
+  "desc": "",
+  "editing": false,
+  "filterToDatasourceMapping": {},
+  "filters": [
+    {
+      "jaql": {
+        "table": "Country",
+        "column": "Country",
+        "dim": "[Country.Country]",
+        "datatype": "text",
+        "merged": true,
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce",
+          "lastBuildTime": "2020-06-09T15:50:07"
+        },
+        "firstday": "mon",
+        "locale": "en-us",
+        "title": "Country",
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "filter": {
+          "or": [
+            {
+              "contains": "united"
+            },
+            {
+              "contains": "republic"
+            },
+            {
+              "contains": "island"
+            }
+          ]
+        }
+      },
+      "instanceid": "46998-9661-44",
+      "isCascading": false,
+      "disabled": false
+    }
+  ],
+  "isPublic": null,
+  "lastOpened": null,
+  "layout": {
+    "instanceid": "67331-DC23-EC",
+    "type": "columnar",
+    "columns": [
+      {
+        "width": 100,
+        "cells": [
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "height": "108px",
+                    "defaultWidth": 128,
+                    "widgetid": "63c1e0d8e764a500369aa160"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 944,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 68,
+                    "maxHeight": 969,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "63c1e0d8e764a500369aa15e",
+                    "height": 48.9757
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 944,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 128,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": "472px",
+                    "defaultWidth": 512,
+                    "widgetid": "63c1e0d8e764a500369aa15f",
+                    "autoHeight": "472px"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 944,
+                "index": 0
+              }
+            ]
+          }
+        ],
+        "pxlWidth": 944,
+        "index": 0
+      }
+    ],
+    "container": {}
+  },
+  "original": null,
+  "parentFolder": "61c44b8583642f002bf1838b",
+  "previewLayout": [],
+  "settings": {
+    "autoUpdateOnFiltersChange": true
+  },
+  "source": "63c1e0d8e764a500369aa164",
+  "style": {
+    "palette": {
+      "name": "Vivid",
+      "colors": [
+        "#00cee6",
+        "#9b9bd7",
+        "#6EDA55",
+        "#fc7570",
+        "#fbb755",
+        "#218A8C"
+      ]
+    }
+  },
+  "title": "Blox - Free Search Bar - Multiple Values",
+  "type": "dashboard",
+  "subscription": {
+    "subscribe": false,
+    "executionPerDay": 1,
+    "schedule": "* * * * * *",
+    "isDataChange": true,
+    "type": "onUpdate",
+    "reportType": {
+      "inline": true
+    },
+    "emailSettings": {
+      "isEmail": true,
+      "isPdf": false
+    },
+    "context": {
+      "dashboardid": "63c1e0d8e764a500369aa15d"
+    },
+    "startAt": "2023-01-13",
+    "tzName": "America/New_York",
+    "timezone": 240,
+    "active": false
+  },
+  "filterRelations": [],
+  "widgets": [
+    {
+      "title": "Search Bar - Contains - OR",
+      "type": "BloX",
+      "subtype": "BloX",
+      "oid": "63c1e0d8e764a500369aa15e",
+      "desc": null,
+      "source": "63c1e0d8e764a500369aa165",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": true,
+          "ids": [
+            "6D640-4E61-C9"
+          ]
+        },
+        "panels": [
+          {
+            "name": "Items",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Country",
+                  "column": "Country",
+                  "dim": "[Country.Country]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Country"
+                },
+                "instanceid": "6A28A-2129-8A",
+                "PanelName": "Country"
+              }
+            ]
+          },
+          {
+            "name": "Values",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "currentCard": {
+          "style": {},
+          "script": "",
+          "title": "",
+          "titleStyle": [
+            {
+              "display": "show"
+            }
+          ],
+          "showCarousel": true,
+          "carouselAnimation": {
+            "showButtons": false
+          },
+          "body": [
+            {
+              "type": "Container"
+            },
+            {
+              "type": "ColumnSet",
+              "separator": false,
+              "spacing": "default",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "170px",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "size": "small",
+                      "weight": "regular",
+                      "wrap": true,
+                      "text": "Search Country",
+                      "style": {
+                        "color": "black",
+                        "padding-left": "10px",
+                        "margin-left": "10px",
+                        "backgroundColor": "white"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "spacing": "none",
+                  "width": "175px",
+                  "items": [
+                    {
+                      "type": "Container",
+                      "spacing": "none",
+                      "width": "150px",
+                      "items": [
+                        {
+                          "type": "Input.Text",
+                          "id": "data.userInput",
+                          "class": "",
+                          "title": "New Input",
+                          "placeholder": "united,republic,island"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "spacing": "none",
+                  "width": "100px",
+                  "items": [
+                    {
+                      "type": "ActionSet",
+                      "margin": "0px",
+                      "padding": "0px",
+                      "actions": [
+                        {
+                          "type": "SearchBarMultipleValues_ContainingOR",
+                          "title": "Search"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "spacing": "",
+                  "width": "80px",
+                  "items": [
+                    {
+                      "type": "ActionSet",
+                      "margin": "0px",
+                      "padding": "0px",
+                      "actions": [
+                        {
+                          "type": "SearchClear2",
+                          "title": "Clear",
+                          "style": {
+                            "color": "white",
+                            "padding-left": "10px",
+                            "margin-left": "-11px",
+                            "backgroundColor": "grey"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": []
+        },
+        "currentConfig": {
+          "fontFamily": "Open Sans",
+          "fontSizes": {
+            "default": 14,
+            "small": 16,
+            "medium": 20,
+            "large": 50,
+            "extraLarge": 32
+          },
+          "fontWeights": {
+            "default": 500,
+            "light": 100,
+            "bold": 1000
+          },
+          "containerStyles": {
+            "default": {
+              "backgroundColor": "#FFFFFF",
+              "foregroundColors": {
+                "default": {
+                  "normal": "#3a4356"
+                },
+                "white": {
+                  "normal": "#ffffff"
+                },
+                "grey": {
+                  "normal": "#9ea2ab"
+                },
+                "orange": {
+                  "normal": "#f2B900"
+                },
+                "yellow": {
+                  "normal": "#ffcb05"
+                },
+                "black": {
+                  "normal": "#000000"
+                },
+                "lightGreen": {
+                  "normal": "#3ADCCA"
+                },
+                "green": {
+                  "normal": "#54a254"
+                },
+                "red": {
+                  "normal": "#dd1111"
+                },
+                "accent": {
+                  "normal": "#2E89FC"
+                },
+                "good": {
+                  "normal": "#54a254"
+                },
+                "warning": {
+                  "normal": "#e69500"
+                },
+                "attention": {
+                  "normal": "#cc3300"
+                }
+              }
+            }
+          },
+          "imageSizes": {
+            "default": 40,
+            "small": 40,
+            "medium": 80,
+            "large": 160
+          },
+          "imageSet": {
+            "imageSize": "medium",
+            "maxImageHeight": 100
+          },
+          "actions": {
+            "color": "white",
+            "backgroundColor": "navy",
+            "maxActions": 5,
+            "spacing": "none",
+            "buttonSpacing": 20,
+            "actionsOrientation": "horizontal",
+            "actionAlignment": "left",
+            "showCard": {
+              "actionMode": "inline",
+              "inlineTopMargin": 16,
+              "style": "default"
+            }
+          },
+          "spacing": {
+            "default": 5,
+            "none": 0,
+            "small": 20,
+            "medium": 60,
+            "large": 20,
+            "extraLarge": 40,
+            "padding": 0
+          },
+          "separator": {
+            "lineThickness": 3,
+            "lineColor": "#ffcb05"
+          },
+          "factSet": {
+            "title": {
+              "size": "default",
+              "color": "default",
+              "weight": "bold",
+              "warp": true
+            },
+            "value": {
+              "size": "default",
+              "color": "default",
+              "weight": "default",
+              "warp": true
+            },
+            "spacing": 20
+          },
+          "supportsInteractivity": true,
+          "height": 48.9757,
+          "imageBaseUrl": ""
+        },
+        "currentCardName": "default",
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "country",
+              "title": "Country",
+              "singular": "Country",
+              "plural": "Country"
+            }
+          ]
+        }
+      },
+      "instanceid": "C68A3-C655-93",
+      "custom": {
+        "barcolumnchart": {
+          "type": "BloX",
+          "isTypeValid": false,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total"
+        }
+      },
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 4,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "drilledDashboardDisplay": {},
+      "displayMenu": false,
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": true,
+        "title": false,
+        "drillTarget": "dummy",
+        "autoUpdateOnEveryChange": true,
+        "triggersDomready": true
+      },
+      "dashboardid": "63c1e0d8e764a500369aa15d",
+      "wasRendered": false,
+      "query": {
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce"
+        },
+        "format": "json",
+        "isMaskedResult": true,
+        "metadata": [
+          {
+            "jaql": {
+              "table": "Country",
+              "column": "Country",
+              "dim": "[Country.Country]",
+              "datatype": "text",
+              "merged": true,
+              "title": "Country"
+            },
+            "instanceid": "6A28A-2129-8A",
+            "PanelName": "Country",
+            "handlers": []
+          }
+        ],
+        "m2mThresholdFlag": 0
+      },
+      "prevSortObjects": [],
+      "lastOpened": null,
+      "jasperReportsSettings": {}
+    },
+    {
+      "title": "Report",
+      "type": "pivot2",
+      "subtype": "pivot",
+      "oid": "63c1e0d8e764a500369aa15f",
+      "desc": null,
+      "source": "63c1e0d8e764a500369aa166",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "rows",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Country",
+                  "column": "Country",
+                  "dim": "[Country.Country]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Country"
+                },
+                "instanceid": "B508C-EE90-34",
+                "panel": "rows",
+                "field": {
+                  "id": "[Country.Country]",
+                  "index": 0
+                }
+              },
+              {
+                "jaql": {
+                  "table": "Category",
+                  "column": "Category",
+                  "dim": "[Category.Category]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Category"
+                },
+                "field": {
+                  "id": "[Category.Category]",
+                  "index": 1
+                },
+                "instanceid": "4ACA7-143D-91",
+                "panel": "rows",
+                "disabled": true
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Revenue",
+                  "dim": "[Commerce.Revenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total Revenue"
+                },
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": false,
+                      "b": false,
+                      "m": false,
+                      "k": false
+                    },
+                    "decimals": "auto",
+                    "currency": {
+                      "symbol": "$",
+                      "position": "pre"
+                    }
+                  },
+                  "color": {
+                    "type": "color",
+                    "color": "transparent"
+                  }
+                },
+                "field": {
+                  "id": "[Commerce.Revenue]_sum",
+                  "index": 2
+                },
+                "instanceid": "2CBFB-9E01-CB",
+                "panel": "measures"
+              }
+            ]
+          },
+          {
+            "name": "columns",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "pageSize": 25,
+        "automaticHeight": true,
+        "colors": {
+          "rows": true,
+          "columns": false,
+          "headers": false,
+          "members": false,
+          "totals": false
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "category",
+              "title": "Category",
+              "singular": "Category",
+              "plural": "Category"
+            },
+            {
+              "id": "country",
+              "title": "Country",
+              "singular": "Country",
+              "plural": "Country"
+            }
+          ]
+        },
+        "scroll": false
+      },
+      "instanceid": "330CB-0759-FC",
+      "custom": {
+        "barcolumnchart": {
+          "type": "pivot",
+          "isTypeValid": false,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total"
+        }
+      },
+      "displayMenu": false,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 2,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": false,
+        "triggersDomready": true,
+        "drillToAnywhere": true,
+        "autoUpdateOnEveryChange": true,
+        "interactivePivot": {
+          "enable": false
+        }
+      },
+      "dashboardid": "63c1e0d8e764a500369aa15d",
+      "script_old": null,
+      "script": null,
+      "query": {
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce"
+        },
+        "format": "pivot",
+        "grandTotals": {
+          "title": "Grand Total"
+        },
+        "metadata": [
+          {
+            "jaql": {
+              "table": "Country",
+              "column": "Country",
+              "dim": "[Country.Country]",
+              "datatype": "text",
+              "merged": true,
+              "title": "Country"
+            },
+            "instanceid": "B508C-EE90-34",
+            "panel": "rows",
+            "field": {
+              "id": "[Country.Country]",
+              "index": 0
+            },
+            "handlers": []
+          },
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Revenue",
+              "dim": "[Commerce.Revenue]",
+              "datatype": "numeric",
+              "agg": "sum",
+              "title": "Total Revenue"
+            },
+            "format": {
+              "mask": {
+                "abbreviations": {
+                  "t": false,
+                  "b": false,
+                  "m": false,
+                  "k": false
+                },
+                "decimals": "auto",
+                "currency": {
+                  "symbol": "$",
+                  "position": "pre"
+                }
+              },
+              "color": {
+                "type": "color",
+                "color": "transparent"
+              }
+            },
+            "field": {
+              "id": "[Commerce.Revenue]_sum",
+              "index": 2
+            },
+            "instanceid": "2CBFB-9E01-CB",
+            "panel": "measures",
+            "handlers": [
+              {},
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "Country",
+              "column": "Country",
+              "dim": "[Country.Country]",
+              "datatype": "text",
+              "merged": true,
+              "datasource": {
+                "title": "Sample ECommerce",
+                "fullname": "LocalHost/Sample ECommerce",
+                "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+                "address": "LocalHost",
+                "database": "aSampleIAAaECommerce",
+                "lastBuildTime": "2020-06-09T15:50:07"
+              },
+              "firstday": "mon",
+              "locale": "en-us",
+              "title": "Country",
+              "collapsed": true,
+              "isDashboardFilter": true,
+              "filter": {
+                "or": [
+                  {
+                    "contains": "united"
+                  },
+                  {
+                    "contains": "republic"
+                  },
+                  {
+                    "contains": "island"
+                  }
+                ]
+              }
+            },
+            "disabled": false,
+            "isCascading": false,
+            "instanceid": "46998-9661-44",
+            "panel": "scope"
+          }
+        ],
+        "m2mThresholdFlag": 0
+      },
+      "wasRendered": false,
+      "prevSortObjects": [],
+      "lastOpened": null
+    },
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "63c1e0d8e764a500369aa160",
+      "desc": null,
+      "source": "63c1e0d8e764a500369aa167",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "content": {
+          "html": "<div style=\"text-align: left;\"><font size=\"3\">These search bars support searching multiple values. Add all values you want to search into the search bar, separated by comma.</font></div><div style=\"text-align: left;\"><font size=\"3\">Space after comma is optional, i.e. both&nbsp;<span style=\"text-align: center;\">\"united,republic,island\" and&nbsp;</span><span style=\"text-align: center;\">\"united, republic, island\" will work.</span></font></div><div style=\"text-align: left;\"><span style=\"font-size: 15px;\">Search using Containing is case insensitive by default (Sisense OOTB behavior).</span></div><div style=\"text-align: left;\"><span style=\"font-size: 15px;\"><br></span></div><div style=\"text-align: left;\"><i style=\"font-size: 13px;\">If you have any questions, feel free to reach out to Tri (tri.anthony@sisense.com).</i><span style=\"font-size: 15px;\"><br></span></div>",
+          "vAlign": "valign-middle",
+          "bgColor": "#FFFFFF",
+          "textAlign": "center"
+        }
+      },
+      "instanceid": "F0587-24C1-F7",
+      "prevSortObjects": [],
+      "wasRendered": false,
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "dashboardid": "63c1e0d8e764a500369aa15d",
+      "lastOpened": null
+    }
+  ],
+  "hierarchies": [
+    {
+      "_id": "6453ddcc04305f0033acb309",
+      "title": "Country",
+      "alwaysIncluded": true,
+      "levels": [
+        {
+          "title": "Country",
+          "table": "Country",
+          "column": "Country",
+          "datatype": "text",
+          "dim": "[Country.Country]",
+          "index": 0,
+          "_id": "6453ddcb04305f0033acb308"
+        },
+        {
+          "title": "Category",
+          "table": "Category",
+          "column": "Category",
+          "datatype": "text",
+          "dim": "[Category.Category]",
+          "index": 1,
+          "_id": "6453ddd104305f0033acb30b"
+        },
+        {
+          "title": "Brand",
+          "table": "Brand",
+          "column": "Brand",
+          "datatype": "text",
+          "dim": "[Brand.Brand]",
+          "index": 2,
+          "_id": "6453ddd504305f0033acb30d"
+        }
+      ],
+      "cubeId": "6142d757c80a065ff5a24ccc",
+      "lastUpdated": "2024-07-22T13:59:09.440Z",
+      "serverAddress": "LocalHost",
+      "elasticubeTitle": "Sample ECommerce"
+    },
+    {
+      "_id": "5deaa26b55f2cb08c43cb908",
+      "title": "Test1",
+      "alwaysIncluded": true,
+      "levels": [
+        {
+          "title": "Category",
+          "table": "Category",
+          "column": "Category",
+          "datatype": "text",
+          "dim": "[Category.Category]",
+          "index": 0,
+          "_id": "5deaa26b55f2cb08c43cb907"
+        },
+        {
+          "title": "Brand",
+          "table": "Brand",
+          "column": "Brand",
+          "datatype": "text",
+          "dim": "[Brand.Brand]",
+          "index": 1,
+          "_id": "5deaa26f55f2cb08c43cb90a"
+        },
+        {
+          "title": "Country",
+          "table": "Country",
+          "column": "Country",
+          "datatype": "text",
+          "dim": "[Country.Country]",
+          "index": 2,
+          "_id": "5deaa27555f2cb08c43cb90c"
+        }
+      ],
+      "cubeId": "6142d757c80a065ff5a24ccc",
+      "lastUpdated": "2023-12-17T10:23:52.992Z",
+      "serverAddress": "LocalHost",
+      "elasticubeTitle": "Sample ECommerce"
+    }
+  ]
+}

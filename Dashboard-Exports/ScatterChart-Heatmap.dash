@@ -1,0 +1,419 @@
+{
+  "oid": "61bbb9ed98f8b514782a68d1",
+  "allowChangeSubscription": false,
+  "dataExploration": false,
+  "datasource": {
+    "title": "Sample ECommerce",
+    "fullname": "LocalHost/Sample ECommerce",
+    "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+    "address": "LocalHost",
+    "database": "aSampleIAAaECommerce"
+  },
+  "defaultFilters": [],
+  "desc": "",
+  "editing": false,
+  "filters": [],
+  "isPublic": null,
+  "layout": {
+    "instanceid": "E7C35-6F79-B1",
+    "type": "columnar",
+    "columns": [
+      {
+        "width": 100,
+        "cells": [
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 1028,
+                    "height": "704px",
+                    "minWidth": 48,
+                    "maxWidth": 1028,
+                    "defaultWidth": 512,
+                    "widgetid": "61bbb9ed98f8b514782a68d2"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1215,
+                "index": 0
+              }
+            ]
+          }
+        ],
+        "pxlWidth": 1215,
+        "index": 0
+      }
+    ],
+    "container": {}
+  },
+  "original": null,
+  "parentFolder": "61c44b8883642f002bf183ad",
+  "previewLayout": [],
+  "settings": {
+    "autoUpdateOnFiltersChange": true
+  },
+  "source": "61c44f6283642f002bf18f32",
+  "style": {
+    "palette": {
+      "name": "Vivid",
+      "colors": [
+        "#00cee6",
+        "#9b9bd7",
+        "#6EDA55",
+        "#fc7570",
+        "#fbb755",
+        "#218A8C"
+      ]
+    }
+  },
+  "subscription": null,
+  "title": "Scatter Chart - Heatmap",
+  "type": "dashboard",
+  "lastOpened": null,
+  "widgets": [
+    {
+      "title": "",
+      "type": "chart/scatter",
+      "subtype": "bubble/scatter",
+      "oid": "61bbb9ed98f8b514782a68d2",
+      "desc": null,
+      "source": "61c44f6283642f002bf18f34",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "x-axis",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Age Range",
+                  "dim": "[Commerce.Age Range]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Age Range"
+                }
+              }
+            ]
+          },
+          {
+            "name": "y-axis",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Category",
+                  "column": "Category",
+                  "dim": "[Category.Category]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Category"
+                }
+              }
+            ]
+          },
+          {
+            "name": "point",
+            "items": []
+          },
+          {
+            "name": "Break By / Color",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Revenue",
+                  "dim": "[Commerce.Revenue]",
+                  "datatype": "numeric",
+                  "agg": "avg",
+                  "title": "Average Revenue"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "steps": 0,
+                    "min": "#00adc1",
+                    "max": "#5cb747",
+                    "minvalue": null,
+                    "midvalue": null,
+                    "maxvalue": null,
+                    "minValueValid": true,
+                    "midValueValid": true,
+                    "maxValueValid": true,
+                    "type": "range",
+                    "rangeMode": "both"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "size",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "style": {
+        "legend": {
+          "enabled": true,
+          "position": "bottom"
+        },
+        "seriesLabels": {
+          "enabled": true,
+          "rotation": 0
+        },
+        "markerSize": {
+          "isRange": false,
+          "min": 10,
+          "max": 10,
+          "lowest": 10,
+          "highest": 60,
+          "step": 1,
+          "defaultSize": 10
+        },
+        "xAxis": {
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "isIntervalEnabled": false,
+          "hideMinMax": true,
+          "logarithmicOld": false
+        },
+        "yAxis": {
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "hideMinMax": true,
+          "isIntervalEnabled": false,
+          "logarithmicOld": false
+        },
+        "dataLimits": {
+          "categoriesCapacityX": 500,
+          "categoriesCapacityY": 500,
+          "seriesCapacity": 50
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "age_range",
+              "title": "Age Range",
+              "singular": "Age Range",
+              "plural": "Age Range"
+            },
+            {
+              "id": "category",
+              "title": "Category",
+              "singular": "Category",
+              "plural": "Category"
+            }
+          ]
+        }
+      },
+      "instanceid": "A323E-0378-49",
+      "wasRendered": false,
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "drillToAnywhere": true,
+        "previousScrollerLocation": {
+          "min": 0,
+          "max": 6
+        }
+      },
+      "dashboardid": "61bbb9ed98f8b514782a68d1",
+      "custom": {
+        "barcolumnchart": {
+          "type": "chart/scatter",
+          "isTypeValid": false,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total"
+        }
+      },
+      "displayMenu": false,
+      "script": "/*\nWelcome to your Widget's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at https://developer.sisense.com/pages/viewpage.action?pageId=557127\n*/\n\nwidget.on('beforeviewloaded',function(se,ev){\n\tev.options.chart.type='heatmap'\n})"
+    }
+  ],
+  "hierarchies": [
+    {
+      "_id": "5e1df3c7d0c67e1ae07f1b28",
+      "title": "Age Range",
+      "alwaysIncluded": true,
+      "levels": [
+        {
+          "title": "Age Range",
+          "table": "Commerce",
+          "column": "Age Range",
+          "datatype": "text",
+          "dim": "[Commerce.Age Range]",
+          "index": 0,
+          "_id": "5e1df3c7d0c67e1ae07f1b27"
+        },
+        {
+          "title": "Brand",
+          "table": "Brand",
+          "column": "Brand",
+          "datatype": "text",
+          "dim": "[Brand.Brand]",
+          "index": 1,
+          "_id": "5f7dac8d83916d210422a29f"
+        }
+      ],
+      "cubeId": "6142d757c80a065ff5a24ccc",
+      "lastUpdated": "2023-12-17T10:23:52.992Z",
+      "serverAddress": "LocalHost",
+      "elasticubeTitle": "Sample ECommerce"
+    },
+    {
+      "_id": "5cbefc68bbb1712fe8ef043c",
+      "title": "Age Range (1)",
+      "alwaysIncluded": true,
+      "levels": [
+        {
+          "title": "Age Range",
+          "table": "Commerce",
+          "column": "Age Range",
+          "datatype": "text",
+          "dim": "[Commerce.Age Range]",
+          "index": 0,
+          "_id": "5cbefc68bbb1712fe8ef043b"
+        },
+        {
+          "title": "Gender",
+          "table": "Commerce",
+          "column": "Gender",
+          "datatype": "text",
+          "dim": "[Commerce.Gender]",
+          "index": 1,
+          "_id": "5cbefc6cbbb1712fe8ef043e"
+        }
+      ],
+      "cubeId": "6142d757c80a065ff5a24ccc",
+      "lastUpdated": "2023-12-17T10:23:52.992Z",
+      "serverAddress": "LocalHost",
+      "elasticubeTitle": "Sample ECommerce"
+    },
+    {
+      "_id": "5d6796518cb5d40ab82aa918",
+      "title": "Age Range (1)",
+      "alwaysIncluded": true,
+      "levels": [
+        {
+          "title": "Age Range",
+          "table": "Commerce",
+          "column": "Age Range",
+          "datatype": "text",
+          "dim": "[Commerce.Age Range]",
+          "index": 0,
+          "_id": "5d6796518cb5d40ab82aa917"
+        },
+        {
+          "title": "Cost",
+          "table": "Commerce",
+          "column": "Cost",
+          "datatype": "numeric",
+          "dim": "[Commerce.Cost]",
+          "index": 1,
+          "_id": "5d6796558cb5d40ab82aa91a"
+        }
+      ],
+      "cubeId": "6142d757c80a065ff5a24ccc",
+      "lastUpdated": "2023-12-17T10:23:52.992Z",
+      "serverAddress": "LocalHost",
+      "elasticubeTitle": "Sample ECommerce"
+    },
+    {
+      "_id": "5deaa26b55f2cb08c43cb908",
+      "title": "Test1",
+      "alwaysIncluded": true,
+      "levels": [
+        {
+          "title": "Category",
+          "table": "Category",
+          "column": "Category",
+          "datatype": "text",
+          "dim": "[Category.Category]",
+          "index": 0,
+          "_id": "5deaa26b55f2cb08c43cb907"
+        },
+        {
+          "title": "Brand",
+          "table": "Brand",
+          "column": "Brand",
+          "datatype": "text",
+          "dim": "[Brand.Brand]",
+          "index": 1,
+          "_id": "5deaa26f55f2cb08c43cb90a"
+        },
+        {
+          "title": "Country",
+          "table": "Country",
+          "column": "Country",
+          "datatype": "text",
+          "dim": "[Country.Country]",
+          "index": 2,
+          "_id": "5deaa27555f2cb08c43cb90c"
+        }
+      ],
+      "cubeId": "6142d757c80a065ff5a24ccc",
+      "lastUpdated": "2023-12-17T10:23:52.992Z",
+      "serverAddress": "LocalHost",
+      "elasticubeTitle": "Sample ECommerce"
+    }
+  ]
+}

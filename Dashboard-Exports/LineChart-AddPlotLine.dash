@@ -1,0 +1,976 @@
+{
+  "oid": "61bbb9c598f8b514782a67fd",
+  "allowChangeSubscription": false,
+  "datasource": {
+    "title": "Sample ECommerce",
+    "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+    "address": "LocalHost",
+    "database": "aSampleIAAaECommerce"
+  },
+  "defaultFilters": null,
+  "desc": "",
+  "editing": false,
+  "isPublic": null,
+  "layout": {
+    "columns": [
+      {
+        "width": 100,
+        "cells": [
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 25,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "height": "28px",
+                    "defaultWidth": 128,
+                    "widgetid": "61bbb9c598f8b514782a6801"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1212,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 96,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": 384,
+                    "defaultWidth": 512,
+                    "widgetid": "61bbb9c598f8b514782a67fe"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1215,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 96,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": 384,
+                    "defaultWidth": 512,
+                    "widgetid": "61bbb9c598f8b514782a67ff"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1215,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "widgetid": "61bbb9c598f8b514782a6800",
+                    "height": 384,
+                    "minHeight": 96,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1215,
+                "index": 0
+              }
+            ]
+          }
+        ],
+        "pxlWidth": 1215,
+        "index": 0
+      }
+    ],
+    "type": "columnar",
+    "instanceid": "E288C-05F4-A8",
+    "container": {
+      "sizzle-1586367579308": {
+        "parentNode": [
+          "100 20",
+          3
+        ]
+      }
+    }
+  },
+  "original": null,
+  "parentFolder": "61c44b8883642f002bf183a7",
+  "previewLayout": [],
+  "script": "/*\n\nWelcome to your Dashboard's Script. \n\n\n\n\t- You can access your Dashboard by accessing the 'dashboard' variable name.\n\n\t- You can access your Dashboard's DOM via the 'element' variable name (undefined until DOM creation).\n\n\n\n\t- For a complete API reference for Widgets and Dashboards go here: https://docs.google.com/document/d/1nQBZtWAdNFAd9nBhPWGVT3qOMS4Qm0PzBZVIzz5DfE8/\n\n*/\n\n\n               ",
+  "source": "61c44f1e83642f002bf18b1d",
+  "style": {
+    "palette": {
+      "name": "Vivid",
+      "colors": [
+        "#00cee6",
+        "#9b9bd7",
+        "#6EDA55",
+        "#fc7570",
+        "#fbb755",
+        "#218A8C"
+      ]
+    }
+  },
+  "subscription": null,
+  "title": "Line Chart - Add Plot Line",
+  "type": "dashboard",
+  "lastOpened": null,
+  "settings": {
+    "autoUpdateOnFiltersChange": true
+  },
+  "widgets": [
+    {
+      "title": "Cost vs. Revenues",
+      "type": "chart/scatter",
+      "subtype": "bubble/scatter",
+      "oid": "61bbb9c598f8b514782a67fe",
+      "desc": null,
+      "source": "61c4518883642f002bf19287",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "x-axis",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "sum([FC473-0B3]) - [C3A5E-02A] ",
+                  "context": {
+                    "[C3A5E-02A]": {
+                      "table": "Commerce",
+                      "column": "Cost",
+                      "dim": "[Commerce.Cost]",
+                      "datatype": "numeric",
+                      "agg": "sum",
+                      "title": "Total Cost"
+                    },
+                    "[FC473-0B3]": {
+                      "table": "Commerce",
+                      "column": "Revenue",
+                      "dim": "[Commerce.Revenue]",
+                      "datatype": "numeric",
+                      "title": "Revenue"
+                    }
+                  },
+                  "title": "Cost"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color_bkp": {
+                    "color": "#00cee6",
+                    "type": "color"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "y-axis",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "sum([EB9C0-A31]) - [CBCEE-A14] ",
+                  "context": {
+                    "[CBCEE-A14]": {
+                      "table": "Commerce",
+                      "column": "Cost",
+                      "dim": "[Commerce.Cost]",
+                      "datatype": "numeric",
+                      "agg": "sum",
+                      "title": "Total Cost"
+                    },
+                    "[EB9C0-A31]": {
+                      "table": "Commerce",
+                      "column": "Revenue",
+                      "dim": "[Commerce.Revenue]",
+                      "datatype": "numeric",
+                      "title": "Revenue"
+                    }
+                  },
+                  "title": "Revenue"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "point",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Quantity",
+                  "dim": "[Commerce.Quantity]",
+                  "datatype": "numeric",
+                  "title": "Quantity"
+                }
+              }
+            ]
+          },
+          {
+            "name": "Break By / Color",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Age Range",
+                  "dim": "[Commerce.Age Range]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Age Range"
+                },
+                "format": {
+                  "members": {
+                    "0-18": {
+                      "color": "#00cee6",
+                      "title": "0-18",
+                      "inResultset": true
+                    },
+                    "19-24": {
+                      "color": "#9b9bd7",
+                      "title": "19-24",
+                      "inResultset": true
+                    },
+                    "25-34": {
+                      "color": "#6EDA55",
+                      "title": "25-34",
+                      "inResultset": true
+                    },
+                    "35-44": {
+                      "color": "#fc7570",
+                      "title": "35-44",
+                      "inResultset": true
+                    },
+                    "45-54": {
+                      "color": "#fbb755",
+                      "title": "45-54",
+                      "inResultset": true
+                    },
+                    "55-64": {
+                      "color": "#218A8C",
+                      "title": "55-64",
+                      "inResultset": true
+                    },
+                    "65+": {
+                      "color": "#06e5ff",
+                      "title": "65+",
+                      "inResultset": true
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "size",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Visit ID",
+                  "dim": "[Commerce.Visit ID]",
+                  "datatype": "numeric",
+                  "agg": "countduplicates",
+                  "title": "# of Visit ID"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "sum([EB9C0-A31]) - [CBCEE-A14] ",
+                  "context": {
+                    "[CBCEE-A14]": {
+                      "table": "Commerce",
+                      "column": "Cost",
+                      "dim": "[Commerce.Cost]",
+                      "datatype": "numeric",
+                      "agg": "sum",
+                      "title": "Total Cost"
+                    },
+                    "[EB9C0-A31]": {
+                      "table": "Commerce",
+                      "column": "Revenue",
+                      "dim": "[Commerce.Revenue]",
+                      "datatype": "numeric",
+                      "title": "Revenue"
+                    }
+                  },
+                  "title": "Revenue",
+                  "filter": {
+                    "fromNotEqual": -7513888.85002
+                  },
+                  "collapsed": false
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  }
+                },
+                "title": "Revenue"
+              }
+            ]
+          }
+        ]
+      },
+      "dashboardid": "61bbb9c598f8b514782a67fd",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill_",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": true,
+        "hideDrilledDashboards": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to dashboard",
+        "drillToDashboardNavigateType": 1,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 1
+      },
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "triggersDomready": true
+      },
+      "script": "/*\n\nWelcome to your Widget's Script. \n\n\n\n\t- You can access your Widget via the 'widget' variable name.\n\n\t- You can access your Widget's DOM via the 'element' variable name (undefined until DOM creation).\n\n\t- You can access your Dashboard by accessing the 'dashboard' variable name.\n\n\n\n\t- For a complete API reference for Widgets and Dashboards go here: https://docs.google.com/document/d/1nQBZtWAdNFAd9nBhPWGVT3qOMS4Qm0PzBZVIzz5DfE8/\n\n*/\n\nwidget.on(\"processresult\", function (widget, args){\n\targs.result.xAxis.plotLines = [{\n            color: '#E0E0E0',\n            width: 5,\n            value: 0}];\n\targs.result.yAxis[0].plotLines = [{\n            color: '#E0E0E0',\n            width: 5,\n            value: 0}];\n});",
+      "style": {
+        "legend": {
+          "enabled": true,
+          "position": "bottom"
+        },
+        "seriesLabels": {
+          "enabled": false,
+          "rotation": 0
+        },
+        "markerSize": {
+          "min": 10,
+          "max": 60
+        },
+        "xAxis": {
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "gridLines": false,
+          "logarithmic": false
+        },
+        "yAxis": {
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "gridLines": false,
+          "logarithmic": false,
+          "logarithmicOld": false
+        },
+        "dataLimits": {
+          "categoriesCapacityX": 500,
+          "categoriesCapacityY": 500,
+          "seriesCapacity": 50
+        }
+      }
+    },
+    {
+      "title": "Orders Quantity",
+      "type": "chart/line",
+      "subtype": "line/basic",
+      "oid": "61bbb9c598f8b514782a67ff",
+      "desc": null,
+      "source": "61c4518883642f002bf19288",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "x-axis",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Quantity",
+                  "dim": "[Commerce.Quantity]",
+                  "datatype": "numeric",
+                  "title": "Quantity"
+                }
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Revenue",
+                  "dim": "[Commerce.Revenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total Revenue"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "color": "#00cee6",
+                    "type": "color"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "break by",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Date",
+                  "dim": "[Commerce.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "months",
+                  "title": "Years in Date",
+                  "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                  },
+                  "collapsed": false
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "days": "shortDate",
+                    "isdefault": true
+                  }
+                },
+                "title": "Years in Date"
+              }
+            ]
+          }
+        ]
+      },
+      "dashboardid": "61bbb9c598f8b514782a67fd",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill_",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": true,
+        "hideDrilledDashboards": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to dashboard",
+        "drillToDashboardNavigateType": 1,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 1
+      },
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "triggersDomready": true
+      },
+      "script": "/*\n\nWelcome to your Widget's Script. \n\n\n\n\t- You can access your Widget via the 'widget' variable name.\n\n\t- You can access your Widget's DOM via the 'element' variable name (undefined until DOM creation).\n\n\t- You can access your Dashboard by accessing the 'dashboard' variable name.\n\n\n\n\t- For a complete API reference for Widgets and Dashboards go here: https://docs.google.com/document/d/1nQBZtWAdNFAd9nBhPWGVT3qOMS4Qm0PzBZVIzz5DfE8/\n\n*/\n\nwidget.on(\"processresult\", function (widget, args){\n   args.result.xAxis.plotBands = [{\n              color: '#E0E0E0',\n              from: '15',\n              to: '22' }];\n});",
+      "style": {
+        "lineWidth": {
+          "width": "bold"
+        },
+        "legend": {
+          "enabled": false,
+          "position": "bottom"
+        },
+        "seriesLabels": {
+          "enabled": false,
+          "rotation": 0
+        },
+        "markers": {
+          "enabled": false,
+          "fill": "filled",
+          "size": "small"
+        },
+        "xAxis": {
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "gridLines": false
+        },
+        "yAxis": {
+          "inactive": false,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "gridLines": false,
+          "logarithmic": false
+        },
+        "y2Axis": {
+          "inactive": true,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "gridLines": false,
+          "logarithmic": false
+        },
+        "navigator": {
+          "enabled": true
+        },
+        "dataLimits": {
+          "seriesCapacity": 50,
+          "categoriesCapacity": 100000
+        }
+      }
+    },
+    {
+      "title": "Age Range",
+      "type": "chart/column",
+      "subtype": "column/classic",
+      "oid": "61bbb9c598f8b514782a6800",
+      "desc": null,
+      "source": "61c4518883642f002bf19289",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "categories",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Age Range",
+                  "dim": "[Commerce.Age Range]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Age Range"
+                }
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Revenue",
+                  "dim": "[Commerce.Revenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total Revenue"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "color": "#00cee6",
+                    "type": "color"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "break by",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Date",
+                  "dim": "[Commerce.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "months",
+                  "title": "Years in Date",
+                  "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                  },
+                  "collapsed": false
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "days": "shortDate",
+                    "isdefault": true
+                  }
+                },
+                "title": "Years in Date"
+              }
+            ]
+          }
+        ]
+      },
+      "dashboardid": "61bbb9c598f8b514782a67fd",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill_",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": true,
+        "hideDrilledDashboards": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to dashboard",
+        "drillToDashboardNavigateType": 1,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 1
+      },
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "triggersDomready": true
+      },
+      "script": "/*\n\nWelcome to your Widget's Script. \n\n\n\n\t- You can access your Widget via the 'widget' variable name.\n\n\t- You can access your Widget's DOM via the 'element' variable name (undefined until DOM creation).\n\n\t- You can access your Dashboard by accessing the 'dashboard' variable name.\n\n\n\n\t- For a complete API reference for Widgets and Dashboards go here: https://docs.google.com/document/d/1nQBZtWAdNFAd9nBhPWGVT3qOMS4Qm0PzBZVIzz5DfE8/\n\n*/\n\n\nwidget.on('beforeviewloaded', function(widget, ev){\n\tev.options.xAxis.plotLines = [{\n            color: 'red',\n            width: 10,\n            value: 2}];\n\t\n\tev.options.xAxis.plotBands = [{\n            color: 'blue',\n\t\t\tfrom: 4, \n\t\t\tto:5}];;\n});\n\n",
+      "style": {
+        "legend": {
+          "enabled": false,
+          "position": "bottom"
+        },
+        "seriesLabels": {
+          "enabled": false,
+          "rotation": 0
+        },
+        "xAxis": {
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "gridLines": false
+        },
+        "yAxis": {
+          "inactive": false,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "gridLines": false,
+          "logarithmic": false
+        },
+        "y2Axis": {
+          "inactive": true,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "gridLines": false,
+          "logarithmic": false
+        },
+        "navigator": {
+          "enabled": true
+        },
+        "dataLimits": {
+          "seriesCapacity": 50,
+          "categoriesCapacity": 100000
+        },
+        "lineWidth": {
+          "width": "bold"
+        },
+        "markers": {
+          "enabled": false,
+          "fill": "filled",
+          "size": "small"
+        }
+      }
+    },
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "61bbb9c598f8b514782a6801",
+      "desc": null,
+      "source": "61c4518883642f002bf1928a",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": []
+      },
+      "style": {
+        "content": {
+          "html": "<font size=\"5\"><div style=\"text-align: left;\">Please review documentation&nbsp;<a href=\"https://support.sisense.com/hc/en-us/community/posts/221227648-Adding-Plot-Lines-to-Chart\">here</a></div></font>",
+          "vAlign": "valign-middle",
+          "bgColor": "#FFFFFF",
+          "textAlign": "center"
+        }
+      },
+      "instanceid": "64C37-11A1-A3",
+      "wasRendered": false,
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "dashboardid": "61bbb9c598f8b514782a67fd"
+    }
+  ],
+  "hierarchies": [
+    {
+      "_id": "5e1df3c7d0c67e1ae07f1b28",
+      "title": "Age Range",
+      "alwaysIncluded": true,
+      "levels": [
+        {
+          "title": "Age Range",
+          "table": "Commerce",
+          "column": "Age Range",
+          "datatype": "text",
+          "dim": "[Commerce.Age Range]",
+          "index": 0,
+          "_id": "5e1df3c7d0c67e1ae07f1b27"
+        },
+        {
+          "title": "Brand",
+          "table": "Brand",
+          "column": "Brand",
+          "datatype": "text",
+          "dim": "[Brand.Brand]",
+          "index": 1,
+          "_id": "5f7dac8d83916d210422a29f"
+        }
+      ],
+      "cubeId": "6142d757c80a065ff5a24ccc",
+      "lastUpdated": "2023-12-17T10:23:52.992Z",
+      "serverAddress": "LocalHost",
+      "elasticubeTitle": "Sample ECommerce"
+    },
+    {
+      "_id": "5cbefc68bbb1712fe8ef043c",
+      "title": "Age Range (1)",
+      "alwaysIncluded": true,
+      "levels": [
+        {
+          "title": "Age Range",
+          "table": "Commerce",
+          "column": "Age Range",
+          "datatype": "text",
+          "dim": "[Commerce.Age Range]",
+          "index": 0,
+          "_id": "5cbefc68bbb1712fe8ef043b"
+        },
+        {
+          "title": "Gender",
+          "table": "Commerce",
+          "column": "Gender",
+          "datatype": "text",
+          "dim": "[Commerce.Gender]",
+          "index": 1,
+          "_id": "5cbefc6cbbb1712fe8ef043e"
+        }
+      ],
+      "cubeId": "6142d757c80a065ff5a24ccc",
+      "lastUpdated": "2023-12-17T10:23:52.992Z",
+      "serverAddress": "LocalHost",
+      "elasticubeTitle": "Sample ECommerce"
+    },
+    {
+      "_id": "5d6796518cb5d40ab82aa918",
+      "title": "Age Range (1)",
+      "alwaysIncluded": true,
+      "levels": [
+        {
+          "title": "Age Range",
+          "table": "Commerce",
+          "column": "Age Range",
+          "datatype": "text",
+          "dim": "[Commerce.Age Range]",
+          "index": 0,
+          "_id": "5d6796518cb5d40ab82aa917"
+        },
+        {
+          "title": "Cost",
+          "table": "Commerce",
+          "column": "Cost",
+          "datatype": "numeric",
+          "dim": "[Commerce.Cost]",
+          "index": 1,
+          "_id": "5d6796558cb5d40ab82aa91a"
+        }
+      ],
+      "cubeId": "6142d757c80a065ff5a24ccc",
+      "lastUpdated": "2023-12-17T10:23:52.992Z",
+      "serverAddress": "LocalHost",
+      "elasticubeTitle": "Sample ECommerce"
+    }
+  ]
+}

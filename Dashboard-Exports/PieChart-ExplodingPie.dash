@@ -1,0 +1,1594 @@
+{
+  "oid": "6246c9f6da957a0037bb1788",
+  "dataExploration": false,
+  "datasource": {
+    "fullname": "localhost/Sample Retail",
+    "id": "localhost_aSampleIAAaRetail",
+    "address": "LocalHost",
+    "database": "aSampleIAAaRetail",
+    "live": false,
+    "title": "Sample Retail"
+  },
+  "defaultFilters": [
+    {
+      "jaql": {
+        "datatype": "text",
+        "dim": "[DimCountries.CountryName]",
+        "title": "CountryName",
+        "column": "CountryName",
+        "table": "DimCountries",
+        "datasource": {
+          "fullname": "localhost/Sample Retail",
+          "id": "localhost_aSampleIAAaRetail",
+          "address": "LocalHost",
+          "database": "aSampleIAAaRetail",
+          "live": false,
+          "title": "Sample Retail"
+        },
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "filter": {
+          "explicit": true,
+          "multiSelection": true,
+          "members": [],
+          "all": true
+        }
+      },
+      "instanceid": "37C4A-5E69-9A",
+      "isCascading": false,
+      "disabled": false
+    }
+  ],
+  "desc": "",
+  "editing": false,
+  "filterToDatasourceMapping": {},
+  "filters": [
+    {
+      "jaql": {
+        "datatype": "text",
+        "dim": "[DimCountries.CountryName]",
+        "title": "CountryName",
+        "column": "CountryName",
+        "table": "DimCountries",
+        "datasource": {
+          "fullname": "localhost/Sample Retail",
+          "id": "localhost_aSampleIAAaRetail",
+          "address": "LocalHost",
+          "database": "aSampleIAAaRetail",
+          "live": false,
+          "title": "Sample Retail"
+        },
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "merged": true,
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "37C4A-5E69-9A",
+      "isCascading": false,
+      "disabled": false
+    }
+  ],
+  "lastOpened": null,
+  "layout": {
+    "instanceid": "9F2F9-710B-3D",
+    "type": "columnar",
+    "columns": [
+      {
+        "width": 100,
+        "cells": [
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 102,
+                    "maxHeight": 1024,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": "92px",
+                    "defaultWidth": 512,
+                    "widgetid": "6246caf3da957a0037bb179c"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1443,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 96,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": "440px",
+                    "defaultWidth": 512,
+                    "widgetid": "6246ca5eda957a0037bb178b"
+                  }
+                ],
+                "width": 50,
+                "stretchable": false,
+                "pxlWidth": 721.5,
+                "index": 0
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 96,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "6246ca73da957a0037bb178f",
+                    "height": "440px"
+                  }
+                ],
+                "width": 50,
+                "stretchable": false,
+                "pxlWidth": 721.5,
+                "index": 1
+              }
+            ]
+          }
+        ],
+        "pxlWidth": 1443,
+        "index": 0
+      }
+    ],
+    "container": {}
+  },
+  "original": null,
+  "parentFolder": "61c44b8883642f002bf183a9",
+  "settings": {
+    "autoUpdateOnFiltersChange": true
+  },
+  "source": "6246c9f6da957a0037bb1789",
+  "style": {
+    "palette": {
+      "name": "Vivid",
+      "colors": [
+        "#00cee6",
+        "#9b9bd7",
+        "#6EDA55",
+        "#fc7570",
+        "#fbb755",
+        "#218A8C"
+      ]
+    }
+  },
+  "title": "Pie Chart - Exploding Pie",
+  "type": "dashboard",
+  "allowChangeSubscription": false,
+  "subscription": {
+    "isDataChange": true,
+    "type": "onUpdate",
+    "schedule": "* * * * * *",
+    "timezone": -180,
+    "tzName": "Asia/Jerusalem",
+    "context": {
+      "dashboardid": "6246c9f6da957a0037bb1788"
+    },
+    "active": false,
+    "executionPerDay": 1,
+    "reportType": {
+      "inline": true
+    },
+    "emailSettings": {
+      "isEmail": true,
+      "isPdf": false
+    },
+    "startAt": "2022-05-26"
+  },
+  "isPublic": null,
+  "previewLayout": [],
+  "filterRelations": [],
+  "widgets": [
+    {
+      "title": "",
+      "type": "chart/pie",
+      "subtype": "pie/donut",
+      "oid": "6246ca5eda957a0037bb178b",
+      "desc": null,
+      "source": "6246ca5eda957a0037bb178c",
+      "datasource": {
+        "fullname": "localhost/Sample Retail",
+        "id": "localhost_aSampleIAAaRetail",
+        "address": "LocalHost",
+        "database": "aSampleIAAaRetail",
+        "live": false,
+        "title": "Sample Retail"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "categories",
+            "items": [
+              {
+                "jaql": {
+                  "table": "DimCountries",
+                  "column": "CountryName",
+                  "dim": "[DimCountries.CountryName]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "CountryName"
+                },
+                "instanceid": "3F945-E69E-D9",
+                "format": {
+                  "members": {
+                    "Alabama": {
+                      "color": "#00cee6",
+                      "title": "Alabama",
+                      "sortData": "Alabama"
+                    },
+                    "Alaska": {
+                      "color": "#9b9bd7",
+                      "title": "Alaska",
+                      "sortData": "Alaska",
+                      "inResultset": true
+                    },
+                    "American Samoa": {
+                      "color": "#6EDA55",
+                      "title": "American Samoa",
+                      "sortData": "American Samoa",
+                      "inResultset": true
+                    },
+                    "Arizona": {
+                      "color": "#fc7570",
+                      "title": "Arizona",
+                      "sortData": "Arizona"
+                    },
+                    "Arkansas": {
+                      "color": "#fbb755",
+                      "title": "Arkansas",
+                      "sortData": "Arkansas"
+                    },
+                    "Austria": {
+                      "color": "#218A8C",
+                      "title": "Austria",
+                      "sortData": "Austria"
+                    },
+                    "Belgium": {
+                      "color": "#06e5ff",
+                      "title": "Belgium",
+                      "sortData": "Belgium"
+                    },
+                    "Bulgaria": {
+                      "color": "#b2b2f7",
+                      "title": "Bulgaria",
+                      "sortData": "Bulgaria"
+                    },
+                    "California": {
+                      "color": "#7efb62",
+                      "title": "California",
+                      "sortData": "California",
+                      "inResultset": true
+                    },
+                    "Colorado": {
+                      "color": "#ff8a86",
+                      "title": "Colorado",
+                      "sortData": "Colorado"
+                    },
+                    "Connecticut": {
+                      "color": "#ffc26a",
+                      "title": "Connecticut",
+                      "sortData": "Connecticut"
+                    },
+                    "Croatia": {
+                      "color": "#269fa1",
+                      "title": "Croatia",
+                      "sortData": "Croatia"
+                    },
+                    "Cyprus": {
+                      "color": "#00cee6",
+                      "title": "Cyprus",
+                      "sortData": "Cyprus"
+                    },
+                    "Czech Republic": {
+                      "color": "#9b9bd7",
+                      "title": "Czech Republic",
+                      "sortData": "Czech Republic"
+                    },
+                    "Delaware": {
+                      "color": "#6eda55",
+                      "title": "Delaware",
+                      "sortData": "Delaware"
+                    },
+                    "Denmark": {
+                      "color": "#fc7570",
+                      "title": "Denmark",
+                      "sortData": "Denmark"
+                    },
+                    "Dist%46 of Columbia": {
+                      "color": "#fbb755",
+                      "title": "Dist. of Columbia",
+                      "sortData": "Dist. of Columbia"
+                    },
+                    "Finland": {
+                      "color": "#218a8c",
+                      "title": "Finland",
+                      "sortData": "Finland"
+                    },
+                    "Florida": {
+                      "color": "#06e5ff",
+                      "title": "Florida",
+                      "sortData": "Florida"
+                    },
+                    "France": {
+                      "color": "#b2b2f7",
+                      "title": "France",
+                      "sortData": "France"
+                    },
+                    "Georgia": {
+                      "color": "#7efb62",
+                      "title": "Georgia",
+                      "sortData": "Georgia"
+                    },
+                    "Germany": {
+                      "color": "#ff8a86",
+                      "title": "Germany",
+                      "sortData": "Germany"
+                    },
+                    "Greece": {
+                      "color": "#ffc26a",
+                      "title": "Greece",
+                      "sortData": "Greece"
+                    },
+                    "Guam": {
+                      "color": "#269fa1",
+                      "title": "Guam",
+                      "sortData": "Guam"
+                    },
+                    "Idaho": {
+                      "color": "#00cee6",
+                      "title": "Idaho",
+                      "sortData": "Idaho"
+                    },
+                    "Indiana": {
+                      "color": "#9b9bd7",
+                      "title": "Indiana",
+                      "sortData": "Indiana"
+                    },
+                    "Iowa": {
+                      "color": "#6eda55",
+                      "title": "Iowa",
+                      "sortData": "Iowa"
+                    },
+                    "Ireland": {
+                      "color": "#fc7570",
+                      "title": "Ireland",
+                      "sortData": "Ireland"
+                    },
+                    "Italy": {
+                      "color": "#fbb755",
+                      "title": "Italy",
+                      "sortData": "Italy"
+                    },
+                    "Kansas": {
+                      "color": "#218a8c",
+                      "title": "Kansas",
+                      "sortData": "Kansas"
+                    },
+                    "Kentucky": {
+                      "color": "#06e5ff",
+                      "title": "Kentucky",
+                      "sortData": "Kentucky"
+                    },
+                    "Latvia": {
+                      "color": "#b2b2f7",
+                      "title": "Latvia",
+                      "sortData": "Latvia"
+                    },
+                    "Louisiana": {
+                      "color": "#7efb62",
+                      "title": "Louisiana",
+                      "sortData": "Louisiana"
+                    },
+                    "Luxembourg": {
+                      "color": "#ff8a86",
+                      "title": "Luxembourg",
+                      "sortData": "Luxembourg"
+                    },
+                    "Malta": {
+                      "color": "#ffc26a",
+                      "title": "Malta",
+                      "sortData": "Malta"
+                    },
+                    "Marshall Islands": {
+                      "color": "#269fa1",
+                      "title": "Marshall Islands",
+                      "sortData": "Marshall Islands"
+                    },
+                    "Maryland": {
+                      "color": "#00cee6",
+                      "title": "Maryland",
+                      "sortData": "Maryland"
+                    },
+                    "Massachusetts": {
+                      "color": "#9b9bd7",
+                      "title": "Massachusetts",
+                      "sortData": "Massachusetts"
+                    },
+                    "Michigan": {
+                      "color": "#6eda55",
+                      "title": "Michigan",
+                      "sortData": "Michigan"
+                    },
+                    "Micronesia": {
+                      "color": "#fc7570",
+                      "title": "Micronesia",
+                      "sortData": "Micronesia"
+                    },
+                    "Minnesota": {
+                      "color": "#fbb755",
+                      "title": "Minnesota",
+                      "sortData": "Minnesota"
+                    },
+                    "Mississippi": {
+                      "color": "#218a8c",
+                      "title": "Mississippi",
+                      "sortData": "Mississippi"
+                    },
+                    "Missouri": {
+                      "color": "#06e5ff",
+                      "title": "Missouri",
+                      "sortData": "Missouri"
+                    },
+                    "Montana": {
+                      "color": "#b2b2f7",
+                      "title": "Montana",
+                      "sortData": "Montana"
+                    },
+                    "Nebraska": {
+                      "color": "#7efb62",
+                      "title": "Nebraska",
+                      "sortData": "Nebraska"
+                    },
+                    "Netherlands": {
+                      "color": "#ff8a86",
+                      "title": "Netherlands",
+                      "sortData": "Netherlands"
+                    },
+                    "Nevada": {
+                      "color": "#ffc26a",
+                      "title": "Nevada",
+                      "sortData": "Nevada"
+                    },
+                    "New Hampshire": {
+                      "color": "#269fa1",
+                      "title": "New Hampshire",
+                      "sortData": "New Hampshire"
+                    },
+                    "New Mexico": {
+                      "color": "#00cee6",
+                      "title": "New Mexico",
+                      "sortData": "New Mexico"
+                    },
+                    "New York": {
+                      "color": "#9b9bd7",
+                      "title": "New York",
+                      "sortData": "New York"
+                    },
+                    "North Carolina": {
+                      "color": "#6eda55",
+                      "title": "North Carolina",
+                      "sortData": "North Carolina",
+                      "inResultset": true
+                    },
+                    "North Dakota": {
+                      "color": "#fc7570",
+                      "title": "North Dakota",
+                      "sortData": "North Dakota"
+                    },
+                    "Northern Marianas": {
+                      "color": "#fbb755",
+                      "title": "Northern Marianas",
+                      "sortData": "Northern Marianas"
+                    },
+                    "N\\A": {
+                      "color": "#218a8c",
+                      "title": "N\\A",
+                      "sortData": "N\\A"
+                    },
+                    "Ohio": {
+                      "color": "#06e5ff",
+                      "title": "Ohio",
+                      "sortData": "Ohio"
+                    },
+                    "Oklahoma": {
+                      "color": "#b2b2f7",
+                      "title": "Oklahoma",
+                      "sortData": "Oklahoma"
+                    },
+                    "Oregon": {
+                      "color": "#7efb62",
+                      "title": "Oregon",
+                      "sortData": "Oregon"
+                    },
+                    "Palau": {
+                      "color": "#ff8a86",
+                      "title": "Palau",
+                      "sortData": "Palau"
+                    },
+                    "Pennsylvania": {
+                      "color": "#ffc26a",
+                      "title": "Pennsylvania",
+                      "sortData": "Pennsylvania"
+                    },
+                    "Poland": {
+                      "color": "#269fa1",
+                      "title": "Poland",
+                      "sortData": "Poland"
+                    },
+                    "Portugal": {
+                      "color": "#00cee6",
+                      "title": "Portugal",
+                      "sortData": "Portugal",
+                      "inResultset": true
+                    },
+                    "Rhode Island": {
+                      "color": "#9b9bd7",
+                      "title": "Rhode Island",
+                      "sortData": "Rhode Island"
+                    },
+                    "Romania": {
+                      "color": "#6eda55",
+                      "title": "Romania",
+                      "sortData": "Romania"
+                    },
+                    "Slovakia": {
+                      "color": "#fc7570",
+                      "title": "Slovakia",
+                      "sortData": "Slovakia"
+                    },
+                    "Slovenia": {
+                      "color": "#fbb755",
+                      "title": "Slovenia",
+                      "sortData": "Slovenia",
+                      "inResultset": true
+                    },
+                    "South Carolina": {
+                      "color": "#218a8c",
+                      "title": "South Carolina",
+                      "sortData": "South Carolina",
+                      "inResultset": true
+                    },
+                    "South Dakota": {
+                      "color": "#06e5ff",
+                      "title": "South Dakota",
+                      "sortData": "South Dakota"
+                    },
+                    "Spain": {
+                      "color": "#b2b2f7",
+                      "title": "Spain",
+                      "sortData": "Spain"
+                    },
+                    "Sweden": {
+                      "color": "#7efb62",
+                      "title": "Sweden",
+                      "sortData": "Sweden",
+                      "inResultset": true
+                    },
+                    "Tennessee": {
+                      "color": "#ff8a86",
+                      "title": "Tennessee",
+                      "sortData": "Tennessee"
+                    },
+                    "Texas": {
+                      "color": "#ffc26a",
+                      "title": "Texas",
+                      "sortData": "Texas"
+                    },
+                    "United Kingdom": {
+                      "color": "#269fa1",
+                      "title": "United Kingdom",
+                      "sortData": "United Kingdom",
+                      "inResultset": true
+                    },
+                    "Utah": {
+                      "color": "#00cee6",
+                      "title": "Utah",
+                      "sortData": "Utah"
+                    },
+                    "Vermont": {
+                      "color": "#9b9bd7",
+                      "title": "Vermont",
+                      "sortData": "Vermont"
+                    },
+                    "Virginia": {
+                      "color": "#6eda55",
+                      "title": "Virginia",
+                      "sortData": "Virginia"
+                    },
+                    "Washington": {
+                      "color": "#fc7570",
+                      "title": "Washington",
+                      "sortData": "Washington"
+                    },
+                    "Wisconsin": {
+                      "color": "#fbb755",
+                      "title": "Wisconsin",
+                      "sortData": "Wisconsin",
+                      "inResultset": true
+                    },
+                    "Wyoming": {
+                      "color": "#218a8c",
+                      "title": "Wyoming",
+                      "sortData": "Wyoming"
+                    }
+                  },
+                  "continuous": false
+                }
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Fact_Sale_orders",
+                  "column": "OrderRevenue",
+                  "dim": "[Fact_Sale_orders.OrderRevenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total OrderRevenue",
+                  "sort": "desc"
+                },
+                "instanceid": "10A0A-A315-83",
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Fact_Sale_orders",
+                  "column": "OrderRevenue",
+                  "dim": "[Fact_Sale_orders.OrderRevenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total OrderRevenue",
+                  "filter": {
+                    "top": 10
+                  },
+                  "datasource": {
+                    "fullname": "localhost/Sample Retail",
+                    "id": "localhost_aSampleIAAaRetail",
+                    "address": "LocalHost",
+                    "database": "aSampleIAAaRetail",
+                    "live": false,
+                    "title": "Sample Retail"
+                  },
+                  "collapsed": false
+                },
+                "instanceid": "D8223-271E-CE",
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "style": {
+        "legend": {
+          "enabled": false,
+          "position": "left"
+        },
+        "labels": {
+          "enabled": true,
+          "categories": true,
+          "value": true,
+          "percent": true,
+          "decimals": false,
+          "fontFamily": "Open Sans",
+          "color": "red"
+        },
+        "convolution": {
+          "enabled": true,
+          "selectedConvolutionType": "bySlicesCount",
+          "minimalIndependentSlicePercentage": 3,
+          "independentSlicesCount": "10"
+        },
+        "dataLimits": {
+          "seriesCapacity": 100000
+        },
+        "subtype": "simple",
+        "skin": "vertical",
+        "components": {
+          "title": {
+            "inactive": false,
+            "enabled": true
+          },
+          "icon": {
+            "inactive": true,
+            "enabled": true
+          },
+          "secondaryTitle": {
+            "inactive": true,
+            "enabled": true
+          }
+        },
+        "indicator/numeric": {
+          "subtype": "simple",
+          "skin": "vertical",
+          "components": {
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "icon": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        },
+        "indicator/gauge": {
+          "subtype": "round",
+          "skin": "1",
+          "components": {
+            "ticks": {
+              "inactive": false,
+              "enabled": true
+            },
+            "labels": {
+              "inactive": false,
+              "enabled": true
+            },
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "countryname",
+              "title": "CountryName",
+              "singular": "CountryName",
+              "plural": "CountryName"
+            }
+          ]
+        },
+        "automaticHeight": false
+      },
+      "instanceid": "6EFC0-1DBD-C1",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "wasRendered": false,
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "drillToAnywhere": true,
+        "selectorLocked": false
+      },
+      "dashboardid": "6246c9f6da957a0037bb1788"
+    },
+    {
+      "title": "",
+      "type": "chart/pie",
+      "subtype": "pie/donut",
+      "oid": "6246ca73da957a0037bb178f",
+      "desc": null,
+      "source": "6246ca73da957a0037bb1790",
+      "datasource": {
+        "fullname": "localhost/Sample Retail",
+        "id": "localhost_aSampleIAAaRetail",
+        "address": "LocalHost",
+        "database": "aSampleIAAaRetail",
+        "live": false,
+        "title": "Sample Retail"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "categories",
+            "items": [
+              {
+                "jaql": {
+                  "table": "DimCountries",
+                  "column": "CountryName",
+                  "dim": "[DimCountries.CountryName]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "CountryName"
+                },
+                "instanceid": "948E8-6A37-74",
+                "format": {
+                  "members": {
+                    "Alabama": {
+                      "color": "#00cee6",
+                      "title": "Alabama",
+                      "sortData": "Alabama"
+                    },
+                    "Alaska": {
+                      "color": "#9b9bd7",
+                      "title": "Alaska",
+                      "sortData": "Alaska",
+                      "inResultset": true
+                    },
+                    "American Samoa": {
+                      "color": "#6EDA55",
+                      "title": "American Samoa",
+                      "sortData": "American Samoa",
+                      "inResultset": true
+                    },
+                    "Arizona": {
+                      "color": "#fc7570",
+                      "title": "Arizona",
+                      "sortData": "Arizona"
+                    },
+                    "Arkansas": {
+                      "color": "#fbb755",
+                      "title": "Arkansas",
+                      "sortData": "Arkansas"
+                    },
+                    "Austria": {
+                      "color": "#218A8C",
+                      "title": "Austria",
+                      "sortData": "Austria"
+                    },
+                    "Belgium": {
+                      "color": "#06e5ff",
+                      "title": "Belgium",
+                      "sortData": "Belgium"
+                    },
+                    "Bulgaria": {
+                      "color": "#b2b2f7",
+                      "title": "Bulgaria",
+                      "sortData": "Bulgaria"
+                    },
+                    "California": {
+                      "color": "#7efb62",
+                      "title": "California",
+                      "sortData": "California",
+                      "inResultset": true
+                    },
+                    "Colorado": {
+                      "color": "#ff8a86",
+                      "title": "Colorado",
+                      "sortData": "Colorado"
+                    },
+                    "Connecticut": {
+                      "color": "#ffc26a",
+                      "title": "Connecticut",
+                      "sortData": "Connecticut"
+                    },
+                    "Croatia": {
+                      "color": "#269fa1",
+                      "title": "Croatia",
+                      "sortData": "Croatia"
+                    },
+                    "Cyprus": {
+                      "color": "#00cee6",
+                      "title": "Cyprus",
+                      "sortData": "Cyprus"
+                    },
+                    "Czech Republic": {
+                      "color": "#9b9bd7",
+                      "title": "Czech Republic",
+                      "sortData": "Czech Republic"
+                    },
+                    "Delaware": {
+                      "color": "#6eda55",
+                      "title": "Delaware",
+                      "sortData": "Delaware"
+                    },
+                    "Denmark": {
+                      "color": "#fc7570",
+                      "title": "Denmark",
+                      "sortData": "Denmark"
+                    },
+                    "Dist%46 of Columbia": {
+                      "color": "#fbb755",
+                      "title": "Dist. of Columbia",
+                      "sortData": "Dist. of Columbia"
+                    },
+                    "Finland": {
+                      "color": "#218a8c",
+                      "title": "Finland",
+                      "sortData": "Finland"
+                    },
+                    "Florida": {
+                      "color": "#06e5ff",
+                      "title": "Florida",
+                      "sortData": "Florida"
+                    },
+                    "France": {
+                      "color": "#b2b2f7",
+                      "title": "France",
+                      "sortData": "France"
+                    },
+                    "Georgia": {
+                      "color": "#7efb62",
+                      "title": "Georgia",
+                      "sortData": "Georgia"
+                    },
+                    "Germany": {
+                      "color": "#ff8a86",
+                      "title": "Germany",
+                      "sortData": "Germany"
+                    },
+                    "Greece": {
+                      "color": "#ffc26a",
+                      "title": "Greece",
+                      "sortData": "Greece"
+                    },
+                    "Guam": {
+                      "color": "#269fa1",
+                      "title": "Guam",
+                      "sortData": "Guam"
+                    },
+                    "Idaho": {
+                      "color": "#00cee6",
+                      "title": "Idaho",
+                      "sortData": "Idaho"
+                    },
+                    "Indiana": {
+                      "color": "#9b9bd7",
+                      "title": "Indiana",
+                      "sortData": "Indiana"
+                    },
+                    "Iowa": {
+                      "color": "#6eda55",
+                      "title": "Iowa",
+                      "sortData": "Iowa"
+                    },
+                    "Ireland": {
+                      "color": "#fc7570",
+                      "title": "Ireland",
+                      "sortData": "Ireland"
+                    },
+                    "Italy": {
+                      "color": "#fbb755",
+                      "title": "Italy",
+                      "sortData": "Italy"
+                    },
+                    "Kansas": {
+                      "color": "#218a8c",
+                      "title": "Kansas",
+                      "sortData": "Kansas"
+                    },
+                    "Kentucky": {
+                      "color": "#06e5ff",
+                      "title": "Kentucky",
+                      "sortData": "Kentucky"
+                    },
+                    "Latvia": {
+                      "color": "#b2b2f7",
+                      "title": "Latvia",
+                      "sortData": "Latvia"
+                    },
+                    "Louisiana": {
+                      "color": "#7efb62",
+                      "title": "Louisiana",
+                      "sortData": "Louisiana"
+                    },
+                    "Luxembourg": {
+                      "color": "#ff8a86",
+                      "title": "Luxembourg",
+                      "sortData": "Luxembourg"
+                    },
+                    "Malta": {
+                      "color": "#ffc26a",
+                      "title": "Malta",
+                      "sortData": "Malta"
+                    },
+                    "Marshall Islands": {
+                      "color": "#269fa1",
+                      "title": "Marshall Islands",
+                      "sortData": "Marshall Islands"
+                    },
+                    "Maryland": {
+                      "color": "#00cee6",
+                      "title": "Maryland",
+                      "sortData": "Maryland"
+                    },
+                    "Massachusetts": {
+                      "color": "#9b9bd7",
+                      "title": "Massachusetts",
+                      "sortData": "Massachusetts"
+                    },
+                    "Michigan": {
+                      "color": "#6eda55",
+                      "title": "Michigan",
+                      "sortData": "Michigan"
+                    },
+                    "Micronesia": {
+                      "color": "#fc7570",
+                      "title": "Micronesia",
+                      "sortData": "Micronesia"
+                    },
+                    "Minnesota": {
+                      "color": "#fbb755",
+                      "title": "Minnesota",
+                      "sortData": "Minnesota"
+                    },
+                    "Mississippi": {
+                      "color": "#218a8c",
+                      "title": "Mississippi",
+                      "sortData": "Mississippi"
+                    },
+                    "Missouri": {
+                      "color": "#06e5ff",
+                      "title": "Missouri",
+                      "sortData": "Missouri"
+                    },
+                    "Montana": {
+                      "color": "#b2b2f7",
+                      "title": "Montana",
+                      "sortData": "Montana"
+                    },
+                    "Nebraska": {
+                      "color": "#7efb62",
+                      "title": "Nebraska",
+                      "sortData": "Nebraska"
+                    },
+                    "Netherlands": {
+                      "color": "#ff8a86",
+                      "title": "Netherlands",
+                      "sortData": "Netherlands"
+                    },
+                    "Nevada": {
+                      "color": "#ffc26a",
+                      "title": "Nevada",
+                      "sortData": "Nevada"
+                    },
+                    "New Hampshire": {
+                      "color": "#269fa1",
+                      "title": "New Hampshire",
+                      "sortData": "New Hampshire"
+                    },
+                    "New Mexico": {
+                      "color": "#00cee6",
+                      "title": "New Mexico",
+                      "sortData": "New Mexico"
+                    },
+                    "New York": {
+                      "color": "#9b9bd7",
+                      "title": "New York",
+                      "sortData": "New York"
+                    },
+                    "North Carolina": {
+                      "color": "#6eda55",
+                      "title": "North Carolina",
+                      "sortData": "North Carolina",
+                      "inResultset": true
+                    },
+                    "North Dakota": {
+                      "color": "#fc7570",
+                      "title": "North Dakota",
+                      "sortData": "North Dakota"
+                    },
+                    "Northern Marianas": {
+                      "color": "#fbb755",
+                      "title": "Northern Marianas",
+                      "sortData": "Northern Marianas"
+                    },
+                    "N\\A": {
+                      "color": "#218a8c",
+                      "title": "N\\A",
+                      "sortData": "N\\A"
+                    },
+                    "Ohio": {
+                      "color": "#06e5ff",
+                      "title": "Ohio",
+                      "sortData": "Ohio"
+                    },
+                    "Oklahoma": {
+                      "color": "#b2b2f7",
+                      "title": "Oklahoma",
+                      "sortData": "Oklahoma"
+                    },
+                    "Oregon": {
+                      "color": "#7efb62",
+                      "title": "Oregon",
+                      "sortData": "Oregon"
+                    },
+                    "Palau": {
+                      "color": "#ff8a86",
+                      "title": "Palau",
+                      "sortData": "Palau"
+                    },
+                    "Pennsylvania": {
+                      "color": "#ffc26a",
+                      "title": "Pennsylvania",
+                      "sortData": "Pennsylvania"
+                    },
+                    "Poland": {
+                      "color": "#269fa1",
+                      "title": "Poland",
+                      "sortData": "Poland"
+                    },
+                    "Portugal": {
+                      "color": "#00cee6",
+                      "title": "Portugal",
+                      "sortData": "Portugal",
+                      "inResultset": true
+                    },
+                    "Rhode Island": {
+                      "color": "#9b9bd7",
+                      "title": "Rhode Island",
+                      "sortData": "Rhode Island"
+                    },
+                    "Romania": {
+                      "color": "#6eda55",
+                      "title": "Romania",
+                      "sortData": "Romania"
+                    },
+                    "Slovakia": {
+                      "color": "#fc7570",
+                      "title": "Slovakia",
+                      "sortData": "Slovakia"
+                    },
+                    "Slovenia": {
+                      "color": "#fbb755",
+                      "title": "Slovenia",
+                      "sortData": "Slovenia",
+                      "inResultset": true
+                    },
+                    "South Carolina": {
+                      "color": "#218a8c",
+                      "title": "South Carolina",
+                      "sortData": "South Carolina",
+                      "inResultset": true
+                    },
+                    "South Dakota": {
+                      "color": "#06e5ff",
+                      "title": "South Dakota",
+                      "sortData": "South Dakota"
+                    },
+                    "Spain": {
+                      "color": "#b2b2f7",
+                      "title": "Spain",
+                      "sortData": "Spain"
+                    },
+                    "Sweden": {
+                      "color": "#7efb62",
+                      "title": "Sweden",
+                      "sortData": "Sweden",
+                      "inResultset": true
+                    },
+                    "Tennessee": {
+                      "color": "#ff8a86",
+                      "title": "Tennessee",
+                      "sortData": "Tennessee"
+                    },
+                    "Texas": {
+                      "color": "#ffc26a",
+                      "title": "Texas",
+                      "sortData": "Texas"
+                    },
+                    "United Kingdom": {
+                      "color": "#269fa1",
+                      "title": "United Kingdom",
+                      "sortData": "United Kingdom",
+                      "inResultset": true
+                    },
+                    "Utah": {
+                      "color": "#00cee6",
+                      "title": "Utah",
+                      "sortData": "Utah"
+                    },
+                    "Vermont": {
+                      "color": "#9b9bd7",
+                      "title": "Vermont",
+                      "sortData": "Vermont"
+                    },
+                    "Virginia": {
+                      "color": "#6eda55",
+                      "title": "Virginia",
+                      "sortData": "Virginia"
+                    },
+                    "Washington": {
+                      "color": "#fc7570",
+                      "title": "Washington",
+                      "sortData": "Washington"
+                    },
+                    "Wisconsin": {
+                      "color": "#fbb755",
+                      "title": "Wisconsin",
+                      "sortData": "Wisconsin",
+                      "inResultset": true
+                    },
+                    "Wyoming": {
+                      "color": "#218a8c",
+                      "title": "Wyoming",
+                      "sortData": "Wyoming"
+                    }
+                  },
+                  "continuous": false
+                }
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Fact_Sale_orders",
+                  "column": "OrderRevenue",
+                  "dim": "[Fact_Sale_orders.OrderRevenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total OrderRevenue",
+                  "sort": "desc"
+                },
+                "instanceid": "320E4-114B-3F",
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Fact_Sale_orders",
+                  "column": "OrderRevenue",
+                  "dim": "[Fact_Sale_orders.OrderRevenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total OrderRevenue",
+                  "filter": {
+                    "top": 10
+                  },
+                  "datasource": {
+                    "fullname": "localhost/Sample Retail",
+                    "id": "localhost_aSampleIAAaRetail",
+                    "address": "LocalHost",
+                    "database": "aSampleIAAaRetail",
+                    "live": false,
+                    "title": "Sample Retail"
+                  },
+                  "collapsed": false
+                },
+                "instanceid": "9A1B4-7A1E-A2",
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "style": {
+        "legend": {
+          "enabled": false,
+          "position": "left"
+        },
+        "labels": {
+          "enabled": true,
+          "categories": true,
+          "value": false,
+          "percent": true,
+          "decimals": false,
+          "fontFamily": "Open Sans",
+          "color": "red"
+        },
+        "convolution": {
+          "enabled": false,
+          "selectedConvolutionType": "byPercentage",
+          "minimalIndependentSlicePercentage": 3,
+          "independentSlicesCount": "5"
+        },
+        "dataLimits": {
+          "seriesCapacity": 100000
+        },
+        "subtype": "simple",
+        "skin": "vertical",
+        "components": {
+          "title": {
+            "inactive": false,
+            "enabled": true
+          },
+          "icon": {
+            "inactive": true,
+            "enabled": true
+          },
+          "secondaryTitle": {
+            "inactive": true,
+            "enabled": true
+          }
+        },
+        "indicator/numeric": {
+          "subtype": "simple",
+          "skin": "vertical",
+          "components": {
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "icon": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        },
+        "indicator/gauge": {
+          "subtype": "round",
+          "skin": "1",
+          "components": {
+            "ticks": {
+              "inactive": false,
+              "enabled": true
+            },
+            "labels": {
+              "inactive": false,
+              "enabled": true
+            },
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "countryname",
+              "title": "CountryName",
+              "singular": "CountryName",
+              "plural": "CountryName"
+            }
+          ]
+        },
+        "automaticHeight": false
+      },
+      "instanceid": "6EFC0-1DBD-C1",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "wasRendered": false,
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "drillToAnywhere": true
+      },
+      "dashboardid": "6246c9f6da957a0037bb1788",
+      "script": "/*\nWelcome to your Widget's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at https://sisense.dev/guides/js/extensions\n*/\n/*\n// Register a new chart type\n(function(g) { \n\t\"object\"===typeof module&&module.exports?module.exports=g:g(Highcharts)\n})\n\n(function(g) {\n\t(function(f) {\n\t\tvar g=f.pick,t=f.each,q=f.grep,u=f.arrayMin,w=f.arrayMax,x=f.seriesType,y=f.seriesTypes.pie.prototype\n\t\tx(\"variablepie\",\"pie\",{minPointSize:\"10%\",maxPointSize:\"100%\",zMin:void 0,zMax:void 0,sizeBy:\"area\",tooltip:{pointFormat:'<span style=\"color:{point.color}\">\\u25cf</span> {series.name}<br/>Value: {point.y}'}},{pointArrayMap:[\"y\",\"z\"],\n\t\t  parallelArrays:[\"x\",\"y\",\"z\"],redraw:function(){this.center=null\n\t\ty.redraw.call(this,arguments)},zValEval:function(a){return\"number\"!==typeof a||isNaN(a)?null:!0},calculateExtremes:function(){var a=this.chart,k=this.options,e\n\t\te=this.zData\n\t\tvar z=Math.min(a.plotWidth,a.plotHeight)-2*(k.slicedOffset||0),h={},a=this.center||this.getCenter()\n\t\tt([\"minPointSize\",\"maxPointSize\"],function(a){var b=k[a],c=/%$/.test(b),b=parseInt(b,10)\n\t\th[a]=c?z*b/100:2*b})\n\t\tthis.minPxSize=a[3]+h.minPointSize\n\t\tthis.maxPxSize=Math.max(Math.min(a[2],\n\t\t\t\t\t\t\t\t\t\t h.maxPointSize),a[3]+h.minPointSize)\n\t\te.length&&(a=g(k.zMin,u(q(e,this.zValEval))),e=g(k.zMax,w(q(e,this.zValEval))),this.getRadii(a,e,this.minPxSize,this.maxPxSize))},getRadii:function(a,k,e,g){var h=0,b,l=this.zData,c=l.length,n=[],f=\"radius\"!==this.options.sizeBy,m=k-a\n\t\tfor(h;h<c;h++)b=this.zValEval(l[h])?l[h]:a,b<=a?b=e/2:b>=k?b=g/2:(b=0<m?(b-a)/m:.5,f&&(b=Math.sqrt(b)),b=Math.ceil(e+b*(g-e))/2),n.push(b)\n\t\tthis.radii=n},translate:function(a){this.generatePoints()\n\t\tvar k=0,e=this.options,f=e.slicedOffset,\n\t\t\th=f+(e.borderWidth||0),b,l,c,n=e.startAngle||0,r=Math.PI/180*(n-90),m=Math.PI/180*(g(e.endAngle,n+360)-90),n=m-r,q=this.points,v,t=e.dataLabels.distance,e=e.ignoreHiddenPoint,u=q.length,d,p\n\t\tthis.startAngleRad=r\n\t\tthis.endAngleRad=m\n\t\tthis.calculateExtremes()\n\t\ta||(this.center=a=this.getCenter())\n\t\tthis.getX=function(b,e,d){var f=d.series.radii[d.index]\n\t\tc=Math.asin(Math.max(Math.min((b-a[1])/(f+d.labelDistance),1),-1))\n\t\treturn a[0]+(e?-1:1)*Math.cos(c)*(f+d.labelDistance)}\n\t\tfor(m=0;m<u;m++){d=q[m]\n\t\tp=this.radii[m]\n\t\td.labelDistance=g(d.options.dataLabels&&d.options.dataLabels.distance,t)\n\t\tthis.maxLabelDistance=Math.max(this.maxLabelDistance||0,d.labelDistance)\n\t\tl=r+k*n\n\t\tif(!e||d.visible)\n\t\t\tk+=d.percentage/100\n\t\t\tb=r+k*n\n\t\t\td.shapeType=\"arc\"\n\t\t\td.shapeArgs={x:a[0],y:a[1],r:p,innerR:a[3]/2,start:Math.round(1E3*l)/1E3,end:Math.round(1E3*b)/1E3}\n\t\t\tc=(b+l)/2\n\t\t\tc>1.5*Math.PI?c-=2*Math.PI:c<-Math.PI/2&&(c+=2*Math.PI)\n\t\t\td.slicedTranslation={translateX:Math.round(Math.cos(c)*f),translateY:Math.round(Math.sin(c)*f)}\n\t\t\tb=Math.cos(c)*a[2]/2\n\t\t\tv=Math.sin(c)*a[2]/2\n\t\t\tl=Math.cos(c)*p\n\t\t\tp*=Math.sin(c)\n\t\t\td.tooltipPos=[a[0]+.7*b,a[1]+.7*v]\n\t\t\td.half=c<-Math.PI/2||c>Math.PI/2?1:0\n\t\t\td.angle=c\n\t\t\tb=Math.min(h,d.labelDistance/5)\n\t\t\td.labelPos=[a[0]+l+Math.cos(c)*d.labelDistance,a[1]+p+Math.sin(c)*d.labelDistance,a[0]+l+Math.cos(c)*b,a[1]+p+Math.sin(c)*b,a[0]+l,a[1]+p,0>d.labelDistance?\"center\":d.half?\"right\":\"left\",c]}}})\n\t})\n\n\t(g)\n});\n*/\n// Register a new chart type\n(function(g) {\n  \"object\"===typeof module&&module.exports?module.exports=g:g(Highcharts)\n})\n\n(function(g) {\n  (function(f) {\n    var g=f.pick,t=f.each,q=f.grep,u=f.arrayMin,w=f.arrayMax,x=f.seriesType,y=f.seriesTypes.pie.prototype\n\tx(\"variablepie\",\"pie\",{\n\t  minPointSize:\"10%\",maxPointSize:\"100%\",zMin:void 0,zMax:void 0,sizeBy:\"area\",tooltip: {\n\t    pointFormat:'<span style=\"color:{point.color}\">\\u25cf</span> {series.name}<br/>Value: {point.y}'\n      }\n    },\n\t{\n\t  pointArrayMap:[\"y\",\"z\"], parallelArrays:[\"x\",\"y\",\"z\"],redraw:function() {\n\t    this.center=null\n\t    y.redraw.call(this,arguments)\n      },\n\t  zValEval:function(a) {\n\t    return\"number\"!==typeof a||isNaN(a)?null:!0\n      },\n\t  calculateExtremes:function() {\n\t    var a=this.chart,k=this.options,e\n\t\te=this.zData\n\t\tvar z=Math.min(a.plotWidth,a.plotHeight)-2*(k.slicedOffset||0),h={},a=this.center||this.getCenter()\n\t\tt([\"minPointSize\",\"maxPointSize\"],function(a) {\n\t\t  var b=k[a],c=/%$/.test(b),b=parseInt(b,10)\n\t\t  h[a]=c?z*b/100:2*b\n\t\t})\n\t\tthis.minPxSize=a[3]+h.minPointSize\n\t\tthis.maxPxSize=Math.max(Math.min(a[2],h.maxPointSize),a[3]+h.minPointSize)\n\t\te.length&&(a=g(k.zMin,u(q(e,this.zValEval))),e=g(k.zMax,w(q(e,this.zValEval))),this.getRadii(a,e,this.minPxSize,this.maxPxSize))\n\t  },\n\t  getRadii:function(a,k,e,g) {\n\t    var h=0,b,l=this.zData,c=l.length,n=[],f=\"radius\"!==this.options.sizeBy,m=k-a\n\t\tfor(h;h<c;h++)\n\t\t  b=this.zValEval(l[h])?l[h]:a,b<=a?b=e/2:b>=k?b=g/2:(b=0<m?(b-a)/m:.5,f&&(b=Math.sqrt(b)),b=Math.ceil(e+b*(g-e))/2),n.push(b)\n  \t\tthis.radii=n\n\t  },\n\t  translate:function(a) {\n\t    this.generatePoints()\n\t    var k=0,e=this.options,f=e.slicedOffset,h=f+(e.borderWidth||0),b,l,c,n=e.startAngle||0,r=Math.PI/180*(n-90),m=Math.PI/180*(g(e.endAngle,n+360)-90),n=m-r,q=this.points,v,t=e.dataLabels.distance,e=e.ignoreHiddenPoint,u=q.length,d,p\n\t    this.startAngleRad=r\n\t    this.endAngleRad=m\n\t    this.calculateExtremes()\n\t    a||(this.center=a=this.getCenter())\n\t    this.getX=function(b,e,d) {\n\t      var f=d.series.radii[d.index]\n\t\t  c=Math.asin(Math.max(Math.min((b-a[1])/(f+d.labelDistance),1),-1))\n\t\t  return a[0]+(e?-1:1)*Math.cos(c)*(f+d.labelDistance)\n        }\n\t\tfor(m=0;m<u;m++) {\n\t\t  d=q[m]\n\t\t  p=this.radii[m]\n\t\t  d.labelDistance=g(d.options.dataLabels&&d.options.dataLabels.distance,t)\n\t\t  this.maxLabelDistance=Math.max(this.maxLabelDistance||0,d.labelDistance)\n\t\t  l=r+k*n\n\t\t  if(!e||d.visible)\n\t\t    k+=d.percentage/100\n\t\t  b=r+k*n\n\t\t  d.shapeType=\"arc\"\n\t\t  d.shapeArgs={x:a[0],y:a[1],r:p,innerR:a[3]/2,start:Math.round(1E3*l)/1E3,end:Math.round(1E3*b)/1E3}\n\t\t  c=(b+l)/2\n\t\t  c>1.5*Math.PI?c-=2*Math.PI:c<-Math.PI/2&&(c+=2*Math.PI)\n\t\t  d.slicedTranslation={translateX:Math.round(Math.cos(c)*f),translateY:Math.round(Math.sin(c)*f)}\n\t\t  b=Math.cos(c)*a[2]/2\n\t\t  v=Math.sin(c)*a[2]/2\n\t\t  l=Math.cos(c)*p\n\t\t  p*=Math.sin(c)\n\t\t  d.tooltipPos=[a[0]+.7*b,a[1]+.7*v]\n\t\t  d.half=c<-Math.PI/2||c>Math.PI/2?1:0\n\t\t  d.angle=c\n\t\t  b=Math.min(h,d.labelDistance/5)\n\t\t  d.labelPos=[a[0]+l+Math.cos(c)*d.labelDistance,a[1]+p+Math.sin(c)*d.labelDistance,a[0]+l+Math.cos(c)*b,a[1]+p+Math.sin(c)*b,a[0]+l,a[1]+p,0>d.labelDistance?\"center\":d.half?\"right\":\"left\",c]\n\t\t}\n\t  }\n\t})\n  })\n  (g)\n});\n\n\nwidget.on('processresult', function(widget,ev) \n\t\t  {\n\tev.result.chart.type = 'variablepie'\n\tev.result.series[0].innerSize = '20%'     // The pie's inner \"empty\" space would consume 20%\n\tev.result.series[0].minPointSize = '20%'  // The smallest pie slice (value = 0) would show as 20% of the possible slice depth\n\n\tev.result.series[0].data.forEach(function(item) {\n\t\titem.y = Math.round(item.y * 100) / 100\n\t\titem.z = item.y\n\t})\n\n\tev.result.tooltip.enabled = true;\n\t\n\tHighcharts.setOptions({\n\t\tlang: {\n\t\t\tdecimalPoint: '.',\n\t\t\tthousandsSep: ','\n\t\t}\n\t})\n})"
+    },
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "6246caf3da957a0037bb179c",
+      "desc": null,
+      "source": "6246caf3da957a0037bb179d",
+      "datasource": {
+        "fullname": "localhost/Sample Retail",
+        "id": "localhost_aSampleIAAaRetail",
+        "address": "LocalHost",
+        "database": "aSampleIAAaRetail",
+        "live": false,
+        "title": "Sample Retail"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": []
+      },
+      "style": {
+        "content": {
+          "html": "<font size=\"5\"><font size=\"5\">Creator: Ophir Buchman</font><br></font><font size=\"3\">When creating a pie chart you'd sometimes want to emphasize the difference between pie slices by displaying an \"exploding effect\" based on the pie values.</font><br><font size=\"3\">This will be performed by teaching Sisnese a new visualization known as a \"variable pie\"</font><br><br><span style=\"font-size: 15px;\"><a href=\"https://community.sisense.com/t5/build-analytics/pie-chart-exploding-pie/td-p/3372\">https://community.sisense.com/t5/build-analytics/pie-chart-exploding-pie/td-p/3372</a></span><br>",
+          "vAlign": "valign-middle",
+          "bgColor": "#FFFFFF",
+          "textAlign": "left"
+        }
+      },
+      "instanceid": "D0DE8-95DB-00",
+      "wasRendered": false,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "dashboardid": "6246c9f6da957a0037bb1788"
+    }
+  ],
+  "hierarchies": []
+}

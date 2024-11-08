@@ -1,0 +1,383 @@
+{
+  "oid": "61bbb92298f8b514782a649d",
+  "datasource": {
+    "title": "Sample ECommerce",
+    "fullname": "LocalHost/Sample ECommerce",
+    "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+    "address": "LocalHost",
+    "database": "aSampleIAAaECommerce"
+  },
+  "defaultFilters": null,
+  "desc": "",
+  "editing": false,
+  "isPublic": null,
+  "layout": {
+    "instanceid": "F07AC-7451-DA",
+    "type": "columnar",
+    "columns": [
+      {
+        "width": 100,
+        "cells": [
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "height": "84px",
+                    "defaultWidth": 128,
+                    "widgetid": "61bbb92298f8b514782a649f"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1439,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 96,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": "500px",
+                    "defaultWidth": 512,
+                    "widgetid": "61bbb92298f8b514782a649e"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1439,
+                "index": 0
+              }
+            ]
+          }
+        ],
+        "pxlWidth": 1439,
+        "index": 0
+      }
+    ]
+  },
+  "original": null,
+  "parentFolder": "61c44b8883642f002bf183a7",
+  "previewLayout": [],
+  "source": "61c44f2183642f002bf18b55",
+  "style": {
+    "palette": {
+      "name": "Vivid",
+      "colors": [
+        "#00cee6",
+        "#9b9bd7",
+        "#6EDA55",
+        "#fc7570",
+        "#fbb755",
+        "#218A8C"
+      ]
+    }
+  },
+  "subscription": null,
+  "title": "Line Chart - Data Labels Inside Markers",
+  "type": "dashboard",
+  "allowChangeSubscription": false,
+  "lastOpened": null,
+  "settings": {
+    "autoUpdateOnFiltersChange": true
+  },
+  "widgets": [
+    {
+      "title": "",
+      "type": "chart/line",
+      "subtype": "line/basic",
+      "oid": "61bbb92298f8b514782a649e",
+      "desc": null,
+      "source": "61c44f2183642f002bf18b58",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "x-axis",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Date",
+                  "dim": "[Commerce.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "years",
+                  "title": "Years in Date"
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "isdefault": true
+                  }
+                },
+                "field": {
+                  "id": "[Commerce.Date (Calendar)]_years",
+                  "index": 0
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "sum([69823-BAC])",
+                  "context": {
+                    "[69823-BAC]": {
+                      "table": "Commerce",
+                      "column": "Cost",
+                      "dim": "[Commerce.Cost]",
+                      "datatype": "numeric",
+                      "title": "Cost"
+                    }
+                  },
+                  "title": "sum([Cost])"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "type": "color",
+                    "color": "#808080"
+                  }
+                }
+              },
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "sum([E50BF-2B0])",
+                  "context": {
+                    "[E50BF-2B0]": {
+                      "table": "Commerce",
+                      "column": "Revenue",
+                      "dim": "[Commerce.Revenue]",
+                      "datatype": "numeric",
+                      "title": "Revenue"
+                    }
+                  },
+                  "title": "sum([Revenue])"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "type": "color",
+                    "color": "#fbb755"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "break by",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "style": {
+        "lineWidth": {
+          "width": "bold"
+        },
+        "legend": {
+          "enabled": true,
+          "position": "bottom"
+        },
+        "seriesLabels": {
+          "enabled": true,
+          "rotation": 0
+        },
+        "markers": {
+          "enabled": true,
+          "fill": "filled",
+          "size": "small"
+        },
+        "xAxis": {
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "x2Title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "isIntervalEnabled": false
+        },
+        "yAxis": {
+          "inactive": false,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "logarithmic": false,
+          "isIntervalEnabled": true
+        },
+        "y2Axis": {
+          "inactive": true,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": false,
+          "logarithmic": false,
+          "isIntervalEnabled": true
+        },
+        "navigator": {
+          "enabled": true
+        },
+        "dataLimits": {
+          "seriesCapacity": 50,
+          "categoriesCapacity": 100000
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "years",
+              "title": "years",
+              "singular": "years",
+              "plural": "years"
+            }
+          ]
+        }
+      },
+      "instanceid": "3876E-046D-04",
+      "dashboardid": "61bbb92298f8b514782a649d",
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "drillToAnywhere": true
+      },
+      "script": "// You can modify the variable values in the script to set marker and label properties\nwidget.on('processresult', function(e, args) {\n \n var markerRadius = 18;\n var markerColor = '#FF0000';\n var markerHoverColor = '#C0C0C0';\n var labelSize = '9px';\n var labelColor = '#FFFFFF';\n var lineStyle = 'shortdash';\n var lineWidth = 2;\n \n var chartS = args.result.series;\n \n for(var s = 0; s < chartS.length; s++ ) {\n var dd;\n \n chartS[s].dashStyle = lineStyle;\n chartS[s].lineWidth = lineWidth;\n \n chartS[s].marker = {\n symbol: 'circle'\n }\n \n \n for(var d = 0; d < chartS[s].data.length; d++) {\n dd = chartS[s].data[d];\n \n var dataLabelsTemplate = {\n enabled : true,\n y : (markerRadius /2),\n style: {\n color: labelColor,\n textOutline: 'none',\n fontSize : labelSize, \n fontWeight : \"bold\"\n }\n };\n \n dd.dataLabels = dataLabelsTemplate;\n \n dd.marker.radius = markerRadius;\n dd.marker.enabled = true;\n dd.marker.fillColor = chartS[s].color;\n dd.marker.states.hover.fillColor = chartS[s].color;\n dd.marker.states.hover.radius = markerRadius;\n dd.marker.states.hover.enabled = true; \n \n }\n }\n \n\n});"
+    },
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "61bbb92298f8b514782a649f",
+      "desc": null,
+      "source": "61c44f2183642f002bf18b59",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": []
+      },
+      "style": {
+        "content": {
+          "html": "<font size=\"5\"><div style=\"text-align: left;\">Developed by: Jay Dastur</div><div style=\"text-align: left;\">Documentation:&nbsp;<a target=\"_blank\" href=\"https://support.sisense.com/hc/en-us/community/posts/115007374427-Displaying-Data-Labels-Inside-Markers-in-Line-Charts\" rel=\"noopener noreferrer\">Link</a></div></font>",
+          "vAlign": "valign-middle",
+          "bgColor": "#FFFFFF",
+          "textAlign": "center"
+        }
+      },
+      "instanceid": "C5F90-6C43-D0",
+      "dashboardid": "61bbb92298f8b514782a649d",
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      }
+    }
+  ],
+  "hierarchies": []
+}

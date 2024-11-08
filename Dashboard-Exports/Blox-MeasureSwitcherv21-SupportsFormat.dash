@@ -1,0 +1,2153 @@
+{
+  "oid": "62598fcfda957a0037bb4903",
+  "allowChangeSubscription": false,
+  "dataExploration": false,
+  "datasource": {
+    "title": "Sample ECommerce",
+    "fullname": "LocalHost/Sample ECommerce",
+    "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+    "address": "LocalHost",
+    "database": "aSampleIAAaECommerce"
+  },
+  "defaultFilters": [],
+  "desc": "",
+  "editing": false,
+  "filterToDatasourceMapping": {},
+  "filters": [],
+  "isPublic": null,
+  "lastOpened": null,
+  "layout": {
+    "instanceid": "1FE88-B35D-26",
+    "type": "columnar",
+    "columns": [
+      {
+        "width": 100,
+        "cells": [
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 25,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "height": "60px",
+                    "defaultWidth": 128,
+                    "widgetid": "62598fcfda957a0037bb4909"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1331,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 25,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "height": "48px",
+                    "defaultWidth": 128,
+                    "widgetid": "62598fcfda957a0037bb490b"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1331,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 68,
+                    "maxHeight": 969,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "62598fcfda957a0037bb4908",
+                    "height": 82
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1331,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 1028,
+                    "height": "172px",
+                    "minWidth": 48,
+                    "maxWidth": 1028,
+                    "defaultWidth": 512,
+                    "widgetid": "62598fcfda957a0037bb4907"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1331,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 96,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": 384,
+                    "defaultWidth": 512,
+                    "widgetid": "62598fcfda957a0037bb4904"
+                  }
+                ],
+                "width": 50,
+                "stretchable": false,
+                "pxlWidth": 665.5,
+                "index": 0
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 96,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": 384,
+                    "defaultWidth": 512,
+                    "widgetid": "62598fcfda957a0037bb4905"
+                  }
+                ],
+                "width": 50,
+                "stretchable": false,
+                "pxlWidth": 665.5,
+                "index": 1
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 128,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "62598fcfda957a0037bb4906",
+                    "height": "713px",
+                    "autoHeight": "713px"
+                  }
+                ],
+                "width": 50,
+                "stretchable": false,
+                "pxlWidth": 665.5,
+                "index": 0
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 128,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": "713px",
+                    "defaultWidth": 512,
+                    "widgetid": "62598fcfda957a0037bb490a",
+                    "autoHeight": "746px"
+                  }
+                ],
+                "width": 50,
+                "stretchable": false,
+                "pxlWidth": 665.5,
+                "index": 1
+              }
+            ]
+          }
+        ],
+        "pxlWidth": 1331,
+        "index": 0
+      }
+    ],
+    "container": {}
+  },
+  "original": null,
+  "parentFolder": "61c44b8583642f002bf18389",
+  "previewLayout": [],
+  "settings": {
+    "autoUpdateOnFiltersChange": true
+  },
+  "source": "62598fd0da957a0037bb4914",
+  "style": {
+    "palette": {
+      "name": "Color Blind 3",
+      "colors": [
+        "#21C0D9",
+        "#B0B0B0"
+      ]
+    }
+  },
+  "title": "Blox - Measure Switcher v2.1 - Supports Format",
+  "type": "dashboard",
+  "subscription": {
+    "isDataChange": true,
+    "type": "onUpdate",
+    "schedule": "* * * * * *",
+    "timezone": 240,
+    "tzName": "America/New_York",
+    "context": {
+      "dashboardid": "62598fcfda957a0037bb4903"
+    },
+    "active": false,
+    "executionPerDay": 1,
+    "reportType": {
+      "inline": true
+    },
+    "emailSettings": {
+      "isEmail": true,
+      "isPdf": false
+    },
+    "startAt": "2022-04-15",
+    "subscribe": false
+  },
+  "widgets": [
+    {
+      "title": "Quarter",
+      "type": "chart/column",
+      "subtype": "column/classic",
+      "oid": "62598fcfda957a0037bb4904",
+      "desc": null,
+      "source": "62598fd0da957a0037bb4915",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "categories",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Date",
+                  "dim": "[Commerce.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "quarters",
+                  "title": "Quarters in Date"
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "seconds": "MM/dd/yyyy HH:mm:ss",
+                    "dateAndTime": "MM/dd/yyyy HH:mm",
+                    "isdefault": true
+                  }
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ],
+                "instanceid": "BC480-FE4C-AF",
+                "panel": "rows"
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Revenue",
+                  "dim": "[Commerce.Revenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total Revenue"
+                },
+                "PanelName": "Total Revenue",
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": false,
+                      "b": false,
+                      "m": false,
+                      "k": false
+                    },
+                    "decimals": "auto",
+                    "currency": {
+                      "symbol": "$",
+                      "position": "pre"
+                    }
+                  }
+                },
+                "statisticalModels": {
+                  "trend": {
+                    "isEnabled": true,
+                    "isViewerDisabled": true,
+                    "trendType": "linear"
+                  }
+                },
+                "instanceid": "4D83B-C6F9-6D",
+                "panel": "measures"
+              }
+            ]
+          },
+          {
+            "name": "break by",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "legend": {
+          "enabled": true,
+          "position": "bottom"
+        },
+        "seriesLabels": {
+          "enabled": false,
+          "rotation": 0,
+          "labels": {
+            "enabled": false,
+            "types": {
+              "count": false,
+              "percentage": false,
+              "relative": false,
+              "totals": false
+            },
+            "stacked": false,
+            "stackedPercentage": false
+          }
+        },
+        "xAxis": {
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "x2Title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "isIntervalEnabled": false
+        },
+        "yAxis": {
+          "inactive": false,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "logarithmic": false,
+          "hideMinMax": false,
+          "isIntervalEnabled": true
+        },
+        "y2Axis": {
+          "inactive": true,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": false,
+          "logarithmic": false,
+          "hideMinMax": false,
+          "isIntervalEnabled": true
+        },
+        "navigator": {
+          "enabled": true
+        },
+        "dataLimits": {
+          "seriesCapacity": 50,
+          "categoriesCapacity": 100000
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "quarters",
+              "title": "quarters",
+              "singular": "quarters",
+              "plural": "quarters"
+            }
+          ]
+        }
+      },
+      "instanceid": "A94B8-E1F6-7E",
+      "custom": {
+        "barcolumnchart": {
+          "type": "chart/column",
+          "isTypeValid": true,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total"
+        }
+      },
+      "displayMenu": true,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "drillToAnywhere": true,
+        "previousScrollerLocation": {
+          "min": null,
+          "max": null
+        }
+      },
+      "dashboardid": "62598fcfda957a0037bb4903",
+      "wasRendered": false,
+      "cancelled": true,
+      "lastOpened": null
+    },
+    {
+      "title": "Month",
+      "type": "chart/line",
+      "subtype": "line/basic",
+      "oid": "62598fcfda957a0037bb4905",
+      "desc": null,
+      "source": "62598fd0da957a0037bb4916",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "x-axis",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Date",
+                  "dim": "[Commerce.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "months",
+                  "title": "Months in Date"
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "seconds": "MM/dd/yyyy HH:mm:ss",
+                    "dateAndTime": "MM/dd/yyyy HH:mm",
+                    "isdefault": true
+                  }
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ],
+                "instanceid": "24081-B512-85",
+                "panel": "rows"
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Revenue",
+                  "dim": "[Commerce.Revenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total Revenue"
+                },
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": false,
+                      "b": false,
+                      "m": false,
+                      "k": false
+                    },
+                    "decimals": "auto",
+                    "currency": {
+                      "symbol": "$",
+                      "position": "pre"
+                    }
+                  },
+                  "color": {
+                    "colorIndex": 0,
+                    "type": "color"
+                  }
+                },
+                "field": {
+                  "id": "[Commerce.Cost]_sum",
+                  "index": 1
+                },
+                "instanceid": "B8B3B-503E-4F",
+                "panel": "measures"
+              }
+            ]
+          },
+          {
+            "name": "break by",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "lineWidth": {
+          "width": "bold"
+        },
+        "legend": {
+          "enabled": true,
+          "position": "bottom"
+        },
+        "seriesLabels": {
+          "enabled": false,
+          "rotation": 0
+        },
+        "markers": {
+          "enabled": false,
+          "fill": "filled",
+          "size": "small"
+        },
+        "xAxis": {
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "x2Title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "isIntervalEnabled": false
+        },
+        "yAxis": {
+          "inactive": false,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "logarithmic": false,
+          "isIntervalEnabled": true
+        },
+        "y2Axis": {
+          "inactive": true,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": false,
+          "logarithmic": false,
+          "isIntervalEnabled": true
+        },
+        "navigator": {
+          "enabled": true
+        },
+        "dataLimits": {
+          "seriesCapacity": 50,
+          "categoriesCapacity": 100000
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "months",
+              "title": "months",
+              "singular": "months",
+              "plural": "months"
+            }
+          ]
+        }
+      },
+      "instanceid": "5C291-C711-2A",
+      "displayMenu": false,
+      "custom": {
+        "barcolumnchart": {
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total",
+          "type": "chart/line",
+          "isTypeValid": false
+        }
+      },
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "drillToAnywhere": true,
+        "previousScrollerLocation": {
+          "min": 0,
+          "max": 49
+        }
+      },
+      "dashboardid": "62598fcfda957a0037bb4903",
+      "wasRendered": false,
+      "lastOpened": null
+    },
+    {
+      "title": "Category",
+      "type": "chart/bar",
+      "subtype": "bar/classic",
+      "oid": "62598fcfda957a0037bb4906",
+      "desc": null,
+      "source": "62598fd0da957a0037bb4917",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "categories",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Category",
+                  "column": "Category",
+                  "dim": "[Category.Category]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Category"
+                },
+                "field": {
+                  "id": "[Category.Category]",
+                  "index": 0
+                },
+                "instanceid": "8167A-E1D4-9A",
+                "panel": "rows"
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Revenue",
+                  "dim": "[Commerce.Revenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total Revenue"
+                },
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": false,
+                      "b": false,
+                      "m": false,
+                      "k": false
+                    },
+                    "decimals": "auto",
+                    "currency": {
+                      "symbol": "$",
+                      "position": "pre"
+                    }
+                  },
+                  "color": {
+                    "colorIndex": 0,
+                    "type": "color"
+                  }
+                },
+                "field": {
+                  "id": "[Commerce.Cost]_sum",
+                  "index": 1
+                },
+                "instanceid": "F1F94-ABC5-F8",
+                "panel": "measures"
+              }
+            ]
+          },
+          {
+            "name": "break by",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "legend": {
+          "enabled": true,
+          "position": "bottom"
+        },
+        "seriesLabels": {
+          "enabled": false,
+          "rotation": 0,
+          "labels": {
+            "enabled": false,
+            "types": {
+              "count": false,
+              "percentage": false,
+              "relative": false,
+              "totals": false
+            },
+            "stacked": false,
+            "stackedPercentage": false
+          }
+        },
+        "xAxis": {
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "x2Title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "isIntervalEnabled": false
+        },
+        "yAxis": {
+          "inactive": false,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "logarithmic": false,
+          "isIntervalEnabled": true,
+          "hideMinMax": false
+        },
+        "y2Axis": {
+          "inactive": true,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": false,
+          "logarithmic": false,
+          "isIntervalEnabled": true,
+          "hideMinMax": false
+        },
+        "dataLimits": {
+          "seriesCapacity": 50,
+          "categoriesCapacity": 100000
+        },
+        "navigator": {
+          "enabled": true
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "category",
+              "title": "Category",
+              "singular": "Category",
+              "plural": "Category"
+            }
+          ]
+        }
+      },
+      "instanceid": "5E975-1C19-B4",
+      "custom": {
+        "barcolumnchart": {
+          "type": "chart/bar",
+          "isTypeValid": true,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total"
+        }
+      },
+      "displayMenu": true,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "drillToAnywhere": true,
+        "previousScrollerLocation": {
+          "min": null,
+          "max": null
+        },
+        "selectorLocked": false
+      },
+      "dashboardid": "62598fcfda957a0037bb4903",
+      "wasRendered": false,
+      "lastOpened": null
+    },
+    {
+      "title": "Total",
+      "type": "indicator",
+      "subtype": "indicator/numeric",
+      "oid": "62598fcfda957a0037bb4907",
+      "desc": null,
+      "source": "62598fd0da957a0037bb4918",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "value",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Revenue",
+                  "dim": "[Commerce.Revenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total Revenue"
+                },
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": false,
+                      "b": false,
+                      "m": false,
+                      "k": false
+                    },
+                    "decimals": "auto",
+                    "currency": {
+                      "symbol": "$",
+                      "position": "pre"
+                    }
+                  },
+                  "color": {
+                    "colorIndex": 0,
+                    "type": "color"
+                  }
+                },
+                "instanceid": "DA0C4-C331-5F"
+              }
+            ]
+          },
+          {
+            "name": "secondary",
+            "items": []
+          },
+          {
+            "name": "min",
+            "items": []
+          },
+          {
+            "name": "max",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "subtype": "simple",
+        "skin": "vertical",
+        "components": {
+          "title": {
+            "inactive": false,
+            "enabled": true
+          },
+          "icon": {
+            "inactive": true,
+            "enabled": true
+          },
+          "secondaryTitle": {
+            "inactive": true,
+            "enabled": true
+          }
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": []
+        },
+        "indicator/numeric": {
+          "subtype": "simple",
+          "skin": "vertical",
+          "components": {
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "icon": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        },
+        "indicator/gauge": {
+          "subtype": "round",
+          "skin": "1",
+          "components": {
+            "ticks": {
+              "inactive": false,
+              "enabled": true
+            },
+            "labels": {
+              "inactive": false,
+              "enabled": true
+            },
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        }
+      },
+      "instanceid": "13D36-EBF3-22",
+      "custom": {
+        "barcolumnchart": {
+          "type": "indicator",
+          "isTypeValid": false,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total"
+        }
+      },
+      "displayMenu": false,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": false,
+        "disallowSelector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "supportsHierarchies": false
+      },
+      "dashboardid": "62598fcfda957a0037bb4903",
+      "script": "var ChooseYourUnselectColor = '#D3D3D3';\nvar Button1Color = '#298C1A';\nvar Button2Color = '#A31818'; \nvar Button3Color = '#708AA5'; \n\nvar widgetIndicator = '62598fcfda957a0037bb4907'\n\nwidget.on('ready',function(widget, args){\n    \n\tvar widgetOID = widgetIndicator;\n    //Get the selected KPI object\n    var widget = prism.activeDashboard.widgets.$$widgets.find(w => w.oid === widgetOID)\n\t\n\tif(widget.metadata.panels[0].items[0].jaql.title == 'Total Revenue'){\n                var textOfButtonToFormat1 = 'Cost'; \n\t\t\t\tvar textOfButtonToFormat2 = 'Quantity'; \n\t\t\t\tvar selectedButton = 'Revenue'\n  \t\t\t\t$('button.btn:contains('+textOfButtonToFormat1+')').css({\n  \t\t\t\ttransition : 'background-color 50ms ease-in-out', \"background-color\": ChooseYourUnselectColor \n  \t\t\t\t});\n\t\t\t\t$('button.btn:contains('+textOfButtonToFormat2+')').css({\n  \t\t\t\ttransition : 'background-color 50ms ease-in-out', \"background-color\": ChooseYourUnselectColor \n  \t\t\t\t});\n\t\t\t\t$('button.btn:contains('+selectedButton+')').css({\n  \t\t\t\ttransition : 'background-color 50ms ease-in-out', \"background-color\": Button1Color \n  \t\t\t\t});\n            }\n\telse if (widget.metadata.panels[0].items[0].jaql.title == 'Total Cost')\n\t{\n\t \t\t\tvar textOfButtonToFormat1 = 'Revenue'; \n\t\t\t\tvar textOfButtonToFormat2 = 'Quantity';\n\t\t\t\tvar selectedButton = 'Cost'\n  \t\t\t\t$('button.btn:contains('+textOfButtonToFormat1+')').css({\n  \t\t\t\ttransition : 'background-color 50ms ease-in-out', \"background-color\": ChooseYourUnselectColor \n  \t\t\t\t});\n\t\t\t\t$('button.btn:contains('+textOfButtonToFormat2+')').css({\n  \t\t\t\ttransition : 'background-color 50ms ease-in-out', \"background-color\": ChooseYourUnselectColor \n  \t\t\t\t});\n\t\t\t\t$('button.btn:contains('+selectedButton+')').css({\n  \t\t\t\ttransition : 'background-color 50ms ease-in-out', \"background-color\": Button2Color \n  \t\t\t\t});\n\t}\n    else  \n\t{\n\t \t\t\tvar textOfButtonToFormat1 = 'Revenue'; \n\t\t\t\tvar textOfButtonToFormat2 = 'Cost';\n\t\t\t\tvar selectedButton = 'Quantity'\n  \t\t\t\t$('button.btn:contains('+textOfButtonToFormat1+')').css({\n  \t\t\t\ttransition : 'background-color 50ms ease-in-out', \"background-color\": ChooseYourUnselectColor \n  \t\t\t\t});\n\t\t\t\t$('button.btn:contains('+textOfButtonToFormat2+')').css({\n  \t\t\t\ttransition : 'background-color 50ms ease-in-out', \"background-color\": ChooseYourUnselectColor \n  \t\t\t\t});\n\t\t\t\t$('button.btn:contains('+selectedButton+')').css({\n  \t\t\t\ttransition : 'background-color 50ms ease-in-out', \"background-color\": Button3Color \n  \t\t\t\t});\n\t}\n\t\t\n\t\t  \n\n\n})",
+      "wasRendered": false,
+      "lastOpened": null
+    },
+    {
+      "title": "",
+      "type": "BloX",
+      "subtype": "BloX",
+      "oid": "62598fcfda957a0037bb4908",
+      "desc": null,
+      "source": "62598fd0da957a0037bb4919",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "Items",
+            "items": []
+          },
+          {
+            "name": "Values",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Revenue",
+                  "dim": "[Commerce.Revenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total Revenue"
+                },
+                "PanelName": "Total Revenue",
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": false,
+                      "b": false,
+                      "m": false,
+                      "k": false
+                    },
+                    "decimals": "auto",
+                    "currency": {
+                      "symbol": "$",
+                      "position": "pre"
+                    }
+                  },
+                  "color": {
+                    "color": "#21C0D9",
+                    "type": "color"
+                  }
+                },
+                "instanceid": "1B53C-543D-A4"
+              },
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Cost",
+                  "dim": "[Commerce.Cost]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total Cost"
+                },
+                "PanelName": "Total Cost",
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": false,
+                      "b": false,
+                      "m": false,
+                      "k": false
+                    },
+                    "decimals": "auto",
+                    "currency": {
+                      "symbol": "$",
+                      "position": "pre"
+                    }
+                  },
+                  "color": {
+                    "color": "#21C0D9",
+                    "type": "color"
+                  }
+                },
+                "instanceid": "7753F-EDB4-50"
+              },
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Quantity",
+                  "dim": "[Commerce.Quantity]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total Quantity"
+                },
+                "PanelName": "Total Quantity",
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": false,
+                      "b": false,
+                      "m": false,
+                      "k": false
+                    },
+                    "decimals": "auto",
+                    "number": {
+                      "separated": true
+                    }
+                  },
+                  "color": {
+                    "color": "#21C0D9",
+                    "type": "color"
+                  }
+                },
+                "instanceid": "C2ECA-AB5D-E0"
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Revenue",
+                  "dim": "[Commerce.Revenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total Revenue",
+                  "filter": {
+                    "top": 1
+                  },
+                  "datasource": {
+                    "title": "Sample ECommerce",
+                    "fullname": "LocalHost/Sample ECommerce",
+                    "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+                    "address": "LocalHost",
+                    "database": "aSampleIAAaECommerce"
+                  },
+                  "collapsed": false
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "decimals": "auto",
+                    "separated": true,
+                    "isdefault": true
+                  }
+                },
+                "instanceid": "1B8C3-315A-06"
+              }
+            ]
+          }
+        ]
+      },
+      "style": {
+        "currentCard": {
+          "style": "",
+          "script": "",
+          "title": "",
+          "showCarousel": true,
+          "titleStyle": [
+            {
+              "display": "none"
+            }
+          ],
+          "carouselAnimation": {
+            "delay": 0,
+            "showButtons": false
+          },
+          "body": [
+            {
+              "type": "TextBlock",
+              "id": "",
+              "class": "",
+              "text": "‎‎‏‏‎ ‎"
+            }
+          ],
+          "actions": [
+            {
+              "type": "SwitchMeasureWithFormat",
+              "title": "Revenue",
+              "style": {
+                "backgroundColor": "#298C1A"
+              },
+              "data": {
+                "widgetToModify": [
+                  "62598fcfda957a0037bb4907",
+                  "62598fcfda957a0037bb4904",
+                  "62598fcfda957a0037bb4905",
+                  "62598fcfda957a0037bb4906",
+                  "62598fcfda957a0037bb490a"
+                ],
+                "selectVal": "1"
+              }
+            },
+            {
+              "type": "SwitchMeasureWithFormat",
+              "title": "Cost",
+              "style": {
+                "backgroundColor": "#A31818"
+              },
+              "data": {
+                "widgetToModify": [
+                  "62598fcfda957a0037bb4907",
+                  "62598fcfda957a0037bb4904",
+                  "62598fcfda957a0037bb4905",
+                  "62598fcfda957a0037bb4906",
+                  "62598fcfda957a0037bb490a"
+                ],
+                "selectVal": "2"
+              }
+            },
+            {
+              "type": "SwitchMeasureWithFormat",
+              "title": "Quantity",
+              "style": {
+                "backgroundColor": "#708AA5"
+              },
+              "data": {
+                "widgetToModify": [
+                  "62598fcfda957a0037bb4907",
+                  "62598fcfda957a0037bb4904",
+                  "62598fcfda957a0037bb4905",
+                  "62598fcfda957a0037bb4906",
+                  "62598fcfda957a0037bb490a"
+                ],
+                "selectVal": "3"
+              }
+            }
+          ]
+        },
+        "currentConfig": {
+          "fontFamily": "Open Sans",
+          "fontSizes": {
+            "default": 14,
+            "small": 10,
+            "medium": 20,
+            "large": 50,
+            "extraLarge": 32
+          },
+          "fontWeights": {
+            "default": 500,
+            "light": 100,
+            "bold": 1000
+          },
+          "containerStyles": {
+            "default": {
+              "backgroundColor": "",
+              "foregroundColors": {
+                "default": {
+                  "normal": "#000000"
+                },
+                "white": {
+                  "normal": "#ffffff"
+                },
+                "grey": {
+                  "normal": "#9B9B9B"
+                },
+                "orange": {
+                  "normal": "#f2B900"
+                },
+                "yellow": {
+                  "normal": "#ffcb05"
+                },
+                "black": {
+                  "normal": "#000000"
+                },
+                "lightGreen": {
+                  "normal": "#3ADCCA"
+                },
+                "green": {
+                  "normal": "#54a254"
+                },
+                "red": {
+                  "normal": "#dd1111"
+                },
+                "accent": {
+                  "normal": "#2E89FC"
+                },
+                "good": {
+                  "normal": "#54a254"
+                },
+                "warning": {
+                  "normal": "#e69500"
+                },
+                "attention": {
+                  "normal": "#cc3300"
+                }
+              }
+            }
+          },
+          "imageSizes": {
+            "default": 40,
+            "small": 40,
+            "medium": 80,
+            "large": 160
+          },
+          "imageSet": {
+            "imageSize": "medium",
+            "maxImageHeight": 100
+          },
+          "actions": {
+            "color": "white",
+            "backgroundColor": "",
+            "maxActions": 5,
+            "spacing": "small",
+            "buttonSpacing": 20,
+            "actionsOrientation": "horizontal",
+            "actionAlignment": "center",
+            "showCard": {
+              "actionMode": "inline",
+              "inlineTopMargin": 16,
+              "style": "default"
+            }
+          },
+          "spacing": {
+            "default": 5,
+            "small": 20,
+            "medium": 60,
+            "large": 20,
+            "extraLarge": 40,
+            "padding": 0
+          },
+          "separator": {
+            "lineThickness": 1,
+            "lineColor": "#eeeeee"
+          },
+          "factSet": {
+            "title": {
+              "size": "default",
+              "color": "default",
+              "weight": "bold",
+              "warp": true
+            },
+            "value": {
+              "size": "default",
+              "color": "default",
+              "weight": "default",
+              "warp": true
+            },
+            "spacing": 20
+          },
+          "supportsInteractivity": true,
+          "imageBaseUrl": "",
+          "height": 82
+        },
+        "currentCardName": "Dim Swapper Y",
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": []
+        }
+      },
+      "instanceid": "21A5D-AE6C-58",
+      "custom": {
+        "barcolumnchart": {
+          "type": "BloX",
+          "isTypeValid": false,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total"
+        }
+      },
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 4,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "drilledDashboardDisplay": {},
+      "displayMenu": false,
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "title": false,
+        "drillTarget": "dummy",
+        "autoUpdateOnEveryChange": true,
+        "triggersDomready": true
+      },
+      "dashboardid": "62598fcfda957a0037bb4903",
+      "wasRendered": false,
+      "query": {
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce"
+        },
+        "format": "json",
+        "isMaskedResult": true,
+        "metadata": [
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Revenue",
+              "dim": "[Commerce.Revenue]",
+              "datatype": "numeric",
+              "agg": "sum",
+              "title": "Total Revenue"
+            },
+            "PanelName": "Total Revenue",
+            "format": {
+              "mask": {
+                "abbreviations": {
+                  "t": false,
+                  "b": false,
+                  "m": false,
+                  "k": false
+                },
+                "decimals": "auto",
+                "currency": {
+                  "symbol": "$",
+                  "position": "pre"
+                }
+              }
+            },
+            "instanceid": "1B53C-543D-A4",
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Cost",
+              "dim": "[Commerce.Cost]",
+              "datatype": "numeric",
+              "agg": "sum",
+              "title": "Total Cost"
+            },
+            "PanelName": "Total Cost",
+            "format": {
+              "mask": {
+                "abbreviations": {
+                  "t": false,
+                  "b": false,
+                  "m": false,
+                  "k": false
+                },
+                "decimals": "auto",
+                "currency": {
+                  "symbol": "$",
+                  "position": "pre"
+                }
+              }
+            },
+            "instanceid": "7753F-EDB4-50",
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Quantity",
+              "dim": "[Commerce.Quantity]",
+              "datatype": "numeric",
+              "agg": "sum",
+              "title": "Total Quantity"
+            },
+            "PanelName": "Total Quantity",
+            "format": {
+              "mask": {
+                "abbreviations": {
+                  "t": false,
+                  "b": false,
+                  "m": false,
+                  "k": false
+                },
+                "decimals": "auto",
+                "number": {
+                  "separated": true
+                }
+              }
+            },
+            "instanceid": "C2ECA-AB5D-E0",
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Revenue",
+              "dim": "[Commerce.Revenue]",
+              "datatype": "numeric",
+              "agg": "sum",
+              "title": "Total Revenue",
+              "filter": {
+                "top": 1
+              },
+              "datasource": {
+                "title": "Sample ECommerce",
+                "fullname": "LocalHost/Sample ECommerce",
+                "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+                "address": "LocalHost",
+                "database": "aSampleIAAaECommerce"
+              },
+              "collapsed": false
+            },
+            "format": {
+              "mask": {
+                "type": "number",
+                "decimals": "auto",
+                "separated": true,
+                "isdefault": true
+              }
+            },
+            "instanceid": "1B8C3-315A-06",
+            "panel": "scope",
+            "handlers": [
+              {}
+            ]
+          }
+        ],
+        "m2mThresholdFlag": 0
+      },
+      "lastOpened": null
+    },
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "62598fcfda957a0037bb4909",
+      "desc": null,
+      "source": "62598fd0da957a0037bb491a",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": []
+      },
+      "style": {
+        "content": {
+          "html": "<b style=\"font-size: 24px;\"><font color=\"#ffffff\">KPI (Measure) Switcher by Blox Action&nbsp;<br></font></b><font color=\"#ffffff\" style=\"\"><b><i><font size=\"3\">This version supports different formats for different measures (e.g. Currency for Revenue and Cost, Number for Quantity)</font><span style=\"font-size: 24px;\">&nbsp;</span></i></b></font>",
+          "vAlign": "valign-middle",
+          "bgColor": "#124c87",
+          "textAlign": "center"
+        }
+      },
+      "instanceid": "073C2-3B82-30",
+      "wasRendered": false,
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "dashboardid": "62598fcfda957a0037bb4903",
+      "lastOpened": null
+    },
+    {
+      "title": "Brand",
+      "type": "pivot2",
+      "subtype": "pivot",
+      "oid": "62598fcfda957a0037bb490a",
+      "desc": null,
+      "source": "62598fd0da957a0037bb491b",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "rows",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Brand",
+                  "column": "Brand",
+                  "dim": "[Brand.Brand]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Brand"
+                },
+                "field": {
+                  "id": "[Brand.Brand]",
+                  "index": 0
+                },
+                "panel": "rows",
+                "instanceid": "FEF46-408B-F4"
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Revenue",
+                  "dim": "[Commerce.Revenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total Revenue"
+                },
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": false,
+                      "b": false,
+                      "m": false,
+                      "k": false
+                    },
+                    "decimals": "auto",
+                    "currency": {
+                      "symbol": "$",
+                      "position": "pre"
+                    }
+                  },
+                  "color": {
+                    "colorIndex": 0,
+                    "type": "color"
+                  }
+                },
+                "field": {
+                  "id": "[Commerce.Quantity]_sum",
+                  "index": 1
+                },
+                "panel": "measures",
+                "instanceid": "9355B-2BF2-C3"
+              }
+            ]
+          },
+          {
+            "name": "columns",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "pageSize": 25,
+        "automaticHeight": true,
+        "colors": {
+          "rows": false,
+          "columns": false,
+          "headers": false,
+          "members": false,
+          "totals": false
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "brand",
+              "title": "Brand",
+              "singular": "Brand",
+              "plural": "Brand"
+            }
+          ]
+        },
+        "scroll": false
+      },
+      "instanceid": "D951D-6418-98",
+      "custom": {
+        "barcolumnchart": {
+          "type": "pivot",
+          "isTypeValid": false,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total"
+        }
+      },
+      "displayMenu": false,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 2,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": false,
+        "triggersDomready": true,
+        "drillToAnywhere": true,
+        "autoUpdateOnEveryChange": true,
+        "selectorLocked": false
+      },
+      "dashboardid": "62598fcfda957a0037bb4903",
+      "script_old": "widget.on(\"domready\", function(w, args) {\n\t\n//cells \t\n$tcells = $(\"[fidx]\", element);\n$tcells.css('background-color' , '#ffffff');\n\n\n\n});\n\n",
+      "wasRendered": false,
+      "query": {
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce"
+        },
+        "format": "pivot",
+        "grandTotals": {
+          "title": "Grand Total"
+        },
+        "metadata": [
+          {
+            "jaql": {
+              "table": "Brand",
+              "column": "Brand",
+              "dim": "[Brand.Brand]",
+              "datatype": "text",
+              "merged": true,
+              "title": "Brand"
+            },
+            "field": {
+              "id": "[Brand.Brand]",
+              "index": 0
+            },
+            "panel": "rows",
+            "instanceid": "FEF46-408B-F4",
+            "handlers": []
+          },
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Revenue",
+              "dim": "[Commerce.Revenue]",
+              "datatype": "numeric",
+              "agg": "sum",
+              "title": "Total Revenue"
+            },
+            "format": {
+              "mask": {
+                "abbreviations": {
+                  "t": false,
+                  "b": false,
+                  "m": false,
+                  "k": false
+                },
+                "decimals": "auto",
+                "currency": {
+                  "symbol": "$",
+                  "position": "pre"
+                }
+              },
+              "color": {
+                "colorIndex": 0,
+                "type": "color",
+                "color": "transparent"
+              }
+            },
+            "field": {
+              "id": "[Commerce.Quantity]_sum",
+              "index": 1
+            },
+            "panel": "measures",
+            "instanceid": "9355B-2BF2-C3",
+            "handlers": [
+              {},
+              {}
+            ]
+          }
+        ],
+        "m2mThresholdFlag": 0
+      },
+      "lastOpened": null
+    },
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "62598fcfda957a0037bb490b",
+      "desc": null,
+      "source": "62598fd0da957a0037bb491c",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": []
+      },
+      "style": {
+        "content": {
+          "html": "Say good bye to Tabber and the Measure Changer plugins..<br>&nbsp;<a href=\"https://support.sisense.com/hc/en-us/community/posts/360048836454-Changing-Measures-in-the-entire-Dashboard-using-Blox-User-Interface\">https://support.sisense.com/hc/en-us/community/posts/360048836454-Changing-Measures-in-the-entire-Dashboard-using-Blox-User-Interface</a><br>",
+          "vAlign": "valign-middle",
+          "bgColor": "#ffffff",
+          "textAlign": "center"
+        }
+      },
+      "instanceid": "5D6BD-9815-6E",
+      "wasRendered": false,
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "dashboardid": "62598fcfda957a0037bb4903",
+      "lastOpened": null
+    }
+  ],
+  "hierarchies": [
+    {
+      "_id": "5deaa26b55f2cb08c43cb908",
+      "title": "Test1",
+      "alwaysIncluded": true,
+      "levels": [
+        {
+          "title": "Category",
+          "table": "Category",
+          "column": "Category",
+          "datatype": "text",
+          "dim": "[Category.Category]",
+          "index": 0,
+          "_id": "5deaa26b55f2cb08c43cb907"
+        },
+        {
+          "title": "Brand",
+          "table": "Brand",
+          "column": "Brand",
+          "datatype": "text",
+          "dim": "[Brand.Brand]",
+          "index": 1,
+          "_id": "5deaa26f55f2cb08c43cb90a"
+        },
+        {
+          "title": "Country",
+          "table": "Country",
+          "column": "Country",
+          "datatype": "text",
+          "dim": "[Country.Country]",
+          "index": 2,
+          "_id": "5deaa27555f2cb08c43cb90c"
+        }
+      ],
+      "cubeId": "6142d757c80a065ff5a24ccc",
+      "lastUpdated": "2023-12-17T10:23:52.992Z",
+      "serverAddress": "LocalHost",
+      "elasticubeTitle": "Sample ECommerce"
+    }
+  ]
+}

@@ -1,0 +1,721 @@
+{
+  "oid": "6542cfe00b87a70033ea5ac4",
+  "dataExploration": false,
+  "datasource": {
+    "fullname": "localhost/Sample ECommerce",
+    "id": "localhost_aSampleIAAaECommerce",
+    "address": "LocalHost",
+    "database": "aSampleIAAaECommerce",
+    "live": false,
+    "title": "Sample ECommerce"
+  },
+  "defaultFilters": [],
+  "desc": "",
+  "editing": false,
+  "filterRelations": [],
+  "filterToDatasourceMapping": {},
+  "filters": [],
+  "lastOpened": null,
+  "layout": {
+    "instanceid": "E83F8-DE1D-42",
+    "type": "columnar",
+    "columns": [
+      {
+        "width": 100,
+        "cells": [
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "height": "452px",
+                    "defaultWidth": 128,
+                    "widgetid": "6542d82a0b87a70033ea5ad7"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1089.49,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 1028,
+                    "height": 192,
+                    "minWidth": 48,
+                    "maxWidth": 1028,
+                    "defaultWidth": 512,
+                    "widgetid": "6542cfec0b87a70033ea5ac6"
+                  }
+                ],
+                "width": 33.333333333333336,
+                "stretchable": false,
+                "pxlWidth": 363.154,
+                "index": 0
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 1028,
+                    "height": 192,
+                    "minWidth": 48,
+                    "maxWidth": 1028,
+                    "defaultWidth": 512,
+                    "widgetid": "6542cff30b87a70033ea5ac8"
+                  }
+                ],
+                "width": 33.333333333333336,
+                "stretchable": false,
+                "pxlWidth": 363.154,
+                "index": 1
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 1028,
+                    "height": 192,
+                    "minWidth": 48,
+                    "maxWidth": 1028,
+                    "defaultWidth": 512,
+                    "widgetid": "6542cfff0b87a70033ea5aca"
+                  }
+                ],
+                "width": 33.333333333333336,
+                "stretchable": false,
+                "pxlWidth": 363.154,
+                "index": 2
+              }
+            ]
+          }
+        ],
+        "pxlWidth": 1089.49,
+        "index": 0
+      }
+    ],
+    "container": {}
+  },
+  "original": null,
+  "parentFolder": "61c44b8983642f002bf183b9",
+  "previewLayout": [],
+  "settings": {
+    "autoUpdateOnFiltersChange": true
+  },
+  "source": "6542cfe00b87a70033ea5ac5",
+  "style": {
+    "palette": {
+      "name": "Vivid",
+      "colors": [
+        "#00cee6",
+        "#9b9bd7",
+        "#6EDA55",
+        "#fc7570",
+        "#fbb755",
+        "#218A8C"
+      ]
+    }
+  },
+  "title": "Hide Widget Toolbar Buttons",
+  "type": "dashboard",
+  "allowChangeSubscription": false,
+  "subscription": {
+    "executionPerDay": 1,
+    "schedule": "* * * * * *",
+    "isDataChange": true,
+    "type": "onUpdate",
+    "reportType": {
+      "inline": true
+    },
+    "emailSettings": {
+      "isEmail": true,
+      "isPdf": false
+    },
+    "context": {
+      "dashboardid": "6542cfe00b87a70033ea5ac4"
+    },
+    "startAt": "2023-11-01",
+    "tzName": "America/New_York",
+    "timezone": 300,
+    "active": false
+  },
+  "isPublic": null,
+  "widgets": [
+    {
+      "title": "Normal",
+      "type": "indicator",
+      "subtype": "indicator/numeric",
+      "oid": "6542cfec0b87a70033ea5ac6",
+      "desc": null,
+      "source": "6542cfec0b87a70033ea5ac7",
+      "datasource": {
+        "fullname": "localhost/Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce",
+        "live": false,
+        "title": "Sample ECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "value",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Revenue",
+                  "dim": "[Commerce.Revenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total Revenue"
+                },
+                "instanceid": "6B372-AFA3-16",
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": false
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "colorIndex": 0,
+                    "type": "color"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "secondary",
+            "items": []
+          },
+          {
+            "name": "min",
+            "items": []
+          },
+          {
+            "name": "max",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "subtype": "simple",
+        "skin": "vertical",
+        "components": {
+          "title": {
+            "inactive": false,
+            "enabled": true
+          },
+          "icon": {
+            "inactive": false,
+            "enabled": true
+          },
+          "secondaryTitle": {
+            "inactive": true,
+            "enabled": true
+          }
+        },
+        "indicator/numeric": {
+          "subtype": "simple",
+          "skin": "vertical",
+          "components": {
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "icon": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        },
+        "indicator/gauge": {
+          "subtype": "round",
+          "skin": "1",
+          "components": {
+            "ticks": {
+              "inactive": false,
+              "enabled": true
+            },
+            "labels": {
+              "inactive": false,
+              "enabled": true
+            },
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        }
+      },
+      "instanceid": "04FBD-CA34-F4",
+      "wasRendered": false,
+      "realTimeRefreshing": false,
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": false,
+        "disallowSelector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "supportsHierarchies": false
+      },
+      "dashboardid": "6542cfe00b87a70033ea5ac4"
+    },
+    {
+      "title": "No buttons",
+      "type": "indicator",
+      "subtype": "indicator/numeric",
+      "oid": "6542cff30b87a70033ea5ac8",
+      "desc": null,
+      "source": "6542cff30b87a70033ea5ac9",
+      "datasource": {
+        "fullname": "localhost/Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce",
+        "live": false,
+        "title": "Sample ECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "value",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Cost",
+                  "dim": "[Commerce.Cost]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total Cost"
+                },
+                "instanceid": "F7F1B-6B7C-EB",
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": false
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "colorIndex": 0,
+                    "type": "color"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "secondary",
+            "items": []
+          },
+          {
+            "name": "min",
+            "items": []
+          },
+          {
+            "name": "max",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "subtype": "simple",
+        "skin": "vertical",
+        "components": {
+          "title": {
+            "inactive": false,
+            "enabled": true
+          },
+          "icon": {
+            "inactive": false,
+            "enabled": true
+          },
+          "secondaryTitle": {
+            "inactive": true,
+            "enabled": true
+          }
+        },
+        "indicator/numeric": {
+          "subtype": "simple",
+          "skin": "vertical",
+          "components": {
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "icon": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        },
+        "indicator/gauge": {
+          "subtype": "round",
+          "skin": "1",
+          "components": {
+            "ticks": {
+              "inactive": false,
+              "enabled": true
+            },
+            "labels": {
+              "inactive": false,
+              "enabled": true
+            },
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        }
+      },
+      "instanceid": "96ED9-8724-46",
+      "wasRendered": false,
+      "realTimeRefreshing": false,
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": false,
+        "disallowSelector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "supportsHierarchies": false
+      },
+      "dashboardid": "6542cfe00b87a70033ea5ac4",
+      "script": "/*\nWelcome to your Widget's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at https://sisense.dev/guides/js/extensions\n*/\n\n\n//Hide widget toolbar options\nwidget.on('buildquery', ()=> {\n\n\t//Uncomment the code below if you want to hide the buttons only for viewers\n\t//if(prism.user.roleName == 'consumer') {\n\n\t//Hide Edit (pencil) button\n\t$(element).parent().find('.widget-toolbar-btn--edit').remove();\n\t\n\t//Hide Expand / Full Screen (diagonal double-headed arrow) button\n\t$(element).parent().find('.widget-toolbar-btn--fullscreen').remove();\n\n\t//Hide Detail (circled i) button\n\t$(element).parent().find('.btn--no-background').remove();\n\n\t//Hide Menu (vertical ellipsis) button\n\t$(element).parent().find('.widget-toolbar-btn--menu').remove();\n\n\t//Hide Analyze It (graduation owl) button\n\t$(element).parent().find('.analyze-it-button').remove();\n\n\t//Uncomment the closing curly bracket below if you want to hide the buttons only for viewers\n\t//}\n\n})",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      }
+    },
+    {
+      "title": "No Edit/Full Screen button",
+      "type": "indicator",
+      "subtype": "indicator/numeric",
+      "oid": "6542cfff0b87a70033ea5aca",
+      "desc": null,
+      "source": "6542cfff0b87a70033ea5acb",
+      "datasource": {
+        "fullname": "localhost/Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce",
+        "live": false,
+        "title": "Sample ECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "value",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Visit ID",
+                  "dim": "[Commerce.Visit ID]",
+                  "datatype": "numeric",
+                  "agg": "count",
+                  "title": "# of unique Visit ID"
+                },
+                "instanceid": "C3931-C594-5A",
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": false
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "colorIndex": 0,
+                    "type": "color"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "secondary",
+            "items": []
+          },
+          {
+            "name": "min",
+            "items": []
+          },
+          {
+            "name": "max",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "subtype": "simple",
+        "skin": "vertical",
+        "components": {
+          "title": {
+            "inactive": false,
+            "enabled": true
+          },
+          "icon": {
+            "inactive": true,
+            "enabled": true
+          },
+          "secondaryTitle": {
+            "inactive": true,
+            "enabled": true
+          }
+        },
+        "indicator/numeric": {
+          "subtype": "simple",
+          "skin": "vertical",
+          "components": {
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "icon": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        },
+        "indicator/gauge": {
+          "subtype": "round",
+          "skin": "1",
+          "components": {
+            "ticks": {
+              "inactive": false,
+              "enabled": true
+            },
+            "labels": {
+              "inactive": false,
+              "enabled": true
+            },
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": []
+        }
+      },
+      "instanceid": "65232-E675-57",
+      "wasRendered": false,
+      "realTimeRefreshing": false,
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": false,
+        "disallowSelector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "supportsHierarchies": false
+      },
+      "dashboardid": "6542cfe00b87a70033ea5ac4",
+      "script": "/*\nWelcome to your Widget's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at https://sisense.dev/guides/js/extensions\n*/\n\n\nwidget.on('buildquery', ()=> {\n\n\t//Hide Edit (pencil) button\n\t$(element).parent().find('.widget-toolbar-btn--edit').remove();\n\t\n\t//Hide Expand/FullScreen (diagonal double-headed arrow) button\n\t$(element).parent().find('.widget-toolbar-btn--fullscreen').remove();\n\t\n})\n\n\n",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      }
+    },
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "6542d82a0b87a70033ea5ad7",
+      "desc": null,
+      "source": "6542d82a0b87a70033ea5ad8",
+      "datasource": {
+        "fullname": "localhost/Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce",
+        "live": false,
+        "title": "Sample ECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "content": {
+          "html": "<div style=\"text-align: left;\"><div><span style=\"text-align: -webkit-match-parent;\"><font size=\"3\"><b>This is the widget script to selectively hide widget toolbar buttons.</b></font></span></div><div><span style=\"text-align: -webkit-match-parent;\"><br></span></div><div><div><span style=\"font-size: 13px;\">//Hide widget toolbar options</span></div><div><span style=\"font-size: 13px;\">widget.on('buildquery', ()=&gt; {</span></div><div><span style=\"font-size: 13px;\"><br></span></div><div><span style=\"font-size: 13px; white-space: normal;\"><span style=\"white-space:pre\">\t</span>//Uncomment the code below if you want to hide the buttons only for viewers</span></div><div><span style=\"font-size: 13px; white-space: normal;\"><span style=\"white-space:pre\">\t</span>//if(prism.user.roleName == 'consumer') {</span></div><div><span style=\"font-size: 13px;\"><br></span></div><div><span style=\"font-size: 13px; white-space: normal;\"><span style=\"white-space:pre\">\t</span>//Hide Edit (pencil) button</span></div><div><span style=\"font-size: 13px; white-space: normal;\"><span style=\"white-space:pre\">\t</span>$(element).parent().find('.widget-toolbar-btn--edit').remove();</span></div><div><span style=\"white-space: pre; font-size: 13px; white-space: normal;\">\t</span></div><div><span style=\"font-size: 13px; white-space: normal;\"><span style=\"white-space:pre\">\t</span>//Hide Expand / Full&nbsp;</span>Screen (diagonal double-headed arrow) button</div><div><span style=\"font-size: 13px; white-space: normal;\"><span style=\"white-space:pre\">\t</span>$(element).parent().find('.widget-toolbar-btn--fullscreen').remove();</span></div><div><span style=\"font-size: 13px;\"><br></span></div><div><span style=\"font-size: 13px; white-space: normal;\"><span style=\"white-space:pre\">\t</span>//Hide Detail (circled i) button</span></div><div><span style=\"font-size: 13px; white-space: normal;\"><span style=\"white-space:pre\">\t</span>$(element).parent().find('.btn--no-background').remove();</span></div><div><span style=\"font-size: 13px;\"><br></span></div><div><span style=\"font-size: 13px; white-space: normal;\"><span style=\"white-space:pre\">\t</span>//Hide Menu (vertical ellipsis) button</span></div><div><span style=\"font-size: 13px; white-space: normal;\"><span style=\"white-space:pre\">\t</span>$(element).parent().find('.widget-toolbar-btn--menu').remove();</span></div><div><span style=\"font-size: 13px;\"><br></span></div><div><span style=\"font-size: 13px; white-space: normal;\"><span style=\"white-space:pre\">\t</span>//Hide Analyze It (graduation owl) button</span></div><div><span style=\"font-size: 13px; white-space: normal;\"><span style=\"white-space:pre\">\t</span>$(element).parent().find('.analyze-it-button').remove();</span></div><div><span style=\"font-size: 13px;\"><br></span></div><div><span style=\"font-size: 13px; white-space: normal;\"><span style=\"white-space:pre\">\t</span>//Uncomment the closing curly bracket below if you want to hide the buttons only for viewers</span></div><div><span style=\"font-size: 13px; white-space: normal;\"><span style=\"white-space:pre\">\t</span>//}</span></div><div><span style=\"font-size: 13px;\"><br></span></div><div><span style=\"font-size: 13px;\">})</span></div></div><div><br></div><div><span style=\"white-space: normal;\"><font size=\"2\">\t</font></span></div><div><span style=\"white-space: normal;\"><font size=\"2\">\t</font></span></div><div><span style=\"white-space: normal;\"><font size=\"2\">\t</font></span></div><div><span style=\"white-space: normal;\"><font size=\"2\">\t</font></span></div><div><br></div></div>",
+          "vAlign": "valign-middle",
+          "bgColor": "#FFFFFF",
+          "textAlign": "center"
+        }
+      },
+      "instanceid": "392B3-5D20-9B",
+      "wasRendered": false,
+      "realTimeRefreshing": false,
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "dashboardid": "6542cfe00b87a70033ea5ac4"
+    }
+  ],
+  "hierarchies": []
+}

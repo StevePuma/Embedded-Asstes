@@ -1,0 +1,1236 @@
+{
+  "oid": "61ae2c367b6d491dec0bf827",
+  "allowChangeSubscription": false,
+  "datasource": {
+    "title": "Sample ECommerce",
+    "fullname": "LocalHost/Sample ECommerce",
+    "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+    "address": "LocalHost",
+    "database": "aSampleIAAaECommerce",
+    "oid": "01a38588-0027-4a30-8d94-06212032c59b"
+  },
+  "defaultFilters": [
+    {
+      "jaql": {
+        "table": "Commerce",
+        "column": "Gender",
+        "dim": "[Commerce.Gender]",
+        "datatype": "text",
+        "merged": true,
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce",
+          "oid": "01a38588-0027-4a30-8d94-06212032c59b"
+        },
+        "firstday": "mon",
+        "locale": "en-us",
+        "title": "Gender",
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "C3D90-6447-2F",
+      "isCascading": false,
+      "disabled": false
+    }
+  ],
+  "desc": "",
+  "editing": false,
+  "isPublic": null,
+  "layout": {
+    "instanceid": "58F49-C38D-72",
+    "type": "columnar",
+    "columns": [
+      {
+        "width": 100,
+        "cells": [
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "height": "76px",
+                    "defaultWidth": 128,
+                    "widgetid": "6699386416425d0033748541"
+                  }
+                ],
+                "width": 50,
+                "stretchable": false,
+                "pxlWidth": 535.99,
+                "index": 0
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "defaultWidth": 128,
+                    "widgetid": "6699386b16425d0033748543",
+                    "height": "76px"
+                  }
+                ],
+                "width": 50,
+                "stretchable": false,
+                "pxlWidth": 535.99,
+                "index": 1
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 102,
+                    "maxHeight": 1024,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": 512,
+                    "defaultWidth": 512,
+                    "widgetid": "6699374f16425d0033748527"
+                  }
+                ],
+                "width": 50,
+                "stretchable": false,
+                "pxlWidth": 535.99,
+                "index": 0
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 102,
+                    "maxHeight": 1024,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": 512,
+                    "defaultWidth": 512,
+                    "widgetid": "61ae2c367b6d491dec0bf828"
+                  }
+                ],
+                "width": 50,
+                "stretchable": false,
+                "pxlWidth": 535.99,
+                "index": 1
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 96,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "61ae2c367b6d491dec0bf829",
+                    "height": 512
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 803.993,
+                "index": 0
+              }
+            ]
+          }
+        ],
+        "pxlWidth": 1074.21,
+        "index": 0
+      }
+    ],
+    "container": {
+      "sizzle1721317467248": {
+        "undefined": {
+          "parentNode": [
+            22,
+            23,
+            true
+          ]
+        }
+      }
+    }
+  },
+  "original": null,
+  "parentFolder": "61c44b8783642f002bf1839d",
+  "previewLayout": [],
+  "settings": {
+    "autoUpdateOnFiltersChange": true
+  },
+  "source": "66aa5ec4a524035162c7e33d",
+  "style": {
+    "palette": {
+      "name": "Vivid",
+      "colors": [
+        "#00cee6",
+        "#9b9bd7",
+        "#6EDA55",
+        "#fc7570",
+        "#fbb755",
+        "#218A8C"
+      ]
+    }
+  },
+  "subscription": {
+    "executionPerDay": 1,
+    "schedule": "* * * * * *",
+    "isDataChange": true,
+    "type": "onUpdate",
+    "reportType": {
+      "inline": true
+    },
+    "emailSettings": {
+      "isEmail": true,
+      "isPdf": false
+    },
+    "context": {
+      "dashboardid": "61ae2c367b6d491dec0bf827"
+    },
+    "startAt": "2024-07-18",
+    "tzName": "America/New_York",
+    "timezone": 240,
+    "active": false,
+    "subscribe": false
+  },
+  "title": "Column Chart - Data Labels",
+  "type": "dashboard",
+  "lastOpened": null,
+  "filterRelations": [],
+  "filterToDatasourceMapping": {},
+  "filters": [
+    {
+      "jaql": {
+        "table": "Commerce",
+        "column": "Gender",
+        "dim": "[Commerce.Gender]",
+        "datatype": "text",
+        "merged": true,
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce",
+          "oid": "01a38588-0027-4a30-8d94-06212032c59b"
+        },
+        "firstday": "mon",
+        "locale": "en-us",
+        "title": "Gender",
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "C3D90-6447-2F",
+      "isCascading": false,
+      "disabled": false
+    }
+  ],
+  "widgets": [
+    {
+      "dashboardid": "61ae2c367b6d491dec0bf827",
+      "oid": "61ae2c367b6d491dec0bf828",
+      "cumSettings": [],
+      "custom": {
+        "barcolumnchart": {
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total",
+          "type": "chart/column",
+          "isTypeValid": true
+        }
+      },
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "database": "aSampleIAAaECommerce",
+        "fullname": "LocalHost/Sample ECommerce"
+      },
+      "desc": "https://support.sisense.com/hc/en-us/community/posts/221227308-Format-Widget-Title\n\nhttps://support.sisense.com/hc/en-us/community/posts/221226968-Changing-a-Widget-s-Background-Color-",
+      "displayMenu": true,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "instanceid": "6684B-8AE3-E0",
+      "metadata": {
+        "drillHistory": [
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Gender",
+              "dim": "[Commerce.Gender]",
+              "datatype": "text",
+              "merged": true,
+              "title": "Gender"
+            },
+            "parent": {
+              "jaql": {
+                "table": "Commerce",
+                "column": "Age Range",
+                "dim": "[Commerce.Age Range]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Age Range"
+              },
+              "instanceid": "CE602-9E60-C0",
+              "panel": "rows"
+            },
+            "through": {
+              "jaql": {
+                "datatype": "text",
+                "dim": "[Commerce.Age Range]",
+                "title": "Age Range",
+                "column": "Age Range",
+                "table": "Commerce",
+                "filter": {
+                  "explicit": true,
+                  "multiSelection": true,
+                  "members": [
+                    "35-44"
+                  ]
+                }
+              }
+            }
+          }
+        ],
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "categories",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Age Range",
+                  "dim": "[Commerce.Age Range]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Age Range"
+                },
+                "instanceid": "CE602-9E60-C0",
+                "panel": "rows"
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Cost",
+                  "dim": "[Commerce.Cost]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total Cost"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "abbreviateAll": false,
+                    "isdefault": true
+                  },
+                  "color": {
+                    "colorIndex": 0,
+                    "type": "color"
+                  }
+                },
+                "instanceid": "C1401-0B88-97",
+                "panel": "measures"
+              }
+            ]
+          },
+          {
+            "name": "break by",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "drillToAnywhere": true,
+        "previousScrollerLocation": {
+          "min": null,
+          "max": null
+        }
+      },
+      "realTimeRefreshing": false,
+      "script": "\n \n /*******************************************/\n/********Format floating Data Labels********/\n/*******************************************/ \n\nwidget.on('processresult', function(se,ev){\n \n \n\n     /*Change the Series Name below*/\n\n var seriesName = \"Total Cost\"; \n\n\nvar data = _.find(ev.result.series, function (ser) {return ser.name == seriesName}).data \n_.each(data, function(value){ \n  \n\n      /*Enable Data Labels, Font Size, Font Weight, Color, Rotation (-360 to 360), and the Y offset*/\n\nvalue.dataLabels = {enabled:true, style:{'fontSize':'25px', 'fontWeight':'bold', 'color': '#000000'}, rotation: 350, y : 40} \n \n\t\t\t\t})\n\n\n\n\t\n\n}) \n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\n\t\n\n\n\t\n\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "selection": null,
+      "source": "66aa5ec4a524035162c7e342",
+      "style": {
+        "legend": {
+          "enabled": true,
+          "position": "bottom"
+        },
+        "seriesLabels": {
+          "enabled": true,
+          "rotation": 0,
+          "labels": {
+            "enabled": false,
+            "types": {
+              "count": false,
+              "percentage": false,
+              "relative": false,
+              "totals": false
+            },
+            "stacked": false,
+            "stackedPercentage": false
+          }
+        },
+        "xAxis": {
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "x2Title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "isIntervalEnabled": false
+        },
+        "yAxis": {
+          "inactive": false,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "logarithmic": false,
+          "hideMinMax": false,
+          "isIntervalEnabled": true
+        },
+        "y2Axis": {
+          "inactive": true,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": false,
+          "logarithmic": false,
+          "hideMinMax": false,
+          "isIntervalEnabled": true
+        },
+        "navigator": {
+          "enabled": true
+        },
+        "dataLimits": {
+          "seriesCapacity": 50,
+          "categoriesCapacity": 100000
+        },
+        "title": {
+          "titleMenuEnabled": false,
+          "fontColorEnabled": true,
+          "titleFontColor": "#ffcb05",
+          "fontWeightEnabled": true,
+          "titleFontWeight": "bold"
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "age_range",
+              "title": "Age Range",
+              "singular": "Age Range",
+              "plural": "Age Range"
+            }
+          ]
+        }
+      },
+      "subtype": "column/classic",
+      "title": "OLD - Data Label Formatting (no longer works reliably)",
+      "type": "chart/column",
+      "wasRendered": false
+    },
+    {
+      "dashboardid": "61ae2c367b6d491dec0bf827",
+      "oid": "61ae2c367b6d491dec0bf829",
+      "cumSettings": [],
+      "custom": {
+        "barcolumnchart": {
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total",
+          "type": "chart/column",
+          "isTypeValid": true
+        }
+      },
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "database": "aSampleIAAaECommerce",
+        "fullname": "LocalHost/Sample ECommerce"
+      },
+      "desc": "https://support.sisense.com/hc/en-us/community/posts/221227308-Format-Widget-Title\n\nhttps://support.sisense.com/hc/en-us/community/posts/221226968-Changing-a-Widget-s-Background-Color-",
+      "displayMenu": true,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false
+      },
+      "instanceid": "6684B-8AE3-E0",
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "categories",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Age Range",
+                  "dim": "[Commerce.Age Range]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Age Range"
+                }
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Cost",
+                  "dim": "[Commerce.Cost]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total Cost"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "color": "#00cee6",
+                    "type": "color"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "break by",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "drillToAnywhere": true,
+        "previousScrollerLocation": {
+          "min": 0,
+          "max": 6
+        }
+      },
+      "script": "widget.on('processresult',function(s,e){\n\n //////////////////////////\n // User Input //\n //////////////////////////\n\n // Define which series (0-indexed) to change, and what the new color is\n var newCss = [\n   {\n     seriesIndex: 0,\n     css: {\n       \"font-size\": \"12px\",\n       \"color\":\"red\",\n       \"line-height\": \"21px\",\n       \"font-family\": '\"Arial Black\", Gadget, sans-serif',\n     }\n   }\n ]\n\n ////////////////////////////////\n // Custom Formating Function //\n ////////////////////////////////\n\n var customFormatter = function(){\n\n   // Lookup the proper css attributes\n   var htmlString = \"\",\n       index = this.series._i,\n       myItem = e.widget.metadata.panel(\"values\").items[index],\n       myMask = $$get(myItem, \"format.mask\", {}),\n       mySeries = $.grep(newCss,function(w){\n         return w.seriesIndex == index;\n       }),\n       css = mySeries.length > 0 ? mySeries[0].css : null;\n\n\t \n\t var value1 = this.series.yData[0];\n\t var value2 = this.series.yData[1];\n\t \n\t var split;\n\t \n\t if (this.y == value1) {\n\t \tsplit = (value1/(value1 + value2)) * 100;\n\t } else {\n\t\tsplit = (value2/(value1 + value2)) * 100;\n\t }\n\n   // Only run if CSS is defined\n   if (css){\n\n     // Start the HTML string\n     htmlString = \"<tspan style = '\"\n\n     // Loop through the css attributes\n     for (key in css){\n       htmlString += key + \": \" + css[key] + \"; \";\n     }\n\n     // Close the tag\n     htmlString += \"'>\" + maskFormatter(this.y,myMask) + \"  (\" + Math.round(split) + \"%)</tspan>\";\n   } else {\n \n     // Just use the default\n     htmlString = \"<tspan>\" + maskFormatter(this.y,myMask) +  \" (\" + Math.round(split)  + \"%)</span>\";\n   }\n\n   return htmlString\n }\n\n var maskFormatter = function(value,mask){\n\n   // Get the formatter function\n   var formatter = prism.$injector.get('$filter')('numeric');\n\n   return formatter(value,mask) \n }\n\n ///////////////////////////////////\n // Get the Series and set Color //\n ///////////////////////////////////\n\n // Loop through each setting\n $.each(newCss,function(){\n\n   // Get the series for this color\n   var mySeries = e.result.series ? e.result.series[this.seriesIndex] : null;\n   if (mySeries){\n     // Assign the new color\n     mySeries.dataLabels = {\n       useHTML: true,\n       formatter: customFormatter\n     }\n   }\n })\n\n})\n\n\n\n\n\n\n\n\t\n\t\n\t\n\n\n\t\n\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "selection": null,
+      "source": "66aa5ec4a524035162c7e343",
+      "style": {
+        "legend": {
+          "enabled": true,
+          "position": "bottom"
+        },
+        "seriesLabels": {
+          "enabled": true,
+          "rotation": 0,
+          "labels": {
+            "enabled": false,
+            "types": {
+              "count": false,
+              "percentage": false,
+              "relative": false,
+              "totals": false
+            },
+            "stacked": false,
+            "stackedPercentage": false
+          }
+        },
+        "xAxis": {
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "x2Title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "isIntervalEnabled": false
+        },
+        "yAxis": {
+          "inactive": false,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "logarithmic": false,
+          "hideMinMax": false,
+          "isIntervalEnabled": true
+        },
+        "y2Axis": {
+          "inactive": true,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": false,
+          "logarithmic": false,
+          "hideMinMax": false,
+          "isIntervalEnabled": true
+        },
+        "navigator": {
+          "enabled": true
+        },
+        "dataLimits": {
+          "seriesCapacity": 50,
+          "categoriesCapacity": 100000
+        },
+        "title": {
+          "titleMenuEnabled": false,
+          "fontColorEnabled": true,
+          "titleFontColor": "#ffcb05",
+          "fontWeightEnabled": true,
+          "titleFontWeight": "bold"
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "age_range",
+              "title": "Age Range",
+              "singular": "Age Range",
+              "plural": "Age Range"
+            }
+          ]
+        }
+      },
+      "subtype": "column/classic",
+      "title": "Data Label Formatting",
+      "type": "chart/column",
+      "wasRendered": false
+    },
+    {
+      "dashboardid": "61ae2c367b6d491dec0bf827",
+      "oid": "6699374f16425d0033748527",
+      "cumSettings": [],
+      "custom": {
+        "barcolumnchart": {
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total",
+          "type": "chart/column",
+          "isTypeValid": true
+        }
+      },
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "database": "aSampleIAAaECommerce",
+        "fullname": "LocalHost/Sample ECommerce"
+      },
+      "desc": "https://support.sisense.com/hc/en-us/community/posts/221227308-Format-Widget-Title\n\nhttps://support.sisense.com/hc/en-us/community/posts/221226968-Changing-a-Widget-s-Background-Color-",
+      "displayMenu": true,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "instanceid": "086AD-6CC6-1D",
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "categories",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Age Range",
+                  "dim": "[Commerce.Age Range]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Age Range"
+                },
+                "instanceid": "728DA-2D0E-7E",
+                "panel": "rows"
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Cost",
+                  "dim": "[Commerce.Cost]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total Cost"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "abbreviateAll": false,
+                    "isdefault": true
+                  },
+                  "color": {
+                    "colorIndex": 0,
+                    "type": "color"
+                  }
+                },
+                "instanceid": "96738-5184-B7",
+                "panel": "measures"
+              }
+            ]
+          },
+          {
+            "name": "break by",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "drillToAnywhere": true,
+        "previousScrollerLocation": {
+          "min": null,
+          "max": null
+        }
+      },
+      "realTimeRefreshing": false,
+      "script": "/*\nWelcome to your Widget's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at https://sisense.dev/guides/js/extensions\n*/\n\n//Customize value labels formatting\nwidget.on('processresult', function(w, e) {\n\n\t// Iterate through each series in the chart data\n\te.result.series.forEach(function(series) {\n\n\t\t// Check if the dataLabels object exists for the current series\n\t\tif (!series.dataLabels) {\n\t\t\tseries.dataLabels = {};\n\t\t}\n\n\t\t// Enable the data labels\n\t\tseries.dataLabels.enabled = true;\n\n\t\tseries.dataLabels.style = {\n\n\t\t\t// Change the font color\n\t\t\tcolor: \"#000000\",\n\n\t\t\t// Change the font size\n\t\t\tfontSize: \"25px\",\n\n\t\t\t// Change the font weight\n\t\t\tfontWeight: \"bold\"\n\n\t\t};\n\t\t\n\t\t// Change the font rotation\n\t\tseries.dataLabels.rotation = 350;\n\t\t\n\t\t// Change the y position offset of the label relative to the point in pixels\n\t\tseries.dataLabels.x = 0;\n\n\t});\n});",
+      "selection": null,
+      "source": "66aa5ec4a524035162c7e344",
+      "style": {
+        "legend": {
+          "enabled": true,
+          "position": "bottom"
+        },
+        "seriesLabels": {
+          "enabled": true,
+          "rotation": 0,
+          "labels": {
+            "enabled": false,
+            "types": {
+              "count": false,
+              "percentage": false,
+              "relative": false,
+              "totals": false
+            },
+            "stacked": false,
+            "stackedPercentage": false
+          }
+        },
+        "xAxis": {
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "x2Title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "isIntervalEnabled": false
+        },
+        "yAxis": {
+          "inactive": false,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "logarithmic": false,
+          "hideMinMax": false,
+          "isIntervalEnabled": true
+        },
+        "y2Axis": {
+          "inactive": true,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": false,
+          "logarithmic": false,
+          "hideMinMax": false,
+          "isIntervalEnabled": true
+        },
+        "dataLimits": {
+          "seriesCapacity": 50,
+          "categoriesCapacity": 100000
+        },
+        "navigator": {
+          "enabled": true
+        },
+        "title": {
+          "titleMenuEnabled": false,
+          "fontColorEnabled": true,
+          "titleFontColor": "#ffcb05",
+          "fontWeightEnabled": true,
+          "titleFontWeight": "bold"
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "age_range",
+              "title": "Age Range",
+              "singular": "Age Range",
+              "plural": "Age Range"
+            }
+          ]
+        }
+      },
+      "subtype": "bar/classic",
+      "title": "NEW - Data Label Formatting",
+      "type": "chart/bar",
+      "wasRendered": false
+    },
+    {
+      "dashboardid": "61ae2c367b6d491dec0bf827",
+      "oid": "6699386416425d0033748541",
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "database": "aSampleIAAaECommerce",
+        "fullname": "LocalHost/Sample ECommerce"
+      },
+      "desc": null,
+      "instanceid": "99CD5-30E0-54",
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [],
+        "usedFormulasMapping": {}
+      },
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "realTimeRefreshing": false,
+      "selection": null,
+      "source": "66aa5ec4a524035162c7e345",
+      "style": {
+        "content": {
+          "html": "<font size=\"3\"><div style=\"text-align: center;\">The widget below has <b>the new updated script</b>. It works with filters and drills, and doesn't require specifying the series name in the script.</div></font>",
+          "vAlign": "valign-middle",
+          "bgColor": "#FFFFFF",
+          "textAlign": "center"
+        }
+      },
+      "subtype": "richtexteditor",
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "wasRendered": false
+    },
+    {
+      "dashboardid": "61ae2c367b6d491dec0bf827",
+      "oid": "6699386b16425d0033748543",
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "database": "aSampleIAAaECommerce",
+        "fullname": "LocalHost/Sample ECommerce"
+      },
+      "desc": null,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "instanceid": "99CD5-30E0-54",
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [],
+        "usedFormulasMapping": {}
+      },
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "realTimeRefreshing": false,
+      "selection": null,
+      "source": "66aa5ec4a524035162c7e346",
+      "style": {
+        "content": {
+          "html": "<span style=\"text-align: left;\"><div style=\"text-align: center;\"><font size=\"3\">The widget below has&nbsp;<b>the old script</b>. It no longer works reliably with filters and drills (it causes UI misrendering). It also requires specifying the series name in the script.</font></div></span>",
+          "vAlign": "valign-middle",
+          "bgColor": "#FFFFFF",
+          "textAlign": "center"
+        }
+      },
+      "subtype": "richtexteditor",
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "wasRendered": false
+    }
+  ],
+  "hierarchies": [
+    {
+      "_id": "5e1df3c7d0c67e1ae07f1b28",
+      "title": "Age Range",
+      "alwaysIncluded": true,
+      "levels": [
+        {
+          "title": "Age Range",
+          "table": "Commerce",
+          "column": "Age Range",
+          "datatype": "text",
+          "dim": "[Commerce.Age Range]",
+          "index": 0,
+          "_id": "5e1df3c7d0c67e1ae07f1b27"
+        },
+        {
+          "title": "Brand",
+          "table": "Brand",
+          "column": "Brand",
+          "datatype": "text",
+          "dim": "[Brand.Brand]",
+          "index": 1,
+          "_id": "5f7dac8d83916d210422a29f"
+        }
+      ],
+      "cubeId": "6142d757c80a065ff5a24ccc",
+      "lastUpdated": "2023-12-17T10:23:52.992Z",
+      "serverAddress": "LocalHost",
+      "elasticubeTitle": "Sample ECommerce"
+    },
+    {
+      "_id": "5cbefc68bbb1712fe8ef043c",
+      "title": "Age Range (1)",
+      "alwaysIncluded": true,
+      "levels": [
+        {
+          "title": "Age Range",
+          "table": "Commerce",
+          "column": "Age Range",
+          "datatype": "text",
+          "dim": "[Commerce.Age Range]",
+          "index": 0,
+          "_id": "5cbefc68bbb1712fe8ef043b"
+        },
+        {
+          "title": "Gender",
+          "table": "Commerce",
+          "column": "Gender",
+          "datatype": "text",
+          "dim": "[Commerce.Gender]",
+          "index": 1,
+          "_id": "5cbefc6cbbb1712fe8ef043e"
+        }
+      ],
+      "cubeId": "6142d757c80a065ff5a24ccc",
+      "lastUpdated": "2023-12-17T10:23:52.992Z",
+      "serverAddress": "LocalHost",
+      "elasticubeTitle": "Sample ECommerce"
+    },
+    {
+      "_id": "5d6796518cb5d40ab82aa918",
+      "title": "Age Range (1)",
+      "alwaysIncluded": true,
+      "levels": [
+        {
+          "title": "Age Range",
+          "table": "Commerce",
+          "column": "Age Range",
+          "datatype": "text",
+          "dim": "[Commerce.Age Range]",
+          "index": 0,
+          "_id": "5d6796518cb5d40ab82aa917"
+        },
+        {
+          "title": "Cost",
+          "table": "Commerce",
+          "column": "Cost",
+          "datatype": "numeric",
+          "dim": "[Commerce.Cost]",
+          "index": 1,
+          "_id": "5d6796558cb5d40ab82aa91a"
+        }
+      ],
+      "cubeId": "6142d757c80a065ff5a24ccc",
+      "lastUpdated": "2023-12-17T10:23:52.992Z",
+      "serverAddress": "LocalHost",
+      "elasticubeTitle": "Sample ECommerce"
+    }
+  ]
+}

@@ -1,0 +1,1437 @@
+{
+  "oid": "61bbba5b98f8b514782a6a91",
+  "allowChangeSubscription": false,
+  "dataExploration": false,
+  "datasource": {
+    "fullname": "localhost/Sample ECommerce",
+    "id": "localhost_aSampleIAAaECommerce",
+    "address": "LocalHost",
+    "database": "aSampleIAAaECommerce",
+    "live": false,
+    "title": "Sample ECommerce"
+  },
+  "defaultFilters": [
+    {
+      "instanceid": "BB639-5293-F1",
+      "isCascading": true,
+      "levels": [
+        {
+          "table": "Commerce",
+          "column": "Age Range",
+          "dim": "[Commerce.Age Range]",
+          "datatype": "text",
+          "merged": true,
+          "collapsed": true,
+          "title": "Age Range",
+          "datasource": {
+            "fullname": "localhost/Sample ECommerce",
+            "id": "localhost_aSampleIAAaECommerce",
+            "address": "LocalHost",
+            "database": "aSampleIAAaECommerce",
+            "live": false,
+            "title": "Sample ECommerce",
+            "permission": "edit"
+          },
+          "isDashboardFilter": true,
+          "panel": "scope",
+          "filter": {
+            "explicit": false,
+            "multiSelection": true,
+            "all": true
+          }
+        },
+        {
+          "table": "Category",
+          "column": "Category",
+          "dim": "[Category.Category]",
+          "datatype": "text",
+          "merged": true,
+          "collapsed": true,
+          "title": "Category",
+          "datasource": {
+            "fullname": "localhost/Sample ECommerce",
+            "id": "localhost_aSampleIAAaECommerce",
+            "address": "LocalHost",
+            "database": "aSampleIAAaECommerce",
+            "live": false,
+            "title": "Sample ECommerce",
+            "permission": "edit"
+          },
+          "isDashboardFilter": true,
+          "filter": {
+            "explicit": true,
+            "multiSelection": true,
+            "members": [
+              "Apple Mac Desktops",
+              "Camcorders",
+              "Car Amplifiers",
+              "Digital Cameras",
+              "Home Theater Speakers and Subwoofers",
+              "GPS Devices",
+              "Film Cameras",
+              "PDAs",
+              "Monitors",
+              "Rangefinders",
+              "Tablet PCs",
+              "Routers"
+            ],
+            "filter": {
+              "turnedOff": true,
+              "exclude": {
+                "members": [
+                  "PDAs"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "model": {
+        "instanceid": "0F2FA-15DA-1E",
+        "__store": [
+          "[Commerce.Age Range]",
+          "[Category.Category]"
+        ]
+      },
+      "disabled": false
+    },
+    {
+      "jaql": {
+        "datatype": "datetime",
+        "dim": "[Commerce.Date (Calendar)]",
+        "title": "Years in Date",
+        "level": "years",
+        "column": "Date",
+        "table": "Commerce",
+        "datasource": {
+          "fullname": "localhost/Sample ECommerce",
+          "id": "localhost_aSampleIAAaECommerce",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce",
+          "live": false,
+          "title": "Sample ECommerce"
+        },
+        "collapsed": true,
+        "merged": true,
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "2C2BC-CD4C-7A",
+      "isCascading": false,
+      "disabled": false
+    }
+  ],
+  "desc": "",
+  "editing": false,
+  "filterToDatasourceMapping": {},
+  "filters": [
+    {
+      "instanceid": "BB639-5293-F1",
+      "isCascading": true,
+      "levels": [
+        {
+          "table": "Commerce",
+          "column": "Age Range",
+          "dim": "[Commerce.Age Range]",
+          "datatype": "text",
+          "merged": true,
+          "collapsed": true,
+          "title": "Age Range",
+          "datasource": {
+            "fullname": "localhost/Sample ECommerce",
+            "id": "localhost_aSampleIAAaECommerce",
+            "address": "LocalHost",
+            "database": "aSampleIAAaECommerce",
+            "live": false,
+            "title": "Sample ECommerce",
+            "permission": "edit"
+          },
+          "isDashboardFilter": true,
+          "panel": "scope",
+          "filter": {
+            "explicit": false,
+            "multiSelection": true,
+            "all": true
+          }
+        },
+        {
+          "table": "Category",
+          "column": "Category",
+          "dim": "[Category.Category]",
+          "datatype": "text",
+          "merged": true,
+          "collapsed": true,
+          "title": "Category",
+          "datasource": {
+            "fullname": "localhost/Sample ECommerce",
+            "id": "localhost_aSampleIAAaECommerce",
+            "address": "LocalHost",
+            "database": "aSampleIAAaECommerce",
+            "live": false,
+            "title": "Sample ECommerce",
+            "permission": "edit"
+          },
+          "isDashboardFilter": true,
+          "filter": {
+            "explicit": true,
+            "multiSelection": true,
+            "members": [
+              "Apple Mac Desktops",
+              "Camcorders",
+              "Car Amplifiers",
+              "Digital Cameras",
+              "Home Theater Speakers and Subwoofers",
+              "GPS Devices",
+              "Film Cameras",
+              "PDAs",
+              "Monitors",
+              "Rangefinders",
+              "Tablet PCs",
+              "Routers"
+            ],
+            "filter": {
+              "turnedOff": true,
+              "exclude": {
+                "members": [
+                  "PDAs"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "model": {
+        "instanceid": "0F2FA-15DA-1E",
+        "__store": [
+          "[Commerce.Age Range]",
+          "[Category.Category]"
+        ]
+      },
+      "disabled": false
+    },
+    {
+      "jaql": {
+        "datatype": "datetime",
+        "dim": "[Commerce.Date (Calendar)]",
+        "title": "Years in Date",
+        "level": "years",
+        "column": "Date",
+        "table": "Commerce",
+        "datasource": {
+          "fullname": "localhost/Sample ECommerce",
+          "id": "localhost_aSampleIAAaECommerce",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce",
+          "live": false,
+          "title": "Sample ECommerce"
+        },
+        "collapsed": true,
+        "merged": true,
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "2C2BC-CD4C-7A",
+      "isCascading": false,
+      "disabled": false
+    }
+  ],
+  "isPublic": null,
+  "layout": {
+    "instanceid": "D77D3-5A9D-51",
+    "type": "columnar",
+    "columns": [
+      {
+        "width": 100,
+        "cells": [
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 25,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "height": "88px",
+                    "defaultWidth": 128,
+                    "widgetid": "61bbba5b98f8b514782a6a93"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1360,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 96,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "61bbba5b98f8b514782a6a94",
+                    "height": "676px"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1357,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 96,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": "676px",
+                    "defaultWidth": 512,
+                    "widgetid": "61bbba5b98f8b514782a6a92"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 904.672,
+                "index": 0
+              }
+            ]
+          }
+        ],
+        "pxlWidth": 1360,
+        "index": 0
+      }
+    ],
+    "container": {
+      "sizzle1619741003082": {
+        "undefined": {
+          "parentNode": [
+            115.49111886192102,
+            41,
+            true
+          ]
+        }
+      }
+    }
+  },
+  "original": null,
+  "parentFolder": "61c44b8883642f002bf183a7",
+  "previewLayout": [],
+  "script": "\n\n\ndashboard.on('initialized', function(d) {\n\n\t// upload highcharts dark theme\n\t$('head').append('<link rel=\"stylesheet\" type=\"text/css\" href=\"https://sisense-forums-public.s3.us-east-2.amazonaws.com/styles/highcharts-dark.css\">');\n\t\n\t// upload dashboard dark theme\n\t$('head').append('<link rel=\"stylesheet\" type=\"text/css\" href=\"https://sisense-forums-public.s3.us-east-2.amazonaws.com/styles/darktheme.css\">');\t\n\t\n\t// upload dashboard dark theme\n\t$('head').append('<link rel=\"stylesheet\" type=\"text/css\" href=\"https://sisense-forums-public.s3.us-east-2.amazonaws.com/styles/darktheme_UI.css\">');\t\n\t\n})\n\n\ndashboard.on('refreshend', function(d) {\n\n\t// upload highcharts dark theme\n\t$('head').append('<link rel=\"stylesheet\" type=\"text/css\" href=\"https://sisense-forums-public.s3.us-east-2.amazonaws.com/styles/highcharts-dark.css\">');\n\t\n\t// upload dashboard dark theme\n\t$('head').append('<link rel=\"stylesheet\" type=\"text/css\" href=\"https://sisense-forums-public.s3.us-east-2.amazonaws.com/styles/darktheme.css\">');\t\n\t\n\t// upload dashboard dark theme\n\t$('head').append('<link rel=\"stylesheet\" type=\"text/css\" href=\"https://sisense-forums-public.s3.us-east-2.amazonaws.com/styles/darktheme_UI.css\">');\t\n\t\n})\n\n\n// removes style changes upon leaving the dashboard\ndashboard.on('destroyed', function(d) {\n\n\t$(\"link[href*='https://sjs.sisense.com/sjs/css/highcharts-dark.css']\").remove();\n\t$(\"link[href*='https://sisense-forums-public.s3.us-east-2.amazonaws.com/styles/darktheme.css']\").remove();\n\t$(\"link[href*='https://sisense-forums-public.s3.us-east-2.amazonaws.com/styles/darktheme_UI.css']\").remove();\n\t\n})\n\n\n\n\ndashboard.on('refreshend', function(dashboard, ev){\n$('dashboard widget.columnar .widget-body').css('fill','#000000')\n$('.content').css('background-color','#000000');\n$('.columnar').css('background-color', '#000000');\n$('dashboard widget.columnar widget-header .transput-holder .transput-caption').css('color','#000000');\n $('.dashboard-layout.editing .dashboard-layout-column .dashboard-layout-subcell-vertical .ui-resizable-e').css('background-color','#000000')\n $('.ui-resizable-s').css('background-color','#000000');\n\t$('.highcharts-grid-line').remove();\n})\n\n\n\n",
+  "settings": {
+    "autoUpdateOnFiltersChange": true
+  },
+  "source": "61c44ee783642f002bf187aa",
+  "style": {
+    "palette": {
+      "name": "Vivid",
+      "colors": [
+        "#00cee6",
+        "#9b9bd7",
+        "#6EDA55",
+        "#fc7570",
+        "#fbb755",
+        "#218A8C"
+      ]
+    }
+  },
+  "subscription": {
+    "subscribe": false,
+    "executionPerDay": 1,
+    "schedule": "* * * * * *",
+    "isDataChange": true,
+    "type": "onUpdate",
+    "reportType": {
+      "inline": true
+    },
+    "emailSettings": {
+      "isEmail": true,
+      "isPdf": false
+    },
+    "context": {
+      "dashboardid": "61bbba5b98f8b514782a6a91"
+    },
+    "startAt": "2022-11-30",
+    "tzName": "Europe/Dublin",
+    "timezone": 0,
+    "active": false
+  },
+  "title": "Line Chart - Bump Chart",
+  "type": "dashboard",
+  "lastOpened": null,
+  "defaultFilterRelations": null,
+  "widgets": [
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "61bbba5b98f8b514782a6a93",
+      "desc": null,
+      "source": "61c4518883642f002bf193fa",
+      "datasource": {
+        "fullname": "localhost/Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce",
+        "live": false,
+        "title": "Sample ECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": []
+      },
+      "style": {
+        "content": {
+          "html": "<font color=\"#00cee6\"><font size=\"7\"><b>BUMP CHART<br></b></font><font size=\"3\">By: Artem Yevtushenko</font></font>",
+          "vAlign": "valign-bottom",
+          "bgColor": "#000000",
+          "textAlign": "center"
+        }
+      },
+      "instanceid": "791D9-0ACE-08",
+      "wasRendered": false,
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "dashboardid": "61bbba5b98f8b514782a6a91"
+    },
+    {
+      "title": "",
+      "type": "chart/line",
+      "subtype": "line/basic",
+      "oid": "61bbba5b98f8b514782a6a92",
+      "desc": null,
+      "source": "61c4518883642f002bf193fb",
+      "datasource": {
+        "fullname": "localhost/Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce",
+        "live": false,
+        "title": "Sample ECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "x-axis",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Date",
+                  "dim": "[Commerce.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "quarters",
+                  "title": "Quarters in Date"
+                },
+                "field": {
+                  "id": "[Commerce.Date (Calendar)]_years",
+                  "index": 0
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "Q yyyy",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm"
+                  }
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "rank(sum([9C143-06A]), \"1223\", \"ASC\", [C66EB-887])",
+                  "context": {
+                    "[C66EB-887]": {
+                      "table": "Commerce",
+                      "column": "Date",
+                      "dim": "[Commerce.Date (Calendar)]",
+                      "datatype": "datetime",
+                      "merged": true,
+                      "level": "quarters",
+                      "title": "Quarters in Date"
+                    },
+                    "[82383-0EA]": {
+                      "table": "Commerce",
+                      "column": "Date",
+                      "dim": "[Commerce.Date (Calendar)]",
+                      "datatype": "datetime",
+                      "merged": true,
+                      "level": "years",
+                      "title": "Years in Date"
+                    },
+                    "[9C143-06A]": {
+                      "table": "Commerce",
+                      "column": "Revenue",
+                      "dim": "[Commerce.Revenue]",
+                      "datatype": "numeric",
+                      "title": "Revenue"
+                    }
+                  },
+                  "title": "Formula"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color_bkp": {
+                    "color": "#00cee6",
+                    "type": "color"
+                  }
+                },
+                "disabled": false,
+                "statisticalModels": {
+                  "anomaly": {
+                    "isAccessible": false
+                  },
+                  "breakpoint": {
+                    "isAccessible": false
+                  },
+                  "trend": {
+                    "isAccessible": false
+                  }
+                }
+              },
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Revenue",
+                  "dim": "[Commerce.Revenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total Revenue"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  }
+                },
+                "disabled": true
+              }
+            ]
+          },
+          {
+            "name": "break by",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Category",
+                  "column": "Category",
+                  "dim": "[Category.Category]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Category"
+                },
+                "format": {
+                  "members": {
+                    "Apple Mac Desktops": {
+                      "color": "#00cee6",
+                      "title": "Apple Mac Desktops",
+                      "sortData": "Apple Mac Desktops",
+                      "inResultset": true
+                    },
+                    "Apple Mac Laptops": {
+                      "color": "#9b9bd7",
+                      "title": "Apple Mac Laptops",
+                      "sortData": "Apple Mac Laptops"
+                    },
+                    "Calculators": {
+                      "color": "#6EDA55",
+                      "title": "Calculators",
+                      "sortData": "Calculators"
+                    },
+                    "Camcorders": {
+                      "color": "#fc7570",
+                      "title": "Camcorders",
+                      "sortData": "Camcorders",
+                      "inResultset": true
+                    },
+                    "Camera Flashes": {
+                      "color": "#fbb755",
+                      "title": "Camera Flashes",
+                      "sortData": "Camera Flashes"
+                    },
+                    "Car Amplifiers": {
+                      "color": "#218A8C",
+                      "title": "Car Amplifiers",
+                      "sortData": "Car Amplifiers",
+                      "inResultset": true
+                    },
+                    "Car Speakers and Subwoofers": {
+                      "color": "#06e5ff",
+                      "title": "Car Speakers and Subwoofers",
+                      "sortData": "Car Speakers and Subwoofers"
+                    },
+                    "Cell Phones": {
+                      "color": "#b2b2f7",
+                      "title": "Cell Phones",
+                      "sortData": "Cell Phones"
+                    },
+                    "Digital Cameras": {
+                      "color": "#7efb62",
+                      "title": "Digital Cameras",
+                      "sortData": "Digital Cameras",
+                      "inResultset": true
+                    },
+                    "DVD Players": {
+                      "color": "#ff8a86",
+                      "title": "DVD Players",
+                      "sortData": "DVD Players"
+                    },
+                    "Film Cameras": {
+                      "color": "#ffc26a",
+                      "title": "Film Cameras",
+                      "sortData": "Film Cameras",
+                      "inResultset": true
+                    },
+                    "GPS Devices": {
+                      "color": "#269fa1",
+                      "title": "GPS Devices",
+                      "sortData": "GPS Devices",
+                      "inResultset": true
+                    },
+                    "Hard Drives": {
+                      "color": "#00cee6",
+                      "title": "Hard Drives",
+                      "sortData": "Hard Drives"
+                    },
+                    "Home Audio Receivers": {
+                      "color": "#9b9bd7",
+                      "title": "Home Audio Receivers",
+                      "sortData": "Home Audio Receivers"
+                    },
+                    "Home Theater Speakers and Subwoofers": {
+                      "color": "#6eda55",
+                      "title": "Home Theater Speakers and Subwoofers",
+                      "sortData": "Home Theater Speakers and Subwoofers",
+                      "inResultset": true
+                    },
+                    "Home Theater Systems": {
+                      "color": "#fc7570",
+                      "title": "Home Theater Systems",
+                      "sortData": "Home Theater Systems"
+                    },
+                    "Monitors": {
+                      "color": "#fbb755",
+                      "title": "Monitors",
+                      "sortData": "Monitors",
+                      "inResultset": true
+                    },
+                    "MP3 & Digital Media Players": {
+                      "color": "#218a8c",
+                      "title": "MP3 & Digital Media Players",
+                      "sortData": "MP3 & Digital Media Players"
+                    },
+                    "Multimedia Projectors": {
+                      "color": "#06e5ff",
+                      "title": "Multimedia Projectors",
+                      "sortData": "Multimedia Projectors"
+                    },
+                    "PDAs": {
+                      "color": "#b2b2f7",
+                      "title": "PDAs",
+                      "sortData": "PDAs"
+                    },
+                    "Printers": {
+                      "color": "#7efb62",
+                      "title": "Printers",
+                      "sortData": "Printers"
+                    },
+                    "Processor Upgrades": {
+                      "color": "#ff8a86",
+                      "title": "Processor Upgrades",
+                      "sortData": "Processor Upgrades"
+                    },
+                    "Rangefinders": {
+                      "color": "#ffc26a",
+                      "title": "Rangefinders",
+                      "sortData": "Rangefinders",
+                      "inResultset": true
+                    },
+                    "Routers": {
+                      "color": "#269fa1",
+                      "title": "Routers",
+                      "sortData": "Routers",
+                      "inResultset": true
+                    },
+                    "Scanners": {
+                      "color": "#00cee6",
+                      "title": "Scanners",
+                      "sortData": "Scanners"
+                    },
+                    "Tablet PCs": {
+                      "color": "#9b9bd7",
+                      "title": "Tablet PCs",
+                      "sortData": "Tablet PCs",
+                      "inResultset": true
+                    },
+                    "Televisions": {
+                      "color": "#6eda55",
+                      "title": "Televisions",
+                      "sortData": "Televisions"
+                    },
+                    "Video Games Systems": {
+                      "color": "#fc7570",
+                      "title": "Video Games Systems",
+                      "sortData": "Video Games Systems"
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "style": {
+        "lineWidth": {
+          "width": "bold"
+        },
+        "legend": {
+          "enabled": true,
+          "position": "left"
+        },
+        "seriesLabels": {
+          "enabled": false,
+          "rotation": 0
+        },
+        "markers": {
+          "enabled": true,
+          "fill": "filled",
+          "size": "large"
+        },
+        "xAxis": {
+          "enabled": false,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "x2Title": {
+            "enabled": false
+          },
+          "gridLines": false,
+          "isIntervalEnabled": false
+        },
+        "yAxis": {
+          "inactive": false,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "logarithmic": false,
+          "isIntervalEnabled": true,
+          "min": 0,
+          "max": 12
+        },
+        "y2Axis": {
+          "inactive": true,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": false,
+          "logarithmic": false,
+          "isIntervalEnabled": true
+        },
+        "navigator": {
+          "enabled": false
+        },
+        "dataLimits": {
+          "seriesCapacity": 50,
+          "categoriesCapacity": 100000
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "quarters",
+              "title": "quarters",
+              "singular": "quarters",
+              "plural": "quarters"
+            },
+            {
+              "id": "category",
+              "title": "Category",
+              "singular": "Category",
+              "plural": "Category"
+            }
+          ]
+        }
+      },
+      "instanceid": "5C34F-E0F3-43",
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "drillToAnywhere": true,
+        "previousScrollerLocation": {
+          "min": null,
+          "max": null
+        },
+        "selectorLocked": false
+      },
+      "dashboardid": "61bbba5b98f8b514782a6a91",
+      "script": "/*\nwidget.manifest.data.panels.forEach(function(p){\n\n p.metadata.maxitems = 25; //or any other number that works for you\n\n})\n*/\n\n\nwidget.on('buildquery', function(widget, args){\n\tvar valueItems = _.filter(args.query.metadata, function(e){\n\t\treturn e.$$panel.title === 'values'\n\t})\n\t\n\tvalueItems[1].disabled = false;\n\t\n})\n\nwidget.on('render', function(widget, args){\n\twidget.redraw = function () {\n\t\twidget.refresh();\n\t}\n})\n\n\nwidget.on('processresult', function(widget,args){\n\t\n\targs.result.yAxis[0].reversed = true;\n\t\n\tvar series = args.result.series,\n\t\tvalues = args.rawResult.values;\n\t\n\t//console.log(series);\n\t//console.log(values);\n\n\t// get original domain\n\n\tvar original_domain = [];\n\tvar desired_domain_min = 1;\n\tvar desired_domain_max = 25;\n\n\tseries.forEach(function(group){\n\t\tvar group_data = group.data;\n\t\tgroup_data.forEach(function(data_point){\n\t\t\tif (data_point.queryResultIndex){\n\t\t\t\tvar values_selection_index = data_point.queryResultIndex;\t\t\n\t\t\t\tvar point_size = values[values_selection_index][3].data;\n\t\t\t\toriginal_domain.push(point_size);\n\t\t\t}\n\t\t})  \n\t})\n\t\n\tvar original_domain_min = Math.min.apply(Math, original_domain);\n\tvar original_domain_max = Math.max.apply(Math, original_domain);\n\t\n\tseries.forEach(function(group){\n\t\tvar group_data = group.data;\n\t\tgroup_data.forEach(function(data_point){\n\t\t\tif (data_point.queryResultIndex){0\n\t\t\t\tvar values_selection_index = data_point.queryResultIndex;\n\t\t\t\tvar point_size = values[values_selection_index][3].data;\n\t\t\t\tdata_point.marker.radius = to_new_domain(point_size, original_domain_min, \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t original_domain_max, desired_domain_min, desired_domain_max);\n\t\t\t}\n\t\t})  \n\t})\n})\n\n\nfunction to_new_domain(value, original_min, original_max, new_min, new_max){\n\treturn (new_max - new_min) * ((value - original_min) / (original_max - original_min)) + new_min\n}\n\n\n\nwidget.on('initialized', (widget) => {\n$('head').append(\"<script src='https://d3js.org/d3.v5.min.js'></script>\")\n})\n\n\n// select color theme from --> https://github.com/d3/d3-scale-chromatic\nvar colorTheme = 'interpolateSpectral';\nvar leftColorIntensity = 1;\nvar rightColorIntensity = 0;\n\nwidget.on(\"processresult\", function(w, args) {\n\nvar originalSeries = args.result.series;\nvar dict = {};\nvar counter = 0;\n\nfunction getSum(total, num) {\nreturn total + num;\n}\n\noriginalSeries.forEach(\nfunction(i) {\nvar mySeries = [];\ni.data.forEach(function(datapoint) {\nmySeries.push(datapoint[\"y\"])\n});\nvar total = mySeries.reduce(getSum);\ndict[counter] = total;\ncounter++;\n})\n\nvar items = Object.keys(dict).map(function(key) {\nreturn [key, dict[key]];\n});\n\nvar OrderArray = items.sort(function(first, second) {\nreturn first[1] - second[1];\n});\n\nvar newSeries = [];\n\nfor (var i = 0; i < originalSeries.length; i++) {\nvar SeriesIndex = parseInt(OrderArray[i][0]);\nnewSeries.push(originalSeries[SeriesIndex]);\n};\n\ncounter = 0;\nnewSeries.forEach(function(item) {\nif (counter.toString().length == 1) {\ncounter = \"0\" + counter;\n}\nitem[\"sortData\"] = counter.toString() + item[\"sortData\"];\ncounter++;\n});\n\nargs.result.series = newSeries;\n\n\nmyScale = d3.scaleLinear()\n.domain([0, args.result.series.length])\n.range([leftColorIntensity, rightColorIntensity]);\n\nargs.result.series.forEach(function(v, i) {\nvar scaled = myScale(i);\n//console.log(scaled);\nv.color = d3[colorTheme](scaled);\n})\n\n})\n\n",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "wasRendered": false,
+      "displayMenu": false,
+      "custom": {
+        "barcolumnchart": {
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total",
+          "type": "chart/line",
+          "isTypeValid": false
+        }
+      }
+    },
+    {
+      "title": "",
+      "type": "chart/line",
+      "subtype": "line/spline",
+      "oid": "61bbba5b98f8b514782a6a94",
+      "desc": null,
+      "source": "61c4518883642f002bf193fc",
+      "datasource": {
+        "fullname": "localhost/Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce",
+        "live": false,
+        "title": "Sample ECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "x-axis",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Date",
+                  "dim": "[Commerce.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "years",
+                  "title": "Years in Date"
+                },
+                "field": {
+                  "id": "[Commerce.Date (Calendar)]_years",
+                  "index": 0
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "Q yyyy",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm"
+                  }
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "rank(sum([37D3A-F6E]), \"1223\", \"ASC\", [E5DD7-4FE])",
+                  "context": {
+                    "[C286D-EFE]": {
+                      "table": "Commerce",
+                      "column": "Date",
+                      "dim": "[Commerce.Date (Calendar)]",
+                      "datatype": "datetime",
+                      "merged": true,
+                      "level": "quarters",
+                      "title": "Quarters in Date"
+                    },
+                    "[E5DD7-4FE]": {
+                      "table": "Commerce",
+                      "column": "Date",
+                      "dim": "[Commerce.Date (Calendar)]",
+                      "datatype": "datetime",
+                      "merged": true,
+                      "level": "years",
+                      "title": "Years in Date"
+                    },
+                    "[37D3A-F6E]": {
+                      "table": "Commerce",
+                      "column": "Revenue",
+                      "dim": "[Commerce.Revenue]",
+                      "datatype": "numeric",
+                      "title": "Revenue"
+                    }
+                  },
+                  "title": "Formula"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color_bkp": {
+                    "color": "#00cee6",
+                    "type": "color"
+                  }
+                },
+                "disabled": false,
+                "statisticalModels": {
+                  "anomaly": {
+                    "isAccessible": false
+                  },
+                  "breakpoint": {
+                    "isAccessible": false
+                  },
+                  "trend": {
+                    "isAccessible": false
+                  }
+                }
+              },
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Revenue",
+                  "dim": "[Commerce.Revenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total Revenue"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  }
+                },
+                "disabled": true
+              }
+            ]
+          },
+          {
+            "name": "break by",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Category",
+                  "column": "Category",
+                  "dim": "[Category.Category]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Category"
+                },
+                "format": {
+                  "members": {
+                    "Apple Mac Desktops": {
+                      "color": "#00cee6",
+                      "title": "Apple Mac Desktops",
+                      "sortData": "Apple Mac Desktops",
+                      "inResultset": true
+                    },
+                    "Apple Mac Laptops": {
+                      "color": "#9b9bd7",
+                      "title": "Apple Mac Laptops",
+                      "sortData": "Apple Mac Laptops"
+                    },
+                    "Calculators": {
+                      "color": "#6EDA55",
+                      "title": "Calculators",
+                      "sortData": "Calculators"
+                    },
+                    "Camcorders": {
+                      "color": "#fc7570",
+                      "title": "Camcorders",
+                      "sortData": "Camcorders",
+                      "inResultset": true
+                    },
+                    "Camera Flashes": {
+                      "color": "#fbb755",
+                      "title": "Camera Flashes",
+                      "sortData": "Camera Flashes"
+                    },
+                    "Car Amplifiers": {
+                      "color": "#218A8C",
+                      "title": "Car Amplifiers",
+                      "sortData": "Car Amplifiers",
+                      "inResultset": true
+                    },
+                    "Car Speakers and Subwoofers": {
+                      "color": "#06e5ff",
+                      "title": "Car Speakers and Subwoofers",
+                      "sortData": "Car Speakers and Subwoofers"
+                    },
+                    "Cell Phones": {
+                      "color": "#b2b2f7",
+                      "title": "Cell Phones",
+                      "sortData": "Cell Phones"
+                    },
+                    "Digital Cameras": {
+                      "color": "#7efb62",
+                      "title": "Digital Cameras",
+                      "sortData": "Digital Cameras",
+                      "inResultset": true
+                    },
+                    "DVD Players": {
+                      "color": "#ff8a86",
+                      "title": "DVD Players",
+                      "sortData": "DVD Players"
+                    },
+                    "Film Cameras": {
+                      "color": "#ffc26a",
+                      "title": "Film Cameras",
+                      "sortData": "Film Cameras",
+                      "inResultset": true
+                    },
+                    "GPS Devices": {
+                      "color": "#269fa1",
+                      "title": "GPS Devices",
+                      "sortData": "GPS Devices",
+                      "inResultset": true
+                    },
+                    "Hard Drives": {
+                      "color": "#00cee6",
+                      "title": "Hard Drives",
+                      "sortData": "Hard Drives"
+                    },
+                    "Home Audio Receivers": {
+                      "color": "#9b9bd7",
+                      "title": "Home Audio Receivers",
+                      "sortData": "Home Audio Receivers"
+                    },
+                    "Home Theater Speakers and Subwoofers": {
+                      "color": "#6eda55",
+                      "title": "Home Theater Speakers and Subwoofers",
+                      "sortData": "Home Theater Speakers and Subwoofers",
+                      "inResultset": true
+                    },
+                    "Home Theater Systems": {
+                      "color": "#fc7570",
+                      "title": "Home Theater Systems",
+                      "sortData": "Home Theater Systems"
+                    },
+                    "Monitors": {
+                      "color": "#fbb755",
+                      "title": "Monitors",
+                      "sortData": "Monitors",
+                      "inResultset": true
+                    },
+                    "MP3 & Digital Media Players": {
+                      "color": "#218a8c",
+                      "title": "MP3 & Digital Media Players",
+                      "sortData": "MP3 & Digital Media Players"
+                    },
+                    "Multimedia Projectors": {
+                      "color": "#06e5ff",
+                      "title": "Multimedia Projectors",
+                      "sortData": "Multimedia Projectors"
+                    },
+                    "PDAs": {
+                      "color": "#b2b2f7",
+                      "title": "PDAs",
+                      "sortData": "PDAs"
+                    },
+                    "Printers": {
+                      "color": "#7efb62",
+                      "title": "Printers",
+                      "sortData": "Printers"
+                    },
+                    "Processor Upgrades": {
+                      "color": "#ff8a86",
+                      "title": "Processor Upgrades",
+                      "sortData": "Processor Upgrades"
+                    },
+                    "Rangefinders": {
+                      "color": "#ffc26a",
+                      "title": "Rangefinders",
+                      "sortData": "Rangefinders",
+                      "inResultset": true
+                    },
+                    "Routers": {
+                      "color": "#269fa1",
+                      "title": "Routers",
+                      "sortData": "Routers",
+                      "inResultset": true
+                    },
+                    "Scanners": {
+                      "color": "#00cee6",
+                      "title": "Scanners",
+                      "sortData": "Scanners"
+                    },
+                    "Tablet PCs": {
+                      "color": "#9b9bd7",
+                      "title": "Tablet PCs",
+                      "sortData": "Tablet PCs",
+                      "inResultset": true
+                    },
+                    "Televisions": {
+                      "color": "#6eda55",
+                      "title": "Televisions",
+                      "sortData": "Televisions"
+                    },
+                    "Video Games Systems": {
+                      "color": "#fc7570",
+                      "title": "Video Games Systems",
+                      "sortData": "Video Games Systems"
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "style": {
+        "lineWidth": {
+          "width": "bold"
+        },
+        "legend": {
+          "enabled": true,
+          "position": "left"
+        },
+        "seriesLabels": {
+          "enabled": false,
+          "rotation": 0
+        },
+        "markers": {
+          "enabled": true,
+          "fill": "filled",
+          "size": "large"
+        },
+        "xAxis": {
+          "enabled": false,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "x2Title": {
+            "enabled": false
+          },
+          "gridLines": false,
+          "isIntervalEnabled": false
+        },
+        "yAxis": {
+          "inactive": false,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "logarithmic": false,
+          "isIntervalEnabled": true,
+          "min": 0,
+          "max": 12
+        },
+        "y2Axis": {
+          "inactive": true,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": false,
+          "logarithmic": false,
+          "isIntervalEnabled": true
+        },
+        "navigator": {
+          "enabled": false
+        },
+        "dataLimits": {
+          "seriesCapacity": 50,
+          "categoriesCapacity": 100000
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "quarters",
+              "title": "quarters",
+              "singular": "quarters",
+              "plural": "quarters"
+            },
+            {
+              "id": "category",
+              "title": "Category",
+              "singular": "Category",
+              "plural": "Category"
+            }
+          ]
+        }
+      },
+      "instanceid": "5C34F-E0F3-43",
+      "script": "/*\nwidget.manifest.data.panels.forEach(function(p){\n\n p.metadata.maxitems = 25; //or any other number that works for you\n\n})\n*/\n\n\nwidget.on('buildquery', function(widget, args){\n\tvar valueItems = _.filter(args.query.metadata, function(e){\n\t\treturn e.$$panel.title === 'values'\n\t})\n\t\n\tvalueItems[1].disabled = false;\n\t\n})\n\nwidget.on('render', function(widget, args){\n\twidget.redraw = function () {\n\t\twidget.refresh();\n\t}\n})\n\n\nwidget.on('processresult', function(widget,args){\n\t\n\targs.result.yAxis[0].reversed = true;\n\t\n\tvar series = args.result.series,\n\t\tvalues = args.rawResult.values;\n\t\n\t//console.log(series);\n\t//console.log(values);\n\n\t// get original domain\n\n\tvar original_domain = [];\n\tvar desired_domain_min = 1;\n\tvar desired_domain_max = 25;\n\n\tseries.forEach(function(group){\n\t\tvar group_data = group.data;\n\t\tgroup_data.forEach(function(data_point){\n\t\t\tif (data_point.queryResultIndex){\n\t\t\t\tvar values_selection_index = data_point.queryResultIndex;\t\t\n\t\t\t\tvar point_size = values[values_selection_index][3].data;\n\t\t\t\toriginal_domain.push(point_size);\n\t\t\t}\n\t\t})  \n\t})\n\t\n\tvar original_domain_min = Math.min.apply(Math, original_domain);\n\tvar original_domain_max = Math.max.apply(Math, original_domain);\n\t\n\tseries.forEach(function(group){\n\t\tvar group_data = group.data;\n\t\tgroup_data.forEach(function(data_point){\n\t\t\tif (data_point.queryResultIndex){0\n\t\t\t\tvar values_selection_index = data_point.queryResultIndex;\n\t\t\t\tvar point_size = values[values_selection_index][3].data;\n\t\t\t\tdata_point.marker.radius = to_new_domain(point_size, original_domain_min, \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t original_domain_max, desired_domain_min, desired_domain_max);\n\t\t\t}\n\t\t})  \n\t})\n})\n\n\nfunction to_new_domain(value, original_min, original_max, new_min, new_max){\n\treturn (new_max - new_min) * ((value - original_min) / (original_max - original_min)) + new_min\n}\n\n\n\nwidget.on('initialized', (widget) => {\n$('head').append(\"<script src='https://d3js.org/d3.v5.min.js'></script>\")\n})\n\n\n// select color theme from --> https://github.com/d3/d3-scale-chromatic\nvar colorTheme = 'interpolateSpectral';\nvar leftColorIntensity = 1;\nvar rightColorIntensity = 0;\n\nwidget.on(\"processresult\", function(w, args) {\n\nvar originalSeries = args.result.series;\nvar dict = {};\nvar counter = 0;\n\nfunction getSum(total, num) {\nreturn total + num;\n}\n\noriginalSeries.forEach(\nfunction(i) {\nvar mySeries = [];\ni.data.forEach(function(datapoint) {\nmySeries.push(datapoint[\"y\"])\n});\nvar total = mySeries.reduce(getSum);\ndict[counter] = total;\ncounter++;\n})\n\nvar items = Object.keys(dict).map(function(key) {\nreturn [key, dict[key]];\n});\n\nvar OrderArray = items.sort(function(first, second) {\nreturn first[1] - second[1];\n});\n\nvar newSeries = [];\n\nfor (var i = 0; i < originalSeries.length; i++) {\nvar SeriesIndex = parseInt(OrderArray[i][0]);\nnewSeries.push(originalSeries[SeriesIndex]);\n};\n\ncounter = 0;\nnewSeries.forEach(function(item) {\nif (counter.toString().length == 1) {\ncounter = \"0\" + counter;\n}\nitem[\"sortData\"] = counter.toString() + item[\"sortData\"];\ncounter++;\n});\n\nargs.result.series = newSeries;\n\n\nmyScale = d3.scaleLinear()\n.domain([0, args.result.series.length])\n.range([leftColorIntensity, rightColorIntensity]);\n\nargs.result.series.forEach(function(v, i) {\nvar scaled = myScale(i);\n//console.log(scaled);\nv.color = d3[colorTheme](scaled);\n})\n\n})\n\n",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "wasRendered": false,
+      "displayMenu": false,
+      "custom": {
+        "barcolumnchart": {
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total",
+          "type": "chart/line",
+          "isTypeValid": false
+        }
+      },
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "drillToAnywhere": true,
+        "previousScrollerLocation": {
+          "min": null,
+          "max": null
+        },
+        "selectorLocked": false
+      },
+      "dashboardid": "61bbba5b98f8b514782a6a91"
+    }
+  ],
+  "hierarchies": [
+    {
+      "_id": "5deaa26b55f2cb08c43cb908",
+      "title": "Test1",
+      "alwaysIncluded": true,
+      "levels": [
+        {
+          "title": "Category",
+          "table": "Category",
+          "column": "Category",
+          "datatype": "text",
+          "dim": "[Category.Category]",
+          "index": 0,
+          "_id": "5deaa26b55f2cb08c43cb907"
+        },
+        {
+          "title": "Brand",
+          "table": "Brand",
+          "column": "Brand",
+          "datatype": "text",
+          "dim": "[Brand.Brand]",
+          "index": 1,
+          "_id": "5deaa26f55f2cb08c43cb90a"
+        },
+        {
+          "title": "Country",
+          "table": "Country",
+          "column": "Country",
+          "datatype": "text",
+          "dim": "[Country.Country]",
+          "index": 2,
+          "_id": "5deaa27555f2cb08c43cb90c"
+        }
+      ],
+      "cubeId": "6142d757c80a065ff5a24ccc",
+      "lastUpdated": "2023-12-17T10:23:52.992Z",
+      "serverAddress": "LocalHost",
+      "elasticubeTitle": "Sample ECommerce"
+    }
+  ]
+}

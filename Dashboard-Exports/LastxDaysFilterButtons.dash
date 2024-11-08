@@ -1,0 +1,442 @@
+{
+  "oid": "61bc8ece98f8b514782a6bc5",
+  "allowChangeSubscription": false,
+  "dataExploration": false,
+  "datasource": {
+    "title": "Sample ECommerce",
+    "fullname": "LocalHost/Sample ECommerce",
+    "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+    "address": "LocalHost",
+    "database": "aSampleIAAaECommerce",
+    "oid": "ea6c27ad-092d-4435-af3a-5ed347835d9f"
+  },
+  "defaultFilters": [
+    {
+      "jaql": {
+        "table": "Commerce",
+        "column": "Date",
+        "dim": "[Commerce.Date (Calendar)]",
+        "datatype": "datetime",
+        "merged": true,
+        "title": "Days in Date",
+        "level": "days",
+        "collapsed": true,
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce",
+          "oid": "ea6c27ad-092d-4435-af3a-5ed347835d9f",
+          "lastBuildTime": "2020-06-10T09:56:00"
+        },
+        "filter": {
+          "last": {
+            "count": 30,
+            "offset": 1
+          },
+          "custom": true
+        }
+      },
+      "instanceid": "A59C8-590B-94",
+      "isCascading": false,
+      "disabled": false
+    }
+  ],
+  "desc": "",
+  "editing": false,
+  "filterToDatasourceMapping": {},
+  "filters": [
+    {
+      "jaql": {
+        "table": "Commerce",
+        "column": "Date",
+        "dim": "[Commerce.Date (Calendar)]",
+        "datatype": "datetime",
+        "merged": true,
+        "title": "Days in Date",
+        "level": "days",
+        "collapsed": true,
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce",
+          "oid": "ea6c27ad-092d-4435-af3a-5ed347835d9f",
+          "lastBuildTime": "2020-06-10T09:56:00"
+        },
+        "filter": {
+          "last": {
+            "count": 30,
+            "offset": 1
+          },
+          "custom": true
+        }
+      },
+      "instanceid": "A59C8-590B-94",
+      "isCascading": false,
+      "disabled": false
+    }
+  ],
+  "isPublic": null,
+  "layout": {
+    "instanceid": "9B295-8A15-B5",
+    "type": "columnar",
+    "columns": [
+      {
+        "width": 100,
+        "cells": [
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 68,
+                    "maxHeight": 888,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": "108px",
+                    "defaultWidth": 512,
+                    "widgetid": "61bc8ece98f8b514782a6bc6"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1366,
+                "index": 0
+              }
+            ]
+          }
+        ],
+        "pxlWidth": 1366,
+        "index": 0
+      }
+    ],
+    "container": {
+      "sizzle1591284843721": {
+        "undefined": {
+          "parentNode": [
+            1383.0898451311964,
+            33,
+            true
+          ]
+        }
+      }
+    }
+  },
+  "original": null,
+  "parentFolder": "61c44b8583642f002bf1838b",
+  "previewLayout": [],
+  "settings": {
+    "autoUpdateOnFiltersChange": true
+  },
+  "source": "61c44f1d83642f002bf18b15",
+  "style": {
+    "palette": {
+      "name": "Color Blind 2",
+      "colors": [
+        "#6E798D",
+        "#99958C",
+        "#B0B0B0"
+      ]
+    }
+  },
+  "subscription": null,
+  "title": "Last x Days Filter Buttons",
+  "type": "dashboard",
+  "lastOpened": null,
+  "widgets": [
+    {
+      "title": "",
+      "type": "BloX",
+      "subtype": "BloX",
+      "oid": "61bc8ece98f8b514782a6bc6",
+      "desc": null,
+      "source": "61c44f1d83642f002bf18b17",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "Items",
+            "items": []
+          },
+          {
+            "name": "Values",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "style": {
+        "currentCard": {
+          "style": "",
+          "script": "",
+          "title": "",
+          "showCarousel": true,
+          "actions": [
+            {
+              "type": "Filters",
+              "title": "Last 30 Days",
+              "data": {
+                "filters": [
+                  {
+                    "filterName": "Days in Date",
+                    "filterJaql": {
+                      "last": {
+                        "count": 30,
+                        "offset": 1
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "Filters",
+              "title": "Last 90 Days",
+              "data": {
+                "filters": [
+                  {
+                    "filterName": "Days in Date",
+                    "filterJaql": {
+                      "last": {
+                        "count": 90,
+                        "offset": 1
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "Filters",
+              "title": "Last 365 Days",
+              "data": {
+                "filters": [
+                  {
+                    "filterName": "Days in Date",
+                    "filterJaql": {
+                      "last": {
+                        "count": 365,
+                        "offset": 1
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "currentConfig": {
+          "fontFamily": "Open Sans",
+          "fontSizes": {
+            "default": 14,
+            "small": 16,
+            "medium": 20,
+            "large": 50,
+            "extraLarge": 32
+          },
+          "fontWeights": {
+            "default": 500,
+            "light": 100,
+            "bold": 1000
+          },
+          "containerStyles": {
+            "default": {
+              "backgroundColor": "",
+              "foregroundColors": {
+                "default": {
+                  "normal": "#000000"
+                },
+                "white": {
+                  "normal": "#ffffff"
+                },
+                "grey": {
+                  "normal": "#5C6372"
+                },
+                "orange": {
+                  "normal": "#f2B900"
+                },
+                "yellow": {
+                  "normal": "#ffcb05"
+                },
+                "black": {
+                  "normal": "#000000"
+                },
+                "lightGreen": {
+                  "normal": "#3ADCCA"
+                },
+                "green": {
+                  "normal": "#54a254"
+                },
+                "red": {
+                  "normal": "#dd1111"
+                },
+                "accent": {
+                  "normal": "#2E89FC"
+                },
+                "good": {
+                  "normal": "#54a254"
+                },
+                "warning": {
+                  "normal": "#e69500"
+                },
+                "attention": {
+                  "normal": "#cc3300"
+                }
+              }
+            }
+          },
+          "imageSizes": {
+            "default": 40,
+            "small": 40,
+            "medium": 80,
+            "large": 160
+          },
+          "imageSet": {
+            "imageSize": "medium",
+            "maxImageHeight": 100
+          },
+          "actions": {
+            "color": "",
+            "backgroundColor": "#afe4ed",
+            "maxActions": 5,
+            "spacing": "extraLarge",
+            "buttonSpacing": 20,
+            "actionsOrientation": "horizontal",
+            "actionAlignment": "center",
+            "showCard": {
+              "actionMode": "inline",
+              "inlineTopMargin": 16,
+              "style": "default"
+            }
+          },
+          "spacing": {
+            "default": 5,
+            "small": 20,
+            "medium": 60,
+            "large": 20,
+            "extraLarge": 40,
+            "padding": 0
+          },
+          "separator": {
+            "lineThickness": 1,
+            "lineColor": "#eeeeee"
+          },
+          "factSet": {
+            "title": {
+              "size": "default",
+              "color": "default",
+              "weight": "bold",
+              "warp": true
+            },
+            "value": {
+              "size": "default",
+              "color": "default",
+              "weight": "default",
+              "warp": true
+            },
+            "spacing": 20
+          },
+          "supportsInteractivity": true,
+          "imageBaseUrl": ""
+        },
+        "currentCardName": "default",
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": []
+        }
+      },
+      "instanceid": "5166F-E869-67",
+      "wasRendered": false,
+      "custom": {
+        "barcolumnchart": {
+          "type": "BloX",
+          "isTypeValid": false,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total"
+        }
+      },
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 4,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "title": false,
+        "drillTarget": "dummy",
+        "autoUpdateOnEveryChange": true
+      },
+      "dashboardid": "61bc8ece98f8b514782a6bc5",
+      "displayMenu": false,
+      "script": "/*\nWelcome to your Widget's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at https://developer.sisense.com/pages/viewpage.action?pageId=557127\n*/\n//choose the highlight Color\nvar ChooseYourHighlightColor = '#00cee6';\n\n//Define filter value - in case you have more than 2 filters add additional var\nvar FirstFilter = '30';\nvar SecondFilter = '90';\nvar ThirdFilter = '365';\n\nwidget.on('ready',function(widget, args){\nvar dashboardFilters = widget.dashboard.filters.$$items[0].jaql.filter.last.count;\n\n//First Filter Check\nif (dashboardFilters == FirstFilter) {\n$('button.btn:contains('+dashboardFilters+')').css({\ntransition : 'background-color 1s ease-in-out', \"background-color\": ChooseYourHighlightColor\n});\n}\n//Second Filter Check\nelse if (dashboardFilters == SecondFilter) {\n$('button.btn:contains('+dashboardFilters+')').css({\ntransition : 'background-color 1s ease-in-out', \"background-color\": ChooseYourHighlightColor\n});\n}\n\t//Second Filter Check\nelse if (dashboardFilters == ThirdFilter) {\n$('button.btn:contains('+dashboardFilters+')').css({\ntransition : 'background-color 1s ease-in-out', \"background-color\": ChooseYourHighlightColor\n});\n}\n\n\n//in case you have more than 2 filters add additional if (REMOVE /*)\n/*\n//Third Filter Check\nelse if (dashboardFilters == ThirdFilter) {\n$('button.btn:contains('+dashboardFilters+')').css({\ntransition : 'background-color 1s ease-in-out', \"background-color\": ChooseYourHighlightColor\n});\n}\n*/\n\n})",
+      "query": {
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce"
+        },
+        "format": "json",
+        "isMaskedResult": true,
+        "metadata": [],
+        "m2mThresholdFlag": 0
+      }
+    }
+  ],
+  "hierarchies": []
+}

@@ -1,0 +1,616 @@
+{
+  "title": "Column Chart - Multi-Measure Switcher",
+  "oid": "66956fbd16425d00337482a8",
+  "desc": "",
+  "source": null,
+  "type": "dashboard",
+  "style": {
+    "palette": {
+      "name": "Vivid",
+      "colors": [
+        "#00cee6",
+        "#9b9bd7",
+        "#6EDA55",
+        "#fc7570",
+        "#fbb755",
+        "#218A8C"
+      ]
+    }
+  },
+  "layout": {
+    "instanceid": "6A293-116D-D1",
+    "type": "columnar",
+    "columns": [
+      {
+        "width": 100,
+        "cells": [
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "height": "264px",
+                    "defaultWidth": 128,
+                    "widgetid": "6695752316425d00337482dc"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1671,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "height": "724px",
+                    "defaultWidth": 128,
+                    "widgetid": "6695755a16425d00337482de"
+                  }
+                ],
+                "width": 29.204069419509278,
+                "stretchable": false,
+                "pxlWidth": 488,
+                "index": 0
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 96,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": "724px",
+                    "defaultWidth": 512,
+                    "widgetid": "6695704916425d00337482aa"
+                  }
+                ],
+                "width": 70.79593058049068,
+                "stretchable": false,
+                "pxlWidth": 1183,
+                "index": 1
+              }
+            ]
+          }
+        ],
+        "pxlWidth": 1671,
+        "index": 0
+      }
+    ],
+    "container": {}
+  },
+  "original": null,
+  "dataExploration": false,
+  "lastOpened": null,
+  "previewLayout": [],
+  "datasource": {
+    "address": "LocalHost",
+    "title": "Sample ECommerce",
+    "id": "localhost_aSampleIAAaECommerce",
+    "database": "aSampleIAAaECommerce",
+    "fullname": "localhost/Sample ECommerce",
+    "live": false
+  },
+  "filters": [],
+  "editing": true,
+  "settings": {
+    "autoUpdateOnFiltersChange": true
+  },
+  "allowChangeSubscription": false,
+  "subscription": {
+    "executionPerDay": 1,
+    "schedule": "* * * * * *",
+    "isDataChange": true,
+    "type": "onUpdate",
+    "reportType": {
+      "inline": true
+    },
+    "emailSettings": {
+      "isEmail": true,
+      "isPdf": false
+    },
+    "context": {
+      "dashboardid": "66956fbd16425d00337482a8"
+    },
+    "startAt": "2024-07-15",
+    "tzName": "America/Phoenix",
+    "timezone": 420,
+    "active": false,
+    "subscribe": false
+  },
+  "isPublic": null,
+  "widgets": [
+    {
+      "title": "",
+      "type": "chart/column",
+      "subtype": "column/classic",
+      "oid": "6695704916425d00337482aa",
+      "desc": null,
+      "source": null,
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "database": "aSampleIAAaECommerce",
+        "fullname": "localhost/Sample ECommerce",
+        "live": false
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "categories",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Date",
+                  "dim": "[Commerce.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "quarters",
+                  "title": "Quarters in Date",
+                  "pv": {
+                    "Visible in View>Yes": 2,
+                    "Aggregation>Count": 2
+                  }
+                },
+                "instanceid": "93BBF-4ED9-DD",
+                "field": {
+                  "id": "[Commerce.Date (Calendar)]_years",
+                  "index": 0
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "seconds": "MM/dd/yyyy HH:mm:ss",
+                    "dateAndTime": "MM/dd/yyyy HH:mm",
+                    "isdefault": true
+                  }
+                },
+                "panel": "rows",
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Cost",
+                  "dim": "[Commerce.Cost]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Cost"
+                },
+                "instanceid": "21E07-7102-47",
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "abbreviateAll": false,
+                    "isdefault": true
+                  },
+                  "color": {
+                    "colorIndex": 0,
+                    "type": "color"
+                  }
+                },
+                "panel": "measures",
+                "disabled": false
+              },
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Quantity",
+                  "dim": "[Commerce.Quantity]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Quantity",
+                  "pv": {
+                    "Visible in View>Yes": 2,
+                    "Aggregation>Count": 2
+                  }
+                },
+                "instanceid": "BA142-AE28-69",
+                "panel": "measures",
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "abbreviateAll": false,
+                    "isdefault": true
+                  },
+                  "color": {
+                    "colorIndex": 2,
+                    "type": "color"
+                  }
+                },
+                "y2": true,
+                "disabled": true,
+                "singleSeriesType": "column"
+              },
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Revenue",
+                  "dim": "[Commerce.Revenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Revenue",
+                  "pv": {
+                    "Visible in View>Yes": 2,
+                    "Aggregation>Count": 2
+                  }
+                },
+                "instanceid": "0B66C-88ED-09",
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "abbreviateAll": false,
+                    "isdefault": true
+                  },
+                  "color": {
+                    "colorIndex": 2,
+                    "type": "color"
+                  }
+                },
+                "panel": "measures",
+                "singleSeriesType": "spline",
+                "disabled": false,
+                "y2": true
+              },
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "Count([48114-570])",
+                  "context": {
+                    "[48114-570]": {
+                      "table": "Commerce",
+                      "column": "Visit ID",
+                      "dim": "[Commerce.Visit ID]",
+                      "datatype": "numeric",
+                      "title": "Visit ID"
+                    }
+                  },
+                  "title": "Visits",
+                  "pv": {
+                    "Visible in View>Yes": 2,
+                    "Aggregation>Count": 2
+                  }
+                },
+                "instanceid": "D26B7-543C-CC",
+                "panel": "measures",
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "abbreviateAll": false,
+                    "isdefault": true
+                  },
+                  "color": {
+                    "colorIndex": 3,
+                    "type": "color"
+                  }
+                },
+                "singleSeriesType": "spline",
+                "disabled": true,
+                "y2": true
+              }
+            ]
+          },
+          {
+            "name": "break by",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "legend": {
+          "enabled": true,
+          "position": "bottom"
+        },
+        "seriesLabels": {
+          "enabled": false,
+          "rotation": 0,
+          "labels": {
+            "enabled": false,
+            "types": {
+              "count": false,
+              "percentage": false,
+              "relative": false,
+              "totals": false
+            },
+            "stacked": false,
+            "stackedPercentage": false
+          }
+        },
+        "xAxis": {
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "x2Title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "isIntervalEnabled": false
+        },
+        "yAxis": {
+          "inactive": false,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "logarithmic": false,
+          "hideMinMax": false,
+          "isIntervalEnabled": true
+        },
+        "y2Axis": {
+          "inactive": false,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": false,
+          "logarithmic": false,
+          "hideMinMax": false,
+          "isIntervalEnabled": true,
+          "templateMainYHasGridLines": true
+        },
+        "navigator": {
+          "enabled": true
+        },
+        "dataLimits": {
+          "seriesCapacity": 50,
+          "categoriesCapacity": 100000
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "quarters_in_date",
+              "title": "Quarters in Date",
+              "singular": "Quarters in Date",
+              "plural": "Quarters in Date"
+            }
+          ]
+        }
+      },
+      "instanceid": "7C389-2360-B1",
+      "wasRendered": false,
+      "realTimeRefreshing": false,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "drillToAnywhere": true,
+        "previousScrollerLocation": {
+          "min": null,
+          "max": null
+        }
+      },
+      "dashboardid": "66956fbd16425d00337482a8",
+      "script": "widget.on('processresult', function(se, ev){\t\n\tev.result.chart.spacing = [20, 20, 77, 20];\n});\n\nwidget.on(\"domready\", function(w){\n    var chart = w.chart[0][Object.keys(w.chart[0])[0]].hc;\n    var chartContainer = $('.highcharts-container', element);\n\n    var dropdownHTMLColumn = `<label for=\"select-column-${w.oid}\" style=\"margin-right: 5px;\">Column:</label>\n                              <select style=\"padding: 5px 10px; background:#FFFFFF; border: 1px solid #c0c1c2; margin:2px 5px; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);\" name=\"select-column\" id=\"select-column-${w.oid}\">\n                                <option value=\"0\">Cost</option>\n                                <option value=\"1\">Quantity</option>\n                              </select>`;\n                              \n    var dropdownHTMLSpline = `<label for=\"select-spline-${w.oid}\" style=\"margin-right: 5px;\">Spline:</label>\n                              <select style=\"padding: 5px 10px; background:#FFFFFF; border: 1px solid #c0c1c2; margin:2px 5px; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);\" name=\"select-spline\" id=\"select-spline-${w.oid}\">\n                                <option value=\"2\">Revenue</option>\n                                <option value=\"3\">Visits</option>\n                              </select>`;\n\n    if ($(`#select-column-${w.oid}`).length) {\n        $(`#select-column-${w.oid}`).remove();\n        chartContainer.height(chartContainer.height() + 77);\n    }\n    if ($(`#select-spline-${w.oid}`).length) {\n        $(`#select-spline-${w.oid}`).remove();\n        chartContainer.height(chartContainer.height() + 77);\n    }\n\n    chartContainer.before(`<div id=\"dropdown-container-${w.oid}\" style=\"display: flex; align-items: center; margin-bottom: 10px;\"></div>`);\n    $(`#dropdown-container-${w.oid}`).append(dropdownHTMLColumn);\n    $(`#dropdown-container-${w.oid}`).append(dropdownHTMLSpline);\n\n    chartContainer.height(chartContainer.height() - 77);\n\n    var columnSelect = document.getElementById(`select-column-${w.oid}`);\n    var splineSelect = document.getElementById(`select-spline-${w.oid}`);\n\n    w.metadata.panels[1].items[0].disabled = false; \n    w.metadata.panels[1].items[1].disabled = true; \n    w.metadata.panels[1].items[2].disabled = false; \n    w.metadata.panels[1].items[3].disabled = true; \n\n    columnSelect.addEventListener('change', (e) => {\n        var selectedIndex = parseInt(e.target.value);\n\n        w.metadata.panels[1].items[0].disabled = selectedIndex !== 0;\n        w.metadata.panels[1].items[1].disabled = selectedIndex !== 1;\n\n        widget.refresh();\n    });\n\n    splineSelect.addEventListener('change', (e) => {\n        var selectedIndex = parseInt(e.target.value);\n\n        w.metadata.panels[1].items[2].disabled = selectedIndex !== 2;\n        w.metadata.panels[1].items[3].disabled = selectedIndex !== 3;\n\n        widget.refresh();\n    });\n\n    // Display the current selected values\n    columnSelect.value = w.metadata.panels[1].items[0].disabled ? \"1\" : \"0\"; \n    splineSelect.value = w.metadata.panels[1].items[2].disabled ? \"3\" : \"2\"; \n});\n"
+    },
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "6695752316425d00337482dc",
+      "desc": null,
+      "source": null,
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "database": "aSampleIAAaECommerce",
+        "fullname": "localhost/Sample ECommerce",
+        "live": false
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "content": {
+          "html": "<font size=\"6\">Multi-Measure Switcher&nbsp;</font><br><br><font size=\"2\">This script enhances a Sisense combination chart widget by adding two dropdown menus that allow users to dynamically toggle between multiple measures for the column and spline series. By adjusting the chart's metadata panels based on the dropdown selections, users can customize which data series are displayed, enabling a more interactive and flexible data visualization experience.</font><br>",
+          "vAlign": "valign-middle",
+          "bgColor": "#FFFFFF",
+          "textAlign": "left"
+        }
+      },
+      "instanceid": "630A8-2CD2-06",
+      "wasRendered": false,
+      "realTimeRefreshing": false,
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "dashboardid": "66956fbd16425d00337482a8"
+    },
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "6695755a16425d00337482de",
+      "desc": null,
+      "source": null,
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "database": "aSampleIAAaECommerce",
+        "fullname": "localhost/Sample ECommerce",
+        "live": false
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "content": {
+          "html": "<div style=\"text-align: left;\"><font size=\"6\">Code Snippet</font></div><div style=\"text-align: left;\"><br></div><div style=\"text-align: left;\">widget.on('processresult', function(se, ev){<span style=\"white-space: pre;\">\t</span><font size=\"6\"><br></font></div><div style=\"text-align: left;\"><span style=\"white-space: normal;\"><span style=\"white-space:pre\">\t</span>ev.result.chart.spacing = [20, 20, 77, 20];</span></div><div style=\"text-align: left;\">});</div><div style=\"text-align: left;\"><br></div><div style=\"text-align: left;\">widget.on(\"domready\", function(w){</div><div style=\"text-align: left;\">&nbsp; &nbsp; var chart = w.chart[0][Object.keys(w.chart[0])[0]].hc;</div><div style=\"text-align: left;\">&nbsp; &nbsp; var chartContainer = $('.highcharts-container', element);</div><div style=\"text-align: left;\"><br></div><div style=\"text-align: left;\">&nbsp; &nbsp; var dropdownHTMLColumn = `&lt;label for=\"select-column-${w.oid}\" style=\"margin-right: 5px;\"&gt;Column:&lt;/label&gt;</div><div style=\"text-align: left;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;select style=\"padding: 5px 10px; background:#FFFFFF; border: 1px solid #c0c1c2; margin:2px 5px; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);\" name=\"select-column\" id=\"select-column-${w.oid}\"&gt;</div><div style=\"text-align: left;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;option value=\"0\"&gt;Cost&lt;/option&gt;</div><div style=\"text-align: left;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;option value=\"1\"&gt;Quantity&lt;/option&gt;</div><div style=\"text-align: left;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/select&gt;`;</div><div style=\"text-align: left;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</div><div style=\"text-align: left;\">&nbsp; &nbsp; var dropdownHTMLSpline = `&lt;label for=\"select-spline-${w.oid}\" style=\"margin-right: 5px;\"&gt;Spline:&lt;/label&gt;</div><div style=\"text-align: left;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;select style=\"padding: 5px 10px; background:#FFFFFF; border: 1px solid #c0c1c2; margin:2px 5px; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);\" name=\"select-spline\" id=\"select-spline-${w.oid}\"&gt;</div><div style=\"text-align: left;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;option value=\"2\"&gt;Revenue&lt;/option&gt;</div><div style=\"text-align: left;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;option value=\"3\"&gt;Visits&lt;/option&gt;</div><div style=\"text-align: left;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/select&gt;`;</div><div style=\"text-align: left;\"><br></div><div style=\"text-align: left;\">&nbsp; &nbsp; if ($(`#select-column-${w.oid}`).length) {</div><div style=\"text-align: left;\">&nbsp; &nbsp; &nbsp; &nbsp; $(`#select-column-${w.oid}`).remove();</div><div style=\"text-align: left;\">&nbsp; &nbsp; &nbsp; &nbsp; chartContainer.height(chartContainer.height() + 77);</div><div style=\"text-align: left;\">&nbsp; &nbsp; }</div><div style=\"text-align: left;\">&nbsp; &nbsp; if ($(`#select-spline-${w.oid}`).length) {</div><div style=\"text-align: left;\">&nbsp; &nbsp; &nbsp; &nbsp; $(`#select-spline-${w.oid}`).remove();</div><div style=\"text-align: left;\">&nbsp; &nbsp; &nbsp; &nbsp; chartContainer.height(chartContainer.height() + 77);</div><div style=\"text-align: left;\">&nbsp; &nbsp; }</div><div style=\"text-align: left;\"><br></div><div style=\"text-align: left;\">&nbsp; &nbsp; chartContainer.before(`&lt;div id=\"dropdown-container-${w.oid}\" style=\"display: flex; align-items: center; margin-bottom: 10px;\"&gt;&lt;/div&gt;`);</div><div style=\"text-align: left;\">&nbsp; &nbsp; $(`#dropdown-container-${w.oid}`).append(dropdownHTMLColumn);</div><div style=\"text-align: left;\">&nbsp; &nbsp; $(`#dropdown-container-${w.oid}`).append(dropdownHTMLSpline);</div><div style=\"text-align: left;\"><br></div><div style=\"text-align: left;\">&nbsp; &nbsp; chartContainer.height(chartContainer.height() - 77);</div><div style=\"text-align: left;\"><br></div><div style=\"text-align: left;\">&nbsp; &nbsp; var columnSelect = document.getElementById(`select-column-${w.oid}`);</div><div style=\"text-align: left;\">&nbsp; &nbsp; var splineSelect = document.getElementById(`select-spline-${w.oid}`);</div><div style=\"text-align: left;\"><br></div><div style=\"text-align: left;\">&nbsp; &nbsp; w.metadata.panels[1].items[0].disabled = false;&nbsp;</div><div style=\"text-align: left;\">&nbsp; &nbsp; w.metadata.panels[1].items[1].disabled = true;&nbsp;</div><div style=\"text-align: left;\">&nbsp; &nbsp; w.metadata.panels[1].items[2].disabled = false;&nbsp;</div><div style=\"text-align: left;\">&nbsp; &nbsp; w.metadata.panels[1].items[3].disabled = true;&nbsp;</div><div style=\"text-align: left;\"><br></div><div style=\"text-align: left;\">&nbsp; &nbsp; columnSelect.addEventListener('change', (e) =&gt; {</div><div style=\"text-align: left;\">&nbsp; &nbsp; &nbsp; &nbsp; var selectedIndex = parseInt(e.target.value);</div><div style=\"text-align: left;\"><br></div><div style=\"text-align: left;\">&nbsp; &nbsp; &nbsp; &nbsp; w.metadata.panels[1].items[0].disabled = selectedIndex !== 0;</div><div style=\"text-align: left;\">&nbsp; &nbsp; &nbsp; &nbsp; w.metadata.panels[1].items[1].disabled = selectedIndex !== 1;</div><div style=\"text-align: left;\"><br></div><div style=\"text-align: left;\">&nbsp; &nbsp; &nbsp; &nbsp; widget.refresh();</div><div style=\"text-align: left;\">&nbsp; &nbsp; });</div><div style=\"text-align: left;\"><br></div><div style=\"text-align: left;\">&nbsp; &nbsp; splineSelect.addEventListener('change', (e) =&gt; {</div><div style=\"text-align: left;\">&nbsp; &nbsp; &nbsp; &nbsp; var selectedIndex = parseInt(e.target.value);</div><div style=\"text-align: left;\"><br></div><div style=\"text-align: left;\">&nbsp; &nbsp; &nbsp; &nbsp; w.metadata.panels[1].items[2].disabled = selectedIndex !== 2;</div><div style=\"text-align: left;\">&nbsp; &nbsp; &nbsp; &nbsp; w.metadata.panels[1].items[3].disabled = selectedIndex !== 3;</div><div style=\"text-align: left;\"><br></div><div style=\"text-align: left;\">&nbsp; &nbsp; &nbsp; &nbsp; widget.refresh();</div><div style=\"text-align: left;\">&nbsp; &nbsp; });</div><div style=\"text-align: left;\"><br></div><div style=\"text-align: left;\">&nbsp; &nbsp; // Display the current selected values</div><div style=\"text-align: left;\">&nbsp; &nbsp; columnSelect.value = w.metadata.panels[1].items[0].disabled ? \"1\" : \"0\";&nbsp;</div><div style=\"text-align: left;\">&nbsp; &nbsp; splineSelect.value = w.metadata.panels[1].items[2].disabled ? \"3\" : \"2\";&nbsp;</div><div style=\"text-align: left;\">});</div><div><br></div><div style=\"text-align: left;\"><span style=\"font-size: 48px;\"><br></span></div>",
+          "vAlign": "valign-middle",
+          "bgColor": "#FFFFFF",
+          "textAlign": "center"
+        }
+      },
+      "instanceid": "4A71C-9811-10",
+      "wasRendered": false,
+      "realTimeRefreshing": false,
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "dashboardid": "66956fbd16425d00337482a8"
+    }
+  ],
+  "hierarchies": []
+}

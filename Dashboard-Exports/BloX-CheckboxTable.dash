@@ -1,0 +1,832 @@
+{
+  "title": "BloX - Checkbox Table",
+  "oid": "63ec336aeaea3b0034e4c3d6",
+  "desc": "",
+  "source": "63ec336aeaea3b0034e4c3d7",
+  "type": "dashboard",
+  "style": {
+    "palette": {
+      "name": "Vivid",
+      "colors": [
+        "#00cee6",
+        "#9b9bd7",
+        "#6EDA55",
+        "#fc7570",
+        "#fbb755",
+        "#218A8C"
+      ]
+    }
+  },
+  "layout": {
+    "instanceid": "21B0D-836A-42",
+    "type": "columnar",
+    "columns": [
+      {
+        "width": 52.83816425120773,
+        "cells": [
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 128,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": 818,
+                    "defaultWidth": 512,
+                    "widgetid": "63ec340beaea3b0034e4c3d8",
+                    "autoHeight": "316px"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 604.547,
+                "index": 0
+              }
+            ]
+          }
+        ],
+        "pxlWidth": 875,
+        "index": 0
+      },
+      {
+        "width": 47.16183574879227,
+        "pxlWidth": 781,
+        "index": 1,
+        "cells": [
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "height": "180px",
+                    "defaultWidth": 128,
+                    "widgetid": "63ec34fdeaea3b0034e4c3e0"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 779.578,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "height": "612px",
+                    "defaultWidth": 128,
+                    "widgetid": "63ec34b1eaea3b0034e4c3de"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 519.719,
+                "index": 0
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "container": {
+      "sizzle1676424233592": {
+        "undefined": {
+          "parentNode": [
+            330,
+            49,
+            true
+          ]
+        }
+      }
+    }
+  },
+  "original": null,
+  "dataExploration": false,
+  "lastOpened": null,
+  "datasource": {
+    "fullname": "localhost/Sample Retail",
+    "id": "localhost_aSampleIAAaRetail",
+    "address": "LocalHost",
+    "database": "aSampleIAAaRetail",
+    "live": false,
+    "title": "Sample Retail"
+  },
+  "filters": [],
+  "editing": false,
+  "parentFolder": "61c44b8583642f002bf18387",
+  "settings": {
+    "autoUpdateOnFiltersChange": true
+  },
+  "allowChangeSubscription": false,
+  "subscription": {
+    "executionPerDay": 1,
+    "schedule": "* * * * * *",
+    "isDataChange": true,
+    "type": "onUpdate",
+    "reportType": {
+      "inline": true
+    },
+    "emailSettings": {
+      "isEmail": true,
+      "isPdf": false
+    },
+    "context": {
+      "dashboardid": "63ec336aeaea3b0034e4c3d6"
+    },
+    "startAt": "2023-02-14",
+    "tzName": "America/Phoenix",
+    "timezone": 420,
+    "active": false
+  },
+  "isPublic": null,
+  "previewLayout": [],
+  "defaultFilters": [],
+  "widgets": [
+    {
+      "title": "Checkbox Table",
+      "type": "BloX",
+      "subtype": "BloX",
+      "oid": "63ec340beaea3b0034e4c3d8",
+      "desc": null,
+      "source": "63ec340beaea3b0034e4c3d9",
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Sample Retail",
+        "id": "localhost_aSampleIAAaRetail",
+        "database": "aSampleIAAaRetail",
+        "fullname": "localhost/Sample Retail",
+        "live": false
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "Items",
+            "items": [
+              {
+                "jaql": {
+                  "table": "DimEmployees",
+                  "column": "EmployeeName",
+                  "dim": "[DimEmployees.EmployeeName]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "name"
+                },
+                "instanceid": "6E8A6-A50A-90",
+                "PanelName": "name"
+              }
+            ]
+          },
+          {
+            "name": "Values",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Fact_Sale_orders",
+                  "column": "OrderRevenue",
+                  "dim": "[Fact_Sale_orders.OrderRevenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "rev"
+                },
+                "instanceid": "F6A50-D3B1-91",
+                "PanelName": "rev",
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": false,
+                      "b": false,
+                      "m": false,
+                      "k": false
+                    },
+                    "decimals": "auto",
+                    "currency": {
+                      "symbol": "$",
+                      "position": "pre"
+                    }
+                  }
+                }
+              },
+              {
+                "jaql": {
+                  "table": "Fact_Sale_orders",
+                  "column": "OrderQty",
+                  "dim": "[Fact_Sale_orders.OrderQty]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "qty"
+                },
+                "instanceid": "D11FF-A948-23",
+                "PanelName": "qty",
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "decimals": "auto",
+                    "separated": true,
+                    "isdefault": true
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "currentCard": {
+          "style": " .blox-slides:first-child .blox-pivot-title{display:block; !important;} .blox-slides:last-child .blox-pivot-footer{display:block; !important;}",
+          "script": "$('.blox-slides').parent().eq(0).attr('class', 'blox-container')",
+          "title": "",
+          "showCarousel": false,
+          "carouselAnimation": {
+            "showButtons": false
+          },
+          "body": [
+            {
+              "type": "ColumnSet",
+              "class": ".blox-titles",
+              "separator": true,
+              "horizontalAlignment": "center",
+              "style": {
+                "padding": "",
+                "margin-top": "5px",
+                "margin-bottom": "5px",
+                "justify-content": "center"
+              },
+              "columns": [
+                {
+                  "type": "Column",
+                  "separator": false,
+                  "width": "200px",
+                  "horizontalAlignment": "center",
+                  "style": {
+                    "backgroundColor": "",
+                    "margin-left": "0px",
+                    "margin-bottom": "0px",
+                    "border": "2px solid #b3b3b3",
+                    "border-right": "1px"
+                  },
+                  "items": [
+                    {
+                      "type": "Container",
+                      "items": [
+                        {
+                          "type": "TextBlock",
+                          "class": "blox-pivot-title",
+                          "hidden": "true",
+                          "horizontalAlignment": "left",
+                          "text": "Name",
+                          "size": "",
+                          "style": {
+                            "padding": "10px",
+                            "color": "#fff",
+                            "fontWeight": "",
+                            "background-color": "#09273D"
+                          }
+                        },
+                        {
+                          "type": "TextBlock",
+                          "horizontalAlignment": "center",
+                          "text": "",
+                          "separator": true,
+                          "size": "15px",
+                          "style": {
+                            "padding": "10px",
+                            "fontWeight": ""
+                          }
+                        },
+                        {
+                          "type": "Input.ChoiceSet",
+                          "id": "checkboxVal",
+                          "class": "",
+                          "layout": "vertical",
+                          "separator": true,
+                          "isMultiSelect": true,
+                          "value": "1,3",
+                          "choices": [
+                            {
+                              "title": "{panel:name}",
+                              "value": ""
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "separator": false,
+                  "width": "175px",
+                  "horizontalAlignment": "center",
+                  "style": {
+                    "backgroundColor": "",
+                    "margin-left": "0px",
+                    "margin-bottom": "0px",
+                    "border": "2px solid #b3b3b3"
+                  },
+                  "items": [
+                    {
+                      "type": "Container",
+                      "items": [
+                        {
+                          "type": "TextBlock",
+                          "class": "blox-pivot-title",
+                          "hidden": "true",
+                          "horizontalAlignment": "left",
+                          "text": "Sales",
+                          "size": "",
+                          "style": {
+                            "padding": "10px",
+                            "color": "#fff",
+                            "fontWeight": "",
+                            "background-color": "#09273D"
+                          }
+                        },
+                        {
+                          "type": "TextBlock",
+                          "horizontalAlignment": "center",
+                          "text": "{panel:rev}",
+                          "separator": true,
+                          "size": "15px",
+                          "style": {
+                            "padding": "10px",
+                            "fontWeight": ""
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "separator": false,
+                  "width": "170px",
+                  "horizontalAlignment": "center",
+                  "style": {
+                    "backgroundColor": "",
+                    "margin-left": "0px",
+                    "margin-bottom": "0px",
+                    "border": "2px solid #b3b3b3",
+                    "border-left": "1px"
+                  },
+                  "items": [
+                    {
+                      "type": "Container",
+                      "items": [
+                        {
+                          "type": "TextBlock",
+                          "class": "blox-pivot-title",
+                          "hidden": "true",
+                          "horizontalAlignment": "left",
+                          "text": "Orders Filled",
+                          "size": "",
+                          "style": {
+                            "padding": "10px",
+                            "color": "#fff",
+                            "fontWeight": "",
+                            "background-color": "#09273D"
+                          }
+                        },
+                        {
+                          "type": "TextBlock",
+                          "horizontalAlignment": "center",
+                          "text": "{panel:qty}",
+                          "separator": true,
+                          "size": "15px",
+                          "style": {
+                            "padding": "10px",
+                            "fontWeight": ""
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "ColumnSet",
+              "horizontalAlignment": "center",
+              "spacing": "large",
+              "columns": [
+                {},
+                {
+                  "type": "TextBlock",
+                  "class": "blox-pivot-footer",
+                  "hidden": "true",
+                  "horizontalAlignment": "center",
+                  "text": "Take Action",
+                  "size": "small",
+                  "style": {
+                    "padding": "5px",
+                    "width": "100px",
+                    "border-radius": "5px",
+                    "color": "#111",
+                    "fontWeight": "",
+                    "background-color": "#F2B900"
+                  },
+                  "selectAction": {
+                    "type": "Action.Submit",
+                    "action": "post",
+                    "url": "https://hooks.zapier.com/hooks/catch/14501551/3yz47dn/",
+                    "data": {}
+                  }
+                },
+                {}
+              ]
+            }
+          ],
+          "actions": []
+        },
+        "currentConfig": {
+          "fontFamily": "Open Sans",
+          "fontSizes": {
+            "default": 16,
+            "small": 12,
+            "medium": 22,
+            "large": 32,
+            "extraLarge": 50
+          },
+          "fontWeights": {
+            "default": 400,
+            "light": 200,
+            "bold": 800
+          },
+          "containerStyles": {
+            "default": {
+              "backgroundColor": "#ffffff",
+              "foregroundColors": {
+                "0": {
+                  "normal": "#dd1111"
+                },
+                "1": {
+                  "normal": "#008000"
+                },
+                "default": {
+                  "normal": "#000000"
+                },
+                "white": {
+                  "normal": "#ffffff"
+                },
+                "grey": {
+                  "normal": "#3A4356"
+                },
+                "lightgrey": {
+                  "normal": "#9EA2Ab"
+                },
+                "orange": {
+                  "normal": "#f2B900"
+                },
+                "yellow": {
+                  "normal": "#ffcb05"
+                },
+                "black": {
+                  "normal": "#000000"
+                },
+                "lightGreen": {
+                  "normal": "#93c0c0"
+                },
+                "accent": {
+                  "normal": "#2E89FC"
+                },
+                "good": {
+                  "normal": "#54a254"
+                },
+                "warning": {
+                  "normal": "#e69500"
+                },
+                "attention": {
+                  "normal": "#cc3300"
+                }
+              }
+            }
+          },
+          "imageSizes": {
+            "default": 40,
+            "small": 40,
+            "medium": 80,
+            "large": 160
+          },
+          "imageSet": {
+            "imageSize": "medium",
+            "maxImageHeight": 100
+          },
+          "actions": {
+            "color": "",
+            "backgroundColor": "",
+            "maxActions": 5,
+            "spacing": "extraLarge",
+            "buttonSpacing": 30,
+            "actionsOrientation": "horizontal",
+            "actionAlignment": "center",
+            "showCard": {
+              "actionMode": "inline",
+              "inlineTopMargin": 16,
+              "style": "default"
+            }
+          },
+          "spacing": {
+            "default": 5,
+            "small": 5,
+            "medium": 10,
+            "large": 20,
+            "extraLarge": 40,
+            "padding": 0
+          },
+          "separator": {
+            "lineThickness": 1,
+            "lineColor": "#b3b3b3"
+          },
+          "factSet": {
+            "title": {
+              "size": "default",
+              "color": "default",
+              "weight": "bold",
+              "warp": true
+            },
+            "value": {
+              "size": "default",
+              "color": "default",
+              "weight": "default",
+              "warp": true
+            },
+            "spacing": 20
+          },
+          "supportsInteractivity": true,
+          "imageBaseUrl": "",
+          "height": 818
+        },
+        "currentCardName": "Checkbox Table",
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "name",
+              "title": "name",
+              "singular": "name",
+              "plural": "name"
+            }
+          ]
+        }
+      },
+      "instanceid": "0E466-49C8-DD",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 4,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "wasRendered": false,
+      "query": {
+        "datasource": {
+          "address": "LocalHost",
+          "title": "Sample Retail",
+          "id": "localhost_aSampleIAAaRetail",
+          "database": "aSampleIAAaRetail",
+          "fullname": "localhost/Sample Retail",
+          "live": false
+        },
+        "format": "json",
+        "isMaskedResult": true,
+        "metadata": [
+          {
+            "jaql": {
+              "table": "DimEmployees",
+              "column": "EmployeeName",
+              "dim": "[DimEmployees.EmployeeName]",
+              "datatype": "text",
+              "merged": true,
+              "title": "name"
+            },
+            "instanceid": "6E8A6-A50A-90",
+            "PanelName": "name",
+            "handlers": []
+          },
+          {
+            "jaql": {
+              "table": "Fact_Sale_orders",
+              "column": "OrderRevenue",
+              "dim": "[Fact_Sale_orders.OrderRevenue]",
+              "datatype": "numeric",
+              "agg": "sum",
+              "title": "rev"
+            },
+            "instanceid": "F6A50-D3B1-91",
+            "PanelName": "rev",
+            "format": {
+              "mask": {
+                "abbreviations": {
+                  "t": false,
+                  "b": false,
+                  "m": false,
+                  "k": false
+                },
+                "decimals": "auto",
+                "currency": {
+                  "symbol": "$",
+                  "position": "pre"
+                }
+              }
+            },
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "Fact_Sale_orders",
+              "column": "OrderQty",
+              "dim": "[Fact_Sale_orders.OrderQty]",
+              "datatype": "numeric",
+              "agg": "sum",
+              "title": "qty"
+            },
+            "instanceid": "D11FF-A948-23",
+            "PanelName": "qty",
+            "format": {
+              "mask": {
+                "type": "number",
+                "decimals": "auto",
+                "separated": true,
+                "isdefault": true
+              }
+            },
+            "handlers": [
+              {}
+            ]
+          }
+        ],
+        "m2mThresholdFlag": 0
+      },
+      "jasperReportsSettings": {},
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": true,
+        "title": false,
+        "drillTarget": "dummy",
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true
+      },
+      "dashboardid": "63ec336aeaea3b0034e4c3d6",
+      "script": "\\widget.on('ready', () => {\n\nconst items = Array.from($(prism.activeWidget && prism.activeWidget.oid === widget.oid ? '.blox-slides' : `widget[widgetid=\"${widget.oid}\"] .blox-slides`));\n\nitems.forEach((item, index) => {\n\nif (index > 0) {\nconst title = $(item).find('.blox-titles');\n$(item).find('.blox-titles').hide();\n}\n});\n\n});",
+      "script_old": "",
+      "drilledDashboardDisplay": {}
+    },
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "63ec34b1eaea3b0034e4c3de",
+      "desc": null,
+      "source": "63ec34b1eaea3b0034e4c3df",
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Sample Retail",
+        "id": "localhost_aSampleIAAaRetail",
+        "database": "aSampleIAAaRetail",
+        "fullname": "localhost/Sample Retail",
+        "live": false
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "content": {
+          "html": "<font size=\"6\">Must be paired with following widget script.&nbsp;</font><br><br><div style=\"\"><font size=\"2\">\\widget.on('ready', () =&gt; {</font></div><div style=\"\"><font size=\"2\"><br></font></div><div style=\"\"><font size=\"2\">const items = Array.from($(prism.activeWidget &amp;&amp; prism.activeWidget.oid === widget.oid ? '.blox-slides' : `widget[widgetid=\"${widget.oid}\"] .blox-slides`));</font></div><div style=\"\"><font size=\"2\"><br></font></div><div style=\"\"><font size=\"2\">items.forEach((item, index) =&gt; {</font></div><div style=\"\"><font size=\"2\"><br></font></div><div style=\"\"><font size=\"2\">if (index &gt; 0) {</font></div><div style=\"\"><font size=\"2\">const title = $(item).find('.blox-titles');</font></div><div style=\"\"><font size=\"2\">$(item).find('.blox-titles').hide();</font></div><div style=\"\"><font size=\"2\">}</font></div><div style=\"\"><font size=\"2\">});</font></div><div style=\"\"><font size=\"2\"><br></font></div><div style=\"\"><font size=\"2\">});</font></div>",
+          "vAlign": "valign-top",
+          "bgColor": "#FFFFFF",
+          "textAlign": "left"
+        }
+      },
+      "instanceid": "AD29E-78CB-73",
+      "wasRendered": false,
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "dashboardid": "63ec336aeaea3b0034e4c3d6"
+    },
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "63ec34fdeaea3b0034e4c3e0",
+      "desc": null,
+      "source": "63ec34fdeaea3b0034e4c3e1",
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Sample Retail",
+        "id": "localhost_aSampleIAAaRetail",
+        "database": "aSampleIAAaRetail",
+        "fullname": "localhost/Sample Retail",
+        "live": false
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "content": {
+          "html": "<div style=\"text-align: left;\"><font size=\"7\">Purpose</font></div><div style=\"text-align: left;\"><font size=\"3\"><br></font></div><div style=\"text-align: left;\"><font size=\"3\">The use-case for this table is to allow users to make selections within the table. Based on those selections they can hit the submit button below and using a custom zapier webhook a custom event can be triggered. In this example the user can select different users fire off emails or notify them directly of progress.&nbsp;</font></div>",
+          "vAlign": "valign-top",
+          "bgColor": "#FFFFFF",
+          "textAlign": "center"
+        }
+      },
+      "instanceid": "CCE9D-D3FF-E9",
+      "wasRendered": false,
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "dashboardid": "63ec336aeaea3b0034e4c3d6"
+    }
+  ],
+  "hierarchies": []
+}

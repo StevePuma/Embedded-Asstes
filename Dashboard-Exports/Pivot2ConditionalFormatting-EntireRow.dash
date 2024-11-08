@@ -1,0 +1,716 @@
+{
+  "oid": "62f5a940142df70036c53e80",
+  "dataExploration": false,
+  "datasource": {
+    "fullname": "localhost/Sample ECommerce",
+    "id": "localhost_aSampleIAAaECommerce",
+    "address": "LocalHost",
+    "database": "aSampleIAAaECommerce",
+    "live": false,
+    "title": "Sample ECommerce"
+  },
+  "defaultFilters": [
+    {
+      "jaql": {
+        "table": "Category",
+        "column": "Category",
+        "dim": "[Category.Category]",
+        "datatype": "text",
+        "merged": true,
+        "collapsed": true,
+        "title": "Category",
+        "isDashboardFilter": true,
+        "datasource": {
+          "fullname": "localhost/Sample ECommerce",
+          "id": "localhost_aSampleIAAaECommerce",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce",
+          "live": false,
+          "title": "Sample ECommerce"
+        },
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "DD15B-A289-FD",
+      "isCascading": false,
+      "disabled": false
+    }
+  ],
+  "desc": "",
+  "editing": false,
+  "filterToDatasourceMapping": {},
+  "filters": [
+    {
+      "jaql": {
+        "table": "Category",
+        "column": "Category",
+        "dim": "[Category.Category]",
+        "datatype": "text",
+        "merged": true,
+        "collapsed": true,
+        "title": "Category",
+        "isDashboardFilter": true,
+        "datasource": {
+          "fullname": "localhost/Sample ECommerce",
+          "id": "localhost_aSampleIAAaECommerce",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce",
+          "live": false,
+          "title": "Sample ECommerce"
+        },
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "DD15B-A289-FD",
+      "isCascading": false,
+      "disabled": false
+    }
+  ],
+  "lastOpened": null,
+  "layout": {
+    "columns": [
+      {
+        "width": 100,
+        "cells": [
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 102,
+                    "maxHeight": 1024,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": "746px",
+                    "defaultWidth": 512,
+                    "widgetid": "62f5a954142df70036c53e84",
+                    "autoHeight": "746px"
+                  }
+                ],
+                "index": 0,
+                "stretchable": false,
+                "width": 100,
+                "pxlWidth": 1022
+              }
+            ]
+          }
+        ],
+        "pxlWidth": 1022,
+        "index": 0
+      }
+    ],
+    "instanceid": "8BC5B-7652-3F",
+    "type": "columnar",
+    "container": {}
+  },
+  "original": null,
+  "parentFolder": "61c44b8a83642f002bf183bd",
+  "settings": {
+    "autoUpdateOnFiltersChange": true
+  },
+  "source": "62f5a940142df70036c53e81",
+  "style": {
+    "palette": {
+      "name": "Vivid",
+      "colors": [
+        "#00cee6",
+        "#9b9bd7",
+        "#6EDA55",
+        "#fc7570",
+        "#fbb755",
+        "#218A8C"
+      ]
+    }
+  },
+  "title": "Pivot2 Conditional Formatting - Entire Row",
+  "type": "dashboard",
+  "allowChangeSubscription": false,
+  "subscription": {
+    "isDataChange": true,
+    "type": "onUpdate",
+    "schedule": "* * * * * *",
+    "timezone": 420,
+    "tzName": "America/Phoenix",
+    "context": {
+      "dashboardid": "62f5a940142df70036c53e80"
+    },
+    "active": false,
+    "executionPerDay": 1,
+    "reportType": {
+      "inline": true
+    },
+    "emailSettings": {
+      "isEmail": true,
+      "isPdf": false
+    },
+    "startAt": "2022-08-18",
+    "subscribe": false
+  },
+  "isPublic": null,
+  "previewLayout": [],
+  "widgets": [
+    {
+      "title": "The Colors are taken from Total Quantity (Target Value) and then is spread to the entire row",
+      "type": "pivot2",
+      "subtype": "pivot2",
+      "oid": "62f5a954142df70036c53e84",
+      "desc": null,
+      "source": "62f5a954142df70036c53e85",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "rows",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Brand",
+                  "column": "Brand",
+                  "dim": "[Brand.Brand]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Brand"
+                },
+                "instanceid": "E79E1-8D6F-87",
+                "panel": "rows",
+                "field": {
+                  "id": "[Brand.Brand]",
+                  "index": 0
+                }
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Quantity",
+                  "dim": "[Commerce.Quantity]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total Quantity"
+                },
+                "instanceid": "2167D-E36B-A8",
+                "panel": "measures",
+                "field": {
+                  "id": "[Commerce.Quantity]_sum",
+                  "index": 1
+                },
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": false,
+                      "b": false,
+                      "m": false,
+                      "k": false
+                    },
+                    "decimals": 2,
+                    "number": {
+                      "separated": false
+                    }
+                  },
+                  "color": {
+                    "type": "condition",
+                    "conditions": [
+                      {
+                        "color": "#fc7570",
+                        "operator": "≥",
+                        "expression": "1000"
+                      },
+                      {
+                        "color": "#fbb755",
+                        "operator": ">",
+                        "expression": "100"
+                      },
+                      {
+                        "color": "#00cee6",
+                        "operator": ">",
+                        "expression": "0"
+                      },
+                      {
+                        "color": "#808080",
+                        "operator": "=",
+                        "expression": "0"
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Revenue",
+                  "dim": "[Commerce.Revenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total Revenue"
+                },
+                "instanceid": "FFAFB-A43F-63",
+                "panel": "measures",
+                "field": {
+                  "id": "[Commerce.Revenue]_sum",
+                  "index": 2
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "t": true,
+                    "b": true,
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "type": "color",
+                    "color": "transparent"
+                  }
+                }
+              },
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Visit ID",
+                  "dim": "[Commerce.Visit ID]",
+                  "datatype": "numeric",
+                  "agg": "count",
+                  "title": "# of unique Visit ID"
+                },
+                "instanceid": "786C4-8451-9E",
+                "panel": "measures",
+                "field": {
+                  "id": "[Commerce.Visit ID]_count",
+                  "index": 3
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "t": true,
+                    "b": true,
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "type": "color",
+                    "color": "transparent"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "columns",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "style": {
+        "scroll": false,
+        "pageSize": 25,
+        "automaticHeight": true,
+        "colors": {
+          "rows": false,
+          "columns": false,
+          "headers": false,
+          "members": false,
+          "totals": false
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "brand",
+              "title": "Brand",
+              "singular": "Brand",
+              "plural": "Brand"
+            }
+          ]
+        }
+      },
+      "instanceid": "3976D-EE56-50",
+      "wasRendered": false,
+      "questQueryResult": {
+        "isActive": false,
+        "isPending": false
+      },
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 2,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "query": {
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce"
+        },
+        "format": "pivot",
+        "grandTotals": {
+          "title": "Grand Total"
+        },
+        "metadata": [
+          {
+            "jaql": {
+              "table": "Brand",
+              "column": "Brand",
+              "dim": "[Brand.Brand]",
+              "datatype": "text",
+              "merged": true,
+              "title": "Brand"
+            },
+            "instanceid": "E79E1-8D6F-87",
+            "panel": "rows",
+            "field": {
+              "id": "[Brand.Brand]",
+              "index": 0
+            },
+            "handlers": []
+          },
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Quantity",
+              "dim": "[Commerce.Quantity]",
+              "datatype": "numeric",
+              "agg": "sum",
+              "title": "Total Quantity"
+            },
+            "instanceid": "2167D-E36B-A8",
+            "panel": "measures",
+            "field": {
+              "id": "[Commerce.Quantity]_sum",
+              "index": 1
+            },
+            "format": {
+              "mask": {
+                "abbreviations": {
+                  "t": false,
+                  "b": false,
+                  "m": false,
+                  "k": false
+                },
+                "decimals": 2,
+                "number": {
+                  "separated": false
+                }
+              },
+              "color": {
+                "type": "condition",
+                "conditions": [
+                  {
+                    "color": "#fc7570",
+                    "operator": "≥",
+                    "expression": "1000"
+                  },
+                  {
+                    "color": "#fbb755",
+                    "operator": ">",
+                    "expression": "100"
+                  },
+                  {
+                    "color": "#00cee6",
+                    "operator": ">",
+                    "expression": "0"
+                  },
+                  {
+                    "color": "#808080",
+                    "operator": "=",
+                    "expression": "0"
+                  }
+                ]
+              }
+            },
+            "handlers": [
+              {},
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Revenue",
+              "dim": "[Commerce.Revenue]",
+              "datatype": "numeric",
+              "agg": "sum",
+              "title": "Total Revenue"
+            },
+            "instanceid": "FFAFB-A43F-63",
+            "panel": "measures",
+            "field": {
+              "id": "[Commerce.Revenue]_sum",
+              "index": 2
+            },
+            "format": {
+              "mask": {
+                "type": "number",
+                "t": true,
+                "b": true,
+                "separated": true,
+                "decimals": "auto",
+                "isdefault": true
+              },
+              "color": {
+                "type": "color",
+                "color": "transparent"
+              }
+            },
+            "handlers": [
+              {},
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Visit ID",
+              "dim": "[Commerce.Visit ID]",
+              "datatype": "numeric",
+              "agg": "count",
+              "title": "# of unique Visit ID"
+            },
+            "instanceid": "786C4-8451-9E",
+            "panel": "measures",
+            "field": {
+              "id": "[Commerce.Visit ID]_count",
+              "index": 3
+            },
+            "format": {
+              "mask": {
+                "type": "number",
+                "t": true,
+                "b": true,
+                "separated": true,
+                "decimals": "auto",
+                "isdefault": true
+              },
+              "color": {
+                "type": "color",
+                "color": "transparent"
+              }
+            },
+            "handlers": [
+              {},
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "Category",
+              "column": "Category",
+              "dim": "[Category.Category]",
+              "datatype": "text",
+              "merged": true,
+              "collapsed": true,
+              "title": "Category",
+              "isDashboardFilter": true,
+              "datasource": {
+                "fullname": "localhost/Sample ECommerce",
+                "id": "localhost_aSampleIAAaECommerce",
+                "address": "LocalHost",
+                "database": "aSampleIAAaECommerce",
+                "live": false,
+                "title": "Sample ECommerce"
+              },
+              "filter": {
+                "explicit": false,
+                "multiSelection": true,
+                "all": true
+              }
+            },
+            "disabled": false,
+            "isCascading": false,
+            "instanceid": "DD15B-A289-FD",
+            "panel": "scope"
+          }
+        ],
+        "m2mThresholdFlag": 0
+      },
+      "script": "/*\nWelcome to your Widget's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at https://sisense.dev/guides/js/extensions\n*/\n\nwidget.on('domready', function(se, ev) {\n\t\n\t//*******USER INPUT*****************************************\n\tconst valueNum = 1; //Update your value# from which color needs to spread to entire row e.g., 1 = First Value | 2 = Second Value (The position of the value ONLY) \n\tconst separator = \",\"; //Update the thousands separator separator of your value from which color needs to spread to entire row e.g., \",\" \\ \".\"\n\t//**********************************************************\n\t\n\tconst valIndex = valueNum-1;\n\tconst rows = (widget.metadata.panels.filter(panel => panel.name === \"rows\")[0].items).length;\n\tcolIndex = rows + valueNum -1; \n\tconst valueConditions = widget.metadata.panels.filter(panel => panel.name === \"values\")[0].items[valIndex].format.color.conditions;\n\t\n\tvar conditions = [];\n\t\n\tvalueConditions.forEach(function (valueCondition, index){\n\t\tvar operator = \"\";\n\t\tswitch (valueCondition.operator) {\n\t\t\tcase \"≥\":\n\t\t\t\toperator = \">=\";\n\t\t\t\tbreak;\n\t\t\tcase \"≤\":\n\t\t\t\toperator = \"<=\";\n\t\t\t\tbreak;\n\t\t\tcase \"≠\":\n\t\t\t\toperator = \"!=\";\n\t\t\t\tbreak;\n\t\t\tcase \"=\":\n\t\t\t\toperator = \"==\";\n\t\t\t\tbreak;\n\t\t\tdefault:\n\t\t\t\toperator = valueCondition.operator;\n\t\t}\n\t\t\n\t\tvar cond = { \"color\": valueCondition.color , \"operator\": operator , \"expression\": valueCondition.expression }\n\t\t\n\t\tconditions.push(cond);\n\t\t\n\t\t\n\t});\n\t\n\t$('[widgetid=\"'+ se.oid + '\"] pivot2 .pivot-scroller table tbody tr').each(function(index, trElement){\n\t\tif(index > 0){\n\t\t\tvar cell = $(trElement).find('.table-grid__cell--col-' + colIndex);\n\t\t\tif(cell.length > 0){\n\t\t\t\tvar value = getValue( ($(cell).find('.table-grid__content')[0].innerText), separator );\n\t\t\t\tvar bgColor = getConditonalColor(value,conditions);\n\t\t\t}\n\t\t\tconsole.log(value + ':' + bgColor);\n\t\t\t \n\t\t\t\n\t\t\t$(trElement).find('td').each(function(tdIndex, tdElement){\n\t\t\t\t$(tdElement).css('background-color', bgColor);\n\t\t\t});\n\t\t\t\n\t\t\t$('[widgetid=\"'+ se.oid + '\"] pivot2 .table-grid--rows table tbody tr').each(function(rowIndex, rowElement){\n\t\t\t\tif(rowIndex > 0 && index == rowIndex){\n\t\t\t\t\t$(rowElement).find('td').css('backgroundColor', bgColor)\n\t\t\t\t}\n\t\t\t});\n\t\t\t\n\t\t}\n\t})\n\t\n\t\n});\n\n\t\t\nfunction getConditonalColor(value,conditions){\n\tvar colors = [];\n\tconditions.forEach(function (c, index){\n\t\tif( eval(value + c.operator + c.expression) ){\n\t\t\tcolors.push(c.color);\n\t\t}\n\t});\n\t\n\treturn colors[0];\n};\n\nfunction getValue(valueText,separator){\n\t\n\tif(separator==','){\n\t\tvar valueNum = valueText.replace(/,/g, '');\n\t}\n\telse if(separator=='.'){\n\t\tvar valueNum = valueText.replace(/./g, '');\n\t}\n\telse{\n\t\tvar valueNum = valueText;\n\t}\n\t\n\tif(valueNum.includes('K')){\n\t\tvalueNum = parseFloat(valueNum) * 1000;\n\t}\n\telse if(valueNum.includes('M')){\n\t\tvalueNum = parseFloat(valueNum) * 1000000;\n\t}\n\telse if(valueNum.includes('B')){\n\t\tvalueNum = parseFloat(valueNum) * 1000000000;\n\t}\n\telse if(valueNum.includes('T')){\n\t\tvalueNum = parseFloat(valueNum) * 1000000000000;\n\t}\n\t\n\treturn valueNum;\n\n};\n",
+      "script_old": "",
+      "jasperReportsSettings": {},
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": false,
+        "triggersDomready": true,
+        "drillToAnywhere": true,
+        "autoUpdateOnEveryChange": true,
+        "interactivePivot": {
+          "enable": false
+        },
+        "aiFeatures": [
+          {
+            "id": "pareto_1569481451806",
+            "name": "Pareto",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Roughly 80% of the effects come from 20% of the causes",
+            "isCustomModel": true
+          },
+          {
+            "id": "summary_statistics_1569425202576",
+            "name": "Summary Statistics",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Provide information about your data",
+            "isCustomModel": true
+          },
+          {
+            "id": "percentile_curves_1574252861643",
+            "name": "Percentile Curves",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Another way to show distributions",
+            "isCustomModel": true
+          },
+          {
+            "id": "cluster_1570673124179",
+            "name": "Clustering",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Grouping a set of objects in such a way that objects in the same group are more similar to each other than to those in other groups",
+            "isCustomModel": true
+          },
+          {
+            "id": "two-tailed_test_1574241584650",
+            "name": "Two-Tailed Test",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "perform two tailed t-test",
+            "isCustomModel": true
+          },
+          {
+            "id": "growth_rate_1572222323562",
+            "name": "Growth Rates",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "refer to the percentage change of a specific variable within a specific time period and given a certain context",
+            "isCustomModel": true
+          },
+          {
+            "id": "anomaly",
+            "name": "Anomaly",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Outlier data points detections",
+            "isCustomModel": false
+          },
+          {
+            "id": "forecast",
+            "name": "What-If Analysis",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {
+              "hasTargetVar": true,
+              "targetVar": {
+                "targetVarPaneActive": false,
+                "sectionTitle": "Target Value",
+                "options": [
+                  "Total Quantity",
+                  "Total Revenue",
+                  "# of unique Visit ID"
+                ],
+                "value": "Total Quantity"
+              }
+            },
+            "description": "Predict the future values of a 2-var-TS, one of which is the target and the\n                    second is explaining variable.\n                    Provide non-symmetric confidence-interval for the above predictions.\n                    Var-Dependence (Score) - the strength of the influence of the explaining\n                    variable on the target one.\n                    XAI (model weights etc)",
+            "isCustomModel": false
+          },
+          {
+            "id": "local_estimates",
+            "name": "Local Estimate",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Locally (using before and after time series points) estimating the mean of the time series",
+            "isCustomModel": false
+          },
+          {
+            "id": "trend",
+            "name": "Trend",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Detect (if exists) Trend-Break-Points and connect those with a trend line",
+            "isCustomModel": false
+          }
+        ],
+        "imageColumns": []
+      },
+      "dashboardid": "62f5a940142df70036c53e80"
+    }
+  ],
+  "hierarchies": []
+}

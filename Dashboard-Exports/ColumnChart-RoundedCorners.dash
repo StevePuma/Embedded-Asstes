@@ -1,0 +1,1813 @@
+{
+  "oid": "629d8f4b142df70036c3bcc0",
+  "allowChangeSubscription": false,
+  "dataExploration": false,
+  "datasource": {
+    "fullname": "localhost/Sample Healthcare",
+    "id": "localhost_aSampleIAAaHealthcare",
+    "address": "LocalHost",
+    "database": "aSampleIAAaHealthcare",
+    "live": false,
+    "title": "Sample Healthcare"
+  },
+  "defaultFilters": [
+    {
+      "jaql": {
+        "datatype": "datetime",
+        "dim": "[Admissions.Admission_Time (Calendar)]",
+        "title": "Years in Admission_Time",
+        "level": "years",
+        "column": "Admission_Time",
+        "table": "Admissions",
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        },
+        "datasource": {
+          "fullname": "localhost/Sample Healthcare",
+          "id": "localhost_aSampleIAAaHealthcare",
+          "address": "LocalHost",
+          "database": "aSampleIAAaHealthcare",
+          "live": false,
+          "title": "Sample Healthcare"
+        },
+        "collapsed": true
+      },
+      "instanceid": "F8E1C-19AD-1B",
+      "isCascading": false
+    }
+  ],
+  "desc": "",
+  "editing": false,
+  "filterToDatasourceMapping": {},
+  "filters": [
+    {
+      "jaql": {
+        "datatype": "datetime",
+        "dim": "[Admissions.Admission_Time (Calendar)]",
+        "title": "Years in Admission_Time",
+        "level": "years",
+        "column": "Admission_Time",
+        "table": "Admissions",
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        },
+        "datasource": {
+          "fullname": "localhost/Sample Healthcare",
+          "id": "localhost_aSampleIAAaHealthcare",
+          "address": "LocalHost",
+          "database": "aSampleIAAaHealthcare",
+          "live": false,
+          "title": "Sample Healthcare"
+        },
+        "collapsed": true
+      },
+      "instanceid": "F8E1C-19AD-1B",
+      "isCascading": false
+    }
+  ],
+  "isPublic": null,
+  "lastOpened": null,
+  "layout": {
+    "instanceid": "943B1-0B92-DC",
+    "type": "columnar",
+    "columns": [
+      {
+        "width": 100,
+        "cells": [
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "height": "76px",
+                    "defaultWidth": 128,
+                    "widgetid": "629d8f4b142df70036c3bcc1"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1455,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "height": "284px",
+                    "defaultWidth": 128,
+                    "widgetid": "629d8f4b142df70036c3bcc2"
+                  }
+                ],
+                "width": 18.969072164948457,
+                "stretchable": false,
+                "pxlWidth": 276,
+                "index": 0
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 96,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": "284px",
+                    "defaultWidth": 512,
+                    "widgetid": "629d8f4b142df70036c3bcc4"
+                  }
+                ],
+                "width": 81.03092783505154,
+                "stretchable": false,
+                "pxlWidth": 1179,
+                "index": 1
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "defaultWidth": 128,
+                    "widgetid": "629d8f4b142df70036c3bcc3",
+                    "height": "276px"
+                  }
+                ],
+                "width": 18.969072164948457,
+                "stretchable": false,
+                "pxlWidth": 238.734,
+                "index": 0
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 96,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "629d8fb4142df70036c3bcd5",
+                    "height": "276px"
+                  }
+                ],
+                "width": 81.03092783505153,
+                "stretchable": false,
+                "pxlWidth": 812.766,
+                "index": 1
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "defaultWidth": 128,
+                    "widgetid": "629d8ff5142df70036c3bcdb",
+                    "height": "276px"
+                  }
+                ],
+                "width": 18.969072164948454,
+                "stretchable": false,
+                "pxlWidth": 276,
+                "index": 0
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 96,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "629d8ffd142df70036c3bcdd",
+                    "height": "276px"
+                  }
+                ],
+                "width": 81.0309278350515,
+                "stretchable": false,
+                "pxlWidth": 1179,
+                "index": 1
+              }
+            ]
+          }
+        ],
+        "pxlWidth": 1455,
+        "index": 0
+      }
+    ],
+    "container": {}
+  },
+  "original": null,
+  "parentFolder": "61c44b8783642f002bf1839d",
+  "previewLayout": [],
+  "settings": {
+    "autoUpdateOnFiltersChange": true
+  },
+  "source": "629d8f4b142df70036c3bccb",
+  "style": {
+    "palette": {
+      "name": "Vivid",
+      "colors": [
+        "#00cee6",
+        "#9b9bd7",
+        "#6EDA55",
+        "#fc7570",
+        "#fbb755",
+        "#218A8C"
+      ]
+    }
+  },
+  "title": "Column Chart - Rounded Corners",
+  "type": "dashboard",
+  "subscription": {
+    "isDataChange": true,
+    "type": "onUpdate",
+    "schedule": "* * * * * *",
+    "timezone": -180,
+    "tzName": "Asia/Jerusalem",
+    "context": {
+      "dashboardid": "629d8f4b142df70036c3bcc0"
+    },
+    "active": false,
+    "executionPerDay": 1,
+    "reportType": {
+      "inline": true
+    },
+    "emailSettings": {
+      "isEmail": true,
+      "isPdf": false
+    },
+    "startAt": "2022-06-09"
+  },
+  "widgets": [
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "629d8f4b142df70036c3bcc1",
+      "desc": null,
+      "source": "629d8f4b142df70036c3bccc",
+      "datasource": {
+        "fullname": "localhost/Sample Healthcare",
+        "id": "localhost_aSampleIAAaHealthcare",
+        "address": "LocalHost",
+        "database": "aSampleIAAaHealthcare",
+        "live": false,
+        "title": "Sample Healthcare"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": []
+      },
+      "style": {
+        "content": {
+          "html": "<font size=\"5\"><font size=\"5\">Creator: Ophir Buchman</font><br></font><font size=\"3\">When creating a column chart, you might want to design it to have rounded corners<br><a href=\"https://community.sisense.com/t5/build-analytics/column-chart-format-a-column-to-have-rounded-corners/m-p/3547#M906\">https://community.sisense.com/t5/build-analytics/column-chart-format-a-column-to-have-rounded-corners/m-p/3547#M906</a></font><br>",
+          "vAlign": "valign-middle",
+          "bgColor": "#FFFFFF",
+          "textAlign": "left"
+        }
+      },
+      "instanceid": "D0DE8-95DB-00",
+      "wasRendered": false,
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "dashboardid": "629d8f4b142df70036c3bcc0",
+      "lastOpened": null
+    },
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "629d8f4b142df70036c3bcc2",
+      "desc": null,
+      "source": "629d8f4b142df70036c3bccd",
+      "datasource": {
+        "fullname": "localhost/Sample Healthcare",
+        "id": "localhost_aSampleIAAaHealthcare",
+        "address": "LocalHost",
+        "database": "aSampleIAAaHealthcare",
+        "live": false,
+        "title": "Sample Healthcare"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": []
+      },
+      "style": {
+        "content": {
+          "html": "<font size=\"5\">Before</font>",
+          "vAlign": "valign-middle",
+          "bgColor": "#FFFFFF",
+          "textAlign": "center"
+        }
+      },
+      "instanceid": "06F5B-F90E-5D",
+      "wasRendered": false,
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "dashboardid": "629d8f4b142df70036c3bcc0",
+      "lastOpened": null
+    },
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "629d8f4b142df70036c3bcc3",
+      "desc": null,
+      "source": "629d8f4b142df70036c3bcce",
+      "datasource": {
+        "fullname": "localhost/Sample Healthcare",
+        "id": "localhost_aSampleIAAaHealthcare",
+        "address": "LocalHost",
+        "database": "aSampleIAAaHealthcare",
+        "live": false,
+        "title": "Sample Healthcare"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": []
+      },
+      "style": {
+        "content": {
+          "html": "<font size=\"5\">After</font><br><font size=\"2\">(All corners Rounded)</font>",
+          "vAlign": "valign-middle",
+          "bgColor": "#FFFFFF",
+          "textAlign": "center"
+        }
+      },
+      "instanceid": "06F5B-F90E-5D",
+      "wasRendered": false,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "dashboardid": "629d8f4b142df70036c3bcc0",
+      "lastOpened": null
+    },
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "629d8ff5142df70036c3bcdb",
+      "desc": null,
+      "source": "629d8ff5142df70036c3bcdc",
+      "datasource": {
+        "fullname": "localhost/Sample Healthcare",
+        "id": "localhost_aSampleIAAaHealthcare",
+        "address": "LocalHost",
+        "database": "aSampleIAAaHealthcare",
+        "live": false,
+        "title": "Sample Healthcare"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": []
+      },
+      "style": {
+        "content": {
+          "html": "<font size=\"5\">After</font><br><font size=\"2\">(Top corners Rounded)</font>",
+          "vAlign": "valign-middle",
+          "bgColor": "#FFFFFF",
+          "textAlign": "center"
+        }
+      },
+      "instanceid": "06F5B-F90E-5D",
+      "wasRendered": false,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "dashboardid": "629d8f4b142df70036c3bcc0"
+    },
+    {
+      "title": "",
+      "type": "chart/column",
+      "subtype": "column/stackedcolumn",
+      "oid": "629d8fb4142df70036c3bcd5",
+      "desc": null,
+      "source": "629d8fb4142df70036c3bcd6",
+      "datasource": {
+        "fullname": "localhost/Sample Healthcare",
+        "id": "localhost_aSampleIAAaHealthcare",
+        "address": "LocalHost",
+        "database": "aSampleIAAaHealthcare",
+        "live": false,
+        "title": "Sample Healthcare"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "categories",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Admissions",
+                  "column": "Admission_Time",
+                  "dim": "[Admissions.Admission_Time (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "years",
+                  "title": "Years in Admission_Time"
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "isdefault": true
+                  }
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ],
+                "instanceid": "22DC7-529E-1D"
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Admissions",
+                  "column": "Doctor_ID",
+                  "dim": "[Admissions.Doctor_ID]",
+                  "datatype": "numeric",
+                  "merged": true,
+                  "agg": "count",
+                  "title": "# of unique Doctor_ID"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "color": "#00cee6",
+                    "type": "color"
+                  }
+                },
+                "instanceid": "3D8C2-F896-17",
+                "disabled": true
+              },
+              {
+                "jaql": {
+                  "table": "Admissions",
+                  "column": "Patient_ID",
+                  "dim": "[Admissions.Patient_ID]",
+                  "datatype": "numeric",
+                  "merged": true,
+                  "agg": "count",
+                  "title": "# of unique Patient_ID"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color_bkp": {
+                    "color": "#9b9bd7",
+                    "type": "color"
+                  }
+                },
+                "instanceid": "B6495-8888-BB",
+                "disabled": false
+              }
+            ]
+          },
+          {
+            "name": "break by",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Patients",
+                  "column": "Gender",
+                  "dim": "[Patients.Gender]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Gender"
+                },
+                "instanceid": "427D9-E78B-2A",
+                "format": {
+                  "members": {
+                    "Female": {
+                      "color": "#00cee6",
+                      "title": "Female",
+                      "sortData": "Female",
+                      "inResultset": true
+                    },
+                    "Male": {
+                      "color": "#9b9bd7",
+                      "title": "Male",
+                      "sortData": "Male",
+                      "inResultset": true
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "style": {
+        "legend": {
+          "enabled": false,
+          "position": "bottom"
+        },
+        "seriesLabels": {
+          "enabled": true,
+          "rotation": 0,
+          "labels": {
+            "enabled": true,
+            "stacked": true,
+            "stackedPercentage": false,
+            "types": {
+              "count": false,
+              "relative": true,
+              "percentage": false,
+              "totals": false
+            }
+          }
+        },
+        "xAxis": {
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "x2Title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "isIntervalEnabled": false
+        },
+        "yAxis": {
+          "inactive": false,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "max": "",
+          "gridLines": true,
+          "logarithmic": false,
+          "isIntervalEnabled": true,
+          "hideMinMax": false
+        },
+        "y2Axis": {
+          "inactive": true,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": false,
+          "logarithmic": false,
+          "isIntervalEnabled": true,
+          "hideMinMax": false
+        },
+        "navigator": {
+          "enabled": false
+        },
+        "dataLimits": {
+          "seriesCapacity": 50,
+          "categoriesCapacity": 100000
+        },
+        "lineWidth": {
+          "width": "bold"
+        },
+        "markers": {
+          "enabled": false,
+          "fill": "filled",
+          "size": "small"
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "years_in_admission_time",
+              "title": "Years in Admission_Time",
+              "singular": "Years in Admission_Time",
+              "plural": "Years in Admission_Time"
+            },
+            {
+              "id": "gender",
+              "title": "Gender",
+              "singular": "Gender",
+              "plural": "Gender"
+            }
+          ]
+        }
+      },
+      "instanceid": "B4BB9-F0C9-FC",
+      "wasRendered": false,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "drillToAnywhere": true,
+        "aiFeatures": [
+          {
+            "id": "pareto_1569481451806",
+            "name": "Pareto",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Roughly 80% of the effects come from 20% of the causes",
+            "isCustomModel": true
+          },
+          {
+            "id": "summary_statistics_1569425202576",
+            "name": "Summary Statistics",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Provide information about your data",
+            "isCustomModel": true
+          },
+          {
+            "id": "percentile_curves_1574252861643",
+            "name": "Percentile Curves",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Another way to show distributions",
+            "isCustomModel": true
+          },
+          {
+            "id": "cluster_1570673124179",
+            "name": "Clustering",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Grouping a set of objects in such a way that objects in the same group are more similar to each other than to those in other groups",
+            "isCustomModel": true
+          },
+          {
+            "id": "two-tailed_test_1574241584650",
+            "name": "Two-Tailed Test",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "perform two tailed t-test",
+            "isCustomModel": true
+          },
+          {
+            "id": "growth_rate_1572222323562",
+            "name": "Growth Rates",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "refer to the percentage change of a specific variable within a specific time period and given a certain context",
+            "isCustomModel": true
+          },
+          {
+            "id": "anomaly",
+            "name": "Anomaly",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Outlier data points detections",
+            "isCustomModel": false
+          },
+          {
+            "id": "forecast",
+            "name": "What-If Analysis",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {
+              "hasTargetVar": true,
+              "targetVar": {
+                "targetVarPaneActive": false,
+                "sectionTitle": "Target Value",
+                "options": [
+                  "# of unique Patient_ID"
+                ],
+                "value": "# of unique Patient_ID"
+              }
+            },
+            "description": "Predict the future values of a 2-var-TS, one of which is the target and the\n                    second is explaining variable.\n                    Provide non-symmetric confidence-interval for the above predictions.\n                    Var-Dependence (Score) - the strength of the influence of the explaining\n                    variable on the target one.\n                    XAI (model weights etc)",
+            "isCustomModel": false
+          },
+          {
+            "id": "local_estimates",
+            "name": "Local Estimate",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Locally (using before and after time series points) estimating the mean of the time series",
+            "isCustomModel": false
+          },
+          {
+            "id": "trend",
+            "name": "Trend",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Detect (if exists) Trend-Break-Points and connect those with a trend line",
+            "isCustomModel": false
+          }
+        ],
+        "selectorLocked": false,
+        "previousScrollerLocation": {
+          "min": 0,
+          "max": 2
+        }
+      },
+      "dashboardid": "629d8f4b142df70036c3bcc0",
+      "script": "/*\nWelcome to your Widget's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at https://sisense.dev/guides/js/extensions\n*/\n\nwidget.on('processresult',function(widget,result) { \n\tresult.result.plotOptions.column.borderRadius = 10;\n});"
+    },
+    {
+      "title": "",
+      "type": "chart/column",
+      "subtype": "column/stackedcolumn",
+      "oid": "629d8f4b142df70036c3bcc4",
+      "desc": null,
+      "source": "629d8f4b142df70036c3bccf",
+      "datasource": {
+        "fullname": "localhost/Sample Healthcare",
+        "id": "localhost_aSampleIAAaHealthcare",
+        "address": "LocalHost",
+        "database": "aSampleIAAaHealthcare",
+        "live": false,
+        "title": "Sample Healthcare"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "categories",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Admissions",
+                  "column": "Admission_Time",
+                  "dim": "[Admissions.Admission_Time (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "years",
+                  "title": "Years in Admission_Time"
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "isdefault": true
+                  }
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ],
+                "instanceid": "22DC7-529E-1D"
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Admissions",
+                  "column": "Doctor_ID",
+                  "dim": "[Admissions.Doctor_ID]",
+                  "datatype": "numeric",
+                  "merged": true,
+                  "agg": "count",
+                  "title": "# of unique Doctor_ID"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "color": "#00cee6",
+                    "type": "color"
+                  }
+                },
+                "instanceid": "3D8C2-F896-17",
+                "disabled": true
+              },
+              {
+                "jaql": {
+                  "table": "Admissions",
+                  "column": "Patient_ID",
+                  "dim": "[Admissions.Patient_ID]",
+                  "datatype": "numeric",
+                  "merged": true,
+                  "agg": "count",
+                  "title": "# of unique Patient_ID"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color_bkp": {
+                    "color": "#9b9bd7",
+                    "type": "color"
+                  }
+                },
+                "instanceid": "B6495-8888-BB",
+                "disabled": false
+              }
+            ]
+          },
+          {
+            "name": "break by",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Patients",
+                  "column": "Gender",
+                  "dim": "[Patients.Gender]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Gender"
+                },
+                "instanceid": "427D9-E78B-2A",
+                "format": {
+                  "members": {
+                    "Female": {
+                      "color": "#00cee6",
+                      "title": "Female",
+                      "sortData": "Female",
+                      "inResultset": true
+                    },
+                    "Male": {
+                      "color": "#9b9bd7",
+                      "title": "Male",
+                      "sortData": "Male",
+                      "inResultset": true
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "style": {
+        "legend": {
+          "enabled": false,
+          "position": "bottom"
+        },
+        "seriesLabels": {
+          "enabled": true,
+          "rotation": 0,
+          "labels": {
+            "enabled": true,
+            "stacked": true,
+            "stackedPercentage": false,
+            "types": {
+              "count": false,
+              "relative": true,
+              "percentage": false,
+              "totals": false
+            }
+          }
+        },
+        "xAxis": {
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "x2Title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "isIntervalEnabled": false
+        },
+        "yAxis": {
+          "inactive": false,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "max": "",
+          "gridLines": true,
+          "logarithmic": false,
+          "isIntervalEnabled": true,
+          "hideMinMax": false
+        },
+        "y2Axis": {
+          "inactive": true,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": false,
+          "logarithmic": false,
+          "isIntervalEnabled": true,
+          "hideMinMax": false
+        },
+        "navigator": {
+          "enabled": false
+        },
+        "dataLimits": {
+          "seriesCapacity": 50,
+          "categoriesCapacity": 100000
+        },
+        "lineWidth": {
+          "width": "bold"
+        },
+        "markers": {
+          "enabled": false,
+          "fill": "filled",
+          "size": "small"
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "years_in_admission_time",
+              "title": "Years in Admission_Time",
+              "singular": "Years in Admission_Time",
+              "plural": "Years in Admission_Time"
+            },
+            {
+              "id": "gender",
+              "title": "Gender",
+              "singular": "Gender",
+              "plural": "Gender"
+            }
+          ]
+        }
+      },
+      "instanceid": "B4BB9-F0C9-FC",
+      "wasRendered": false,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "drillToAnywhere": true,
+        "aiFeatures": [
+          {
+            "id": "pareto_1569481451806",
+            "name": "Pareto",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Roughly 80% of the effects come from 20% of the causes",
+            "isCustomModel": true
+          },
+          {
+            "id": "summary_statistics_1569425202576",
+            "name": "Summary Statistics",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Provide information about your data",
+            "isCustomModel": true
+          },
+          {
+            "id": "percentile_curves_1574252861643",
+            "name": "Percentile Curves",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Another way to show distributions",
+            "isCustomModel": true
+          },
+          {
+            "id": "cluster_1570673124179",
+            "name": "Clustering",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Grouping a set of objects in such a way that objects in the same group are more similar to each other than to those in other groups",
+            "isCustomModel": true
+          },
+          {
+            "id": "two-tailed_test_1574241584650",
+            "name": "Two-Tailed Test",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "perform two tailed t-test",
+            "isCustomModel": true
+          },
+          {
+            "id": "growth_rate_1572222323562",
+            "name": "Growth Rates",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "refer to the percentage change of a specific variable within a specific time period and given a certain context",
+            "isCustomModel": true
+          },
+          {
+            "id": "anomaly",
+            "name": "Anomaly",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Outlier data points detections",
+            "isCustomModel": false
+          },
+          {
+            "id": "forecast",
+            "name": "What-If Analysis",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {
+              "hasTargetVar": true,
+              "targetVar": {
+                "targetVarPaneActive": false,
+                "sectionTitle": "Target Value",
+                "options": [
+                  "# of unique Patient_ID"
+                ],
+                "value": "# of unique Patient_ID"
+              }
+            },
+            "description": "Predict the future values of a 2-var-TS, one of which is the target and the\n                    second is explaining variable.\n                    Provide non-symmetric confidence-interval for the above predictions.\n                    Var-Dependence (Score) - the strength of the influence of the explaining\n                    variable on the target one.\n                    XAI (model weights etc)",
+            "isCustomModel": false
+          },
+          {
+            "id": "local_estimates",
+            "name": "Local Estimate",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Locally (using before and after time series points) estimating the mean of the time series",
+            "isCustomModel": false
+          },
+          {
+            "id": "trend",
+            "name": "Trend",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Detect (if exists) Trend-Break-Points and connect those with a trend line",
+            "isCustomModel": false
+          }
+        ],
+        "selectorLocked": false,
+        "previousScrollerLocation": {
+          "min": 0,
+          "max": 2
+        }
+      },
+      "dashboardid": "629d8f4b142df70036c3bcc0",
+      "lastOpened": null
+    },
+    {
+      "title": "",
+      "type": "chart/column",
+      "subtype": "column/stackedcolumn",
+      "oid": "629d8ffd142df70036c3bcdd",
+      "desc": null,
+      "source": "629d8ffd142df70036c3bcde",
+      "datasource": {
+        "fullname": "localhost/Sample Healthcare",
+        "id": "localhost_aSampleIAAaHealthcare",
+        "address": "LocalHost",
+        "database": "aSampleIAAaHealthcare",
+        "live": false,
+        "title": "Sample Healthcare"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "categories",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Admissions",
+                  "column": "Admission_Time",
+                  "dim": "[Admissions.Admission_Time (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "years",
+                  "title": "Years in Admission_Time"
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "isdefault": true
+                  }
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ],
+                "instanceid": "22DC7-529E-1D"
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Admissions",
+                  "column": "Doctor_ID",
+                  "dim": "[Admissions.Doctor_ID]",
+                  "datatype": "numeric",
+                  "merged": true,
+                  "agg": "count",
+                  "title": "# of unique Doctor_ID"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "color": "#00cee6",
+                    "type": "color"
+                  }
+                },
+                "instanceid": "3D8C2-F896-17",
+                "disabled": true
+              },
+              {
+                "jaql": {
+                  "table": "Admissions",
+                  "column": "Patient_ID",
+                  "dim": "[Admissions.Patient_ID]",
+                  "datatype": "numeric",
+                  "merged": true,
+                  "agg": "count",
+                  "title": "# of unique Patient_ID"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color_bkp": {
+                    "color": "#9b9bd7",
+                    "type": "color"
+                  }
+                },
+                "instanceid": "B6495-8888-BB",
+                "disabled": false
+              }
+            ]
+          },
+          {
+            "name": "break by",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Patients",
+                  "column": "Gender",
+                  "dim": "[Patients.Gender]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Gender"
+                },
+                "instanceid": "427D9-E78B-2A",
+                "format": {
+                  "members": {
+                    "Female": {
+                      "color": "#00cee6",
+                      "title": "Female",
+                      "sortData": "Female",
+                      "inResultset": true
+                    },
+                    "Male": {
+                      "color": "#9b9bd7",
+                      "title": "Male",
+                      "sortData": "Male",
+                      "inResultset": true
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "style": {
+        "legend": {
+          "enabled": false,
+          "position": "bottom"
+        },
+        "seriesLabels": {
+          "enabled": true,
+          "rotation": 0,
+          "labels": {
+            "enabled": true,
+            "stacked": true,
+            "stackedPercentage": false,
+            "types": {
+              "count": false,
+              "relative": true,
+              "percentage": false,
+              "totals": false
+            }
+          }
+        },
+        "xAxis": {
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "x2Title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "isIntervalEnabled": false
+        },
+        "yAxis": {
+          "inactive": false,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "max": "",
+          "gridLines": true,
+          "logarithmic": false,
+          "isIntervalEnabled": true,
+          "hideMinMax": false
+        },
+        "y2Axis": {
+          "inactive": true,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": false,
+          "logarithmic": false,
+          "isIntervalEnabled": true,
+          "hideMinMax": false
+        },
+        "navigator": {
+          "enabled": false
+        },
+        "dataLimits": {
+          "seriesCapacity": 50,
+          "categoriesCapacity": 100000
+        },
+        "lineWidth": {
+          "width": "bold"
+        },
+        "markers": {
+          "enabled": false,
+          "fill": "filled",
+          "size": "small"
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "years_in_admission_time",
+              "title": "Years in Admission_Time",
+              "singular": "Years in Admission_Time",
+              "plural": "Years in Admission_Time"
+            },
+            {
+              "id": "gender",
+              "title": "Gender",
+              "singular": "Gender",
+              "plural": "Gender"
+            }
+          ]
+        }
+      },
+      "instanceid": "B4BB9-F0C9-FC",
+      "wasRendered": false,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "script": "/*\nWelcome to your Widget's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at https://sisense.dev/guides/js/extensions\n*/\n\n(function (factory) {\n    \"use strict\";\n\n    if (typeof module === \"object\" && module.exports) {\n        module.exports = factory;\n    } else {\n        factory(Highcharts);\n    }\n}(function (H) {\n    var rel = H.relativeLength;\n\n    H.wrap(H.seriesTypes.column.prototype, 'translate', function (proceed) {\n        var options = this.options,\n            topMargin = options.topMargin || 0,\n            bottomMargin = options.bottomMargin || 0;\n\n        proceed.call(this);\n\n        this.points.forEach(function (point) {\n            var shapeArgs = point.shapeArgs,\n                w = shapeArgs.width,\n                h = shapeArgs.height,\n                x = shapeArgs.x,\n                y = shapeArgs.y;\n\n            // Get the radius\n            var rTopLeft = rel(options.borderRadiusTopLeft || 0, w),\n                rTopRight = rel(options.borderRadiusTopRight || 0, w),\n                rBottomRight = rel(options.borderRadiusBottomRight || 0, w),\n                rBottomLeft = rel(options.borderRadiusBottomLeft || 0, w);\n        \n            if (rTopLeft || rTopRight || rBottomRight || rBottomLeft) {\n                var maxR = Math.min(w, h) / 2\n                    \n                if (rTopLeft > maxR) {\n                    rTopLeft = maxR;\n                }\n\n                if (rTopRight > maxR) {\n                    rTopRight = maxR;\n                }\n\n                if (rBottomRight > maxR) {\n                    rBottomRight = maxR;\n                }\n\n                if (rBottomLeft > maxR) {\n                    rBottomLeft = maxR;\n                }\n\n                // Preserve the box for data labels\n                point.dlBox = point.shapeArgs;\n\t\t\t\tpoint.shapeType = 'path';\n\t\t\t\t\n                point.shapeArgs = {\n                    d: [\n                        ['M', x + rTopLeft, y + topMargin],\n                        // top side\n                        ['L', x + w - rTopRight, y + topMargin],\n                        // top right corner\n                        ['C', x + w - rTopRight / 2, y, x + w, y + rTopRight / 2, x + w, y + rTopRight],\n                        // right side\n                        ['L', x + w, y + h - rBottomRight],\n                        // bottom right corner\n                        ['C', x + w, y + h - rBottomRight / 2, x + w - rBottomRight / 2, y + h, x + w - rBottomRight, y + h + bottomMargin],\n                        // bottom side\n                        ['L', x + rBottomLeft, y + h + bottomMargin],\n                        // bottom left corner\n                        ['C', x + rBottomLeft / 2, y + h, x, y + h - rBottomLeft / 2, x, y + h - rBottomLeft],\n                        // left side\n                        ['L', x, y + rTopLeft],\n                        // top left corner\n                        ['C', x, y + rTopLeft / 2, x + rTopLeft / 2, y, x + rTopLeft, y],\n                        ['Z']\n                    ]\n                };\n\t\t\t\t\n\t\t\t\tpoint.shapeArgs.d = point.shapeArgs.d.join(' ').replaceAll(',',' ');\n            }\n                \n        });\n    });\n}));\n\nwidget.on('processresult',function(widget,result) { \n\t//debugger;\n\tresult.result.series[0].borderRadiusTopLeft = '20%'\n\tresult.result.series[0].borderRadiusTopRight = '20%'\n\t\n});",
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "drillToAnywhere": true,
+        "aiFeatures": [
+          {
+            "id": "pareto_1569481451806",
+            "name": "Pareto",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Roughly 80% of the effects come from 20% of the causes",
+            "isCustomModel": true
+          },
+          {
+            "id": "summary_statistics_1569425202576",
+            "name": "Summary Statistics",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Provide information about your data",
+            "isCustomModel": true
+          },
+          {
+            "id": "percentile_curves_1574252861643",
+            "name": "Percentile Curves",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Another way to show distributions",
+            "isCustomModel": true
+          },
+          {
+            "id": "cluster_1570673124179",
+            "name": "Clustering",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Grouping a set of objects in such a way that objects in the same group are more similar to each other than to those in other groups",
+            "isCustomModel": true
+          },
+          {
+            "id": "two-tailed_test_1574241584650",
+            "name": "Two-Tailed Test",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "perform two tailed t-test",
+            "isCustomModel": true
+          },
+          {
+            "id": "growth_rate_1572222323562",
+            "name": "Growth Rates",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "refer to the percentage change of a specific variable within a specific time period and given a certain context",
+            "isCustomModel": true
+          },
+          {
+            "id": "anomaly",
+            "name": "Anomaly",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Outlier data points detections",
+            "isCustomModel": false
+          },
+          {
+            "id": "forecast",
+            "name": "What-If Analysis",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {
+              "hasTargetVar": true,
+              "targetVar": {
+                "targetVarPaneActive": false,
+                "sectionTitle": "Target Value",
+                "options": [
+                  "# of unique Patient_ID"
+                ],
+                "value": "# of unique Patient_ID"
+              }
+            },
+            "description": "Predict the future values of a 2-var-TS, one of which is the target and the\n                    second is explaining variable.\n                    Provide non-symmetric confidence-interval for the above predictions.\n                    Var-Dependence (Score) - the strength of the influence of the explaining\n                    variable on the target one.\n                    XAI (model weights etc)",
+            "isCustomModel": false
+          },
+          {
+            "id": "local_estimates",
+            "name": "Local Estimate",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Locally (using before and after time series points) estimating the mean of the time series",
+            "isCustomModel": false
+          },
+          {
+            "id": "trend",
+            "name": "Trend",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Detect (if exists) Trend-Break-Points and connect those with a trend line",
+            "isCustomModel": false
+          }
+        ],
+        "selectorLocked": false,
+        "previousScrollerLocation": {
+          "min": 0,
+          "max": 2
+        }
+      },
+      "dashboardid": "629d8f4b142df70036c3bcc0"
+    }
+  ],
+  "hierarchies": []
+}

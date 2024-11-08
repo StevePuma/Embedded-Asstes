@@ -1,0 +1,273 @@
+{
+  "oid": "61bbb96b98f8b514782a65dd",
+  "datasource": {
+    "title": "Sample ECommerce",
+    "fullname": "LocalHost/Sample ECommerce",
+    "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+    "address": "LocalHost",
+    "database": "aSampleIAAaECommerce"
+  },
+  "defaultFilters": null,
+  "desc": "",
+  "editing": false,
+  "isPublic": null,
+  "layout": {
+    "instanceid": "2FCE7-E4F2-63",
+    "type": "columnar",
+    "columns": [
+      {
+        "width": 100,
+        "cells": [
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "height": "92px",
+                    "defaultWidth": 128,
+                    "widgetid": "61bbb96b98f8b514782a65df"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1245,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "height": 128,
+                    "defaultWidth": 128,
+                    "widgetid": "61bbb96b98f8b514782a65e0"
+                  }
+                ],
+                "width": 50,
+                "stretchable": false,
+                "pxlWidth": 623,
+                "index": 0
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "defaultWidth": 128,
+                    "widgetid": "61bbb96b98f8b514782a65de",
+                    "height": 128
+                  }
+                ],
+                "width": 50,
+                "stretchable": false,
+                "pxlWidth": 623,
+                "index": 1
+              }
+            ]
+          }
+        ],
+        "pxlWidth": 1245,
+        "index": 0
+      }
+    ],
+    "container": {
+      "sizzle-1543615562285": {
+        "parentNode": [
+          "147 34",
+          2
+        ]
+      }
+    }
+  },
+  "original": null,
+  "parentFolder": "61c44b8983642f002bf183b5",
+  "previewLayout": [],
+  "source": "61c44f7983642f002bf1905d",
+  "style": {
+    "palette": {
+      "name": "Vivid",
+      "colors": [
+        "#00cee6",
+        "#9b9bd7",
+        "#6EDA55",
+        "#fc7570",
+        "#fbb755",
+        "#218A8C"
+      ]
+    }
+  },
+  "subscription": null,
+  "title": "Text - Inner Shadow",
+  "type": "dashboard",
+  "allowChangeSubscription": false,
+  "lastOpened": null,
+  "settings": {
+    "autoUpdateOnFiltersChange": true
+  },
+  "widgets": [
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "61bbb96b98f8b514782a65de",
+      "desc": null,
+      "source": "61c44f7983642f002bf19061",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": []
+      },
+      "style": {
+        "content": {
+          "html": "<font color=\"#ffffff\" size=\"5\">Not Pressed</font>",
+          "vAlign": "valign-middle",
+          "bgColor": "#00cee6",
+          "textAlign": "center"
+        }
+      },
+      "instanceid": "CEEB0-39A9-A3",
+      "wasRendered": false,
+      "dashboardid": "61bbb96b98f8b514782a65dd",
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      }
+    },
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "61bbb96b98f8b514782a65df",
+      "desc": null,
+      "source": "61c44f7983642f002bf19062",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": []
+      },
+      "style": {
+        "content": {
+          "html": "<font size=\"5\"><div style=\"text-align: left;\">Created By: Artem Yevtushenko</div><div style=\"text-align: left;\">Scripts simulates a button being pressed when linking between two dashboards via Jump to Dashboard</div></font>",
+          "vAlign": "valign-middle",
+          "bgColor": "#FFFFFF",
+          "textAlign": "center"
+        }
+      },
+      "instanceid": "4E6F7-E6AE-37",
+      "wasRendered": false,
+      "dashboardid": "61bbb96b98f8b514782a65dd",
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      }
+    },
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "61bbb96b98f8b514782a65e0",
+      "desc": null,
+      "source": "61c44f7983642f002bf19063",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": []
+      },
+      "style": {
+        "content": {
+          "html": "<font color=\"#ffffff\" size=\"5\">Pressed</font>",
+          "vAlign": "valign-middle",
+          "bgColor": "#1de7ff",
+          "textAlign": "center"
+        }
+      },
+      "instanceid": "CEEB0-39A9-A3",
+      "wasRendered": false,
+      "dashboardid": "61bbb96b98f8b514782a65dd",
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "script": "widget.on('domready', function(a,b){\n $('div', element).css('-moz-box-shadow', 'inset 0 0 20px rgb(0, 0, 0, 0.5)');\n $('div', element).css('-webkit-box-shadow', 'inset 0 0 20px rgb(0, 0, 0, 0.5)');\n $('div', element).css('box-shadow', 'inset 0 0 20px rgb(0, 0, 0, 0.5)');\n $('.eb-H', element).css('box-shadow', 'inset 0 0 20px rgb(0, 0, 0, 0)');\n})"
+    }
+  ],
+  "hierarchies": []
+}

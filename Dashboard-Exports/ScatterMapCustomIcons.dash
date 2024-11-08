@@ -1,0 +1,235 @@
+{
+  "oid": "621ce35b17b1e6003665c296",
+  "dataExploration": false,
+  "datasource": {
+    "fullname": "localhost/Sample Retail",
+    "id": "localhost_aSampleIAAaRetail",
+    "address": "LocalHost",
+    "database": "aSampleIAAaRetail",
+    "live": false,
+    "title": "Sample Retail"
+  },
+  "defaultFilters": [],
+  "desc": "",
+  "editing": false,
+  "filters": [],
+  "lastOpened": null,
+  "layout": {
+    "instanceid": "556CF-DDD1-5B",
+    "type": "columnar",
+    "columns": [
+      {
+        "width": 100,
+        "cells": [
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 128,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": 384,
+                    "defaultWidth": 512,
+                    "widgetid": "621ce3a317b1e6003665c29a"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "container": {}
+  },
+  "original": null,
+  "parentFolder": "61c44b8883642f002bf183af",
+  "settings": {
+    "autoUpdateOnFiltersChange": true
+  },
+  "source": "621ce43ab1af4a0036f44ff2",
+  "style": {
+    "palette": {
+      "name": "Vivid",
+      "colors": [
+        "#00cee6",
+        "#9b9bd7",
+        "#6EDA55",
+        "#fc7570",
+        "#fbb755",
+        "#218A8C"
+      ]
+    }
+  },
+  "title": "Scatter Map Custom Icons",
+  "type": "dashboard",
+  "allowChangeSubscription": false,
+  "previewLayout": [],
+  "widgets": [
+    {
+      "title": "",
+      "type": "map/scatter",
+      "subtype": "map/scatter",
+      "oid": "621ce3a317b1e6003665c29a",
+      "desc": null,
+      "source": "621ce43ab1af4a0036f44ff4",
+      "datasource": {
+        "fullname": "localhost/Sample Retail",
+        "id": "localhost_aSampleIAAaRetail",
+        "address": "LocalHost",
+        "database": "aSampleIAAaRetail",
+        "live": false,
+        "title": "Sample Retail"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "geo",
+            "items": [
+              {
+                "jaql": {
+                  "table": "DimCountries",
+                  "column": "CountryName",
+                  "dim": "[DimCountries.CountryName]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "CountryName"
+                },
+                "panel": "rows",
+                "field": {
+                  "id": "[DimCountries.CountryName]",
+                  "index": 0
+                }
+              }
+            ]
+          },
+          {
+            "name": "color",
+            "items": []
+          },
+          {
+            "name": "size",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Fact_Sale_orders",
+                  "column": "OrderQty",
+                  "dim": "[Fact_Sale_orders.OrderQty]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total OrderQty"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": false
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "size": {
+                    "min": 4,
+                    "max": 13
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "details",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "style": {
+        "markers": {
+          "fill": "filled",
+          "size": {
+            "inactive": false,
+            "min": 4,
+            "max": 13,
+            "lowest": 1,
+            "highest": 42,
+            "step": 1,
+            "defaultSize": 4
+          }
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "countryname",
+              "title": "CountryName",
+              "singular": "CountryName",
+              "plural": "CountryName"
+            }
+          ]
+        }
+      },
+      "instanceid": "7C90D-F518-BE",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": true,
+        "disallowSelector": false,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "supportsHierarchies": false
+      },
+      "dashboardid": "621ce35b17b1e6003665c296",
+      "script": "\nwidget.on('beforeviewloaded', function(widget, args){ \n\tvar myIconUrl = '\\\\branding\\\\SI icon.png' \n\tdebugger\n\tvar map = args.options.map;\n\t\n\t$.each(map._layers, function(){\n\t\tif(!(typeof this._latlng==='undefined')){\n\t\t\tmap.removeLayer(this)\n\t\t}\n\t})\n\t\n\t$.each(args.options.markersArray, function(){\t\t\n\t\tL.marker([this._latlng.lat, this._latlng.lng], \n\t\t\t\t {icon: L.icon({\n\t\t\t\t\ticonUrl: myIconUrl,\n\t\t\t\t\ticonSize: this._radius * 2\n\t\t\t\t\t})\n\t\t\t\t }).addTo(map);\n\t})\n})\n",
+      "lastOpened": null
+    }
+  ],
+  "hierarchies": []
+}

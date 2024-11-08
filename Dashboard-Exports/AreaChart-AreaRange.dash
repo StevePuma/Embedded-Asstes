@@ -1,0 +1,636 @@
+{
+  "oid": "6242b840da957a0037bb1231",
+  "dataExploration": false,
+  "datasource": {
+    "fullname": "localhost/Sample Retail",
+    "id": "localhost_aSampleIAAaRetail",
+    "address": "LocalHost",
+    "database": "aSampleIAAaRetail",
+    "live": false,
+    "title": "Sample Retail"
+  },
+  "defaultFilters": [],
+  "desc": "",
+  "editing": false,
+  "filters": [],
+  "lastOpened": null,
+  "layout": {
+    "instanceid": "60FE1-6D6B-8B",
+    "type": "columnar",
+    "columns": [
+      {
+        "width": 100,
+        "cells": [
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 102,
+                    "maxHeight": 1024,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": "64px",
+                    "defaultWidth": 512,
+                    "widgetid": "6246ca95da957a0037bb1795"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1234,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 96,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": 384,
+                    "defaultWidth": 512,
+                    "widgetid": "6242ba9cda957a0037bb1236"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1237,
+                "index": 0
+              }
+            ]
+          }
+        ],
+        "pxlWidth": 1237,
+        "index": 0
+      }
+    ],
+    "container": {}
+  },
+  "original": null,
+  "parentFolder": "61c44b8783642f002bf1839f",
+  "settings": {
+    "autoUpdateOnFiltersChange": true
+  },
+  "source": "6242b840da957a0037bb1232",
+  "style": {
+    "palette": {
+      "name": "Vivid",
+      "colors": [
+        "#00cee6",
+        "#9b9bd7",
+        "#6EDA55",
+        "#fc7570",
+        "#fbb755",
+        "#218A8C"
+      ]
+    }
+  },
+  "title": "Area Chart - Area Range",
+  "type": "dashboard",
+  "allowChangeSubscription": false,
+  "isPublic": null,
+  "subscription": {
+    "isDataChange": true,
+    "type": "onUpdate",
+    "schedule": "* * * * * *",
+    "timezone": -180,
+    "tzName": "Asia/Jerusalem",
+    "context": {
+      "dashboardid": "6242b840da957a0037bb1231"
+    },
+    "active": false,
+    "executionPerDay": 1,
+    "reportType": {
+      "inline": true
+    },
+    "emailSettings": {
+      "isEmail": true,
+      "isPdf": false
+    },
+    "startAt": "2022-03-29"
+  },
+  "previewLayout": [],
+  "widgets": [
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "6246ca95da957a0037bb1795",
+      "desc": null,
+      "source": "6246ca95da957a0037bb1796",
+      "datasource": {
+        "fullname": "localhost/Sample Retail",
+        "id": "localhost_aSampleIAAaRetail",
+        "address": "LocalHost",
+        "database": "aSampleIAAaRetail",
+        "live": false,
+        "title": "Sample Retail"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": []
+      },
+      "style": {
+        "content": {
+          "html": "<font size=\"5\"><font size=\"5\">Creator: Ophir Buchman</font><br></font><font size=\"3\">When creating a line chart you'd sometimes want to add a range area to emphasize an \"Acceptable Range\"<br><a href=\"https://community.sisense.com/t5/build-analytics/line-area-chart-creating-an-area-range/td-p/2782\">https://community.sisense.com/t5/build-analytics/line-area-chart-creating-an-area-range/td-p/2782</a></font><br>",
+          "vAlign": "valign-middle",
+          "bgColor": "#FFFFFF",
+          "textAlign": "left"
+        }
+      },
+      "instanceid": "D0DE8-95DB-00",
+      "wasRendered": false,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "dashboardid": "6242b840da957a0037bb1231"
+    },
+    {
+      "title": "",
+      "type": "chart/line",
+      "subtype": "line/basic",
+      "oid": "6242ba9cda957a0037bb1236",
+      "desc": null,
+      "source": "6242ba9cda957a0037bb1237",
+      "datasource": {
+        "fullname": "localhost/Sample Retail",
+        "id": "localhost_aSampleIAAaRetail",
+        "address": "LocalHost",
+        "database": "aSampleIAAaRetail",
+        "live": false,
+        "title": "Sample Retail"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "x-axis",
+            "items": [
+              {
+                "jaql": {
+                  "table": "DimDate",
+                  "column": "Date",
+                  "dim": "[DimDate.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "months",
+                  "title": "Months in Date"
+                },
+                "panel": "rows",
+                "field": {
+                  "id": "[DimDate.Date (Calendar)]_months",
+                  "index": 0
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "isdefault": true
+                  }
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "[8AB62-37C]*[8EB05-9EC]*0.8",
+                  "context": {
+                    "[8EB05-9EC]": {
+                      "table": "Fact_Sale_orders",
+                      "column": "UnitPrice",
+                      "dim": "[Fact_Sale_orders.UnitPrice]",
+                      "datatype": "numeric",
+                      "agg": "avg",
+                      "title": "Average UnitPrice"
+                    },
+                    "[8AB62-37C]": {
+                      "table": "Fact_Sale_orders",
+                      "column": "OrderQty",
+                      "dim": "[Fact_Sale_orders.OrderQty]",
+                      "datatype": "numeric",
+                      "agg": "sum",
+                      "title": "Total OrderQty"
+                    }
+                  },
+                  "title": "Range(Low)"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "type": "color",
+                    "color": "#bfbfbf"
+                  }
+                }
+              },
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "[25B21-F2B]*[A2D85-E8A]*1.1",
+                  "context": {
+                    "[A2D85-E8A]": {
+                      "table": "Fact_Sale_orders",
+                      "column": "UnitPrice",
+                      "dim": "[Fact_Sale_orders.UnitPrice]",
+                      "datatype": "numeric",
+                      "agg": "avg",
+                      "title": "Average UnitPrice"
+                    },
+                    "[25B21-F2B]": {
+                      "table": "Fact_Sale_orders",
+                      "column": "OrderQty",
+                      "dim": "[Fact_Sale_orders.OrderQty]",
+                      "datatype": "numeric",
+                      "agg": "sum",
+                      "title": "Total OrderQty"
+                    }
+                  },
+                  "title": "Range(High)"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "type": "color",
+                    "color": "#bfbfbf"
+                  }
+                }
+              },
+              {
+                "jaql": {
+                  "table": "Fact_Sale_orders",
+                  "column": "OrderRevenue",
+                  "dim": "[Fact_Sale_orders.OrderRevenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total OrderRevenue"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "color": "#00cee6",
+                    "type": "color"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "break by",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "style": {
+        "lineWidth": {
+          "width": "bold"
+        },
+        "legend": {
+          "enabled": true,
+          "position": "bottom"
+        },
+        "seriesLabels": {
+          "enabled": false,
+          "rotation": 0
+        },
+        "markers": {
+          "enabled": true,
+          "fill": "hollow",
+          "size": "small"
+        },
+        "xAxis": {
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "x2Title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "isIntervalEnabled": false
+        },
+        "yAxis": {
+          "inactive": false,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "logarithmic": false,
+          "isIntervalEnabled": true
+        },
+        "y2Axis": {
+          "inactive": true,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": false,
+          "logarithmic": false,
+          "isIntervalEnabled": true
+        },
+        "navigator": {
+          "enabled": false
+        },
+        "dataLimits": {
+          "seriesCapacity": 50,
+          "categoriesCapacity": 100000
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "months_in_date",
+              "title": "Months in Date",
+              "singular": "Months in Date",
+              "plural": "Months in Date"
+            }
+          ]
+        }
+      },
+      "instanceid": "2A332-A18E-26",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "wasRendered": false,
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "drillToAnywhere": true,
+        "aiFeatures": [
+          {
+            "id": "pareto_1569481451806",
+            "name": "Pareto",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Roughly 80% of the effects come from 20% of the causes",
+            "isCustomModel": true
+          },
+          {
+            "id": "summary_statistics_1569425202576",
+            "name": "Summary Statistics",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Provide information about your data",
+            "isCustomModel": true
+          },
+          {
+            "id": "percentile_curves_1574252861643",
+            "name": "Percentile Curves",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Another way to show distributions",
+            "isCustomModel": true
+          },
+          {
+            "id": "cluster_1570673124179",
+            "name": "Clustering",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Grouping a set of objects in such a way that objects in the same group are more similar to each other than to those in other groups",
+            "isCustomModel": true
+          },
+          {
+            "id": "two-tailed_test_1574241584650",
+            "name": "Two-Tailed Test",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "perform two tailed t-test",
+            "isCustomModel": true
+          },
+          {
+            "id": "growth_rate_1572222323562",
+            "name": "Growth Rates",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "refer to the percentage change of a specific variable within a specific time period and given a certain context",
+            "isCustomModel": true
+          },
+          {
+            "id": "anomaly",
+            "name": "Anomaly",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Outlier data points detections",
+            "isCustomModel": false
+          },
+          {
+            "id": "forecast",
+            "name": "What-If Analysis",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {
+              "hasTargetVar": true,
+              "targetVar": {
+                "targetVarPaneActive": false,
+                "sectionTitle": "Target Value",
+                "options": [
+                  "Range(Low)",
+                  "Range(High)",
+                  "Total OrderRevenue"
+                ],
+                "value": "Total OrderRevenue"
+              }
+            },
+            "description": "Predict the future values of a 2-var-TS, one of which is the target and the\n                    second is explaining variable.\n                    Provide non-symmetric confidence-interval for the above predictions.\n                    Var-Dependence (Score) - the strength of the influence of the explaining\n                    variable on the target one.\n                    XAI (model weights etc)",
+            "isCustomModel": false
+          },
+          {
+            "id": "local_estimates",
+            "name": "Local Estimate",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Locally (using before and after time series points) estimating the mean of the time series",
+            "isCustomModel": false
+          },
+          {
+            "id": "trend",
+            "name": "Trend",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Detect (if exists) Trend-Break-Points and connect those with a trend line",
+            "isCustomModel": false
+          }
+        ],
+        "previousScrollerLocation": {
+          "min": null,
+          "max": null
+        }
+      },
+      "dashboardid": "6242b840da957a0037bb1231",
+      "script": "/*\nWelcome to your Widget's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at https://sisense.dev/guides/js/extensions\n*/\n\nwidget.on('processresult', function(widget,result) {\n\t\n\t// Collect objects from the widget\n\tlet lowRangeSeries = result.result.series[0]\n\tlet highRangeSeries = result.result.series[1]\n\tlet dataRangeSeries = result.result.series[2]\n\t\n\tdataPointsCount = lowRangeSeries.data.length\n\t\n\t// Create a new \"Area Range\" object\n\tlet newRangeSeries = JSON.parse(JSON.stringify(lowRangeSeries));\n\tnewRangeSeries.type = 'arearange'\n\tnewRangeSeries.fillOpacity = 0.3\n\tnewRangeSeries.marker = {enabled: false}\n\tnewRangeSeries.name = 'Range'\n\t\n\t// Determine the maximl value\n\tmaxValue = dataRangeSeries.data[0].y;\n\t\n\tfor (let i =0 ; i < dataPointsCount ; i++) { \n\t\t\n\t\t// Fix the data series's marker color\n\t\tdataRangeSeries.data[i].y = Math.round(dataRangeSeries.data[i].y*100)/100\n\t\tif(dataRangeSeries.data[i].y > highRangeSeries.data[i].y || dataRangeSeries.data[i].y < lowRangeSeries.data[i].y)\n    \t\tdataRangeSeries.data[i].marker.lineColor = 'red'\n\t\telse\n\t\t\tdataRangeSeries.data[i].marker.lineColor = 'green'\n\t\t\n\t\t// Add range values\n\t\tnewRangeSeries.data[i] = [i,Math.round(lowRangeSeries.data[i].y*100)/100,Math.round(highRangeSeries.data[i].y*100)/100]\n\t\t\n\t\t// Determine the maximl value\n\t\tif (dataRangeSeries.data[i].y > maxValue) maxValue = dataRangeSeries.data[i].y;\n\t\tif (lowRangeSeries.data[i].y > maxValue) maxValue = lowRangeSeries.data[i].y;\n\t\tif (highRangeSeries.data[i].y > maxValue) maxValue = highRangeSeries.data[i].y;\n\t\t\n\t}\n\t\n\t// Remove the \"High\" & \"Low\" line charts\n\tresult.result.series.splice(0,2)\n\tresult.result.series.unshift(newRangeSeries)\n\t\n\t// Format the tooltip\n\tresult.result.tooltip.enabled = true;\n\tresult.result.tooltip.shared = true;\n\tresult.result.tooltip.crosshairs = true;\n\tHighcharts.setOptions({\n\t\tlang: {\n\t\t\tdecimalPoint: '.',\n\t\t\tthousandsSep: ','\n\t\t}\n\t})\n\t\n\t// Set the Y axis max range\n\tresult.result.yAxis[0].min - null;\n\tresult.result.yAxis[0].max = Math.floor(maxValue*1.02);\n})\n\nwidget.on('beforedatapointtooltip', function(widget,result,abc) {\n\t//Disable OOTB tooltips\n\t//result.cancel = true; \n})"
+    }
+  ],
+  "hierarchies": []
+}

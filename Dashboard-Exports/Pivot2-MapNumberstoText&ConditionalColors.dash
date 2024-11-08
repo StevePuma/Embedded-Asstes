@@ -1,0 +1,2511 @@
+{
+  "oid": "66a2bdc707b15c00339e5a18",
+  "allowChangeSubscription": false,
+  "dataExploration": false,
+  "datasource": {
+    "address": "LocalHost",
+    "title": "Sample ECommerce",
+    "id": "localhost_aSampleIAAaECommerce",
+    "database": "aSampleIAAaECommerce",
+    "fullname": "localhost/Sample ECommerce",
+    "live": false
+  },
+  "defaultFilters": [
+    {
+      "jaql": {
+        "table": "Commerce",
+        "column": "Date",
+        "dim": "[Commerce.Date (Calendar)]",
+        "datatype": "datetime",
+        "merged": true,
+        "datasource": {
+          "fullname": "localhost/Sample ECommerce",
+          "id": "localhost_aSampleIAAaECommerce",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce",
+          "live": false,
+          "title": "Sample ECommerce"
+        },
+        "firstday": "mon",
+        "locale": "en-us",
+        "level": "years",
+        "title": "Years in Date",
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "filter": {
+          "explicit": true,
+          "multiSelection": true,
+          "members": [
+            "2011-01-01T00:00:00",
+            "2012-01-01T00:00:00"
+          ]
+        }
+      },
+      "instanceid": "2A5C1-FC08-55",
+      "isCascading": false,
+      "disabled": false
+    }
+  ],
+  "desc": "",
+  "editing": false,
+  "filterToDatasourceMapping": {},
+  "filters": [
+    {
+      "jaql": {
+        "table": "Commerce",
+        "column": "Date",
+        "dim": "[Commerce.Date (Calendar)]",
+        "datatype": "datetime",
+        "merged": true,
+        "datasource": {
+          "fullname": "localhost/Sample ECommerce",
+          "id": "localhost_aSampleIAAaECommerce",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce",
+          "live": false,
+          "title": "Sample ECommerce"
+        },
+        "firstday": "mon",
+        "locale": "en-us",
+        "level": "years",
+        "title": "Years in Date",
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "filter": {
+          "explicit": true,
+          "multiSelection": true,
+          "members": [
+            "2011-01-01T00:00:00",
+            "2012-01-01T00:00:00"
+          ]
+        }
+      },
+      "instanceid": "2A5C1-FC08-55",
+      "isCascading": false,
+      "disabled": false
+    }
+  ],
+  "isPublic": null,
+  "lastOpened": null,
+  "layout": {
+    "instanceid": "56B73-F2EE-BF",
+    "type": "columnar",
+    "columns": [
+      {
+        "width": 100,
+        "cells": [
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "height": "36px",
+                    "defaultWidth": 128,
+                    "widgetid": "66b3cab007b15c00339e7341"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1022,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 128,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "66a2bdc707b15c00339e5a19",
+                    "height": "290px",
+                    "autoHeight": "290px"
+                  }
+                ],
+                "width": 50,
+                "stretchable": false,
+                "pxlWidth": 511,
+                "index": 0
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 128,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "66a2bdc707b15c00339e5a1a",
+                    "height": "290px",
+                    "autoHeight": "290px"
+                  }
+                ],
+                "width": 50,
+                "stretchable": false,
+                "pxlWidth": 511,
+                "index": 1
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "defaultWidth": 128,
+                    "widgetid": "66b3cabe07b15c00339e7343",
+                    "height": "36px"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1022,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 128,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "66b3caa807b15c00339e733d",
+                    "height": "772px",
+                    "autoHeight": "280px"
+                  }
+                ],
+                "width": 50,
+                "stretchable": false,
+                "pxlWidth": 511,
+                "index": 0
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 128,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "66b3caab07b15c00339e733f",
+                    "height": "772px",
+                    "autoHeight": "772px"
+                  }
+                ],
+                "width": 50,
+                "stretchable": false,
+                "pxlWidth": 511,
+                "index": 1
+              }
+            ]
+          }
+        ],
+        "pxlWidth": 1022,
+        "index": 0
+      }
+    ],
+    "container": {}
+  },
+  "original": null,
+  "parentFolder": "61c44b8a83642f002bf183bd",
+  "previewLayout": [],
+  "script": "/*\nWelcome to your Dashboard's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at https://sisense.dev/guides/js/extensions\n*/",
+  "settings": {
+    "autoUpdateOnFiltersChange": true
+  },
+  "source": "66a2bdc707b15c00339e5a1b",
+  "style": {
+    "palette": {
+      "name": "Vivid",
+      "colors": [
+        "#00cee6",
+        "#9b9bd7",
+        "#6EDA55",
+        "#fc7570",
+        "#fbb755",
+        "#218A8C"
+      ]
+    }
+  },
+  "subscription": {
+    "executionPerDay": 1,
+    "schedule": "* * * * * *",
+    "isDataChange": true,
+    "type": "onUpdate",
+    "reportType": {
+      "inline": true
+    },
+    "emailSettings": {
+      "isEmail": true,
+      "isPdf": false
+    },
+    "context": {
+      "dashboardid": "66a2bdc707b15c00339e5a18"
+    },
+    "startAt": "2024-07-25",
+    "tzName": "America/New_York",
+    "timezone": 240,
+    "active": false,
+    "subscribe": false
+  },
+  "title": "Pivot2 - Map Numbers to Text & Conditional Colors",
+  "type": "dashboard",
+  "widgets": [
+    {
+      "title": "BEFORE",
+      "type": "pivot2",
+      "subtype": "pivot2",
+      "oid": "66a2bdc707b15c00339e5a19",
+      "desc": null,
+      "source": "66a2bdc707b15c00339e5a1e",
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "database": "aSampleIAAaECommerce",
+        "fullname": "localhost/Sample ECommerce",
+        "live": false
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "rows",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Date",
+                  "dim": "[Commerce.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "years",
+                  "title": "Years in Date"
+                },
+                "instanceid": "B2B5B-61BF-C3",
+                "panel": "rows",
+                "field": {
+                  "id": "[Commerce.Date (Calendar)]_years",
+                  "index": 0
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "seconds": "MM/dd/yyyy HH:mm:ss",
+                    "dateAndTime": "MM/dd/yyyy HH:mm",
+                    "isdefault": true
+                  }
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ]
+              },
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Date",
+                  "dim": "[Commerce.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "quarters",
+                  "title": "Quarters in Date"
+                },
+                "instanceid": "B2B5B-61BF-C3",
+                "panel": "rows",
+                "field": {
+                  "id": "[Commerce.Date (Calendar)]_years",
+                  "index": 1
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "seconds": "MM/dd/yyyy HH:mm:ss",
+                    "dateAndTime": "MM/dd/yyyy HH:mm",
+                    "isdefault": true
+                  }
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Visit ID",
+                  "dim": "[Commerce.Visit ID]",
+                  "datatype": "numeric",
+                  "agg": "count",
+                  "title": "# of Visits"
+                },
+                "instanceid": "CC23F-6CDD-95",
+                "panel": "measures",
+                "field": {
+                  "id": "[Commerce.Visit ID]_count",
+                  "index": 3
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "t": true,
+                    "b": true,
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "type": "color"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "columns",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Age Range",
+                  "dim": "[Commerce.Age Range]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Age Range"
+                },
+                "instanceid": "24E7E-FF55-6F",
+                "panel": "columns",
+                "field": {
+                  "id": "[Commerce.Age Range]",
+                  "index": 2
+                }
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "scroll": false,
+        "pageSize": 25,
+        "automaticHeight": true,
+        "colors": {
+          "rows": false,
+          "columns": false,
+          "headers": false,
+          "members": false,
+          "totals": false
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "years_in_date",
+              "title": "Years in Date",
+              "singular": "Years in Date",
+              "plural": "Years in Date"
+            },
+            {
+              "id": "quarters_in_date",
+              "title": "Quarters in Date",
+              "singular": "Quarters in Date",
+              "plural": "Quarters in Date"
+            },
+            {
+              "id": "age_range",
+              "title": "Age Range",
+              "singular": "Age Range",
+              "plural": "Age Range"
+            }
+          ]
+        },
+        "rowsGrandTotal": false,
+        "columnsGrandTotal": false
+      },
+      "instanceid": "7EF18-4FF3-F3",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 2,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "wasRendered": true,
+      "realTimeRefreshing": false,
+      "query": {
+        "datasource": {
+          "address": "LocalHost",
+          "title": "Sample ECommerce",
+          "id": "localhost_aSampleIAAaECommerce",
+          "database": "aSampleIAAaECommerce",
+          "fullname": "localhost/Sample ECommerce",
+          "live": false
+        },
+        "format": "pivot",
+        "grandTotals": {
+          "title": "Grand Total",
+          "rows": false,
+          "columns": false
+        },
+        "metadata": [
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Date",
+              "dim": "[Commerce.Date (Calendar)]",
+              "datatype": "datetime",
+              "merged": true,
+              "level": "years",
+              "title": "Years in Date"
+            },
+            "instanceid": "B2B5B-61BF-C3",
+            "panel": "rows",
+            "field": {
+              "id": "[Commerce.Date (Calendar)]_years",
+              "index": 0
+            },
+            "format": {
+              "mask": {
+                "years": "yyyy",
+                "quarters": "yyyy Q",
+                "months": "MM/yyyy",
+                "weeks": "ww yyyy",
+                "days": "shortDate",
+                "minutes": "HH:mm",
+                "seconds": "MM/dd/yyyy HH:mm:ss",
+                "dateAndTime": "MM/dd/yyyy HH:mm",
+                "isdefault": true
+              }
+            },
+            "hierarchies": [
+              "calendar",
+              "calendar - weeks"
+            ],
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Date",
+              "dim": "[Commerce.Date (Calendar)]",
+              "datatype": "datetime",
+              "merged": true,
+              "level": "quarters",
+              "title": "Quarters in Date"
+            },
+            "instanceid": "B2B5B-61BF-C3",
+            "panel": "rows",
+            "field": {
+              "id": "[Commerce.Date (Calendar)]_years",
+              "index": 1
+            },
+            "format": {
+              "mask": {
+                "years": "yyyy",
+                "quarters": "yyyy Q",
+                "months": "MM/yyyy",
+                "weeks": "ww yyyy",
+                "days": "shortDate",
+                "minutes": "HH:mm",
+                "seconds": "MM/dd/yyyy HH:mm:ss",
+                "dateAndTime": "MM/dd/yyyy HH:mm",
+                "isdefault": true
+              }
+            },
+            "hierarchies": [
+              "calendar",
+              "calendar - weeks"
+            ],
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Age Range",
+              "dim": "[Commerce.Age Range]",
+              "datatype": "text",
+              "merged": true,
+              "title": "Age Range"
+            },
+            "instanceid": "24E7E-FF55-6F",
+            "panel": "columns",
+            "field": {
+              "id": "[Commerce.Age Range]",
+              "index": 2
+            },
+            "handlers": []
+          },
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Visit ID",
+              "dim": "[Commerce.Visit ID]",
+              "datatype": "numeric",
+              "agg": "count",
+              "title": "# of Visits"
+            },
+            "instanceid": "CC23F-6CDD-95",
+            "panel": "measures",
+            "field": {
+              "id": "[Commerce.Visit ID]_count",
+              "index": 3
+            },
+            "format": {
+              "mask": {
+                "type": "number",
+                "t": true,
+                "b": true,
+                "separated": true,
+                "decimals": "auto",
+                "isdefault": true
+              },
+              "color": {
+                "type": "color",
+                "color": "transparent"
+              }
+            },
+            "handlers": [
+              {},
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Date",
+              "dim": "[Commerce.Date (Calendar)]",
+              "datatype": "datetime",
+              "merged": true,
+              "datasource": {
+                "fullname": "localhost/Sample ECommerce",
+                "id": "localhost_aSampleIAAaECommerce",
+                "address": "LocalHost",
+                "database": "aSampleIAAaECommerce",
+                "live": false,
+                "title": "Sample ECommerce"
+              },
+              "firstday": "mon",
+              "locale": "en-us",
+              "level": "years",
+              "title": "Years in Date",
+              "collapsed": true,
+              "isDashboardFilter": true,
+              "filter": {
+                "explicit": true,
+                "multiSelection": true,
+                "members": [
+                  "2011-01-01T00:00:00",
+                  "2012-01-01T00:00:00"
+                ]
+              }
+            },
+            "disabled": false,
+            "isCascading": false,
+            "instanceid": "2A5C1-FC08-55",
+            "panel": "scope"
+          }
+        ],
+        "m2mThresholdFlag": 0
+      },
+      "jasperReportsSettings": {},
+      "script": "",
+      "script_old": "",
+      "prevSortObjects": [],
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": false,
+        "triggersDomready": true,
+        "drillToAnywhere": true,
+        "autoUpdateOnEveryChange": true,
+        "interactivePivot": {
+          "enable": false
+        },
+        "imageColumns": [],
+        "selectorLocked": false
+      },
+      "dashboardid": "66a2bdc707b15c00339e5a18",
+      "lastOpened": null
+    },
+    {
+      "title": "AFTER",
+      "type": "pivot2",
+      "subtype": "pivot2",
+      "oid": "66a2bdc707b15c00339e5a1a",
+      "desc": null,
+      "source": "66a2bdc707b15c00339e5a1f",
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "database": "aSampleIAAaECommerce",
+        "fullname": "localhost/Sample ECommerce",
+        "live": false
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "rows",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Date",
+                  "dim": "[Commerce.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "years",
+                  "title": "Years in Date"
+                },
+                "instanceid": "B2B5B-61BF-C3",
+                "panel": "rows",
+                "field": {
+                  "id": "[Commerce.Date (Calendar)]_years",
+                  "index": 0
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "seconds": "MM/dd/yyyy HH:mm:ss",
+                    "dateAndTime": "MM/dd/yyyy HH:mm",
+                    "isdefault": true
+                  }
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ]
+              },
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Date",
+                  "dim": "[Commerce.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "quarters",
+                  "title": "Quarters in Date"
+                },
+                "instanceid": "B2B5B-61BF-C3",
+                "panel": "rows",
+                "field": {
+                  "id": "[Commerce.Date (Calendar)]_years",
+                  "index": 1
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "seconds": "MM/dd/yyyy HH:mm:ss",
+                    "dateAndTime": "MM/dd/yyyy HH:mm",
+                    "isdefault": true
+                  }
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Visit ID",
+                  "dim": "[Commerce.Visit ID]",
+                  "datatype": "numeric",
+                  "agg": "count",
+                  "title": "# of Visits"
+                },
+                "instanceid": "F9663-B9CE-12",
+                "panel": "measures",
+                "field": {
+                  "id": "[Commerce.Visit ID]_count",
+                  "index": 3
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "t": true,
+                    "b": true,
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "type": "color"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "columns",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Age Range",
+                  "dim": "[Commerce.Age Range]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Age Range"
+                },
+                "instanceid": "24E7E-FF55-6F",
+                "panel": "columns",
+                "field": {
+                  "id": "[Commerce.Age Range]",
+                  "index": 2
+                }
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "scroll": false,
+        "pageSize": 25,
+        "automaticHeight": true,
+        "colors": {
+          "rows": false,
+          "columns": false,
+          "headers": false,
+          "members": false,
+          "totals": false
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "years_in_date",
+              "title": "Years in Date",
+              "singular": "Years in Date",
+              "plural": "Years in Date"
+            },
+            {
+              "id": "quarters_in_date",
+              "title": "Quarters in Date",
+              "singular": "Quarters in Date",
+              "plural": "Quarters in Date"
+            },
+            {
+              "id": "age_range",
+              "title": "Age Range",
+              "singular": "Age Range",
+              "plural": "Age Range"
+            }
+          ]
+        },
+        "rowsGrandTotal": false,
+        "columnsGrandTotal": false
+      },
+      "instanceid": "7EF18-4FF3-F3",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 2,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "wasRendered": true,
+      "realTimeRefreshing": false,
+      "query": {
+        "datasource": {
+          "address": "LocalHost",
+          "title": "Sample ECommerce",
+          "id": "localhost_aSampleIAAaECommerce",
+          "database": "aSampleIAAaECommerce",
+          "fullname": "localhost/Sample ECommerce",
+          "live": false
+        },
+        "format": "pivot",
+        "grandTotals": {
+          "title": "Grand Total",
+          "rows": false,
+          "columns": false
+        },
+        "metadata": [
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Date",
+              "dim": "[Commerce.Date (Calendar)]",
+              "datatype": "datetime",
+              "merged": true,
+              "level": "years",
+              "title": "Years in Date"
+            },
+            "instanceid": "B2B5B-61BF-C3",
+            "panel": "rows",
+            "field": {
+              "id": "[Commerce.Date (Calendar)]_years",
+              "index": 0
+            },
+            "format": {
+              "mask": {
+                "years": "yyyy",
+                "quarters": "yyyy Q",
+                "months": "MM/yyyy",
+                "weeks": "ww yyyy",
+                "days": "shortDate",
+                "minutes": "HH:mm",
+                "seconds": "MM/dd/yyyy HH:mm:ss",
+                "dateAndTime": "MM/dd/yyyy HH:mm",
+                "isdefault": true
+              }
+            },
+            "hierarchies": [
+              "calendar",
+              "calendar - weeks"
+            ],
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Date",
+              "dim": "[Commerce.Date (Calendar)]",
+              "datatype": "datetime",
+              "merged": true,
+              "level": "quarters",
+              "title": "Quarters in Date"
+            },
+            "instanceid": "B2B5B-61BF-C3",
+            "panel": "rows",
+            "field": {
+              "id": "[Commerce.Date (Calendar)]_years",
+              "index": 1
+            },
+            "format": {
+              "mask": {
+                "years": "yyyy",
+                "quarters": "yyyy Q",
+                "months": "MM/yyyy",
+                "weeks": "ww yyyy",
+                "days": "shortDate",
+                "minutes": "HH:mm",
+                "seconds": "MM/dd/yyyy HH:mm:ss",
+                "dateAndTime": "MM/dd/yyyy HH:mm",
+                "isdefault": true
+              }
+            },
+            "hierarchies": [
+              "calendar",
+              "calendar - weeks"
+            ],
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Age Range",
+              "dim": "[Commerce.Age Range]",
+              "datatype": "text",
+              "merged": true,
+              "title": "Age Range"
+            },
+            "instanceid": "24E7E-FF55-6F",
+            "panel": "columns",
+            "field": {
+              "id": "[Commerce.Age Range]",
+              "index": 2
+            },
+            "handlers": []
+          },
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Visit ID",
+              "dim": "[Commerce.Visit ID]",
+              "datatype": "numeric",
+              "agg": "count",
+              "title": "# of Visits"
+            },
+            "instanceid": "F9663-B9CE-12",
+            "panel": "measures",
+            "field": {
+              "id": "[Commerce.Visit ID]_count",
+              "index": 3
+            },
+            "format": {
+              "mask": {
+                "type": "number",
+                "t": true,
+                "b": true,
+                "separated": true,
+                "decimals": "auto",
+                "isdefault": true
+              },
+              "color": {
+                "type": "color",
+                "color": "transparent"
+              }
+            },
+            "handlers": [
+              {},
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Date",
+              "dim": "[Commerce.Date (Calendar)]",
+              "datatype": "datetime",
+              "merged": true,
+              "datasource": {
+                "fullname": "localhost/Sample ECommerce",
+                "id": "localhost_aSampleIAAaECommerce",
+                "address": "LocalHost",
+                "database": "aSampleIAAaECommerce",
+                "live": false,
+                "title": "Sample ECommerce"
+              },
+              "firstday": "mon",
+              "locale": "en-us",
+              "level": "years",
+              "title": "Years in Date",
+              "collapsed": true,
+              "isDashboardFilter": true,
+              "filter": {
+                "explicit": true,
+                "multiSelection": true,
+                "members": [
+                  "2011-01-01T00:00:00",
+                  "2012-01-01T00:00:00"
+                ]
+              }
+            },
+            "disabled": false,
+            "isCascading": false,
+            "instanceid": "2A5C1-FC08-55",
+            "panel": "scope"
+          }
+        ],
+        "m2mThresholdFlag": 0
+      },
+      "jasperReportsSettings": {},
+      "script": "/*\nWelcome to your Widget's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at https://sisense.dev/guides/js/extensions\n*/\n\nwidget.transformPivot(\n\t{\n\n\t},\n\tfunction (metadata, cell) \n\t{\n\t\tif(metadata.type.includes('value') && metadata.colIndex >= 2 && cell.content!='') {\n\t\t\tif(Number(cell.content.replace(',', ''))<2500) {\n\t\t\t\tcell.content = 'Ignore';\n\t\t\t\tcell.style.backgroundColor = 'black';\n\t\t\t\tcell.style.color = 'white';\n\t\t\t}\n\t\t\telse if(Number(cell.content.replace(',', ''))<5000) {\n\t\t\t\tcell.content = 'Bad';\n\t\t\t\tcell.style.backgroundColor = '#FEDDDD';\n\t\t\t\tcell.style.color = '#951A0F';\n\t\t\t}\n\t\t\telse if(Number(cell.content.replace(',', ''))<7500) {\n\t\t\t\tcell.content = 'Okay';\n\t\t\t\tcell.style.backgroundColor = '#EAEAEA';\n\t\t\t\tcell.style.color = '#000000';\n\t\t\t}\n\t\t\telse if(Number(cell.content.replace(',', ''))<10000) {\n\t\t\t\tcell.content = 'Good';\n\t\t\t\tcell.style.backgroundColor = '#FFF8D6';\n\t\t\t\tcell.style.color = '#986502';\n\t\t\t}\n\t\t\telse if(Number(cell.content.replace(',', ''))>=10000) {\n\t\t\t\tcell.content = 'Excellent';\n\t\t\t\tcell.style.backgroundColor = '#DDF7DA';\n\t\t\t\tcell.style.color = '#41753B';\n\t\t\t}\t\t\t\n\t\t\telse {\n\t\t\t\tcell.content = cell.content;\n\t\t\t}\n\t\t}\n\t\telse {\n\t\t\tcell.content = cell.content;\n\t\t}\n\t\t\n\t}\n\n);",
+      "script_old": "",
+      "prevSortObjects": [],
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": false,
+        "triggersDomready": true,
+        "drillToAnywhere": true,
+        "autoUpdateOnEveryChange": true,
+        "interactivePivot": {
+          "enable": false
+        },
+        "imageColumns": [],
+        "selectorLocked": false
+      },
+      "dashboardid": "66a2bdc707b15c00339e5a18",
+      "lastOpened": null
+    },
+    {
+      "title": "BEFORE",
+      "type": "pivot2",
+      "subtype": "pivot2",
+      "oid": "66b3caa807b15c00339e733d",
+      "desc": null,
+      "source": "66b3caa807b15c00339e733e",
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "database": "aSampleIAAaECommerce",
+        "fullname": "localhost/Sample ECommerce",
+        "live": false
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "rows",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Date",
+                  "dim": "[Commerce.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "years",
+                  "title": "Years in Date"
+                },
+                "instanceid": "B2B5B-61BF-C3",
+                "panel": "rows",
+                "field": {
+                  "id": "[Commerce.Date (Calendar)]_years",
+                  "index": 0
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "seconds": "MM/dd/yyyy HH:mm:ss",
+                    "dateAndTime": "MM/dd/yyyy HH:mm",
+                    "isdefault": true
+                  }
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ]
+              },
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Date",
+                  "dim": "[Commerce.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "quarters",
+                  "title": "Quarters in Date"
+                },
+                "instanceid": "B2B5B-61BF-C3",
+                "panel": "rows",
+                "field": {
+                  "id": "[Commerce.Date (Calendar)]_years",
+                  "index": 1
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "seconds": "MM/dd/yyyy HH:mm:ss",
+                    "dateAndTime": "MM/dd/yyyy HH:mm",
+                    "isdefault": true
+                  }
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ]
+              },
+              {
+                "jaql": {
+                  "table": "Category",
+                  "column": "Category",
+                  "dim": "[Category.Category]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Category"
+                },
+                "instanceid": "D5115-E518-D2",
+                "panel": "rows",
+                "field": {
+                  "id": "[Category.Category]",
+                  "index": 2
+                }
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Visit ID",
+                  "dim": "[Commerce.Visit ID]",
+                  "datatype": "numeric",
+                  "agg": "count",
+                  "title": "# of Visits"
+                },
+                "instanceid": "CC23F-6CDD-95",
+                "panel": "measures",
+                "field": {
+                  "id": "[Commerce.Visit ID]_count",
+                  "index": 4
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "t": true,
+                    "b": true,
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "type": "color"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "columns",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Age Range",
+                  "dim": "[Commerce.Age Range]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Age Range"
+                },
+                "instanceid": "24E7E-FF55-6F",
+                "panel": "columns",
+                "field": {
+                  "id": "[Commerce.Age Range]",
+                  "index": 3
+                }
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": [
+              {
+                "jaql": {
+                  "dimension": {
+                    "table": "Category",
+                    "column": "Category",
+                    "dim": "[Category.Category]",
+                    "datatype": "text",
+                    "merged": true,
+                    "title": "Category"
+                  },
+                  "table": "Category",
+                  "column": "Category",
+                  "dim": "[Category.Category]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Category",
+                  "datasource": {
+                    "address": "LocalHost",
+                    "title": "Sample ECommerce",
+                    "id": "localhost_aSampleIAAaECommerce",
+                    "database": "aSampleIAAaECommerce",
+                    "fullname": "localhost/Sample ECommerce",
+                    "live": false
+                  },
+                  "firstday": "mon",
+                  "locale": "en-us",
+                  "filter": {
+                    "explicit": true,
+                    "multiSelection": true,
+                    "members": [
+                      "Apple Mac Desktops",
+                      "Apple Mac Laptops",
+                      "Cell Phones",
+                      "Film Cameras",
+                      "GPS Devices",
+                      "Video Games Systems"
+                    ]
+                  },
+                  "collapsed": true
+                },
+                "instanceid": "10064-0833-2E",
+                "panel": "scope"
+              }
+            ]
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "scroll": false,
+        "pageSize": 25,
+        "automaticHeight": true,
+        "colors": {
+          "rows": false,
+          "columns": false,
+          "headers": false,
+          "members": false,
+          "totals": false
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "years_in_date",
+              "title": "Years in Date",
+              "singular": "Years in Date",
+              "plural": "Years in Date"
+            },
+            {
+              "id": "quarters_in_date",
+              "title": "Quarters in Date",
+              "singular": "Quarters in Date",
+              "plural": "Quarters in Date"
+            },
+            {
+              "id": "category",
+              "title": "Category",
+              "singular": "Category",
+              "plural": "Category"
+            },
+            {
+              "id": "age_range",
+              "title": "Age Range",
+              "singular": "Age Range",
+              "plural": "Age Range"
+            }
+          ]
+        },
+        "rowsGrandTotal": false,
+        "columnsGrandTotal": false
+      },
+      "instanceid": "7EF18-4FF3-F3",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 2,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "wasRendered": true,
+      "realTimeRefreshing": false,
+      "query": {
+        "datasource": {
+          "address": "LocalHost",
+          "title": "Sample ECommerce",
+          "id": "localhost_aSampleIAAaECommerce",
+          "database": "aSampleIAAaECommerce",
+          "fullname": "localhost/Sample ECommerce",
+          "live": false
+        },
+        "format": "pivot",
+        "grandTotals": {
+          "title": "Grand Total",
+          "rows": false,
+          "columns": false
+        },
+        "metadata": [
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Date",
+              "dim": "[Commerce.Date (Calendar)]",
+              "datatype": "datetime",
+              "merged": true,
+              "level": "years",
+              "title": "Years in Date"
+            },
+            "instanceid": "B2B5B-61BF-C3",
+            "panel": "rows",
+            "field": {
+              "id": "[Commerce.Date (Calendar)]_years",
+              "index": 0
+            },
+            "format": {
+              "mask": {
+                "years": "yyyy",
+                "quarters": "yyyy Q",
+                "months": "MM/yyyy",
+                "weeks": "ww yyyy",
+                "days": "shortDate",
+                "minutes": "HH:mm",
+                "seconds": "MM/dd/yyyy HH:mm:ss",
+                "dateAndTime": "MM/dd/yyyy HH:mm",
+                "isdefault": true
+              }
+            },
+            "hierarchies": [
+              "calendar",
+              "calendar - weeks"
+            ],
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Date",
+              "dim": "[Commerce.Date (Calendar)]",
+              "datatype": "datetime",
+              "merged": true,
+              "level": "quarters",
+              "title": "Quarters in Date"
+            },
+            "instanceid": "B2B5B-61BF-C3",
+            "panel": "rows",
+            "field": {
+              "id": "[Commerce.Date (Calendar)]_years",
+              "index": 1
+            },
+            "format": {
+              "mask": {
+                "years": "yyyy",
+                "quarters": "yyyy Q",
+                "months": "MM/yyyy",
+                "weeks": "ww yyyy",
+                "days": "shortDate",
+                "minutes": "HH:mm",
+                "seconds": "MM/dd/yyyy HH:mm:ss",
+                "dateAndTime": "MM/dd/yyyy HH:mm",
+                "isdefault": true
+              }
+            },
+            "hierarchies": [
+              "calendar",
+              "calendar - weeks"
+            ],
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "Category",
+              "column": "Category",
+              "dim": "[Category.Category]",
+              "datatype": "text",
+              "merged": true,
+              "title": "Category"
+            },
+            "instanceid": "D5115-E518-D2",
+            "panel": "rows",
+            "field": {
+              "id": "[Category.Category]",
+              "index": 2
+            },
+            "handlers": []
+          },
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Age Range",
+              "dim": "[Commerce.Age Range]",
+              "datatype": "text",
+              "merged": true,
+              "title": "Age Range"
+            },
+            "instanceid": "24E7E-FF55-6F",
+            "panel": "columns",
+            "field": {
+              "id": "[Commerce.Age Range]",
+              "index": 3
+            },
+            "handlers": []
+          },
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Visit ID",
+              "dim": "[Commerce.Visit ID]",
+              "datatype": "numeric",
+              "agg": "count",
+              "title": "# of Visits"
+            },
+            "instanceid": "CC23F-6CDD-95",
+            "panel": "measures",
+            "field": {
+              "id": "[Commerce.Visit ID]_count",
+              "index": 4
+            },
+            "format": {
+              "mask": {
+                "type": "number",
+                "t": true,
+                "b": true,
+                "separated": true,
+                "decimals": "auto",
+                "isdefault": true
+              },
+              "color": {
+                "type": "color",
+                "color": "transparent"
+              }
+            },
+            "handlers": [
+              {},
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "dimension": {
+                "table": "Category",
+                "column": "Category",
+                "dim": "[Category.Category]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Category"
+              },
+              "table": "Category",
+              "column": "Category",
+              "dim": "[Category.Category]",
+              "datatype": "text",
+              "merged": true,
+              "title": "Category",
+              "datasource": {
+                "address": "LocalHost",
+                "title": "Sample ECommerce",
+                "id": "localhost_aSampleIAAaECommerce",
+                "database": "aSampleIAAaECommerce",
+                "fullname": "localhost/Sample ECommerce",
+                "live": false
+              },
+              "firstday": "mon",
+              "locale": "en-us",
+              "filter": {
+                "explicit": true,
+                "multiSelection": true,
+                "members": [
+                  "Apple Mac Desktops",
+                  "Apple Mac Laptops",
+                  "Cell Phones",
+                  "Film Cameras",
+                  "GPS Devices",
+                  "Video Games Systems"
+                ]
+              },
+              "collapsed": true
+            },
+            "instanceid": "10064-0833-2E",
+            "panel": "scope",
+            "handlers": []
+          },
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Date",
+              "dim": "[Commerce.Date (Calendar)]",
+              "datatype": "datetime",
+              "merged": true,
+              "datasource": {
+                "fullname": "localhost/Sample ECommerce",
+                "id": "localhost_aSampleIAAaECommerce",
+                "address": "LocalHost",
+                "database": "aSampleIAAaECommerce",
+                "live": false,
+                "title": "Sample ECommerce"
+              },
+              "firstday": "mon",
+              "locale": "en-us",
+              "level": "years",
+              "title": "Years in Date",
+              "collapsed": true,
+              "isDashboardFilter": true,
+              "filter": {
+                "explicit": true,
+                "multiSelection": true,
+                "members": [
+                  "2011-01-01T00:00:00",
+                  "2012-01-01T00:00:00"
+                ]
+              }
+            },
+            "disabled": false,
+            "isCascading": false,
+            "instanceid": "2A5C1-FC08-55",
+            "panel": "scope"
+          }
+        ],
+        "m2mThresholdFlag": 0
+      },
+      "jasperReportsSettings": {},
+      "script": "",
+      "script_old": "",
+      "prevSortObjects": [],
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": false,
+        "triggersDomready": true,
+        "drillToAnywhere": true,
+        "autoUpdateOnEveryChange": true,
+        "interactivePivot": {
+          "enable": false
+        },
+        "imageColumns": [],
+        "selectorLocked": false
+      },
+      "dashboardid": "66a2bdc707b15c00339e5a18"
+    },
+    {
+      "title": "AFTER",
+      "type": "pivot2",
+      "subtype": "pivot2",
+      "oid": "66b3caab07b15c00339e733f",
+      "desc": null,
+      "source": "66b3caab07b15c00339e7340",
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "database": "aSampleIAAaECommerce",
+        "fullname": "localhost/Sample ECommerce",
+        "live": false
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "rows",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Date",
+                  "dim": "[Commerce.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "years",
+                  "title": "Years in Date"
+                },
+                "instanceid": "B2B5B-61BF-C3",
+                "panel": "rows",
+                "field": {
+                  "id": "[Commerce.Date (Calendar)]_years",
+                  "index": 0
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "seconds": "MM/dd/yyyy HH:mm:ss",
+                    "dateAndTime": "MM/dd/yyyy HH:mm",
+                    "isdefault": true
+                  }
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ]
+              },
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Date",
+                  "dim": "[Commerce.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "quarters",
+                  "title": "Quarters in Date"
+                },
+                "instanceid": "B2B5B-61BF-C3",
+                "panel": "rows",
+                "field": {
+                  "id": "[Commerce.Date (Calendar)]_years",
+                  "index": 1
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "seconds": "MM/dd/yyyy HH:mm:ss",
+                    "dateAndTime": "MM/dd/yyyy HH:mm",
+                    "isdefault": true
+                  }
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ]
+              },
+              {
+                "jaql": {
+                  "table": "Category",
+                  "column": "Category",
+                  "dim": "[Category.Category]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Category"
+                },
+                "instanceid": "237BB-C271-53",
+                "panel": "rows",
+                "field": {
+                  "id": "[Category.Category]",
+                  "index": 2
+                }
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Visit ID",
+                  "dim": "[Commerce.Visit ID]",
+                  "datatype": "numeric",
+                  "agg": "count",
+                  "title": "# of Visits"
+                },
+                "instanceid": "F9663-B9CE-12",
+                "panel": "measures",
+                "field": {
+                  "id": "[Commerce.Visit ID]_count",
+                  "index": 4
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "t": true,
+                    "b": true,
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "type": "color"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "columns",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Age Range",
+                  "dim": "[Commerce.Age Range]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Age Range"
+                },
+                "instanceid": "24E7E-FF55-6F",
+                "panel": "columns",
+                "field": {
+                  "id": "[Commerce.Age Range]",
+                  "index": 3
+                }
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": [
+              {
+                "jaql": {
+                  "dimension": {
+                    "table": "Category",
+                    "column": "Category",
+                    "dim": "[Category.Category]",
+                    "datatype": "text",
+                    "merged": true,
+                    "title": "Category"
+                  },
+                  "table": "Category",
+                  "column": "Category",
+                  "dim": "[Category.Category]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Category",
+                  "datasource": {
+                    "address": "LocalHost",
+                    "title": "Sample ECommerce",
+                    "id": "localhost_aSampleIAAaECommerce",
+                    "database": "aSampleIAAaECommerce",
+                    "fullname": "localhost/Sample ECommerce",
+                    "live": false
+                  },
+                  "firstday": "mon",
+                  "locale": "en-us",
+                  "filter": {
+                    "explicit": true,
+                    "multiSelection": true,
+                    "members": [
+                      "Apple Mac Desktops",
+                      "Apple Mac Laptops",
+                      "Cell Phones",
+                      "Film Cameras",
+                      "GPS Devices",
+                      "Video Games Systems"
+                    ]
+                  },
+                  "collapsed": true
+                },
+                "instanceid": "06134-F36F-25",
+                "panel": "scope"
+              }
+            ]
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "scroll": false,
+        "pageSize": 25,
+        "automaticHeight": true,
+        "colors": {
+          "rows": false,
+          "columns": false,
+          "headers": false,
+          "members": false,
+          "totals": false
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "years_in_date",
+              "title": "Years in Date",
+              "singular": "Years in Date",
+              "plural": "Years in Date"
+            },
+            {
+              "id": "quarters_in_date",
+              "title": "Quarters in Date",
+              "singular": "Quarters in Date",
+              "plural": "Quarters in Date"
+            },
+            {
+              "id": "category",
+              "title": "Category",
+              "singular": "Category",
+              "plural": "Category"
+            },
+            {
+              "id": "age_range",
+              "title": "Age Range",
+              "singular": "Age Range",
+              "plural": "Age Range"
+            }
+          ]
+        },
+        "rowsGrandTotal": false,
+        "columnsGrandTotal": false
+      },
+      "instanceid": "7EF18-4FF3-F3",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 2,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "wasRendered": false,
+      "realTimeRefreshing": false,
+      "query": {
+        "datasource": {
+          "address": "LocalHost",
+          "title": "Sample ECommerce",
+          "id": "localhost_aSampleIAAaECommerce",
+          "database": "aSampleIAAaECommerce",
+          "fullname": "localhost/Sample ECommerce",
+          "live": false
+        },
+        "format": "pivot",
+        "grandTotals": {
+          "title": "Grand Total",
+          "rows": false,
+          "columns": false
+        },
+        "metadata": [
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Date",
+              "dim": "[Commerce.Date (Calendar)]",
+              "datatype": "datetime",
+              "merged": true,
+              "level": "years",
+              "title": "Years in Date"
+            },
+            "instanceid": "B2B5B-61BF-C3",
+            "panel": "rows",
+            "field": {
+              "id": "[Commerce.Date (Calendar)]_years",
+              "index": 0
+            },
+            "format": {
+              "mask": {
+                "years": "yyyy",
+                "quarters": "yyyy Q",
+                "months": "MM/yyyy",
+                "weeks": "ww yyyy",
+                "days": "shortDate",
+                "minutes": "HH:mm",
+                "seconds": "MM/dd/yyyy HH:mm:ss",
+                "dateAndTime": "MM/dd/yyyy HH:mm",
+                "isdefault": true
+              }
+            },
+            "hierarchies": [
+              "calendar",
+              "calendar - weeks"
+            ],
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Date",
+              "dim": "[Commerce.Date (Calendar)]",
+              "datatype": "datetime",
+              "merged": true,
+              "level": "quarters",
+              "title": "Quarters in Date"
+            },
+            "instanceid": "B2B5B-61BF-C3",
+            "panel": "rows",
+            "field": {
+              "id": "[Commerce.Date (Calendar)]_years",
+              "index": 1
+            },
+            "format": {
+              "mask": {
+                "years": "yyyy",
+                "quarters": "yyyy Q",
+                "months": "MM/yyyy",
+                "weeks": "ww yyyy",
+                "days": "shortDate",
+                "minutes": "HH:mm",
+                "seconds": "MM/dd/yyyy HH:mm:ss",
+                "dateAndTime": "MM/dd/yyyy HH:mm",
+                "isdefault": true
+              }
+            },
+            "hierarchies": [
+              "calendar",
+              "calendar - weeks"
+            ],
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "Category",
+              "column": "Category",
+              "dim": "[Category.Category]",
+              "datatype": "text",
+              "merged": true,
+              "title": "Category"
+            },
+            "instanceid": "237BB-C271-53",
+            "panel": "rows",
+            "field": {
+              "id": "[Category.Category]",
+              "index": 2
+            },
+            "handlers": []
+          },
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Age Range",
+              "dim": "[Commerce.Age Range]",
+              "datatype": "text",
+              "merged": true,
+              "title": "Age Range"
+            },
+            "instanceid": "24E7E-FF55-6F",
+            "panel": "columns",
+            "field": {
+              "id": "[Commerce.Age Range]",
+              "index": 3
+            },
+            "handlers": []
+          },
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Visit ID",
+              "dim": "[Commerce.Visit ID]",
+              "datatype": "numeric",
+              "agg": "count",
+              "title": "# of Visits"
+            },
+            "instanceid": "F9663-B9CE-12",
+            "panel": "measures",
+            "field": {
+              "id": "[Commerce.Visit ID]_count",
+              "index": 4
+            },
+            "format": {
+              "mask": {
+                "type": "number",
+                "t": true,
+                "b": true,
+                "separated": true,
+                "decimals": "auto",
+                "isdefault": true
+              },
+              "color": {
+                "type": "color",
+                "color": "transparent"
+              }
+            },
+            "handlers": [
+              {},
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "dimension": {
+                "table": "Category",
+                "column": "Category",
+                "dim": "[Category.Category]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Category"
+              },
+              "table": "Category",
+              "column": "Category",
+              "dim": "[Category.Category]",
+              "datatype": "text",
+              "merged": true,
+              "title": "Category",
+              "datasource": {
+                "address": "LocalHost",
+                "title": "Sample ECommerce",
+                "id": "localhost_aSampleIAAaECommerce",
+                "database": "aSampleIAAaECommerce",
+                "fullname": "localhost/Sample ECommerce",
+                "live": false
+              },
+              "firstday": "mon",
+              "locale": "en-us",
+              "filter": {
+                "explicit": true,
+                "multiSelection": true,
+                "members": [
+                  "Apple Mac Desktops",
+                  "Apple Mac Laptops",
+                  "Cell Phones",
+                  "Film Cameras",
+                  "GPS Devices",
+                  "Video Games Systems"
+                ]
+              },
+              "collapsed": true
+            },
+            "instanceid": "06134-F36F-25",
+            "panel": "scope",
+            "handlers": []
+          },
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Date",
+              "dim": "[Commerce.Date (Calendar)]",
+              "datatype": "datetime",
+              "merged": true,
+              "datasource": {
+                "fullname": "localhost/Sample ECommerce",
+                "id": "localhost_aSampleIAAaECommerce",
+                "address": "LocalHost",
+                "database": "aSampleIAAaECommerce",
+                "live": false,
+                "title": "Sample ECommerce"
+              },
+              "firstday": "mon",
+              "locale": "en-us",
+              "level": "years",
+              "title": "Years in Date",
+              "collapsed": true,
+              "isDashboardFilter": true,
+              "filter": {
+                "explicit": true,
+                "multiSelection": true,
+                "members": [
+                  "2011-01-01T00:00:00",
+                  "2012-01-01T00:00:00"
+                ]
+              }
+            },
+            "disabled": false,
+            "isCascading": false,
+            "instanceid": "2A5C1-FC08-55",
+            "panel": "scope"
+          }
+        ],
+        "m2mThresholdFlag": 0
+      },
+      "jasperReportsSettings": {},
+      "script": "/*\nWelcome to your Widget's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at https://sisense.dev/guides/js/extensions\n*/\n\nwidget.transformPivot(\n\t{\n\n\t},\n\tfunction (metadata, cell) \n\t{\n\t\tif(metadata.type.includes('member') && cell.content!='') {\n\t\t\tif(cell.content=='Apple Mac Desktops') {\n\t\t\t\tcell.style.backgroundColor = 'crimson';\n\t\t\t\tcell.style.color = 'white';\n\t\t\t}\n\t\t\telse if(cell.content=='Apple Mac Laptops') {\n\t\t\t\tcell.style.backgroundColor = 'black';\n\t\t\t\tcell.style.color = 'white';\n\t\t\t}\n\t\t\telse if(cell.content=='Cell Phones') {\n\t\t\t\tcell.style.backgroundColor = 'royalblue';\n\t\t\t\tcell.style.color = 'white';\n\t\t\t}\n\t\t\telse {\n\t\t\t\tcell.style.backgroundColor = 'white';\n\t\t\t\tcell.style.color = 'black';\n\t\t\t}\n\t\t}\n\t\telse {\n\t\t\t\tcell.style.backgroundColor = 'white';\n\t\t\t\tcell.style.color = 'black';\n\t\t}\n\t\t\n\t}\n\n);",
+      "script_old": "",
+      "prevSortObjects": [],
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": false,
+        "triggersDomready": true,
+        "drillToAnywhere": true,
+        "autoUpdateOnEveryChange": true,
+        "interactivePivot": {
+          "enable": false
+        },
+        "imageColumns": [],
+        "selectorLocked": false
+      },
+      "dashboardid": "66a2bdc707b15c00339e5a18"
+    },
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "66b3cab007b15c00339e7341",
+      "desc": null,
+      "source": "66b3cab007b15c00339e7342",
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "database": "aSampleIAAaECommerce",
+        "fullname": "localhost/Sample ECommerce",
+        "live": false
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "content": {
+          "html": "<font size=\"5\">Example 1</font>",
+          "vAlign": "valign-middle",
+          "bgColor": "#FFFFFF",
+          "textAlign": "center"
+        }
+      },
+      "instanceid": "EDFB0-3156-07",
+      "wasRendered": false,
+      "realTimeRefreshing": false,
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "dashboardid": "66a2bdc707b15c00339e5a18"
+    },
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "66b3cabe07b15c00339e7343",
+      "desc": null,
+      "source": "66b3cabe07b15c00339e7344",
+      "datasource": {
+        "address": "LocalHost",
+        "title": "Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "database": "aSampleIAAaECommerce",
+        "fullname": "localhost/Sample ECommerce",
+        "live": false
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "content": {
+          "html": "<font size=\"5\">Example 2</font>",
+          "vAlign": "valign-middle",
+          "bgColor": "#FFFFFF",
+          "textAlign": "center"
+        }
+      },
+      "instanceid": "EDFB0-3156-07",
+      "wasRendered": false,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "realTimeRefreshing": false,
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "dashboardid": "66a2bdc707b15c00339e5a18"
+    }
+  ],
+  "hierarchies": [
+    {
+      "_id": "5e1df3c7d0c67e1ae07f1b28",
+      "title": "Age Range",
+      "alwaysIncluded": true,
+      "levels": [
+        {
+          "title": "Age Range",
+          "table": "Commerce",
+          "column": "Age Range",
+          "datatype": "text",
+          "dim": "[Commerce.Age Range]",
+          "index": 0,
+          "_id": "5e1df3c7d0c67e1ae07f1b27"
+        },
+        {
+          "title": "Brand",
+          "table": "Brand",
+          "column": "Brand",
+          "datatype": "text",
+          "dim": "[Brand.Brand]",
+          "index": 1,
+          "_id": "5f7dac8d83916d210422a29f"
+        }
+      ],
+      "cubeId": "6142d757c80a065ff5a24ccc",
+      "lastUpdated": "2023-12-17T10:23:52.992Z",
+      "serverAddress": "LocalHost",
+      "elasticubeTitle": "Sample ECommerce"
+    },
+    {
+      "_id": "5cbefc68bbb1712fe8ef043c",
+      "title": "Age Range (1)",
+      "alwaysIncluded": true,
+      "levels": [
+        {
+          "title": "Age Range",
+          "table": "Commerce",
+          "column": "Age Range",
+          "datatype": "text",
+          "dim": "[Commerce.Age Range]",
+          "index": 0,
+          "_id": "5cbefc68bbb1712fe8ef043b"
+        },
+        {
+          "title": "Gender",
+          "table": "Commerce",
+          "column": "Gender",
+          "datatype": "text",
+          "dim": "[Commerce.Gender]",
+          "index": 1,
+          "_id": "5cbefc6cbbb1712fe8ef043e"
+        }
+      ],
+      "cubeId": "6142d757c80a065ff5a24ccc",
+      "lastUpdated": "2023-12-17T10:23:52.992Z",
+      "serverAddress": "LocalHost",
+      "elasticubeTitle": "Sample ECommerce"
+    },
+    {
+      "_id": "5d6796518cb5d40ab82aa918",
+      "title": "Age Range (1)",
+      "alwaysIncluded": true,
+      "levels": [
+        {
+          "title": "Age Range",
+          "table": "Commerce",
+          "column": "Age Range",
+          "datatype": "text",
+          "dim": "[Commerce.Age Range]",
+          "index": 0,
+          "_id": "5d6796518cb5d40ab82aa917"
+        },
+        {
+          "title": "Cost",
+          "table": "Commerce",
+          "column": "Cost",
+          "datatype": "numeric",
+          "dim": "[Commerce.Cost]",
+          "index": 1,
+          "_id": "5d6796558cb5d40ab82aa91a"
+        }
+      ],
+      "cubeId": "6142d757c80a065ff5a24ccc",
+      "lastUpdated": "2023-12-17T10:23:52.992Z",
+      "serverAddress": "LocalHost",
+      "elasticubeTitle": "Sample ECommerce"
+    },
+    {
+      "_id": "5deaa26b55f2cb08c43cb908",
+      "title": "Test1",
+      "alwaysIncluded": true,
+      "levels": [
+        {
+          "title": "Category",
+          "table": "Category",
+          "column": "Category",
+          "datatype": "text",
+          "dim": "[Category.Category]",
+          "index": 0,
+          "_id": "5deaa26b55f2cb08c43cb907"
+        },
+        {
+          "title": "Brand",
+          "table": "Brand",
+          "column": "Brand",
+          "datatype": "text",
+          "dim": "[Brand.Brand]",
+          "index": 1,
+          "_id": "5deaa26f55f2cb08c43cb90a"
+        },
+        {
+          "title": "Country",
+          "table": "Country",
+          "column": "Country",
+          "datatype": "text",
+          "dim": "[Country.Country]",
+          "index": 2,
+          "_id": "5deaa27555f2cb08c43cb90c"
+        }
+      ],
+      "cubeId": "6142d757c80a065ff5a24ccc",
+      "lastUpdated": "2023-12-17T10:23:52.992Z",
+      "serverAddress": "LocalHost",
+      "elasticubeTitle": "Sample ECommerce"
+    }
+  ]
+}

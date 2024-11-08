@@ -1,0 +1,260 @@
+{
+    "card": {
+        "style": "",
+        "script": "",
+        "title": "",
+        "showCarousel": true,
+        "backgroundImage": "",
+        "body": [
+            {
+                "type": "Container",
+                "items": [
+                    {
+                        "type": "TextBlock",
+                        "text": "What If Analysis",
+                        "size": "medium",
+                        "color": "default",
+                        "weight": "bold",
+                        "horizontalAlignment": "center"
+                    },
+                    {
+                        "type": "ColumnSet",
+                        "spacing": "small",
+                        "columns": [
+                            {
+                                "type": "Column",
+                                "spacing": "small",
+                                "style": {
+                                    "margin-left": "50px"
+                                },
+                                "items": [
+                                    {
+                                        "type": "TextBlock",
+                                        "size": "light",
+                                        "weight": "light",
+                                        "horizontalAlignment": "center",
+                                        "spacing": "small",
+                                        "color": "default",
+                                        "text": "Lever 1 Value:"
+                                    },
+                                    {
+                                        "type": "Input.Number",
+                                        "id": "selectVal1",
+                                        "class": "custom-select",
+                                        "displayType": "compact",
+                                        "value": "{value:[swap_lever1]}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "Column",
+                                "spacing": "small",
+                                "style": {
+                                    "margin-left": "25px",
+                                    "margin-right": "25px"
+                                },
+                                "items": [
+                                    {
+                                        "type": "TextBlock",
+                                        "size": "light",
+                                        "weight": "light",
+                                        "horizontalAlignment": "center",
+                                        "spacing": "small",
+                                        "color": "default",
+                                        "text": "Lever 2 Value:"
+                                    },
+                                    {
+                                        "type": "Input.Number",
+                                        "id": "selectVal2",
+                                        "class": "custom-select",
+                                        "displayType": "compact",
+                                        "value": "{value:[swap_lever2]}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "Column",
+                                "spacing": "small",
+                                "style": {
+                                    "margin-right": "50px"
+                                },
+                                "items": [
+                                    {
+                                        "type": "TextBlock",
+                                        "size": "light",
+                                        "weight": "light",
+                                        "horizontalAlignment": "center",
+                                        "spacing": "small",
+                                        "color": "default",
+                                        "text": "Lever 3 Value:"
+                                    },
+                                    {
+                                        "type": "Input.Number",
+                                        "id": "selectVal3",
+                                        "class": "custom-select",
+                                        "displayType": "compact",
+                                        "value": "{value:[swap_lever3]}"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "type": "ParameterSwap_V2",
+                "title": "Apply",
+                "data": {
+                    "widgetToModify": [
+                        "6441633e4faf000033a538ae",
+                        "6441633e4faf000033a538b1",
+                        "6441633e4faf000033a538b0",
+                        "6441633e4faf000033a538b2",
+                        "6441633e4faf000033a538b3",
+                        "6441633e4faf000033a538b6",
+                        "6441633e4faf000033a538b7"
+                    ],
+                    "paramsToModify": 3
+                }
+            },
+            {
+                "type": "ParameterSwap_V2_Reset",
+                "title": "Reset",
+                "data": {
+                    "widgetToModify": [
+                        "6441633e4faf000033a538ae",
+                        "6441633e4faf000033a538b1",
+                        "6441633e4faf000033a538b0",
+                        "6441633e4faf000033a538b2",
+                        "6441633e4faf000033a538b3",
+                        "6441633e4faf000033a538b6",
+                        "6441633e4faf000033a538b7"
+                    ],
+                    "paramsToModify": 3,
+                    "defaultValues": [
+                        10,
+                        20,
+                        30
+                    ]
+                }
+            }
+        ]
+    },
+    "config": {
+        "fontFamily": "Open Sans",
+        "fontSizes": {
+            "default": 14,
+            "small": 12,
+            "medium": 20,
+            "large": 32,
+            "extraLarge": 50
+        },
+        "fontWeights": {
+            "default": 500,
+            "light": 100,
+            "bold": 900
+        },
+        "containerStyles": {
+            "default": {
+                "backgroundColor": "#ffffff",
+                "foregroundColors": {
+                    "default": {
+                        "normal": "#3A4356"
+                    },
+                    "white": {
+                        "normal": "#ffffff"
+                    },
+                    "grey": {
+                        "normal": "#dcdcdc"
+                    },
+                    "orange": {
+                        "normal": "#f2B900"
+                    },
+                    "yellow": {
+                        "normal": "#ffcb05"
+                    },
+                    "black": {
+                        "normal": "#000000"
+                    },
+                    "lightGreen": {
+                        "normal": "#93c0c0"
+                    },
+                    "green": {
+                        "normal": "#54a254"
+                    },
+                    "red": {
+                        "normal": "#dd1111"
+                    },
+                    "accent": {
+                        "normal": "#2E89FC"
+                    },
+                    "good": {
+                        "normal": "#54a254"
+                    },
+                    "warning": {
+                        "normal": "#e69500"
+                    },
+                    "attention": {
+                        "normal": "#cc3300"
+                    }
+                }
+            }
+        },
+        "imageSizes": {
+            "default": 40,
+            "small": 40,
+            "medium": 80,
+            "large": 160
+        },
+        "imageSet": {
+            "imageSize": "medium",
+            "maxImageHeight": 100
+        },
+        "actions": {
+            "color": "",
+            "backgroundColor": "",
+            "maxActions": 5,
+            "spacing": "extraLarge",
+            "buttonSpacing": 20,
+            "actionsOrientation": "horizontal",
+            "actionAlignment": "center",
+            "showCard": {
+                "actionMode": "inline",
+                "inlineTopMargin": 16,
+                "style": "default"
+            }
+        },
+        "spacing": {
+            "default": 5,
+            "small": 5,
+            "medium": 10,
+            "large": 20,
+            "extraLarge": 40,
+            "padding": 10
+        },
+        "separator": {
+            "lineThickness": 1,
+            "lineColor": "#eeeeee"
+        },
+        "factSet": {
+            "title": {
+                "size": "default",
+                "color": "default",
+                "weight": "bold",
+                "warp": true
+            },
+            "value": {
+                "size": "default",
+                "color": "default",
+                "weight": "default",
+                "warp": true
+            },
+            "spacing": 20
+        },
+        "supportsInteractivity": true,
+        "imageBaseUrl": "",
+        "height": 188.838
+    }
+}

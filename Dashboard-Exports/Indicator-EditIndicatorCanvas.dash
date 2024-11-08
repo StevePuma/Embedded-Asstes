@@ -1,0 +1,301 @@
+{
+  "oid": "61bbb97498f8b514782a660c",
+  "allowChangeSubscription": false,
+  "datasource": {
+    "title": "Sample ECommerce",
+    "fullname": "LocalHost/Sample ECommerce",
+    "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+    "address": "LocalHost",
+    "database": "aSampleIAAaECommerce"
+  },
+  "defaultFilters": null,
+  "desc": "",
+  "editing": false,
+  "isPublic": null,
+  "layout": {
+    "instanceid": "422D5-B0F6-5F",
+    "type": "columnar",
+    "columns": [
+      {
+        "width": 100,
+        "cells": [
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 1028,
+                    "height": "232px",
+                    "minWidth": 48,
+                    "maxWidth": 1028,
+                    "defaultWidth": 512,
+                    "widgetid": "61bbb97498f8b514782a660d"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 986,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "height": 128,
+                    "defaultWidth": 128,
+                    "widgetid": "61bbb97498f8b514782a660e"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 986,
+                "index": 0
+              }
+            ]
+          }
+        ],
+        "pxlWidth": 986,
+        "index": 0
+      }
+    ],
+    "container": {}
+  },
+  "original": null,
+  "parentFolder": "61c44b8883642f002bf183a5",
+  "previewLayout": [],
+  "settings": {
+    "autoUpdateOnFiltersChange": true
+  },
+  "source": "61c44f1583642f002bf18a87",
+  "style": {
+    "palette": {
+      "name": "Vivid",
+      "colors": [
+        "#00cee6",
+        "#9b9bd7",
+        "#6EDA55",
+        "#fc7570",
+        "#fbb755",
+        "#218A8C"
+      ]
+    }
+  },
+  "subscription": null,
+  "title": "Indicator - Edit Indicator Canvas",
+  "type": "dashboard",
+  "lastOpened": null,
+  "widgets": [
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "61bbb97498f8b514782a660e",
+      "desc": null,
+      "source": "61c44f1583642f002bf18a8b",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": []
+      },
+      "style": {
+        "content": {
+          "html": "",
+          "vAlign": "valign-middle",
+          "bgColor": "#FFFFFF",
+          "textAlign": "center"
+        }
+      },
+      "instanceid": "CEBDB-96B6-42",
+      "wasRendered": false,
+      "dashboardid": "61bbb97498f8b514782a660c",
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      }
+    },
+    {
+      "title": "",
+      "type": "indicator",
+      "subtype": "indicator/numeric",
+      "oid": "61bbb97498f8b514782a660d",
+      "desc": null,
+      "source": "61c44f1583642f002bf18a8a",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "value",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Cost",
+                  "dim": "[Commerce.Cost]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total Cost"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": false
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "color": "#00cee6",
+                    "type": "color"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "secondary",
+            "items": []
+          },
+          {
+            "name": "min",
+            "items": []
+          },
+          {
+            "name": "max",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "style": {
+        "subtype": "simple",
+        "skin": "vertical",
+        "components": {
+          "title": {
+            "inactive": false,
+            "enabled": true
+          },
+          "icon": {
+            "inactive": true,
+            "enabled": true
+          },
+          "secondaryTitle": {
+            "inactive": true,
+            "enabled": true
+          }
+        },
+        "indicator/numeric": {
+          "subtype": "simple",
+          "skin": "vertical",
+          "components": {
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "icon": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        },
+        "indicator/gauge": {
+          "subtype": "round",
+          "skin": "1",
+          "components": {
+            "ticks": {
+              "inactive": false,
+              "enabled": true
+            },
+            "labels": {
+              "inactive": false,
+              "enabled": true
+            },
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": []
+        }
+      },
+      "instanceid": "CF68D-8E6B-E0",
+      "wasRendered": false,
+      "dashboardid": "61bbb97498f8b514782a660c",
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": false,
+        "disallowSelector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "supportsHierarchies": false
+      },
+      "script": "/*\nWelcome to your Widget's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at http://developer.sisense.com/pages/viewpage.action?pageId=557127\n*/\n\n\nwidget.on('ready', function(se,ev){\n\t    //Check if new Canvas already exists\n\t   if (document.getElementById(\"DownArrow\")  && se.resizing === false && se.refreshing === false)\n\t\t   {\n\t\t  return;\n\t\t\t}\n\t   else {\n\t\t//Create New Canvas Element\n\t\t try {\n\t\tdocument.getElementById(\"DownArrow\").remove();\n\t\tvar c = document.getElementsByClassName(\"indicator-container\");\n\t\tvar newCanvas = document.createElement('canvas');\n\t\tnewCanvas.id = \"DownArrow\";\n\t\n         //Add new Canvas element to Indicator-container\n\t\tc[0].appendChild(newCanvas);\n\t    var downArrow = document.getElementById(\"DownArrow\");\n\t\tvar ctx = downArrow.getContext(\"2d\")\n\t\tnewCanvas.width = (newCanvas.parentElement.offsetWidth- newCanvas.parentElement.firstElementChild.width)-30;\n\t\tnewCanvas.height = newCanvas.parentElement.firstElementChild.height;\n\n\t\n\t\t//Draw Down Arrow\n\t\n\t    //get width and height of canvas\n\t    var width = downArrow.width;\n\t    var height = downArrow.height;\n\t    var Ax = width-50;\n\t    var Ay = height-30;\n\t    var Bx = width-30;\n\t    var By = height-30;\n\t\n\t\t//Find third point of Triangle\n\t    var AB = Bx - Ax;\n\t\tvar x = ((AB*AB - AB*AB + AB*AB) / (2*AB));\n\t    var y = Math.sqrt(AB*AB - x*x);\n\t\t   \n\t    //Draw Lines\n\t    ctx.beginPath();\n\t    ctx.moveTo(Ax,Ay);\n\t    ctx.lineTo(Bx-x,height-y);\n\t    ctx.lineTo(Bx,By);\n\t    ctx.stroke();\n\t\t\t \n\t\t }\n\t\t   \n\t\t catch(e)\n\t\t {\n\t\tvar c = document.getElementsByClassName(\"indicator-container\");\n\t\tvar newCanvas = document.createElement('canvas');\n\t\tnewCanvas.id = \"DownArrow\";\n\t\n         //Add new Canvas element to Indicator-container\n\t\tc[0].appendChild(newCanvas);\n\t    var downArrow = document.getElementById(\"DownArrow\");\n\t\tvar ctx = downArrow.getContext(\"2d\")\n\t\tnewCanvas.width = newCanvas.parentElement.offsetWidth- newCanvas.parentElement.firstElementChild.width;\n\t\tnewCanvas.height = newCanvas.parentElement.firstElementChild.height;\n\n\t\n\t\t//Draw Down Arrow\n\t\n\t    //get width and height of canvas\n\t    var width = downArrow.width;\n\t    var height = downArrow.height;\n\t    var Ax = width-50;\n\t    var Ay = height-30;\n\t    var Bx = width-30;\n\t    var By = height-30;\n\t\n\t\t//Find third point of Triangle\n\t    var AB = Bx - Ax;\n\t\tvar x = ((AB*AB - AB*AB + AB*AB) / (2*AB));\n\t    var y = Math.sqrt(AB*AB - x*x);\n\t\t   \n\t    //Draw Lines\n\t    ctx.beginPath();\n\t    ctx.moveTo(Ax,Ay);\n\t    ctx.lineTo(Bx-x,height-y);\n\t    ctx.lineTo(Bx,By);\n\t    ctx.stroke();\n\t\t   \n\t\t\t}\n\t   }\n\t\t\n\t\n})\n\n\n\nwidget.on('readjust', function(e,v)\n\t\t  {\n\t\n\t \n\t\t//Create New Canvas Element\n\t\t try {\n\t\tdocument.getElementById(\"DownArrow\").remove();\n\t\tvar c = document.getElementsByClassName(\"indicator-container\");\n\t\tvar newCanvas = document.createElement('canvas');\n\t\tnewCanvas.id = \"DownArrow\";\n\t\n         //Add new Canvas element to Indicator-container\n\t\tc[0].appendChild(newCanvas);\n\t    var downArrow = document.getElementById(\"DownArrow\");\n\t\tvar ctx = downArrow.getContext(\"2d\")\n\t\tnewCanvas.width = newCanvas.parentElement.offsetWidth- newCanvas.parentElement.firstElementChild.width;\n\t\tnewCanvas.height = newCanvas.parentElement.firstElementChild.height;\n\n\t\n\t\t//Draw Down Arrow\n\t\n\t    //get width and height of canvas\n\t    var width = downArrow.width;\n\t    var height = downArrow.height;\n\t    var Ax = width-50;\n\t    var Ay = height-30;\n\t    var Bx = width-30;\n\t    var By = height-30;\n\t\n\t\t//Find third point of Triangle\n\t    var AB = Bx - Ax;\n\t\tvar x = ((AB*AB - AB*AB + AB*AB) / (2*AB));\n\t    var y = Math.sqrt(AB*AB - x*x);\n\t\t   \n\t    //Draw Lines\n\t    ctx.beginPath();\n\t    ctx.moveTo(Ax,Ay);\n\t    ctx.lineTo(Bx-x,height-y);\n\t    ctx.lineTo(Bx,By);\n\t    ctx.stroke();\n\t\t\t \n\t\t }\n\t\t   \n\t\t catch(e)\n\t\t {\n\t\tvar c = document.getElementsByClassName(\"indicator-container\");\n\t\tvar newCanvas = document.createElement('canvas');\n\t\tnewCanvas.id = \"DownArrow\";\n\t\n         //Add new Canvas element to Indicator-container\n\t\tc[0].appendChild(newCanvas);\n\t    var downArrow = document.getElementById(\"DownArrow\");\n\t\tvar ctx = downArrow.getContext(\"2d\")\n\t\tnewCanvas.width = newCanvas.parentElement.offsetWidth- newCanvas.parentElement.firstElementChild.width;\n\t\tnewCanvas.height = newCanvas.parentElement.firstElementChild.height;\n\n\t\n\t\t//Draw Down Arrow\n\t\n\t    //get width and height of canvas\n\t    var width = downArrow.width;\n\t    var height = downArrow.height;\n\t    var Ax = width-50;\n\t    var Ay = height-30;\n\t    var Bx = width-30;\n\t    var By = height-30;\n\t\n\t\t//Find third point of Triangle\n\t    var AB = Bx - Ax;\n\t\tvar x = ((AB*AB - AB*AB + AB*AB) / (2*AB));\n\t    var y = Math.sqrt(AB*AB - x*x);\n\t\t   \n\t    //Draw Lines\n\t    ctx.beginPath();\n\t    ctx.moveTo(Ax,Ay);\n\t    ctx.lineTo(Bx-x,height-y);\n\t    ctx.lineTo(Bx,By);\n\t    ctx.stroke();\n\t\t   \n\t\t\t}\n\t   \n\t\n\t\n\t\n\t\n})\n"
+    }
+  ],
+  "hierarchies": []
+}

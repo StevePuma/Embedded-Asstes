@@ -1,0 +1,841 @@
+{
+  "oid": "625f40a7142df70036c20a66",
+  "allowChangeSubscription": false,
+  "dataExploration": false,
+  "datasource": {
+    "title": "Sample ECommerce",
+    "fullname": "LocalHost/Sample ECommerce",
+    "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+    "address": "LocalHost",
+    "database": "aSampleIAAaECommerce"
+  },
+  "defaultFilters": [],
+  "desc": "",
+  "editing": false,
+  "filters": [
+    {
+      "jaql": {
+        "datatype": "numeric",
+        "dim": "[Commerce.Revenue]",
+        "title": "Revenue",
+        "column": "Revenue",
+        "table": "Commerce",
+        "filter": {
+          "explicit": true,
+          "multiSelection": true,
+          "members": [
+            "5.155351161956787"
+          ]
+        },
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce"
+        },
+        "collapsed": true
+      },
+      "instanceid": "B4AD5-C520-B2",
+      "isCascading": false
+    },
+    {
+      "jaql": {
+        "datatype": "numeric",
+        "dim": "[Commerce.Cost]",
+        "title": "Cost",
+        "column": "Cost",
+        "table": "Commerce",
+        "filter": {
+          "explicit": true,
+          "multiSelection": true,
+          "members": [
+            "0"
+          ]
+        },
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce"
+        },
+        "collapsed": true
+      },
+      "instanceid": "1E74B-6DDA-A8",
+      "isCascading": false
+    }
+  ],
+  "isPublic": null,
+  "lastOpened": null,
+  "layout": {
+    "instanceid": "23902-0CE5-6E",
+    "type": "columnar",
+    "columns": [
+      {
+        "width": 100,
+        "cells": [
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 68,
+                    "maxHeight": 710,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": 142,
+                    "defaultWidth": 512,
+                    "widgetid": "625f40a7142df70036c20a67"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1364,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 96,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": 384,
+                    "defaultWidth": 512,
+                    "widgetid": "625f40a7142df70036c20a68"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1364,
+                "index": 0
+              }
+            ]
+          }
+        ],
+        "pxlWidth": 1364,
+        "index": 0
+      }
+    ],
+    "container": {
+      "sizzle1650484888720": {
+        "undefined": {
+          "parentNode": [
+            113.76242133176281,
+            21,
+            true
+          ]
+        }
+      }
+    }
+  },
+  "original": null,
+  "parentFolder": "61c44b8583642f002bf18387",
+  "previewLayout": [],
+  "settings": {
+    "autoUpdateOnFiltersChange": true
+  },
+  "source": "625f40a7142df70036c20a6b",
+  "style": {
+    "palette": {
+      "name": "Vivid",
+      "colors": [
+        "#00cee6",
+        "#9b9bd7",
+        "#6EDA55",
+        "#fc7570",
+        "#fbb755",
+        "#218A8C"
+      ]
+    }
+  },
+  "title": "BloX - Dynamic XY on Scatter Chart",
+  "type": "dashboard",
+  "subscription": {
+    "isDataChange": true,
+    "type": "onUpdate",
+    "schedule": "* * * * * *",
+    "timezone": 420,
+    "tzName": "America/Phoenix",
+    "context": {
+      "dashboardid": "625f40a7142df70036c20a66"
+    },
+    "active": false,
+    "executionPerDay": 1,
+    "reportType": {
+      "inline": true
+    },
+    "emailSettings": {
+      "isEmail": true,
+      "isPdf": false
+    },
+    "startAt": "2022-04-20"
+  },
+  "filterToDatasourceMapping": {},
+  "widgets": [
+    {
+      "title": "",
+      "type": "chart/scatter",
+      "subtype": "bubble/scatter",
+      "oid": "625f40a7142df70036c20a68",
+      "desc": null,
+      "source": "625f40a7142df70036c20a6d",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "x-axis",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Cost",
+                  "dim": "[Commerce.Cost]",
+                  "datatype": "numeric",
+                  "title": "Cost"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color_bkp": {
+                    "type": "color"
+                  }
+                },
+                "instanceid": "DDFD0-633B-F7"
+              }
+            ]
+          },
+          {
+            "name": "y-axis",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Revenue",
+                  "dim": "[Commerce.Revenue]",
+                  "datatype": "numeric",
+                  "title": "Revenue"
+                },
+                "instanceid": "FC3A5-3B25-4F",
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "point",
+            "items": []
+          },
+          {
+            "name": "Break By / Color",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Gender",
+                  "dim": "[Commerce.Gender]",
+                  "datatype": "text",
+                  "merged": true,
+                  "agg": "count",
+                  "title": "# of unique Gender"
+                },
+                "instanceid": "ED174-5451-15",
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "abbreviateAll": false,
+                    "isdefault": true
+                  },
+                  "color": {
+                    "type": "range",
+                    "steps": 9,
+                    "rangeMode": "auto"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "size",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "legend": {
+          "enabled": true,
+          "position": "bottom"
+        },
+        "seriesLabels": {
+          "enabled": false,
+          "rotation": 0
+        },
+        "markerSize": {
+          "isRange": false,
+          "min": 10,
+          "max": 10,
+          "lowest": 10,
+          "highest": 60,
+          "step": 1,
+          "defaultSize": 10
+        },
+        "xAxis": {
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": true
+          },
+          "gridLines": true,
+          "isIntervalEnabled": true,
+          "logarithmicOld": false,
+          "hideMinMax": true,
+          "logarithmic": false
+        },
+        "yAxis": {
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": true
+          },
+          "gridLines": true,
+          "logarithmicOld": false,
+          "hideMinMax": true,
+          "isIntervalEnabled": true,
+          "logarithmic": false
+        },
+        "dataLimits": {
+          "categoriesCapacityX": 500,
+          "categoriesCapacityY": 500,
+          "seriesCapacity": 50
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "revenue",
+              "title": "Revenue",
+              "singular": "Revenue",
+              "plural": "Revenue"
+            },
+            {
+              "id": "quantity",
+              "title": "Quantity",
+              "singular": "Quantity",
+              "plural": "Quantity"
+            }
+          ]
+        }
+      },
+      "instanceid": "A0569-D3D9-BA",
+      "custom": {
+        "barcolumnchart": {
+          "type": "chart/column",
+          "isTypeValid": true,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default"
+        }
+      },
+      "displayMenu": true,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "wasRendered": false,
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "drillToAnywhere": true
+      },
+      "dashboardid": "625f40a7142df70036c20a66",
+      "lastOpened": null,
+      "questQueryResult": {
+        "isActive": false,
+        "isPending": false
+      }
+    },
+    {
+      "title": "",
+      "type": "BloX",
+      "subtype": "BloX",
+      "oid": "625f40a7142df70036c20a67",
+      "desc": null,
+      "source": "625f40a7142df70036c20a6c",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "Items",
+            "items": []
+          },
+          {
+            "name": "Values",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "style": {
+        "currentCard": {
+          "style": ".custom-select option{color:black} .custom-select { width: 100%; height: 40px !important; font-size: 100% !important; font-weight: bold; cursor: pointer; border-radius: 10px; background-color: #F2B900; border: none; border-bottom: 2px solid darkgrey; color: white; padding-left: 10px !important; padding-top:5px !important; appearance: none !important; -webkit-appearance: none; -moz-appearance: none; padding: 10px; }  select::-ms-expand { display: none !important; } .custom-select:hover, .custom-select:focus { color: #F2B900; background-color: white; border-bottom-color: #DCDCDC; }",
+          "script": "",
+          "title": "",
+          "showCarousel": true,
+          "titleStyle": [
+            {
+              "display": "none"
+            }
+          ],
+          "carouselAnimation": {
+            "delay": 0,
+            "showButtons": false
+          },
+          "body": [
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "items": [
+                    {
+                      "type": "Container",
+                      "style": {
+                        "justify-content": "center",
+                        "background-color": "",
+                        "display": "flex",
+                        "flex-direction": "column",
+                        "flex-wrap": "nowrap",
+                        "padding-top": "20px",
+                        "align-items": "center"
+                      },
+                      "items": [
+                        {
+                          "type": "TextBlock",
+                          "id": "",
+                          "class": "",
+                          "color": "grey",
+                          "size": "small",
+                          "text": "Choose the measure for X-Axis"
+                        },
+                        {
+                          "type": "Container",
+                          "class": "",
+                          "width": "200px",
+                          "style": {
+                            "background-color": "",
+                            "margin-top": "5px"
+                          },
+                          "items": [
+                            {
+                              "type": "Input.ChoiceSet",
+                              "id": "selectValX",
+                              "class": "custom-select",
+                              "displayType": "compact",
+                              "value": "1",
+                              "choices": [
+                                {
+                                  "title": "Cost",
+                                  "value": "1"
+                                },
+                                {
+                                  "title": "Revenue",
+                                  "value": "2"
+                                },
+                                {
+                                  "title": "Quantity",
+                                  "value": "3"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "items": [
+                    {
+                      "type": "Container",
+                      "style": {
+                        "justify-content": "center",
+                        "background-color": "",
+                        "display": "flex",
+                        "flex-direction": "column",
+                        "flex-wrap": "nowrap",
+                        "padding-top": "20px",
+                        "align-items": "center"
+                      },
+                      "items": [
+                        {
+                          "type": "TextBlock",
+                          "id": "",
+                          "class": "",
+                          "color": "grey",
+                          "size": "small",
+                          "text": "Choose the measure for Y-Axis"
+                        },
+                        {
+                          "type": "Container",
+                          "class": "",
+                          "width": "200px",
+                          "style": {
+                            "background-color": "",
+                            "margin-top": "5px"
+                          },
+                          "items": [
+                            {
+                              "type": "Input.ChoiceSet",
+                              "id": "selectValY",
+                              "class": "custom-select",
+                              "displayType": "compact",
+                              "value": "2",
+                              "choices": [
+                                {
+                                  "title": "Cost",
+                                  "value": "1"
+                                },
+                                {
+                                  "title": "Revenue",
+                                  "value": "2"
+                                },
+                                {
+                                  "title": "Quantity",
+                                  "value": "3"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": "Scatter Plot XY Picker",
+              "title": "Apply",
+              "data": {
+                "widgetToModify": [
+                  "625f40a7142df70036c20a68"
+                ]
+              }
+            }
+          ]
+        },
+        "currentConfig": {
+          "fontFamily": "Open Sans",
+          "fontSizes": {
+            "default": 14,
+            "small": 10,
+            "medium": 20,
+            "large": 50,
+            "extraLarge": 32
+          },
+          "fontWeights": {
+            "default": 500,
+            "light": 100,
+            "bold": 1000
+          },
+          "containerStyles": {
+            "default": {
+              "backgroundColor": "",
+              "foregroundColors": {
+                "default": {
+                  "normal": "#000000"
+                },
+                "white": {
+                  "normal": "#ffffff"
+                },
+                "grey": {
+                  "normal": "#9B9B9B"
+                },
+                "orange": {
+                  "normal": "#f2B900"
+                },
+                "yellow": {
+                  "normal": "#ffcb05"
+                },
+                "black": {
+                  "normal": "#000000"
+                },
+                "lightGreen": {
+                  "normal": "#3ADCCA"
+                },
+                "green": {
+                  "normal": "#54a254"
+                },
+                "red": {
+                  "normal": "#dd1111"
+                },
+                "accent": {
+                  "normal": "#2E89FC"
+                },
+                "good": {
+                  "normal": "#54a254"
+                },
+                "warning": {
+                  "normal": "#e69500"
+                },
+                "attention": {
+                  "normal": "#cc3300"
+                }
+              }
+            }
+          },
+          "imageSizes": {
+            "default": 40,
+            "small": 40,
+            "medium": 80,
+            "large": 160
+          },
+          "imageSet": {
+            "imageSize": "medium",
+            "maxImageHeight": 100
+          },
+          "actions": {
+            "color": "",
+            "backgroundColor": "",
+            "maxActions": 5,
+            "spacing": "small",
+            "buttonSpacing": 20,
+            "actionsOrientation": "horizontal",
+            "actionAlignment": "center",
+            "showCard": {
+              "actionMode": "inline",
+              "inlineTopMargin": 16,
+              "style": "default"
+            }
+          },
+          "spacing": {
+            "default": 5,
+            "small": 20,
+            "medium": 60,
+            "large": 20,
+            "extraLarge": 40,
+            "padding": 0
+          },
+          "separator": {
+            "lineThickness": 1,
+            "lineColor": "#eeeeee"
+          },
+          "factSet": {
+            "title": {
+              "size": "default",
+              "color": "default",
+              "weight": "bold",
+              "warp": true
+            },
+            "value": {
+              "size": "default",
+              "color": "default",
+              "weight": "default",
+              "warp": true
+            },
+            "spacing": 20
+          },
+          "supportsInteractivity": true,
+          "imageBaseUrl": "",
+          "height": 142
+        },
+        "currentCardName": "DimensionChange",
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": []
+        }
+      },
+      "instanceid": "12740-7964-31",
+      "custom": {
+        "barcolumnchart": {
+          "type": "BloX",
+          "isTypeValid": false,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total"
+        }
+      },
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 4,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "wasRendered": false,
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": true,
+        "title": false,
+        "drillTarget": "dummy",
+        "autoUpdateOnEveryChange": true,
+        "triggersDomready": true
+      },
+      "dashboardid": "625f40a7142df70036c20a66",
+      "displayMenu": false,
+      "query": {
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce"
+        },
+        "format": "json",
+        "isMaskedResult": true,
+        "metadata": [],
+        "m2mThresholdFlag": 0
+      },
+      "drilledDashboardDisplay": {},
+      "lastOpened": null,
+      "script": "/*\nWelcome to your Widget's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at https://sisense.dev/guides/js/extensions\n*/\n\nwidget.on('ready', function(el,args){\n\tdocument.querySelector('.btn.btn__text').click();\n});\n",
+      "jasperReportsSettings": {}
+    }
+  ],
+  "hierarchies": []
+}

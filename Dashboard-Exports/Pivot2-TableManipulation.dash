@@ -1,0 +1,4438 @@
+{
+  "oid": "6278cc5e142df70036c23831",
+  "dataExploration": false,
+  "datasource": {
+    "fullname": "localhost/Sample Retail",
+    "id": "localhost_aSampleIAAaRetail",
+    "address": "LocalHost",
+    "database": "aSampleIAAaRetail",
+    "live": false,
+    "title": "Sample Retail"
+  },
+  "defaultFilters": [],
+  "desc": "",
+  "editing": false,
+  "filters": [],
+  "lastOpened": null,
+  "layout": {
+    "instanceid": "56B73-F2EE-BF",
+    "type": "columnar",
+    "columns": [
+      {
+        "width": 100,
+        "cells": [
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "height": "96px",
+                    "defaultWidth": 128,
+                    "widgetid": "62a9d8b2142df70036c42bbf"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1672,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "height": "490px",
+                    "defaultWidth": 128,
+                    "widgetid": "6278cf5c142df70036c2383a"
+                  }
+                ],
+                "width": 12.213740458015266,
+                "stretchable": false,
+                "pxlWidth": 204.203,
+                "index": 0
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 128,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": "490px",
+                    "defaultWidth": 512,
+                    "widgetid": "6278ccce142df70036c23834",
+                    "autoHeight": "420px"
+                  }
+                ],
+                "width": 87.78625954198473,
+                "stretchable": false,
+                "pxlWidth": 1467.78,
+                "index": 1
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "defaultWidth": 128,
+                    "widgetid": "6278cf86142df70036c2383e",
+                    "height": "490px"
+                  }
+                ],
+                "width": 12.213740458015266,
+                "stretchable": false,
+                "pxlWidth": 204.203,
+                "index": 0
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 128,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "6278cf73142df70036c2383c",
+                    "height": "490px",
+                    "autoHeight": "420px"
+                  }
+                ],
+                "width": 87.78625954198473,
+                "stretchable": false,
+                "pxlWidth": 1467.78,
+                "index": 1
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "defaultWidth": 128,
+                    "widgetid": "62a82904142df70036c41d3a",
+                    "height": "490px"
+                  }
+                ],
+                "width": 12.416311625076082,
+                "stretchable": false,
+                "pxlWidth": 207.594,
+                "index": 0
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 128,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "62a7328b142df70036c41310",
+                    "height": "490px",
+                    "autoHeight": "420px"
+                  }
+                ],
+                "width": 87.58368837492392,
+                "stretchable": false,
+                "pxlWidth": 1464.39,
+                "index": 1
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "defaultWidth": 128,
+                    "widgetid": "62a73279142df70036c4130e",
+                    "height": "490px"
+                  }
+                ],
+                "width": 12.213740458015266,
+                "stretchable": false,
+                "pxlWidth": 204.203,
+                "index": 0
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 128,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "62a82907142df70036c41d3c",
+                    "height": "490px",
+                    "autoHeight": "420px"
+                  }
+                ],
+                "width": 87.78625954198473,
+                "stretchable": false,
+                "pxlWidth": 1467.78,
+                "index": 1
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "defaultWidth": 128,
+                    "widgetid": "62a787d8142df70036c41ae8",
+                    "height": "490px"
+                  }
+                ],
+                "width": 12.41631162507608,
+                "stretchable": false,
+                "pxlWidth": 207.594,
+                "index": 0
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 128,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "62a787de142df70036c41aea",
+                    "height": "490px",
+                    "autoHeight": "1068px"
+                  }
+                ],
+                "width": 87.58368837492392,
+                "stretchable": false,
+                "pxlWidth": 1464.39,
+                "index": 1
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 128,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "62a85ad2142df70036c41e6b",
+                    "height": "435px",
+                    "autoHeight": "435px"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1672,
+                "index": 0
+              }
+            ]
+          }
+        ],
+        "pxlWidth": 1672,
+        "index": 0
+      }
+    ],
+    "container": {}
+  },
+  "original": null,
+  "script": "/*\nWelcome to your Dashboard's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at https://sisense.dev/guides/js/extensions\n*/",
+  "settings": {
+    "autoUpdateOnFiltersChange": true
+  },
+  "source": "62a9ddef142df70036c434fa",
+  "style": {
+    "palette": {
+      "name": "Vivid",
+      "colors": [
+        "#00cee6",
+        "#9b9bd7",
+        "#6EDA55",
+        "#fc7570",
+        "#fbb755",
+        "#218A8C"
+      ]
+    }
+  },
+  "title": "Pivot2 - Table Manipulation",
+  "type": "dashboard",
+  "allowChangeSubscription": false,
+  "subscription": {
+    "isDataChange": true,
+    "type": "onUpdate",
+    "schedule": "* * * * * *",
+    "timezone": -180,
+    "tzName": "Asia/Jerusalem",
+    "context": {
+      "dashboardid": "6278cc5e142df70036c23831"
+    },
+    "active": false,
+    "executionPerDay": 1,
+    "reportType": {
+      "inline": true
+    },
+    "emailSettings": {
+      "isEmail": true,
+      "isPdf": false
+    },
+    "startAt": "2022-06-15",
+    "custom": false
+  },
+  "isPublic": null,
+  "previewLayout": [],
+  "parentFolder": "61c44b8a83642f002bf183bd",
+  "widgets": [
+    {
+      "title": "",
+      "type": "pivot2",
+      "subtype": "pivot2",
+      "oid": "6278ccce142df70036c23834",
+      "desc": null,
+      "source": "62aa1629142df70036c44172",
+      "datasource": {
+        "fullname": "localhost/Sample Retail",
+        "id": "localhost_aSampleIAAaRetail",
+        "address": "LocalHost",
+        "database": "aSampleIAAaRetail",
+        "live": false,
+        "title": "Sample Retail"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "rows",
+            "items": [
+              {
+                "jaql": {
+                  "table": "DimDate",
+                  "column": "Date",
+                  "dim": "[DimDate.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "years",
+                  "title": "Year"
+                },
+                "instanceid": "224AA-E480-2B",
+                "panel": "rows",
+                "field": {
+                  "id": "[DimDate.Date (Calendar)]_years",
+                  "index": 0
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "isdefault": true
+                  },
+                  "subtotal": true
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ]
+              },
+              {
+                "jaql": {
+                  "table": "DimDate",
+                  "column": "Date",
+                  "dim": "[DimDate.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "months",
+                  "title": "Month"
+                },
+                "instanceid": "C7243-B47C-81",
+                "panel": "rows",
+                "field": {
+                  "id": "[DimDate.Date (Calendar)]_years",
+                  "index": 1
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "isdefault": true
+                  }
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "SUM([643BC-79A])",
+                  "context": {
+                    "[643BC-79A]": {
+                      "table": "Fact_Sale_orders",
+                      "column": "OrderRevenue",
+                      "dim": "[Fact_Sale_orders.OrderRevenue]",
+                      "datatype": "numeric",
+                      "agg": "sum",
+                      "title": "Total OrderRevenue"
+                    }
+                  },
+                  "title": "SUM",
+                  "datatype": "numeric"
+                },
+                "instanceid": "082A6-ECEF-A1",
+                "panel": "measures",
+                "field": {
+                  "id": "[Fact_Sale_orders.OrderRevenue]_sum",
+                  "index": 3
+                },
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": false,
+                      "b": false,
+                      "m": false,
+                      "k": false
+                    },
+                    "decimals": 2,
+                    "currency": {
+                      "symbol": "$",
+                      "position": "pre"
+                    }
+                  },
+                  "color": {
+                    "type": "color",
+                    "color": "transparent"
+                  }
+                },
+                "originalJaql": {
+                  "table": "Fact_Sale_orders",
+                  "column": "OrderRevenue",
+                  "dim": "[Fact_Sale_orders.OrderRevenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total OrderRevenue"
+                },
+                "quickFunction": "Contribution"
+              },
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "Contribution([BB4E9-F9D])",
+                  "context": {
+                    "[BB4E9-F9D]": {
+                      "table": "Fact_Sale_orders",
+                      "column": "OrderRevenue",
+                      "dim": "[Fact_Sale_orders.OrderRevenue]",
+                      "datatype": "numeric",
+                      "agg": "sum",
+                      "title": "Total OrderRevenue"
+                    }
+                  },
+                  "title": "CONTRIBUTION",
+                  "datatype": "numeric"
+                },
+                "instanceid": "082A6-ECEF-A1",
+                "panel": "measures",
+                "field": {
+                  "id": "[Fact_Sale_orders.OrderRevenue]_sum",
+                  "index": 4
+                },
+                "format": {
+                  "mask": {
+                    "type": "percent",
+                    "separated": true,
+                    "decimals": "2",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "type": "color",
+                    "color": "transparent"
+                  }
+                },
+                "originalJaql": {
+                  "table": "Fact_Sale_orders",
+                  "column": "OrderRevenue",
+                  "dim": "[Fact_Sale_orders.OrderRevenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total OrderRevenue"
+                },
+                "quickFunction": "Contribution"
+              }
+            ]
+          },
+          {
+            "name": "columns",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Fact_Sale_orders",
+                  "column": "OnlineOrderFlag",
+                  "dim": "[Fact_Sale_orders.OnlineOrderFlag]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Online"
+                },
+                "instanceid": "63644-323A-19",
+                "panel": "columns",
+                "field": {
+                  "id": "[Fact_Sale_orders.OnlineOrderFlag]",
+                  "index": 2
+                }
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": [
+              {
+                "jaql": {
+                  "table": "DimDate",
+                  "column": "Date",
+                  "dim": "[DimDate.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "quarters",
+                  "title": "Years in Date",
+                  "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                  },
+                  "collapsed": true,
+                  "datasource": {
+                    "fullname": "localhost/Sample Retail",
+                    "id": "localhost_aSampleIAAaRetail",
+                    "address": "LocalHost",
+                    "database": "aSampleIAAaRetail",
+                    "live": false,
+                    "title": "Sample Retail"
+                  }
+                },
+                "instanceid": "DF090-2672-1F",
+                "panel": "scope",
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "isdefault": true
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "style": {
+        "scroll": false,
+        "pageSize": 25,
+        "automaticHeight": true,
+        "colors": {
+          "rows": true,
+          "columns": false,
+          "headers": false,
+          "members": false,
+          "totals": false
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "year",
+              "title": "Year",
+              "singular": "Year",
+              "plural": "Year"
+            },
+            {
+              "id": "month",
+              "title": "Month",
+              "singular": "Month",
+              "plural": "Month"
+            },
+            {
+              "id": "online",
+              "title": "Online",
+              "singular": "Online",
+              "plural": "Online"
+            },
+            {
+              "id": "years_in_date",
+              "title": "Years in Date",
+              "singular": "Years in Date",
+              "plural": "Years in Date"
+            }
+          ]
+        },
+        "rowsGrandTotal": true,
+        "columnsGrandTotal": true
+      },
+      "instanceid": "7EF18-4FF3-F3",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 2,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "wasRendered": false,
+      "query": {
+        "datasource": {
+          "fullname": "localhost/Sample Retail",
+          "id": "localhost_aSampleIAAaRetail",
+          "address": "LocalHost",
+          "database": "aSampleIAAaRetail",
+          "live": false,
+          "title": "Sample Retail"
+        },
+        "format": "pivot",
+        "grandTotals": {
+          "title": "Grand Total",
+          "rows": true,
+          "columns": true
+        },
+        "metadata": [
+          {
+            "jaql": {
+              "table": "DimDate",
+              "column": "Date",
+              "dim": "[DimDate.Date (Calendar)]",
+              "datatype": "datetime",
+              "merged": true,
+              "level": "years",
+              "title": "Year"
+            },
+            "instanceid": "224AA-E480-2B",
+            "panel": "rows",
+            "field": {
+              "id": "[DimDate.Date (Calendar)]_years",
+              "index": 0
+            },
+            "format": {
+              "mask": {
+                "years": "yyyy",
+                "quarters": "yyyy Q",
+                "months": "MM/yyyy",
+                "weeks": "ww yyyy",
+                "days": "shortDate",
+                "minutes": "HH:mm",
+                "seconds": "MM/dd/yyyy HH:mm:ss",
+                "dateAndTime": "MM/dd/yyyy HH:mm",
+                "isdefault": true
+              },
+              "subtotal": true
+            },
+            "hierarchies": [
+              "calendar",
+              "calendar - weeks"
+            ],
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "DimDate",
+              "column": "Date",
+              "dim": "[DimDate.Date (Calendar)]",
+              "datatype": "datetime",
+              "merged": true,
+              "level": "months",
+              "title": "Month"
+            },
+            "instanceid": "C7243-B47C-81",
+            "panel": "rows",
+            "field": {
+              "id": "[DimDate.Date (Calendar)]_years",
+              "index": 1
+            },
+            "format": {
+              "mask": {
+                "years": "yyyy",
+                "quarters": "yyyy Q",
+                "months": "MM/yyyy",
+                "weeks": "ww yyyy",
+                "days": "shortDate",
+                "minutes": "HH:mm",
+                "seconds": "MM/dd/yyyy HH:mm:ss",
+                "dateAndTime": "MM/dd/yyyy HH:mm",
+                "isdefault": true
+              }
+            },
+            "hierarchies": [
+              "calendar",
+              "calendar - weeks"
+            ],
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "Fact_Sale_orders",
+              "column": "OnlineOrderFlag",
+              "dim": "[Fact_Sale_orders.OnlineOrderFlag]",
+              "datatype": "text",
+              "merged": true,
+              "title": "Online"
+            },
+            "instanceid": "63644-323A-19",
+            "panel": "columns",
+            "field": {
+              "id": "[Fact_Sale_orders.OnlineOrderFlag]",
+              "index": 2
+            },
+            "handlers": []
+          },
+          {
+            "jaql": {
+              "type": "measure",
+              "formula": "SUM([643BC-79A])",
+              "context": {
+                "[643BC-79A]": {
+                  "table": "Fact_Sale_orders",
+                  "column": "OrderRevenue",
+                  "dim": "[Fact_Sale_orders.OrderRevenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total OrderRevenue"
+                }
+              },
+              "title": "SUM",
+              "datatype": "numeric"
+            },
+            "instanceid": "082A6-ECEF-A1",
+            "panel": "measures",
+            "field": {
+              "id": "[Fact_Sale_orders.OrderRevenue]_sum",
+              "index": 3
+            },
+            "format": {
+              "mask": {
+                "abbreviations": {
+                  "t": false,
+                  "b": false,
+                  "m": false,
+                  "k": false
+                },
+                "decimals": 2,
+                "currency": {
+                  "symbol": "$",
+                  "position": "pre"
+                }
+              },
+              "color": {
+                "type": "color",
+                "color": "transparent"
+              }
+            },
+            "originalJaql": {
+              "table": "Fact_Sale_orders",
+              "column": "OrderRevenue",
+              "dim": "[Fact_Sale_orders.OrderRevenue]",
+              "datatype": "numeric",
+              "agg": "sum",
+              "title": "Total OrderRevenue"
+            },
+            "quickFunction": "Contribution",
+            "handlers": [
+              {},
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "type": "measure",
+              "formula": "Contribution([BB4E9-F9D])",
+              "context": {
+                "[BB4E9-F9D]": {
+                  "table": "Fact_Sale_orders",
+                  "column": "OrderRevenue",
+                  "dim": "[Fact_Sale_orders.OrderRevenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total OrderRevenue"
+                }
+              },
+              "title": "CONTRIBUTION",
+              "datatype": "numeric"
+            },
+            "instanceid": "082A6-ECEF-A1",
+            "panel": "measures",
+            "field": {
+              "id": "[Fact_Sale_orders.OrderRevenue]_sum",
+              "index": 4
+            },
+            "format": {
+              "mask": {
+                "type": "percent",
+                "separated": true,
+                "decimals": "2",
+                "isdefault": true
+              },
+              "color": {
+                "type": "color",
+                "color": "transparent"
+              }
+            },
+            "originalJaql": {
+              "table": "Fact_Sale_orders",
+              "column": "OrderRevenue",
+              "dim": "[Fact_Sale_orders.OrderRevenue]",
+              "datatype": "numeric",
+              "agg": "sum",
+              "title": "Total OrderRevenue"
+            },
+            "quickFunction": "Contribution",
+            "handlers": [
+              {},
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "DimDate",
+              "column": "Date",
+              "dim": "[DimDate.Date (Calendar)]",
+              "datatype": "datetime",
+              "merged": true,
+              "level": "quarters",
+              "title": "Years in Date",
+              "filter": {
+                "explicit": false,
+                "multiSelection": true,
+                "all": true
+              },
+              "collapsed": true,
+              "datasource": {
+                "fullname": "localhost/Sample Retail",
+                "id": "localhost_aSampleIAAaRetail",
+                "address": "LocalHost",
+                "database": "aSampleIAAaRetail",
+                "live": false,
+                "title": "Sample Retail"
+              }
+            },
+            "instanceid": "DF090-2672-1F",
+            "panel": "scope",
+            "format": {
+              "mask": {
+                "years": "yyyy",
+                "quarters": "yyyy Q",
+                "months": "MM/yyyy",
+                "weeks": "ww yyyy",
+                "days": "shortDate",
+                "minutes": "HH:mm",
+                "seconds": "MM/dd/yyyy HH:mm:ss",
+                "dateAndTime": "MM/dd/yyyy HH:mm",
+                "isdefault": true
+              }
+            },
+            "handlers": [
+              {}
+            ]
+          }
+        ],
+        "m2mThresholdFlag": 0
+      },
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": false,
+        "triggersDomready": true,
+        "drillToAnywhere": true,
+        "autoUpdateOnEveryChange": true,
+        "interactivePivot": {
+          "enable": false
+        },
+        "imageColumns": []
+      },
+      "dashboardid": "6278cc5e142df70036c23831",
+      "jasperReportsSettings": {}
+    },
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "6278cf5c142df70036c2383a",
+      "desc": null,
+      "source": "62aa1629142df70036c44173",
+      "datasource": {
+        "fullname": "localhost/Sample Retail",
+        "id": "localhost_aSampleIAAaRetail",
+        "address": "LocalHost",
+        "database": "aSampleIAAaRetail",
+        "live": false,
+        "title": "Sample Retail"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": []
+      },
+      "style": {
+        "content": {
+          "html": "<font size=\"5\">Before</font>",
+          "vAlign": "valign-middle",
+          "bgColor": "#FFFFFF",
+          "textAlign": "center"
+        }
+      },
+      "instanceid": "23EDF-0C61-93",
+      "wasRendered": false,
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "dashboardid": "6278cc5e142df70036c23831"
+    },
+    {
+      "title": "",
+      "type": "pivot2",
+      "subtype": "pivot2",
+      "oid": "6278cf73142df70036c2383c",
+      "desc": null,
+      "source": "62aa1629142df70036c44174",
+      "datasource": {
+        "fullname": "localhost/Sample Retail",
+        "id": "localhost_aSampleIAAaRetail",
+        "address": "LocalHost",
+        "database": "aSampleIAAaRetail",
+        "live": false,
+        "title": "Sample Retail"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "rows",
+            "items": [
+              {
+                "jaql": {
+                  "table": "DimDate",
+                  "column": "Date",
+                  "dim": "[DimDate.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "years",
+                  "title": "Year"
+                },
+                "instanceid": "224AA-E480-2B",
+                "panel": "rows",
+                "field": {
+                  "id": "[DimDate.Date (Calendar)]_years",
+                  "index": 0
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "isdefault": true
+                  },
+                  "subtotal": true
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ]
+              },
+              {
+                "jaql": {
+                  "table": "DimDate",
+                  "column": "Date",
+                  "dim": "[DimDate.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "months",
+                  "title": "Month"
+                },
+                "instanceid": "C7243-B47C-81",
+                "panel": "rows",
+                "field": {
+                  "id": "[DimDate.Date (Calendar)]_years",
+                  "index": 1
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "isdefault": true
+                  }
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "SUM([643BC-79A])",
+                  "context": {
+                    "[643BC-79A]": {
+                      "table": "Fact_Sale_orders",
+                      "column": "OrderRevenue",
+                      "dim": "[Fact_Sale_orders.OrderRevenue]",
+                      "datatype": "numeric",
+                      "agg": "sum",
+                      "title": "Total OrderRevenue"
+                    }
+                  },
+                  "title": "SUM",
+                  "datatype": "numeric"
+                },
+                "instanceid": "082A6-ECEF-A1",
+                "panel": "measures",
+                "field": {
+                  "id": "[Fact_Sale_orders.OrderRevenue]_sum",
+                  "index": 3
+                },
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": false,
+                      "b": false,
+                      "m": false,
+                      "k": false
+                    },
+                    "decimals": 2,
+                    "currency": {
+                      "symbol": "$",
+                      "position": "pre"
+                    }
+                  },
+                  "color": {
+                    "type": "color",
+                    "color": "transparent"
+                  }
+                },
+                "originalJaql": {
+                  "table": "Fact_Sale_orders",
+                  "column": "OrderRevenue",
+                  "dim": "[Fact_Sale_orders.OrderRevenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total OrderRevenue"
+                },
+                "quickFunction": "Contribution"
+              },
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "Contribution([BB4E9-F9D])",
+                  "context": {
+                    "[BB4E9-F9D]": {
+                      "table": "Fact_Sale_orders",
+                      "column": "OrderRevenue",
+                      "dim": "[Fact_Sale_orders.OrderRevenue]",
+                      "datatype": "numeric",
+                      "agg": "sum",
+                      "title": "Total OrderRevenue"
+                    }
+                  },
+                  "title": "CONTRIBUTION",
+                  "datatype": "numeric"
+                },
+                "instanceid": "082A6-ECEF-A1",
+                "panel": "measures",
+                "field": {
+                  "id": "[Fact_Sale_orders.OrderRevenue]_sum",
+                  "index": 4
+                },
+                "format": {
+                  "mask": {
+                    "type": "percent",
+                    "separated": true,
+                    "decimals": "2",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "type": "color",
+                    "color": "transparent"
+                  }
+                },
+                "originalJaql": {
+                  "table": "Fact_Sale_orders",
+                  "column": "OrderRevenue",
+                  "dim": "[Fact_Sale_orders.OrderRevenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total OrderRevenue"
+                },
+                "quickFunction": "Contribution"
+              }
+            ]
+          },
+          {
+            "name": "columns",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Fact_Sale_orders",
+                  "column": "OnlineOrderFlag",
+                  "dim": "[Fact_Sale_orders.OnlineOrderFlag]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Online"
+                },
+                "instanceid": "63644-323A-19",
+                "panel": "columns",
+                "field": {
+                  "id": "[Fact_Sale_orders.OnlineOrderFlag]",
+                  "index": 2
+                }
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": [
+              {
+                "jaql": {
+                  "table": "DimDate",
+                  "column": "Date",
+                  "dim": "[DimDate.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "quarters",
+                  "title": "Years in Date",
+                  "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                  },
+                  "collapsed": true,
+                  "datasource": {
+                    "fullname": "localhost/Sample Retail",
+                    "id": "localhost_aSampleIAAaRetail",
+                    "address": "LocalHost",
+                    "database": "aSampleIAAaRetail",
+                    "live": false,
+                    "title": "Sample Retail"
+                  }
+                },
+                "instanceid": "DF090-2672-1F",
+                "panel": "scope",
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "isdefault": true
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "style": {
+        "scroll": false,
+        "pageSize": 25,
+        "automaticHeight": true,
+        "colors": {
+          "rows": true,
+          "columns": false,
+          "headers": false,
+          "members": false,
+          "totals": false
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "year",
+              "title": "Year",
+              "singular": "Year",
+              "plural": "Year"
+            },
+            {
+              "id": "month",
+              "title": "Month",
+              "singular": "Month",
+              "plural": "Month"
+            },
+            {
+              "id": "online",
+              "title": "Online",
+              "singular": "Online",
+              "plural": "Online"
+            },
+            {
+              "id": "years_in_date",
+              "title": "Years in Date",
+              "singular": "Years in Date",
+              "plural": "Years in Date"
+            }
+          ]
+        },
+        "rowsGrandTotal": true,
+        "columnsGrandTotal": true
+      },
+      "instanceid": "7EF18-4FF3-F3",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 2,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "wasRendered": false,
+      "query": {
+        "datasource": {
+          "fullname": "localhost/Sample Retail",
+          "id": "localhost_aSampleIAAaRetail",
+          "address": "LocalHost",
+          "database": "aSampleIAAaRetail",
+          "live": false,
+          "title": "Sample Retail"
+        },
+        "format": "pivot",
+        "grandTotals": {
+          "title": "Grand Total",
+          "rows": true,
+          "columns": true
+        },
+        "metadata": [
+          {
+            "jaql": {
+              "table": "DimDate",
+              "column": "Date",
+              "dim": "[DimDate.Date (Calendar)]",
+              "datatype": "datetime",
+              "merged": true,
+              "level": "years",
+              "title": "Year"
+            },
+            "instanceid": "224AA-E480-2B",
+            "panel": "rows",
+            "field": {
+              "id": "[DimDate.Date (Calendar)]_years",
+              "index": 0
+            },
+            "format": {
+              "mask": {
+                "years": "yyyy",
+                "quarters": "yyyy Q",
+                "months": "MM/yyyy",
+                "weeks": "ww yyyy",
+                "days": "shortDate",
+                "minutes": "HH:mm",
+                "seconds": "MM/dd/yyyy HH:mm:ss",
+                "dateAndTime": "MM/dd/yyyy HH:mm",
+                "isdefault": true
+              },
+              "subtotal": true
+            },
+            "hierarchies": [
+              "calendar",
+              "calendar - weeks"
+            ],
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "DimDate",
+              "column": "Date",
+              "dim": "[DimDate.Date (Calendar)]",
+              "datatype": "datetime",
+              "merged": true,
+              "level": "months",
+              "title": "Month"
+            },
+            "instanceid": "C7243-B47C-81",
+            "panel": "rows",
+            "field": {
+              "id": "[DimDate.Date (Calendar)]_years",
+              "index": 1
+            },
+            "format": {
+              "mask": {
+                "years": "yyyy",
+                "quarters": "yyyy Q",
+                "months": "MM/yyyy",
+                "weeks": "ww yyyy",
+                "days": "shortDate",
+                "minutes": "HH:mm",
+                "seconds": "MM/dd/yyyy HH:mm:ss",
+                "dateAndTime": "MM/dd/yyyy HH:mm",
+                "isdefault": true
+              }
+            },
+            "hierarchies": [
+              "calendar",
+              "calendar - weeks"
+            ],
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "Fact_Sale_orders",
+              "column": "OnlineOrderFlag",
+              "dim": "[Fact_Sale_orders.OnlineOrderFlag]",
+              "datatype": "text",
+              "merged": true,
+              "title": "Online"
+            },
+            "instanceid": "63644-323A-19",
+            "panel": "columns",
+            "field": {
+              "id": "[Fact_Sale_orders.OnlineOrderFlag]",
+              "index": 2
+            },
+            "handlers": []
+          },
+          {
+            "jaql": {
+              "type": "measure",
+              "formula": "SUM([643BC-79A])",
+              "context": {
+                "[643BC-79A]": {
+                  "table": "Fact_Sale_orders",
+                  "column": "OrderRevenue",
+                  "dim": "[Fact_Sale_orders.OrderRevenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total OrderRevenue"
+                }
+              },
+              "title": "SUM",
+              "datatype": "numeric"
+            },
+            "instanceid": "082A6-ECEF-A1",
+            "panel": "measures",
+            "field": {
+              "id": "[Fact_Sale_orders.OrderRevenue]_sum",
+              "index": 3
+            },
+            "format": {
+              "mask": {
+                "abbreviations": {
+                  "t": false,
+                  "b": false,
+                  "m": false,
+                  "k": false
+                },
+                "decimals": 2,
+                "currency": {
+                  "symbol": "$",
+                  "position": "pre"
+                }
+              },
+              "color": {
+                "type": "color",
+                "color": "transparent"
+              }
+            },
+            "originalJaql": {
+              "table": "Fact_Sale_orders",
+              "column": "OrderRevenue",
+              "dim": "[Fact_Sale_orders.OrderRevenue]",
+              "datatype": "numeric",
+              "agg": "sum",
+              "title": "Total OrderRevenue"
+            },
+            "quickFunction": "Contribution",
+            "handlers": [
+              {},
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "type": "measure",
+              "formula": "Contribution([BB4E9-F9D])",
+              "context": {
+                "[BB4E9-F9D]": {
+                  "table": "Fact_Sale_orders",
+                  "column": "OrderRevenue",
+                  "dim": "[Fact_Sale_orders.OrderRevenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total OrderRevenue"
+                }
+              },
+              "title": "CONTRIBUTION",
+              "datatype": "numeric"
+            },
+            "instanceid": "082A6-ECEF-A1",
+            "panel": "measures",
+            "field": {
+              "id": "[Fact_Sale_orders.OrderRevenue]_sum",
+              "index": 4
+            },
+            "format": {
+              "mask": {
+                "type": "percent",
+                "separated": true,
+                "decimals": "2",
+                "isdefault": true
+              },
+              "color": {
+                "type": "color",
+                "color": "transparent"
+              }
+            },
+            "originalJaql": {
+              "table": "Fact_Sale_orders",
+              "column": "OrderRevenue",
+              "dim": "[Fact_Sale_orders.OrderRevenue]",
+              "datatype": "numeric",
+              "agg": "sum",
+              "title": "Total OrderRevenue"
+            },
+            "quickFunction": "Contribution",
+            "handlers": [
+              {},
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "DimDate",
+              "column": "Date",
+              "dim": "[DimDate.Date (Calendar)]",
+              "datatype": "datetime",
+              "merged": true,
+              "level": "quarters",
+              "title": "Years in Date",
+              "filter": {
+                "explicit": false,
+                "multiSelection": true,
+                "all": true
+              },
+              "collapsed": true,
+              "datasource": {
+                "fullname": "localhost/Sample Retail",
+                "id": "localhost_aSampleIAAaRetail",
+                "address": "LocalHost",
+                "database": "aSampleIAAaRetail",
+                "live": false,
+                "title": "Sample Retail"
+              }
+            },
+            "instanceid": "DF090-2672-1F",
+            "panel": "scope",
+            "format": {
+              "mask": {
+                "years": "yyyy",
+                "quarters": "yyyy Q",
+                "months": "MM/yyyy",
+                "weeks": "ww yyyy",
+                "days": "shortDate",
+                "minutes": "HH:mm",
+                "seconds": "MM/dd/yyyy HH:mm:ss",
+                "dateAndTime": "MM/dd/yyyy HH:mm",
+                "isdefault": true
+              }
+            },
+            "handlers": [
+              {}
+            ]
+          }
+        ],
+        "m2mThresholdFlag": 0
+      },
+      "jasperReportsSettings": {},
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": false,
+        "triggersDomready": true,
+        "drillToAnywhere": true,
+        "autoUpdateOnEveryChange": true,
+        "interactivePivot": {
+          "enable": false
+        },
+        "imageColumns": []
+      },
+      "dashboardid": "6278cc5e142df70036c23831",
+      "script": "/*\nWelcome to your Widget's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at https://sisense.dev/guides/js/extensions\n*/\n\nwidget.transformPivot(\n    {\n\t\n\t},\n    function (metadata, cell) \n    {\n        if (metadata.type.length == 1 && metadata.type.includes('member')) cell.content = 'member';\n\t\tif (metadata.type.length == 1 && metadata.type.includes('value')) cell.content = 'value';\n\t\tif (metadata.type.length == 1 && metadata.type.includes('subtotal')) cell.content = 'subtotal';\n\t\tif (metadata.type.length == 1 && metadata.type.includes('grandtotal')) cell.content = 'grandtotal';\n\t\t\n\t\tif (metadata.type.length == 2 && metadata.type.includes('subtotal') && metadata.type.includes('member')) cell.content = 'subtotal & member';\n\t\tif (metadata.type.length == 2 && metadata.type.includes('grandtotal') && metadata.type.includes('member')) cell.content = 'grandtotal & member';\n\t\t\n\t\tif (metadata.type.length == 2 && metadata.type.includes('subtotal') && metadata.type.includes('value')) cell.content = 'subtotal & value';\n\t\tif (metadata.type.length == 2 && metadata.type.includes('grandtotal') && metadata.type.includes('value')) cell.content = 'grandtotal & value';\n\t\t\n\t\tif (metadata.type.length == 3 && metadata.type.includes('subtotal') && metadata.type.includes('grandtotal') && metadata.type.includes('value')) cell.content = 'grandtotal & subtotal & value';\n\t\t\n\t\tpluginKey: 'pivot-script-1'\n    }\n\n);",
+      "script_old": ""
+    },
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "6278cf86142df70036c2383e",
+      "desc": null,
+      "source": "62aa1629142df70036c44175",
+      "datasource": {
+        "fullname": "localhost/Sample Retail",
+        "id": "localhost_aSampleIAAaRetail",
+        "address": "LocalHost",
+        "database": "aSampleIAAaRetail",
+        "live": false,
+        "title": "Sample Retail"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": []
+      },
+      "style": {
+        "content": {
+          "html": "<span style=\"font-size: 24px;\">Types</span>",
+          "vAlign": "valign-middle",
+          "bgColor": "#FFFFFF",
+          "textAlign": "center"
+        }
+      },
+      "instanceid": "23EDF-0C61-93",
+      "wasRendered": false,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "dashboardid": "6278cc5e142df70036c23831"
+    },
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "62a82904142df70036c41d3a",
+      "desc": null,
+      "source": "62aa1629142df70036c4417a",
+      "datasource": {
+        "fullname": "localhost/Sample Retail",
+        "id": "localhost_aSampleIAAaRetail",
+        "address": "LocalHost",
+        "database": "aSampleIAAaRetail",
+        "live": false,
+        "title": "Sample Retail"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": []
+      },
+      "style": {
+        "content": {
+          "html": "<span style=\"font-size: 24px;\">Metadata Index</span>",
+          "vAlign": "valign-middle",
+          "bgColor": "#FFFFFF",
+          "textAlign": "center"
+        }
+      },
+      "instanceid": "23EDF-0C61-93",
+      "wasRendered": false,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "dashboardid": "6278cc5e142df70036c23831"
+    },
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "62a787d8142df70036c41ae8",
+      "desc": null,
+      "source": "62aa1629142df70036c44178",
+      "datasource": {
+        "fullname": "localhost/Sample Retail",
+        "id": "localhost_aSampleIAAaRetail",
+        "address": "LocalHost",
+        "database": "aSampleIAAaRetail",
+        "live": false,
+        "title": "Sample Retail"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": []
+      },
+      "style": {
+        "content": {
+          "html": "<span style=\"font-size: 24px;\">Metadata Additional Parameters</span>",
+          "vAlign": "valign-middle",
+          "bgColor": "#FFFFFF",
+          "textAlign": "center"
+        }
+      },
+      "instanceid": "23EDF-0C61-93",
+      "wasRendered": false,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "dashboardid": "6278cc5e142df70036c23831"
+    },
+    {
+      "title": "",
+      "type": "pivot2",
+      "subtype": "pivot2",
+      "oid": "62a787de142df70036c41aea",
+      "desc": null,
+      "source": "62aa1629142df70036c44179",
+      "datasource": {
+        "fullname": "localhost/Sample Retail",
+        "id": "localhost_aSampleIAAaRetail",
+        "address": "LocalHost",
+        "database": "aSampleIAAaRetail",
+        "live": false,
+        "title": "Sample Retail"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "rows",
+            "items": [
+              {
+                "jaql": {
+                  "table": "DimDate",
+                  "column": "Date",
+                  "dim": "[DimDate.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "years",
+                  "title": "Year"
+                },
+                "instanceid": "224AA-E480-2B",
+                "panel": "rows",
+                "field": {
+                  "id": "[DimDate.Date (Calendar)]_years",
+                  "index": 0
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "isdefault": true
+                  },
+                  "subtotal": true
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ]
+              },
+              {
+                "jaql": {
+                  "table": "DimDate",
+                  "column": "Date",
+                  "dim": "[DimDate.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "months",
+                  "title": "Month"
+                },
+                "instanceid": "C7243-B47C-81",
+                "panel": "rows",
+                "field": {
+                  "id": "[DimDate.Date (Calendar)]_years",
+                  "index": 1
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "isdefault": true
+                  }
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "SUM([643BC-79A])",
+                  "context": {
+                    "[643BC-79A]": {
+                      "table": "Fact_Sale_orders",
+                      "column": "OrderRevenue",
+                      "dim": "[Fact_Sale_orders.OrderRevenue]",
+                      "datatype": "numeric",
+                      "agg": "sum",
+                      "title": "Total OrderRevenue"
+                    }
+                  },
+                  "title": "SUM",
+                  "datatype": "numeric"
+                },
+                "instanceid": "082A6-ECEF-A1",
+                "panel": "measures",
+                "field": {
+                  "id": "[Fact_Sale_orders.OrderRevenue]_sum",
+                  "index": 3
+                },
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": false,
+                      "b": false,
+                      "m": false,
+                      "k": false
+                    },
+                    "decimals": 2,
+                    "currency": {
+                      "symbol": "$",
+                      "position": "pre"
+                    }
+                  },
+                  "color": {
+                    "type": "color",
+                    "color": "transparent"
+                  }
+                },
+                "originalJaql": {
+                  "table": "Fact_Sale_orders",
+                  "column": "OrderRevenue",
+                  "dim": "[Fact_Sale_orders.OrderRevenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total OrderRevenue"
+                },
+                "quickFunction": "Contribution"
+              },
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "Contribution([BB4E9-F9D])",
+                  "context": {
+                    "[BB4E9-F9D]": {
+                      "table": "Fact_Sale_orders",
+                      "column": "OrderRevenue",
+                      "dim": "[Fact_Sale_orders.OrderRevenue]",
+                      "datatype": "numeric",
+                      "agg": "sum",
+                      "title": "Total OrderRevenue"
+                    }
+                  },
+                  "title": "CONTRIBUTION",
+                  "datatype": "numeric"
+                },
+                "instanceid": "082A6-ECEF-A1",
+                "panel": "measures",
+                "field": {
+                  "id": "[Fact_Sale_orders.OrderRevenue]_sum",
+                  "index": 4
+                },
+                "format": {
+                  "mask": {
+                    "type": "percent",
+                    "separated": true,
+                    "decimals": "2",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "type": "color",
+                    "color": "transparent"
+                  }
+                },
+                "originalJaql": {
+                  "table": "Fact_Sale_orders",
+                  "column": "OrderRevenue",
+                  "dim": "[Fact_Sale_orders.OrderRevenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total OrderRevenue"
+                },
+                "quickFunction": "Contribution"
+              }
+            ]
+          },
+          {
+            "name": "columns",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Fact_Sale_orders",
+                  "column": "OnlineOrderFlag",
+                  "dim": "[Fact_Sale_orders.OnlineOrderFlag]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Online"
+                },
+                "instanceid": "63644-323A-19",
+                "panel": "columns",
+                "field": {
+                  "id": "[Fact_Sale_orders.OnlineOrderFlag]",
+                  "index": 2
+                }
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": [
+              {
+                "jaql": {
+                  "table": "DimDate",
+                  "column": "Date",
+                  "dim": "[DimDate.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "quarters",
+                  "title": "Years in Date",
+                  "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                  },
+                  "collapsed": true,
+                  "datasource": {
+                    "fullname": "localhost/Sample Retail",
+                    "id": "localhost_aSampleIAAaRetail",
+                    "address": "LocalHost",
+                    "database": "aSampleIAAaRetail",
+                    "live": false,
+                    "title": "Sample Retail"
+                  }
+                },
+                "instanceid": "DF090-2672-1F",
+                "panel": "scope",
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "isdefault": true
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "style": {
+        "scroll": false,
+        "pageSize": 25,
+        "automaticHeight": true,
+        "colors": {
+          "rows": true,
+          "columns": false,
+          "headers": false,
+          "members": false,
+          "totals": false
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "year",
+              "title": "Year",
+              "singular": "Year",
+              "plural": "Year"
+            },
+            {
+              "id": "month",
+              "title": "Month",
+              "singular": "Month",
+              "plural": "Month"
+            },
+            {
+              "id": "online",
+              "title": "Online",
+              "singular": "Online",
+              "plural": "Online"
+            },
+            {
+              "id": "years_in_date",
+              "title": "Years in Date",
+              "singular": "Years in Date",
+              "plural": "Years in Date"
+            }
+          ]
+        },
+        "rowsGrandTotal": true,
+        "columnsGrandTotal": true
+      },
+      "instanceid": "7EF18-4FF3-F3",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 2,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "wasRendered": false,
+      "query": {
+        "datasource": {
+          "fullname": "localhost/Sample Retail",
+          "id": "localhost_aSampleIAAaRetail",
+          "address": "LocalHost",
+          "database": "aSampleIAAaRetail",
+          "live": false,
+          "title": "Sample Retail"
+        },
+        "format": "pivot",
+        "grandTotals": {
+          "title": "Grand Total",
+          "rows": true,
+          "columns": true
+        },
+        "metadata": [
+          {
+            "jaql": {
+              "table": "DimDate",
+              "column": "Date",
+              "dim": "[DimDate.Date (Calendar)]",
+              "datatype": "datetime",
+              "merged": true,
+              "level": "years",
+              "title": "Year"
+            },
+            "instanceid": "224AA-E480-2B",
+            "panel": "rows",
+            "field": {
+              "id": "[DimDate.Date (Calendar)]_years",
+              "index": 0
+            },
+            "format": {
+              "mask": {
+                "years": "yyyy",
+                "quarters": "yyyy Q",
+                "months": "MM/yyyy",
+                "weeks": "ww yyyy",
+                "days": "shortDate",
+                "minutes": "HH:mm",
+                "seconds": "MM/dd/yyyy HH:mm:ss",
+                "dateAndTime": "MM/dd/yyyy HH:mm",
+                "isdefault": true
+              },
+              "subtotal": true
+            },
+            "hierarchies": [
+              "calendar",
+              "calendar - weeks"
+            ],
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "DimDate",
+              "column": "Date",
+              "dim": "[DimDate.Date (Calendar)]",
+              "datatype": "datetime",
+              "merged": true,
+              "level": "months",
+              "title": "Month"
+            },
+            "instanceid": "C7243-B47C-81",
+            "panel": "rows",
+            "field": {
+              "id": "[DimDate.Date (Calendar)]_years",
+              "index": 1
+            },
+            "format": {
+              "mask": {
+                "years": "yyyy",
+                "quarters": "yyyy Q",
+                "months": "MM/yyyy",
+                "weeks": "ww yyyy",
+                "days": "shortDate",
+                "minutes": "HH:mm",
+                "seconds": "MM/dd/yyyy HH:mm:ss",
+                "dateAndTime": "MM/dd/yyyy HH:mm",
+                "isdefault": true
+              }
+            },
+            "hierarchies": [
+              "calendar",
+              "calendar - weeks"
+            ],
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "Fact_Sale_orders",
+              "column": "OnlineOrderFlag",
+              "dim": "[Fact_Sale_orders.OnlineOrderFlag]",
+              "datatype": "text",
+              "merged": true,
+              "title": "Online"
+            },
+            "instanceid": "63644-323A-19",
+            "panel": "columns",
+            "field": {
+              "id": "[Fact_Sale_orders.OnlineOrderFlag]",
+              "index": 2
+            },
+            "handlers": []
+          },
+          {
+            "jaql": {
+              "type": "measure",
+              "formula": "SUM([643BC-79A])",
+              "context": {
+                "[643BC-79A]": {
+                  "table": "Fact_Sale_orders",
+                  "column": "OrderRevenue",
+                  "dim": "[Fact_Sale_orders.OrderRevenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total OrderRevenue"
+                }
+              },
+              "title": "SUM",
+              "datatype": "numeric"
+            },
+            "instanceid": "082A6-ECEF-A1",
+            "panel": "measures",
+            "field": {
+              "id": "[Fact_Sale_orders.OrderRevenue]_sum",
+              "index": 3
+            },
+            "format": {
+              "mask": {
+                "abbreviations": {
+                  "t": false,
+                  "b": false,
+                  "m": false,
+                  "k": false
+                },
+                "decimals": 2,
+                "currency": {
+                  "symbol": "$",
+                  "position": "pre"
+                }
+              },
+              "color": {
+                "type": "color",
+                "color": "transparent"
+              }
+            },
+            "originalJaql": {
+              "table": "Fact_Sale_orders",
+              "column": "OrderRevenue",
+              "dim": "[Fact_Sale_orders.OrderRevenue]",
+              "datatype": "numeric",
+              "agg": "sum",
+              "title": "Total OrderRevenue"
+            },
+            "quickFunction": "Contribution",
+            "handlers": [
+              {},
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "type": "measure",
+              "formula": "Contribution([BB4E9-F9D])",
+              "context": {
+                "[BB4E9-F9D]": {
+                  "table": "Fact_Sale_orders",
+                  "column": "OrderRevenue",
+                  "dim": "[Fact_Sale_orders.OrderRevenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total OrderRevenue"
+                }
+              },
+              "title": "CONTRIBUTION",
+              "datatype": "numeric"
+            },
+            "instanceid": "082A6-ECEF-A1",
+            "panel": "measures",
+            "field": {
+              "id": "[Fact_Sale_orders.OrderRevenue]_sum",
+              "index": 4
+            },
+            "format": {
+              "mask": {
+                "type": "percent",
+                "separated": true,
+                "decimals": "2",
+                "isdefault": true
+              },
+              "color": {
+                "type": "color",
+                "color": "transparent"
+              }
+            },
+            "originalJaql": {
+              "table": "Fact_Sale_orders",
+              "column": "OrderRevenue",
+              "dim": "[Fact_Sale_orders.OrderRevenue]",
+              "datatype": "numeric",
+              "agg": "sum",
+              "title": "Total OrderRevenue"
+            },
+            "quickFunction": "Contribution",
+            "handlers": [
+              {},
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "DimDate",
+              "column": "Date",
+              "dim": "[DimDate.Date (Calendar)]",
+              "datatype": "datetime",
+              "merged": true,
+              "level": "quarters",
+              "title": "Years in Date",
+              "filter": {
+                "explicit": false,
+                "multiSelection": true,
+                "all": true
+              },
+              "collapsed": true,
+              "datasource": {
+                "fullname": "localhost/Sample Retail",
+                "id": "localhost_aSampleIAAaRetail",
+                "address": "LocalHost",
+                "database": "aSampleIAAaRetail",
+                "live": false,
+                "title": "Sample Retail"
+              }
+            },
+            "instanceid": "DF090-2672-1F",
+            "panel": "scope",
+            "format": {
+              "mask": {
+                "years": "yyyy",
+                "quarters": "yyyy Q",
+                "months": "MM/yyyy",
+                "weeks": "ww yyyy",
+                "days": "shortDate",
+                "minutes": "HH:mm",
+                "seconds": "MM/dd/yyyy HH:mm:ss",
+                "dateAndTime": "MM/dd/yyyy HH:mm",
+                "isdefault": true
+              }
+            },
+            "handlers": [
+              {}
+            ]
+          }
+        ],
+        "m2mThresholdFlag": 0
+      },
+      "jasperReportsSettings": {},
+      "script": "/*\nWelcome to your Widget's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at https://sisense.dev/guides/js/extensions\n*/\n\nwidget.transformPivot(\n    {\n\t\ttype: ['value']\n\t},\n    function (metadata, cell) \n    {\n\t\tcell.content = ''\n\t\tif (metadata.measure !== undefined) cell.content = '[Measure:' + metadata.measure.title + ']'\n\t\t\n\t\tif (metadata.columns !== undefined) {\n\t\t\tmetadata.columns.forEach(function(column) {\n\t\t\t\tif (cell.content === '') \n\t\t\t\t\tcell.content = cell.content + '[Column:' + column.title + ']'\n\t\t\t\telse\n\t\t\t\t\tcell.content = cell.content + '<br>[Column:' + column.title + ']'\n\t\t\t})\n\t\t}\n\t\t\t\t\t\t\t\t\t \n\t\tif (metadata.rows !== undefined) {\n\t\t\tmetadata.rows.forEach(function(row) {\n\t\t\t\tif (cell.content === '') \n\t\t\t\t\tcell.content = cell.content + '[Row:' + row.title + ']'\n\t\t\t\telse\n\t\t\t\t\tcell.content = cell.content + '<br>[Row:' + row.title + ']'\n\t\t\t})\n\t\t}\n\t\t\n\t\tpluginKey: 'pivot-script-3'\n    }\n\n);",
+      "script_old": "",
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": false,
+        "triggersDomready": true,
+        "drillToAnywhere": true,
+        "autoUpdateOnEveryChange": true,
+        "interactivePivot": {
+          "enable": false
+        },
+        "imageColumns": []
+      },
+      "dashboardid": "6278cc5e142df70036c23831"
+    },
+    {
+      "title": "",
+      "type": "pivot2",
+      "subtype": "pivot2",
+      "oid": "62a7328b142df70036c41310",
+      "desc": null,
+      "source": "62aa1629142df70036c44177",
+      "datasource": {
+        "fullname": "localhost/Sample Retail",
+        "id": "localhost_aSampleIAAaRetail",
+        "address": "LocalHost",
+        "database": "aSampleIAAaRetail",
+        "live": false,
+        "title": "Sample Retail"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "rows",
+            "items": [
+              {
+                "jaql": {
+                  "table": "DimDate",
+                  "column": "Date",
+                  "dim": "[DimDate.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "years",
+                  "title": "Year"
+                },
+                "instanceid": "224AA-E480-2B",
+                "panel": "rows",
+                "field": {
+                  "id": "[DimDate.Date (Calendar)]_years",
+                  "index": 0
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "isdefault": true
+                  },
+                  "subtotal": true
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ]
+              },
+              {
+                "jaql": {
+                  "table": "DimDate",
+                  "column": "Date",
+                  "dim": "[DimDate.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "months",
+                  "title": "Month"
+                },
+                "instanceid": "C7243-B47C-81",
+                "panel": "rows",
+                "field": {
+                  "id": "[DimDate.Date (Calendar)]_years",
+                  "index": 1
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "isdefault": true
+                  }
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "SUM([643BC-79A])",
+                  "context": {
+                    "[643BC-79A]": {
+                      "table": "Fact_Sale_orders",
+                      "column": "OrderRevenue",
+                      "dim": "[Fact_Sale_orders.OrderRevenue]",
+                      "datatype": "numeric",
+                      "agg": "sum",
+                      "title": "Total OrderRevenue"
+                    }
+                  },
+                  "title": "SUM",
+                  "datatype": "numeric"
+                },
+                "instanceid": "082A6-ECEF-A1",
+                "panel": "measures",
+                "field": {
+                  "id": "[Fact_Sale_orders.OrderRevenue]_sum",
+                  "index": 3
+                },
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": false,
+                      "b": false,
+                      "m": false,
+                      "k": false
+                    },
+                    "decimals": 2,
+                    "currency": {
+                      "symbol": "$",
+                      "position": "pre"
+                    }
+                  },
+                  "color": {
+                    "type": "color",
+                    "color": "transparent"
+                  }
+                },
+                "originalJaql": {
+                  "table": "Fact_Sale_orders",
+                  "column": "OrderRevenue",
+                  "dim": "[Fact_Sale_orders.OrderRevenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total OrderRevenue"
+                },
+                "quickFunction": "Contribution"
+              },
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "Contribution([BB4E9-F9D])",
+                  "context": {
+                    "[BB4E9-F9D]": {
+                      "table": "Fact_Sale_orders",
+                      "column": "OrderRevenue",
+                      "dim": "[Fact_Sale_orders.OrderRevenue]",
+                      "datatype": "numeric",
+                      "agg": "sum",
+                      "title": "Total OrderRevenue"
+                    }
+                  },
+                  "title": "CONTRIBUTION",
+                  "datatype": "numeric"
+                },
+                "instanceid": "082A6-ECEF-A1",
+                "panel": "measures",
+                "field": {
+                  "id": "[Fact_Sale_orders.OrderRevenue]_sum",
+                  "index": 4
+                },
+                "format": {
+                  "mask": {
+                    "type": "percent",
+                    "separated": true,
+                    "decimals": "2",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "type": "color",
+                    "color": "transparent"
+                  }
+                },
+                "originalJaql": {
+                  "table": "Fact_Sale_orders",
+                  "column": "OrderRevenue",
+                  "dim": "[Fact_Sale_orders.OrderRevenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total OrderRevenue"
+                },
+                "quickFunction": "Contribution"
+              }
+            ]
+          },
+          {
+            "name": "columns",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Fact_Sale_orders",
+                  "column": "OnlineOrderFlag",
+                  "dim": "[Fact_Sale_orders.OnlineOrderFlag]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Online"
+                },
+                "instanceid": "63644-323A-19",
+                "panel": "columns",
+                "field": {
+                  "id": "[Fact_Sale_orders.OnlineOrderFlag]",
+                  "index": 2
+                }
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": [
+              {
+                "jaql": {
+                  "table": "DimDate",
+                  "column": "Date",
+                  "dim": "[DimDate.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "quarters",
+                  "title": "Years in Date",
+                  "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                  },
+                  "collapsed": true,
+                  "datasource": {
+                    "fullname": "localhost/Sample Retail",
+                    "id": "localhost_aSampleIAAaRetail",
+                    "address": "LocalHost",
+                    "database": "aSampleIAAaRetail",
+                    "live": false,
+                    "title": "Sample Retail"
+                  }
+                },
+                "instanceid": "DF090-2672-1F",
+                "panel": "scope",
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "isdefault": true
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "style": {
+        "scroll": false,
+        "pageSize": 25,
+        "automaticHeight": true,
+        "colors": {
+          "rows": true,
+          "columns": false,
+          "headers": false,
+          "members": false,
+          "totals": false
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "year",
+              "title": "Year",
+              "singular": "Year",
+              "plural": "Year"
+            },
+            {
+              "id": "month",
+              "title": "Month",
+              "singular": "Month",
+              "plural": "Month"
+            },
+            {
+              "id": "online",
+              "title": "Online",
+              "singular": "Online",
+              "plural": "Online"
+            },
+            {
+              "id": "years_in_date",
+              "title": "Years in Date",
+              "singular": "Years in Date",
+              "plural": "Years in Date"
+            }
+          ]
+        },
+        "rowsGrandTotal": true,
+        "columnsGrandTotal": true
+      },
+      "instanceid": "7EF18-4FF3-F3",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 2,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "wasRendered": false,
+      "query": {
+        "datasource": {
+          "fullname": "localhost/Sample Retail",
+          "id": "localhost_aSampleIAAaRetail",
+          "address": "LocalHost",
+          "database": "aSampleIAAaRetail",
+          "live": false,
+          "title": "Sample Retail"
+        },
+        "format": "pivot",
+        "grandTotals": {
+          "title": "Grand Total",
+          "rows": true,
+          "columns": true
+        },
+        "metadata": [
+          {
+            "jaql": {
+              "table": "DimDate",
+              "column": "Date",
+              "dim": "[DimDate.Date (Calendar)]",
+              "datatype": "datetime",
+              "merged": true,
+              "level": "years",
+              "title": "Year"
+            },
+            "instanceid": "224AA-E480-2B",
+            "panel": "rows",
+            "field": {
+              "id": "[DimDate.Date (Calendar)]_years",
+              "index": 0
+            },
+            "format": {
+              "mask": {
+                "years": "yyyy",
+                "quarters": "yyyy Q",
+                "months": "MM/yyyy",
+                "weeks": "ww yyyy",
+                "days": "shortDate",
+                "minutes": "HH:mm",
+                "seconds": "MM/dd/yyyy HH:mm:ss",
+                "dateAndTime": "MM/dd/yyyy HH:mm",
+                "isdefault": true
+              },
+              "subtotal": true
+            },
+            "hierarchies": [
+              "calendar",
+              "calendar - weeks"
+            ],
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "DimDate",
+              "column": "Date",
+              "dim": "[DimDate.Date (Calendar)]",
+              "datatype": "datetime",
+              "merged": true,
+              "level": "months",
+              "title": "Month"
+            },
+            "instanceid": "C7243-B47C-81",
+            "panel": "rows",
+            "field": {
+              "id": "[DimDate.Date (Calendar)]_years",
+              "index": 1
+            },
+            "format": {
+              "mask": {
+                "years": "yyyy",
+                "quarters": "yyyy Q",
+                "months": "MM/yyyy",
+                "weeks": "ww yyyy",
+                "days": "shortDate",
+                "minutes": "HH:mm",
+                "seconds": "MM/dd/yyyy HH:mm:ss",
+                "dateAndTime": "MM/dd/yyyy HH:mm",
+                "isdefault": true
+              }
+            },
+            "hierarchies": [
+              "calendar",
+              "calendar - weeks"
+            ],
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "Fact_Sale_orders",
+              "column": "OnlineOrderFlag",
+              "dim": "[Fact_Sale_orders.OnlineOrderFlag]",
+              "datatype": "text",
+              "merged": true,
+              "title": "Online"
+            },
+            "instanceid": "63644-323A-19",
+            "panel": "columns",
+            "field": {
+              "id": "[Fact_Sale_orders.OnlineOrderFlag]",
+              "index": 2
+            },
+            "handlers": []
+          },
+          {
+            "jaql": {
+              "type": "measure",
+              "formula": "SUM([643BC-79A])",
+              "context": {
+                "[643BC-79A]": {
+                  "table": "Fact_Sale_orders",
+                  "column": "OrderRevenue",
+                  "dim": "[Fact_Sale_orders.OrderRevenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total OrderRevenue"
+                }
+              },
+              "title": "SUM",
+              "datatype": "numeric"
+            },
+            "instanceid": "082A6-ECEF-A1",
+            "panel": "measures",
+            "field": {
+              "id": "[Fact_Sale_orders.OrderRevenue]_sum",
+              "index": 3
+            },
+            "format": {
+              "mask": {
+                "abbreviations": {
+                  "t": false,
+                  "b": false,
+                  "m": false,
+                  "k": false
+                },
+                "decimals": 2,
+                "currency": {
+                  "symbol": "$",
+                  "position": "pre"
+                }
+              },
+              "color": {
+                "type": "color",
+                "color": "transparent"
+              }
+            },
+            "originalJaql": {
+              "table": "Fact_Sale_orders",
+              "column": "OrderRevenue",
+              "dim": "[Fact_Sale_orders.OrderRevenue]",
+              "datatype": "numeric",
+              "agg": "sum",
+              "title": "Total OrderRevenue"
+            },
+            "quickFunction": "Contribution",
+            "handlers": [
+              {},
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "type": "measure",
+              "formula": "Contribution([BB4E9-F9D])",
+              "context": {
+                "[BB4E9-F9D]": {
+                  "table": "Fact_Sale_orders",
+                  "column": "OrderRevenue",
+                  "dim": "[Fact_Sale_orders.OrderRevenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total OrderRevenue"
+                }
+              },
+              "title": "CONTRIBUTION",
+              "datatype": "numeric"
+            },
+            "instanceid": "082A6-ECEF-A1",
+            "panel": "measures",
+            "field": {
+              "id": "[Fact_Sale_orders.OrderRevenue]_sum",
+              "index": 4
+            },
+            "format": {
+              "mask": {
+                "type": "percent",
+                "separated": true,
+                "decimals": "2",
+                "isdefault": true
+              },
+              "color": {
+                "type": "color",
+                "color": "transparent"
+              }
+            },
+            "originalJaql": {
+              "table": "Fact_Sale_orders",
+              "column": "OrderRevenue",
+              "dim": "[Fact_Sale_orders.OrderRevenue]",
+              "datatype": "numeric",
+              "agg": "sum",
+              "title": "Total OrderRevenue"
+            },
+            "quickFunction": "Contribution",
+            "handlers": [
+              {},
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "DimDate",
+              "column": "Date",
+              "dim": "[DimDate.Date (Calendar)]",
+              "datatype": "datetime",
+              "merged": true,
+              "level": "quarters",
+              "title": "Years in Date",
+              "filter": {
+                "explicit": false,
+                "multiSelection": true,
+                "all": true
+              },
+              "collapsed": true,
+              "datasource": {
+                "fullname": "localhost/Sample Retail",
+                "id": "localhost_aSampleIAAaRetail",
+                "address": "LocalHost",
+                "database": "aSampleIAAaRetail",
+                "live": false,
+                "title": "Sample Retail"
+              }
+            },
+            "instanceid": "DF090-2672-1F",
+            "panel": "scope",
+            "format": {
+              "mask": {
+                "years": "yyyy",
+                "quarters": "yyyy Q",
+                "months": "MM/yyyy",
+                "weeks": "ww yyyy",
+                "days": "shortDate",
+                "minutes": "HH:mm",
+                "seconds": "MM/dd/yyyy HH:mm:ss",
+                "dateAndTime": "MM/dd/yyyy HH:mm",
+                "isdefault": true
+              }
+            },
+            "handlers": [
+              {}
+            ]
+          }
+        ],
+        "m2mThresholdFlag": 0
+      },
+      "jasperReportsSettings": {},
+      "script": "/*\nWelcome to your Widget's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at https://sisense.dev/guides/js/extensions\n*/\n\nwidget.transformPivot(\n    {\n\t\n\t},\n    function (metadata, cell) \n    {\n        cell.content = '[' + metadata.index + ']'\n\t\t\n\t\tpluginKey: 'pivot-script-4'\n    }\n\n);",
+      "script_old": "",
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": false,
+        "triggersDomready": true,
+        "drillToAnywhere": true,
+        "autoUpdateOnEveryChange": true,
+        "interactivePivot": {
+          "enable": false
+        },
+        "imageColumns": []
+      },
+      "dashboardid": "6278cc5e142df70036c23831"
+    },
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "62a73279142df70036c4130e",
+      "desc": null,
+      "source": "62aa1629142df70036c44176",
+      "datasource": {
+        "fullname": "localhost/Sample Retail",
+        "id": "localhost_aSampleIAAaRetail",
+        "address": "LocalHost",
+        "database": "aSampleIAAaRetail",
+        "live": false,
+        "title": "Sample Retail"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": []
+      },
+      "style": {
+        "content": {
+          "html": "<span style=\"font-size: 24px;\">Row/Column<br>Index</span>",
+          "vAlign": "valign-middle",
+          "bgColor": "#FFFFFF",
+          "textAlign": "center"
+        }
+      },
+      "instanceid": "23EDF-0C61-93",
+      "wasRendered": false,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "dashboardid": "6278cc5e142df70036c23831"
+    },
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "62a9d8b2142df70036c42bbf",
+      "desc": null,
+      "source": "62aa1629142df70036c4417d",
+      "datasource": {
+        "fullname": "localhost/Sample Retail",
+        "id": "localhost_aSampleIAAaRetail",
+        "address": "LocalHost",
+        "database": "aSampleIAAaRetail",
+        "live": false,
+        "title": "Sample Retail"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": []
+      },
+      "style": {
+        "content": {
+          "html": "<div style=\"font-size: x-large; text-align: left;\">Creator: Ophir Buchman</div><div style=\"text-align: left;\"><span style=\"color: rgb(33, 35, 34); font-family: &quot;Open Sans&quot;, sans-serif; font-size: 14px;\">The following article discusses how to manipulate the data and styling of your Pivot 2.0 widget.</span><br style=\"color: rgb(33, 35, 34); font-family: &quot;Open Sans&quot;, sans-serif; font-size: 14px;\"><span style=\"color: rgb(33, 35, 34); font-family: &quot;Open Sans&quot;, sans-serif; font-size: 14px;\">Please refer to the following article first:&nbsp;</span><a style=\"color: rgb(33, 133, 208); text-decoration-line: underline; font-family: &quot;Open Sans&quot;, sans-serif; font-size: 14px;\" rel=\"nofollow noopener noreferrer\" target=\"_self\" href=\"https://sisense.dev/reference/js/widget/pivot2.html\">https://sisense.dev/reference/js/widget/pivot2.html.</a><font size=\"2\"><br></font></div><div style=\"text-align: left;\"><br></div><div style=\"text-align: left;\"><font size=\"2\"><a href=\"https://community.sisense.com/t5/build-analytics/pivot-2-0-manipulating-a-pivot-chart/td-p/3589\">https://community.sisense.com/t5/build-analytics/pivot-2-0-manipulating-a-pivot-chart/td-p/3589</a></font></div>",
+          "vAlign": "valign-middle",
+          "bgColor": "#FFFFFF",
+          "textAlign": "center"
+        }
+      },
+      "instanceid": "C78B4-82BE-9C",
+      "wasRendered": false,
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "dashboardid": "6278cc5e142df70036c23831"
+    },
+    {
+      "title": "",
+      "type": "pivot2",
+      "subtype": "pivot2",
+      "oid": "62a82907142df70036c41d3c",
+      "desc": null,
+      "source": "62aa1629142df70036c4417b",
+      "datasource": {
+        "fullname": "localhost/Sample Retail",
+        "id": "localhost_aSampleIAAaRetail",
+        "address": "LocalHost",
+        "database": "aSampleIAAaRetail",
+        "live": false,
+        "title": "Sample Retail"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "rows",
+            "items": [
+              {
+                "jaql": {
+                  "table": "DimDate",
+                  "column": "Date",
+                  "dim": "[DimDate.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "years",
+                  "title": "Year"
+                },
+                "instanceid": "224AA-E480-2B",
+                "panel": "rows",
+                "field": {
+                  "id": "[DimDate.Date (Calendar)]_years",
+                  "index": 0
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "isdefault": true
+                  },
+                  "subtotal": true
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ]
+              },
+              {
+                "jaql": {
+                  "table": "DimDate",
+                  "column": "Date",
+                  "dim": "[DimDate.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "months",
+                  "title": "Month"
+                },
+                "instanceid": "C7243-B47C-81",
+                "panel": "rows",
+                "field": {
+                  "id": "[DimDate.Date (Calendar)]_years",
+                  "index": 1
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "isdefault": true
+                  }
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "SUM([643BC-79A])",
+                  "context": {
+                    "[643BC-79A]": {
+                      "table": "Fact_Sale_orders",
+                      "column": "OrderRevenue",
+                      "dim": "[Fact_Sale_orders.OrderRevenue]",
+                      "datatype": "numeric",
+                      "agg": "sum",
+                      "title": "Total OrderRevenue"
+                    }
+                  },
+                  "title": "SUM",
+                  "datatype": "numeric"
+                },
+                "instanceid": "082A6-ECEF-A1",
+                "panel": "measures",
+                "field": {
+                  "id": "[Fact_Sale_orders.OrderRevenue]_sum",
+                  "index": 3
+                },
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": false,
+                      "b": false,
+                      "m": false,
+                      "k": false
+                    },
+                    "decimals": 2,
+                    "currency": {
+                      "symbol": "$",
+                      "position": "pre"
+                    }
+                  },
+                  "color": {
+                    "type": "color",
+                    "color": "transparent"
+                  }
+                },
+                "originalJaql": {
+                  "table": "Fact_Sale_orders",
+                  "column": "OrderRevenue",
+                  "dim": "[Fact_Sale_orders.OrderRevenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total OrderRevenue"
+                },
+                "quickFunction": "Contribution"
+              },
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "Contribution([BB4E9-F9D])",
+                  "context": {
+                    "[BB4E9-F9D]": {
+                      "table": "Fact_Sale_orders",
+                      "column": "OrderRevenue",
+                      "dim": "[Fact_Sale_orders.OrderRevenue]",
+                      "datatype": "numeric",
+                      "agg": "sum",
+                      "title": "Total OrderRevenue"
+                    }
+                  },
+                  "title": "CONTRIBUTION",
+                  "datatype": "numeric"
+                },
+                "instanceid": "082A6-ECEF-A1",
+                "panel": "measures",
+                "field": {
+                  "id": "[Fact_Sale_orders.OrderRevenue]_sum",
+                  "index": 4
+                },
+                "format": {
+                  "mask": {
+                    "type": "percent",
+                    "separated": true,
+                    "decimals": "2",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "type": "color",
+                    "color": "transparent"
+                  }
+                },
+                "originalJaql": {
+                  "table": "Fact_Sale_orders",
+                  "column": "OrderRevenue",
+                  "dim": "[Fact_Sale_orders.OrderRevenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total OrderRevenue"
+                },
+                "quickFunction": "Contribution"
+              }
+            ]
+          },
+          {
+            "name": "columns",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Fact_Sale_orders",
+                  "column": "OnlineOrderFlag",
+                  "dim": "[Fact_Sale_orders.OnlineOrderFlag]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Online"
+                },
+                "instanceid": "63644-323A-19",
+                "panel": "columns",
+                "field": {
+                  "id": "[Fact_Sale_orders.OnlineOrderFlag]",
+                  "index": 2
+                }
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": [
+              {
+                "jaql": {
+                  "table": "DimDate",
+                  "column": "Date",
+                  "dim": "[DimDate.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "quarters",
+                  "title": "Years in Date",
+                  "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                  },
+                  "collapsed": true,
+                  "datasource": {
+                    "fullname": "localhost/Sample Retail",
+                    "id": "localhost_aSampleIAAaRetail",
+                    "address": "LocalHost",
+                    "database": "aSampleIAAaRetail",
+                    "live": false,
+                    "title": "Sample Retail"
+                  }
+                },
+                "instanceid": "DF090-2672-1F",
+                "panel": "scope",
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "isdefault": true
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "style": {
+        "scroll": false,
+        "pageSize": 25,
+        "automaticHeight": true,
+        "colors": {
+          "rows": true,
+          "columns": false,
+          "headers": false,
+          "members": false,
+          "totals": false
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "year",
+              "title": "Year",
+              "singular": "Year",
+              "plural": "Year"
+            },
+            {
+              "id": "month",
+              "title": "Month",
+              "singular": "Month",
+              "plural": "Month"
+            },
+            {
+              "id": "online",
+              "title": "Online",
+              "singular": "Online",
+              "plural": "Online"
+            },
+            {
+              "id": "years_in_date",
+              "title": "Years in Date",
+              "singular": "Years in Date",
+              "plural": "Years in Date"
+            }
+          ]
+        },
+        "rowsGrandTotal": true,
+        "columnsGrandTotal": true
+      },
+      "instanceid": "7EF18-4FF3-F3",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 2,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "wasRendered": false,
+      "query": {
+        "datasource": {
+          "fullname": "localhost/Sample Retail",
+          "id": "localhost_aSampleIAAaRetail",
+          "address": "LocalHost",
+          "database": "aSampleIAAaRetail",
+          "live": false,
+          "title": "Sample Retail"
+        },
+        "format": "pivot",
+        "grandTotals": {
+          "title": "Grand Total",
+          "rows": true,
+          "columns": true
+        },
+        "metadata": [
+          {
+            "jaql": {
+              "table": "DimDate",
+              "column": "Date",
+              "dim": "[DimDate.Date (Calendar)]",
+              "datatype": "datetime",
+              "merged": true,
+              "level": "years",
+              "title": "Year"
+            },
+            "instanceid": "224AA-E480-2B",
+            "panel": "rows",
+            "field": {
+              "id": "[DimDate.Date (Calendar)]_years",
+              "index": 0
+            },
+            "format": {
+              "mask": {
+                "years": "yyyy",
+                "quarters": "yyyy Q",
+                "months": "MM/yyyy",
+                "weeks": "ww yyyy",
+                "days": "shortDate",
+                "minutes": "HH:mm",
+                "seconds": "MM/dd/yyyy HH:mm:ss",
+                "dateAndTime": "MM/dd/yyyy HH:mm",
+                "isdefault": true
+              },
+              "subtotal": true
+            },
+            "hierarchies": [
+              "calendar",
+              "calendar - weeks"
+            ],
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "DimDate",
+              "column": "Date",
+              "dim": "[DimDate.Date (Calendar)]",
+              "datatype": "datetime",
+              "merged": true,
+              "level": "months",
+              "title": "Month"
+            },
+            "instanceid": "C7243-B47C-81",
+            "panel": "rows",
+            "field": {
+              "id": "[DimDate.Date (Calendar)]_years",
+              "index": 1
+            },
+            "format": {
+              "mask": {
+                "years": "yyyy",
+                "quarters": "yyyy Q",
+                "months": "MM/yyyy",
+                "weeks": "ww yyyy",
+                "days": "shortDate",
+                "minutes": "HH:mm",
+                "seconds": "MM/dd/yyyy HH:mm:ss",
+                "dateAndTime": "MM/dd/yyyy HH:mm",
+                "isdefault": true
+              }
+            },
+            "hierarchies": [
+              "calendar",
+              "calendar - weeks"
+            ],
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "Fact_Sale_orders",
+              "column": "OnlineOrderFlag",
+              "dim": "[Fact_Sale_orders.OnlineOrderFlag]",
+              "datatype": "text",
+              "merged": true,
+              "title": "Online"
+            },
+            "instanceid": "63644-323A-19",
+            "panel": "columns",
+            "field": {
+              "id": "[Fact_Sale_orders.OnlineOrderFlag]",
+              "index": 2
+            },
+            "handlers": []
+          },
+          {
+            "jaql": {
+              "type": "measure",
+              "formula": "SUM([643BC-79A])",
+              "context": {
+                "[643BC-79A]": {
+                  "table": "Fact_Sale_orders",
+                  "column": "OrderRevenue",
+                  "dim": "[Fact_Sale_orders.OrderRevenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total OrderRevenue"
+                }
+              },
+              "title": "SUM",
+              "datatype": "numeric"
+            },
+            "instanceid": "082A6-ECEF-A1",
+            "panel": "measures",
+            "field": {
+              "id": "[Fact_Sale_orders.OrderRevenue]_sum",
+              "index": 3
+            },
+            "format": {
+              "mask": {
+                "abbreviations": {
+                  "t": false,
+                  "b": false,
+                  "m": false,
+                  "k": false
+                },
+                "decimals": 2,
+                "currency": {
+                  "symbol": "$",
+                  "position": "pre"
+                }
+              },
+              "color": {
+                "type": "color",
+                "color": "transparent"
+              }
+            },
+            "originalJaql": {
+              "table": "Fact_Sale_orders",
+              "column": "OrderRevenue",
+              "dim": "[Fact_Sale_orders.OrderRevenue]",
+              "datatype": "numeric",
+              "agg": "sum",
+              "title": "Total OrderRevenue"
+            },
+            "quickFunction": "Contribution",
+            "handlers": [
+              {},
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "type": "measure",
+              "formula": "Contribution([BB4E9-F9D])",
+              "context": {
+                "[BB4E9-F9D]": {
+                  "table": "Fact_Sale_orders",
+                  "column": "OrderRevenue",
+                  "dim": "[Fact_Sale_orders.OrderRevenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total OrderRevenue"
+                }
+              },
+              "title": "CONTRIBUTION",
+              "datatype": "numeric"
+            },
+            "instanceid": "082A6-ECEF-A1",
+            "panel": "measures",
+            "field": {
+              "id": "[Fact_Sale_orders.OrderRevenue]_sum",
+              "index": 4
+            },
+            "format": {
+              "mask": {
+                "type": "percent",
+                "separated": true,
+                "decimals": "2",
+                "isdefault": true
+              },
+              "color": {
+                "type": "color",
+                "color": "transparent"
+              }
+            },
+            "originalJaql": {
+              "table": "Fact_Sale_orders",
+              "column": "OrderRevenue",
+              "dim": "[Fact_Sale_orders.OrderRevenue]",
+              "datatype": "numeric",
+              "agg": "sum",
+              "title": "Total OrderRevenue"
+            },
+            "quickFunction": "Contribution",
+            "handlers": [
+              {},
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "DimDate",
+              "column": "Date",
+              "dim": "[DimDate.Date (Calendar)]",
+              "datatype": "datetime",
+              "merged": true,
+              "level": "quarters",
+              "title": "Years in Date",
+              "filter": {
+                "explicit": false,
+                "multiSelection": true,
+                "all": true
+              },
+              "collapsed": true,
+              "datasource": {
+                "fullname": "localhost/Sample Retail",
+                "id": "localhost_aSampleIAAaRetail",
+                "address": "LocalHost",
+                "database": "aSampleIAAaRetail",
+                "live": false,
+                "title": "Sample Retail"
+              }
+            },
+            "instanceid": "DF090-2672-1F",
+            "panel": "scope",
+            "format": {
+              "mask": {
+                "years": "yyyy",
+                "quarters": "yyyy Q",
+                "months": "MM/yyyy",
+                "weeks": "ww yyyy",
+                "days": "shortDate",
+                "minutes": "HH:mm",
+                "seconds": "MM/dd/yyyy HH:mm:ss",
+                "dateAndTime": "MM/dd/yyyy HH:mm",
+                "isdefault": true
+              }
+            },
+            "handlers": [
+              {}
+            ]
+          }
+        ],
+        "m2mThresholdFlag": 0
+      },
+      "jasperReportsSettings": {},
+      "script": "/*\nWelcome to your Widget's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at https://sisense.dev/guides/js/extensions\n*/\n\nwidget.transformPivot(\n    {\n\t\n\t},\n    function (metadata, cell) \n    {\n        cell.content = '[' + metadata.colIndex + ',' + metadata.rowIndex + ']'\n\t\t\n\t\tpluginKey: 'pivot-script-2'\n    }\n\n);",
+      "script_old": "",
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": false,
+        "triggersDomready": true,
+        "drillToAnywhere": true,
+        "autoUpdateOnEveryChange": true,
+        "interactivePivot": {
+          "enable": false
+        },
+        "imageColumns": []
+      },
+      "dashboardid": "6278cc5e142df70036c23831"
+    },
+    {
+      "title": "",
+      "type": "pivot2",
+      "subtype": "pivot2",
+      "oid": "62a85ad2142df70036c41e6b",
+      "desc": null,
+      "source": "62aa1629142df70036c4417c",
+      "datasource": {
+        "fullname": "localhost/Sample Retail",
+        "id": "localhost_aSampleIAAaRetail",
+        "address": "LocalHost",
+        "database": "aSampleIAAaRetail",
+        "live": false,
+        "title": "Sample Retail"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "rows",
+            "items": [
+              {
+                "jaql": {
+                  "table": "DimDate",
+                  "column": "Date",
+                  "dim": "[DimDate.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "years",
+                  "title": "Year"
+                },
+                "instanceid": "224AA-E480-2B",
+                "panel": "rows",
+                "field": {
+                  "id": "[DimDate.Date (Calendar)]_years",
+                  "index": 0
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "isdefault": true
+                  },
+                  "subtotal": true
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ]
+              },
+              {
+                "jaql": {
+                  "table": "DimDate",
+                  "column": "Date",
+                  "dim": "[DimDate.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "months",
+                  "title": "Month"
+                },
+                "instanceid": "C7243-B47C-81",
+                "panel": "rows",
+                "field": {
+                  "id": "[DimDate.Date (Calendar)]_years",
+                  "index": 1
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "isdefault": true
+                  }
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "SUM([643BC-79A])",
+                  "context": {
+                    "[643BC-79A]": {
+                      "table": "Fact_Sale_orders",
+                      "column": "OrderRevenue",
+                      "dim": "[Fact_Sale_orders.OrderRevenue]",
+                      "datatype": "numeric",
+                      "agg": "sum",
+                      "title": "Total OrderRevenue"
+                    }
+                  },
+                  "title": "SUM",
+                  "datatype": "numeric"
+                },
+                "instanceid": "082A6-ECEF-A1",
+                "panel": "measures",
+                "field": {
+                  "id": "[Fact_Sale_orders.OrderRevenue]_sum",
+                  "index": 3
+                },
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": false,
+                      "b": false,
+                      "m": false,
+                      "k": false
+                    },
+                    "decimals": 2,
+                    "currency": {
+                      "symbol": "$",
+                      "position": "pre"
+                    }
+                  },
+                  "color": {
+                    "type": "color",
+                    "color": "transparent"
+                  }
+                },
+                "originalJaql": {
+                  "table": "Fact_Sale_orders",
+                  "column": "OrderRevenue",
+                  "dim": "[Fact_Sale_orders.OrderRevenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total OrderRevenue"
+                },
+                "quickFunction": "Contribution"
+              },
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "Contribution([BB4E9-F9D])",
+                  "context": {
+                    "[BB4E9-F9D]": {
+                      "table": "Fact_Sale_orders",
+                      "column": "OrderRevenue",
+                      "dim": "[Fact_Sale_orders.OrderRevenue]",
+                      "datatype": "numeric",
+                      "agg": "sum",
+                      "title": "Total OrderRevenue"
+                    }
+                  },
+                  "title": "CONTRIBUTION",
+                  "datatype": "numeric"
+                },
+                "instanceid": "082A6-ECEF-A1",
+                "panel": "measures",
+                "field": {
+                  "id": "[Fact_Sale_orders.OrderRevenue]_sum",
+                  "index": 4
+                },
+                "format": {
+                  "mask": {
+                    "type": "percent",
+                    "separated": true,
+                    "decimals": "2",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "type": "color",
+                    "color": "transparent"
+                  }
+                },
+                "originalJaql": {
+                  "table": "Fact_Sale_orders",
+                  "column": "OrderRevenue",
+                  "dim": "[Fact_Sale_orders.OrderRevenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total OrderRevenue"
+                },
+                "quickFunction": "Contribution"
+              }
+            ]
+          },
+          {
+            "name": "columns",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Fact_Sale_orders",
+                  "column": "OnlineOrderFlag",
+                  "dim": "[Fact_Sale_orders.OnlineOrderFlag]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Online"
+                },
+                "instanceid": "63644-323A-19",
+                "panel": "columns",
+                "field": {
+                  "id": "[Fact_Sale_orders.OnlineOrderFlag]",
+                  "index": 2
+                }
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": [
+              {
+                "jaql": {
+                  "table": "DimDate",
+                  "column": "Date",
+                  "dim": "[DimDate.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "quarters",
+                  "title": "Years in Date",
+                  "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                  },
+                  "collapsed": true,
+                  "datasource": {
+                    "fullname": "localhost/Sample Retail",
+                    "id": "localhost_aSampleIAAaRetail",
+                    "address": "LocalHost",
+                    "database": "aSampleIAAaRetail",
+                    "live": false,
+                    "title": "Sample Retail"
+                  }
+                },
+                "instanceid": "DF090-2672-1F",
+                "panel": "scope",
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "isdefault": true
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "style": {
+        "scroll": false,
+        "pageSize": 25,
+        "automaticHeight": true,
+        "colors": {
+          "rows": true,
+          "columns": false,
+          "headers": false,
+          "members": false,
+          "totals": false
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "year",
+              "title": "Year",
+              "singular": "Year",
+              "plural": "Year"
+            },
+            {
+              "id": "month",
+              "title": "Month",
+              "singular": "Month",
+              "plural": "Month"
+            },
+            {
+              "id": "online",
+              "title": "Online",
+              "singular": "Online",
+              "plural": "Online"
+            },
+            {
+              "id": "years_in_date",
+              "title": "Years in Date",
+              "singular": "Years in Date",
+              "plural": "Years in Date"
+            }
+          ]
+        },
+        "rowsGrandTotal": true,
+        "columnsGrandTotal": true
+      },
+      "instanceid": "7EF18-4FF3-F3",
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 2,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "wasRendered": false,
+      "query": {
+        "datasource": {
+          "fullname": "localhost/Sample Retail",
+          "id": "localhost_aSampleIAAaRetail",
+          "address": "LocalHost",
+          "database": "aSampleIAAaRetail",
+          "live": false,
+          "title": "Sample Retail"
+        },
+        "format": "pivot",
+        "grandTotals": {
+          "title": "Grand Total",
+          "rows": true,
+          "columns": true
+        },
+        "metadata": [
+          {
+            "jaql": {
+              "table": "DimDate",
+              "column": "Date",
+              "dim": "[DimDate.Date (Calendar)]",
+              "datatype": "datetime",
+              "merged": true,
+              "level": "years",
+              "title": "Year"
+            },
+            "instanceid": "224AA-E480-2B",
+            "panel": "rows",
+            "field": {
+              "id": "[DimDate.Date (Calendar)]_years",
+              "index": 0
+            },
+            "format": {
+              "mask": {
+                "years": "yyyy",
+                "quarters": "yyyy Q",
+                "months": "MM/yyyy",
+                "weeks": "ww yyyy",
+                "days": "shortDate",
+                "minutes": "HH:mm",
+                "seconds": "MM/dd/yyyy HH:mm:ss",
+                "dateAndTime": "MM/dd/yyyy HH:mm",
+                "isdefault": true
+              },
+              "subtotal": true
+            },
+            "hierarchies": [
+              "calendar",
+              "calendar - weeks"
+            ],
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "DimDate",
+              "column": "Date",
+              "dim": "[DimDate.Date (Calendar)]",
+              "datatype": "datetime",
+              "merged": true,
+              "level": "months",
+              "title": "Month"
+            },
+            "instanceid": "C7243-B47C-81",
+            "panel": "rows",
+            "field": {
+              "id": "[DimDate.Date (Calendar)]_years",
+              "index": 1
+            },
+            "format": {
+              "mask": {
+                "years": "yyyy",
+                "quarters": "yyyy Q",
+                "months": "MM/yyyy",
+                "weeks": "ww yyyy",
+                "days": "shortDate",
+                "minutes": "HH:mm",
+                "seconds": "MM/dd/yyyy HH:mm:ss",
+                "dateAndTime": "MM/dd/yyyy HH:mm",
+                "isdefault": true
+              }
+            },
+            "hierarchies": [
+              "calendar",
+              "calendar - weeks"
+            ],
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "Fact_Sale_orders",
+              "column": "OnlineOrderFlag",
+              "dim": "[Fact_Sale_orders.OnlineOrderFlag]",
+              "datatype": "text",
+              "merged": true,
+              "title": "Online"
+            },
+            "instanceid": "63644-323A-19",
+            "panel": "columns",
+            "field": {
+              "id": "[Fact_Sale_orders.OnlineOrderFlag]",
+              "index": 2
+            },
+            "handlers": []
+          },
+          {
+            "jaql": {
+              "type": "measure",
+              "formula": "SUM([643BC-79A])",
+              "context": {
+                "[643BC-79A]": {
+                  "table": "Fact_Sale_orders",
+                  "column": "OrderRevenue",
+                  "dim": "[Fact_Sale_orders.OrderRevenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total OrderRevenue"
+                }
+              },
+              "title": "SUM",
+              "datatype": "numeric"
+            },
+            "instanceid": "082A6-ECEF-A1",
+            "panel": "measures",
+            "field": {
+              "id": "[Fact_Sale_orders.OrderRevenue]_sum",
+              "index": 3
+            },
+            "format": {
+              "mask": {
+                "abbreviations": {
+                  "t": false,
+                  "b": false,
+                  "m": false,
+                  "k": false
+                },
+                "decimals": 2,
+                "currency": {
+                  "symbol": "$",
+                  "position": "pre"
+                }
+              },
+              "color": {
+                "type": "color",
+                "color": "transparent"
+              }
+            },
+            "originalJaql": {
+              "table": "Fact_Sale_orders",
+              "column": "OrderRevenue",
+              "dim": "[Fact_Sale_orders.OrderRevenue]",
+              "datatype": "numeric",
+              "agg": "sum",
+              "title": "Total OrderRevenue"
+            },
+            "quickFunction": "Contribution",
+            "handlers": [
+              {},
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "type": "measure",
+              "formula": "Contribution([BB4E9-F9D])",
+              "context": {
+                "[BB4E9-F9D]": {
+                  "table": "Fact_Sale_orders",
+                  "column": "OrderRevenue",
+                  "dim": "[Fact_Sale_orders.OrderRevenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total OrderRevenue"
+                }
+              },
+              "title": "CONTRIBUTION",
+              "datatype": "numeric"
+            },
+            "instanceid": "082A6-ECEF-A1",
+            "panel": "measures",
+            "field": {
+              "id": "[Fact_Sale_orders.OrderRevenue]_sum",
+              "index": 4
+            },
+            "format": {
+              "mask": {
+                "type": "percent",
+                "separated": true,
+                "decimals": "2",
+                "isdefault": true
+              },
+              "color": {
+                "type": "color",
+                "color": "transparent"
+              }
+            },
+            "originalJaql": {
+              "table": "Fact_Sale_orders",
+              "column": "OrderRevenue",
+              "dim": "[Fact_Sale_orders.OrderRevenue]",
+              "datatype": "numeric",
+              "agg": "sum",
+              "title": "Total OrderRevenue"
+            },
+            "quickFunction": "Contribution",
+            "handlers": [
+              {},
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "DimDate",
+              "column": "Date",
+              "dim": "[DimDate.Date (Calendar)]",
+              "datatype": "datetime",
+              "merged": true,
+              "level": "quarters",
+              "title": "Years in Date",
+              "filter": {
+                "explicit": false,
+                "multiSelection": true,
+                "all": true
+              },
+              "collapsed": true,
+              "datasource": {
+                "fullname": "localhost/Sample Retail",
+                "id": "localhost_aSampleIAAaRetail",
+                "address": "LocalHost",
+                "database": "aSampleIAAaRetail",
+                "live": false,
+                "title": "Sample Retail"
+              }
+            },
+            "instanceid": "DF090-2672-1F",
+            "panel": "scope",
+            "format": {
+              "mask": {
+                "years": "yyyy",
+                "quarters": "yyyy Q",
+                "months": "MM/yyyy",
+                "weeks": "ww yyyy",
+                "days": "shortDate",
+                "minutes": "HH:mm",
+                "seconds": "MM/dd/yyyy HH:mm:ss",
+                "dateAndTime": "MM/dd/yyyy HH:mm",
+                "isdefault": true
+              }
+            },
+            "handlers": [
+              {}
+            ]
+          }
+        ],
+        "m2mThresholdFlag": 0
+      },
+      "jasperReportsSettings": {},
+      "script": "/*\nWelcome to your Widget's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at https://sisense.dev/guides/js/extensions\n*/\n\nwidget.transformPivot(\n\t{\n\t\t//type: ['value']\n\t},\n\tfunction (metadata, cell) \n\t{\n\t\tcell.style = {\n\t\t\tbackgroundColor : 'lightgray',\n\t\t\tfontSize : 14,\n\t\t\tfontWeight : 'bold',\n\t\t\tfontStyle : 'italic',\n\t\t\ttextAlign : 'center',\n\t\t\tcolor : 'black',\n\t\t\tborderColor : 'black',\n\t\t\tborderWidth : '3px',\n\t\t\tminWidth : '150px',\n\t\t\tmaxWidth : '200px'\n\t\t};\n\t\t\n\t\t\n\t\t//console.log('T');\n\t\tpluginKey: 'pivot-script-3'\n\t}\n);",
+      "script_old": "",
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": false,
+        "triggersDomready": true,
+        "drillToAnywhere": true,
+        "autoUpdateOnEveryChange": true,
+        "interactivePivot": {
+          "enable": false
+        },
+        "imageColumns": []
+      },
+      "dashboardid": "6278cc5e142df70036c23831"
+    }
+  ],
+  "hierarchies": []
+}

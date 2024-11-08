@@ -1,0 +1,1637 @@
+{
+  "oid": "61bc8eb798f8b514782a6b2b",
+  "allowChangeSubscription": false,
+  "dataExploration": false,
+  "datasource": {
+    "title": "Sample ECommerce",
+    "fullname": "LocalHost/Sample ECommerce",
+    "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+    "address": "LocalHost",
+    "database": "aSampleIAAaECommerce",
+    "oid": "e5162c18-b1f7-4b03-b5ae-f06e30df01db"
+  },
+  "defaultFilters": [
+    {
+      "jaql": {
+        "table": "Commerce",
+        "column": "Date",
+        "dim": "[Commerce.Date (Calendar)]",
+        "datatype": "datetime",
+        "merged": true,
+        "level": "months",
+        "title": "Months in Date",
+        "collapsed": true,
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce",
+          "oid": "e5162c18-b1f7-4b03-b5ae-f06e30df01db",
+          "lastBuildTime": "2020-02-12T12:02:00"
+        },
+        "fiscal": "jun",
+        "filter": {
+          "explicit": true,
+          "multiSelection": true,
+          "members": [
+            "2011-05-31T08:00:00"
+          ]
+        }
+      },
+      "format": {
+        "mask": {
+          "years": "yyyy",
+          "quarters": "yyyy Q",
+          "months": "yyyy-MM",
+          "weeks": "ww yyyy",
+          "days": "shortDate",
+          "minutes": "HH:mm"
+        }
+      },
+      "hierarchies": [
+        "calendar",
+        "calendar - weeks"
+      ],
+      "disabled": false,
+      "instanceid": "50A5D-BE85-D3",
+      "isCascading": false
+    },
+    {
+      "jaql": {
+        "datatype": "text",
+        "dim": "[Brand.Brand]",
+        "title": "Brand",
+        "column": "Brand",
+        "table": "Brand",
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce"
+        },
+        "collapsed": true,
+        "merged": true,
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "1FCBD-8AAB-25",
+      "isCascading": false,
+      "disabled": false
+    }
+  ],
+  "desc": "",
+  "editing": false,
+  "filterToDatasourceMapping": {},
+  "filters": [
+    {
+      "jaql": {
+        "table": "Commerce",
+        "column": "Date",
+        "dim": "[Commerce.Date (Calendar)]",
+        "datatype": "datetime",
+        "merged": true,
+        "level": "months",
+        "title": "Months in Date",
+        "collapsed": true,
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce",
+          "oid": "e5162c18-b1f7-4b03-b5ae-f06e30df01db",
+          "lastBuildTime": "2020-02-12T12:02:00"
+        },
+        "fiscal": "jun",
+        "isDashboardFilter": true,
+        "filter": {
+          "explicit": true,
+          "multiSelection": true,
+          "members": [
+            "2010-02-01T00:00:00"
+          ]
+        }
+      },
+      "format": {
+        "mask": {
+          "years": "yyyy",
+          "quarters": "yyyy Q",
+          "months": "yyyy-MM",
+          "weeks": "ww yyyy",
+          "days": "shortDate",
+          "minutes": "HH:mm"
+        }
+      },
+      "hierarchies": [
+        "calendar",
+        "calendar - weeks"
+      ],
+      "disabled": false,
+      "instanceid": "50A5D-BE85-D3",
+      "isCascading": false
+    },
+    {
+      "jaql": {
+        "datatype": "text",
+        "dim": "[Brand.Brand]",
+        "title": "Brand",
+        "column": "Brand",
+        "table": "Brand",
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce"
+        },
+        "collapsed": true,
+        "merged": true,
+        "isDashboardFilter": true,
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "1FCBD-8AAB-25",
+      "isCascading": false,
+      "disabled": true
+    }
+  ],
+  "isPublic": null,
+  "layout": {
+    "instanceid": "9B295-8A15-B5",
+    "type": "columnar",
+    "columns": [
+      {
+        "width": 100,
+        "cells": [
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 68,
+                    "maxHeight": 937,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "61bc8eb798f8b514782a6b2e",
+                    "height": "68px"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1022,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 68,
+                    "maxHeight": 1249,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "61bc8eb798f8b514782a6b2d",
+                    "height": "36px"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1022,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 256,
+                    "maxHeight": 2048,
+                    "minWidth": 256,
+                    "maxWidth": 2048,
+                    "height": 640,
+                    "defaultWidth": 512,
+                    "widgetid": "61bc8eb798f8b514782a6b2c"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1022,
+                "index": 0
+              }
+            ]
+          }
+        ],
+        "pxlWidth": 1022,
+        "index": 0
+      }
+    ],
+    "container": {}
+  },
+  "original": null,
+  "parentFolder": "61c44b8683642f002bf1838d",
+  "previewLayout": [],
+  "settings": {
+    "autoUpdateOnFiltersChange": true
+  },
+  "source": "61c44ed783642f002bf18668",
+  "style": {
+    "palette": {
+      "name": "Vivid",
+      "colors": [
+        "#00cee6",
+        "#9b9bd7",
+        "#6EDA55",
+        "#fc7570",
+        "#fbb755",
+        "#218A8C"
+      ]
+    }
+  },
+  "subscription": null,
+  "title": "Blox - Filter + Drill + Agg Table - Einav's Example",
+  "type": "dashboard",
+  "lastOpened": null,
+  "filterRelations": [],
+  "widgets": [
+    {
+      "title": "",
+      "type": "tablewidgetagg",
+      "subtype": "tablewidgetagg",
+      "oid": "61bc8eb798f8b514782a6b2c",
+      "desc": null,
+      "source": "61c44ed783642f002bf1866c",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "columns",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Date",
+                  "dim": "[Commerce.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "years",
+                  "title": "Years in Date"
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "isdefault": true
+                  }
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ]
+              },
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Date",
+                  "dim": "[Commerce.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "months",
+                  "title": "Months in Date"
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "isdefault": true
+                  }
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ]
+              },
+              {
+                "jaql": {
+                  "table": "Brand",
+                  "column": "Brand ID",
+                  "dim": "[Brand.Brand ID]",
+                  "datatype": "numeric",
+                  "merged": true,
+                  "title": "Brand ID"
+                }
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "style": {
+        "borders/all": true,
+        "borders/grid": false,
+        "borders/rows": false,
+        "borders/columns": false,
+        "width/content": true,
+        "width/window": false,
+        "colors/headers": true,
+        "colors/rows": true,
+        "colors/columns": false,
+        "wordwrap/headers": true,
+        "wordwrap/rows": false,
+        "scroll": false,
+        "pageSize": 25,
+        "tableState": {
+          "time": 1581520123299,
+          "start": 0,
+          "length": 25,
+          "order": [
+            [
+              0,
+              "asc"
+            ]
+          ],
+          "search": {
+            "search": "",
+            "smart": true,
+            "regex": false,
+            "caseInsensitive": true
+          },
+          "columns": [
+            {
+              "visible": true,
+              "search": {
+                "search": "",
+                "smart": true,
+                "regex": false,
+                "caseInsensitive": true
+              }
+            },
+            {
+              "visible": true,
+              "search": {
+                "search": "",
+                "smart": true,
+                "regex": false,
+                "caseInsensitive": true
+              }
+            },
+            {
+              "visible": true,
+              "search": {
+                "search": "",
+                "smart": true,
+                "regex": false,
+                "caseInsensitive": true
+              }
+            }
+          ],
+          "colResize": {
+            "columns": [
+              "303px",
+              "255px",
+              "476px"
+            ],
+            "tableSize": 1034
+          },
+          "iScrollerTopRow": 0,
+          "iScroller": 0,
+          "headers": [
+            {
+              "title": "Years in Date",
+              "dim": "[Commerce.Date (Calendar)]",
+              "level": "years",
+              "datatype": "datetime"
+            },
+            {
+              "title": "Months in Date",
+              "dim": "[Commerce.Date (Calendar)]",
+              "level": "months",
+              "datatype": "datetime"
+            },
+            {
+              "title": "Brand ID",
+              "dim": "[Brand.Brand ID]",
+              "datatype": "numeric"
+            }
+          ]
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "years",
+              "title": "years",
+              "singular": "years",
+              "plural": "years"
+            },
+            {
+              "id": "months",
+              "title": "months",
+              "singular": "months",
+              "plural": "months"
+            },
+            {
+              "id": "brand_id",
+              "title": "Brand ID",
+              "singular": "Brand ID",
+              "plural": "Brand ID"
+            }
+          ]
+        }
+      },
+      "instanceid": "98A18-412C-34",
+      "questQueryResult": {
+        "isActive": false,
+        "isPending": false
+      },
+      "custom": {
+        "barcolumnchart": {
+          "type": "tablewidgetagg",
+          "isTypeValid": false,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default"
+        }
+      },
+      "displayMenu": false,
+      "options": {
+        "dashboardFiltersMode": "select",
+        "triggersDomready": true,
+        "selector": false,
+        "dataTypes": {
+          "dimensions": true,
+          "measures": false,
+          "filter": false
+        },
+        "autoUpdateOnEveryChange": true,
+        "supportsHierarchies": false,
+        "aiFeatures": [
+          {
+            "id": "pareto_1569481451806",
+            "name": "Pareto",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Roughly 80% of the effects come from 20% of the causes",
+            "isCustomModel": true
+          },
+          {
+            "id": "summary_statistics_1569425202576",
+            "name": "Summary Statistics",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Provide information about your data",
+            "isCustomModel": true
+          },
+          {
+            "id": "cluster_1570673124179",
+            "name": "Clustering",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Grouping a set of objects in such a way that objects in the same group are more similar to each other than to those in other groups",
+            "isCustomModel": true
+          },
+          {
+            "id": "anomaly",
+            "name": "Anomaly",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Outlier data points detections",
+            "isCustomModel": false
+          },
+          {
+            "id": "forecast",
+            "name": "What-If Analysis",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {
+              "hasTargetVar": true,
+              "targetVar": {
+                "targetVarPaneActive": false,
+                "sectionTitle": "Target Value",
+                "options": []
+              }
+            },
+            "description": "Predict the future values of a 2-var-TS, one of which is the target and the\n                    second is explaining variable.\n                    Provide non-symmetric confidence-interval for the above predictions.\n                    Var-Dependence (Score) - the strength of the influence of the explaining\n                    variable on the target one.\n                    XAI (model weights etc)",
+            "isCustomModel": false
+          },
+          {
+            "id": "local_estimates",
+            "name": "Local Estimate",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Locally (using before and after time series points) estimating the mean of the time series",
+            "isCustomModel": false
+          },
+          {
+            "id": "trend",
+            "name": "Trend",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Detect (if exists) Trend-Break-Points and connect those with a trend line",
+            "isCustomModel": false
+          }
+        ]
+      },
+      "dashboardid": "61bc8eb798f8b514782a6b2b"
+    },
+    {
+      "title": "Without Hiding Title",
+      "type": "BloX",
+      "subtype": "BloX",
+      "oid": "61bc8eb798f8b514782a6b2d",
+      "desc": null,
+      "source": "61c44ed783642f002bf1866d",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "Items",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Date",
+                  "dim": "[Commerce.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "months",
+                  "title": "Months in Date"
+                },
+                "PanelName": "Months in Date",
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "yyyy-MM",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm"
+                  }
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Values",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "style": {
+        "currentCard": {
+          "style": {},
+          "script": "",
+          "title": "",
+          "titleStyle": [
+            {
+              "display": "show"
+            }
+          ],
+          "showCarousel": true,
+          "carouselAnimation": {
+            "showButtons": false
+          },
+          "body": [
+            {
+              "type": "Container"
+            },
+            {
+              "type": "ColumnSet",
+              "separator": false,
+              "spacing": "default",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "170px",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "size": "small",
+                      "weight": "regular",
+                      "wrap": true,
+                      "text": "Choose Month",
+                      "style": {
+                        "color": "black",
+                        "padding-left": "10px",
+                        "margin-left": "10px",
+                        "backgroundColor": "white"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "spacing": "none",
+                  "width": "175px",
+                  "items": [
+                    {
+                      "type": "Container",
+                      "spacing": "none",
+                      "width": "150px",
+                      "items": [
+                        {
+                          "type": "Input.ChoiceSet",
+                          "id": "data.filters[0].filterJaql.members[0]",
+                          "class": "",
+                          "displayType": "compact",
+                          "style": {
+                            "align-self": "center"
+                          },
+                          "choices": "{choices:Months in Date}"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "spacing": "none",
+                  "width": "100px",
+                  "items": [
+                    {
+                      "type": "Container",
+                      "spacing": "none",
+                      "width": "80px",
+                      "items": [
+                        {
+                          "type": "ActionSet",
+                          "margin": "0px",
+                          "padding": "0px",
+                          "actions": [
+                            {
+                              "type": "Filters",
+                              "title": "Apply",
+                              "data": {
+                                "filters": [
+                                  {
+                                    "filterName": "Months in Date",
+                                    "filterJaql": {
+                                      "explicit": true,
+                                      "multiSelection": true,
+                                      "members": [
+                                        "{panel:Months in Date}-01T00:00:00"
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "spacing": "none",
+                  "width": "100px",
+                  "items": [
+                    {
+                      "type": "Container",
+                      "spacing": "none",
+                      "width": "80px",
+                      "items": [
+                        {
+                          "type": "ActionSet",
+                          "margin": "0px",
+                          "padding": "0px",
+                          "actions": [
+                            {
+                              "type": "Filters",
+                              "title": "Clear",
+                              "data": {
+                                "filters": [
+                                  {
+                                    "panelName": "Months in Date",
+                                    "filterJaql": {
+                                      "explicit": true,
+                                      "all": true
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "spacing": "none",
+                  "width": "100px",
+                  "items": [
+                    {
+                      "type": "Container",
+                      "spacing": "none",
+                      "width": "80px",
+                      "items": [
+                        {
+                          "type": "ActionSet",
+                          "margin": "0px",
+                          "padding": "0px",
+                          "actions": [
+                            {
+                              "type": "JTD",
+                              "title": "Drill to ID",
+                              "style": {
+                                "fontSize": "",
+                                "fontFamily": ""
+                              },
+                              "data": {
+                                "dashboardId": "5e43c29a2578cd25c8c8638f",
+                                "panelsToInclude": [
+                                  {
+                                    "panel": "Months in Date",
+                                    "value": "{value:Months in Date}"
+                                  }
+                                ],
+                                "args": {
+                                  "displayDashboardsPane": false,
+                                  "displayFilterPane": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": []
+        },
+        "currentConfig": {
+          "fontFamily": "Open Sans",
+          "fontSizes": {
+            "default": 14,
+            "small": 16,
+            "medium": 20,
+            "large": 50,
+            "extraLarge": 32
+          },
+          "fontWeights": {
+            "default": 500,
+            "light": 100,
+            "bold": 1000
+          },
+          "containerStyles": {
+            "default": {
+              "backgroundColor": "#FFFFFF",
+              "foregroundColors": {
+                "default": {
+                  "normal": "#3a4356"
+                },
+                "white": {
+                  "normal": "#ffffff"
+                },
+                "grey": {
+                  "normal": "#9ea2ab"
+                },
+                "orange": {
+                  "normal": "#f2B900"
+                },
+                "yellow": {
+                  "normal": "#ffcb05"
+                },
+                "black": {
+                  "normal": "#000000"
+                },
+                "lightGreen": {
+                  "normal": "#3ADCCA"
+                },
+                "green": {
+                  "normal": "#54a254"
+                },
+                "red": {
+                  "normal": "#dd1111"
+                },
+                "accent": {
+                  "normal": "#2E89FC"
+                },
+                "good": {
+                  "normal": "#54a254"
+                },
+                "warning": {
+                  "normal": "#e69500"
+                },
+                "attention": {
+                  "normal": "#cc3300"
+                }
+              }
+            }
+          },
+          "imageSizes": {
+            "default": 40,
+            "small": 40,
+            "medium": 80,
+            "large": 160
+          },
+          "imageSet": {
+            "imageSize": "medium",
+            "maxImageHeight": 100
+          },
+          "actions": {
+            "color": "white",
+            "backgroundColor": "",
+            "maxActions": 5,
+            "spacing": "none",
+            "buttonSpacing": 20,
+            "actionsOrientation": "horizontal",
+            "actionAlignment": "left",
+            "showCard": {
+              "actionMode": "inline",
+              "inlineTopMargin": 16,
+              "style": "default"
+            }
+          },
+          "spacing": {
+            "default": 5,
+            "none": 0,
+            "small": 20,
+            "medium": 60,
+            "large": 20,
+            "extraLarge": 40,
+            "padding": 0
+          },
+          "separator": {
+            "lineThickness": 3,
+            "lineColor": "#ffcb05"
+          },
+          "factSet": {
+            "title": {
+              "size": "default",
+              "color": "default",
+              "weight": "bold",
+              "warp": true
+            },
+            "value": {
+              "size": "default",
+              "color": "default",
+              "weight": "default",
+              "warp": true
+            },
+            "spacing": 20
+          },
+          "supportsInteractivity": true,
+          "height": 49,
+          "imageBaseUrl": ""
+        },
+        "currentCardName": "DynamicDropdown",
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "months",
+              "title": "months",
+              "singular": "months",
+              "plural": "months"
+            }
+          ]
+        }
+      },
+      "instanceid": "95BFA-F143-1A",
+      "questQueryResult": {
+        "isActive": false,
+        "isPending": false
+      },
+      "custom": {
+        "barcolumnchart": {
+          "type": "BloX",
+          "isTypeValid": false,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total"
+        }
+      },
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 4,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "drilledDashboardDisplay": {},
+      "displayMenu": false,
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "title": false,
+        "drillTarget": "5e43c29a2578cd25c8c8638f",
+        "autoUpdateOnEveryChange": true
+      },
+      "dashboardid": "61bc8eb798f8b514782a6b2b",
+      "query": {
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce"
+        },
+        "format": "json",
+        "isMaskedResult": true,
+        "metadata": [
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Date",
+              "dim": "[Commerce.Date (Calendar)]",
+              "datatype": "datetime",
+              "merged": true,
+              "level": "months",
+              "title": "Months in Date"
+            },
+            "PanelName": "Months in Date",
+            "format": {
+              "mask": {
+                "years": "yyyy",
+                "quarters": "yyyy Q",
+                "months": "yyyy-MM",
+                "weeks": "ww yyyy",
+                "days": "shortDate",
+                "minutes": "HH:mm"
+              }
+            },
+            "hierarchies": [
+              "calendar",
+              "calendar - weeks"
+            ],
+            "instanceid": "03A0B-547A-67",
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Date",
+              "dim": "[Commerce.Date (Calendar)]",
+              "datatype": "datetime",
+              "merged": true,
+              "level": "months",
+              "title": "Months in Date",
+              "collapsed": true,
+              "datasource": {
+                "title": "Sample ECommerce",
+                "fullname": "LocalHost/Sample ECommerce",
+                "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+                "address": "LocalHost",
+                "database": "aSampleIAAaECommerce",
+                "oid": "e5162c18-b1f7-4b03-b5ae-f06e30df01db",
+                "lastBuildTime": "2020-02-12T12:02:00"
+              },
+              "isDashboardFilter": true,
+              "filter": {
+                "explicit": true,
+                "multiSelection": true,
+                "members": [
+                  "2010-02-01T00:00:00"
+                ]
+              }
+            },
+            "disabled": false,
+            "isCascading": false,
+            "instanceid": "50A5D-BE85-D3",
+            "panel": "scope"
+          }
+        ],
+        "m2mThresholdFlag": 0
+      }
+    },
+    {
+      "title": "",
+      "type": "BloX",
+      "subtype": "BloX",
+      "oid": "61bc8eb798f8b514782a6b2e",
+      "desc": null,
+      "source": "61c44ed783642f002bf1866e",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "Items",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Date",
+                  "dim": "[Commerce.Date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "months",
+                  "title": "Months in Date"
+                },
+                "PanelName": "Months in Date",
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "yyyy-MM",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm"
+                  }
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Values",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "style": {
+        "currentCard": {
+          "style": {},
+          "script": "",
+          "title": "show",
+          "titleStyle": [
+            {
+              "display": "none"
+            }
+          ],
+          "showCarousel": true,
+          "carouselAnimation": {
+            "showButtons": false
+          },
+          "body": [
+            {
+              "type": "Container"
+            },
+            {
+              "type": "ColumnSet",
+              "separator": false,
+              "spacing": "default",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "170px",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "size": "small",
+                      "weight": "regular",
+                      "wrap": true,
+                      "text": "Choose Month",
+                      "style": {
+                        "color": "black",
+                        "padding-left": "10px",
+                        "margin-left": "10px",
+                        "backgroundColor": "white"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "spacing": "none",
+                  "width": "175px",
+                  "items": [
+                    {
+                      "type": "Container",
+                      "spacing": "none",
+                      "width": "150px",
+                      "items": [
+                        {
+                          "type": "Input.ChoiceSet",
+                          "id": "data.filters[0].filterJaql.members[0]",
+                          "class": "",
+                          "displayType": "compact",
+                          "style": {
+                            "align-self": "center"
+                          },
+                          "choices": "{choices:Months in Date}"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "spacing": "none",
+                  "width": "100px",
+                  "items": [
+                    {
+                      "type": "Container",
+                      "spacing": "none",
+                      "width": "80px",
+                      "items": [
+                        {
+                          "type": "ActionSet",
+                          "margin": "0px",
+                          "padding": "0px",
+                          "actions": [
+                            {
+                              "type": "Filters",
+                              "title": "Apply",
+                              "data": {
+                                "filters": [
+                                  {
+                                    "filterName": "Months in Date",
+                                    "filterJaql": {
+                                      "explicit": true,
+                                      "multiSelection": true,
+                                      "members": [
+                                        "{panel:Months in Date}-01T00:00:00"
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "spacing": "none",
+                  "width": "100px",
+                  "items": [
+                    {
+                      "type": "Container",
+                      "spacing": "none",
+                      "width": "80px",
+                      "items": [
+                        {
+                          "type": "ActionSet",
+                          "margin": "0px",
+                          "padding": "0px",
+                          "actions": [
+                            {
+                              "type": "Filters",
+                              "title": "Clear",
+                              "data": {
+                                "filters": [
+                                  {
+                                    "panelName": "Months in Date",
+                                    "filterJaql": {
+                                      "explicit": true,
+                                      "all": true
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "spacing": "none",
+                  "width": "100px",
+                  "items": [
+                    {
+                      "type": "Container",
+                      "spacing": "none",
+                      "width": "80px",
+                      "items": [
+                        {
+                          "type": "ActionSet",
+                          "margin": "0px",
+                          "padding": "0px",
+                          "actions": [
+                            {
+                              "type": "JTD",
+                              "title": "Drill to ID",
+                              "style": {
+                                "fontSize": "",
+                                "fontFamily": ""
+                              },
+                              "data": {
+                                "dashboardId": "5e43c29a2578cd25c8c8638f",
+                                "panelsToInclude": [
+                                  {
+                                    "panel": "Months in Date",
+                                    "value": "{value:Months in Date}"
+                                  }
+                                ],
+                                "args": {
+                                  "displayDashboardsPane": false,
+                                  "displayFilterPane": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": []
+        },
+        "currentConfig": {
+          "fontFamily": "Open Sans",
+          "fontSizes": {
+            "default": 14,
+            "small": 16,
+            "medium": 20,
+            "large": 50,
+            "extraLarge": 32
+          },
+          "fontWeights": {
+            "default": 500,
+            "light": 100,
+            "bold": 1000
+          },
+          "containerStyles": {
+            "default": {
+              "backgroundColor": "#FFFFFF",
+              "foregroundColors": {
+                "default": {
+                  "normal": "#3a4356"
+                },
+                "white": {
+                  "normal": "#ffffff"
+                },
+                "grey": {
+                  "normal": "#9ea2ab"
+                },
+                "orange": {
+                  "normal": "#f2B900"
+                },
+                "yellow": {
+                  "normal": "#ffcb05"
+                },
+                "black": {
+                  "normal": "#000000"
+                },
+                "lightGreen": {
+                  "normal": "#3ADCCA"
+                },
+                "green": {
+                  "normal": "#54a254"
+                },
+                "red": {
+                  "normal": "#dd1111"
+                },
+                "accent": {
+                  "normal": "#2E89FC"
+                },
+                "good": {
+                  "normal": "#54a254"
+                },
+                "warning": {
+                  "normal": "#e69500"
+                },
+                "attention": {
+                  "normal": "#cc3300"
+                }
+              }
+            }
+          },
+          "imageSizes": {
+            "default": 40,
+            "small": 40,
+            "medium": 80,
+            "large": 160
+          },
+          "imageSet": {
+            "imageSize": "medium",
+            "maxImageHeight": 100
+          },
+          "actions": {
+            "color": "white",
+            "backgroundColor": "",
+            "maxActions": 5,
+            "spacing": "none",
+            "buttonSpacing": 20,
+            "actionsOrientation": "horizontal",
+            "actionAlignment": "left",
+            "showCard": {
+              "actionMode": "inline",
+              "inlineTopMargin": 16,
+              "style": "default"
+            }
+          },
+          "spacing": {
+            "default": 5,
+            "none": 0,
+            "small": 20,
+            "medium": 60,
+            "large": 20,
+            "extraLarge": 40,
+            "padding": 0
+          },
+          "separator": {
+            "lineThickness": 3,
+            "lineColor": "#ffcb05"
+          },
+          "factSet": {
+            "title": {
+              "size": "default",
+              "color": "default",
+              "weight": "bold",
+              "warp": true
+            },
+            "value": {
+              "size": "default",
+              "color": "default",
+              "weight": "default",
+              "warp": true
+            },
+            "spacing": 20
+          },
+          "supportsInteractivity": true,
+          "height": 49,
+          "imageBaseUrl": ""
+        },
+        "currentCardName": "DynamicDropdown",
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "months",
+              "title": "months",
+              "singular": "months",
+              "plural": "months"
+            }
+          ]
+        }
+      },
+      "instanceid": "95BFA-F143-1A",
+      "questQueryResult": {
+        "isActive": false,
+        "isPending": false
+      },
+      "custom": {
+        "barcolumnchart": {
+          "type": "BloX",
+          "isTypeValid": false,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total"
+        }
+      },
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 4,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "drilledDashboardDisplay": {},
+      "displayMenu": false,
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "title": false,
+        "drillTarget": "5e43c29a2578cd25c8c8638f",
+        "autoUpdateOnEveryChange": true
+      },
+      "dashboardid": "61bc8eb798f8b514782a6b2b",
+      "query": {
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce"
+        },
+        "format": "json",
+        "isMaskedResult": true,
+        "metadata": [
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Date",
+              "dim": "[Commerce.Date (Calendar)]",
+              "datatype": "datetime",
+              "merged": true,
+              "level": "months",
+              "title": "Months in Date"
+            },
+            "PanelName": "Months in Date",
+            "format": {
+              "mask": {
+                "years": "yyyy",
+                "quarters": "yyyy Q",
+                "months": "yyyy-MM",
+                "weeks": "ww yyyy",
+                "days": "shortDate",
+                "minutes": "HH:mm"
+              }
+            },
+            "hierarchies": [
+              "calendar",
+              "calendar - weeks"
+            ],
+            "instanceid": "D2859-6D66-46",
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Date",
+              "dim": "[Commerce.Date (Calendar)]",
+              "datatype": "datetime",
+              "merged": true,
+              "level": "months",
+              "title": "Months in Date",
+              "collapsed": true,
+              "datasource": {
+                "title": "Sample ECommerce",
+                "fullname": "LocalHost/Sample ECommerce",
+                "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+                "address": "LocalHost",
+                "database": "aSampleIAAaECommerce",
+                "oid": "e5162c18-b1f7-4b03-b5ae-f06e30df01db",
+                "lastBuildTime": "2020-02-12T12:02:00"
+              },
+              "isDashboardFilter": true,
+              "filter": {
+                "explicit": true,
+                "multiSelection": true,
+                "members": [
+                  "2010-02-01T00:00:00"
+                ]
+              }
+            },
+            "disabled": false,
+            "isCascading": false,
+            "instanceid": "50A5D-BE85-D3",
+            "panel": "scope"
+          }
+        ],
+        "m2mThresholdFlag": 0
+      }
+    }
+  ],
+  "hierarchies": []
+}

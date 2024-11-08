@@ -1,0 +1,2206 @@
+{
+  "oid": "62f52902142df70036c53d6f",
+  "dataExploration": false,
+  "datasource": {
+    "fullname": "localhost/Sample ECommerce",
+    "id": "localhost_aSampleIAAaECommerce",
+    "address": "LocalHost",
+    "database": "aSampleIAAaECommerce",
+    "live": false,
+    "title": "Sample ECommerce"
+  },
+  "defaultFilters": [
+    {
+      "jaql": {
+        "table": "Category",
+        "column": "Category",
+        "dim": "[Category.Category]",
+        "datatype": "text",
+        "merged": true,
+        "title": "Category",
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "datasource": {
+          "fullname": "localhost/Sample ECommerce",
+          "id": "localhost_aSampleIAAaECommerce",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce",
+          "live": false,
+          "title": "Sample ECommerce"
+        },
+        "filter": {
+          "contains": "Car"
+        }
+      },
+      "instanceid": "262F8-FA4D-04",
+      "isCascading": false,
+      "disabled": false
+    }
+  ],
+  "desc": "",
+  "editing": false,
+  "filterToDatasourceMapping": {},
+  "filters": [
+    {
+      "jaql": {
+        "table": "Category",
+        "column": "Category",
+        "dim": "[Category.Category]",
+        "datatype": "text",
+        "merged": true,
+        "title": "Category",
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "datasource": {
+          "fullname": "localhost/Sample ECommerce",
+          "id": "localhost_aSampleIAAaECommerce",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce",
+          "live": false,
+          "title": "Sample ECommerce"
+        },
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "262F8-FA4D-04",
+      "isCascading": false,
+      "disabled": false
+    }
+  ],
+  "lastOpened": null,
+  "layout": {
+    "instanceid": "58F45-5590-68",
+    "type": "columnar",
+    "columns": [
+      {
+        "width": 100,
+        "cells": [
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "height": "136px",
+                    "defaultWidth": 128,
+                    "widgetid": "62f55a1b142df70036c53dd4"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1022,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "defaultWidth": 128,
+                    "widgetid": "62f69865142df70036c5424c",
+                    "height": "48px"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1022,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 102,
+                    "maxHeight": 1024,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": "80px",
+                    "defaultWidth": 512,
+                    "widgetid": "62f52934142df70036c53d77"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1022,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "height": "48px",
+                    "defaultWidth": 128,
+                    "widgetid": "62f5e102142df70036c53fa2"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1022,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 68,
+                    "maxHeight": 976,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "62f55905142df70036c53db2",
+                    "height": "80px"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1022,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 128,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": "746px",
+                    "defaultWidth": 512,
+                    "widgetid": "62f5591b142df70036c53db4",
+                    "autoHeight": "746px"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1022,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "defaultWidth": 128,
+                    "widgetid": "62f5e4d8142df70036c53fe8",
+                    "height": "36px"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1022,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 68,
+                    "maxHeight": 976,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "62f5e3a3142df70036c53fcc",
+                    "height": 155.634
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1022,
+                "index": 0
+              }
+            ]
+          }
+        ],
+        "pxlWidth": 1022,
+        "index": 0
+      }
+    ],
+    "container": {}
+  },
+  "original": null,
+  "settings": {
+    "autoUpdateOnFiltersChange": true
+  },
+  "source": "62f52902142df70036c53d70",
+  "style": {
+    "palette": {
+      "name": "Vivid",
+      "colors": [
+        "#00cee6",
+        "#9b9bd7",
+        "#6EDA55",
+        "#fc7570",
+        "#fbb755",
+        "#218A8C"
+      ]
+    }
+  },
+  "title": "BloX - Advance Search (Generic)",
+  "type": "dashboard",
+  "allowChangeSubscription": false,
+  "subscription": {
+    "isDataChange": true,
+    "type": "onUpdate",
+    "schedule": "* * * * * *",
+    "timezone": 420,
+    "tzName": "America/Phoenix",
+    "context": {
+      "dashboardid": "62f52902142df70036c53d6f"
+    },
+    "active": false,
+    "executionPerDay": 1,
+    "reportType": {
+      "inline": true
+    },
+    "emailSettings": {
+      "isEmail": true,
+      "isPdf": false
+    },
+    "startAt": "2022-08-11",
+    "subscribe": false
+  },
+  "isPublic": null,
+  "previewLayout": [],
+  "parentFolder": "61c44b8583642f002bf18389",
+  "script": "",
+  "defaultFilterRelations": null,
+  "filterRelations": [],
+  "widgets": [
+    {
+      "title": "Filter Dashboard (set filterDashboard = true) + WIDGET script used to update Filter Members on the BloX Text",
+      "type": "BloX",
+      "subtype": "BloX",
+      "oid": "62f52934142df70036c53d77",
+      "desc": null,
+      "source": "62f52934142df70036c53d78",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "Items",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Category",
+                  "column": "Category",
+                  "dim": "[Category.Category]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Category"
+                },
+                "instanceid": "DC36C-E74B-19",
+                "PanelName": "Category"
+              }
+            ]
+          },
+          {
+            "name": "Values",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "currentCard": {
+          "style": {},
+          "script": "",
+          "title": "",
+          "titleStyle": [
+            {
+              "display": "show"
+            }
+          ],
+          "showCarousel": true,
+          "carouselAnimation": {
+            "showButtons": false
+          },
+          "body": [
+            {
+              "type": "Container"
+            },
+            {
+              "type": "ColumnSet",
+              "separator": false,
+              "spacing": "default",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "170px",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "size": "small",
+                      "weight": "regular",
+                      "wrap": true,
+                      "text": "Search Category",
+                      "style": {
+                        "color": "black",
+                        "padding-left": "10px",
+                        "margin-left": "10px",
+                        "backgroundColor": "white"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "spacing": "none",
+                  "width": "175px",
+                  "items": [
+                    {
+                      "type": "Container",
+                      "spacing": "none",
+                      "width": "150px",
+                      "items": [
+                        {
+                          "type": "Input.Text",
+                          "id": "data.userInput",
+                          "class": "",
+                          "title": "New Input",
+                          "placeholder": "type here..."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "spacing": "none",
+                  "width": "120px",
+                  "items": [
+                    {
+                      "type": "Container",
+                      "spacing": "none",
+                      "width": "120px",
+                      "items": [
+                        {
+                          "type": "ActionSet",
+                          "margin": "0px",
+                          "padding": "0px",
+                          "actions": [
+                            {
+                              "type": "SearchBarGeneric",
+                              "title": "Search",
+                              "data": {
+                                "type": "Search",
+                                "table": "Category",
+                                "column": "Category",
+                                "columnTitle": "Category",
+                                "filterDashboard": "true",
+                                "widgetArray": []
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "spacing": "",
+                  "width": "120px",
+                  "items": [
+                    {
+                      "type": "Container",
+                      "spacing": "none",
+                      "width": "120px",
+                      "items": [
+                        {
+                          "type": "ActionSet",
+                          "margin": "0px",
+                          "padding": "0px",
+                          "actions": [
+                            {
+                              "type": "SearchBarGeneric",
+                              "title": "Clear",
+                              "style": {
+                                "color": "white",
+                                "backgroundColor": "grey"
+                              },
+                              "data": {
+                                "type": "Clear",
+                                "table": "Category",
+                                "column": "Category",
+                                "columnTitle": "Category",
+                                "filterDashboard": "true",
+                                "widgetArray": []
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Container",
+              "id": "searchResults",
+              "items": [
+                {
+                  "type": "Column",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "size": "small",
+                      "weight": "regular",
+                      "wrap": true,
+                      "text": "Car Amplifiers , Car Speakers and Subwoofers",
+                      "style": {
+                        "color": "gray",
+                        "padding-left": "10px",
+                        "margin-left": "10px",
+                        "backgroundColor": "white",
+                        "font-style": "italic"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": []
+        },
+        "currentConfig": {
+          "fontFamily": "Open Sans",
+          "fontSizes": {
+            "default": 14,
+            "small": 16,
+            "medium": 20,
+            "large": 50,
+            "extraLarge": 32
+          },
+          "fontWeights": {
+            "default": 500,
+            "light": 100,
+            "bold": 1000
+          },
+          "containerStyles": {
+            "default": {
+              "backgroundColor": "#FFFFFF",
+              "foregroundColors": {
+                "default": {
+                  "normal": "#3a4356"
+                },
+                "white": {
+                  "normal": "#ffffff"
+                },
+                "grey": {
+                  "normal": "#9ea2ab"
+                },
+                "orange": {
+                  "normal": "#f2B900"
+                },
+                "yellow": {
+                  "normal": "#ffcb05"
+                },
+                "black": {
+                  "normal": "#000000"
+                },
+                "lightGreen": {
+                  "normal": "#3ADCCA"
+                },
+                "green": {
+                  "normal": "#54a254"
+                },
+                "red": {
+                  "normal": "#dd1111"
+                },
+                "accent": {
+                  "normal": "#2E89FC"
+                },
+                "good": {
+                  "normal": "#54a254"
+                },
+                "warning": {
+                  "normal": "#e69500"
+                },
+                "attention": {
+                  "normal": "#cc3300"
+                }
+              }
+            }
+          },
+          "imageSizes": {
+            "default": 40,
+            "small": 40,
+            "medium": 80,
+            "large": 160
+          },
+          "imageSet": {
+            "imageSize": "medium",
+            "maxImageHeight": 100
+          },
+          "actions": {
+            "color": "white",
+            "backgroundColor": "navy",
+            "maxActions": 5,
+            "spacing": "none",
+            "buttonSpacing": 20,
+            "actionsOrientation": "horizontal",
+            "actionAlignment": "left",
+            "showCard": {
+              "actionMode": "inline",
+              "inlineTopMargin": 16,
+              "style": "default"
+            }
+          },
+          "spacing": {
+            "default": 5,
+            "none": 0,
+            "small": 20,
+            "medium": 60,
+            "large": 20,
+            "extraLarge": 40,
+            "padding": 0
+          },
+          "separator": {
+            "lineThickness": 3,
+            "lineColor": "#ffcb05"
+          },
+          "factSet": {
+            "title": {
+              "size": "default",
+              "color": "default",
+              "weight": "bold",
+              "warp": true
+            },
+            "value": {
+              "size": "default",
+              "color": "default",
+              "weight": "default",
+              "warp": true
+            },
+            "spacing": 20
+          },
+          "supportsInteractivity": true,
+          "height": 70.6424,
+          "imageBaseUrl": ""
+        },
+        "currentCardName": "default",
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "category",
+              "title": "Category",
+              "singular": "Category",
+              "plural": "Category"
+            }
+          ]
+        }
+      },
+      "instanceid": "C68A3-C655-93",
+      "custom": {
+        "barcolumnchart": {
+          "type": "BloX",
+          "isTypeValid": false,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total"
+        }
+      },
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 4,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "drilledDashboardDisplay": {},
+      "displayMenu": false,
+      "wasRendered": false,
+      "query": {
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce"
+        },
+        "format": "json",
+        "isMaskedResult": true,
+        "metadata": [
+          {
+            "jaql": {
+              "table": "Category",
+              "column": "Category",
+              "dim": "[Category.Category]",
+              "datatype": "text",
+              "merged": true,
+              "title": "Category"
+            },
+            "instanceid": "DC36C-E74B-19",
+            "PanelName": "Category",
+            "handlers": []
+          },
+          {
+            "jaql": {
+              "table": "Category",
+              "column": "Category",
+              "dim": "[Category.Category]",
+              "datatype": "text",
+              "merged": true,
+              "title": "Category",
+              "collapsed": true,
+              "isDashboardFilter": true,
+              "datasource": {
+                "fullname": "localhost/Sample ECommerce",
+                "id": "localhost_aSampleIAAaECommerce",
+                "address": "LocalHost",
+                "database": "aSampleIAAaECommerce",
+                "live": false,
+                "title": "Sample ECommerce"
+              },
+              "filter": {
+                "explicit": false,
+                "multiSelection": true,
+                "all": true
+              }
+            },
+            "disabled": false,
+            "isCascading": false,
+            "instanceid": "262F8-FA4D-04",
+            "panel": "scope"
+          }
+        ],
+        "m2mThresholdFlag": 0
+      },
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "title": false,
+        "drillTarget": "dummy",
+        "autoUpdateOnEveryChange": true,
+        "triggersDomready": true
+      },
+      "dashboardid": "62f52902142df70036c53d6f",
+      "jasperReportsSettings": {},
+      "script": "/*\nWelcome to your Widget's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at https://sisense.dev/guides/js/extensions\n*/\n\nwidget.on('refreshed', function(se, ev) {\n\t\n\t//****************************\n\t//User Input\n\tvar dashFilterTitle = \"Category\";\n\t//****************************\n\t\n\tvar filterDim = ((prism.activeDashboard.filters.$$items).filter(i => i.jaql.title === dashFilterTitle))[0].jaql.dim;\n\tvar allFlag = ((prism.activeDashboard.filters.$$items).filter(i => i.jaql.title === dashFilterTitle))[0].jaql.filter.all;\n\t\t\n\t\n\tvar filterText = '';\n\tvar memLength = (widget.rawQueryResult.values).length;\n\tconsole.log(memLength);\n\tvar prevFilterText = widget.element.title;\n\t\n\t//Displaying Search Results in a text box\n\tif(allFlag !== true){\n\t\t(widget.rawQueryResult.values).forEach(function (member, index) {\n\t\t\tif(index < 5){\n\t\t\t\tfilterText = filterText + member[0].text;\n\t\t\t\tif (index + 1 != memLength ) { \n\t\t\t\t\tfilterText = filterText + ' , ';\n\t\t\t\t}\n\t\t\t};\n\n\t\t});\n\t}\n\telse {\n\t\tfilterText = 'Showing All Members';\n\t}\n\tif (memLength > 5) {\n\t\t\t\tfilterText = filterText + '...';\n\t};\n\n\tif( filterText !== prevFilterText){\n\t\twidget.style.currentCard.body\n\t\t\t.filter(i => i.id == \"searchResults\")\n\t\t\t.forEach(function (container) {\n\t\t\tcontainer.items[0].items[0].text = filterText;\n\t\t})\n\t\twidget.changesMade();\n\t\twidget.refresh();\n\t\twidget.element.title = filterText;\n\t}\n\t\n\t\n\tvar allJaql = {\n\t\t\t\t\tjaql:\n\t\t\t\t\t\t{\n\t\t\t\t\t\t\tdim:filterDim,\n\t\t\t\t\t\t \tfilter:\n\t\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\tall:true\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t}\n\t};\n\t\n\tif(memLength === 0){\n\t\tprism.activeDashboard.filters.update(allJaql,{refresh:true,save:true});\n\t\talert('No match found for your Search. Try again with a new Search!');\n\t}\n\t\n});",
+      "prevSortObjects": []
+    },
+    {
+      "title": "Filter Widget (set filterDashboard = false and provide WidgetIds)  + WIDGET script used to update Search string on the BloX Text",
+      "type": "BloX",
+      "subtype": "BloX",
+      "oid": "62f55905142df70036c53db2",
+      "desc": null,
+      "source": "62f55905142df70036c53db3",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": true,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "Items",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Category",
+                  "column": "Category",
+                  "dim": "[Category.Category]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Category"
+                },
+                "instanceid": "0DE09-7B1F-51",
+                "PanelName": "Category"
+              }
+            ]
+          },
+          {
+            "name": "Values",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "currentCard": {
+          "style": {},
+          "script": "",
+          "title": "",
+          "titleStyle": [
+            {
+              "display": "show"
+            }
+          ],
+          "showCarousel": true,
+          "carouselAnimation": {
+            "showButtons": false
+          },
+          "body": [
+            {
+              "type": "Container"
+            },
+            {
+              "type": "ColumnSet",
+              "separator": false,
+              "spacing": "default",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "170px",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "size": "small",
+                      "weight": "regular",
+                      "wrap": true,
+                      "text": "Search Category",
+                      "style": {
+                        "color": "black",
+                        "padding-left": "10px",
+                        "margin-left": "10px",
+                        "backgroundColor": "white"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "spacing": "none",
+                  "width": "175px",
+                  "items": [
+                    {
+                      "type": "Container",
+                      "spacing": "none",
+                      "width": "150px",
+                      "items": [
+                        {
+                          "type": "Input.Text",
+                          "id": "data.userInput",
+                          "class": "",
+                          "title": "New Input",
+                          "placeholder": "type here..."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "spacing": "none",
+                  "width": "100px",
+                  "items": [
+                    {
+                      "type": "Container",
+                      "spacing": "none",
+                      "width": "120px",
+                      "items": [
+                        {
+                          "type": "ActionSet",
+                          "width": "120px",
+                          "actions": [
+                            {
+                              "type": "SearchBarGeneric",
+                              "title": "Search",
+                              "data": {
+                                "type": "Search",
+                                "table": "Category",
+                                "column": "Category",
+                                "columnTitle": "Category",
+                                "filterDashboard": "false",
+                                "widgetArray": [
+                                  "62f5591b142df70036c53db4"
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "spacing": "",
+                  "width": "80px",
+                  "items": [
+                    {
+                      "type": "Container",
+                      "spacing": "none",
+                      "width": "120px",
+                      "items": [
+                        {
+                          "type": "ActionSet",
+                          "margin": "0px",
+                          "width": "120px",
+                          "actions": [
+                            {
+                              "type": "SearchBarGeneric",
+                              "title": "Clear",
+                              "style": {
+                                "color": "white",
+                                "backgroundColor": "grey"
+                              },
+                              "data": {
+                                "type": "Clear",
+                                "table": "Category",
+                                "column": "Category",
+                                "columnTitle": "Category",
+                                "filterDashboard": "false",
+                                "widgetArray": [
+                                  "62f5591b142df70036c53db4"
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Container",
+              "id": "searchResults",
+              "items": [
+                {
+                  "type": "Column",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "size": "small",
+                      "weight": "regular",
+                      "wrap": true,
+                      "text": "Showing All Members...",
+                      "style": {
+                        "color": "gray",
+                        "padding-left": "10px",
+                        "margin-left": "10px",
+                        "backgroundColor": "white",
+                        "font-style": "italic"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": []
+        },
+        "currentConfig": {
+          "fontFamily": "Open Sans",
+          "fontSizes": {
+            "default": 14,
+            "small": 16,
+            "medium": 20,
+            "large": 50,
+            "extraLarge": 32
+          },
+          "fontWeights": {
+            "default": 500,
+            "light": 100,
+            "bold": 1000
+          },
+          "containerStyles": {
+            "default": {
+              "backgroundColor": "#FFFFFF",
+              "foregroundColors": {
+                "default": {
+                  "normal": "#3a4356"
+                },
+                "white": {
+                  "normal": "#ffffff"
+                },
+                "grey": {
+                  "normal": "#9ea2ab"
+                },
+                "orange": {
+                  "normal": "#f2B900"
+                },
+                "yellow": {
+                  "normal": "#ffcb05"
+                },
+                "black": {
+                  "normal": "#000000"
+                },
+                "lightGreen": {
+                  "normal": "#3ADCCA"
+                },
+                "green": {
+                  "normal": "#54a254"
+                },
+                "red": {
+                  "normal": "#dd1111"
+                },
+                "accent": {
+                  "normal": "#2E89FC"
+                },
+                "good": {
+                  "normal": "#54a254"
+                },
+                "warning": {
+                  "normal": "#e69500"
+                },
+                "attention": {
+                  "normal": "#cc3300"
+                }
+              }
+            }
+          },
+          "imageSizes": {
+            "default": 40,
+            "small": 40,
+            "medium": 80,
+            "large": 160
+          },
+          "imageSet": {
+            "imageSize": "medium",
+            "maxImageHeight": 100
+          },
+          "actions": {
+            "color": "white",
+            "backgroundColor": "navy",
+            "maxActions": 5,
+            "spacing": "none",
+            "buttonSpacing": 20,
+            "actionsOrientation": "horizontal",
+            "actionAlignment": "left",
+            "showCard": {
+              "actionMode": "inline",
+              "inlineTopMargin": 16,
+              "style": "default"
+            }
+          },
+          "spacing": {
+            "default": 5,
+            "none": 0,
+            "small": 20,
+            "medium": 60,
+            "large": 20,
+            "extraLarge": 40,
+            "padding": 0
+          },
+          "separator": {
+            "lineThickness": 3,
+            "lineColor": "#ffcb05"
+          },
+          "factSet": {
+            "title": {
+              "size": "default",
+              "color": "default",
+              "weight": "bold",
+              "warp": true
+            },
+            "value": {
+              "size": "default",
+              "color": "default",
+              "weight": "default",
+              "warp": true
+            },
+            "spacing": 20
+          },
+          "supportsInteractivity": true,
+          "height": 70.6424,
+          "imageBaseUrl": ""
+        },
+        "currentCardName": "default",
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "category",
+              "title": "Category",
+              "singular": "Category",
+              "plural": "Category"
+            }
+          ]
+        }
+      },
+      "instanceid": "C68A3-C655-93",
+      "custom": {
+        "barcolumnchart": {
+          "type": "BloX",
+          "isTypeValid": false,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total"
+        }
+      },
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 4,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "drilledDashboardDisplay": {},
+      "displayMenu": false,
+      "wasRendered": false,
+      "query": {
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce"
+        },
+        "format": "json",
+        "isMaskedResult": true,
+        "metadata": [
+          {
+            "jaql": {
+              "table": "Category",
+              "column": "Category",
+              "dim": "[Category.Category]",
+              "datatype": "text",
+              "merged": true,
+              "title": "Category"
+            },
+            "instanceid": "0DE09-7B1F-51",
+            "PanelName": "Category",
+            "handlers": []
+          }
+        ],
+        "m2mThresholdFlag": 0
+      },
+      "jasperReportsSettings": {},
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": true,
+        "title": false,
+        "drillTarget": "dummy",
+        "autoUpdateOnEveryChange": true,
+        "triggersDomready": true
+      },
+      "dashboardid": "62f52902142df70036c53d6f",
+      "script": "/*\nWelcome to your Widget's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at https://sisense.dev/guides/js/extensions\n*/\n\nwidget.on('refreshed', function(se, ev) {\n\t\n\t//****************************\n\t//User Input\n\tconst widgetFilterTitle = \"Category\";\n\t//Enter atleast one of the Widgets that is affected by the BloX Filtering \n\tconst widgetId =  \"62f5591b142df70036c53db4\"\n\t//****************************\n\tconst filterWidget = ((prism.activeDashboard.widgets.$$widgets).filter(widget => widget.oid == widgetId))[0]; \n\tconst filterPanel = ( (filterWidget.metadata.panels).filter(panel => panel.type == \"filters\") )[0];\n\tconst filterItem = ( (filterPanel.items).filter(item => item.jaql.title == widgetFilterTitle) )[0];\n\t\n\tvar allFlag;\n\tvar containsFilter;\n\t\n\tif(typeof filterItem.jaql.filter.contains !== undefined ){\n\t\tcontainsFilter = filterItem.jaql.filter.contains; \n\t}\n\tif(typeof filterItem.jaql.filter.all !== undefined ){\n\t\tallFlag = filterItem.jaql.filter.all;\n\t}\t\n\t\n\tvar filterText = '';\n\tvar prevFilterText = widget.element.title;\n\t\n\t//Displaying Search string in a text box\n\tif(allFlag !== true){\n\t\tfilterText = 'Searching for \\\"'+ containsFilter +'\\\"';\n\t}\n\telse {\n\t\tfilterText = 'Showing All Members...';\n\t}\n\n\tif( filterText !== prevFilterText){\n\t\twidget.style.currentCard.body\n\t\t\t.filter(i => i.id == \"searchResults\")\n\t\t\t.forEach(function (container) {\n\t\t\tcontainer.items[0].items[0].text = filterText;\n\t\t})\n\t\twidget.changesMade();\n\t\twidget.refresh();\n\t\twidget.element.title = filterText;\n\t}\n\t\n});",
+      "prevSortObjects": []
+    },
+    {
+      "title": "",
+      "type": "pivot2",
+      "subtype": "pivot2",
+      "oid": "62f5591b142df70036c53db4",
+      "desc": null,
+      "source": "62f5591b142df70036c53db5",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "rows",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Category",
+                  "column": "Category",
+                  "dim": "[Category.Category]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Category"
+                },
+                "instanceid": "C75FC-FCEE-C5",
+                "panel": "rows",
+                "field": {
+                  "id": "[Category.Category]",
+                  "index": 0
+                }
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": []
+          },
+          {
+            "name": "columns",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": [
+              {
+                "jaql": {
+                  "datasource": {
+                    "fullname": "localhost/Sample ECommerce",
+                    "id": "localhost_aSampleIAAaECommerce",
+                    "address": "LocalHost",
+                    "database": "aSampleIAAaECommerce",
+                    "live": false,
+                    "title": "Sample ECommerce"
+                  },
+                  "table": "Category",
+                  "column": "Category",
+                  "dim": "[Category.Category]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Category",
+                  "filter": {
+                    "all": true,
+                    "collapsed": true
+                  }
+                },
+                "panel": "scope",
+                "instanceid": "1ED5D-3676-1C"
+              }
+            ]
+          }
+        ]
+      },
+      "style": {
+        "scroll": false,
+        "pageSize": 25,
+        "automaticHeight": true,
+        "colors": {
+          "rows": true,
+          "columns": false,
+          "headers": false,
+          "members": false,
+          "totals": false
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "category",
+              "title": "Category",
+              "singular": "Category",
+              "plural": "Category"
+            }
+          ]
+        }
+      },
+      "instanceid": "E15B8-8560-D4",
+      "wasRendered": false,
+      "questQueryResult": {
+        "isActive": false,
+        "isPending": false
+      },
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 2,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "query": {
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce"
+        },
+        "format": "pivot",
+        "grandTotals": {
+          "title": "Grand Total"
+        },
+        "metadata": [
+          {
+            "jaql": {
+              "table": "Category",
+              "column": "Category",
+              "dim": "[Category.Category]",
+              "datatype": "text",
+              "merged": true,
+              "title": "Category"
+            },
+            "instanceid": "C75FC-FCEE-C5",
+            "panel": "rows",
+            "field": {
+              "id": "[Category.Category]",
+              "index": 0
+            },
+            "handlers": []
+          },
+          {
+            "jaql": {
+              "datasource": {
+                "fullname": "localhost/Sample ECommerce",
+                "id": "localhost_aSampleIAAaECommerce",
+                "address": "LocalHost",
+                "database": "aSampleIAAaECommerce",
+                "live": false,
+                "title": "Sample ECommerce"
+              },
+              "table": "Category",
+              "column": "Category",
+              "dim": "[Category.Category]",
+              "datatype": "text",
+              "merged": true,
+              "title": "Category",
+              "filter": {
+                "all": true,
+                "collapsed": true
+              }
+            },
+            "panel": "scope",
+            "handlers": []
+          }
+        ],
+        "m2mThresholdFlag": 0
+      },
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": false,
+        "triggersDomready": true,
+        "drillToAnywhere": true,
+        "autoUpdateOnEveryChange": true,
+        "interactivePivot": {
+          "enable": false
+        },
+        "selectorLocked": false
+      },
+      "dashboardid": "62f52902142df70036c53d6f"
+    },
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "62f55a1b142df70036c53dd4",
+      "desc": null,
+      "source": "62f55a1b142df70036c53dd5",
+      "datasource": {
+        "fullname": "localhost/Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce",
+        "live": false,
+        "title": "Sample ECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": []
+      },
+      "style": {
+        "content": {
+          "html": "<blockquote style=\"margin: 0 0 0 40px; border: none; padding: 0px;\"><blockquote style=\"margin: 0 0 0 40px; border: none; padding: 0px;\"><div style=\"font-size: xx-large; text-align: left;\"><font size=\"6\"><b>ONE ACTION</b> </font><font size=\"5\">can now do one of the following</font></div></blockquote></blockquote><blockquote style=\"margin: 0 0 0 40px; border: none; padding: 0px;\"><div style=\"text-align: left;\"><ol style=\"\"><ol><ol><li style=\"\"><font style=\"\"><font size=\"3\">Filter Dashboard</font><font size=\"2\">&nbsp;</font></font><font style=\"font-size: small;\">(filterDashboard = true &amp; type = Search)</font></li><li style=\"\"><font style=\"\"><font size=\"3\">Clear Dashboard</font><font size=\"2\"> Filter&nbsp;</font></font><font size=\"2\">(filterDashboard = true &amp; type = Clear)</font></li><li style=\"\"><font style=\"\"><font size=\"3\">Filter Widget</font><font size=\"2\">&nbsp;</font></font><font size=\"2\">(filterDashboard = false + Provide WidgetIds &amp; type = Search)</font></li><li style=\"\"><font style=\"\"><font size=\"3\">Clear Widget Filter</font><font size=\"2\">&nbsp;</font></font><font size=\"2\">(filterDashboard = false +&nbsp;&nbsp;Provide WidgetIds&nbsp;&amp; type = Clear)</font></li></ol></ol></ol></div></blockquote>",
+          "vAlign": "valign-middle",
+          "bgColor": "#FFFFFF",
+          "textAlign": "center"
+        }
+      },
+      "instanceid": "A55B5-9AEF-1D",
+      "wasRendered": false,
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "dashboardid": "62f52902142df70036c53d6f"
+    },
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "62f5e102142df70036c53fa2",
+      "desc": null,
+      "source": "62f5e102142df70036c53fa3",
+      "datasource": {
+        "fullname": "localhost/Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce",
+        "live": false,
+        "title": "Sample ECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": []
+      },
+      "style": {
+        "content": {
+          "html": "<b style=\"\"><font color=\"#ffffff\" style=\"\" size=\"3\">Filter widget(s) by modifying the widget filter value</font></b><font size=\"5\"><br></font>",
+          "vAlign": "valign-middle",
+          "bgColor": "#808080",
+          "textAlign": "center"
+        }
+      },
+      "instanceid": "23096-1260-90",
+      "wasRendered": false,
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "dashboardid": "62f52902142df70036c53d6f"
+    },
+    {
+      "title": "",
+      "type": "BloX",
+      "subtype": "BloX",
+      "oid": "62f5e3a3142df70036c53fcc",
+      "desc": null,
+      "source": "62f5e3a3142df70036c53fcd",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "Items",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Category",
+                  "column": "Category",
+                  "dim": "[Category.Category]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Category"
+                },
+                "instanceid": "DC36C-E74B-19",
+                "PanelName": "Category"
+              }
+            ]
+          },
+          {
+            "name": "Values",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "currentCard": {
+          "style": {},
+          "script": "",
+          "title": "",
+          "titleStyle": [
+            {
+              "display": "none"
+            }
+          ],
+          "showCarousel": true,
+          "carouselAnimation": {
+            "showButtons": false
+          },
+          "body": [
+            {
+              "type": "Container"
+            },
+            {
+              "type": "ColumnSet",
+              "separator": false,
+              "spacing": "default",
+              "style": {
+                "margin-top": "30px"
+              },
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "170px",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "size": "small",
+                      "weight": "regular",
+                      "wrap": true,
+                      "text": "Search Category",
+                      "style": {
+                        "padding-left": "10px",
+                        "margin-left": "10px"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "spacing": "none",
+                  "width": "175px",
+                  "items": [
+                    {
+                      "type": "Container",
+                      "spacing": "none",
+                      "width": "150px",
+                      "items": [
+                        {
+                          "type": "Input.Text",
+                          "id": "data.userInput",
+                          "class": "",
+                          "title": "New Input",
+                          "placeholder": "type here..."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "spacing": "none",
+                  "width": "120px",
+                  "items": [
+                    {
+                      "type": "Container",
+                      "spacing": "none",
+                      "width": "120px",
+                      "items": [
+                        {
+                          "type": "ActionSet",
+                          "actions": [
+                            {
+                              "type": "SearchBarGeneric",
+                              "title": "Search",
+                              "data": {
+                                "type": "Search",
+                                "table": "Category",
+                                "column": "Category",
+                                "columnTitle": "Category",
+                                "filterDashboard": "true",
+                                "widgetArray": []
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "spacing": "",
+                  "width": "80px",
+                  "items": [
+                    {
+                      "type": "Container",
+                      "spacing": "none",
+                      "width": "120px",
+                      "items": [
+                        {
+                          "type": "ActionSet",
+                          "width": "120px",
+                          "actions": [
+                            {
+                              "type": "SearchBarGeneric",
+                              "title": "Clear",
+                              "style": {
+                                "backgroundColor": "gray",
+                                "color": "white"
+                              },
+                              "data": {
+                                "type": "Clear",
+                                "table": "Category",
+                                "column": "Category",
+                                "columnTitle": "Category",
+                                "filterDashboard": "true",
+                                "widgetArray": []
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Container",
+              "id": "searchResults",
+              "items": [
+                {
+                  "type": "Column",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "size": "small",
+                      "weight": "regular",
+                      "wrap": true,
+                      "text": "Car Amplifiers , Car Speakers and Subwoofers",
+                      "style": {
+                        "padding-left": "10px",
+                        "margin-left": "10px",
+                        "font-style": "italic"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": "JTD",
+              "title": "Jump To Dashboard",
+              "style": {
+                "margin-top": "15px",
+                "margin-left": "20px",
+                "margin-bottom": "-30x"
+              },
+              "data": {
+                "dashboardId": "",
+                "panelsToInclude": [],
+                "args": {
+                  "displayDashboardsPane": false,
+                  "displayHeaderRow": false,
+                  "displayToolbarRow": false,
+                  "displayFilterPane": true
+                }
+              }
+            }
+          ]
+        },
+        "currentConfig": {
+          "fontFamily": "Open Sans",
+          "fontSizes": {
+            "default": 14,
+            "small": 16,
+            "medium": 20,
+            "large": 50,
+            "extraLarge": 32
+          },
+          "fontWeights": {
+            "default": 500,
+            "light": 100,
+            "bold": 1000
+          },
+          "containerStyles": {
+            "default": {
+              "backgroundColor": "black",
+              "foregroundColors": {
+                "default": {
+                  "normal": "white"
+                },
+                "white": {
+                  "normal": "#ffffff"
+                },
+                "grey": {
+                  "normal": "#9ea2ab"
+                },
+                "orange": {
+                  "normal": "#f2B900"
+                },
+                "yellow": {
+                  "normal": "#ffcb05"
+                },
+                "black": {
+                  "normal": "#000000"
+                },
+                "lightGreen": {
+                  "normal": "#3ADCCA"
+                },
+                "green": {
+                  "normal": "#54a254"
+                },
+                "red": {
+                  "normal": "#dd1111"
+                },
+                "accent": {
+                  "normal": "#2E89FC"
+                },
+                "good": {
+                  "normal": "#54a254"
+                },
+                "warning": {
+                  "normal": "#e69500"
+                },
+                "attention": {
+                  "normal": "#cc3300"
+                }
+              }
+            }
+          },
+          "imageSizes": {
+            "default": 40,
+            "small": 40,
+            "medium": 80,
+            "large": 160
+          },
+          "imageSet": {
+            "imageSize": "medium",
+            "maxImageHeight": 100
+          },
+          "actions": {
+            "color": "black",
+            "backgroundColor": "#F2B901",
+            "maxActions": 5,
+            "spacing": "none",
+            "buttonSpacing": 20,
+            "actionsOrientation": "horizontal",
+            "actionAlignment": "left",
+            "showCard": {
+              "actionMode": "inline",
+              "inlineTopMargin": 16,
+              "style": "default"
+            }
+          },
+          "spacing": {
+            "default": 5,
+            "none": 0,
+            "small": 20,
+            "medium": 60,
+            "large": 20,
+            "extraLarge": 40,
+            "padding": 0
+          },
+          "separator": {
+            "lineThickness": 3,
+            "lineColor": "#ffcb05"
+          },
+          "factSet": {
+            "title": {
+              "size": "default",
+              "color": "default",
+              "weight": "bold",
+              "warp": true
+            },
+            "value": {
+              "size": "default",
+              "color": "default",
+              "weight": "default",
+              "warp": true
+            },
+            "spacing": 20
+          },
+          "supportsInteractivity": true,
+          "height": 155.634,
+          "imageBaseUrl": ""
+        },
+        "currentCardName": "default",
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "category",
+              "title": "Category",
+              "singular": "Category",
+              "plural": "Category"
+            }
+          ]
+        }
+      },
+      "instanceid": "C68A3-C655-93",
+      "custom": {
+        "barcolumnchart": {
+          "type": "BloX",
+          "isTypeValid": false,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total"
+        }
+      },
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 4,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "drilledDashboardDisplay": {},
+      "displayMenu": false,
+      "wasRendered": false,
+      "query": {
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce"
+        },
+        "format": "json",
+        "isMaskedResult": true,
+        "metadata": [
+          {
+            "jaql": {
+              "table": "Category",
+              "column": "Category",
+              "dim": "[Category.Category]",
+              "datatype": "text",
+              "merged": true,
+              "title": "Category"
+            },
+            "instanceid": "DC36C-E74B-19",
+            "PanelName": "Category",
+            "handlers": []
+          },
+          {
+            "jaql": {
+              "table": "Category",
+              "column": "Category",
+              "dim": "[Category.Category]",
+              "datatype": "text",
+              "merged": true,
+              "title": "Category",
+              "collapsed": true,
+              "isDashboardFilter": true,
+              "datasource": {
+                "fullname": "localhost/Sample ECommerce",
+                "id": "localhost_aSampleIAAaECommerce",
+                "address": "LocalHost",
+                "database": "aSampleIAAaECommerce",
+                "live": false,
+                "title": "Sample ECommerce"
+              },
+              "filter": {
+                "explicit": false,
+                "multiSelection": true,
+                "all": true
+              }
+            },
+            "disabled": false,
+            "isCascading": false,
+            "instanceid": "262F8-FA4D-04",
+            "panel": "scope"
+          }
+        ],
+        "m2mThresholdFlag": 0
+      },
+      "jasperReportsSettings": {},
+      "script": "/*\nWelcome to your Widget's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at https://sisense.dev/guides/js/extensions\n*/\n\nwidget.on('refreshed', function(se, ev) {\n\t\n\t//****************************\n\t//User Input\n\tvar dashFilterTitle = \"Category\";\n\t//****************************\n\t\n\tvar allFlag = ((prism.activeDashboard.filters.$$items).filter(i => i.jaql.title === dashFilterTitle))[0].jaql.filter.all;\n\t\t\n\t\n\tvar filterText = '';\n\tvar memLength = (widget.rawQueryResult.values).length;\n\tvar prevFilterText = widget.element.title;\n\t\n\t//Displaying Search Results in a text box\n\tif(allFlag !== true){\n\t\t(widget.rawQueryResult.values).forEach(function (member, index) {\n\t\t\tif(index < 5){\n\t\t\t\tfilterText = filterText + member[0].text;\n\t\t\t\tif (index + 1 != memLength ) { \n\t\t\t\t\tfilterText = filterText + ' , ';\n\t\t\t\t}\n\t\t\t};\n\n\t\t});\n\t}\n\telse {\n\t\tfilterText = 'Showing All Members';\n\t}\n\tif (memLength > 5) {\n\t\t\t\tfilterText = filterText + '...';\n\t};\n\n\tif( filterText !== prevFilterText){\n\t\twidget.style.currentCard.body\n\t\t\t.filter(i => i.id == \"searchResults\")\n\t\t\t.forEach(function (container) {\n\t\t\tcontainer.items[0].items[0].text = filterText;\n\t\t})\n\t\twidget.changesMade();\n\t\twidget.refresh();\n\t\twidget.element.title = filterText;\n\t}\n\t\n\t\n\tvar filterDim = ((prism.activeDashboard.filters.$$items).filter(i => i.jaql.title === dashFilterTitle))[0].jaql.dim;\n\tvar allJaql = {\n\t\t\t\t\tjaql:\n\t\t\t\t\t\t{\n\t\t\t\t\t\t\tdim:filterDim,\n\t\t\t\t\t\t \tfilter:\n\t\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\tall:true\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t}\n\t};\n\t\n\tif(memLength === 0){\n\t\tprism.activeDashboard.filters.update(allJaql,{refresh:true,save:true});\n\t\talert('No match found for your Search. Try again with a new Search!');\n\t};\n\t\n\t\n});",
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": true,
+        "title": false,
+        "drillTarget": "dummy",
+        "autoUpdateOnEveryChange": true,
+        "triggersDomready": true
+      },
+      "dashboardid": "62f52902142df70036c53d6f",
+      "prevSortObjects": []
+    },
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "62f5e4d8142df70036c53fe8",
+      "desc": null,
+      "source": "62f5e4d8142df70036c53fe9",
+      "datasource": {
+        "fullname": "localhost/Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce",
+        "live": false,
+        "title": "Sample ECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": []
+      },
+      "style": {
+        "content": {
+          "html": "<b style=\"\"><font color=\"#ffffff\" size=\"3\">Filter the Dashboard &amp; Then Jump To Dashboard with filtered members</font></b><br>",
+          "vAlign": "valign-middle",
+          "bgColor": "#808080",
+          "textAlign": "center"
+        }
+      },
+      "instanceid": "23096-1260-90",
+      "wasRendered": false,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "dashboardid": "62f52902142df70036c53d6f"
+    },
+    {
+      "title": "RICHTEXT_MAIN.TITLE",
+      "type": "richtexteditor",
+      "subtype": "richtexteditor",
+      "oid": "62f69865142df70036c5424c",
+      "desc": null,
+      "source": "62f69865142df70036c5424d",
+      "datasource": {
+        "fullname": "localhost/Sample ECommerce",
+        "id": "localhost_aSampleIAAaECommerce",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce",
+        "live": false,
+        "title": "Sample ECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "ids": [],
+          "all": false
+        },
+        "panels": []
+      },
+      "style": {
+        "content": {
+          "html": "<font color=\"#ffffff\"><span style=\"font-size: 15px;\"><b>Filter dashboard by modifying the dashboard filter value</b></span></font><br>",
+          "vAlign": "valign-middle",
+          "bgColor": "#808080",
+          "textAlign": "center"
+        }
+      },
+      "instanceid": "23096-1260-90",
+      "wasRendered": false,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "selector": false,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "supportsHierarchies": false,
+        "dashboardFiltersMode": "filter"
+      },
+      "dashboardid": "62f52902142df70036c53d6f"
+    }
+  ],
+  "hierarchies": [
+    {
+      "_id": "5deaa26b55f2cb08c43cb908",
+      "title": "Test1",
+      "alwaysIncluded": true,
+      "levels": [
+        {
+          "title": "Category",
+          "table": "Category",
+          "column": "Category",
+          "datatype": "text",
+          "dim": "[Category.Category]",
+          "index": 0,
+          "_id": "5deaa26b55f2cb08c43cb907"
+        },
+        {
+          "title": "Brand",
+          "table": "Brand",
+          "column": "Brand",
+          "datatype": "text",
+          "dim": "[Brand.Brand]",
+          "index": 1,
+          "_id": "5deaa26f55f2cb08c43cb90a"
+        },
+        {
+          "title": "Country",
+          "table": "Country",
+          "column": "Country",
+          "datatype": "text",
+          "dim": "[Country.Country]",
+          "index": 2,
+          "_id": "5deaa27555f2cb08c43cb90c"
+        }
+      ],
+      "cubeId": "6142d757c80a065ff5a24ccc",
+      "lastUpdated": "2023-12-17T10:23:52.992Z",
+      "serverAddress": "LocalHost",
+      "elasticubeTitle": "Sample ECommerce"
+    }
+  ]
+}

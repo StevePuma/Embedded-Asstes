@@ -1,0 +1,770 @@
+{
+  "oid": "61bc8ef398f8b514782a6c2b",
+  "allowChangeSubscription": false,
+  "dataExploration": false,
+  "datasource": {
+    "title": "Sample ECommerce",
+    "fullname": "LocalHost/Sample ECommerce",
+    "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+    "address": "LocalHost",
+    "database": "aSampleIAAaECommerce"
+  },
+  "defaultFilters": [
+    {
+      "jaql": {
+        "table": "Commerce",
+        "column": "Condition",
+        "dim": "[Commerce.Condition]",
+        "datatype": "text",
+        "merged": true,
+        "title": "Condition",
+        "collapsed": false,
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce",
+          "lastBuildTime": "2020-07-29T18:09:08.240Z"
+        },
+        "isDashboardFilter": true,
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "CE906-86F0-7F",
+      "isCascading": false,
+      "disabled": false
+    }
+  ],
+  "desc": "",
+  "editing": false,
+  "filterToDatasourceMapping": {},
+  "filters": [
+    {
+      "jaql": {
+        "table": "Commerce",
+        "column": "Condition",
+        "dim": "[Commerce.Condition]",
+        "datatype": "text",
+        "merged": true,
+        "title": "Condition",
+        "collapsed": false,
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce",
+          "lastBuildTime": "2020-07-29T18:09:08.240Z"
+        },
+        "isDashboardFilter": true,
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "CE906-86F0-7F",
+      "isCascading": false,
+      "disabled": false
+    }
+  ],
+  "isPublic": null,
+  "layout": {
+    "instanceid": "14499-F515-30",
+    "type": "columnar",
+    "columns": [
+      {
+        "width": 100,
+        "cells": [
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 68,
+                    "maxHeight": 1009,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": 691.023,
+                    "defaultWidth": 512,
+                    "widgetid": "61bc8ef398f8b514782a6c2c"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 811,
+                "index": 0
+              }
+            ]
+          }
+        ],
+        "pxlWidth": 811,
+        "index": 0
+      }
+    ],
+    "container": {
+      "sizzle1701284367886": {
+        "undefined": {
+          "parentNode": [
+            138.41984990930624,
+            29,
+            true
+          ]
+        }
+      }
+    }
+  },
+  "original": null,
+  "parentFolder": "61c44b8583642f002bf18387",
+  "previewLayout": [],
+  "settings": {
+    "autoUpdateOnFiltersChange": true
+  },
+  "source": "61c44edc83642f002bf186d8",
+  "style": {
+    "palette": {
+      "name": "Vivid",
+      "colors": [
+        "#00cee6",
+        "#9b9bd7",
+        "#6EDA55",
+        "#fc7570",
+        "#fbb755",
+        "#218A8C"
+      ]
+    }
+  },
+  "subscription": {
+    "subscribe": false,
+    "executionPerDay": 1,
+    "schedule": "* * * * * *",
+    "isDataChange": true,
+    "type": "onUpdate",
+    "reportType": {
+      "inline": true
+    },
+    "emailSettings": {
+      "isEmail": true,
+      "isPdf": false
+    },
+    "context": {
+      "dashboardid": "61bc8ef398f8b514782a6c2b"
+    },
+    "startAt": "2023-07-27",
+    "tzName": "Europe/Dublin",
+    "timezone": 0,
+    "active": false
+  },
+  "title": "Blox - Home Page",
+  "type": "dashboard",
+  "lastOpened": null,
+  "widgets": [
+    {
+      "title": "",
+      "type": "BloX",
+      "subtype": "BloX",
+      "oid": "61bc8ef398f8b514782a6c2c",
+      "desc": null,
+      "source": "61c4518883642f002bf19418",
+      "datasource": {
+        "title": "Sample ECommerce",
+        "fullname": "LocalHost/Sample ECommerce",
+        "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+        "address": "LocalHost",
+        "database": "aSampleIAAaECommerce"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "Items",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Condition",
+                  "dim": "[Commerce.Condition]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Condition"
+                },
+                "PanelName": "Condition",
+                "instanceid": "3037D-E3CA-0C"
+              }
+            ]
+          },
+          {
+            "name": "Values",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "[64572-552]",
+                  "context": {
+                    "[64572-552]": {
+                      "table": "Commerce",
+                      "column": "Revenue",
+                      "dim": "[Commerce.Revenue]",
+                      "datatype": "numeric",
+                      "agg": "sum",
+                      "title": "Total Revenue"
+                    }
+                  },
+                  "title": "rev"
+                },
+                "PanelName": "rev",
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "decimals": "auto",
+                    "separated": true,
+                    "isdefault": true
+                  }
+                },
+                "instanceid": "4434A-77F7-8A"
+              },
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "[F1399-4F3]",
+                  "context": {
+                    "[F1399-4F3]": {
+                      "table": "Commerce",
+                      "column": "Cost",
+                      "dim": "[Commerce.Cost]",
+                      "datatype": "numeric",
+                      "agg": "sum",
+                      "title": "Total Cost"
+                    }
+                  },
+                  "title": "cst"
+                },
+                "PanelName": "cst",
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "decimals": "auto",
+                    "separated": true,
+                    "isdefault": true
+                  }
+                },
+                "instanceid": "8AFBA-8400-06"
+              },
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Country ID",
+                  "dim": "[Commerce.Country ID]",
+                  "datatype": "numeric",
+                  "merged": true,
+                  "agg": "count",
+                  "title": "country"
+                },
+                "PanelName": "country",
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "decimals": "auto",
+                    "separated": true,
+                    "isdefault": true
+                  }
+                },
+                "instanceid": "1349E-0B1E-DE"
+              },
+              {
+                "jaql": {
+                  "table": "Commerce",
+                  "column": "Visit ID",
+                  "dim": "[Commerce.Visit ID]",
+                  "datatype": "numeric",
+                  "agg": "count",
+                  "title": "visits"
+                },
+                "PanelName": "visits",
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "decimals": "auto",
+                    "separated": true,
+                    "isdefault": true
+                  }
+                },
+                "instanceid": "BF3ED-DB54-B2"
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ],
+        "usedFormulasMapping": {}
+      },
+      "style": {
+        "currentCard": {
+          "style": ".blox-slides{display:inline-block; transition:all .2s ease-in-out} .blox-slides:hover{transform:scale(1.05)} .blox-container{display:flex; flex-flow: row wrap; justify-content:center; align-items: center; align-content:center}",
+          "script": "$('.blox-slides').parent().eq(0).attr('class', 'blox-container')",
+          "title": "",
+          "titleStyle": [
+            {
+              "display": "none"
+            }
+          ],
+          "showCarousel": false,
+          "body": [
+            {
+              "type": "Container",
+              "style": {
+                "padding": "20px"
+              },
+              "items": [
+                {
+                  "type": "Container",
+                  "backgroundColor": "white",
+                  "horizontalAlignment": "center",
+                  "style": {
+                    "box-shadow": "0px 0px 4px #888888",
+                    "border-radius": "5px",
+                    "overflow": "hidden"
+                  },
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Dashboard",
+                      "color": "white",
+                      "size": "medium",
+                      "style": {
+                        "background-color": "steelblue",
+                        "padding": "15px"
+                      }
+                    },
+                    {
+                      "type": "TextBlock",
+                      "text": "Revenue: <b>{panel:rev}</b>",
+                      "size": "small",
+                      "style": {
+                        "background-color": "#f4f4f4",
+                        "padding": "15px"
+                      }
+                    },
+                    {
+                      "type": "TextBlock",
+                      "text": "Cost: <b>{panel:cst}</b>",
+                      "size": "small",
+                      "style": {
+                        "background-color": "lightgrey",
+                        "padding": "15px"
+                      }
+                    },
+                    {
+                      "type": "TextBlock",
+                      "text": "countries: <b>{panel:country}</b>",
+                      "size": "small",
+                      "style": {
+                        "background-color": "#f4f4f4",
+                        "padding": "15px"
+                      }
+                    },
+                    {
+                      "type": "TextBlock",
+                      "text": "visits: <b>{panel:visits}</b>",
+                      "size": "small",
+                      "style": {
+                        "background-color": "lightgrey",
+                        "padding": "15px"
+                      }
+                    },
+                    {
+                      "type": "ActionSet",
+                      "actions": [
+                        {
+                          "type": "JTD",
+                          "title": "Jump To Dashboard",
+                          "data": {
+                            "dashboardId": "623905d07d0c2c0036bb64cc",
+                            "panelsToInclude": [],
+                            "args": {
+                              "displayDashboardsPane": false,
+                              "displayFilterPane": false,
+                              "drilledDashboardDisplayType": 2
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": []
+        },
+        "currentConfig": {
+          "fontFamily": "Open Sans",
+          "fontSizes": {
+            "default": 14,
+            "small": 16,
+            "medium": 20,
+            "large": 50,
+            "extraLarge": 32
+          },
+          "fontWeights": {
+            "default": 500,
+            "light": 100,
+            "bold": 1000
+          },
+          "containerStyles": {
+            "default": {
+              "backgroundColor": "",
+              "foregroundColors": {
+                "default": {
+                  "normal": "#000000"
+                },
+                "white": {
+                  "normal": "#ffffff"
+                },
+                "grey": {
+                  "normal": "#5C6372"
+                },
+                "orange": {
+                  "normal": "#f2B900"
+                },
+                "yellow": {
+                  "normal": "#ffcb05"
+                },
+                "black": {
+                  "normal": "#000000"
+                },
+                "lightGreen": {
+                  "normal": "#3ADCCA"
+                },
+                "green": {
+                  "normal": "#54a254"
+                },
+                "red": {
+                  "normal": "#dd1111"
+                },
+                "accent": {
+                  "normal": "#2E89FC"
+                },
+                "good": {
+                  "normal": "#54a254"
+                },
+                "warning": {
+                  "normal": "#e69500"
+                },
+                "attention": {
+                  "normal": "#cc3300"
+                }
+              }
+            }
+          },
+          "imageSizes": {
+            "default": 40,
+            "small": 40,
+            "medium": 80,
+            "large": 160
+          },
+          "imageSet": {
+            "imageSize": "medium",
+            "maxImageHeight": 100
+          },
+          "actions": {
+            "color": "white",
+            "backgroundColor": "steelblue",
+            "maxActions": 5,
+            "spacing": "extraLarge",
+            "buttonSpacing": 20,
+            "actionsOrientation": "horizontal",
+            "actionAlignment": "center",
+            "showCard": {
+              "actionMode": "inline",
+              "inlineTopMargin": 16,
+              "style": "default"
+            }
+          },
+          "spacing": {
+            "default": 5,
+            "small": 20,
+            "medium": 60,
+            "large": 20,
+            "extraLarge": 40,
+            "padding": 0
+          },
+          "separator": {
+            "lineThickness": 1,
+            "lineColor": "#eeeeee"
+          },
+          "factSet": {
+            "title": {
+              "size": "default",
+              "color": "default",
+              "weight": "bold",
+              "warp": true
+            },
+            "value": {
+              "size": "default",
+              "color": "default",
+              "weight": "default",
+              "warp": true
+            },
+            "spacing": 20
+          },
+          "supportsInteractivity": true,
+          "imageBaseUrl": "",
+          "height": 691.023
+        },
+        "currentCardName": "floatycards",
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "condition",
+              "title": "Condition",
+              "singular": "Condition",
+              "plural": "Condition"
+            }
+          ]
+        }
+      },
+      "instanceid": "8F7EE-3E93-D3",
+      "wasRendered": false,
+      "custom": {
+        "barcolumnchart": {
+          "type": "BloX",
+          "isTypeValid": false,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total"
+        }
+      },
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": false,
+        "displayDashboardsPane": false,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 4,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 1,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false,
+        "custom": true
+      },
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": true,
+        "title": false,
+        "drillTarget": "623905d07d0c2c0036bb64cc",
+        "autoUpdateOnEveryChange": true,
+        "triggersDomready": true
+      },
+      "dashboardid": "61bc8ef398f8b514782a6c2b",
+      "drilledDashboardDisplay": {
+        "self": "_blank"
+      },
+      "displayMenu": false,
+      "query": {
+        "datasource": {
+          "title": "Sample ECommerce",
+          "fullname": "LocalHost/Sample ECommerce",
+          "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+          "address": "LocalHost",
+          "database": "aSampleIAAaECommerce"
+        },
+        "format": "json",
+        "isMaskedResult": true,
+        "metadata": [
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Condition",
+              "dim": "[Commerce.Condition]",
+              "datatype": "text",
+              "merged": true,
+              "title": "Condition"
+            },
+            "PanelName": "Condition",
+            "instanceid": "3037D-E3CA-0C",
+            "handlers": []
+          },
+          {
+            "jaql": {
+              "type": "measure",
+              "formula": "[64572-552]",
+              "context": {
+                "[64572-552]": {
+                  "table": "Commerce",
+                  "column": "Revenue",
+                  "dim": "[Commerce.Revenue]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total Revenue"
+                }
+              },
+              "title": "rev"
+            },
+            "PanelName": "rev",
+            "format": {
+              "mask": {
+                "type": "number",
+                "decimals": "auto",
+                "separated": true,
+                "isdefault": true
+              }
+            },
+            "instanceid": "4434A-77F7-8A",
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "type": "measure",
+              "formula": "[F1399-4F3]",
+              "context": {
+                "[F1399-4F3]": {
+                  "table": "Commerce",
+                  "column": "Cost",
+                  "dim": "[Commerce.Cost]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Total Cost"
+                }
+              },
+              "title": "cst"
+            },
+            "PanelName": "cst",
+            "format": {
+              "mask": {
+                "type": "number",
+                "decimals": "auto",
+                "separated": true,
+                "isdefault": true
+              }
+            },
+            "instanceid": "8AFBA-8400-06",
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Country ID",
+              "dim": "[Commerce.Country ID]",
+              "datatype": "numeric",
+              "merged": true,
+              "agg": "count",
+              "title": "country"
+            },
+            "PanelName": "country",
+            "format": {
+              "mask": {
+                "type": "number",
+                "decimals": "auto",
+                "separated": true,
+                "isdefault": true
+              }
+            },
+            "instanceid": "1349E-0B1E-DE",
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Visit ID",
+              "dim": "[Commerce.Visit ID]",
+              "datatype": "numeric",
+              "agg": "count",
+              "title": "visits"
+            },
+            "PanelName": "visits",
+            "format": {
+              "mask": {
+                "type": "number",
+                "decimals": "auto",
+                "separated": true,
+                "isdefault": true
+              }
+            },
+            "instanceid": "BF3ED-DB54-B2",
+            "handlers": [
+              {}
+            ]
+          },
+          {
+            "jaql": {
+              "table": "Commerce",
+              "column": "Condition",
+              "dim": "[Commerce.Condition]",
+              "datatype": "text",
+              "merged": true,
+              "title": "Condition",
+              "collapsed": false,
+              "datasource": {
+                "title": "Sample ECommerce",
+                "fullname": "LocalHost/Sample ECommerce",
+                "id": "aLOCALHOST_aSAMPLEIAAaECOMMERCE",
+                "address": "LocalHost",
+                "database": "aSampleIAAaECommerce",
+                "lastBuildTime": "2020-07-29T18:09:08.240Z"
+              },
+              "isDashboardFilter": true,
+              "filter": {
+                "explicit": false,
+                "multiSelection": true,
+                "all": true
+              }
+            },
+            "disabled": false,
+            "isCascading": false,
+            "instanceid": "CE906-86F0-7F",
+            "panel": "scope"
+          }
+        ],
+        "m2mThresholdFlag": 0
+      },
+      "realTimeRefreshing": false
+    }
+  ],
+  "hierarchies": []
+}
